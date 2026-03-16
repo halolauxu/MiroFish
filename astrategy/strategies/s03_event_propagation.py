@@ -33,7 +33,7 @@ from astrategy.data_collector.market_data import MarketDataCollector
 from astrategy.data_collector.news import NewsCollector
 from astrategy.graph.builder import GraphBuilder
 from astrategy.graph.topology import TopologyAnalyzer
-from astrategy.llm.client import LLMClient
+from astrategy.llm import create_llm_client
 from astrategy.strategies.base import BaseStrategy, StrategySignal
 
 logger = logging.getLogger(__name__)
@@ -109,10 +109,9 @@ class EventPropagationStrategy(BaseStrategy):
         self._llm_initialised = llm_client is not None
         self._graph_initialised = graph_builder is not None
 
-    def _ensure_llm(self) -> LLMClient:
+    def _ensure_llm(self):
         if self._llm is None:
-            self._llm = LLMClient()
-            self._llm.set_strategy(self.name)
+            self._llm = create_llm_client(strategy_name=self.name)
             self._llm_initialised = True
         return self._llm
 

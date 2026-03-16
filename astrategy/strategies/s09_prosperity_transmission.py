@@ -31,9 +31,15 @@ import akshare as ak
 import pandas as pd
 
 from astrategy.config import settings
+from astrategy.data_collector.em_fallback import (
+    call_with_timeout,
+    get_industry_constituents_safe,
+    lookup_stock_industry as _em_lookup_industry,
+    lookup_stock_name as _em_lookup_name,
+)
 from astrategy.data_collector.macro import MacroCollector
 from astrategy.data_collector.market_data import MarketDataCollector
-from astrategy.llm.client import LLMClient
+from astrategy.llm import create_llm_client
 from astrategy.strategies.base import BaseStrategy, StrategySignal
 
 logger = logging.getLogger(__name__)
@@ -144,8 +150,7 @@ class ProsperityTransmissionStrategy(BaseStrategy):
         super().__init__(signal_dir=signal_dir)
         self._macro = MacroCollector()
         self._market = MarketDataCollector()
-        self._llm = LLMClient()
-        self._llm.set_strategy(self.name)
+        self._llm = create_llm_client(strategy_name=self.name)
         # Path for persisting prosperity history across runs
         self._history_path = (
             self._signal_dir / self.name / "_prosperity_history.json"
@@ -619,24 +624,8 @@ class ProsperityTransmissionStrategy(BaseStrategy):
             # Try using the industry name directly
             board_name = industry
 
-        # Fetch constituents
-        constituents: List[Tuple[str, str]] = []
-        try:
-            df = ak.stock_board_industry_cons_em(symbol=board_name)
-            if df is not None and not df.empty:
-                code_col = "代码" if "代码" in df.columns else df.columns[0]
-                name_col = "名称" if "名称" in df.columns else df.columns[1]
-                constituents = list(
-                    zip(
-                        df[code_col].astype(str).tolist(),
-                        df[name_col].astype(str).tolist(),
-                    )
-                )
-        except Exception as exc:
-            logger.debug(
-                "Failed to get constituents for %s (board=%s): %s",
-                industry, board_name, exc,
-            )
+        # Fetch constituents (with timeout fallback)
+        constituents: List[Tuple[str, str]] = get_industry_constituents_safe(board_name)
 
         if not constituents:
             logger.info("No constituents found for industry: %s", industry)
@@ -980,28 +969,26 @@ def _estimate_months_since_turn(scores: List[float], direction: str) -> int:
 
 
 def _lookup_stock_name(stock_code: str) -> Optional[str]:
-    """Get the display name for a stock code."""
-    try:
-        df = ak.stock_zh_a_spot_em()
-        if df is not None and not df.empty:
-            match = df[df["代码"] == stock_code]
-            if not match.empty:
-                return str(match.iloc[0].get("名称", stock_code))
-    except Exception:
-        pass
-    return None
+    """Get the display name for a stock code (Sina-based, no East Money)."""
+    return _em_lookup_name(stock_code)
 
 
 def _lookup_stock_industry(stock_code: str) -> Optional[str]:
-    """Find which industry board a stock belongs to."""
+    """Find which industry board a stock belongs to (predefined mapping)."""
+    result = _em_lookup_industry(stock_code)
+    if result is not None:
+        return result
+    # Original East Money fallback with timeout (kept for edge cases)
     try:
-        df_boards = ak.stock_board_industry_name_em()
+        df_boards = call_with_timeout(ak.stock_board_industry_name_em, timeout=8)
         if df_boards is None or df_boards.empty:
             return None
         for _, row in df_boards.head(50).iterrows():
             board_name = str(row.get("板块名称", ""))
             try:
-                df_cons = ak.stock_board_industry_cons_em(symbol=board_name)
+                df_cons = call_with_timeout(
+                    ak.stock_board_industry_cons_em, symbol=board_name, timeout=5
+                )
                 if df_cons is not None and not df_cons.empty:
                     code_col = (
                         "代码" if "代码" in df_cons.columns else df_cons.columns[0]

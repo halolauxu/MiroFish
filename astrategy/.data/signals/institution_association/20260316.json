@@ -1,0 +1,804 @@
+[
+  {
+    "strategy_name": "institution_association",
+    "stock_code": "601318",
+    "stock_name": "中国平安",
+    "direction": "long",
+    "confidence": 0.6088,
+    "expected_return": 0.0522,
+    "holding_period_days": 15,
+    "reasoning": "中国平安(601318): peer group avg -1.53% vs self -11.97% (gap +10.44%). Institutions: 1008 holders, sentiment=stable. Catch-up opportunity: lagging peers by 10.44% with institutional support.",
+    "metadata": {
+      "peer_stocks": [
+        "600519",
+        "600036",
+        "000333",
+        "601668",
+        "601166"
+      ],
+      "peer_avg_return": -0.015258,
+      "self_return": -0.119651,
+      "catch_up_gap": 0.104393,
+      "institution_count": 1008,
+      "net_position_change": "stable",
+      "position_detail": {
+        "new": 0,
+        "exit": 0,
+        "increase": 0,
+        "decrease": 0
+      },
+      "peer_overlap_top5": [
+        {
+          "stock_code": "600519",
+          "overlap": 428,
+          "overlap_ratio": 0.4246
+        },
+        {
+          "stock_code": "600036",
+          "overlap": 379,
+          "overlap_ratio": 0.376
+        },
+        {
+          "stock_code": "000333",
+          "overlap": 377,
+          "overlap_ratio": 0.374
+        },
+        {
+          "stock_code": "601668",
+          "overlap": 267,
+          "overlap_ratio": 0.2649
+        },
+        {
+          "stock_code": "601166",
+          "overlap": 264,
+          "overlap_ratio": 0.2619
+        }
+      ]
+    },
+    "timestamp": "2026-03-16T20:51:12.525802+08:00",
+    "expires_at": "2026-03-31T20:51:12.525802+08:00"
+  },
+  {
+    "strategy_name": "institution_association",
+    "stock_code": "600030",
+    "stock_name": "中信证券",
+    "direction": "long",
+    "confidence": 0.5519,
+    "expected_return": 0.038,
+    "holding_period_days": 15,
+    "reasoning": "中信证券(600030): peer group avg -1.53% vs self -9.12% (gap +7.59%). Institutions: 732 holders, sentiment=stable. Catch-up opportunity: lagging peers by 7.59% with institutional support.",
+    "metadata": {
+      "peer_stocks": [
+        "601318",
+        "600036",
+        "600519",
+        "601166",
+        "601888"
+      ],
+      "peer_avg_return": -0.015305,
+      "self_return": -0.091233,
+      "catch_up_gap": 0.075928,
+      "institution_count": 732,
+      "net_position_change": "stable",
+      "position_detail": {
+        "new": 0,
+        "exit": 0,
+        "increase": 0,
+        "decrease": 0
+      },
+      "peer_overlap_top5": [
+        {
+          "stock_code": "601318",
+          "overlap": 229,
+          "overlap_ratio": 0.3128
+        },
+        {
+          "stock_code": "600036",
+          "overlap": 184,
+          "overlap_ratio": 0.2514
+        },
+        {
+          "stock_code": "600519",
+          "overlap": 154,
+          "overlap_ratio": 0.2104
+        },
+        {
+          "stock_code": "601166",
+          "overlap": 148,
+          "overlap_ratio": 0.2022
+        },
+        {
+          "stock_code": "601888",
+          "overlap": 136,
+          "overlap_ratio": 0.1858
+        }
+      ]
+    },
+    "timestamp": "2026-03-16T20:51:14.802456+08:00",
+    "expires_at": "2026-03-31T20:51:14.802456+08:00"
+  },
+  {
+    "strategy_name": "institution_association",
+    "stock_code": "000568",
+    "stock_name": "泸州老窖",
+    "direction": "long",
+    "confidence": 0.6026,
+    "expected_return": 0.0507,
+    "holding_period_days": 15,
+    "reasoning": "泸州老窖(000568): peer group avg -0.32% vs self -10.45% (gap +10.13%). Institutions: 723 holders, sentiment=stable. Catch-up opportunity: lagging peers by 10.13% with institutional support.",
+    "metadata": {
+      "peer_stocks": [
+        "600519",
+        "000858",
+        "000333",
+        "300750",
+        "601318"
+      ],
+      "peer_avg_return": -0.003155,
+      "self_return": -0.10446,
+      "catch_up_gap": 0.101305,
+      "institution_count": 723,
+      "net_position_change": "stable",
+      "position_detail": {
+        "new": 0,
+        "exit": 0,
+        "increase": 0,
+        "decrease": 0
+      },
+      "peer_overlap_top5": [
+        {
+          "stock_code": "600519",
+          "overlap": 341,
+          "overlap_ratio": 0.4716
+        },
+        {
+          "stock_code": "000858",
+          "overlap": 286,
+          "overlap_ratio": 0.3956
+        },
+        {
+          "stock_code": "000333",
+          "overlap": 246,
+          "overlap_ratio": 0.3402
+        },
+        {
+          "stock_code": "300750",
+          "overlap": 170,
+          "overlap_ratio": 0.2351
+        },
+        {
+          "stock_code": "601318",
+          "overlap": 161,
+          "overlap_ratio": 0.2227
+        }
+      ]
+    },
+    "timestamp": "2026-03-16T20:51:16.227020+08:00",
+    "expires_at": "2026-03-31T20:51:16.227020+08:00"
+  },
+  {
+    "strategy_name": "institution_association",
+    "stock_code": "300750",
+    "stock_name": "宁德时代",
+    "direction": "avoid",
+    "confidence": 0.6748,
+    "expected_return": 0.0687,
+    "holding_period_days": 15,
+    "reasoning": "宁德时代(300750): peer group avg -3.01% vs self 10.73% (gap -13.74%). Institutions: 1000 holders, sentiment=stable. Relative weakness: outperformed peers by 13.74% while institutions reducing.",
+    "metadata": {
+      "peer_stocks": [
+        "601318",
+        "000333",
+        "600519",
+        "002594",
+        "300760"
+      ],
+      "peer_avg_return": -0.030089,
+      "self_return": 0.107315,
+      "catch_up_gap": -0.137404,
+      "institution_count": 1000,
+      "net_position_change": "stable",
+      "position_detail": {
+        "new": 0,
+        "exit": 0,
+        "increase": 0,
+        "decrease": 0
+      },
+      "peer_overlap_top5": [
+        {
+          "stock_code": "601318",
+          "overlap": 262,
+          "overlap_ratio": 0.262
+        },
+        {
+          "stock_code": "000333",
+          "overlap": 247,
+          "overlap_ratio": 0.247
+        },
+        {
+          "stock_code": "600519",
+          "overlap": 241,
+          "overlap_ratio": 0.241
+        },
+        {
+          "stock_code": "002594",
+          "overlap": 233,
+          "overlap_ratio": 0.233
+        },
+        {
+          "stock_code": "300760",
+          "overlap": 182,
+          "overlap_ratio": 0.182
+        }
+      ]
+    },
+    "timestamp": "2026-03-16T20:51:16.234124+08:00",
+    "expires_at": "2026-03-31T20:51:16.234124+08:00"
+  },
+  {
+    "strategy_name": "institution_association",
+    "stock_code": "002594",
+    "stock_name": "比亚迪",
+    "direction": "avoid",
+    "confidence": 0.7715,
+    "expected_return": 0.0929,
+    "holding_period_days": 15,
+    "reasoning": "比亚迪(002594): peer group avg -2.41% vs self 16.17% (gap -18.58%). Institutions: 698 holders, sentiment=stable. Relative weakness: outperformed peers by 18.58% while institutions reducing.",
+    "metadata": {
+      "peer_stocks": [
+        "300750",
+        "000333",
+        "600519",
+        "000002",
+        "000858"
+      ],
+      "peer_avg_return": -0.0241,
+      "self_return": 0.16167,
+      "catch_up_gap": -0.18577,
+      "institution_count": 698,
+      "net_position_change": "stable",
+      "position_detail": {
+        "new": 0,
+        "exit": 0,
+        "increase": 0,
+        "decrease": 0
+      },
+      "peer_overlap_top5": [
+        {
+          "stock_code": "300750",
+          "overlap": 233,
+          "overlap_ratio": 0.3338
+        },
+        {
+          "stock_code": "000333",
+          "overlap": 183,
+          "overlap_ratio": 0.2622
+        },
+        {
+          "stock_code": "600519",
+          "overlap": 169,
+          "overlap_ratio": 0.2421
+        },
+        {
+          "stock_code": "000002",
+          "overlap": 163,
+          "overlap_ratio": 0.2335
+        },
+        {
+          "stock_code": "000858",
+          "overlap": 162,
+          "overlap_ratio": 0.2321
+        }
+      ]
+    },
+    "timestamp": "2026-03-16T20:51:16.236614+08:00",
+    "expires_at": "2026-03-31T20:51:16.236614+08:00"
+  },
+  {
+    "strategy_name": "institution_association",
+    "stock_code": "002230",
+    "stock_name": "科大讯飞",
+    "direction": "long",
+    "confidence": 0.5164,
+    "expected_return": 0.0291,
+    "holding_period_days": 15,
+    "reasoning": "科大讯飞(002230): peer group avg -1.77% vs self -7.59% (gap +5.82%). Institutions: 710 holders, sentiment=stable. Catch-up opportunity: lagging peers by 5.82% with institutional support.",
+    "metadata": {
+      "peer_stocks": [
+        "600519",
+        "601318",
+        "000333",
+        "601888",
+        "600036"
+      ],
+      "peer_avg_return": -0.017691,
+      "self_return": -0.075873,
+      "catch_up_gap": 0.058182,
+      "institution_count": 710,
+      "net_position_change": "stable",
+      "position_detail": {
+        "new": 0,
+        "exit": 0,
+        "increase": 0,
+        "decrease": 0
+      },
+      "peer_overlap_top5": [
+        {
+          "stock_code": "600519",
+          "overlap": 249,
+          "overlap_ratio": 0.3507
+        },
+        {
+          "stock_code": "601318",
+          "overlap": 235,
+          "overlap_ratio": 0.331
+        },
+        {
+          "stock_code": "000333",
+          "overlap": 234,
+          "overlap_ratio": 0.3296
+        },
+        {
+          "stock_code": "601888",
+          "overlap": 228,
+          "overlap_ratio": 0.3211
+        },
+        {
+          "stock_code": "600036",
+          "overlap": 220,
+          "overlap_ratio": 0.3099
+        }
+      ]
+    },
+    "timestamp": "2026-03-16T20:51:16.239238+08:00",
+    "expires_at": "2026-03-31T20:51:16.239238+08:00"
+  },
+  {
+    "strategy_name": "institution_association",
+    "stock_code": "603259",
+    "stock_name": "药明康德",
+    "direction": "long",
+    "confidence": 0.5072,
+    "expected_return": 0.0268,
+    "holding_period_days": 15,
+    "reasoning": "药明康德(603259): peer group avg -2.34% vs self -7.70% (gap +5.36%). Institutions: 822 holders, sentiment=stable. Catch-up opportunity: lagging peers by 5.36% with institutional support.",
+    "metadata": {
+      "peer_stocks": [
+        "600276",
+        "300760",
+        "600519",
+        "300750",
+        "601318"
+      ],
+      "peer_avg_return": -0.023376,
+      "self_return": -0.077001,
+      "catch_up_gap": 0.053625,
+      "institution_count": 822,
+      "net_position_change": "stable",
+      "position_detail": {
+        "new": 0,
+        "exit": 0,
+        "increase": 0,
+        "decrease": 0
+      },
+      "peer_overlap_top5": [
+        {
+          "stock_code": "600276",
+          "overlap": 317,
+          "overlap_ratio": 0.3856
+        },
+        {
+          "stock_code": "300760",
+          "overlap": 140,
+          "overlap_ratio": 0.1703
+        },
+        {
+          "stock_code": "600519",
+          "overlap": 135,
+          "overlap_ratio": 0.1642
+        },
+        {
+          "stock_code": "300750",
+          "overlap": 130,
+          "overlap_ratio": 0.1582
+        },
+        {
+          "stock_code": "601318",
+          "overlap": 129,
+          "overlap_ratio": 0.1569
+        }
+      ]
+    },
+    "timestamp": "2026-03-16T20:51:16.246202+08:00",
+    "expires_at": "2026-03-31T20:51:16.246202+08:00"
+  },
+  {
+    "strategy_name": "institution_association",
+    "stock_code": "600900",
+    "stock_name": "长江电力",
+    "direction": "avoid",
+    "confidence": 0.5328,
+    "expected_return": 0.0332,
+    "holding_period_days": 15,
+    "reasoning": "长江电力(600900): peer group avg -2.41% vs self 4.23% (gap -6.64%). Institutions: 731 holders, sentiment=stable. Relative weakness: outperformed peers by 6.64% while institutions reducing.",
+    "metadata": {
+      "peer_stocks": [
+        "600036",
+        "601888",
+        "601166",
+        "601012",
+        "601390"
+      ],
+      "peer_avg_return": -0.02411,
+      "self_return": 0.042286,
+      "catch_up_gap": -0.066395,
+      "institution_count": 731,
+      "net_position_change": "stable",
+      "position_detail": {
+        "new": 0,
+        "exit": 0,
+        "increase": 0,
+        "decrease": 0
+      },
+      "peer_overlap_top5": [
+        {
+          "stock_code": "600036",
+          "overlap": 328,
+          "overlap_ratio": 0.4487
+        },
+        {
+          "stock_code": "601888",
+          "overlap": 296,
+          "overlap_ratio": 0.4049
+        },
+        {
+          "stock_code": "601166",
+          "overlap": 278,
+          "overlap_ratio": 0.3803
+        },
+        {
+          "stock_code": "601012",
+          "overlap": 264,
+          "overlap_ratio": 0.3611
+        },
+        {
+          "stock_code": "601390",
+          "overlap": 256,
+          "overlap_ratio": 0.3502
+        }
+      ]
+    },
+    "timestamp": "2026-03-16T20:51:16.251064+08:00",
+    "expires_at": "2026-03-31T20:51:16.251064+08:00"
+  },
+  {
+    "strategy_name": "institution_association",
+    "stock_code": "601888",
+    "stock_name": "中国中免",
+    "direction": "long",
+    "confidence": 0.8,
+    "expected_return": 0.1082,
+    "holding_period_days": 15,
+    "reasoning": "中国中免(601888): peer group avg -0.95% vs self -22.59% (gap +21.63%). Institutions: 872 holders, sentiment=stable. Catch-up opportunity: lagging peers by 21.63% with institutional support.",
+    "metadata": {
+      "peer_stocks": [
+        "601390",
+        "000002",
+        "601012",
+        "600036",
+        "600519"
+      ],
+      "peer_avg_return": -0.009527,
+      "self_return": -0.22585,
+      "catch_up_gap": 0.216322,
+      "institution_count": 872,
+      "net_position_change": "stable",
+      "position_detail": {
+        "new": 0,
+        "exit": 0,
+        "increase": 0,
+        "decrease": 0
+      },
+      "peer_overlap_top5": [
+        {
+          "stock_code": "601390",
+          "overlap": 410,
+          "overlap_ratio": 0.4702
+        },
+        {
+          "stock_code": "000002",
+          "overlap": 353,
+          "overlap_ratio": 0.4048
+        },
+        {
+          "stock_code": "601012",
+          "overlap": 352,
+          "overlap_ratio": 0.4037
+        },
+        {
+          "stock_code": "600036",
+          "overlap": 351,
+          "overlap_ratio": 0.4025
+        },
+        {
+          "stock_code": "600519",
+          "overlap": 340,
+          "overlap_ratio": 0.3899
+        }
+      ]
+    },
+    "timestamp": "2026-03-16T20:51:16.257732+08:00",
+    "expires_at": "2026-03-31T20:51:16.257732+08:00"
+  },
+  {
+    "strategy_name": "institution_association",
+    "stock_code": "002714",
+    "stock_name": "牧原股份",
+    "direction": "avoid",
+    "confidence": 0.5852,
+    "expected_return": 0.0463,
+    "holding_period_days": 15,
+    "reasoning": "牧原股份(002714): peer group avg -2.63% vs self 6.62% (gap -9.26%). Institutions: 712 holders, sentiment=stable. Relative weakness: outperformed peers by 9.26% while institutions reducing.",
+    "metadata": {
+      "peer_stocks": [
+        "600519",
+        "600887",
+        "000651",
+        "000568",
+        "000858"
+      ],
+      "peer_avg_return": -0.026346,
+      "self_return": 0.066238,
+      "catch_up_gap": -0.092584,
+      "institution_count": 712,
+      "net_position_change": "stable",
+      "position_detail": {
+        "new": 0,
+        "exit": 0,
+        "increase": 0,
+        "decrease": 0
+      },
+      "peer_overlap_top5": [
+        {
+          "stock_code": "600519",
+          "overlap": 102,
+          "overlap_ratio": 0.1433
+        },
+        {
+          "stock_code": "600887",
+          "overlap": 100,
+          "overlap_ratio": 0.1404
+        },
+        {
+          "stock_code": "000651",
+          "overlap": 90,
+          "overlap_ratio": 0.1264
+        },
+        {
+          "stock_code": "000568",
+          "overlap": 89,
+          "overlap_ratio": 0.125
+        },
+        {
+          "stock_code": "000858",
+          "overlap": 87,
+          "overlap_ratio": 0.1222
+        }
+      ]
+    },
+    "timestamp": "2026-03-16T20:51:16.259696+08:00",
+    "expires_at": "2026-03-31T20:51:16.259696+08:00"
+  },
+  {
+    "strategy_name": "institution_association",
+    "stock_code": "600309",
+    "stock_name": "万华化学",
+    "direction": "long",
+    "confidence": 0.5556,
+    "expected_return": 0.0389,
+    "holding_period_days": 15,
+    "reasoning": "万华化学(600309): peer group avg -0.94% vs self -8.72% (gap +7.78%). Institutions: 755 holders, sentiment=stable. Catch-up opportunity: lagging peers by 7.78% with institutional support.",
+    "metadata": {
+      "peer_stocks": [
+        "601318",
+        "600519",
+        "300760",
+        "600036",
+        "600887"
+      ],
+      "peer_avg_return": -0.009429,
+      "self_return": -0.087221,
+      "catch_up_gap": 0.077793,
+      "institution_count": 755,
+      "net_position_change": "stable",
+      "position_detail": {
+        "new": 0,
+        "exit": 0,
+        "increase": 0,
+        "decrease": 0
+      },
+      "peer_overlap_top5": [
+        {
+          "stock_code": "601318",
+          "overlap": 160,
+          "overlap_ratio": 0.2119
+        },
+        {
+          "stock_code": "600519",
+          "overlap": 119,
+          "overlap_ratio": 0.1576
+        },
+        {
+          "stock_code": "300760",
+          "overlap": 109,
+          "overlap_ratio": 0.1444
+        },
+        {
+          "stock_code": "600036",
+          "overlap": 108,
+          "overlap_ratio": 0.143
+        },
+        {
+          "stock_code": "600887",
+          "overlap": 108,
+          "overlap_ratio": 0.143
+        }
+      ]
+    },
+    "timestamp": "2026-03-16T20:51:16.261743+08:00",
+    "expires_at": "2026-03-31T20:51:16.261743+08:00"
+  },
+  {
+    "strategy_name": "institution_association",
+    "stock_code": "601088",
+    "stock_name": "中国神华",
+    "direction": "avoid",
+    "confidence": 0.7445,
+    "expected_return": 0.0861,
+    "holding_period_days": 15,
+    "reasoning": "中国神华(601088): peer group avg -2.35% vs self 14.88% (gap -17.23%). Institutions: 736 holders, sentiment=stable. Relative weakness: outperformed peers by 17.23% while institutions reducing.",
+    "metadata": {
+      "peer_stocks": [
+        "601668",
+        "601318",
+        "601390",
+        "600519",
+        "600036"
+      ],
+      "peer_avg_return": -0.02349,
+      "self_return": 0.14878,
+      "catch_up_gap": -0.17227,
+      "institution_count": 736,
+      "net_position_change": "stable",
+      "position_detail": {
+        "new": 0,
+        "exit": 0,
+        "increase": 0,
+        "decrease": 0
+      },
+      "peer_overlap_top5": [
+        {
+          "stock_code": "601668",
+          "overlap": 282,
+          "overlap_ratio": 0.3832
+        },
+        {
+          "stock_code": "601318",
+          "overlap": 181,
+          "overlap_ratio": 0.2459
+        },
+        {
+          "stock_code": "601390",
+          "overlap": 177,
+          "overlap_ratio": 0.2405
+        },
+        {
+          "stock_code": "600519",
+          "overlap": 157,
+          "overlap_ratio": 0.2133
+        },
+        {
+          "stock_code": "600036",
+          "overlap": 156,
+          "overlap_ratio": 0.212
+        }
+      ]
+    },
+    "timestamp": "2026-03-16T20:51:16.263723+08:00",
+    "expires_at": "2026-03-31T20:51:16.263723+08:00"
+  },
+  {
+    "strategy_name": "institution_association",
+    "stock_code": "601390",
+    "stock_name": "中国中铁",
+    "direction": "avoid",
+    "confidence": 0.5238,
+    "expected_return": 0.031,
+    "holding_period_days": 15,
+    "reasoning": "中国中铁(601390): peer group avg -1.84% vs self 4.35% (gap -6.19%). Institutions: 870 holders, sentiment=stable. Relative weakness: outperformed peers by 6.19% while institutions reducing.",
+    "metadata": {
+      "peer_stocks": [
+        "601888",
+        "000002",
+        "600036",
+        "601166",
+        "601668"
+      ],
+      "peer_avg_return": -0.018426,
+      "self_return": 0.043478,
+      "catch_up_gap": -0.061904,
+      "institution_count": 870,
+      "net_position_change": "stable",
+      "position_detail": {
+        "new": 0,
+        "exit": 0,
+        "increase": 0,
+        "decrease": 0
+      },
+      "peer_overlap_top5": [
+        {
+          "stock_code": "601888",
+          "overlap": 410,
+          "overlap_ratio": 0.4713
+        },
+        {
+          "stock_code": "000002",
+          "overlap": 369,
+          "overlap_ratio": 0.4241
+        },
+        {
+          "stock_code": "600036",
+          "overlap": 334,
+          "overlap_ratio": 0.3839
+        },
+        {
+          "stock_code": "601166",
+          "overlap": 305,
+          "overlap_ratio": 0.3506
+        },
+        {
+          "stock_code": "601668",
+          "overlap": 301,
+          "overlap_ratio": 0.346
+        }
+      ]
+    },
+    "timestamp": "2026-03-16T20:51:16.270036+08:00",
+    "expires_at": "2026-03-31T20:51:16.270036+08:00"
+  },
+  {
+    "strategy_name": "institution_association",
+    "stock_code": "601728",
+    "stock_name": "中国电信",
+    "direction": "avoid",
+    "confidence": 0.5393,
+    "expected_return": 0.0348,
+    "holding_period_days": 15,
+    "reasoning": "中国电信(601728): peer group avg -0.89% vs self 6.08% (gap -6.96%). Institutions: 10 holders, sentiment=stable. Relative weakness: outperformed peers by 6.96% while institutions reducing.",
+    "metadata": {
+      "peer_stocks": [
+        "600887"
+      ],
+      "peer_avg_return": -0.008863,
+      "self_return": 0.060764,
+      "catch_up_gap": -0.069627,
+      "institution_count": 10,
+      "net_position_change": "stable",
+      "position_detail": {
+        "new": 0,
+        "exit": 0,
+        "increase": 0,
+        "decrease": 0
+      },
+      "peer_overlap_top5": [
+        {
+          "stock_code": "600887",
+          "overlap": 2,
+          "overlap_ratio": 0.2
+        }
+      ]
+    },
+    "timestamp": "2026-03-16T20:51:19.477064+08:00",
+    "expires_at": "2026-03-31T20:51:19.477064+08:00"
+  }
+]

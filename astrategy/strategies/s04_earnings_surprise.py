@@ -30,7 +30,7 @@ from astrategy.config import settings
 from astrategy.data_collector.fundamental import FundamentalCollector
 from astrategy.data_collector.market_data import MarketDataCollector
 from astrategy.data_collector.research import ResearchCollector
-from astrategy.llm.client import LLMClient
+from astrategy.llm import create_llm_client
 from astrategy.strategies.base import BaseStrategy, StrategySignal
 
 logger = logging.getLogger("astrategy.strategies.s04_earnings_surprise")
@@ -122,8 +122,7 @@ class EarningsSurpriseStrategy(BaseStrategy):
         self._fundamental = FundamentalCollector()
         self._market = MarketDataCollector()
         self._research = ResearchCollector()
-        self._llm = LLMClient()
-        self._llm.set_strategy(self.name)
+        self._llm = create_llm_client(strategy_name=self.name)
 
     # ── BaseStrategy interface ────────────────────────────────────────
 

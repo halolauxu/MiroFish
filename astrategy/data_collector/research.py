@@ -34,7 +34,7 @@ def _set_cache(key: str, value: object) -> None:
     _cache[key] = (time.time(), value)
 
 
-def _retry(fn, *args, retries: int = 3, delay: float = 1.0, **kwargs):
+def _retry(fn, *args, retries: int = 2, delay: float = 0.5, **kwargs):
     last_exc: Optional[Exception] = None
     for attempt in range(1, retries + 1):
         try:
@@ -67,8 +67,8 @@ class ResearchCollector:
     def get_analyst_ratings(self, code: str) -> list[dict]:
         """Return analyst ratings / recommendations for a stock.
 
-        Uses ``ak.stock_profit_forecast_em`` (东财-盈利预测) which returns
-        analyst-level forecasts including buy/hold/sell ratings.
+        Uses ``ak.stock_rank_forecast_cninfo`` (巨潮-机构预测) to
+        fetch recent analyst ratings. Falls back to returning empty list.
 
         Parameters
         ----------
@@ -78,32 +78,36 @@ class ResearchCollector:
         Returns
         -------
         list[dict]
-            Each dict may include: 研究机构, 分析师, 评级, 目标价,
-            盈利预测, 报告日期, etc.
+            Each dict may include: 证券代码, 证券简称, 研究机构简称,
+            投资评级, 评级变化, 前一次投资评级, 目标价格-下限/上限, etc.
         """
         cache_key = f"analyst_ratings_{code}"
         cached = _get_cache(cache_key)
         if cached is not None:
             return cached  # type: ignore[return-value]
 
-        # Strategy 1: stock_profit_forecast_em
-        try:
-            df = _retry(ak.stock_profit_forecast_em, symbol=code)
-            result = _df_to_dicts(df)
-            _set_cache(cache_key, result)
-            return result
-        except Exception as exc:
-            logger.warning("stock_profit_forecast_em(%s) failed: %s", code, exc)
+        # Fetch recent analyst forecasts from cninfo (巨潮)
+        # Need to scan recent dates to find ratings for this stock
+        from datetime import datetime, timedelta
+        results: list[dict] = []
+        now = datetime.now()
+        for days_back in range(0, 30, 5):
+            date_str = (now - timedelta(days=days_back)).strftime("%Y%m%d")
+            try:
+                df = _retry(ak.stock_rank_forecast_cninfo, date=date_str)
+                if df is not None and not df.empty and "证券代码" in df.columns:
+                    matched = df[df["证券代码"].astype(str) == code]
+                    if not matched.empty:
+                        results.extend(_df_to_dicts(matched))
+            except Exception:
+                continue
 
-        # Strategy 2: stock_comment_em – analyst consensus
-        try:
-            df = _retry(ak.stock_comment_em, symbol=code)
-            result = _df_to_dicts(df)
-            _set_cache(cache_key, result)
-            return result
-        except Exception as exc:
-            logger.error("get_analyst_ratings(%s) all strategies failed: %s", code, exc)
-            return []
+        if results:
+            _set_cache(cache_key, results)
+            return results
+
+        logger.info("get_analyst_ratings(%s): no ratings found in recent 30 days", code)
+        return []
 
     # ------------------------------------------------------------------
     # Consensus forecast (一致预期)
@@ -111,10 +115,8 @@ class ResearchCollector:
     def get_consensus_forecast(self, code: str) -> dict:
         """Return consensus earnings forecast for a stock.
 
-        Aggregates analyst forecasts into a single summary dict with
-        consensus EPS, revenue, net profit, and PE estimates.
-
-        Uses ``ak.stock_profit_forecast_em`` and computes averages.
+        Uses ``ak.stock_profit_forecast_ths`` (同花顺-盈利预测) to get
+        consensus EPS forecasts by year.
 
         Parameters
         ----------
@@ -124,8 +126,7 @@ class ResearchCollector:
         Returns
         -------
         dict
-            Keys may include: 股票代码, 股票名称, 预测机构数,
-            预测年度, 平均预测EPS, 平均预测净利润, etc.
+            Keys: 股票代码, 预测机构数, 平均EPS (per year), etc.
             Returns empty dict on failure.
         """
         cache_key = f"consensus_forecast_{code}"
@@ -134,36 +135,30 @@ class ResearchCollector:
             return cached  # type: ignore[return-value]
 
         try:
-            df = _retry(ak.stock_profit_forecast_em, symbol=code)
+            df = _retry(
+                ak.stock_profit_forecast_ths,
+                symbol=code,
+                indicator="预测年报每股收益",
+            )
             if df is None or df.empty:
                 return {}
 
-            result: dict = {
-                "股票代码": code,
-                "预测机构数": len(df),
-            }
+            result: dict = {"股票代码": code}
 
-            # Try to compute averages for numeric columns
-            numeric_cols = df.select_dtypes(include=["number"]).columns
-            for col in numeric_cols:
-                series = df[col].dropna()
-                if not series.empty:
-                    result[f"平均{col}"] = round(float(series.mean()), 4)
-                    result[f"最高{col}"] = round(float(series.max()), 4)
-                    result[f"最低{col}"] = round(float(series.min()), 4)
+            # Columns: 年度, 预测机构数, 最小值, 均值, 最大值, 行业平均数
+            if "预测机构数" in df.columns:
+                result["预测机构数"] = int(df["预测机构数"].iloc[0])
 
-            # Add report date range
-            date_cols = [c for c in df.columns if "日期" in c or "date" in c.lower()]
-            if date_cols:
-                dates = df[date_cols[0]].dropna()
-                if not dates.empty:
-                    result["最早预测日期"] = str(dates.min())
-                    result["最新预测日期"] = str(dates.max())
+            for _, row in df.iterrows():
+                year = str(row.get("年度", ""))
+                result[f"EPS均值_{year}"] = float(row.get("均值", 0))
+                result[f"EPS最小_{year}"] = float(row.get("最小值", 0))
+                result[f"EPS最大_{year}"] = float(row.get("最大值", 0))
 
             _set_cache(cache_key, result)
             return result
         except Exception as exc:
-            logger.error("get_consensus_forecast(%s) failed: %s", code, exc)
+            logger.info("get_consensus_forecast(%s) failed: %s", code, exc)
             return {}
 
     # ------------------------------------------------------------------
@@ -210,19 +205,8 @@ class ResearchCollector:
         except Exception as exc:
             logger.warning("Industry board lookup for '%s' failed: %s", industry, exc)
 
-        # Part 2: Top analysts covering this industry
-        try:
-            # stock_analyst_rank_em returns a ranking of analysts
-            df = _retry(ak.stock_analyst_rank_em, year="2024")
-            if df is not None and not df.empty:
-                # The analyst rank table doesn't filter by industry directly,
-                # so we include top analysts as general context.
-                top_analysts = _df_to_dicts(df, limit=10)
-                for item in top_analysts:
-                    item["_source"] = "analyst_rank"
-                results.extend(top_analysts)
-        except Exception as exc:
-            logger.warning("Analyst rank lookup failed: %s", exc)
+        # Part 2: Skip analyst rank (often blocked by proxy)
+        # Could use ak.stock_analyst_rank_em but it's unreliable
 
         # Part 3: Get constituents for the industry board
         try:

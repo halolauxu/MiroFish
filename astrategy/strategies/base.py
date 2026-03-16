@@ -34,7 +34,7 @@ class StrategySignal:
     strategy_name: str
     stock_code: str
     stock_name: str
-    direction: str  # "long", "short", or "neutral"
+    direction: str  # "long", "avoid", or "neutral"
     confidence: float  # 0.0 – 1.0
     expected_return: float  # e.g. 0.05 = +5 %
     holding_period_days: int
@@ -46,10 +46,13 @@ class StrategySignal:
     def __post_init__(self) -> None:
         # Clamp confidence
         self.confidence = max(0.0, min(1.0, self.confidence))
-        # Validate direction
-        if self.direction not in ("long", "short", "neutral"):
+        # Validate direction — A股无做空，用 avoid(回避) 替代 short
+        # 兼容旧代码：自动将 "short" 映射为 "avoid"
+        if self.direction == "short":
+            self.direction = "avoid"
+        if self.direction not in ("long", "avoid", "neutral"):
             raise ValueError(
-                f"direction must be 'long', 'short', or 'neutral', got '{self.direction}'"
+                f"direction must be 'long', 'avoid', or 'neutral', got '{self.direction}'"
             )
         # Auto-compute expiry if not provided
         if self.expires_at is None:
@@ -62,8 +65,8 @@ class StrategySignal:
 
     @property
     def signed_score(self) -> float:
-        """Directional score: positive for long, negative for short, zero for neutral."""
-        multiplier = {"long": 1.0, "short": -1.0, "neutral": 0.0}
+        """Directional score: positive for long, negative for avoid, zero for neutral."""
+        multiplier = {"long": 1.0, "avoid": -1.0, "neutral": 0.0}
         return self.confidence * multiplier[self.direction]
 
     # ── serialisation helpers ──────────────────────────────────────────
@@ -246,7 +249,7 @@ class SignalAggregator:
         if composite_score > 0.05:
             direction = "long"
         elif composite_score < -0.05:
-            direction = "short"
+            direction = "avoid"
         else:
             direction = "neutral"
 

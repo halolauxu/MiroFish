@@ -34,7 +34,7 @@ def _set_cache(key: str, value: object) -> None:
     _cache[key] = (time.time(), value)
 
 
-def _retry(fn, *args, retries: int = 3, delay: float = 1.0, **kwargs):
+def _retry(fn, *args, retries: int = 2, delay: float = 0.5, **kwargs):
     last_exc: Optional[Exception] = None
     for attempt in range(1, retries + 1):
         try:

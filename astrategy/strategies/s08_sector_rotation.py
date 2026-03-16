@@ -19,9 +19,16 @@ import akshare as ak
 import pandas as pd
 
 from astrategy.config import settings
+from astrategy.data_collector.em_fallback import (
+    call_with_timeout,
+    get_industry_constituents_safe,
+    lookup_stock_industry,
+    lookup_stock_name,
+    scan_industry_returns_sina,
+)
 from astrategy.data_collector.macro import MacroCollector
 from astrategy.data_collector.market_data import MarketDataCollector
-from astrategy.llm.client import LLMClient
+from astrategy.llm import create_llm_client
 from astrategy.strategies.base import BaseStrategy, StrategySignal
 
 logger = logging.getLogger(__name__)
@@ -52,8 +59,7 @@ class SectorRotationStrategy(BaseStrategy):
         super().__init__(signal_dir=signal_dir)
         self._market = MarketDataCollector()
         self._macro = MacroCollector()
-        self._llm = LLMClient()
-        self._llm.set_strategy(self.name)
+        self._llm = create_llm_client(strategy_name=self.name)
 
     # ── identity ──────────────────────────────────────────────────────
 
@@ -68,95 +74,15 @@ class SectorRotationStrategy(BaseStrategy):
     def scan_industry_performance(self, lookback_days: int = 20) -> pd.DataFrame:
         """Fetch all industry board data and compute momentum metrics.
 
+        Uses Sina-based representative stocks per industry to avoid hanging
+        on blocked East Money APIs.
+
         Returns a DataFrame with columns:
             板块名称, 板块代码, 最新价, 涨跌幅,
             return_5d, return_10d, return_20d,
             relative_strength, volume_change_pct, momentum_rank
         """
-        # Get today's industry snapshot (includes intraday change %)
-        df_boards = self._market.get_industry_index()
-        if df_boards is None or df_boards.empty:
-            logger.warning("No industry index data returned.")
-            return pd.DataFrame()
-
-        end_date = datetime.now(tz=_CST).strftime("%Y%m%d")
-        start_date = (datetime.now(tz=_CST) - timedelta(days=lookback_days + 15)).strftime(
-            "%Y%m%d"
-        )
-
-        records: list[dict] = []
-
-        for _, row in df_boards.iterrows():
-            board_name = str(row.get("板块名称", ""))
-            board_code = str(row.get("板块代码", ""))
-            latest_price = row.get("最新价", None)
-            intraday_pct = row.get("涨跌幅", 0.0)
-
-            # Fetch historical K-line for the industry board
-            try:
-                df_hist = ak.stock_board_industry_hist_em(
-                    symbol=board_name,
-                    period="日k",
-                    start_date=start_date,
-                    end_date=end_date,
-                    adjust="",
-                )
-            except Exception as exc:
-                logger.debug("History for %s failed: %s", board_name, exc)
-                df_hist = pd.DataFrame()
-
-            return_5d = return_10d = return_20d = 0.0
-            volume_change_pct = 0.0
-
-            if df_hist is not None and len(df_hist) >= 2:
-                closes = df_hist["收盘"].astype(float).tolist()
-                volumes = df_hist["成交量"].astype(float).tolist() if "成交量" in df_hist.columns else []
-
-                cur_close = closes[-1]
-
-                if len(closes) >= 6:
-                    return_5d = (cur_close / closes[-6] - 1) * 100
-                if len(closes) >= 11:
-                    return_10d = (cur_close / closes[-11] - 1) * 100
-                if len(closes) >= 21:
-                    return_20d = (cur_close / closes[-21] - 1) * 100
-
-                # Volume change: recent 5-day avg vs prior 5-day avg
-                if len(volumes) >= 10:
-                    recent_vol = sum(volumes[-5:]) / 5
-                    prior_vol = sum(volumes[-10:-5]) / 5
-                    if prior_vol > 0:
-                        volume_change_pct = (recent_vol / prior_vol - 1) * 100
-
-            records.append(
-                {
-                    "板块名称": board_name,
-                    "板块代码": board_code,
-                    "最新价": latest_price,
-                    "涨跌幅": intraday_pct,
-                    "return_5d": round(return_5d, 2),
-                    "return_10d": round(return_10d, 2),
-                    "return_20d": round(return_20d, 2),
-                    "volume_change_pct": round(volume_change_pct, 2),
-                }
-            )
-
-        df = pd.DataFrame(records)
-        if df.empty:
-            return df
-
-        # Relative strength = weighted combo of multi-period returns
-        df["relative_strength"] = (
-            df["return_5d"] * 0.5
-            + df["return_10d"] * 0.3
-            + df["return_20d"] * 0.2
-        ).round(2)
-
-        # Rank by relative strength (1 = best)
-        df["momentum_rank"] = df["relative_strength"].rank(ascending=False, method="min").astype(int)
-        df = df.sort_values("momentum_rank").reset_index(drop=True)
-
-        return df
+        return scan_industry_returns_sina(lookback_days=lookback_days)
 
     # ==================================================================
     # 2. analyze_fund_flows
@@ -421,12 +347,13 @@ class SectorRotationStrategy(BaseStrategy):
                 "请输出JSON格式分析结果。"
             )
 
-        prompt = template.format(
-            macro_data=macro_text,
-            industry_performance=industry_perf_text,
-            policy_events="暂无特别政策事件信息",
-            fund_flow=flow_summary,
-        )
+        # Use manual replacement instead of str.format() because the
+        # template contains JSON example braces that would conflict.
+        prompt = template
+        prompt = prompt.replace("{macro_data}", macro_text)
+        prompt = prompt.replace("{industry_performance}", industry_perf_text)
+        prompt = prompt.replace("{policy_events}", "暂无特别政策事件信息")
+        prompt = prompt.replace("{fund_flow}", flow_summary)
 
         messages = [
             {"role": "system", "content": "你是一位资深的A股行业轮动策略分析师，擅长宏观周期分析与行业配置。"},
@@ -757,57 +684,16 @@ class SectorRotationStrategy(BaseStrategy):
     def _get_industry_constituents(industry_name: str) -> list[tuple[str, str]]:
         """Return a list of (stock_code, stock_name) for an industry board.
 
-        Uses ``ak.stock_board_industry_cons_em`` to fetch constituent
-        stocks for the given industry name.
+        Uses timeout-wrapped East Money call with predefined fallback.
         """
-        try:
-            df = ak.stock_board_industry_cons_em(symbol=industry_name)
-            if df is None or df.empty:
-                return []
-            code_col = "代码" if "代码" in df.columns else df.columns[0]
-            name_col = "名称" if "名称" in df.columns else df.columns[1]
-            return list(zip(df[code_col].astype(str).tolist(), df[name_col].astype(str).tolist()))
-        except Exception as exc:
-            logger.debug("Failed to get constituents for %s: %s", industry_name, exc)
-            return []
+        return get_industry_constituents_safe(industry_name)
 
     @staticmethod
     def _lookup_stock_industry(stock_code: str) -> str | None:
-        """Find which Shenwan L1 industry a stock belongs to.
-
-        Iterates through industry boards and checks membership. This is
-        cached globally via the market data cache.
-        """
-        try:
-            df_boards = ak.stock_board_industry_name_em()
-            if df_boards is None or df_boards.empty:
-                return None
-
-            for _, row in df_boards.iterrows():
-                board_name = str(row.get("板块名称", ""))
-                try:
-                    df_cons = ak.stock_board_industry_cons_em(symbol=board_name)
-                    if df_cons is not None and not df_cons.empty:
-                        code_col = "代码" if "代码" in df_cons.columns else df_cons.columns[0]
-                        codes = df_cons[code_col].astype(str).tolist()
-                        if stock_code in codes:
-                            return board_name
-                except Exception:
-                    continue
-        except Exception as exc:
-            logger.debug("_lookup_stock_industry failed: %s", exc)
-
-        return None
+        """Find which Shenwan L1 industry a stock belongs to."""
+        return lookup_stock_industry(stock_code)
 
     @staticmethod
     def _lookup_stock_name(stock_code: str) -> str | None:
         """Get the display name for a stock code."""
-        try:
-            df = ak.stock_zh_a_spot_em()
-            if df is not None and not df.empty:
-                match = df[df["代码"] == stock_code]
-                if not match.empty:
-                    return str(match.iloc[0].get("名称", stock_code))
-        except Exception:
-            pass
-        return None
+        return lookup_stock_name(stock_code)

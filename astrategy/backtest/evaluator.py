@@ -92,7 +92,8 @@ class Evaluator:
         # Determine if direction was correct
         if signal.direction == "long":
             hit = actual_return > 0
-        elif signal.direction == "short":
+        elif signal.direction in ("short", "avoid"):
+            # avoid = 回避 — 如果股价下跌则"回避正确"
             hit = actual_return < 0
         else:
             hit = abs(actual_return) < 0.02  # neutral: stock didn't move much
