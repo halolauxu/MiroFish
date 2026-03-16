@@ -1,0 +1,8034 @@
+{
+  "graph_id": "supply_chain",
+  "nodes": {
+    "Unknown(000001)": {
+      "name": "Unknown(000001)",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(000001)(000001), None行业",
+      "attributes": {
+        "code": "000001",
+        "industry": null
+      }
+    },
+    "000001": {
+      "name": "000001",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(000001)(000001), None行业",
+      "attributes": {
+        "display_name": "Unknown(000001)",
+        "industry": null
+      }
+    },
+    "Unknown(000002)": {
+      "name": "Unknown(000002)",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(000002)(000002), 房地产行业",
+      "attributes": {
+        "code": "000002",
+        "industry": "房地产"
+      }
+    },
+    "000002": {
+      "name": "000002",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(000002)(000002), 房地产行业",
+      "attributes": {
+        "display_name": "Unknown(000002)",
+        "industry": "房地产"
+      }
+    },
+    "Unknown(000063)": {
+      "name": "Unknown(000063)",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(000063)(000063), 通信行业",
+      "attributes": {
+        "code": "000063",
+        "industry": "通信"
+      }
+    },
+    "000063": {
+      "name": "000063",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(000063)(000063), 通信行业",
+      "attributes": {
+        "display_name": "Unknown(000063)",
+        "industry": "通信"
+      }
+    },
+    "Unknown(000100)": {
+      "name": "Unknown(000100)",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(000100)(000100), None行业",
+      "attributes": {
+        "code": "000100",
+        "industry": null
+      }
+    },
+    "000100": {
+      "name": "000100",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(000100)(000100), None行业",
+      "attributes": {
+        "display_name": "Unknown(000100)",
+        "industry": null
+      }
+    },
+    "Unknown(000157)": {
+      "name": "Unknown(000157)",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(000157)(000157), None行业",
+      "attributes": {
+        "code": "000157",
+        "industry": null
+      }
+    },
+    "000157": {
+      "name": "000157",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(000157)(000157), None行业",
+      "attributes": {
+        "display_name": "Unknown(000157)",
+        "industry": null
+      }
+    },
+    "Unknown(000166)": {
+      "name": "Unknown(000166)",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(000166)(000166), None行业",
+      "attributes": {
+        "code": "000166",
+        "industry": null
+      }
+    },
+    "000166": {
+      "name": "000166",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(000166)(000166), None行业",
+      "attributes": {
+        "display_name": "Unknown(000166)",
+        "industry": null
+      }
+    },
+    "Unknown(000301)": {
+      "name": "Unknown(000301)",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(000301)(000301), None行业",
+      "attributes": {
+        "code": "000301",
+        "industry": null
+      }
+    },
+    "000301": {
+      "name": "000301",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(000301)(000301), None行业",
+      "attributes": {
+        "display_name": "Unknown(000301)",
+        "industry": null
+      }
+    },
+    "Unknown(000333)": {
+      "name": "Unknown(000333)",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(000333)(000333), 家用电器行业",
+      "attributes": {
+        "code": "000333",
+        "industry": "家用电器"
+      }
+    },
+    "000333": {
+      "name": "000333",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(000333)(000333), 家用电器行业",
+      "attributes": {
+        "display_name": "Unknown(000333)",
+        "industry": "家用电器"
+      }
+    },
+    "Unknown(000338)": {
+      "name": "Unknown(000338)",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(000338)(000338), None行业",
+      "attributes": {
+        "code": "000338",
+        "industry": null
+      }
+    },
+    "000338": {
+      "name": "000338",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(000338)(000338), None行业",
+      "attributes": {
+        "display_name": "Unknown(000338)",
+        "industry": null
+      }
+    },
+    "Unknown(000408)": {
+      "name": "Unknown(000408)",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(000408)(000408), None行业",
+      "attributes": {
+        "code": "000408",
+        "industry": null
+      }
+    },
+    "000408": {
+      "name": "000408",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(000408)(000408), None行业",
+      "attributes": {
+        "display_name": "Unknown(000408)",
+        "industry": null
+      }
+    },
+    "Unknown(000425)": {
+      "name": "Unknown(000425)",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(000425)(000425), None行业",
+      "attributes": {
+        "code": "000425",
+        "industry": null
+      }
+    },
+    "000425": {
+      "name": "000425",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(000425)(000425), None行业",
+      "attributes": {
+        "display_name": "Unknown(000425)",
+        "industry": null
+      }
+    },
+    "Unknown(000538)": {
+      "name": "Unknown(000538)",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(000538)(000538), None行业",
+      "attributes": {
+        "code": "000538",
+        "industry": null
+      }
+    },
+    "000538": {
+      "name": "000538",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(000538)(000538), None行业",
+      "attributes": {
+        "display_name": "Unknown(000538)",
+        "industry": null
+      }
+    },
+    "Unknown(000568)": {
+      "name": "Unknown(000568)",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(000568)(000568), 食品饮料行业",
+      "attributes": {
+        "code": "000568",
+        "industry": "食品饮料"
+      }
+    },
+    "000568": {
+      "name": "000568",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(000568)(000568), 食品饮料行业",
+      "attributes": {
+        "display_name": "Unknown(000568)",
+        "industry": "食品饮料"
+      }
+    },
+    "Unknown(000596)": {
+      "name": "Unknown(000596)",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(000596)(000596), None行业",
+      "attributes": {
+        "code": "000596",
+        "industry": null
+      }
+    },
+    "000596": {
+      "name": "000596",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(000596)(000596), None行业",
+      "attributes": {
+        "display_name": "Unknown(000596)",
+        "industry": null
+      }
+    },
+    "Unknown(000617)": {
+      "name": "Unknown(000617)",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(000617)(000617), None行业",
+      "attributes": {
+        "code": "000617",
+        "industry": null
+      }
+    },
+    "000617": {
+      "name": "000617",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(000617)(000617), None行业",
+      "attributes": {
+        "display_name": "Unknown(000617)",
+        "industry": null
+      }
+    },
+    "Unknown(000625)": {
+      "name": "Unknown(000625)",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(000625)(000625), None行业",
+      "attributes": {
+        "code": "000625",
+        "industry": null
+      }
+    },
+    "000625": {
+      "name": "000625",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(000625)(000625), None行业",
+      "attributes": {
+        "display_name": "Unknown(000625)",
+        "industry": null
+      }
+    },
+    "Unknown(000630)": {
+      "name": "Unknown(000630)",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(000630)(000630), None行业",
+      "attributes": {
+        "code": "000630",
+        "industry": null
+      }
+    },
+    "000630": {
+      "name": "000630",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(000630)(000630), None行业",
+      "attributes": {
+        "display_name": "Unknown(000630)",
+        "industry": null
+      }
+    },
+    "Unknown(000651)": {
+      "name": "Unknown(000651)",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(000651)(000651), 家用电器行业",
+      "attributes": {
+        "code": "000651",
+        "industry": "家用电器"
+      }
+    },
+    "000651": {
+      "name": "000651",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(000651)(000651), 家用电器行业",
+      "attributes": {
+        "display_name": "Unknown(000651)",
+        "industry": "家用电器"
+      }
+    },
+    "Unknown(000661)": {
+      "name": "Unknown(000661)",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(000661)(000661), None行业",
+      "attributes": {
+        "code": "000661",
+        "industry": null
+      }
+    },
+    "000661": {
+      "name": "000661",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(000661)(000661), None行业",
+      "attributes": {
+        "display_name": "Unknown(000661)",
+        "industry": null
+      }
+    },
+    "Unknown(000708)": {
+      "name": "Unknown(000708)",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(000708)(000708), None行业",
+      "attributes": {
+        "code": "000708",
+        "industry": null
+      }
+    },
+    "000708": {
+      "name": "000708",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(000708)(000708), None行业",
+      "attributes": {
+        "display_name": "Unknown(000708)",
+        "industry": null
+      }
+    },
+    "Unknown(000725)": {
+      "name": "Unknown(000725)",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(000725)(000725), None行业",
+      "attributes": {
+        "code": "000725",
+        "industry": null
+      }
+    },
+    "000725": {
+      "name": "000725",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(000725)(000725), None行业",
+      "attributes": {
+        "display_name": "Unknown(000725)",
+        "industry": null
+      }
+    },
+    "Unknown(000768)": {
+      "name": "Unknown(000768)",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(000768)(000768), None行业",
+      "attributes": {
+        "code": "000768",
+        "industry": null
+      }
+    },
+    "000768": {
+      "name": "000768",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(000768)(000768), None行业",
+      "attributes": {
+        "display_name": "Unknown(000768)",
+        "industry": null
+      }
+    },
+    "Unknown(000776)": {
+      "name": "Unknown(000776)",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(000776)(000776), None行业",
+      "attributes": {
+        "code": "000776",
+        "industry": null
+      }
+    },
+    "000776": {
+      "name": "000776",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(000776)(000776), None行业",
+      "attributes": {
+        "display_name": "Unknown(000776)",
+        "industry": null
+      }
+    },
+    "Unknown(000786)": {
+      "name": "Unknown(000786)",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(000786)(000786), None行业",
+      "attributes": {
+        "code": "000786",
+        "industry": null
+      }
+    },
+    "000786": {
+      "name": "000786",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(000786)(000786), None行业",
+      "attributes": {
+        "display_name": "Unknown(000786)",
+        "industry": null
+      }
+    },
+    "Unknown(000792)": {
+      "name": "Unknown(000792)",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(000792)(000792), None行业",
+      "attributes": {
+        "code": "000792",
+        "industry": null
+      }
+    },
+    "000792": {
+      "name": "000792",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(000792)(000792), None行业",
+      "attributes": {
+        "display_name": "Unknown(000792)",
+        "industry": null
+      }
+    },
+    "Unknown(000807)": {
+      "name": "Unknown(000807)",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(000807)(000807), None行业",
+      "attributes": {
+        "code": "000807",
+        "industry": null
+      }
+    },
+    "000807": {
+      "name": "000807",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(000807)(000807), None行业",
+      "attributes": {
+        "display_name": "Unknown(000807)",
+        "industry": null
+      }
+    },
+    "Unknown(000858)": {
+      "name": "Unknown(000858)",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(000858)(000858), 食品饮料行业",
+      "attributes": {
+        "code": "000858",
+        "industry": "食品饮料"
+      }
+    },
+    "000858": {
+      "name": "000858",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(000858)(000858), 食品饮料行业",
+      "attributes": {
+        "display_name": "Unknown(000858)",
+        "industry": "食品饮料"
+      }
+    },
+    "Unknown(000876)": {
+      "name": "Unknown(000876)",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(000876)(000876), None行业",
+      "attributes": {
+        "code": "000876",
+        "industry": null
+      }
+    },
+    "000876": {
+      "name": "000876",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(000876)(000876), None行业",
+      "attributes": {
+        "display_name": "Unknown(000876)",
+        "industry": null
+      }
+    },
+    "Unknown(000895)": {
+      "name": "Unknown(000895)",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(000895)(000895), None行业",
+      "attributes": {
+        "code": "000895",
+        "industry": null
+      }
+    },
+    "000895": {
+      "name": "000895",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(000895)(000895), None行业",
+      "attributes": {
+        "display_name": "Unknown(000895)",
+        "industry": null
+      }
+    },
+    "Unknown(000938)": {
+      "name": "Unknown(000938)",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(000938)(000938), None行业",
+      "attributes": {
+        "code": "000938",
+        "industry": null
+      }
+    },
+    "000938": {
+      "name": "000938",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(000938)(000938), None行业",
+      "attributes": {
+        "display_name": "Unknown(000938)",
+        "industry": null
+      }
+    },
+    "Unknown(000963)": {
+      "name": "Unknown(000963)",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(000963)(000963), None行业",
+      "attributes": {
+        "code": "000963",
+        "industry": null
+      }
+    },
+    "000963": {
+      "name": "000963",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(000963)(000963), None行业",
+      "attributes": {
+        "display_name": "Unknown(000963)",
+        "industry": null
+      }
+    },
+    "Unknown(000975)": {
+      "name": "Unknown(000975)",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(000975)(000975), None行业",
+      "attributes": {
+        "code": "000975",
+        "industry": null
+      }
+    },
+    "000975": {
+      "name": "000975",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(000975)(000975), None行业",
+      "attributes": {
+        "display_name": "Unknown(000975)",
+        "industry": null
+      }
+    },
+    "Unknown(000977)": {
+      "name": "Unknown(000977)",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(000977)(000977), None行业",
+      "attributes": {
+        "code": "000977",
+        "industry": null
+      }
+    },
+    "000977": {
+      "name": "000977",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(000977)(000977), None行业",
+      "attributes": {
+        "display_name": "Unknown(000977)",
+        "industry": null
+      }
+    },
+    "Unknown(000983)": {
+      "name": "Unknown(000983)",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(000983)(000983), None行业",
+      "attributes": {
+        "code": "000983",
+        "industry": null
+      }
+    },
+    "000983": {
+      "name": "000983",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(000983)(000983), None行业",
+      "attributes": {
+        "display_name": "Unknown(000983)",
+        "industry": null
+      }
+    },
+    "Unknown(000999)": {
+      "name": "Unknown(000999)",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(000999)(000999), None行业",
+      "attributes": {
+        "code": "000999",
+        "industry": null
+      }
+    },
+    "000999": {
+      "name": "000999",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(000999)(000999), None行业",
+      "attributes": {
+        "display_name": "Unknown(000999)",
+        "industry": null
+      }
+    },
+    "Unknown(001391)": {
+      "name": "Unknown(001391)",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(001391)(001391), None行业",
+      "attributes": {
+        "code": "001391",
+        "industry": null
+      }
+    },
+    "001391": {
+      "name": "001391",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(001391)(001391), None行业",
+      "attributes": {
+        "display_name": "Unknown(001391)",
+        "industry": null
+      }
+    },
+    "Unknown(001965)": {
+      "name": "Unknown(001965)",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(001965)(001965), None行业",
+      "attributes": {
+        "code": "001965",
+        "industry": null
+      }
+    },
+    "001965": {
+      "name": "001965",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(001965)(001965), None行业",
+      "attributes": {
+        "display_name": "Unknown(001965)",
+        "industry": null
+      }
+    },
+    "Unknown(001979)": {
+      "name": "Unknown(001979)",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(001979)(001979), 房地产行业",
+      "attributes": {
+        "code": "001979",
+        "industry": "房地产"
+      }
+    },
+    "001979": {
+      "name": "001979",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(001979)(001979), 房地产行业",
+      "attributes": {
+        "display_name": "Unknown(001979)",
+        "industry": "房地产"
+      }
+    },
+    "Unknown(002001)": {
+      "name": "Unknown(002001)",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(002001)(002001), None行业",
+      "attributes": {
+        "code": "002001",
+        "industry": null
+      }
+    },
+    "002001": {
+      "name": "002001",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(002001)(002001), None行业",
+      "attributes": {
+        "display_name": "Unknown(002001)",
+        "industry": null
+      }
+    },
+    "Unknown(002027)": {
+      "name": "Unknown(002027)",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(002027)(002027), None行业",
+      "attributes": {
+        "code": "002027",
+        "industry": null
+      }
+    },
+    "002027": {
+      "name": "002027",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(002027)(002027), None行业",
+      "attributes": {
+        "display_name": "Unknown(002027)",
+        "industry": null
+      }
+    },
+    "Unknown(002028)": {
+      "name": "Unknown(002028)",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(002028)(002028), None行业",
+      "attributes": {
+        "code": "002028",
+        "industry": null
+      }
+    },
+    "002028": {
+      "name": "002028",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(002028)(002028), None行业",
+      "attributes": {
+        "display_name": "Unknown(002028)",
+        "industry": null
+      }
+    },
+    "Unknown(002049)": {
+      "name": "Unknown(002049)",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(002049)(002049), None行业",
+      "attributes": {
+        "code": "002049",
+        "industry": null
+      }
+    },
+    "002049": {
+      "name": "002049",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(002049)(002049), None行业",
+      "attributes": {
+        "display_name": "Unknown(002049)",
+        "industry": null
+      }
+    },
+    "Unknown(002050)": {
+      "name": "Unknown(002050)",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(002050)(002050), None行业",
+      "attributes": {
+        "code": "002050",
+        "industry": null
+      }
+    },
+    "002050": {
+      "name": "002050",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(002050)(002050), None行业",
+      "attributes": {
+        "display_name": "Unknown(002050)",
+        "industry": null
+      }
+    },
+    "Unknown(002074)": {
+      "name": "Unknown(002074)",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(002074)(002074), None行业",
+      "attributes": {
+        "code": "002074",
+        "industry": null
+      }
+    },
+    "002074": {
+      "name": "002074",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(002074)(002074), None行业",
+      "attributes": {
+        "display_name": "Unknown(002074)",
+        "industry": null
+      }
+    },
+    "Unknown(002142)": {
+      "name": "Unknown(002142)",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(002142)(002142), None行业",
+      "attributes": {
+        "code": "002142",
+        "industry": null
+      }
+    },
+    "002142": {
+      "name": "002142",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(002142)(002142), None行业",
+      "attributes": {
+        "display_name": "Unknown(002142)",
+        "industry": null
+      }
+    },
+    "Unknown(002179)": {
+      "name": "Unknown(002179)",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(002179)(002179), None行业",
+      "attributes": {
+        "code": "002179",
+        "industry": null
+      }
+    },
+    "002179": {
+      "name": "002179",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(002179)(002179), None行业",
+      "attributes": {
+        "display_name": "Unknown(002179)",
+        "industry": null
+      }
+    },
+    "Unknown(002230)": {
+      "name": "Unknown(002230)",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(002230)(002230), 计算机行业",
+      "attributes": {
+        "code": "002230",
+        "industry": "计算机"
+      }
+    },
+    "002230": {
+      "name": "002230",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(002230)(002230), 计算机行业",
+      "attributes": {
+        "display_name": "Unknown(002230)",
+        "industry": "计算机"
+      }
+    },
+    "Unknown(002236)": {
+      "name": "Unknown(002236)",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(002236)(002236), None行业",
+      "attributes": {
+        "code": "002236",
+        "industry": null
+      }
+    },
+    "002236": {
+      "name": "002236",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(002236)(002236), None行业",
+      "attributes": {
+        "display_name": "Unknown(002236)",
+        "industry": null
+      }
+    },
+    "Unknown(002241)": {
+      "name": "Unknown(002241)",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(002241)(002241), None行业",
+      "attributes": {
+        "code": "002241",
+        "industry": null
+      }
+    },
+    "002241": {
+      "name": "002241",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(002241)(002241), None行业",
+      "attributes": {
+        "display_name": "Unknown(002241)",
+        "industry": null
+      }
+    },
+    "Unknown(002252)": {
+      "name": "Unknown(002252)",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(002252)(002252), None行业",
+      "attributes": {
+        "code": "002252",
+        "industry": null
+      }
+    },
+    "002252": {
+      "name": "002252",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(002252)(002252), None行业",
+      "attributes": {
+        "display_name": "Unknown(002252)",
+        "industry": null
+      }
+    },
+    "Unknown(002304)": {
+      "name": "Unknown(002304)",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(002304)(002304), None行业",
+      "attributes": {
+        "code": "002304",
+        "industry": null
+      }
+    },
+    "002304": {
+      "name": "002304",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(002304)(002304), None行业",
+      "attributes": {
+        "display_name": "Unknown(002304)",
+        "industry": null
+      }
+    },
+    "Unknown(002311)": {
+      "name": "Unknown(002311)",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(002311)(002311), None行业",
+      "attributes": {
+        "code": "002311",
+        "industry": null
+      }
+    },
+    "002311": {
+      "name": "002311",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(002311)(002311), None行业",
+      "attributes": {
+        "display_name": "Unknown(002311)",
+        "industry": null
+      }
+    },
+    "Unknown(002352)": {
+      "name": "Unknown(002352)",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(002352)(002352), None行业",
+      "attributes": {
+        "code": "002352",
+        "industry": null
+      }
+    },
+    "002352": {
+      "name": "002352",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(002352)(002352), None行业",
+      "attributes": {
+        "display_name": "Unknown(002352)",
+        "industry": null
+      }
+    },
+    "Unknown(002371)": {
+      "name": "Unknown(002371)",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(002371)(002371), 电子行业",
+      "attributes": {
+        "code": "002371",
+        "industry": "电子"
+      }
+    },
+    "002371": {
+      "name": "002371",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(002371)(002371), 电子行业",
+      "attributes": {
+        "display_name": "Unknown(002371)",
+        "industry": "电子"
+      }
+    },
+    "Unknown(002384)": {
+      "name": "Unknown(002384)",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(002384)(002384), None行业",
+      "attributes": {
+        "code": "002384",
+        "industry": null
+      }
+    },
+    "002384": {
+      "name": "002384",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(002384)(002384), None行业",
+      "attributes": {
+        "display_name": "Unknown(002384)",
+        "industry": null
+      }
+    },
+    "Unknown(002415)": {
+      "name": "Unknown(002415)",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(002415)(002415), 电子行业",
+      "attributes": {
+        "code": "002415",
+        "industry": "电子"
+      }
+    },
+    "002415": {
+      "name": "002415",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(002415)(002415), 电子行业",
+      "attributes": {
+        "display_name": "Unknown(002415)",
+        "industry": "电子"
+      }
+    },
+    "Unknown(002422)": {
+      "name": "Unknown(002422)",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(002422)(002422), None行业",
+      "attributes": {
+        "code": "002422",
+        "industry": null
+      }
+    },
+    "002422": {
+      "name": "002422",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(002422)(002422), None行业",
+      "attributes": {
+        "display_name": "Unknown(002422)",
+        "industry": null
+      }
+    },
+    "Unknown(002459)": {
+      "name": "Unknown(002459)",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(002459)(002459), None行业",
+      "attributes": {
+        "code": "002459",
+        "industry": null
+      }
+    },
+    "002459": {
+      "name": "002459",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(002459)(002459), None行业",
+      "attributes": {
+        "display_name": "Unknown(002459)",
+        "industry": null
+      }
+    },
+    "Unknown(002460)": {
+      "name": "Unknown(002460)",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(002460)(002460), 有色金属行业",
+      "attributes": {
+        "code": "002460",
+        "industry": "有色金属"
+      }
+    },
+    "002460": {
+      "name": "002460",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(002460)(002460), 有色金属行业",
+      "attributes": {
+        "display_name": "Unknown(002460)",
+        "industry": "有色金属"
+      }
+    },
+    "Unknown(002463)": {
+      "name": "Unknown(002463)",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(002463)(002463), None行业",
+      "attributes": {
+        "code": "002463",
+        "industry": null
+      }
+    },
+    "002463": {
+      "name": "002463",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(002463)(002463), None行业",
+      "attributes": {
+        "display_name": "Unknown(002463)",
+        "industry": null
+      }
+    },
+    "Unknown(002466)": {
+      "name": "Unknown(002466)",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(002466)(002466), None行业",
+      "attributes": {
+        "code": "002466",
+        "industry": null
+      }
+    },
+    "002466": {
+      "name": "002466",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(002466)(002466), None行业",
+      "attributes": {
+        "display_name": "Unknown(002466)",
+        "industry": null
+      }
+    },
+    "Unknown(002475)": {
+      "name": "Unknown(002475)",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(002475)(002475), None行业",
+      "attributes": {
+        "code": "002475",
+        "industry": null
+      }
+    },
+    "002475": {
+      "name": "002475",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(002475)(002475), None行业",
+      "attributes": {
+        "display_name": "Unknown(002475)",
+        "industry": null
+      }
+    },
+    "Unknown(002493)": {
+      "name": "Unknown(002493)",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(002493)(002493), None行业",
+      "attributes": {
+        "code": "002493",
+        "industry": null
+      }
+    },
+    "002493": {
+      "name": "002493",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(002493)(002493), None行业",
+      "attributes": {
+        "display_name": "Unknown(002493)",
+        "industry": null
+      }
+    },
+    "Unknown(002594)": {
+      "name": "Unknown(002594)",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(002594)(002594), 汽车行业",
+      "attributes": {
+        "code": "002594",
+        "industry": "汽车"
+      }
+    },
+    "002594": {
+      "name": "002594",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(002594)(002594), 汽车行业",
+      "attributes": {
+        "display_name": "Unknown(002594)",
+        "industry": "汽车"
+      }
+    },
+    "Unknown(002600)": {
+      "name": "Unknown(002600)",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(002600)(002600), None行业",
+      "attributes": {
+        "code": "002600",
+        "industry": null
+      }
+    },
+    "002600": {
+      "name": "002600",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(002600)(002600), None行业",
+      "attributes": {
+        "display_name": "Unknown(002600)",
+        "industry": null
+      }
+    },
+    "Unknown(002601)": {
+      "name": "Unknown(002601)",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(002601)(002601), 基础化工行业",
+      "attributes": {
+        "code": "002601",
+        "industry": "基础化工"
+      }
+    },
+    "002601": {
+      "name": "002601",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(002601)(002601), 基础化工行业",
+      "attributes": {
+        "display_name": "Unknown(002601)",
+        "industry": "基础化工"
+      }
+    },
+    "Unknown(002625)": {
+      "name": "Unknown(002625)",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(002625)(002625), None行业",
+      "attributes": {
+        "code": "002625",
+        "industry": null
+      }
+    },
+    "002625": {
+      "name": "002625",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(002625)(002625), None行业",
+      "attributes": {
+        "display_name": "Unknown(002625)",
+        "industry": null
+      }
+    },
+    "Unknown(002648)": {
+      "name": "Unknown(002648)",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(002648)(002648), None行业",
+      "attributes": {
+        "code": "002648",
+        "industry": null
+      }
+    },
+    "002648": {
+      "name": "002648",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(002648)(002648), None行业",
+      "attributes": {
+        "display_name": "Unknown(002648)",
+        "industry": null
+      }
+    },
+    "Unknown(002709)": {
+      "name": "Unknown(002709)",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(002709)(002709), None行业",
+      "attributes": {
+        "code": "002709",
+        "industry": null
+      }
+    },
+    "002709": {
+      "name": "002709",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(002709)(002709), None行业",
+      "attributes": {
+        "display_name": "Unknown(002709)",
+        "industry": null
+      }
+    },
+    "Unknown(002714)": {
+      "name": "Unknown(002714)",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(002714)(002714), 农林牧渔行业",
+      "attributes": {
+        "code": "002714",
+        "industry": "农林牧渔"
+      }
+    },
+    "002714": {
+      "name": "002714",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(002714)(002714), 农林牧渔行业",
+      "attributes": {
+        "display_name": "Unknown(002714)",
+        "industry": "农林牧渔"
+      }
+    },
+    "Unknown(002736)": {
+      "name": "Unknown(002736)",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(002736)(002736), None行业",
+      "attributes": {
+        "code": "002736",
+        "industry": null
+      }
+    },
+    "002736": {
+      "name": "002736",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(002736)(002736), None行业",
+      "attributes": {
+        "display_name": "Unknown(002736)",
+        "industry": null
+      }
+    },
+    "Unknown(002916)": {
+      "name": "Unknown(002916)",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(002916)(002916), None行业",
+      "attributes": {
+        "code": "002916",
+        "industry": null
+      }
+    },
+    "002916": {
+      "name": "002916",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(002916)(002916), None行业",
+      "attributes": {
+        "display_name": "Unknown(002916)",
+        "industry": null
+      }
+    },
+    "Unknown(002920)": {
+      "name": "Unknown(002920)",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(002920)(002920), None行业",
+      "attributes": {
+        "code": "002920",
+        "industry": null
+      }
+    },
+    "002920": {
+      "name": "002920",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(002920)(002920), None行业",
+      "attributes": {
+        "display_name": "Unknown(002920)",
+        "industry": null
+      }
+    },
+    "Unknown(002938)": {
+      "name": "Unknown(002938)",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(002938)(002938), None行业",
+      "attributes": {
+        "code": "002938",
+        "industry": null
+      }
+    },
+    "002938": {
+      "name": "002938",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(002938)(002938), None行业",
+      "attributes": {
+        "display_name": "Unknown(002938)",
+        "industry": null
+      }
+    },
+    "Unknown(003816)": {
+      "name": "Unknown(003816)",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(003816)(003816), 公用事业行业",
+      "attributes": {
+        "code": "003816",
+        "industry": "公用事业"
+      }
+    },
+    "003816": {
+      "name": "003816",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(003816)(003816), 公用事业行业",
+      "attributes": {
+        "display_name": "Unknown(003816)",
+        "industry": "公用事业"
+      }
+    },
+    "Unknown(300014)": {
+      "name": "Unknown(300014)",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(300014)(300014), None行业",
+      "attributes": {
+        "code": "300014",
+        "industry": null
+      }
+    },
+    "300014": {
+      "name": "300014",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(300014)(300014), None行业",
+      "attributes": {
+        "display_name": "Unknown(300014)",
+        "industry": null
+      }
+    },
+    "Unknown(300015)": {
+      "name": "Unknown(300015)",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(300015)(300015), None行业",
+      "attributes": {
+        "code": "300015",
+        "industry": null
+      }
+    },
+    "300015": {
+      "name": "300015",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(300015)(300015), None行业",
+      "attributes": {
+        "display_name": "Unknown(300015)",
+        "industry": null
+      }
+    },
+    "Unknown(300033)": {
+      "name": "Unknown(300033)",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(300033)(300033), None行业",
+      "attributes": {
+        "code": "300033",
+        "industry": null
+      }
+    },
+    "300033": {
+      "name": "300033",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(300033)(300033), None行业",
+      "attributes": {
+        "display_name": "Unknown(300033)",
+        "industry": null
+      }
+    },
+    "Unknown(300059)": {
+      "name": "Unknown(300059)",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(300059)(300059), None行业",
+      "attributes": {
+        "code": "300059",
+        "industry": null
+      }
+    },
+    "300059": {
+      "name": "300059",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(300059)(300059), None行业",
+      "attributes": {
+        "display_name": "Unknown(300059)",
+        "industry": null
+      }
+    },
+    "Unknown(300122)": {
+      "name": "Unknown(300122)",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(300122)(300122), None行业",
+      "attributes": {
+        "code": "300122",
+        "industry": null
+      }
+    },
+    "300122": {
+      "name": "300122",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(300122)(300122), None行业",
+      "attributes": {
+        "display_name": "Unknown(300122)",
+        "industry": null
+      }
+    },
+    "Unknown(300124)": {
+      "name": "Unknown(300124)",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(300124)(300124), 机械设备行业",
+      "attributes": {
+        "code": "300124",
+        "industry": "机械设备"
+      }
+    },
+    "300124": {
+      "name": "300124",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(300124)(300124), 机械设备行业",
+      "attributes": {
+        "display_name": "Unknown(300124)",
+        "industry": "机械设备"
+      }
+    },
+    "Unknown(300251)": {
+      "name": "Unknown(300251)",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(300251)(300251), None行业",
+      "attributes": {
+        "code": "300251",
+        "industry": null
+      }
+    },
+    "300251": {
+      "name": "300251",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(300251)(300251), None行业",
+      "attributes": {
+        "display_name": "Unknown(300251)",
+        "industry": null
+      }
+    },
+    "Unknown(300274)": {
+      "name": "Unknown(300274)",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(300274)(300274), 电力设备行业",
+      "attributes": {
+        "code": "300274",
+        "industry": "电力设备"
+      }
+    },
+    "300274": {
+      "name": "300274",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(300274)(300274), 电力设备行业",
+      "attributes": {
+        "display_name": "Unknown(300274)",
+        "industry": "电力设备"
+      }
+    },
+    "Unknown(300308)": {
+      "name": "Unknown(300308)",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(300308)(300308), None行业",
+      "attributes": {
+        "code": "300308",
+        "industry": null
+      }
+    },
+    "300308": {
+      "name": "300308",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(300308)(300308), None行业",
+      "attributes": {
+        "display_name": "Unknown(300308)",
+        "industry": null
+      }
+    },
+    "Unknown(300316)": {
+      "name": "Unknown(300316)",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(300316)(300316), None行业",
+      "attributes": {
+        "code": "300316",
+        "industry": null
+      }
+    },
+    "300316": {
+      "name": "300316",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(300316)(300316), None行业",
+      "attributes": {
+        "display_name": "Unknown(300316)",
+        "industry": null
+      }
+    },
+    "Unknown(300347)": {
+      "name": "Unknown(300347)",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(300347)(300347), None行业",
+      "attributes": {
+        "code": "300347",
+        "industry": null
+      }
+    },
+    "300347": {
+      "name": "300347",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(300347)(300347), None行业",
+      "attributes": {
+        "display_name": "Unknown(300347)",
+        "industry": null
+      }
+    },
+    "Unknown(300394)": {
+      "name": "Unknown(300394)",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(300394)(300394), None行业",
+      "attributes": {
+        "code": "300394",
+        "industry": null
+      }
+    },
+    "300394": {
+      "name": "300394",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(300394)(300394), None行业",
+      "attributes": {
+        "display_name": "Unknown(300394)",
+        "industry": null
+      }
+    },
+    "Unknown(300408)": {
+      "name": "Unknown(300408)",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(300408)(300408), None行业",
+      "attributes": {
+        "code": "300408",
+        "industry": null
+      }
+    },
+    "300408": {
+      "name": "300408",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(300408)(300408), None行业",
+      "attributes": {
+        "display_name": "Unknown(300408)",
+        "industry": null
+      }
+    },
+    "Unknown(300413)": {
+      "name": "Unknown(300413)",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(300413)(300413), 传媒行业",
+      "attributes": {
+        "code": "300413",
+        "industry": "传媒"
+      }
+    },
+    "300413": {
+      "name": "300413",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(300413)(300413), 传媒行业",
+      "attributes": {
+        "display_name": "Unknown(300413)",
+        "industry": "传媒"
+      }
+    },
+    "Unknown(300418)": {
+      "name": "Unknown(300418)",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(300418)(300418), None行业",
+      "attributes": {
+        "code": "300418",
+        "industry": null
+      }
+    },
+    "300418": {
+      "name": "300418",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(300418)(300418), None行业",
+      "attributes": {
+        "display_name": "Unknown(300418)",
+        "industry": null
+      }
+    },
+    "Unknown(300433)": {
+      "name": "Unknown(300433)",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(300433)(300433), None行业",
+      "attributes": {
+        "code": "300433",
+        "industry": null
+      }
+    },
+    "300433": {
+      "name": "300433",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(300433)(300433), None行业",
+      "attributes": {
+        "display_name": "Unknown(300433)",
+        "industry": null
+      }
+    },
+    "Unknown(300442)": {
+      "name": "Unknown(300442)",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(300442)(300442), None行业",
+      "attributes": {
+        "code": "300442",
+        "industry": null
+      }
+    },
+    "300442": {
+      "name": "300442",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(300442)(300442), None行业",
+      "attributes": {
+        "display_name": "Unknown(300442)",
+        "industry": null
+      }
+    },
+    "Unknown(300476)": {
+      "name": "Unknown(300476)",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(300476)(300476), None行业",
+      "attributes": {
+        "code": "300476",
+        "industry": null
+      }
+    },
+    "300476": {
+      "name": "300476",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(300476)(300476), None行业",
+      "attributes": {
+        "display_name": "Unknown(300476)",
+        "industry": null
+      }
+    },
+    "Unknown(300498)": {
+      "name": "Unknown(300498)",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(300498)(300498), 农林牧渔行业",
+      "attributes": {
+        "code": "300498",
+        "industry": "农林牧渔"
+      }
+    },
+    "300498": {
+      "name": "300498",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(300498)(300498), 农林牧渔行业",
+      "attributes": {
+        "display_name": "Unknown(300498)",
+        "industry": "农林牧渔"
+      }
+    },
+    "Unknown(300502)": {
+      "name": "Unknown(300502)",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(300502)(300502), None行业",
+      "attributes": {
+        "code": "300502",
+        "industry": null
+      }
+    },
+    "300502": {
+      "name": "300502",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(300502)(300502), None行业",
+      "attributes": {
+        "display_name": "Unknown(300502)",
+        "industry": null
+      }
+    },
+    "Unknown(300628)": {
+      "name": "Unknown(300628)",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(300628)(300628), None行业",
+      "attributes": {
+        "code": "300628",
+        "industry": null
+      }
+    },
+    "300628": {
+      "name": "300628",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(300628)(300628), None行业",
+      "attributes": {
+        "display_name": "Unknown(300628)",
+        "industry": null
+      }
+    },
+    "Unknown(300661)": {
+      "name": "Unknown(300661)",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(300661)(300661), None行业",
+      "attributes": {
+        "code": "300661",
+        "industry": null
+      }
+    },
+    "300661": {
+      "name": "300661",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(300661)(300661), None行业",
+      "attributes": {
+        "display_name": "Unknown(300661)",
+        "industry": null
+      }
+    },
+    "Unknown(300750)": {
+      "name": "Unknown(300750)",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(300750)(300750), 电力设备行业",
+      "attributes": {
+        "code": "300750",
+        "industry": "电力设备"
+      }
+    },
+    "300750": {
+      "name": "300750",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(300750)(300750), 电力设备行业",
+      "attributes": {
+        "display_name": "Unknown(300750)",
+        "industry": "电力设备"
+      }
+    },
+    "Unknown(300759)": {
+      "name": "Unknown(300759)",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(300759)(300759), None行业",
+      "attributes": {
+        "code": "300759",
+        "industry": null
+      }
+    },
+    "300759": {
+      "name": "300759",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(300759)(300759), None行业",
+      "attributes": {
+        "display_name": "Unknown(300759)",
+        "industry": null
+      }
+    },
+    "Unknown(300760)": {
+      "name": "Unknown(300760)",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(300760)(300760), 医药生物行业",
+      "attributes": {
+        "code": "300760",
+        "industry": "医药生物"
+      }
+    },
+    "300760": {
+      "name": "300760",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(300760)(300760), 医药生物行业",
+      "attributes": {
+        "display_name": "Unknown(300760)",
+        "industry": "医药生物"
+      }
+    },
+    "Unknown(300782)": {
+      "name": "Unknown(300782)",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(300782)(300782), None行业",
+      "attributes": {
+        "code": "300782",
+        "industry": null
+      }
+    },
+    "300782": {
+      "name": "300782",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(300782)(300782), None行业",
+      "attributes": {
+        "display_name": "Unknown(300782)",
+        "industry": null
+      }
+    },
+    "Unknown(300803)": {
+      "name": "Unknown(300803)",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(300803)(300803), None行业",
+      "attributes": {
+        "code": "300803",
+        "industry": null
+      }
+    },
+    "300803": {
+      "name": "300803",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(300803)(300803), None行业",
+      "attributes": {
+        "display_name": "Unknown(300803)",
+        "industry": null
+      }
+    },
+    "Unknown(300832)": {
+      "name": "Unknown(300832)",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(300832)(300832), None行业",
+      "attributes": {
+        "code": "300832",
+        "industry": null
+      }
+    },
+    "300832": {
+      "name": "300832",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(300832)(300832), None行业",
+      "attributes": {
+        "display_name": "Unknown(300832)",
+        "industry": null
+      }
+    },
+    "Unknown(300866)": {
+      "name": "Unknown(300866)",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(300866)(300866), None行业",
+      "attributes": {
+        "code": "300866",
+        "industry": null
+      }
+    },
+    "300866": {
+      "name": "300866",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(300866)(300866), None行业",
+      "attributes": {
+        "display_name": "Unknown(300866)",
+        "industry": null
+      }
+    },
+    "Unknown(300896)": {
+      "name": "Unknown(300896)",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(300896)(300896), None行业",
+      "attributes": {
+        "code": "300896",
+        "industry": null
+      }
+    },
+    "300896": {
+      "name": "300896",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(300896)(300896), None行业",
+      "attributes": {
+        "display_name": "Unknown(300896)",
+        "industry": null
+      }
+    },
+    "Unknown(300979)": {
+      "name": "Unknown(300979)",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(300979)(300979), None行业",
+      "attributes": {
+        "code": "300979",
+        "industry": null
+      }
+    },
+    "300979": {
+      "name": "300979",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(300979)(300979), None行业",
+      "attributes": {
+        "display_name": "Unknown(300979)",
+        "industry": null
+      }
+    },
+    "Unknown(300999)": {
+      "name": "Unknown(300999)",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(300999)(300999), None行业",
+      "attributes": {
+        "code": "300999",
+        "industry": null
+      }
+    },
+    "300999": {
+      "name": "300999",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(300999)(300999), None行业",
+      "attributes": {
+        "display_name": "Unknown(300999)",
+        "industry": null
+      }
+    },
+    "Unknown(301236)": {
+      "name": "Unknown(301236)",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(301236)(301236), None行业",
+      "attributes": {
+        "code": "301236",
+        "industry": null
+      }
+    },
+    "301236": {
+      "name": "301236",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(301236)(301236), None行业",
+      "attributes": {
+        "display_name": "Unknown(301236)",
+        "industry": null
+      }
+    },
+    "Unknown(301269)": {
+      "name": "Unknown(301269)",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(301269)(301269), None行业",
+      "attributes": {
+        "code": "301269",
+        "industry": null
+      }
+    },
+    "301269": {
+      "name": "301269",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(301269)(301269), None行业",
+      "attributes": {
+        "display_name": "Unknown(301269)",
+        "industry": null
+      }
+    },
+    "Unknown(302132)": {
+      "name": "Unknown(302132)",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(302132)(302132), None行业",
+      "attributes": {
+        "code": "302132",
+        "industry": null
+      }
+    },
+    "302132": {
+      "name": "302132",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(302132)(302132), None行业",
+      "attributes": {
+        "display_name": "Unknown(302132)",
+        "industry": null
+      }
+    },
+    "Unknown(600000)": {
+      "name": "Unknown(600000)",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(600000)(600000), None行业",
+      "attributes": {
+        "code": "600000",
+        "industry": null
+      }
+    },
+    "600000": {
+      "name": "600000",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(600000)(600000), None行业",
+      "attributes": {
+        "display_name": "Unknown(600000)",
+        "industry": null
+      }
+    },
+    "Unknown(600009)": {
+      "name": "Unknown(600009)",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(600009)(600009), None行业",
+      "attributes": {
+        "code": "600009",
+        "industry": null
+      }
+    },
+    "600009": {
+      "name": "600009",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(600009)(600009), None行业",
+      "attributes": {
+        "display_name": "Unknown(600009)",
+        "industry": null
+      }
+    },
+    "Unknown(600010)": {
+      "name": "Unknown(600010)",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(600010)(600010), 钢铁行业",
+      "attributes": {
+        "code": "600010",
+        "industry": "钢铁"
+      }
+    },
+    "600010": {
+      "name": "600010",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(600010)(600010), 钢铁行业",
+      "attributes": {
+        "display_name": "Unknown(600010)",
+        "industry": "钢铁"
+      }
+    },
+    "Unknown(600011)": {
+      "name": "Unknown(600011)",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(600011)(600011), None行业",
+      "attributes": {
+        "code": "600011",
+        "industry": null
+      }
+    },
+    "600011": {
+      "name": "600011",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(600011)(600011), None行业",
+      "attributes": {
+        "display_name": "Unknown(600011)",
+        "industry": null
+      }
+    },
+    "Unknown(600015)": {
+      "name": "Unknown(600015)",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(600015)(600015), None行业",
+      "attributes": {
+        "code": "600015",
+        "industry": null
+      }
+    },
+    "600015": {
+      "name": "600015",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(600015)(600015), None行业",
+      "attributes": {
+        "display_name": "Unknown(600015)",
+        "industry": null
+      }
+    },
+    "Unknown(600016)": {
+      "name": "Unknown(600016)",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(600016)(600016), None行业",
+      "attributes": {
+        "code": "600016",
+        "industry": null
+      }
+    },
+    "600016": {
+      "name": "600016",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(600016)(600016), None行业",
+      "attributes": {
+        "display_name": "Unknown(600016)",
+        "industry": null
+      }
+    },
+    "Unknown(600018)": {
+      "name": "Unknown(600018)",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(600018)(600018), None行业",
+      "attributes": {
+        "code": "600018",
+        "industry": null
+      }
+    },
+    "600018": {
+      "name": "600018",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(600018)(600018), None行业",
+      "attributes": {
+        "display_name": "Unknown(600018)",
+        "industry": null
+      }
+    },
+    "Unknown(600019)": {
+      "name": "Unknown(600019)",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(600019)(600019), 钢铁行业",
+      "attributes": {
+        "code": "600019",
+        "industry": "钢铁"
+      }
+    },
+    "600019": {
+      "name": "600019",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(600019)(600019), 钢铁行业",
+      "attributes": {
+        "display_name": "Unknown(600019)",
+        "industry": "钢铁"
+      }
+    },
+    "Unknown(600023)": {
+      "name": "Unknown(600023)",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(600023)(600023), None行业",
+      "attributes": {
+        "code": "600023",
+        "industry": null
+      }
+    },
+    "600023": {
+      "name": "600023",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(600023)(600023), None行业",
+      "attributes": {
+        "display_name": "Unknown(600023)",
+        "industry": null
+      }
+    },
+    "Unknown(600025)": {
+      "name": "Unknown(600025)",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(600025)(600025), None行业",
+      "attributes": {
+        "code": "600025",
+        "industry": null
+      }
+    },
+    "600025": {
+      "name": "600025",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(600025)(600025), None行业",
+      "attributes": {
+        "display_name": "Unknown(600025)",
+        "industry": null
+      }
+    },
+    "Unknown(600026)": {
+      "name": "Unknown(600026)",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(600026)(600026), None行业",
+      "attributes": {
+        "code": "600026",
+        "industry": null
+      }
+    },
+    "600026": {
+      "name": "600026",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(600026)(600026), None行业",
+      "attributes": {
+        "display_name": "Unknown(600026)",
+        "industry": null
+      }
+    },
+    "Unknown(600027)": {
+      "name": "Unknown(600027)",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(600027)(600027), None行业",
+      "attributes": {
+        "code": "600027",
+        "industry": null
+      }
+    },
+    "600027": {
+      "name": "600027",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(600027)(600027), None行业",
+      "attributes": {
+        "display_name": "Unknown(600027)",
+        "industry": null
+      }
+    },
+    "Unknown(600028)": {
+      "name": "Unknown(600028)",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(600028)(600028), 石油石化行业",
+      "attributes": {
+        "code": "600028",
+        "industry": "石油石化"
+      }
+    },
+    "600028": {
+      "name": "600028",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(600028)(600028), 石油石化行业",
+      "attributes": {
+        "display_name": "Unknown(600028)",
+        "industry": "石油石化"
+      }
+    },
+    "Unknown(600029)": {
+      "name": "Unknown(600029)",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(600029)(600029), 交通运输行业",
+      "attributes": {
+        "code": "600029",
+        "industry": "交通运输"
+      }
+    },
+    "600029": {
+      "name": "600029",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(600029)(600029), 交通运输行业",
+      "attributes": {
+        "display_name": "Unknown(600029)",
+        "industry": "交通运输"
+      }
+    },
+    "Unknown(600030)": {
+      "name": "Unknown(600030)",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(600030)(600030), 非银金融行业",
+      "attributes": {
+        "code": "600030",
+        "industry": "非银金融"
+      }
+    },
+    "600030": {
+      "name": "600030",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(600030)(600030), 非银金融行业",
+      "attributes": {
+        "display_name": "Unknown(600030)",
+        "industry": "非银金融"
+      }
+    },
+    "Unknown(600031)": {
+      "name": "Unknown(600031)",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(600031)(600031), None行业",
+      "attributes": {
+        "code": "600031",
+        "industry": null
+      }
+    },
+    "600031": {
+      "name": "600031",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(600031)(600031), None行业",
+      "attributes": {
+        "display_name": "Unknown(600031)",
+        "industry": null
+      }
+    },
+    "Unknown(600036)": {
+      "name": "Unknown(600036)",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(600036)(600036), 银行行业",
+      "attributes": {
+        "code": "600036",
+        "industry": "银行"
+      }
+    },
+    "600036": {
+      "name": "600036",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(600036)(600036), 银行行业",
+      "attributes": {
+        "display_name": "Unknown(600036)",
+        "industry": "银行"
+      }
+    },
+    "Unknown(600039)": {
+      "name": "Unknown(600039)",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(600039)(600039), None行业",
+      "attributes": {
+        "code": "600039",
+        "industry": null
+      }
+    },
+    "600039": {
+      "name": "600039",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(600039)(600039), None行业",
+      "attributes": {
+        "display_name": "Unknown(600039)",
+        "industry": null
+      }
+    },
+    "Unknown(600048)": {
+      "name": "Unknown(600048)",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(600048)(600048), 房地产行业",
+      "attributes": {
+        "code": "600048",
+        "industry": "房地产"
+      }
+    },
+    "600048": {
+      "name": "600048",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(600048)(600048), 房地产行业",
+      "attributes": {
+        "display_name": "Unknown(600048)",
+        "industry": "房地产"
+      }
+    },
+    "Unknown(600050)": {
+      "name": "Unknown(600050)",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(600050)(600050), 通信行业",
+      "attributes": {
+        "code": "600050",
+        "industry": "通信"
+      }
+    },
+    "600050": {
+      "name": "600050",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(600050)(600050), 通信行业",
+      "attributes": {
+        "display_name": "Unknown(600050)",
+        "industry": "通信"
+      }
+    },
+    "Unknown(600061)": {
+      "name": "Unknown(600061)",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(600061)(600061), None行业",
+      "attributes": {
+        "code": "600061",
+        "industry": null
+      }
+    },
+    "600061": {
+      "name": "600061",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(600061)(600061), None行业",
+      "attributes": {
+        "display_name": "Unknown(600061)",
+        "industry": null
+      }
+    },
+    "Unknown(600066)": {
+      "name": "Unknown(600066)",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(600066)(600066), None行业",
+      "attributes": {
+        "code": "600066",
+        "industry": null
+      }
+    },
+    "600066": {
+      "name": "600066",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(600066)(600066), None行业",
+      "attributes": {
+        "display_name": "Unknown(600066)",
+        "industry": null
+      }
+    },
+    "Unknown(600085)": {
+      "name": "Unknown(600085)",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(600085)(600085), None行业",
+      "attributes": {
+        "code": "600085",
+        "industry": null
+      }
+    },
+    "600085": {
+      "name": "600085",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(600085)(600085), None行业",
+      "attributes": {
+        "display_name": "Unknown(600085)",
+        "industry": null
+      }
+    },
+    "Unknown(600089)": {
+      "name": "Unknown(600089)",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(600089)(600089), None行业",
+      "attributes": {
+        "code": "600089",
+        "industry": null
+      }
+    },
+    "600089": {
+      "name": "600089",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(600089)(600089), None行业",
+      "attributes": {
+        "display_name": "Unknown(600089)",
+        "industry": null
+      }
+    },
+    "Unknown(600104)": {
+      "name": "Unknown(600104)",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(600104)(600104), 汽车行业",
+      "attributes": {
+        "code": "600104",
+        "industry": "汽车"
+      }
+    },
+    "600104": {
+      "name": "600104",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(600104)(600104), 汽车行业",
+      "attributes": {
+        "display_name": "Unknown(600104)",
+        "industry": "汽车"
+      }
+    },
+    "Unknown(600111)": {
+      "name": "Unknown(600111)",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(600111)(600111), None行业",
+      "attributes": {
+        "code": "600111",
+        "industry": null
+      }
+    },
+    "600111": {
+      "name": "600111",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(600111)(600111), None行业",
+      "attributes": {
+        "display_name": "Unknown(600111)",
+        "industry": null
+      }
+    },
+    "Unknown(600115)": {
+      "name": "Unknown(600115)",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(600115)(600115), None行业",
+      "attributes": {
+        "code": "600115",
+        "industry": null
+      }
+    },
+    "600115": {
+      "name": "600115",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(600115)(600115), None行业",
+      "attributes": {
+        "display_name": "Unknown(600115)",
+        "industry": null
+      }
+    },
+    "Unknown(600150)": {
+      "name": "Unknown(600150)",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(600150)(600150), None行业",
+      "attributes": {
+        "code": "600150",
+        "industry": null
+      }
+    },
+    "600150": {
+      "name": "600150",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(600150)(600150), None行业",
+      "attributes": {
+        "display_name": "Unknown(600150)",
+        "industry": null
+      }
+    },
+    "Unknown(600160)": {
+      "name": "Unknown(600160)",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(600160)(600160), None行业",
+      "attributes": {
+        "code": "600160",
+        "industry": null
+      }
+    },
+    "600160": {
+      "name": "600160",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(600160)(600160), None行业",
+      "attributes": {
+        "display_name": "Unknown(600160)",
+        "industry": null
+      }
+    },
+    "Unknown(600161)": {
+      "name": "Unknown(600161)",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(600161)(600161), None行业",
+      "attributes": {
+        "code": "600161",
+        "industry": null
+      }
+    },
+    "600161": {
+      "name": "600161",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(600161)(600161), None行业",
+      "attributes": {
+        "display_name": "Unknown(600161)",
+        "industry": null
+      }
+    },
+    "Unknown(600176)": {
+      "name": "Unknown(600176)",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(600176)(600176), None行业",
+      "attributes": {
+        "code": "600176",
+        "industry": null
+      }
+    },
+    "600176": {
+      "name": "600176",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(600176)(600176), None行业",
+      "attributes": {
+        "display_name": "Unknown(600176)",
+        "industry": null
+      }
+    },
+    "Unknown(600183)": {
+      "name": "Unknown(600183)",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(600183)(600183), None行业",
+      "attributes": {
+        "code": "600183",
+        "industry": null
+      }
+    },
+    "600183": {
+      "name": "600183",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(600183)(600183), None行业",
+      "attributes": {
+        "display_name": "Unknown(600183)",
+        "industry": null
+      }
+    },
+    "Unknown(600188)": {
+      "name": "Unknown(600188)",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(600188)(600188), 煤炭行业",
+      "attributes": {
+        "code": "600188",
+        "industry": "煤炭"
+      }
+    },
+    "600188": {
+      "name": "600188",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(600188)(600188), 煤炭行业",
+      "attributes": {
+        "display_name": "Unknown(600188)",
+        "industry": "煤炭"
+      }
+    },
+    "Unknown(600196)": {
+      "name": "Unknown(600196)",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(600196)(600196), None行业",
+      "attributes": {
+        "code": "600196",
+        "industry": null
+      }
+    },
+    "600196": {
+      "name": "600196",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(600196)(600196), None行业",
+      "attributes": {
+        "display_name": "Unknown(600196)",
+        "industry": null
+      }
+    },
+    "Unknown(600219)": {
+      "name": "Unknown(600219)",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(600219)(600219), None行业",
+      "attributes": {
+        "code": "600219",
+        "industry": null
+      }
+    },
+    "600219": {
+      "name": "600219",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(600219)(600219), None行业",
+      "attributes": {
+        "display_name": "Unknown(600219)",
+        "industry": null
+      }
+    },
+    "Unknown(600233)": {
+      "name": "Unknown(600233)",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(600233)(600233), None行业",
+      "attributes": {
+        "code": "600233",
+        "industry": null
+      }
+    },
+    "600233": {
+      "name": "600233",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(600233)(600233), None行业",
+      "attributes": {
+        "display_name": "Unknown(600233)",
+        "industry": null
+      }
+    },
+    "Unknown(600276)": {
+      "name": "Unknown(600276)",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(600276)(600276), 医药生物行业",
+      "attributes": {
+        "code": "600276",
+        "industry": "医药生物"
+      }
+    },
+    "600276": {
+      "name": "600276",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(600276)(600276), 医药生物行业",
+      "attributes": {
+        "display_name": "Unknown(600276)",
+        "industry": "医药生物"
+      }
+    },
+    "Unknown(600309)": {
+      "name": "Unknown(600309)",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(600309)(600309), 基础化工行业",
+      "attributes": {
+        "code": "600309",
+        "industry": "基础化工"
+      }
+    },
+    "600309": {
+      "name": "600309",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(600309)(600309), 基础化工行业",
+      "attributes": {
+        "display_name": "Unknown(600309)",
+        "industry": "基础化工"
+      }
+    },
+    "Unknown(600346)": {
+      "name": "Unknown(600346)",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(600346)(600346), 石油石化行业",
+      "attributes": {
+        "code": "600346",
+        "industry": "石油石化"
+      }
+    },
+    "600346": {
+      "name": "600346",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(600346)(600346), 石油石化行业",
+      "attributes": {
+        "display_name": "Unknown(600346)",
+        "industry": "石油石化"
+      }
+    },
+    "Unknown(600362)": {
+      "name": "Unknown(600362)",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(600362)(600362), 有色金属行业",
+      "attributes": {
+        "code": "600362",
+        "industry": "有色金属"
+      }
+    },
+    "600362": {
+      "name": "600362",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(600362)(600362), 有色金属行业",
+      "attributes": {
+        "display_name": "Unknown(600362)",
+        "industry": "有色金属"
+      }
+    },
+    "Unknown(600372)": {
+      "name": "Unknown(600372)",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(600372)(600372), None行业",
+      "attributes": {
+        "code": "600372",
+        "industry": null
+      }
+    },
+    "600372": {
+      "name": "600372",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(600372)(600372), None行业",
+      "attributes": {
+        "display_name": "Unknown(600372)",
+        "industry": null
+      }
+    },
+    "Unknown(600377)": {
+      "name": "Unknown(600377)",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(600377)(600377), None行业",
+      "attributes": {
+        "code": "600377",
+        "industry": null
+      }
+    },
+    "600377": {
+      "name": "600377",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(600377)(600377), None行业",
+      "attributes": {
+        "display_name": "Unknown(600377)",
+        "industry": null
+      }
+    },
+    "Unknown(600406)": {
+      "name": "Unknown(600406)",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(600406)(600406), None行业",
+      "attributes": {
+        "code": "600406",
+        "industry": null
+      }
+    },
+    "600406": {
+      "name": "600406",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(600406)(600406), None行业",
+      "attributes": {
+        "display_name": "Unknown(600406)",
+        "industry": null
+      }
+    },
+    "Unknown(600415)": {
+      "name": "Unknown(600415)",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(600415)(600415), None行业",
+      "attributes": {
+        "code": "600415",
+        "industry": null
+      }
+    },
+    "600415": {
+      "name": "600415",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(600415)(600415), None行业",
+      "attributes": {
+        "display_name": "Unknown(600415)",
+        "industry": null
+      }
+    },
+    "Unknown(600426)": {
+      "name": "Unknown(600426)",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(600426)(600426), None行业",
+      "attributes": {
+        "code": "600426",
+        "industry": null
+      }
+    },
+    "600426": {
+      "name": "600426",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(600426)(600426), None行业",
+      "attributes": {
+        "display_name": "Unknown(600426)",
+        "industry": null
+      }
+    },
+    "Unknown(600436)": {
+      "name": "Unknown(600436)",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(600436)(600436), None行业",
+      "attributes": {
+        "code": "600436",
+        "industry": null
+      }
+    },
+    "600436": {
+      "name": "600436",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(600436)(600436), None行业",
+      "attributes": {
+        "display_name": "Unknown(600436)",
+        "industry": null
+      }
+    },
+    "Unknown(600438)": {
+      "name": "Unknown(600438)",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(600438)(600438), 农林牧渔行业",
+      "attributes": {
+        "code": "600438",
+        "industry": "农林牧渔"
+      }
+    },
+    "600438": {
+      "name": "600438",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(600438)(600438), 农林牧渔行业",
+      "attributes": {
+        "display_name": "Unknown(600438)",
+        "industry": "农林牧渔"
+      }
+    },
+    "Unknown(600460)": {
+      "name": "Unknown(600460)",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(600460)(600460), None行业",
+      "attributes": {
+        "code": "600460",
+        "industry": null
+      }
+    },
+    "600460": {
+      "name": "600460",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(600460)(600460), None行业",
+      "attributes": {
+        "display_name": "Unknown(600460)",
+        "industry": null
+      }
+    },
+    "Unknown(600482)": {
+      "name": "Unknown(600482)",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(600482)(600482), None行业",
+      "attributes": {
+        "code": "600482",
+        "industry": null
+      }
+    },
+    "600482": {
+      "name": "600482",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(600482)(600482), None行业",
+      "attributes": {
+        "display_name": "Unknown(600482)",
+        "industry": null
+      }
+    },
+    "Unknown(600489)": {
+      "name": "Unknown(600489)",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(600489)(600489), None行业",
+      "attributes": {
+        "code": "600489",
+        "industry": null
+      }
+    },
+    "600489": {
+      "name": "600489",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(600489)(600489), None行业",
+      "attributes": {
+        "display_name": "Unknown(600489)",
+        "industry": null
+      }
+    },
+    "Unknown(600515)": {
+      "name": "Unknown(600515)",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(600515)(600515), None行业",
+      "attributes": {
+        "code": "600515",
+        "industry": null
+      }
+    },
+    "600515": {
+      "name": "600515",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(600515)(600515), None行业",
+      "attributes": {
+        "display_name": "Unknown(600515)",
+        "industry": null
+      }
+    },
+    "Unknown(600519)": {
+      "name": "Unknown(600519)",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(600519)(600519), 食品饮料行业",
+      "attributes": {
+        "code": "600519",
+        "industry": "食品饮料"
+      }
+    },
+    "600519": {
+      "name": "600519",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(600519)(600519), 食品饮料行业",
+      "attributes": {
+        "display_name": "Unknown(600519)",
+        "industry": "食品饮料"
+      }
+    },
+    "Unknown(600522)": {
+      "name": "Unknown(600522)",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(600522)(600522), None行业",
+      "attributes": {
+        "code": "600522",
+        "industry": null
+      }
+    },
+    "600522": {
+      "name": "600522",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(600522)(600522), None行业",
+      "attributes": {
+        "display_name": "Unknown(600522)",
+        "industry": null
+      }
+    },
+    "Unknown(600547)": {
+      "name": "Unknown(600547)",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(600547)(600547), None行业",
+      "attributes": {
+        "code": "600547",
+        "industry": null
+      }
+    },
+    "600547": {
+      "name": "600547",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(600547)(600547), None行业",
+      "attributes": {
+        "display_name": "Unknown(600547)",
+        "industry": null
+      }
+    },
+    "Unknown(600570)": {
+      "name": "Unknown(600570)",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(600570)(600570), None行业",
+      "attributes": {
+        "code": "600570",
+        "industry": null
+      }
+    },
+    "600570": {
+      "name": "600570",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(600570)(600570), None行业",
+      "attributes": {
+        "display_name": "Unknown(600570)",
+        "industry": null
+      }
+    },
+    "Unknown(600584)": {
+      "name": "Unknown(600584)",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(600584)(600584), None行业",
+      "attributes": {
+        "code": "600584",
+        "industry": null
+      }
+    },
+    "600584": {
+      "name": "600584",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(600584)(600584), None行业",
+      "attributes": {
+        "display_name": "Unknown(600584)",
+        "industry": null
+      }
+    },
+    "Unknown(600585)": {
+      "name": "Unknown(600585)",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(600585)(600585), 建筑材料行业",
+      "attributes": {
+        "code": "600585",
+        "industry": "建筑材料"
+      }
+    },
+    "600585": {
+      "name": "600585",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(600585)(600585), 建筑材料行业",
+      "attributes": {
+        "display_name": "Unknown(600585)",
+        "industry": "建筑材料"
+      }
+    },
+    "Unknown(600588)": {
+      "name": "Unknown(600588)",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(600588)(600588), None行业",
+      "attributes": {
+        "code": "600588",
+        "industry": null
+      }
+    },
+    "600588": {
+      "name": "600588",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(600588)(600588), None行业",
+      "attributes": {
+        "display_name": "Unknown(600588)",
+        "industry": null
+      }
+    },
+    "Unknown(600600)": {
+      "name": "Unknown(600600)",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(600600)(600600), None行业",
+      "attributes": {
+        "code": "600600",
+        "industry": null
+      }
+    },
+    "600600": {
+      "name": "600600",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(600600)(600600), None行业",
+      "attributes": {
+        "display_name": "Unknown(600600)",
+        "industry": null
+      }
+    },
+    "Unknown(600660)": {
+      "name": "Unknown(600660)",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(600660)(600660), None行业",
+      "attributes": {
+        "code": "600660",
+        "industry": null
+      }
+    },
+    "600660": {
+      "name": "600660",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(600660)(600660), None行业",
+      "attributes": {
+        "display_name": "Unknown(600660)",
+        "industry": null
+      }
+    },
+    "Unknown(600674)": {
+      "name": "Unknown(600674)",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(600674)(600674), None行业",
+      "attributes": {
+        "code": "600674",
+        "industry": null
+      }
+    },
+    "600674": {
+      "name": "600674",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(600674)(600674), None行业",
+      "attributes": {
+        "display_name": "Unknown(600674)",
+        "industry": null
+      }
+    },
+    "Unknown(600690)": {
+      "name": "Unknown(600690)",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(600690)(600690), 家用电器行业",
+      "attributes": {
+        "code": "600690",
+        "industry": "家用电器"
+      }
+    },
+    "600690": {
+      "name": "600690",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(600690)(600690), 家用电器行业",
+      "attributes": {
+        "display_name": "Unknown(600690)",
+        "industry": "家用电器"
+      }
+    },
+    "Unknown(600741)": {
+      "name": "Unknown(600741)",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(600741)(600741), None行业",
+      "attributes": {
+        "code": "600741",
+        "industry": null
+      }
+    },
+    "600741": {
+      "name": "600741",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(600741)(600741), None行业",
+      "attributes": {
+        "display_name": "Unknown(600741)",
+        "industry": null
+      }
+    },
+    "Unknown(600760)": {
+      "name": "Unknown(600760)",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(600760)(600760), 国防军工行业",
+      "attributes": {
+        "code": "600760",
+        "industry": "国防军工"
+      }
+    },
+    "600760": {
+      "name": "600760",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(600760)(600760), 国防军工行业",
+      "attributes": {
+        "display_name": "Unknown(600760)",
+        "industry": "国防军工"
+      }
+    },
+    "Unknown(600795)": {
+      "name": "Unknown(600795)",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(600795)(600795), None行业",
+      "attributes": {
+        "code": "600795",
+        "industry": null
+      }
+    },
+    "600795": {
+      "name": "600795",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(600795)(600795), None行业",
+      "attributes": {
+        "display_name": "Unknown(600795)",
+        "industry": null
+      }
+    },
+    "Unknown(600803)": {
+      "name": "Unknown(600803)",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(600803)(600803), None行业",
+      "attributes": {
+        "code": "600803",
+        "industry": null
+      }
+    },
+    "600803": {
+      "name": "600803",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(600803)(600803), None行业",
+      "attributes": {
+        "display_name": "Unknown(600803)",
+        "industry": null
+      }
+    },
+    "Unknown(600809)": {
+      "name": "Unknown(600809)",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(600809)(600809), None行业",
+      "attributes": {
+        "code": "600809",
+        "industry": null
+      }
+    },
+    "600809": {
+      "name": "600809",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(600809)(600809), None行业",
+      "attributes": {
+        "display_name": "Unknown(600809)",
+        "industry": null
+      }
+    },
+    "Unknown(600845)": {
+      "name": "Unknown(600845)",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(600845)(600845), None行业",
+      "attributes": {
+        "code": "600845",
+        "industry": null
+      }
+    },
+    "600845": {
+      "name": "600845",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(600845)(600845), None行业",
+      "attributes": {
+        "display_name": "Unknown(600845)",
+        "industry": null
+      }
+    },
+    "Unknown(600875)": {
+      "name": "Unknown(600875)",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(600875)(600875), None行业",
+      "attributes": {
+        "code": "600875",
+        "industry": null
+      }
+    },
+    "600875": {
+      "name": "600875",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(600875)(600875), None行业",
+      "attributes": {
+        "display_name": "Unknown(600875)",
+        "industry": null
+      }
+    },
+    "Unknown(600886)": {
+      "name": "Unknown(600886)",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(600886)(600886), 公用事业行业",
+      "attributes": {
+        "code": "600886",
+        "industry": "公用事业"
+      }
+    },
+    "600886": {
+      "name": "600886",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(600886)(600886), 公用事业行业",
+      "attributes": {
+        "display_name": "Unknown(600886)",
+        "industry": "公用事业"
+      }
+    },
+    "Unknown(600887)": {
+      "name": "Unknown(600887)",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(600887)(600887), None行业",
+      "attributes": {
+        "code": "600887",
+        "industry": null
+      }
+    },
+    "600887": {
+      "name": "600887",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(600887)(600887), None行业",
+      "attributes": {
+        "display_name": "Unknown(600887)",
+        "industry": null
+      }
+    },
+    "Unknown(600893)": {
+      "name": "Unknown(600893)",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(600893)(600893), 国防军工行业",
+      "attributes": {
+        "code": "600893",
+        "industry": "国防军工"
+      }
+    },
+    "600893": {
+      "name": "600893",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(600893)(600893), 国防军工行业",
+      "attributes": {
+        "display_name": "Unknown(600893)",
+        "industry": "国防军工"
+      }
+    },
+    "Unknown(600900)": {
+      "name": "Unknown(600900)",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(600900)(600900), 公用事业行业",
+      "attributes": {
+        "code": "600900",
+        "industry": "公用事业"
+      }
+    },
+    "600900": {
+      "name": "600900",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(600900)(600900), 公用事业行业",
+      "attributes": {
+        "display_name": "Unknown(600900)",
+        "industry": "公用事业"
+      }
+    },
+    "Unknown(600905)": {
+      "name": "Unknown(600905)",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(600905)(600905), None行业",
+      "attributes": {
+        "code": "600905",
+        "industry": null
+      }
+    },
+    "600905": {
+      "name": "600905",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(600905)(600905), None行业",
+      "attributes": {
+        "display_name": "Unknown(600905)",
+        "industry": null
+      }
+    },
+    "Unknown(600918)": {
+      "name": "Unknown(600918)",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(600918)(600918), None行业",
+      "attributes": {
+        "code": "600918",
+        "industry": null
+      }
+    },
+    "600918": {
+      "name": "600918",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(600918)(600918), None行业",
+      "attributes": {
+        "display_name": "Unknown(600918)",
+        "industry": null
+      }
+    },
+    "Unknown(600919)": {
+      "name": "Unknown(600919)",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(600919)(600919), None行业",
+      "attributes": {
+        "code": "600919",
+        "industry": null
+      }
+    },
+    "600919": {
+      "name": "600919",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(600919)(600919), None行业",
+      "attributes": {
+        "display_name": "Unknown(600919)",
+        "industry": null
+      }
+    },
+    "Unknown(600926)": {
+      "name": "Unknown(600926)",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(600926)(600926), None行业",
+      "attributes": {
+        "code": "600926",
+        "industry": null
+      }
+    },
+    "600926": {
+      "name": "600926",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(600926)(600926), None行业",
+      "attributes": {
+        "display_name": "Unknown(600926)",
+        "industry": null
+      }
+    },
+    "Unknown(600930)": {
+      "name": "Unknown(600930)",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(600930)(600930), None行业",
+      "attributes": {
+        "code": "600930",
+        "industry": null
+      }
+    },
+    "600930": {
+      "name": "600930",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(600930)(600930), None行业",
+      "attributes": {
+        "display_name": "Unknown(600930)",
+        "industry": null
+      }
+    },
+    "Unknown(600938)": {
+      "name": "Unknown(600938)",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(600938)(600938), None行业",
+      "attributes": {
+        "code": "600938",
+        "industry": null
+      }
+    },
+    "600938": {
+      "name": "600938",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(600938)(600938), None行业",
+      "attributes": {
+        "display_name": "Unknown(600938)",
+        "industry": null
+      }
+    },
+    "Unknown(600941)": {
+      "name": "Unknown(600941)",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(600941)(600941), None行业",
+      "attributes": {
+        "code": "600941",
+        "industry": null
+      }
+    },
+    "600941": {
+      "name": "600941",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(600941)(600941), None行业",
+      "attributes": {
+        "display_name": "Unknown(600941)",
+        "industry": null
+      }
+    },
+    "Unknown(600958)": {
+      "name": "Unknown(600958)",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(600958)(600958), None行业",
+      "attributes": {
+        "code": "600958",
+        "industry": null
+      }
+    },
+    "600958": {
+      "name": "600958",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(600958)(600958), None行业",
+      "attributes": {
+        "display_name": "Unknown(600958)",
+        "industry": null
+      }
+    },
+    "Unknown(600989)": {
+      "name": "Unknown(600989)",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(600989)(600989), 基础化工行业",
+      "attributes": {
+        "code": "600989",
+        "industry": "基础化工"
+      }
+    },
+    "600989": {
+      "name": "600989",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(600989)(600989), 基础化工行业",
+      "attributes": {
+        "display_name": "Unknown(600989)",
+        "industry": "基础化工"
+      }
+    },
+    "Unknown(600999)": {
+      "name": "Unknown(600999)",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(600999)(600999), None行业",
+      "attributes": {
+        "code": "600999",
+        "industry": null
+      }
+    },
+    "600999": {
+      "name": "600999",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(600999)(600999), None行业",
+      "attributes": {
+        "display_name": "Unknown(600999)",
+        "industry": null
+      }
+    },
+    "Unknown(601006)": {
+      "name": "Unknown(601006)",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(601006)(601006), 交通运输行业",
+      "attributes": {
+        "code": "601006",
+        "industry": "交通运输"
+      }
+    },
+    "601006": {
+      "name": "601006",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(601006)(601006), 交通运输行业",
+      "attributes": {
+        "display_name": "Unknown(601006)",
+        "industry": "交通运输"
+      }
+    },
+    "Unknown(601009)": {
+      "name": "Unknown(601009)",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(601009)(601009), None行业",
+      "attributes": {
+        "code": "601009",
+        "industry": null
+      }
+    },
+    "601009": {
+      "name": "601009",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(601009)(601009), None行业",
+      "attributes": {
+        "display_name": "Unknown(601009)",
+        "industry": null
+      }
+    },
+    "Unknown(601012)": {
+      "name": "Unknown(601012)",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(601012)(601012), 电力设备行业",
+      "attributes": {
+        "code": "601012",
+        "industry": "电力设备"
+      }
+    },
+    "601012": {
+      "name": "601012",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(601012)(601012), 电力设备行业",
+      "attributes": {
+        "display_name": "Unknown(601012)",
+        "industry": "电力设备"
+      }
+    },
+    "Unknown(601018)": {
+      "name": "Unknown(601018)",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(601018)(601018), None行业",
+      "attributes": {
+        "code": "601018",
+        "industry": null
+      }
+    },
+    "601018": {
+      "name": "601018",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(601018)(601018), None行业",
+      "attributes": {
+        "display_name": "Unknown(601018)",
+        "industry": null
+      }
+    },
+    "Unknown(601021)": {
+      "name": "Unknown(601021)",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(601021)(601021), None行业",
+      "attributes": {
+        "code": "601021",
+        "industry": null
+      }
+    },
+    "601021": {
+      "name": "601021",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(601021)(601021), None行业",
+      "attributes": {
+        "display_name": "Unknown(601021)",
+        "industry": null
+      }
+    },
+    "Unknown(601058)": {
+      "name": "Unknown(601058)",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(601058)(601058), None行业",
+      "attributes": {
+        "code": "601058",
+        "industry": null
+      }
+    },
+    "601058": {
+      "name": "601058",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(601058)(601058), None行业",
+      "attributes": {
+        "display_name": "Unknown(601058)",
+        "industry": null
+      }
+    },
+    "Unknown(601059)": {
+      "name": "Unknown(601059)",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(601059)(601059), None行业",
+      "attributes": {
+        "code": "601059",
+        "industry": null
+      }
+    },
+    "601059": {
+      "name": "601059",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(601059)(601059), None行业",
+      "attributes": {
+        "display_name": "Unknown(601059)",
+        "industry": null
+      }
+    },
+    "Unknown(601066)": {
+      "name": "Unknown(601066)",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(601066)(601066), None行业",
+      "attributes": {
+        "code": "601066",
+        "industry": null
+      }
+    },
+    "601066": {
+      "name": "601066",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(601066)(601066), None行业",
+      "attributes": {
+        "display_name": "Unknown(601066)",
+        "industry": null
+      }
+    },
+    "Unknown(601077)": {
+      "name": "Unknown(601077)",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(601077)(601077), None行业",
+      "attributes": {
+        "code": "601077",
+        "industry": null
+      }
+    },
+    "601077": {
+      "name": "601077",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(601077)(601077), None行业",
+      "attributes": {
+        "display_name": "Unknown(601077)",
+        "industry": null
+      }
+    },
+    "Unknown(601088)": {
+      "name": "Unknown(601088)",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(601088)(601088), 煤炭行业",
+      "attributes": {
+        "code": "601088",
+        "industry": "煤炭"
+      }
+    },
+    "601088": {
+      "name": "601088",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(601088)(601088), 煤炭行业",
+      "attributes": {
+        "display_name": "Unknown(601088)",
+        "industry": "煤炭"
+      }
+    },
+    "Unknown(601100)": {
+      "name": "Unknown(601100)",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(601100)(601100), 机械设备行业",
+      "attributes": {
+        "code": "601100",
+        "industry": "机械设备"
+      }
+    },
+    "601100": {
+      "name": "601100",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(601100)(601100), 机械设备行业",
+      "attributes": {
+        "display_name": "Unknown(601100)",
+        "industry": "机械设备"
+      }
+    },
+    "Unknown(601111)": {
+      "name": "Unknown(601111)",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(601111)(601111), 交通运输行业",
+      "attributes": {
+        "code": "601111",
+        "industry": "交通运输"
+      }
+    },
+    "601111": {
+      "name": "601111",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(601111)(601111), 交通运输行业",
+      "attributes": {
+        "display_name": "Unknown(601111)",
+        "industry": "交通运输"
+      }
+    },
+    "Unknown(601117)": {
+      "name": "Unknown(601117)",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(601117)(601117), None行业",
+      "attributes": {
+        "code": "601117",
+        "industry": null
+      }
+    },
+    "601117": {
+      "name": "601117",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(601117)(601117), None行业",
+      "attributes": {
+        "display_name": "Unknown(601117)",
+        "industry": null
+      }
+    },
+    "Unknown(601127)": {
+      "name": "Unknown(601127)",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(601127)(601127), 汽车行业",
+      "attributes": {
+        "code": "601127",
+        "industry": "汽车"
+      }
+    },
+    "601127": {
+      "name": "601127",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(601127)(601127), 汽车行业",
+      "attributes": {
+        "display_name": "Unknown(601127)",
+        "industry": "汽车"
+      }
+    },
+    "Unknown(601136)": {
+      "name": "Unknown(601136)",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(601136)(601136), None行业",
+      "attributes": {
+        "code": "601136",
+        "industry": null
+      }
+    },
+    "601136": {
+      "name": "601136",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(601136)(601136), None行业",
+      "attributes": {
+        "display_name": "Unknown(601136)",
+        "industry": null
+      }
+    },
+    "Unknown(601138)": {
+      "name": "Unknown(601138)",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(601138)(601138), None行业",
+      "attributes": {
+        "code": "601138",
+        "industry": null
+      }
+    },
+    "601138": {
+      "name": "601138",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(601138)(601138), None行业",
+      "attributes": {
+        "display_name": "Unknown(601138)",
+        "industry": null
+      }
+    },
+    "Unknown(601166)": {
+      "name": "Unknown(601166)",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(601166)(601166), 银行行业",
+      "attributes": {
+        "code": "601166",
+        "industry": "银行"
+      }
+    },
+    "601166": {
+      "name": "601166",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(601166)(601166), 银行行业",
+      "attributes": {
+        "display_name": "Unknown(601166)",
+        "industry": "银行"
+      }
+    },
+    "Unknown(601169)": {
+      "name": "Unknown(601169)",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(601169)(601169), None行业",
+      "attributes": {
+        "code": "601169",
+        "industry": null
+      }
+    },
+    "601169": {
+      "name": "601169",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(601169)(601169), None行业",
+      "attributes": {
+        "display_name": "Unknown(601169)",
+        "industry": null
+      }
+    },
+    "Unknown(601186)": {
+      "name": "Unknown(601186)",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(601186)(601186), 建筑装饰行业",
+      "attributes": {
+        "code": "601186",
+        "industry": "建筑装饰"
+      }
+    },
+    "601186": {
+      "name": "601186",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(601186)(601186), 建筑装饰行业",
+      "attributes": {
+        "display_name": "Unknown(601186)",
+        "industry": "建筑装饰"
+      }
+    },
+    "Unknown(601211)": {
+      "name": "Unknown(601211)",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(601211)(601211), None行业",
+      "attributes": {
+        "code": "601211",
+        "industry": null
+      }
+    },
+    "601211": {
+      "name": "601211",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(601211)(601211), None行业",
+      "attributes": {
+        "display_name": "Unknown(601211)",
+        "industry": null
+      }
+    },
+    "Unknown(601225)": {
+      "name": "Unknown(601225)",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(601225)(601225), None行业",
+      "attributes": {
+        "code": "601225",
+        "industry": null
+      }
+    },
+    "601225": {
+      "name": "601225",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(601225)(601225), None行业",
+      "attributes": {
+        "display_name": "Unknown(601225)",
+        "industry": null
+      }
+    },
+    "Unknown(601229)": {
+      "name": "Unknown(601229)",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(601229)(601229), None行业",
+      "attributes": {
+        "code": "601229",
+        "industry": null
+      }
+    },
+    "601229": {
+      "name": "601229",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(601229)(601229), None行业",
+      "attributes": {
+        "display_name": "Unknown(601229)",
+        "industry": null
+      }
+    },
+    "Unknown(601236)": {
+      "name": "Unknown(601236)",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(601236)(601236), None行业",
+      "attributes": {
+        "code": "601236",
+        "industry": null
+      }
+    },
+    "601236": {
+      "name": "601236",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(601236)(601236), None行业",
+      "attributes": {
+        "display_name": "Unknown(601236)",
+        "industry": null
+      }
+    },
+    "Unknown(601238)": {
+      "name": "Unknown(601238)",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(601238)(601238), None行业",
+      "attributes": {
+        "code": "601238",
+        "industry": null
+      }
+    },
+    "601238": {
+      "name": "601238",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(601238)(601238), None行业",
+      "attributes": {
+        "display_name": "Unknown(601238)",
+        "industry": null
+      }
+    },
+    "Unknown(601288)": {
+      "name": "Unknown(601288)",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(601288)(601288), None行业",
+      "attributes": {
+        "code": "601288",
+        "industry": null
+      }
+    },
+    "601288": {
+      "name": "601288",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(601288)(601288), None行业",
+      "attributes": {
+        "display_name": "Unknown(601288)",
+        "industry": null
+      }
+    },
+    "Unknown(601298)": {
+      "name": "Unknown(601298)",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(601298)(601298), None行业",
+      "attributes": {
+        "code": "601298",
+        "industry": null
+      }
+    },
+    "601298": {
+      "name": "601298",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(601298)(601298), None行业",
+      "attributes": {
+        "display_name": "Unknown(601298)",
+        "industry": null
+      }
+    },
+    "Unknown(601318)": {
+      "name": "Unknown(601318)",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(601318)(601318), 非银金融行业",
+      "attributes": {
+        "code": "601318",
+        "industry": "非银金融"
+      }
+    },
+    "601318": {
+      "name": "601318",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(601318)(601318), 非银金融行业",
+      "attributes": {
+        "display_name": "Unknown(601318)",
+        "industry": "非银金融"
+      }
+    },
+    "Unknown(601319)": {
+      "name": "Unknown(601319)",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(601319)(601319), None行业",
+      "attributes": {
+        "code": "601319",
+        "industry": null
+      }
+    },
+    "601319": {
+      "name": "601319",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(601319)(601319), None行业",
+      "attributes": {
+        "display_name": "Unknown(601319)",
+        "industry": null
+      }
+    },
+    "Unknown(601328)": {
+      "name": "Unknown(601328)",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(601328)(601328), None行业",
+      "attributes": {
+        "code": "601328",
+        "industry": null
+      }
+    },
+    "601328": {
+      "name": "601328",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(601328)(601328), None行业",
+      "attributes": {
+        "display_name": "Unknown(601328)",
+        "industry": null
+      }
+    },
+    "Unknown(601336)": {
+      "name": "Unknown(601336)",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(601336)(601336), None行业",
+      "attributes": {
+        "code": "601336",
+        "industry": null
+      }
+    },
+    "601336": {
+      "name": "601336",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(601336)(601336), None行业",
+      "attributes": {
+        "display_name": "Unknown(601336)",
+        "industry": null
+      }
+    },
+    "Unknown(601360)": {
+      "name": "Unknown(601360)",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(601360)(601360), None行业",
+      "attributes": {
+        "code": "601360",
+        "industry": null
+      }
+    },
+    "601360": {
+      "name": "601360",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(601360)(601360), None行业",
+      "attributes": {
+        "display_name": "Unknown(601360)",
+        "industry": null
+      }
+    },
+    "Unknown(601377)": {
+      "name": "Unknown(601377)",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(601377)(601377), None行业",
+      "attributes": {
+        "code": "601377",
+        "industry": null
+      }
+    },
+    "601377": {
+      "name": "601377",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(601377)(601377), None行业",
+      "attributes": {
+        "display_name": "Unknown(601377)",
+        "industry": null
+      }
+    },
+    "Unknown(601390)": {
+      "name": "Unknown(601390)",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(601390)(601390), 建筑装饰行业",
+      "attributes": {
+        "code": "601390",
+        "industry": "建筑装饰"
+      }
+    },
+    "601390": {
+      "name": "601390",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(601390)(601390), 建筑装饰行业",
+      "attributes": {
+        "display_name": "Unknown(601390)",
+        "industry": "建筑装饰"
+      }
+    },
+    "Unknown(601398)": {
+      "name": "Unknown(601398)",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(601398)(601398), 银行行业",
+      "attributes": {
+        "code": "601398",
+        "industry": "银行"
+      }
+    },
+    "601398": {
+      "name": "601398",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(601398)(601398), 银行行业",
+      "attributes": {
+        "display_name": "Unknown(601398)",
+        "industry": "银行"
+      }
+    },
+    "Unknown(601456)": {
+      "name": "Unknown(601456)",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(601456)(601456), None行业",
+      "attributes": {
+        "code": "601456",
+        "industry": null
+      }
+    },
+    "601456": {
+      "name": "601456",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(601456)(601456), None行业",
+      "attributes": {
+        "display_name": "Unknown(601456)",
+        "industry": null
+      }
+    },
+    "Unknown(601600)": {
+      "name": "Unknown(601600)",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(601600)(601600), None行业",
+      "attributes": {
+        "code": "601600",
+        "industry": null
+      }
+    },
+    "601600": {
+      "name": "601600",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(601600)(601600), None行业",
+      "attributes": {
+        "display_name": "Unknown(601600)",
+        "industry": null
+      }
+    },
+    "Unknown(601601)": {
+      "name": "Unknown(601601)",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(601601)(601601), None行业",
+      "attributes": {
+        "code": "601601",
+        "industry": null
+      }
+    },
+    "601601": {
+      "name": "601601",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(601601)(601601), None行业",
+      "attributes": {
+        "display_name": "Unknown(601601)",
+        "industry": null
+      }
+    },
+    "Unknown(601607)": {
+      "name": "Unknown(601607)",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(601607)(601607), None行业",
+      "attributes": {
+        "code": "601607",
+        "industry": null
+      }
+    },
+    "601607": {
+      "name": "601607",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(601607)(601607), None行业",
+      "attributes": {
+        "display_name": "Unknown(601607)",
+        "industry": null
+      }
+    },
+    "Unknown(601618)": {
+      "name": "Unknown(601618)",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(601618)(601618), None行业",
+      "attributes": {
+        "code": "601618",
+        "industry": null
+      }
+    },
+    "601618": {
+      "name": "601618",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(601618)(601618), None行业",
+      "attributes": {
+        "display_name": "Unknown(601618)",
+        "industry": null
+      }
+    },
+    "Unknown(601628)": {
+      "name": "Unknown(601628)",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(601628)(601628), None行业",
+      "attributes": {
+        "code": "601628",
+        "industry": null
+      }
+    },
+    "601628": {
+      "name": "601628",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(601628)(601628), None行业",
+      "attributes": {
+        "display_name": "Unknown(601628)",
+        "industry": null
+      }
+    },
+    "Unknown(601633)": {
+      "name": "Unknown(601633)",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(601633)(601633), None行业",
+      "attributes": {
+        "code": "601633",
+        "industry": null
+      }
+    },
+    "601633": {
+      "name": "601633",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(601633)(601633), None行业",
+      "attributes": {
+        "display_name": "Unknown(601633)",
+        "industry": null
+      }
+    },
+    "Unknown(601658)": {
+      "name": "Unknown(601658)",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(601658)(601658), None行业",
+      "attributes": {
+        "code": "601658",
+        "industry": null
+      }
+    },
+    "601658": {
+      "name": "601658",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(601658)(601658), None行业",
+      "attributes": {
+        "display_name": "Unknown(601658)",
+        "industry": null
+      }
+    },
+    "Unknown(601668)": {
+      "name": "Unknown(601668)",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(601668)(601668), 建筑装饰行业",
+      "attributes": {
+        "code": "601668",
+        "industry": "建筑装饰"
+      }
+    },
+    "601668": {
+      "name": "601668",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(601668)(601668), 建筑装饰行业",
+      "attributes": {
+        "display_name": "Unknown(601668)",
+        "industry": "建筑装饰"
+      }
+    },
+    "Unknown(601669)": {
+      "name": "Unknown(601669)",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(601669)(601669), None行业",
+      "attributes": {
+        "code": "601669",
+        "industry": null
+      }
+    },
+    "601669": {
+      "name": "601669",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(601669)(601669), None行业",
+      "attributes": {
+        "display_name": "Unknown(601669)",
+        "industry": null
+      }
+    },
+    "Unknown(601688)": {
+      "name": "Unknown(601688)",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(601688)(601688), 非银金融行业",
+      "attributes": {
+        "code": "601688",
+        "industry": "非银金融"
+      }
+    },
+    "601688": {
+      "name": "601688",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(601688)(601688), 非银金融行业",
+      "attributes": {
+        "display_name": "Unknown(601688)",
+        "industry": "非银金融"
+      }
+    },
+    "Unknown(601689)": {
+      "name": "Unknown(601689)",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(601689)(601689), None行业",
+      "attributes": {
+        "code": "601689",
+        "industry": null
+      }
+    },
+    "601689": {
+      "name": "601689",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(601689)(601689), None行业",
+      "attributes": {
+        "display_name": "Unknown(601689)",
+        "industry": null
+      }
+    },
+    "Unknown(601698)": {
+      "name": "Unknown(601698)",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(601698)(601698), None行业",
+      "attributes": {
+        "code": "601698",
+        "industry": null
+      }
+    },
+    "601698": {
+      "name": "601698",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(601698)(601698), None行业",
+      "attributes": {
+        "display_name": "Unknown(601698)",
+        "industry": null
+      }
+    },
+    "Unknown(601728)": {
+      "name": "Unknown(601728)",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(601728)(601728), 通信行业",
+      "attributes": {
+        "code": "601728",
+        "industry": "通信"
+      }
+    },
+    "601728": {
+      "name": "601728",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(601728)(601728), 通信行业",
+      "attributes": {
+        "display_name": "Unknown(601728)",
+        "industry": "通信"
+      }
+    },
+    "Unknown(601766)": {
+      "name": "Unknown(601766)",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(601766)(601766), None行业",
+      "attributes": {
+        "code": "601766",
+        "industry": null
+      }
+    },
+    "601766": {
+      "name": "601766",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(601766)(601766), None行业",
+      "attributes": {
+        "display_name": "Unknown(601766)",
+        "industry": null
+      }
+    },
+    "Unknown(601788)": {
+      "name": "Unknown(601788)",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(601788)(601788), None行业",
+      "attributes": {
+        "code": "601788",
+        "industry": null
+      }
+    },
+    "601788": {
+      "name": "601788",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(601788)(601788), None行业",
+      "attributes": {
+        "display_name": "Unknown(601788)",
+        "industry": null
+      }
+    },
+    "Unknown(601800)": {
+      "name": "Unknown(601800)",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(601800)(601800), None行业",
+      "attributes": {
+        "code": "601800",
+        "industry": null
+      }
+    },
+    "601800": {
+      "name": "601800",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(601800)(601800), None行业",
+      "attributes": {
+        "display_name": "Unknown(601800)",
+        "industry": null
+      }
+    },
+    "Unknown(601808)": {
+      "name": "Unknown(601808)",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(601808)(601808), None行业",
+      "attributes": {
+        "code": "601808",
+        "industry": null
+      }
+    },
+    "601808": {
+      "name": "601808",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(601808)(601808), None行业",
+      "attributes": {
+        "display_name": "Unknown(601808)",
+        "industry": null
+      }
+    },
+    "Unknown(601816)": {
+      "name": "Unknown(601816)",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(601816)(601816), None行业",
+      "attributes": {
+        "code": "601816",
+        "industry": null
+      }
+    },
+    "601816": {
+      "name": "601816",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(601816)(601816), None行业",
+      "attributes": {
+        "display_name": "Unknown(601816)",
+        "industry": null
+      }
+    },
+    "Unknown(601818)": {
+      "name": "Unknown(601818)",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(601818)(601818), None行业",
+      "attributes": {
+        "code": "601818",
+        "industry": null
+      }
+    },
+    "601818": {
+      "name": "601818",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(601818)(601818), None行业",
+      "attributes": {
+        "display_name": "Unknown(601818)",
+        "industry": null
+      }
+    },
+    "Unknown(601825)": {
+      "name": "Unknown(601825)",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(601825)(601825), None行业",
+      "attributes": {
+        "code": "601825",
+        "industry": null
+      }
+    },
+    "601825": {
+      "name": "601825",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(601825)(601825), None行业",
+      "attributes": {
+        "display_name": "Unknown(601825)",
+        "industry": null
+      }
+    },
+    "Unknown(601838)": {
+      "name": "Unknown(601838)",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(601838)(601838), None行业",
+      "attributes": {
+        "code": "601838",
+        "industry": null
+      }
+    },
+    "601838": {
+      "name": "601838",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(601838)(601838), None行业",
+      "attributes": {
+        "display_name": "Unknown(601838)",
+        "industry": null
+      }
+    },
+    "Unknown(601857)": {
+      "name": "Unknown(601857)",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(601857)(601857), 石油石化行业",
+      "attributes": {
+        "code": "601857",
+        "industry": "石油石化"
+      }
+    },
+    "601857": {
+      "name": "601857",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(601857)(601857), 石油石化行业",
+      "attributes": {
+        "display_name": "Unknown(601857)",
+        "industry": "石油石化"
+      }
+    },
+    "Unknown(601868)": {
+      "name": "Unknown(601868)",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(601868)(601868), None行业",
+      "attributes": {
+        "code": "601868",
+        "industry": null
+      }
+    },
+    "601868": {
+      "name": "601868",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(601868)(601868), None行业",
+      "attributes": {
+        "display_name": "Unknown(601868)",
+        "industry": null
+      }
+    },
+    "Unknown(601872)": {
+      "name": "Unknown(601872)",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(601872)(601872), None行业",
+      "attributes": {
+        "code": "601872",
+        "industry": null
+      }
+    },
+    "601872": {
+      "name": "601872",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(601872)(601872), None行业",
+      "attributes": {
+        "display_name": "Unknown(601872)",
+        "industry": null
+      }
+    },
+    "Unknown(601877)": {
+      "name": "Unknown(601877)",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(601877)(601877), None行业",
+      "attributes": {
+        "code": "601877",
+        "industry": null
+      }
+    },
+    "601877": {
+      "name": "601877",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(601877)(601877), None行业",
+      "attributes": {
+        "display_name": "Unknown(601877)",
+        "industry": null
+      }
+    },
+    "Unknown(601878)": {
+      "name": "Unknown(601878)",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(601878)(601878), None行业",
+      "attributes": {
+        "code": "601878",
+        "industry": null
+      }
+    },
+    "601878": {
+      "name": "601878",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(601878)(601878), None行业",
+      "attributes": {
+        "display_name": "Unknown(601878)",
+        "industry": null
+      }
+    },
+    "Unknown(601881)": {
+      "name": "Unknown(601881)",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(601881)(601881), None行业",
+      "attributes": {
+        "code": "601881",
+        "industry": null
+      }
+    },
+    "601881": {
+      "name": "601881",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(601881)(601881), None行业",
+      "attributes": {
+        "display_name": "Unknown(601881)",
+        "industry": null
+      }
+    },
+    "Unknown(601888)": {
+      "name": "Unknown(601888)",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(601888)(601888), 商贸零售行业",
+      "attributes": {
+        "code": "601888",
+        "industry": "商贸零售"
+      }
+    },
+    "601888": {
+      "name": "601888",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(601888)(601888), 商贸零售行业",
+      "attributes": {
+        "display_name": "Unknown(601888)",
+        "industry": "商贸零售"
+      }
+    },
+    "Unknown(601898)": {
+      "name": "Unknown(601898)",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(601898)(601898), 煤炭行业",
+      "attributes": {
+        "code": "601898",
+        "industry": "煤炭"
+      }
+    },
+    "601898": {
+      "name": "601898",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(601898)(601898), 煤炭行业",
+      "attributes": {
+        "display_name": "Unknown(601898)",
+        "industry": "煤炭"
+      }
+    },
+    "Unknown(601899)": {
+      "name": "Unknown(601899)",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(601899)(601899), 有色金属行业",
+      "attributes": {
+        "code": "601899",
+        "industry": "有色金属"
+      }
+    },
+    "601899": {
+      "name": "601899",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(601899)(601899), 有色金属行业",
+      "attributes": {
+        "display_name": "Unknown(601899)",
+        "industry": "有色金属"
+      }
+    },
+    "Unknown(601901)": {
+      "name": "Unknown(601901)",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(601901)(601901), None行业",
+      "attributes": {
+        "code": "601901",
+        "industry": null
+      }
+    },
+    "601901": {
+      "name": "601901",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(601901)(601901), None行业",
+      "attributes": {
+        "display_name": "Unknown(601901)",
+        "industry": null
+      }
+    },
+    "Unknown(601916)": {
+      "name": "Unknown(601916)",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(601916)(601916), None行业",
+      "attributes": {
+        "code": "601916",
+        "industry": null
+      }
+    },
+    "601916": {
+      "name": "601916",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(601916)(601916), None行业",
+      "attributes": {
+        "display_name": "Unknown(601916)",
+        "industry": null
+      }
+    },
+    "Unknown(601919)": {
+      "name": "Unknown(601919)",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(601919)(601919), None行业",
+      "attributes": {
+        "code": "601919",
+        "industry": null
+      }
+    },
+    "601919": {
+      "name": "601919",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(601919)(601919), None行业",
+      "attributes": {
+        "display_name": "Unknown(601919)",
+        "industry": null
+      }
+    },
+    "Unknown(601939)": {
+      "name": "Unknown(601939)",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(601939)(601939), None行业",
+      "attributes": {
+        "code": "601939",
+        "industry": null
+      }
+    },
+    "601939": {
+      "name": "601939",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(601939)(601939), None行业",
+      "attributes": {
+        "display_name": "Unknown(601939)",
+        "industry": null
+      }
+    },
+    "Unknown(601985)": {
+      "name": "Unknown(601985)",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(601985)(601985), None行业",
+      "attributes": {
+        "code": "601985",
+        "industry": null
+      }
+    },
+    "601985": {
+      "name": "601985",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(601985)(601985), None行业",
+      "attributes": {
+        "display_name": "Unknown(601985)",
+        "industry": null
+      }
+    },
+    "Unknown(601988)": {
+      "name": "Unknown(601988)",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(601988)(601988), None行业",
+      "attributes": {
+        "code": "601988",
+        "industry": null
+      }
+    },
+    "601988": {
+      "name": "601988",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(601988)(601988), None行业",
+      "attributes": {
+        "display_name": "Unknown(601988)",
+        "industry": null
+      }
+    },
+    "Unknown(601995)": {
+      "name": "Unknown(601995)",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(601995)(601995), None行业",
+      "attributes": {
+        "code": "601995",
+        "industry": null
+      }
+    },
+    "601995": {
+      "name": "601995",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(601995)(601995), None行业",
+      "attributes": {
+        "display_name": "Unknown(601995)",
+        "industry": null
+      }
+    },
+    "Unknown(601998)": {
+      "name": "Unknown(601998)",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(601998)(601998), None行业",
+      "attributes": {
+        "code": "601998",
+        "industry": null
+      }
+    },
+    "601998": {
+      "name": "601998",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(601998)(601998), None行业",
+      "attributes": {
+        "display_name": "Unknown(601998)",
+        "industry": null
+      }
+    },
+    "Unknown(603019)": {
+      "name": "Unknown(603019)",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(603019)(603019), None行业",
+      "attributes": {
+        "code": "603019",
+        "industry": null
+      }
+    },
+    "603019": {
+      "name": "603019",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(603019)(603019), None行业",
+      "attributes": {
+        "display_name": "Unknown(603019)",
+        "industry": null
+      }
+    },
+    "Unknown(603195)": {
+      "name": "Unknown(603195)",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(603195)(603195), None行业",
+      "attributes": {
+        "code": "603195",
+        "industry": null
+      }
+    },
+    "603195": {
+      "name": "603195",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(603195)(603195), None行业",
+      "attributes": {
+        "display_name": "Unknown(603195)",
+        "industry": null
+      }
+    },
+    "Unknown(603259)": {
+      "name": "Unknown(603259)",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(603259)(603259), 医药生物行业",
+      "attributes": {
+        "code": "603259",
+        "industry": "医药生物"
+      }
+    },
+    "603259": {
+      "name": "603259",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(603259)(603259), 医药生物行业",
+      "attributes": {
+        "display_name": "Unknown(603259)",
+        "industry": "医药生物"
+      }
+    },
+    "Unknown(603260)": {
+      "name": "Unknown(603260)",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(603260)(603260), None行业",
+      "attributes": {
+        "code": "603260",
+        "industry": null
+      }
+    },
+    "603260": {
+      "name": "603260",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(603260)(603260), None行业",
+      "attributes": {
+        "display_name": "Unknown(603260)",
+        "industry": null
+      }
+    },
+    "Unknown(603288)": {
+      "name": "Unknown(603288)",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(603288)(603288), None行业",
+      "attributes": {
+        "code": "603288",
+        "industry": null
+      }
+    },
+    "603288": {
+      "name": "603288",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(603288)(603288), None行业",
+      "attributes": {
+        "display_name": "Unknown(603288)",
+        "industry": null
+      }
+    },
+    "Unknown(603296)": {
+      "name": "Unknown(603296)",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(603296)(603296), None行业",
+      "attributes": {
+        "code": "603296",
+        "industry": null
+      }
+    },
+    "603296": {
+      "name": "603296",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(603296)(603296), None行业",
+      "attributes": {
+        "display_name": "Unknown(603296)",
+        "industry": null
+      }
+    },
+    "Unknown(603369)": {
+      "name": "Unknown(603369)",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(603369)(603369), None行业",
+      "attributes": {
+        "code": "603369",
+        "industry": null
+      }
+    },
+    "603369": {
+      "name": "603369",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(603369)(603369), None行业",
+      "attributes": {
+        "display_name": "Unknown(603369)",
+        "industry": null
+      }
+    },
+    "Unknown(603392)": {
+      "name": "Unknown(603392)",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(603392)(603392), None行业",
+      "attributes": {
+        "code": "603392",
+        "industry": null
+      }
+    },
+    "603392": {
+      "name": "603392",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(603392)(603392), None行业",
+      "attributes": {
+        "display_name": "Unknown(603392)",
+        "industry": null
+      }
+    },
+    "Unknown(603501)": {
+      "name": "Unknown(603501)",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(603501)(603501), 电子行业",
+      "attributes": {
+        "code": "603501",
+        "industry": "电子"
+      }
+    },
+    "603501": {
+      "name": "603501",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(603501)(603501), 电子行业",
+      "attributes": {
+        "display_name": "Unknown(603501)",
+        "industry": "电子"
+      }
+    },
+    "Unknown(603799)": {
+      "name": "Unknown(603799)",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(603799)(603799), None行业",
+      "attributes": {
+        "code": "603799",
+        "industry": null
+      }
+    },
+    "603799": {
+      "name": "603799",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(603799)(603799), None行业",
+      "attributes": {
+        "display_name": "Unknown(603799)",
+        "industry": null
+      }
+    },
+    "Unknown(603893)": {
+      "name": "Unknown(603893)",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(603893)(603893), None行业",
+      "attributes": {
+        "code": "603893",
+        "industry": null
+      }
+    },
+    "603893": {
+      "name": "603893",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(603893)(603893), None行业",
+      "attributes": {
+        "display_name": "Unknown(603893)",
+        "industry": null
+      }
+    },
+    "Unknown(603986)": {
+      "name": "Unknown(603986)",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(603986)(603986), None行业",
+      "attributes": {
+        "code": "603986",
+        "industry": null
+      }
+    },
+    "603986": {
+      "name": "603986",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(603986)(603986), None行业",
+      "attributes": {
+        "display_name": "Unknown(603986)",
+        "industry": null
+      }
+    },
+    "Unknown(603993)": {
+      "name": "Unknown(603993)",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(603993)(603993), None行业",
+      "attributes": {
+        "code": "603993",
+        "industry": null
+      }
+    },
+    "603993": {
+      "name": "603993",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(603993)(603993), None行业",
+      "attributes": {
+        "display_name": "Unknown(603993)",
+        "industry": null
+      }
+    },
+    "Unknown(605117)": {
+      "name": "Unknown(605117)",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(605117)(605117), None行业",
+      "attributes": {
+        "code": "605117",
+        "industry": null
+      }
+    },
+    "605117": {
+      "name": "605117",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(605117)(605117), None行业",
+      "attributes": {
+        "display_name": "Unknown(605117)",
+        "industry": null
+      }
+    },
+    "Unknown(605499)": {
+      "name": "Unknown(605499)",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(605499)(605499), None行业",
+      "attributes": {
+        "code": "605499",
+        "industry": null
+      }
+    },
+    "605499": {
+      "name": "605499",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(605499)(605499), None行业",
+      "attributes": {
+        "display_name": "Unknown(605499)",
+        "industry": null
+      }
+    },
+    "Unknown(688008)": {
+      "name": "Unknown(688008)",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(688008)(688008), None行业",
+      "attributes": {
+        "code": "688008",
+        "industry": null
+      }
+    },
+    "688008": {
+      "name": "688008",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(688008)(688008), None行业",
+      "attributes": {
+        "display_name": "Unknown(688008)",
+        "industry": null
+      }
+    },
+    "Unknown(688009)": {
+      "name": "Unknown(688009)",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(688009)(688009), None行业",
+      "attributes": {
+        "code": "688009",
+        "industry": null
+      }
+    },
+    "688009": {
+      "name": "688009",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(688009)(688009), None行业",
+      "attributes": {
+        "display_name": "Unknown(688009)",
+        "industry": null
+      }
+    },
+    "Unknown(688012)": {
+      "name": "Unknown(688012)",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(688012)(688012), None行业",
+      "attributes": {
+        "code": "688012",
+        "industry": null
+      }
+    },
+    "688012": {
+      "name": "688012",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(688012)(688012), None行业",
+      "attributes": {
+        "display_name": "Unknown(688012)",
+        "industry": null
+      }
+    },
+    "Unknown(688036)": {
+      "name": "Unknown(688036)",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(688036)(688036), None行业",
+      "attributes": {
+        "code": "688036",
+        "industry": null
+      }
+    },
+    "688036": {
+      "name": "688036",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(688036)(688036), None行业",
+      "attributes": {
+        "display_name": "Unknown(688036)",
+        "industry": null
+      }
+    },
+    "Unknown(688041)": {
+      "name": "Unknown(688041)",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(688041)(688041), None行业",
+      "attributes": {
+        "code": "688041",
+        "industry": null
+      }
+    },
+    "688041": {
+      "name": "688041",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(688041)(688041), None行业",
+      "attributes": {
+        "display_name": "Unknown(688041)",
+        "industry": null
+      }
+    },
+    "Unknown(688047)": {
+      "name": "Unknown(688047)",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(688047)(688047), None行业",
+      "attributes": {
+        "code": "688047",
+        "industry": null
+      }
+    },
+    "688047": {
+      "name": "688047",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(688047)(688047), None行业",
+      "attributes": {
+        "display_name": "Unknown(688047)",
+        "industry": null
+      }
+    },
+    "Unknown(688082)": {
+      "name": "Unknown(688082)",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(688082)(688082), None行业",
+      "attributes": {
+        "code": "688082",
+        "industry": null
+      }
+    },
+    "688082": {
+      "name": "688082",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(688082)(688082), None行业",
+      "attributes": {
+        "display_name": "Unknown(688082)",
+        "industry": null
+      }
+    },
+    "Unknown(688111)": {
+      "name": "Unknown(688111)",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(688111)(688111), 计算机行业",
+      "attributes": {
+        "code": "688111",
+        "industry": "计算机"
+      }
+    },
+    "688111": {
+      "name": "688111",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(688111)(688111), 计算机行业",
+      "attributes": {
+        "display_name": "Unknown(688111)",
+        "industry": "计算机"
+      }
+    },
+    "Unknown(688126)": {
+      "name": "Unknown(688126)",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(688126)(688126), None行业",
+      "attributes": {
+        "code": "688126",
+        "industry": null
+      }
+    },
+    "688126": {
+      "name": "688126",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(688126)(688126), None行业",
+      "attributes": {
+        "display_name": "Unknown(688126)",
+        "industry": null
+      }
+    },
+    "Unknown(688169)": {
+      "name": "Unknown(688169)",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(688169)(688169), None行业",
+      "attributes": {
+        "code": "688169",
+        "industry": null
+      }
+    },
+    "688169": {
+      "name": "688169",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(688169)(688169), None行业",
+      "attributes": {
+        "display_name": "Unknown(688169)",
+        "industry": null
+      }
+    },
+    "Unknown(688187)": {
+      "name": "Unknown(688187)",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(688187)(688187), None行业",
+      "attributes": {
+        "code": "688187",
+        "industry": null
+      }
+    },
+    "688187": {
+      "name": "688187",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(688187)(688187), None行业",
+      "attributes": {
+        "display_name": "Unknown(688187)",
+        "industry": null
+      }
+    },
+    "Unknown(688223)": {
+      "name": "Unknown(688223)",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(688223)(688223), None行业",
+      "attributes": {
+        "code": "688223",
+        "industry": null
+      }
+    },
+    "688223": {
+      "name": "688223",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(688223)(688223), None行业",
+      "attributes": {
+        "display_name": "Unknown(688223)",
+        "industry": null
+      }
+    },
+    "Unknown(688256)": {
+      "name": "Unknown(688256)",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(688256)(688256), None行业",
+      "attributes": {
+        "code": "688256",
+        "industry": null
+      }
+    },
+    "688256": {
+      "name": "688256",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(688256)(688256), None行业",
+      "attributes": {
+        "display_name": "Unknown(688256)",
+        "industry": null
+      }
+    },
+    "Unknown(688271)": {
+      "name": "Unknown(688271)",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(688271)(688271), None行业",
+      "attributes": {
+        "code": "688271",
+        "industry": null
+      }
+    },
+    "688271": {
+      "name": "688271",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(688271)(688271), None行业",
+      "attributes": {
+        "display_name": "Unknown(688271)",
+        "industry": null
+      }
+    },
+    "Unknown(688303)": {
+      "name": "Unknown(688303)",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(688303)(688303), None行业",
+      "attributes": {
+        "code": "688303",
+        "industry": null
+      }
+    },
+    "688303": {
+      "name": "688303",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(688303)(688303), None行业",
+      "attributes": {
+        "display_name": "Unknown(688303)",
+        "industry": null
+      }
+    },
+    "Unknown(688396)": {
+      "name": "Unknown(688396)",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(688396)(688396), None行业",
+      "attributes": {
+        "code": "688396",
+        "industry": null
+      }
+    },
+    "688396": {
+      "name": "688396",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(688396)(688396), None行业",
+      "attributes": {
+        "display_name": "Unknown(688396)",
+        "industry": null
+      }
+    },
+    "Unknown(688472)": {
+      "name": "Unknown(688472)",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(688472)(688472), None行业",
+      "attributes": {
+        "code": "688472",
+        "industry": null
+      }
+    },
+    "688472": {
+      "name": "688472",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(688472)(688472), None行业",
+      "attributes": {
+        "display_name": "Unknown(688472)",
+        "industry": null
+      }
+    },
+    "Unknown(688506)": {
+      "name": "Unknown(688506)",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(688506)(688506), None行业",
+      "attributes": {
+        "code": "688506",
+        "industry": null
+      }
+    },
+    "688506": {
+      "name": "688506",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(688506)(688506), None行业",
+      "attributes": {
+        "display_name": "Unknown(688506)",
+        "industry": null
+      }
+    },
+    "Unknown(688981)": {
+      "name": "Unknown(688981)",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(688981)(688981), None行业",
+      "attributes": {
+        "code": "688981",
+        "industry": null
+      }
+    },
+    "688981": {
+      "name": "688981",
+      "labels": [
+        "Company"
+      ],
+      "summary": "Unknown(688981)(688981), None行业",
+      "attributes": {
+        "display_name": "Unknown(688981)",
+        "industry": null
+      }
+    }
+  },
+  "edges": [
+    {
+      "source_name": "002460",
+      "target_name": "300750",
+      "relation": "SUPPLIES_TO",
+      "fact": "赣锋锂业向宁德时代供应锂矿原材料",
+      "weight": 1.0
+    },
+    {
+      "source_name": "300750",
+      "target_name": "002594",
+      "relation": "SUPPLIES_TO",
+      "fact": "宁德时代向比亚迪供应动力电池",
+      "weight": 1.0
+    },
+    {
+      "source_name": "300750",
+      "target_name": "600418",
+      "relation": "SUPPLIES_TO",
+      "fact": "宁德时代向江淮汽车供应动力电池",
+      "weight": 1.0
+    },
+    {
+      "source_name": "002460",
+      "target_name": "002594",
+      "relation": "SUPPLIES_TO",
+      "fact": "赣锋锂业向比亚迪供应锂原材料",
+      "weight": 1.0
+    },
+    {
+      "source_name": "601012",
+      "target_name": "300274",
+      "relation": "SUPPLIES_TO",
+      "fact": "隆基绿能向阳光电源供应光伏组件",
+      "weight": 1.0
+    },
+    {
+      "source_name": "600438",
+      "target_name": "601012",
+      "relation": "SUPPLIES_TO",
+      "fact": "通威股份向隆基绿能供应硅料",
+      "weight": 1.0
+    },
+    {
+      "source_name": "688981",
+      "target_name": "002415",
+      "relation": "SUPPLIES_TO",
+      "fact": "中芯国际向海康威视供应芯片代工",
+      "weight": 1.0
+    },
+    {
+      "source_name": "688981",
+      "target_name": "000725",
+      "relation": "SUPPLIES_TO",
+      "fact": "中芯国际向京东方供应驱动芯片",
+      "weight": 1.0
+    },
+    {
+      "source_name": "600519",
+      "target_name": "000858",
+      "relation": "COMPETES_WITH",
+      "fact": "贵州茅台与五粮液同为高端白酒龙头",
+      "weight": 1.0
+    },
+    {
+      "source_name": "600519",
+      "target_name": "000568",
+      "relation": "COMPETES_WITH",
+      "fact": "贵州茅台与泸州老窖同为浓香白酒",
+      "weight": 1.0
+    },
+    {
+      "source_name": "000858",
+      "target_name": "000568",
+      "relation": "COMPETES_WITH",
+      "fact": "五粮液与泸州老窖同为浓香白酒",
+      "weight": 1.0
+    },
+    {
+      "source_name": "601398",
+      "target_name": "601939",
+      "relation": "COOPERATES_WITH",
+      "fact": "工商银行与建设银行银团贷款合作",
+      "weight": 1.0
+    },
+    {
+      "source_name": "600036",
+      "target_name": "601318",
+      "relation": "COOPERATES_WITH",
+      "fact": "招商银行与中国平安交叉销售合作",
+      "weight": 1.0
+    },
+    {
+      "source_name": "601318",
+      "target_name": "601628",
+      "relation": "COMPETES_WITH",
+      "fact": "中国平安与中国人寿保险业务竞争",
+      "weight": 1.0
+    },
+    {
+      "source_name": "600030",
+      "target_name": "601211",
+      "relation": "COMPETES_WITH",
+      "fact": "中信证券与国泰君安头部券商竞争",
+      "weight": 1.0
+    },
+    {
+      "source_name": "002594",
+      "target_name": "002230",
+      "relation": "COOPERATES_WITH",
+      "fact": "比亚迪与科大讯飞智能驾驶合作",
+      "weight": 1.0
+    },
+    {
+      "source_name": "600019",
+      "target_name": "601390",
+      "relation": "SUPPLIES_TO",
+      "fact": "宝钢股份向中国中铁供应钢材",
+      "weight": 1.0
+    },
+    {
+      "source_name": "600019",
+      "target_name": "601668",
+      "relation": "SUPPLIES_TO",
+      "fact": "宝钢股份向中国建筑供应钢材",
+      "weight": 1.0
+    },
+    {
+      "source_name": "601088",
+      "target_name": "600900",
+      "relation": "COOPERATES_WITH",
+      "fact": "中国神华与长江电力能源合作",
+      "weight": 1.0
+    },
+    {
+      "source_name": "601857",
+      "target_name": "600028",
+      "relation": "COOPERATES_WITH",
+      "fact": "中国石油与中国石化油气管网共享",
+      "weight": 1.0
+    },
+    {
+      "source_name": "601728",
+      "target_name": "600050",
+      "relation": "COOPERATES_WITH",
+      "fact": "中国电信与中国联通5G共建共享",
+      "weight": 1.0
+    },
+    {
+      "source_name": "000063",
+      "target_name": "601728",
+      "relation": "SUPPLIES_TO",
+      "fact": "中兴通讯向中国电信供应通信设备",
+      "weight": 1.0
+    },
+    {
+      "source_name": "000333",
+      "target_name": "000651",
+      "relation": "COMPETES_WITH",
+      "fact": "美的集团与格力电器空调业务竞争",
+      "weight": 1.0
+    },
+    {
+      "source_name": "600276",
+      "target_name": "000538",
+      "relation": "COMPETES_WITH",
+      "fact": "恒瑞医药与云南白药创新药竞争",
+      "weight": 1.0
+    },
+    {
+      "source_name": "601877",
+      "target_name": "601669",
+      "relation": "SUPPLIES_TO",
+      "fact": "正泰电器向中国电建供应电气设备",
+      "weight": 1.0
+    },
+    {
+      "source_name": "000002",
+      "target_name": "600585",
+      "relation": "COOPERATES_WITH",
+      "fact": "万科与海螺水泥建材供应合作",
+      "weight": 1.0
+    },
+    {
+      "source_name": "600887",
+      "target_name": "603288",
+      "relation": "COMPETES_WITH",
+      "fact": "伊利股份与海天味业消费品龙头",
+      "weight": 1.0
+    },
+    {
+      "source_name": "600741",
+      "target_name": "002594",
+      "relation": "SUPPLIES_TO",
+      "fact": "华域汽车向比亚迪供应汽车零部件",
+      "weight": 1.0
+    },
+    {
+      "source_name": "600741",
+      "target_name": "600104",
+      "relation": "SUPPLIES_TO",
+      "fact": "华域汽车向上汽集团供应零部件",
+      "weight": 1.0
+    },
+    {
+      "source_name": "002230",
+      "target_name": "688111",
+      "relation": "COOPERATES_WITH",
+      "fact": "科大讯飞与金山办公AI办公合作",
+      "weight": 1.0
+    },
+    {
+      "source_name": "600760",
+      "target_name": "600893",
+      "relation": "COOPERATES_WITH",
+      "fact": "中航沈飞与航发动力军机配套",
+      "weight": 1.0
+    },
+    {
+      "source_name": "002460",
+      "target_name": "300750",
+      "relation": "SUPPLIES_TO",
+      "fact": "002460(002460) 是 300750(300750) 的上游供应商。赣锋锂业向宁德时代供应锂矿原材料",
+      "weight": 1.0
+    },
+    {
+      "source_name": "300750",
+      "target_name": "002594",
+      "relation": "SUPPLIES_TO",
+      "fact": "300750(300750) 是 002594(002594) 的上游供应商。宁德时代向比亚迪供应动力电池",
+      "weight": 1.0
+    },
+    {
+      "source_name": "300750",
+      "target_name": "600418",
+      "relation": "SUPPLIES_TO",
+      "fact": "300750(300750) 是 600418(600418) 的上游供应商。宁德时代向江淮汽车供应动力电池",
+      "weight": 1.0
+    },
+    {
+      "source_name": "002460",
+      "target_name": "002594",
+      "relation": "SUPPLIES_TO",
+      "fact": "002460(002460) 是 002594(002594) 的上游供应商。赣锋锂业向比亚迪供应锂原材料",
+      "weight": 1.0
+    },
+    {
+      "source_name": "601012",
+      "target_name": "300274",
+      "relation": "SUPPLIES_TO",
+      "fact": "601012(601012) 是 300274(300274) 的上游供应商。隆基绿能向阳光电源供应光伏组件",
+      "weight": 1.0
+    },
+    {
+      "source_name": "600438",
+      "target_name": "601012",
+      "relation": "SUPPLIES_TO",
+      "fact": "600438(600438) 是 601012(601012) 的上游供应商。通威股份向隆基绿能供应硅料",
+      "weight": 1.0
+    },
+    {
+      "source_name": "688981",
+      "target_name": "002415",
+      "relation": "SUPPLIES_TO",
+      "fact": "688981(688981) 是 002415(002415) 的上游供应商。中芯国际向海康威视供应芯片代工",
+      "weight": 1.0
+    },
+    {
+      "source_name": "688981",
+      "target_name": "000725",
+      "relation": "SUPPLIES_TO",
+      "fact": "688981(688981) 是 000725(000725) 的上游供应商。中芯国际向京东方供应驱动芯片",
+      "weight": 1.0
+    },
+    {
+      "source_name": "600519",
+      "target_name": "000858",
+      "relation": "COMPETES_WITH",
+      "fact": "600519(600519) 与 000858(000858) 是竞争对手。贵州茅台与五粮液同为高端白酒龙头",
+      "weight": 1.0
+    },
+    {
+      "source_name": "600519",
+      "target_name": "000568",
+      "relation": "COMPETES_WITH",
+      "fact": "600519(600519) 与 000568(000568) 是竞争对手。贵州茅台与泸州老窖同为浓香白酒",
+      "weight": 1.0
+    },
+    {
+      "source_name": "000858",
+      "target_name": "000568",
+      "relation": "COMPETES_WITH",
+      "fact": "000858(000858) 与 000568(000568) 是竞争对手。五粮液与泸州老窖同为浓香白酒",
+      "weight": 1.0
+    },
+    {
+      "source_name": "601398",
+      "target_name": "601939",
+      "relation": "COOPERATES_WITH",
+      "fact": "601398(601398) 与 601939(601939) 存在合作关系。工商银行与建设银行银团贷款合作",
+      "weight": 1.0
+    },
+    {
+      "source_name": "600036",
+      "target_name": "601318",
+      "relation": "COOPERATES_WITH",
+      "fact": "600036(600036) 与 601318(601318) 存在合作关系。招商银行与中国平安交叉销售合作",
+      "weight": 1.0
+    },
+    {
+      "source_name": "601318",
+      "target_name": "601628",
+      "relation": "COMPETES_WITH",
+      "fact": "601318(601318) 与 601628(601628) 是竞争对手。中国平安与中国人寿保险业务竞争",
+      "weight": 1.0
+    },
+    {
+      "source_name": "600030",
+      "target_name": "601211",
+      "relation": "COMPETES_WITH",
+      "fact": "600030(600030) 与 601211(601211) 是竞争对手。中信证券与国泰君安头部券商竞争",
+      "weight": 1.0
+    },
+    {
+      "source_name": "002594",
+      "target_name": "002230",
+      "relation": "COOPERATES_WITH",
+      "fact": "002594(002594) 与 002230(002230) 存在合作关系。比亚迪与科大讯飞智能驾驶合作",
+      "weight": 1.0
+    },
+    {
+      "source_name": "600019",
+      "target_name": "601390",
+      "relation": "SUPPLIES_TO",
+      "fact": "600019(600019) 是 601390(601390) 的上游供应商。宝钢股份向中国中铁供应钢材",
+      "weight": 1.0
+    },
+    {
+      "source_name": "600019",
+      "target_name": "601668",
+      "relation": "SUPPLIES_TO",
+      "fact": "600019(600019) 是 601668(601668) 的上游供应商。宝钢股份向中国建筑供应钢材",
+      "weight": 1.0
+    },
+    {
+      "source_name": "601088",
+      "target_name": "600900",
+      "relation": "COOPERATES_WITH",
+      "fact": "601088(601088) 与 600900(600900) 存在合作关系。中国神华与长江电力能源合作",
+      "weight": 1.0
+    },
+    {
+      "source_name": "601857",
+      "target_name": "600028",
+      "relation": "COOPERATES_WITH",
+      "fact": "601857(601857) 与 600028(600028) 存在合作关系。中国石油与中国石化油气管网共享",
+      "weight": 1.0
+    },
+    {
+      "source_name": "601728",
+      "target_name": "600050",
+      "relation": "COOPERATES_WITH",
+      "fact": "601728(601728) 与 600050(600050) 存在合作关系。中国电信与中国联通5G共建共享",
+      "weight": 1.0
+    },
+    {
+      "source_name": "000063",
+      "target_name": "601728",
+      "relation": "SUPPLIES_TO",
+      "fact": "000063(000063) 是 601728(601728) 的上游供应商。中兴通讯向中国电信供应通信设备",
+      "weight": 1.0
+    },
+    {
+      "source_name": "000333",
+      "target_name": "000651",
+      "relation": "COMPETES_WITH",
+      "fact": "000333(000333) 与 000651(000651) 是竞争对手。美的集团与格力电器空调业务竞争",
+      "weight": 1.0
+    },
+    {
+      "source_name": "600276",
+      "target_name": "000538",
+      "relation": "COMPETES_WITH",
+      "fact": "600276(600276) 与 000538(000538) 是竞争对手。恒瑞医药与云南白药创新药竞争",
+      "weight": 1.0
+    },
+    {
+      "source_name": "601877",
+      "target_name": "601669",
+      "relation": "SUPPLIES_TO",
+      "fact": "601877(601877) 是 601669(601669) 的上游供应商。正泰电器向中国电建供应电气设备",
+      "weight": 1.0
+    },
+    {
+      "source_name": "000002",
+      "target_name": "600585",
+      "relation": "COOPERATES_WITH",
+      "fact": "000002(000002) 与 600585(600585) 存在合作关系。万科与海螺水泥建材供应合作",
+      "weight": 1.0
+    },
+    {
+      "source_name": "600887",
+      "target_name": "603288",
+      "relation": "COMPETES_WITH",
+      "fact": "600887(600887) 与 603288(603288) 是竞争对手。伊利股份与海天味业消费品龙头",
+      "weight": 1.0
+    },
+    {
+      "source_name": "600741",
+      "target_name": "002594",
+      "relation": "SUPPLIES_TO",
+      "fact": "600741(600741) 是 002594(002594) 的上游供应商。华域汽车向比亚迪供应汽车零部件",
+      "weight": 1.0
+    },
+    {
+      "source_name": "600741",
+      "target_name": "600104",
+      "relation": "SUPPLIES_TO",
+      "fact": "600741(600741) 是 600104(600104) 的上游供应商。华域汽车向上汽集团供应零部件",
+      "weight": 1.0
+    },
+    {
+      "source_name": "002230",
+      "target_name": "688111",
+      "relation": "COOPERATES_WITH",
+      "fact": "002230(002230) 与 688111(688111) 存在合作关系。科大讯飞与金山办公AI办公合作",
+      "weight": 1.0
+    },
+    {
+      "source_name": "600760",
+      "target_name": "600893",
+      "relation": "COOPERATES_WITH",
+      "fact": "600760(600760) 与 600893(600893) 存在合作关系。中航沈飞与航发动力军机配套",
+      "weight": 1.0
+    },
+    {
+      "source_name": "采掘行业",
+      "target_name": "有色金属行业",
+      "relation": "SUPPLIES_TO",
+      "fact": "矿产资源向有色金属冶炼供应",
+      "weight": 1.0
+    },
+    {
+      "source_name": "有色金属行业",
+      "target_name": "电子行业",
+      "relation": "SUPPLIES_TO",
+      "fact": "有色金属向电子行业供应原材料",
+      "weight": 1.0
+    },
+    {
+      "source_name": "有色金属行业",
+      "target_name": "电气设备行业",
+      "relation": "SUPPLIES_TO",
+      "fact": "铜铝等向电气设备行业供应",
+      "weight": 1.0
+    },
+    {
+      "source_name": "化工行业",
+      "target_name": "农林牧渔行业",
+      "relation": "SUPPLIES_TO",
+      "fact": "化肥农药向农业供应",
+      "weight": 1.0
+    },
+    {
+      "source_name": "化工行业",
+      "target_name": "纺织服装行业",
+      "relation": "SUPPLIES_TO",
+      "fact": "化纤原料向纺织行业供应",
+      "weight": 1.0
+    },
+    {
+      "source_name": "钢铁行业",
+      "target_name": "建筑装饰行业",
+      "relation": "SUPPLIES_TO",
+      "fact": "钢材向建筑行业供应",
+      "weight": 1.0
+    },
+    {
+      "source_name": "钢铁行业",
+      "target_name": "机械设备行业",
+      "relation": "SUPPLIES_TO",
+      "fact": "钢材向机械制造供应",
+      "weight": 1.0
+    },
+    {
+      "source_name": "钢铁行业",
+      "target_name": "汽车行业",
+      "relation": "SUPPLIES_TO",
+      "fact": "钢材向汽车制造供应",
+      "weight": 1.0
+    },
+    {
+      "source_name": "电子行业",
+      "target_name": "通信行业",
+      "relation": "SUPPLIES_TO",
+      "fact": "电子元器件向通信设备供应",
+      "weight": 1.0
+    },
+    {
+      "source_name": "电子行业",
+      "target_name": "计算机行业",
+      "relation": "SUPPLIES_TO",
+      "fact": "芯片向计算机行业供应",
+      "weight": 1.0
+    },
+    {
+      "source_name": "电气设备行业",
+      "target_name": "公用事业行业",
+      "relation": "SUPPLIES_TO",
+      "fact": "发电/输配电设备向电力行业供应",
+      "weight": 1.0
+    },
+    {
+      "source_name": "汽车行业",
+      "target_name": "交通运输行业",
+      "relation": "COOPERATES_WITH",
+      "fact": "汽车制造与交通运输协同",
+      "weight": 1.0
+    },
+    {
+      "source_name": "食品饮料行业",
+      "target_name": "商业贸易行业",
+      "relation": "COOPERATES_WITH",
+      "fact": "食品饮料与零售渠道合作",
+      "weight": 1.0
+    },
+    {
+      "source_name": "医药生物行业",
+      "target_name": "商业贸易行业",
+      "relation": "COOPERATES_WITH",
+      "fact": "医药与医药流通合作",
+      "weight": 1.0
+    },
+    {
+      "source_name": "银行行业",
+      "target_name": "非银金融行业",
+      "relation": "COOPERATES_WITH",
+      "fact": "银行与券商/保险业务协同",
+      "weight": 1.0
+    },
+    {
+      "source_name": "房地产行业",
+      "target_name": "建筑材料行业",
+      "relation": "COOPERATES_WITH",
+      "fact": "地产与建材供需关联",
+      "weight": 1.0
+    },
+    {
+      "source_name": "房地产行业",
+      "target_name": "家用电器行业",
+      "relation": "COOPERATES_WITH",
+      "fact": "地产与家电后周期关联",
+      "weight": 1.0
+    },
+    {
+      "source_name": "[产业链] 采掘行业",
+      "target_name": "有色金属行业",
+      "relation": "SUPPLIES_TO",
+      "fact": "[产业链] 采掘行业是有色金属行业的上游。矿产资源向有色金属冶炼供应",
+      "weight": 1.0
+    },
+    {
+      "source_name": "[产业链] 有色金属行业",
+      "target_name": "电子行业",
+      "relation": "SUPPLIES_TO",
+      "fact": "[产业链] 有色金属行业是电子行业的上游。有色金属向电子行业供应原材料",
+      "weight": 1.0
+    },
+    {
+      "source_name": "[产业链] 有色金属行业",
+      "target_name": "电气设备行业",
+      "relation": "SUPPLIES_TO",
+      "fact": "[产业链] 有色金属行业是电气设备行业的上游。铜铝等向电气设备行业供应",
+      "weight": 1.0
+    },
+    {
+      "source_name": "[产业链] 化工行业",
+      "target_name": "农林牧渔行业",
+      "relation": "SUPPLIES_TO",
+      "fact": "[产业链] 化工行业是农林牧渔行业的上游。化肥农药向农业供应",
+      "weight": 1.0
+    },
+    {
+      "source_name": "[产业链] 化工行业",
+      "target_name": "纺织服装行业",
+      "relation": "SUPPLIES_TO",
+      "fact": "[产业链] 化工行业是纺织服装行业的上游。化纤原料向纺织行业供应",
+      "weight": 1.0
+    },
+    {
+      "source_name": "[产业链] 钢铁行业",
+      "target_name": "建筑装饰行业",
+      "relation": "SUPPLIES_TO",
+      "fact": "[产业链] 钢铁行业是建筑装饰行业的上游。钢材向建筑行业供应",
+      "weight": 1.0
+    },
+    {
+      "source_name": "[产业链] 钢铁行业",
+      "target_name": "机械设备行业",
+      "relation": "SUPPLIES_TO",
+      "fact": "[产业链] 钢铁行业是机械设备行业的上游。钢材向机械制造供应",
+      "weight": 1.0
+    },
+    {
+      "source_name": "[产业链] 钢铁行业",
+      "target_name": "汽车行业",
+      "relation": "SUPPLIES_TO",
+      "fact": "[产业链] 钢铁行业是汽车行业的上游。钢材向汽车制造供应",
+      "weight": 1.0
+    },
+    {
+      "source_name": "[产业链] 电子行业",
+      "target_name": "通信行业",
+      "relation": "SUPPLIES_TO",
+      "fact": "[产业链] 电子行业是通信行业的上游。电子元器件向通信设备供应",
+      "weight": 1.0
+    },
+    {
+      "source_name": "[产业链] 电子行业",
+      "target_name": "计算机行业",
+      "relation": "SUPPLIES_TO",
+      "fact": "[产业链] 电子行业是计算机行业的上游。芯片向计算机行业供应",
+      "weight": 1.0
+    },
+    {
+      "source_name": "[产业链] 电气设备行业",
+      "target_name": "公用事业行业",
+      "relation": "SUPPLIES_TO",
+      "fact": "[产业链] 电气设备行业是公用事业行业的上游。发电/输配电设备向电力行业供应",
+      "weight": 1.0
+    },
+    {
+      "source_name": "[产业链] 汽车行业",
+      "target_name": "交通运输行业",
+      "relation": "COOPERATES_WITH",
+      "fact": "[产业链] 汽车行业与交通运输行业存在协同关系。汽车制造与交通运输协同",
+      "weight": 1.0
+    },
+    {
+      "source_name": "[产业链] 食品饮料行业",
+      "target_name": "商业贸易行业",
+      "relation": "COOPERATES_WITH",
+      "fact": "[产业链] 食品饮料行业与商业贸易行业存在协同关系。食品饮料与零售渠道合作",
+      "weight": 1.0
+    },
+    {
+      "source_name": "[产业链] 医药生物行业",
+      "target_name": "商业贸易行业",
+      "relation": "COOPERATES_WITH",
+      "fact": "[产业链] 医药生物行业与商业贸易行业存在协同关系。医药与医药流通合作",
+      "weight": 1.0
+    },
+    {
+      "source_name": "[产业链] 银行行业",
+      "target_name": "非银金融行业",
+      "relation": "COOPERATES_WITH",
+      "fact": "[产业链] 银行行业与非银金融行业存在协同关系。银行与券商/保险业务协同",
+      "weight": 1.0
+    },
+    {
+      "source_name": "[产业链] 房地产行业",
+      "target_name": "建筑材料行业",
+      "relation": "COOPERATES_WITH",
+      "fact": "[产业链] 房地产行业与建筑材料行业存在协同关系。地产与建材供需关联",
+      "weight": 1.0
+    },
+    {
+      "source_name": "[产业链] 房地产行业",
+      "target_name": "家用电器行业",
+      "relation": "COOPERATES_WITH",
+      "fact": "[产业链] 房地产行业与家用电器行业存在协同关系。地产与家电后周期关联",
+      "weight": 1.0
+    }
+  ],
+  "facts": [
+    {
+      "source": "002460",
+      "target": "300750",
+      "relation": "SUPPLIES_TO",
+      "fact": "赣锋锂业向宁德时代供应锂矿原材料",
+      "weight": 1.0
+    },
+    {
+      "source": "300750",
+      "target": "002594",
+      "relation": "SUPPLIES_TO",
+      "fact": "宁德时代向比亚迪供应动力电池",
+      "weight": 1.0
+    },
+    {
+      "source": "300750",
+      "target": "600418",
+      "relation": "SUPPLIES_TO",
+      "fact": "宁德时代向江淮汽车供应动力电池",
+      "weight": 1.0
+    },
+    {
+      "source": "002460",
+      "target": "002594",
+      "relation": "SUPPLIES_TO",
+      "fact": "赣锋锂业向比亚迪供应锂原材料",
+      "weight": 1.0
+    },
+    {
+      "source": "601012",
+      "target": "300274",
+      "relation": "SUPPLIES_TO",
+      "fact": "隆基绿能向阳光电源供应光伏组件",
+      "weight": 1.0
+    },
+    {
+      "source": "600438",
+      "target": "601012",
+      "relation": "SUPPLIES_TO",
+      "fact": "通威股份向隆基绿能供应硅料",
+      "weight": 1.0
+    },
+    {
+      "source": "688981",
+      "target": "002415",
+      "relation": "SUPPLIES_TO",
+      "fact": "中芯国际向海康威视供应芯片代工",
+      "weight": 1.0
+    },
+    {
+      "source": "688981",
+      "target": "000725",
+      "relation": "SUPPLIES_TO",
+      "fact": "中芯国际向京东方供应驱动芯片",
+      "weight": 1.0
+    },
+    {
+      "source": "600519",
+      "target": "000858",
+      "relation": "COMPETES_WITH",
+      "fact": "贵州茅台与五粮液同为高端白酒龙头",
+      "weight": 1.0
+    },
+    {
+      "source": "600519",
+      "target": "000568",
+      "relation": "COMPETES_WITH",
+      "fact": "贵州茅台与泸州老窖同为浓香白酒",
+      "weight": 1.0
+    },
+    {
+      "source": "000858",
+      "target": "000568",
+      "relation": "COMPETES_WITH",
+      "fact": "五粮液与泸州老窖同为浓香白酒",
+      "weight": 1.0
+    },
+    {
+      "source": "601398",
+      "target": "601939",
+      "relation": "COOPERATES_WITH",
+      "fact": "工商银行与建设银行银团贷款合作",
+      "weight": 1.0
+    },
+    {
+      "source": "600036",
+      "target": "601318",
+      "relation": "COOPERATES_WITH",
+      "fact": "招商银行与中国平安交叉销售合作",
+      "weight": 1.0
+    },
+    {
+      "source": "601318",
+      "target": "601628",
+      "relation": "COMPETES_WITH",
+      "fact": "中国平安与中国人寿保险业务竞争",
+      "weight": 1.0
+    },
+    {
+      "source": "600030",
+      "target": "601211",
+      "relation": "COMPETES_WITH",
+      "fact": "中信证券与国泰君安头部券商竞争",
+      "weight": 1.0
+    },
+    {
+      "source": "002594",
+      "target": "002230",
+      "relation": "COOPERATES_WITH",
+      "fact": "比亚迪与科大讯飞智能驾驶合作",
+      "weight": 1.0
+    },
+    {
+      "source": "600019",
+      "target": "601390",
+      "relation": "SUPPLIES_TO",
+      "fact": "宝钢股份向中国中铁供应钢材",
+      "weight": 1.0
+    },
+    {
+      "source": "600019",
+      "target": "601668",
+      "relation": "SUPPLIES_TO",
+      "fact": "宝钢股份向中国建筑供应钢材",
+      "weight": 1.0
+    },
+    {
+      "source": "601088",
+      "target": "600900",
+      "relation": "COOPERATES_WITH",
+      "fact": "中国神华与长江电力能源合作",
+      "weight": 1.0
+    },
+    {
+      "source": "601857",
+      "target": "600028",
+      "relation": "COOPERATES_WITH",
+      "fact": "中国石油与中国石化油气管网共享",
+      "weight": 1.0
+    },
+    {
+      "source": "601728",
+      "target": "600050",
+      "relation": "COOPERATES_WITH",
+      "fact": "中国电信与中国联通5G共建共享",
+      "weight": 1.0
+    },
+    {
+      "source": "000063",
+      "target": "601728",
+      "relation": "SUPPLIES_TO",
+      "fact": "中兴通讯向中国电信供应通信设备",
+      "weight": 1.0
+    },
+    {
+      "source": "000333",
+      "target": "000651",
+      "relation": "COMPETES_WITH",
+      "fact": "美的集团与格力电器空调业务竞争",
+      "weight": 1.0
+    },
+    {
+      "source": "600276",
+      "target": "000538",
+      "relation": "COMPETES_WITH",
+      "fact": "恒瑞医药与云南白药创新药竞争",
+      "weight": 1.0
+    },
+    {
+      "source": "601877",
+      "target": "601669",
+      "relation": "SUPPLIES_TO",
+      "fact": "正泰电器向中国电建供应电气设备",
+      "weight": 1.0
+    },
+    {
+      "source": "000002",
+      "target": "600585",
+      "relation": "COOPERATES_WITH",
+      "fact": "万科与海螺水泥建材供应合作",
+      "weight": 1.0
+    },
+    {
+      "source": "600887",
+      "target": "603288",
+      "relation": "COMPETES_WITH",
+      "fact": "伊利股份与海天味业消费品龙头",
+      "weight": 1.0
+    },
+    {
+      "source": "600741",
+      "target": "002594",
+      "relation": "SUPPLIES_TO",
+      "fact": "华域汽车向比亚迪供应汽车零部件",
+      "weight": 1.0
+    },
+    {
+      "source": "600741",
+      "target": "600104",
+      "relation": "SUPPLIES_TO",
+      "fact": "华域汽车向上汽集团供应零部件",
+      "weight": 1.0
+    },
+    {
+      "source": "002230",
+      "target": "688111",
+      "relation": "COOPERATES_WITH",
+      "fact": "科大讯飞与金山办公AI办公合作",
+      "weight": 1.0
+    },
+    {
+      "source": "600760",
+      "target": "600893",
+      "relation": "COOPERATES_WITH",
+      "fact": "中航沈飞与航发动力军机配套",
+      "weight": 1.0
+    },
+    {
+      "source": "002460",
+      "target": "300750",
+      "relation": "SUPPLIES_TO",
+      "fact": "002460(002460) 是 300750(300750) 的上游供应商。赣锋锂业向宁德时代供应锂矿原材料",
+      "weight": 1.0
+    },
+    {
+      "source": "300750",
+      "target": "002594",
+      "relation": "SUPPLIES_TO",
+      "fact": "300750(300750) 是 002594(002594) 的上游供应商。宁德时代向比亚迪供应动力电池",
+      "weight": 1.0
+    },
+    {
+      "source": "300750",
+      "target": "600418",
+      "relation": "SUPPLIES_TO",
+      "fact": "300750(300750) 是 600418(600418) 的上游供应商。宁德时代向江淮汽车供应动力电池",
+      "weight": 1.0
+    },
+    {
+      "source": "002460",
+      "target": "002594",
+      "relation": "SUPPLIES_TO",
+      "fact": "002460(002460) 是 002594(002594) 的上游供应商。赣锋锂业向比亚迪供应锂原材料",
+      "weight": 1.0
+    },
+    {
+      "source": "601012",
+      "target": "300274",
+      "relation": "SUPPLIES_TO",
+      "fact": "601012(601012) 是 300274(300274) 的上游供应商。隆基绿能向阳光电源供应光伏组件",
+      "weight": 1.0
+    },
+    {
+      "source": "600438",
+      "target": "601012",
+      "relation": "SUPPLIES_TO",
+      "fact": "600438(600438) 是 601012(601012) 的上游供应商。通威股份向隆基绿能供应硅料",
+      "weight": 1.0
+    },
+    {
+      "source": "688981",
+      "target": "002415",
+      "relation": "SUPPLIES_TO",
+      "fact": "688981(688981) 是 002415(002415) 的上游供应商。中芯国际向海康威视供应芯片代工",
+      "weight": 1.0
+    },
+    {
+      "source": "688981",
+      "target": "000725",
+      "relation": "SUPPLIES_TO",
+      "fact": "688981(688981) 是 000725(000725) 的上游供应商。中芯国际向京东方供应驱动芯片",
+      "weight": 1.0
+    },
+    {
+      "source": "600519",
+      "target": "000858",
+      "relation": "COMPETES_WITH",
+      "fact": "600519(600519) 与 000858(000858) 是竞争对手。贵州茅台与五粮液同为高端白酒龙头",
+      "weight": 1.0
+    },
+    {
+      "source": "600519",
+      "target": "000568",
+      "relation": "COMPETES_WITH",
+      "fact": "600519(600519) 与 000568(000568) 是竞争对手。贵州茅台与泸州老窖同为浓香白酒",
+      "weight": 1.0
+    },
+    {
+      "source": "000858",
+      "target": "000568",
+      "relation": "COMPETES_WITH",
+      "fact": "000858(000858) 与 000568(000568) 是竞争对手。五粮液与泸州老窖同为浓香白酒",
+      "weight": 1.0
+    },
+    {
+      "source": "601398",
+      "target": "601939",
+      "relation": "COOPERATES_WITH",
+      "fact": "601398(601398) 与 601939(601939) 存在合作关系。工商银行与建设银行银团贷款合作",
+      "weight": 1.0
+    },
+    {
+      "source": "600036",
+      "target": "601318",
+      "relation": "COOPERATES_WITH",
+      "fact": "600036(600036) 与 601318(601318) 存在合作关系。招商银行与中国平安交叉销售合作",
+      "weight": 1.0
+    },
+    {
+      "source": "601318",
+      "target": "601628",
+      "relation": "COMPETES_WITH",
+      "fact": "601318(601318) 与 601628(601628) 是竞争对手。中国平安与中国人寿保险业务竞争",
+      "weight": 1.0
+    },
+    {
+      "source": "600030",
+      "target": "601211",
+      "relation": "COMPETES_WITH",
+      "fact": "600030(600030) 与 601211(601211) 是竞争对手。中信证券与国泰君安头部券商竞争",
+      "weight": 1.0
+    },
+    {
+      "source": "002594",
+      "target": "002230",
+      "relation": "COOPERATES_WITH",
+      "fact": "002594(002594) 与 002230(002230) 存在合作关系。比亚迪与科大讯飞智能驾驶合作",
+      "weight": 1.0
+    },
+    {
+      "source": "600019",
+      "target": "601390",
+      "relation": "SUPPLIES_TO",
+      "fact": "600019(600019) 是 601390(601390) 的上游供应商。宝钢股份向中国中铁供应钢材",
+      "weight": 1.0
+    },
+    {
+      "source": "600019",
+      "target": "601668",
+      "relation": "SUPPLIES_TO",
+      "fact": "600019(600019) 是 601668(601668) 的上游供应商。宝钢股份向中国建筑供应钢材",
+      "weight": 1.0
+    },
+    {
+      "source": "601088",
+      "target": "600900",
+      "relation": "COOPERATES_WITH",
+      "fact": "601088(601088) 与 600900(600900) 存在合作关系。中国神华与长江电力能源合作",
+      "weight": 1.0
+    },
+    {
+      "source": "601857",
+      "target": "600028",
+      "relation": "COOPERATES_WITH",
+      "fact": "601857(601857) 与 600028(600028) 存在合作关系。中国石油与中国石化油气管网共享",
+      "weight": 1.0
+    },
+    {
+      "source": "601728",
+      "target": "600050",
+      "relation": "COOPERATES_WITH",
+      "fact": "601728(601728) 与 600050(600050) 存在合作关系。中国电信与中国联通5G共建共享",
+      "weight": 1.0
+    },
+    {
+      "source": "000063",
+      "target": "601728",
+      "relation": "SUPPLIES_TO",
+      "fact": "000063(000063) 是 601728(601728) 的上游供应商。中兴通讯向中国电信供应通信设备",
+      "weight": 1.0
+    },
+    {
+      "source": "000333",
+      "target": "000651",
+      "relation": "COMPETES_WITH",
+      "fact": "000333(000333) 与 000651(000651) 是竞争对手。美的集团与格力电器空调业务竞争",
+      "weight": 1.0
+    },
+    {
+      "source": "600276",
+      "target": "000538",
+      "relation": "COMPETES_WITH",
+      "fact": "600276(600276) 与 000538(000538) 是竞争对手。恒瑞医药与云南白药创新药竞争",
+      "weight": 1.0
+    },
+    {
+      "source": "601877",
+      "target": "601669",
+      "relation": "SUPPLIES_TO",
+      "fact": "601877(601877) 是 601669(601669) 的上游供应商。正泰电器向中国电建供应电气设备",
+      "weight": 1.0
+    },
+    {
+      "source": "000002",
+      "target": "600585",
+      "relation": "COOPERATES_WITH",
+      "fact": "000002(000002) 与 600585(600585) 存在合作关系。万科与海螺水泥建材供应合作",
+      "weight": 1.0
+    },
+    {
+      "source": "600887",
+      "target": "603288",
+      "relation": "COMPETES_WITH",
+      "fact": "600887(600887) 与 603288(603288) 是竞争对手。伊利股份与海天味业消费品龙头",
+      "weight": 1.0
+    },
+    {
+      "source": "600741",
+      "target": "002594",
+      "relation": "SUPPLIES_TO",
+      "fact": "600741(600741) 是 002594(002594) 的上游供应商。华域汽车向比亚迪供应汽车零部件",
+      "weight": 1.0
+    },
+    {
+      "source": "600741",
+      "target": "600104",
+      "relation": "SUPPLIES_TO",
+      "fact": "600741(600741) 是 600104(600104) 的上游供应商。华域汽车向上汽集团供应零部件",
+      "weight": 1.0
+    },
+    {
+      "source": "002230",
+      "target": "688111",
+      "relation": "COOPERATES_WITH",
+      "fact": "002230(002230) 与 688111(688111) 存在合作关系。科大讯飞与金山办公AI办公合作",
+      "weight": 1.0
+    },
+    {
+      "source": "600760",
+      "target": "600893",
+      "relation": "COOPERATES_WITH",
+      "fact": "600760(600760) 与 600893(600893) 存在合作关系。中航沈飞与航发动力军机配套",
+      "weight": 1.0
+    },
+    {
+      "source": "采掘行业",
+      "target": "有色金属行业",
+      "relation": "SUPPLIES_TO",
+      "fact": "矿产资源向有色金属冶炼供应",
+      "weight": 1.0
+    },
+    {
+      "source": "有色金属行业",
+      "target": "电子行业",
+      "relation": "SUPPLIES_TO",
+      "fact": "有色金属向电子行业供应原材料",
+      "weight": 1.0
+    },
+    {
+      "source": "有色金属行业",
+      "target": "电气设备行业",
+      "relation": "SUPPLIES_TO",
+      "fact": "铜铝等向电气设备行业供应",
+      "weight": 1.0
+    },
+    {
+      "source": "化工行业",
+      "target": "农林牧渔行业",
+      "relation": "SUPPLIES_TO",
+      "fact": "化肥农药向农业供应",
+      "weight": 1.0
+    },
+    {
+      "source": "化工行业",
+      "target": "纺织服装行业",
+      "relation": "SUPPLIES_TO",
+      "fact": "化纤原料向纺织行业供应",
+      "weight": 1.0
+    },
+    {
+      "source": "钢铁行业",
+      "target": "建筑装饰行业",
+      "relation": "SUPPLIES_TO",
+      "fact": "钢材向建筑行业供应",
+      "weight": 1.0
+    },
+    {
+      "source": "钢铁行业",
+      "target": "机械设备行业",
+      "relation": "SUPPLIES_TO",
+      "fact": "钢材向机械制造供应",
+      "weight": 1.0
+    },
+    {
+      "source": "钢铁行业",
+      "target": "汽车行业",
+      "relation": "SUPPLIES_TO",
+      "fact": "钢材向汽车制造供应",
+      "weight": 1.0
+    },
+    {
+      "source": "电子行业",
+      "target": "通信行业",
+      "relation": "SUPPLIES_TO",
+      "fact": "电子元器件向通信设备供应",
+      "weight": 1.0
+    },
+    {
+      "source": "电子行业",
+      "target": "计算机行业",
+      "relation": "SUPPLIES_TO",
+      "fact": "芯片向计算机行业供应",
+      "weight": 1.0
+    },
+    {
+      "source": "电气设备行业",
+      "target": "公用事业行业",
+      "relation": "SUPPLIES_TO",
+      "fact": "发电/输配电设备向电力行业供应",
+      "weight": 1.0
+    },
+    {
+      "source": "汽车行业",
+      "target": "交通运输行业",
+      "relation": "COOPERATES_WITH",
+      "fact": "汽车制造与交通运输协同",
+      "weight": 1.0
+    },
+    {
+      "source": "食品饮料行业",
+      "target": "商业贸易行业",
+      "relation": "COOPERATES_WITH",
+      "fact": "食品饮料与零售渠道合作",
+      "weight": 1.0
+    },
+    {
+      "source": "医药生物行业",
+      "target": "商业贸易行业",
+      "relation": "COOPERATES_WITH",
+      "fact": "医药与医药流通合作",
+      "weight": 1.0
+    },
+    {
+      "source": "银行行业",
+      "target": "非银金融行业",
+      "relation": "COOPERATES_WITH",
+      "fact": "银行与券商/保险业务协同",
+      "weight": 1.0
+    },
+    {
+      "source": "房地产行业",
+      "target": "建筑材料行业",
+      "relation": "COOPERATES_WITH",
+      "fact": "地产与建材供需关联",
+      "weight": 1.0
+    },
+    {
+      "source": "房地产行业",
+      "target": "家用电器行业",
+      "relation": "COOPERATES_WITH",
+      "fact": "地产与家电后周期关联",
+      "weight": 1.0
+    },
+    {
+      "source": "[产业链] 采掘行业",
+      "target": "有色金属行业",
+      "relation": "SUPPLIES_TO",
+      "fact": "[产业链] 采掘行业是有色金属行业的上游。矿产资源向有色金属冶炼供应",
+      "weight": 1.0
+    },
+    {
+      "source": "[产业链] 有色金属行业",
+      "target": "电子行业",
+      "relation": "SUPPLIES_TO",
+      "fact": "[产业链] 有色金属行业是电子行业的上游。有色金属向电子行业供应原材料",
+      "weight": 1.0
+    },
+    {
+      "source": "[产业链] 有色金属行业",
+      "target": "电气设备行业",
+      "relation": "SUPPLIES_TO",
+      "fact": "[产业链] 有色金属行业是电气设备行业的上游。铜铝等向电气设备行业供应",
+      "weight": 1.0
+    },
+    {
+      "source": "[产业链] 化工行业",
+      "target": "农林牧渔行业",
+      "relation": "SUPPLIES_TO",
+      "fact": "[产业链] 化工行业是农林牧渔行业的上游。化肥农药向农业供应",
+      "weight": 1.0
+    },
+    {
+      "source": "[产业链] 化工行业",
+      "target": "纺织服装行业",
+      "relation": "SUPPLIES_TO",
+      "fact": "[产业链] 化工行业是纺织服装行业的上游。化纤原料向纺织行业供应",
+      "weight": 1.0
+    },
+    {
+      "source": "[产业链] 钢铁行业",
+      "target": "建筑装饰行业",
+      "relation": "SUPPLIES_TO",
+      "fact": "[产业链] 钢铁行业是建筑装饰行业的上游。钢材向建筑行业供应",
+      "weight": 1.0
+    },
+    {
+      "source": "[产业链] 钢铁行业",
+      "target": "机械设备行业",
+      "relation": "SUPPLIES_TO",
+      "fact": "[产业链] 钢铁行业是机械设备行业的上游。钢材向机械制造供应",
+      "weight": 1.0
+    },
+    {
+      "source": "[产业链] 钢铁行业",
+      "target": "汽车行业",
+      "relation": "SUPPLIES_TO",
+      "fact": "[产业链] 钢铁行业是汽车行业的上游。钢材向汽车制造供应",
+      "weight": 1.0
+    },
+    {
+      "source": "[产业链] 电子行业",
+      "target": "通信行业",
+      "relation": "SUPPLIES_TO",
+      "fact": "[产业链] 电子行业是通信行业的上游。电子元器件向通信设备供应",
+      "weight": 1.0
+    },
+    {
+      "source": "[产业链] 电子行业",
+      "target": "计算机行业",
+      "relation": "SUPPLIES_TO",
+      "fact": "[产业链] 电子行业是计算机行业的上游。芯片向计算机行业供应",
+      "weight": 1.0
+    },
+    {
+      "source": "[产业链] 电气设备行业",
+      "target": "公用事业行业",
+      "relation": "SUPPLIES_TO",
+      "fact": "[产业链] 电气设备行业是公用事业行业的上游。发电/输配电设备向电力行业供应",
+      "weight": 1.0
+    },
+    {
+      "source": "[产业链] 汽车行业",
+      "target": "交通运输行业",
+      "relation": "COOPERATES_WITH",
+      "fact": "[产业链] 汽车行业与交通运输行业存在协同关系。汽车制造与交通运输协同",
+      "weight": 1.0
+    },
+    {
+      "source": "[产业链] 食品饮料行业",
+      "target": "商业贸易行业",
+      "relation": "COOPERATES_WITH",
+      "fact": "[产业链] 食品饮料行业与商业贸易行业存在协同关系。食品饮料与零售渠道合作",
+      "weight": 1.0
+    },
+    {
+      "source": "[产业链] 医药生物行业",
+      "target": "商业贸易行业",
+      "relation": "COOPERATES_WITH",
+      "fact": "[产业链] 医药生物行业与商业贸易行业存在协同关系。医药与医药流通合作",
+      "weight": 1.0
+    },
+    {
+      "source": "[产业链] 银行行业",
+      "target": "非银金融行业",
+      "relation": "COOPERATES_WITH",
+      "fact": "[产业链] 银行行业与非银金融行业存在协同关系。银行与券商/保险业务协同",
+      "weight": 1.0
+    },
+    {
+      "source": "[产业链] 房地产行业",
+      "target": "建筑材料行业",
+      "relation": "COOPERATES_WITH",
+      "fact": "[产业链] 房地产行业与建筑材料行业存在协同关系。地产与建材供需关联",
+      "weight": 1.0
+    },
+    {
+      "source": "[产业链] 房地产行业",
+      "target": "家用电器行业",
+      "relation": "COOPERATES_WITH",
+      "fact": "[产业链] 房地产行业与家用电器行业存在协同关系。地产与家电后周期关联",
+      "weight": 1.0
+    }
+  ],
+  "episode_texts": [
+    "[行业] 银行 是申万一级行业分类。代表性成分股包括: ('601398', '工商银行')(?), ('600036', '招商银行')(?), ('601166', '兴业银行')(?)。",
+    "[行业] 非银金融 是申万一级行业分类。代表性成分股包括: ('601318', '中国平安')(?), ('600030', '中信证券')(?), ('601688', '华泰证券')(?)。",
+    "[行业] 食品饮料 是申万一级行业分类。代表性成分股包括: ('600519', '贵州茅台')(?), ('000858', '五粮液')(?), ('000568', '泸州老窖')(?)。",
+    "[行业] 医药生物 是申万一级行业分类。代表性成分股包括: ('600276', '恒瑞医药')(?), ('300760', '迈瑞医疗')(?), ('603259', '药明康德')(?)。",
+    "[行业] 电子 是申万一级行业分类。代表性成分股包括: ('002415', '海康威视')(?), ('603501', '韦尔股份')(?), ('002371', '北方华创')(?)。",
+    "[行业] 电力设备 是申万一级行业分类。代表性成分股包括: ('300750', '宁德时代')(?), ('601012', '隆基绿能')(?), ('300274', '阳光电源')(?)。",
+    "[行业] 汽车 是申万一级行业分类。代表性成分股包括: ('002594', '比亚迪')(?), ('600104', '上汽集团')(?), ('601127', '赛力斯')(?)。",
+    "[行业] 家用电器 是申万一级行业分类。代表性成分股包括: ('000333', '美的集团')(?), ('000651', '格力电器')(?), ('600690', '海尔智家')(?)。",
+    "[行业] 计算机 是申万一级行业分类。代表性成分股包括: ('002230', '科大讯飞')(?), ('300496', '中科创达')(?), ('688111', '金山办公')(?)。",
+    "[行业] 通信 是申万一级行业分类。代表性成分股包括: ('000063', '中兴通讯')(?), ('600050', '中国联通')(?), ('601728', '中国电信')(?)。",
+    "[行业] 传媒 是申万一级行业分类。代表性成分股包括: ('300413', '芒果超媒')(?), ('002602', '世纪华通')(?), ('603444', '吉比特')(?)。",
+    "[行业] 机械设备 是申万一级行业分类。代表性成分股包括: ('601100', '恒立液压')(?), ('300124', '汇川技术')(?), ('002008', '大族激光')(?)。",
+    "[行业] 基础化工 是申万一级行业分类。代表性成分股包括: ('600309', '万华化学')(?), ('002601', '龙蟒佰利')(?), ('600989', '宝丰能源')(?)。",
+    "[行业] 有色金属 是申万一级行业分类。代表性成分股包括: ('601899', '紫金矿业')(?), ('002460', '赣锋锂业')(?), ('600362', '江西铜业')(?)。",
+    "[行业] 钢铁 是申万一级行业分类。代表性成分股包括: ('600019', '宝钢股份')(?), ('000709', '河钢股份')(?), ('600010', '包钢股份')(?)。",
+    "[行业] 煤炭 是申万一级行业分类。代表性成分股包括: ('601088', '中国神华')(?), ('600188', '兖矿能源')(?), ('601898', '中煤能源')(?)。",
+    "[行业] 石油石化 是申万一级行业分类。代表性成分股包括: ('600028', '中国石化')(?), ('601857', '中国石油')(?), ('600346', '恒力石化')(?)。",
+    "[行业] 公用事业 是申万一级行业分类。代表性成分股包括: ('600900', '长江电力')(?), ('600886', '国投电力')(?), ('003816', '中国广核')(?)。",
+    "[行业] 交通运输 是申万一级行业分类。代表性成分股包括: ('601006', '大秦铁路')(?), ('600029', '南方航空')(?), ('601111', '中国国航')(?)。",
+    "[行业] 房地产 是申万一级行业分类。代表性成分股包括: ('001979', '招商蛇口')(?), ('000002', '万科A')(?), ('600048', '保利发展')(?)。",
+    "[行业] 建筑装饰 是申万一级行业分类。代表性成分股包括: ('601668', '中国建筑')(?), ('601186', '中国铁建')(?), ('601390', '中国中铁')(?)。",
+    "[行业] 建筑材料 是申万一级行业分类。代表性成分股包括: ('600585', '海螺水泥')(?), ('002271', '东方雨虹')(?), ('601615', '明泰铝业')(?)。",
+    "[行业] 农林牧渔 是申万一级行业分类。代表性成分股包括: ('002714', '牧原股份')(?), ('300498', '温氏股份')(?), ('600438', '通威股份')(?)。",
+    "[行业] 纺织服饰 是申万一级行业分类。代表性成分股包括: ('002563', '森马服饰')(?), ('603116', '红蜻蜓')(?), ('002029', '七匹狼')(?)。",
+    "[行业] 轻工制造 是申万一级行业分类。代表性成分股包括: ('603833', '欧派家居')(?), ('603816', '顾家家居')(?), ('002831', '裕同科技')(?)。",
+    "[行业] 商贸零售 是申万一级行业分类。代表性成分股包括: ('601888', '中国中免')(?), ('002024', '苏宁易购')(?), ('600827', '百联股份')(?)。",
+    "[行业] 社会服务 是申万一级行业分类。代表性成分股包括: ('300144', '宋城演艺')(?), ('002841', '视源股份')(?), ('603136', '天目湖')(?)。",
+    "[行业] 国防军工 是申万一级行业分类。代表性成分股包括: ('600760', '中航沈飞')(?), ('601989', '中国重工')(?), ('600893', '航发动力')(?)。",
+    "[行业] 环保 是申万一级行业分类。代表性成分股包括: ('603568', '伟明环保')(?), ('000967', '盈峰环境')(?), ('300070', '碧水源')(?)。",
+    "[行业] 美容护理 是申万一级行业分类。代表性成分股包括: ('300529', '健帆生物')(?), ('300957', '贝泰妮')(?), ('605136', '丽人丽妆')(?)。",
+    "[行业] 综合 是申万一级行业分类。代表性成分股包括: ('600848', '上海临港')(?), ('000042', '中洲控股')(?), ('600663', '陆家嘴')(?)。",
+    "002460(002460) 是 300750(300750) 的上游供应商。赣锋锂业向宁德时代供应锂矿原材料",
+    "300750(300750) 是 002594(002594) 的上游供应商。宁德时代向比亚迪供应动力电池",
+    "300750(300750) 是 600418(600418) 的上游供应商。宁德时代向江淮汽车供应动力电池",
+    "002460(002460) 是 002594(002594) 的上游供应商。赣锋锂业向比亚迪供应锂原材料",
+    "601012(601012) 是 300274(300274) 的上游供应商。隆基绿能向阳光电源供应光伏组件",
+    "600438(600438) 是 601012(601012) 的上游供应商。通威股份向隆基绿能供应硅料",
+    "688981(688981) 是 002415(002415) 的上游供应商。中芯国际向海康威视供应芯片代工",
+    "688981(688981) 是 000725(000725) 的上游供应商。中芯国际向京东方供应驱动芯片",
+    "600519(600519) 与 000858(000858) 是竞争对手。贵州茅台与五粮液同为高端白酒龙头",
+    "600519(600519) 与 000568(000568) 是竞争对手。贵州茅台与泸州老窖同为浓香白酒",
+    "000858(000858) 与 000568(000568) 是竞争对手。五粮液与泸州老窖同为浓香白酒",
+    "601398(601398) 与 601939(601939) 存在合作关系。工商银行与建设银行银团贷款合作",
+    "600036(600036) 与 601318(601318) 存在合作关系。招商银行与中国平安交叉销售合作",
+    "601318(601318) 与 601628(601628) 是竞争对手。中国平安与中国人寿保险业务竞争",
+    "600030(600030) 与 601211(601211) 是竞争对手。中信证券与国泰君安头部券商竞争",
+    "002594(002594) 与 002230(002230) 存在合作关系。比亚迪与科大讯飞智能驾驶合作",
+    "600019(600019) 是 601390(601390) 的上游供应商。宝钢股份向中国中铁供应钢材",
+    "600019(600019) 是 601668(601668) 的上游供应商。宝钢股份向中国建筑供应钢材",
+    "601088(601088) 与 600900(600900) 存在合作关系。中国神华与长江电力能源合作",
+    "601857(601857) 与 600028(600028) 存在合作关系。中国石油与中国石化油气管网共享",
+    "601728(601728) 与 600050(600050) 存在合作关系。中国电信与中国联通5G共建共享",
+    "000063(000063) 是 601728(601728) 的上游供应商。中兴通讯向中国电信供应通信设备",
+    "000333(000333) 与 000651(000651) 是竞争对手。美的集团与格力电器空调业务竞争",
+    "600276(600276) 与 000538(000538) 是竞争对手。恒瑞医药与云南白药创新药竞争",
+    "601877(601877) 是 601669(601669) 的上游供应商。正泰电器向中国电建供应电气设备",
+    "000002(000002) 与 600585(600585) 存在合作关系。万科与海螺水泥建材供应合作",
+    "600887(600887) 与 603288(603288) 是竞争对手。伊利股份与海天味业消费品龙头",
+    "600741(600741) 是 002594(002594) 的上游供应商。华域汽车向比亚迪供应汽车零部件",
+    "600741(600741) 是 600104(600104) 的上游供应商。华域汽车向上汽集团供应零部件",
+    "002230(002230) 与 688111(688111) 存在合作关系。科大讯飞与金山办公AI办公合作",
+    "600760(600760) 与 600893(600893) 存在合作关系。中航沈飞与航发动力军机配套",
+    "[产业链] 采掘行业是有色金属行业的上游。矿产资源向有色金属冶炼供应",
+    "[产业链] 有色金属行业是电子行业的上游。有色金属向电子行业供应原材料",
+    "[产业链] 有色金属行业是电气设备行业的上游。铜铝等向电气设备行业供应",
+    "[产业链] 化工行业是农林牧渔行业的上游。化肥农药向农业供应",
+    "[产业链] 化工行业是纺织服装行业的上游。化纤原料向纺织行业供应",
+    "[产业链] 钢铁行业是建筑装饰行业的上游。钢材向建筑行业供应",
+    "[产业链] 钢铁行业是机械设备行业的上游。钢材向机械制造供应",
+    "[产业链] 钢铁行业是汽车行业的上游。钢材向汽车制造供应",
+    "[产业链] 电子行业是通信行业的上游。电子元器件向通信设备供应",
+    "[产业链] 电子行业是计算机行业的上游。芯片向计算机行业供应",
+    "[产业链] 电气设备行业是公用事业行业的上游。发电/输配电设备向电力行业供应",
+    "[产业链] 汽车行业与交通运输行业存在协同关系。汽车制造与交通运输协同",
+    "[产业链] 食品饮料行业与商业贸易行业存在协同关系。食品饮料与零售渠道合作",
+    "[产业链] 医药生物行业与商业贸易行业存在协同关系。医药与医药流通合作",
+    "[产业链] 银行行业与非银金融行业存在协同关系。银行与券商/保险业务协同",
+    "[产业链] 房地产行业与建筑材料行业存在协同关系。地产与建材供需关联",
+    "[产业链] 房地产行业与家用电器行业存在协同关系。地产与家电后周期关联"
+  ]
+}

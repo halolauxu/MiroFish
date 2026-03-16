@@ -240,8 +240,19 @@ class GraphBuilder:
         Serialises entity/edge types as an episode that instructs Zep
         to recognize these types during future ingestion.
         """
-        entity_types = ontology.get("entity_types", [])
-        edge_types = ontology.get("edge_types", [])
+        raw_entities = ontology.get("entity_types", {})
+        raw_edges = ontology.get("edge_types", {})
+
+        # Normalise: YAML may use dict-of-dicts or list-of-dicts
+        if isinstance(raw_entities, dict):
+            entity_types = [{"name": k, **v} for k, v in raw_entities.items()]
+        else:
+            entity_types = raw_entities
+
+        if isinstance(raw_edges, dict):
+            edge_types = [{"name": k, **v} for k, v in raw_edges.items()]
+        else:
+            edge_types = raw_edges
 
         # Build ontology instruction text
         lines = ["[ONTOLOGY DEFINITION]", ""]

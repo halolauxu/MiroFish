@@ -410,7 +410,11 @@ class BacktestEngine:
 
         t0 = time.time()
         try:
-            signals = strategy.run(self.stock_codes)
+            # S03 needs graph_id parameter
+            if strategy_id == "S03":
+                signals = strategy.run(self.stock_codes, graph_id="supply_chain")
+            else:
+                signals = strategy.run(self.stock_codes)
             elapsed = time.time() - t0
             self.timings[strategy_id] = elapsed
 
@@ -769,8 +773,14 @@ def main():
         strategy_ids = [s for s in strategy_ids if s not in STRATEGIES_WITH_LLM]
         logger.info("跳过LLM策略，只运行: %s", strategy_ids)
     if args.no_graph:
-        strategy_ids = [s for s in strategy_ids if s not in STRATEGIES_NEED_GRAPH]
-        logger.info("跳过图谱策略: %s", strategy_ids)
+        # Check if local graph exists before skipping
+        from pathlib import Path as _P
+        local_graph_path = _P(__file__).parent / ".data" / "local_graph" / "supply_chain.json"
+        if local_graph_path.exists():
+            logger.info("发现本地图谱，S01/S03 将使用本地图谱运行")
+        else:
+            strategy_ids = [s for s in strategy_ids if s not in STRATEGIES_NEED_GRAPH]
+            logger.info("跳过图谱策略（无本地图谱）: %s", strategy_ids)
 
     logger.info("待运行策略: %s", strategy_ids)
 

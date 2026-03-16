@@ -32,6 +32,7 @@ import pandas as pd
 from astrategy.data_collector.market_data import MarketDataCollector
 from astrategy.data_collector.news import NewsCollector
 from astrategy.graph.builder import GraphBuilder
+from astrategy.graph.local_store import LocalGraphStore
 from astrategy.graph.topology import TopologyAnalyzer
 from astrategy.llm import create_llm_client
 from astrategy.strategies.base import BaseStrategy, StrategySignal
@@ -115,9 +116,16 @@ class EventPropagationStrategy(BaseStrategy):
             self._llm_initialised = True
         return self._llm
 
-    def _ensure_graph(self) -> GraphBuilder:
+    def _ensure_graph(self):
         if self._graph is None:
-            self._graph = GraphBuilder()
+            # Prefer local graph store (no Zep dependency)
+            local = LocalGraphStore()
+            if local.load("supply_chain"):
+                logger.info("Using local graph store for S03")
+                self._graph = local
+            else:
+                logger.info("Local graph not found, falling back to Zep GraphBuilder")
+                self._graph = GraphBuilder()
             self._graph_initialised = True
         return self._graph
 

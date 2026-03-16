@@ -31,6 +31,7 @@ from astrategy.data_collector.announcement import AnnouncementCollector
 from astrategy.data_collector.market_data import MarketDataCollector
 from astrategy.data_collector.news import NewsCollector
 from astrategy.graph.builder import GraphBuilder
+from astrategy.graph.local_store import LocalGraphStore
 from astrategy.graph.topology import TopologyAnalyzer
 from astrategy.llm import create_llm_client
 from astrategy.strategies.base import BaseStrategy, StrategySignal
@@ -167,9 +168,16 @@ class SupplyChainStrategy(BaseStrategy):
         return self._llm
 
     @property
-    def _graph_builder(self) -> GraphBuilder:
+    def _graph_builder(self):
         if self._graph is None:
-            self._graph = GraphBuilder()
+            # Prefer local graph store (no Zep dependency)
+            local = LocalGraphStore()
+            if local.load(self._graph_id):
+                logger.info("Using local graph store for '%s'", self._graph_id)
+                self._graph = local
+            else:
+                logger.info("Local graph not found, falling back to Zep GraphBuilder")
+                self._graph = GraphBuilder()
         return self._graph
 
     # ── identity ───────────────────────────────────────────────
