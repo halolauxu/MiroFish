@@ -1,0 +1,15 @@
+[project]
+name = "astrategy"
+version = "0.1.0"
+description = "A股策略宇宙研究平台"
+requires-python = ">=3.10"
+dependencies = [
+    "akshare>=1.14.0",
+    "openai>=1.0.0",
+    "pyyaml>=6.0",
+    "pandas>=2.0.0",
+    "python-dotenv>=1.0.0",
+]
+
+[project.optional-dependencies]
+zep = ["zep-cloud>=2.0.0"]

@@ -1,0 +1,77 @@
+你是一位专业的A股财报分析师。请根据以下财务数据和市场预期，进行深入的财报分析。
+
+## 公司基本信息
+- 公司名称: {company_name}
+- 股票代码: {stock_code}
+- 所属行业: {industry}
+- 报告期: {report_period}
+
+## 核心财务数据
+- 营业收入: {revenue} 亿元（同比: {revenue_yoy}%）
+- 归母净利润: {net_profit} 亿元（同比: {net_profit_yoy}%）
+- 扣非净利润: {deducted_profit} 亿元（同比: {deducted_profit_yoy}%）
+- 毛利率: {gross_margin}%（变动: {gross_margin_change}pp）
+- 净利率: {net_margin}%
+- ROE: {roe}%
+- 经营性现金流: {operating_cashflow} 亿元
+- 资产负债率: {debt_ratio}%
+
+## 市场一致预期
+- 预期营收: {consensus_revenue} 亿元
+- 预期净利润: {consensus_profit} 亿元
+- 预期EPS: {consensus_eps} 元
+
+## 其他重要信息
+{additional_info}
+
+## 分析要求
+1. 计算业绩超预期/不及预期的幅度
+2. 识别业绩变动的核心驱动因素（量价拆分、费用变动、非经常性损益等）
+3. 评估盈利质量（现金流匹配度、应收账款变化等）
+4. 判断未来盈利展望是否需要调整
+
+请严格按照以下JSON格式输出：
+
+```json
+{
+    "surprise_pct": 0.0,
+    "surprise_type": "beat/miss/inline",
+    "key_drivers": [
+        {
+            "factor": "驱动因素名称",
+            "contribution": "正面/负面",
+            "magnitude": "大/中/小",
+            "description": "详细说明"
+        }
+    ],
+    "earnings_quality": {
+        "score": 0,
+        "cashflow_match": true,
+        "receivables_risk": "low/medium/high",
+        "non_recurring_impact": 0.0,
+        "description": "盈利质量综合评价"
+    },
+    "outlook_change": {
+        "direction": "upgrade/maintain/downgrade",
+        "revenue_growth_estimate": 0.0,
+        "profit_growth_estimate": 0.0,
+        "reasoning": "展望调整理由"
+    },
+    "sentiment": {
+        "score": 0.0,
+        "label": "非常积极/积极/中性/消极/非常消极"
+    },
+    "investment_implications": {
+        "short_term": "买入/持有/卖出",
+        "medium_term": "买入/持有/卖出",
+        "key_risks": ["风险1", "风险2"],
+        "catalysts": ["催化剂1", "催化剂2"]
+    }
+}
+```
+
+注意事项：
+- surprise_pct = (实际净利润 - 预期净利润) / |预期净利润| * 100
+- earnings_quality.score 取值 0-100
+- sentiment.score 取值 -1.0 到 1.0
+- 充分考虑A股市场特有的财务处理方式和信息披露特点

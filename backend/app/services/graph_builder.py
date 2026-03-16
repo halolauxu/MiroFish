@@ -16,6 +16,7 @@ from zep_cloud import EpisodeData, EntityEdgeSourceTarget
 from ..config import Config
 from ..models.task import TaskManager, TaskStatus
 from ..utils.zep_paging import fetch_all_nodes, fetch_all_edges
+from ..utils.zep_rate_limiter import rate_limited_call
 from .text_processor import TextProcessor
 
 
@@ -188,10 +189,12 @@ class GraphBuilderService:
         """创建Zep图谱（公开方法）"""
         graph_id = f"mirofish_{uuid.uuid4().hex[:16]}"
         
-        self.client.graph.create(
+        rate_limited_call(
+            self.client.graph.create,
             graph_id=graph_id,
             name=name,
-            description="MiroFish Social Simulation Graph"
+            description="MiroFish Social Simulation Graph",
+            operation_name="创建图谱",
         )
         
         return graph_id
@@ -279,10 +282,12 @@ class GraphBuilderService:
         
         # 调用Zep API设置本体
         if entity_types or edge_definitions:
-            self.client.graph.set_ontology(
+            rate_limited_call(
+                self.client.graph.set_ontology,
                 graph_ids=[graph_id],
                 entities=entity_types if entity_types else None,
                 edges=edge_definitions if edge_definitions else None,
+                operation_name="设置本体",
             )
     
     def add_text_batches(
@@ -316,9 +321,11 @@ class GraphBuilderService:
             
             # 发送到Zep
             try:
-                batch_result = self.client.graph.add_batch(
+                batch_result = rate_limited_call(
+                    self.client.graph.add_batch,
                     graph_id=graph_id,
-                    episodes=episodes
+                    episodes=episodes,
+                    operation_name=f"添加文本批次{batch_num}",
                 )
                 
                 # 收集返回的 episode uuid
@@ -370,7 +377,11 @@ class GraphBuilderService:
             # 检查每个 episode 的处理状态
             for ep_uuid in list(pending_episodes):
                 try:
-                    episode = self.client.graph.episode.get(uuid_=ep_uuid)
+                    episode = rate_limited_call(
+                        self.client.graph.episode.get,
+                        uuid_=ep_uuid,
+                        operation_name="查询episode状态",
+                    )
                     is_processed = getattr(episode, 'processed', False)
                     
                     if is_processed:
@@ -496,5 +507,9 @@ class GraphBuilderService:
     
     def delete_graph(self, graph_id: str):
         """删除图谱"""
-        self.client.graph.delete(graph_id=graph_id)
+        rate_limited_call(
+            self.client.graph.delete,
+            graph_id=graph_id,
+            operation_name="删除图谱",
+        )
 

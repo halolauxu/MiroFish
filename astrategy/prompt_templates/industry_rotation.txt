@@ -1,0 +1,84 @@
+你是一位资深的A股行业配置策略师。请根据以下宏观数据和行业表现，分析当前行业轮动信号。
+
+## 宏观经济数据
+{macro_data}
+
+## 各行业近期表现
+{industry_performance}
+
+## 重要政策/事件
+{policy_events}
+
+## 资金流向数据
+{fund_flow}
+
+## 分析要求
+1. 判断当前经济周期位置（复苏/过热/滞胀/衰退）
+2. 识别行业轮动方向（进攻→防御 或 防御→进攻）
+3. 推荐未来1-3个月重点配置行业
+4. 分析轮动催化剂和时间窗口
+
+请严格按照以下JSON格式输出：
+
+```json
+{
+    "economic_cycle": {
+        "current_phase": "复苏/过热/滞胀/衰退",
+        "transition_signal": "进入/中期/末期",
+        "confidence": 0.0,
+        "key_indicators": [
+            {
+                "indicator": "指标名称",
+                "value": "当前值",
+                "trend": "上行/下行/平稳",
+                "signal": "该指标传递的信号"
+            }
+        ]
+    },
+    "recommended_industries": [
+        {
+            "industry": "行业名称",
+            "action": "超配/标配/低配",
+            "weight_suggestion": 0.0,
+            "reasoning": "推荐理由",
+            "expected_return_range": [0.0, 0.0],
+            "key_stocks": ["代表性个股1", "代表性个股2"],
+            "risk_factors": ["风险因素1"]
+        }
+    ],
+    "rotation_direction": {
+        "from_sectors": ["流出行业1", "流出行业2"],
+        "to_sectors": ["流入行业1", "流入行业2"],
+        "style_shift": "成长→价值/价值→成长/大盘→小盘/小盘→大盘/无明显切换",
+        "description": "轮动方向描述"
+    },
+    "catalysts": [
+        {
+            "event": "催化事件",
+            "expected_date": "预期时间",
+            "affected_industries": ["影响行业1", "影响行业2"],
+            "impact_direction": "positive/negative",
+            "probability": 0.0
+        }
+    ],
+    "timing": {
+        "urgency": "立即/近期（1-2周）/中期（1-3月）",
+        "optimal_entry_window": "最佳入场时间窗口描述",
+        "holding_period": "建议持有期限"
+    },
+    "risk_assessment": {
+        "overall_market_risk": "high/medium/low",
+        "black_swan_scenarios": ["潜在黑天鹅1"],
+        "hedging_suggestions": ["对冲建议1"]
+    }
+}
+```
+
+注意事项：
+- confidence 取值 0.0-1.0
+- weight_suggestion 为建议配置权重比例（0.0-1.0）
+- expected_return_range 为预期收益率区间（百分比）
+- probability 为催化事件发生概率（0.0-1.0）
+- 充分考虑A股市场的政策驱动特性、北向资金流向、两融数据等特有因素
+- 注意区分短期交易性机会和中长期配置性机会
+- 行业分类参考申万一级行业分类标准

@@ -19,6 +19,7 @@ from ..config import Config
 from ..utils.logger import get_logger
 from ..utils.llm_client import LLMClient
 from ..utils.zep_paging import fetch_all_nodes, fetch_all_edges
+from ..utils.zep_rate_limiter import rate_limited_call
 
 logger = get_logger('mirofish.zep_tools')
 
@@ -439,14 +440,17 @@ class ZepToolsService:
         return self._llm_client
     
     def _call_with_retry(self, func, operation_name: str, max_retries: int = None):
-        """带重试机制的API调用"""
+        """带重试机制的API调用（自动限速 + 429 重试）"""
         max_retries = max_retries or self.MAX_RETRIES
         last_exception = None
         delay = self.RETRY_DELAY
-        
+
         for attempt in range(max_retries):
             try:
-                return func()
+                return rate_limited_call(
+                    func,
+                    operation_name=operation_name,
+                )
             except Exception as e:
                 last_exception = e
                 if attempt < max_retries - 1:
@@ -458,7 +462,7 @@ class ZepToolsService:
                     delay *= 2
                 else:
                     logger.error(f"Zep {operation_name} 在 {max_retries} 次尝试后仍失败: {str(e)}")
-        
+
         raise last_exception
     
     def search_graph(

@@ -14,6 +14,7 @@ from zep_cloud import InternalServerError
 from zep_cloud.client import Zep
 
 from .logger import get_logger
+from .zep_rate_limiter import rate_limited_call, _is_rate_limit_error
 
 logger = get_logger('mirofish.zep_paging')
 
@@ -40,7 +41,11 @@ def _fetch_page_with_retry(
 
     for attempt in range(max_retries):
         try:
-            return api_call(*args, **kwargs)
+            return rate_limited_call(
+                api_call, *args,
+                operation_name=page_description,
+                **kwargs,
+            )
         except (ConnectionError, TimeoutError, OSError, InternalServerError) as e:
             last_exception = e
             if attempt < max_retries - 1:

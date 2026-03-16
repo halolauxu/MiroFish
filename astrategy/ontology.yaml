@@ -1,0 +1,388 @@
+# ==========================================================================
+# AStrategy A-share Ontology
+#
+# Defines entity types and edge (relationship) types used by the graph
+# builder to structure knowledge about A-share companies, industries,
+# macro factors, and events.
+# ==========================================================================
+
+entity_types:
+  # ── Market participants ──────────────────────────────────────────────
+  Company:
+    description: "A-share listed company"
+    attributes:
+      - name: stock_code
+        type: string
+        description: "Stock ticker, e.g. 600519.SH or 000858.SZ"
+      - name: stock_name
+        type: string
+        description: "Short Chinese name shown on exchanges"
+      - name: full_name
+        type: string
+        description: "Full registered company name"
+      - name: market
+        type: string
+        description: "Exchange board: SSE_MAIN, SZSE_MAIN, ChiNext, STAR, BSE"
+      - name: market_cap
+        type: float
+        description: "Total market capitalisation (CNY, billions)"
+      - name: sector
+        type: string
+        description: "CITIC level-1 sector classification"
+      - name: province
+        type: string
+        description: "Province where the company is registered"
+      - name: list_date
+        type: string
+        description: "IPO date (YYYYMMDD)"
+
+  Industry:
+    description: "Sector or industry classification (CITIC / SW / CSRC)"
+    attributes:
+      - name: name
+        type: string
+        description: "Industry name, e.g. 白酒, 半导体, 新能源汽车"
+      - name: classification
+        type: string
+        description: "Taxonomy source: CITIC, SW (Shenwan), CSRC"
+      - name: level
+        type: int
+        description: "Hierarchy depth: 1=sector, 2=industry, 3=sub-industry"
+      - name: index_code
+        type: string
+        description: "Corresponding industry index code, if any"
+
+  Concept:
+    description: "Thematic / concept label (e.g. 华为概念, 碳中和, 国产替代)"
+    attributes:
+      - name: name
+        type: string
+        description: "Concept theme name"
+      - name: source
+        type: string
+        description: "Where the concept tag originates: Wind, EastMoney, custom"
+      - name: hot_rank
+        type: int
+        description: "Popularity ranking (lower = hotter)"
+
+  Institution:
+    description: "Investment institution (fund house, brokerage, insurance, QFII, etc.)"
+    attributes:
+      - name: name
+        type: string
+        description: "Institution name"
+      - name: institution_type
+        type: string
+        description: "Type: fund, brokerage, insurance, QFII, social_security, trust"
+      - name: aum
+        type: float
+        description: "Assets under management (CNY, billions)"
+
+  Person:
+    description: "Key individual (executive, fund manager, analyst, regulator)"
+    attributes:
+      - name: name
+        type: string
+        description: "Full name"
+      - name: role
+        type: string
+        description: "Primary role: CEO, chairman, fund_manager, analyst, regulator"
+      - name: affiliated_org
+        type: string
+        description: "Name of the organisation the person belongs to"
+
+  Policy:
+    description: "Government or regulatory policy (monetary, fiscal, industrial)"
+    attributes:
+      - name: name
+        type: string
+        description: "Policy title or short label"
+      - name: issuer
+        type: string
+        description: "Issuing body: PBOC, CSRC, MOF, State_Council, NDRC, MIIT"
+      - name: policy_type
+        type: string
+        description: "Category: monetary, fiscal, industrial, regulatory, trade"
+      - name: publish_date
+        type: string
+        description: "Date published (YYYYMMDD)"
+      - name: direction
+        type: string
+        description: "Qualitative stance: tightening, easing, neutral, supportive, restrictive"
+
+  Event:
+    description: "Discrete market-moving event"
+    attributes:
+      - name: name
+        type: string
+        description: "Short event title"
+      - name: event_type
+        type: string
+        description: "Type: earnings, M&A, IPO, delisting, scandal, natural_disaster, geopolitical"
+      - name: event_date
+        type: string
+        description: "Date the event occurred or was announced (YYYYMMDD)"
+      - name: severity
+        type: string
+        description: "Impact magnitude: low, medium, high, critical"
+      - name: sentiment
+        type: string
+        description: "Market sentiment: positive, negative, neutral"
+
+  FinancialReport:
+    description: "Quarterly or annual financial report of a listed company"
+    attributes:
+      - name: report_period
+        type: string
+        description: "Reporting period end date (YYYYMMDD)"
+      - name: report_type
+        type: string
+        description: "Type: Q1, semi_annual, Q3, annual, express, forecast"
+      - name: revenue
+        type: float
+        description: "Total revenue (CNY, millions)"
+      - name: net_profit
+        type: float
+        description: "Net profit attributable to shareholders (CNY, millions)"
+      - name: yoy_revenue_growth
+        type: float
+        description: "Year-over-year revenue growth rate (%)"
+      - name: yoy_profit_growth
+        type: float
+        description: "Year-over-year net profit growth rate (%)"
+      - name: roe
+        type: float
+        description: "Return on equity (%)"
+      - name: eps
+        type: float
+        description: "Earnings per share (CNY)"
+
+  MacroIndicator:
+    description: "Macro-economic indicator data point"
+    attributes:
+      - name: name
+        type: string
+        description: "Indicator name, e.g. GDP, CPI, PMI, M2, LPR, Shibor"
+      - name: value
+        type: float
+        description: "Numeric value of the indicator"
+      - name: period
+        type: string
+        description: "Reference period (YYYYMM or YYYYMMDD)"
+      - name: unit
+        type: string
+        description: "Unit of measurement: %, bps, CNY_trillion, index_point"
+      - name: direction
+        type: string
+        description: "Change vs previous period: up, down, flat"
+
+  PriceAction:
+    description: "Technical price action snapshot for a stock or index"
+    attributes:
+      - name: stock_code
+        type: string
+        description: "Ticker symbol"
+      - name: date
+        type: string
+        description: "Trading date (YYYYMMDD)"
+      - name: close
+        type: float
+        description: "Closing price (CNY)"
+      - name: change_pct
+        type: float
+        description: "Daily change (%)"
+      - name: volume
+        type: float
+        description: "Trading volume (shares)"
+      - name: turnover
+        type: float
+        description: "Turnover amount (CNY, millions)"
+      - name: ma5
+        type: float
+        description: "5-day moving average"
+      - name: ma20
+        type: float
+        description: "20-day moving average"
+      - name: ma60
+        type: float
+        description: "60-day moving average"
+
+
+# ==========================================================================
+# Edge (relationship) types
+# ==========================================================================
+
+edge_types:
+  SUPPLIES_TO:
+    description: "Source company supplies goods or services to the target company"
+    source_types: [Company]
+    target_types: [Company]
+    attributes:
+      - name: product
+        type: string
+        description: "Main product or service supplied"
+      - name: revenue_share
+        type: float
+        description: "Proportion of supplier revenue from this relationship (%)"
+
+  COMPETES_WITH:
+    description: "Two companies compete in the same market segment"
+    source_types: [Company]
+    target_types: [Company]
+    attributes:
+      - name: domain
+        type: string
+        description: "Competitive domain or product line"
+
+  COOPERATES_WITH:
+    description: "Strategic cooperation, joint venture, or partnership"
+    source_types: [Company]
+    target_types: [Company, Institution]
+    attributes:
+      - name: cooperation_type
+        type: string
+        description: "Type: JV, strategic_alliance, licensing, R&D_partnership"
+      - name: start_date
+        type: string
+        description: "Start date (YYYYMMDD)"
+
+  BELONGS_TO:
+    description: "Company belongs to an industry or sector classification"
+    source_types: [Company]
+    target_types: [Industry]
+    attributes:
+      - name: is_primary
+        type: bool
+        description: "Whether this is the company's primary industry"
+
+  RELATES_TO_CONCEPT:
+    description: "Company is tagged with a thematic concept"
+    source_types: [Company]
+    target_types: [Concept]
+    attributes:
+      - name: relevance
+        type: float
+        description: "Relevance score (0-1)"
+
+  HOLDS_SHARES:
+    description: "Institution or person holds shares in a company"
+    source_types: [Institution, Person]
+    target_types: [Company]
+    attributes:
+      - name: share_count
+        type: float
+        description: "Number of shares held (millions)"
+      - name: share_pct
+        type: float
+        description: "Percentage of outstanding shares (%)"
+      - name: change_direction
+        type: string
+        description: "Change vs prior period: increase, decrease, new, unchanged, exit"
+      - name: report_date
+        type: string
+        description: "Disclosure report date (YYYYMMDD)"
+
+  MANAGES:
+    description: "Person manages or is a senior executive of a company or institution"
+    source_types: [Person]
+    target_types: [Company, Institution]
+    attributes:
+      - name: title
+        type: string
+        description: "Management title (CEO, CFO, CTO, Chairman, Fund Manager)"
+
+  LEADS:
+    description: "Person or institution leads a policy initiative"
+    source_types: [Person, Institution]
+    target_types: [Policy]
+    attributes:
+      - name: role
+        type: string
+        description: "Leadership role: author, sponsor, enforcer"
+
+  IMPACTS:
+    description: "Policy or macro indicator impacts an industry, company, or concept"
+    source_types: [Policy, MacroIndicator]
+    target_types: [Company, Industry, Concept]
+    attributes:
+      - name: impact_direction
+        type: string
+        description: "Expected impact: positive, negative, neutral"
+      - name: impact_magnitude
+        type: string
+        description: "Magnitude: low, medium, high"
+      - name: lag_days
+        type: int
+        description: "Expected lag before impact materialises (trading days)"
+
+  TRIGGERS:
+    description: "Event triggers a price action or another event"
+    source_types: [Event]
+    target_types: [PriceAction, Event, Company]
+    attributes:
+      - name: trigger_type
+        type: string
+        description: "Mechanism: direct, indirect, sentiment_driven"
+      - name: confidence
+        type: float
+        description: "Confidence that the causal link exists (0-1)"
+
+  PUBLISHED_BY:
+    description: "Financial report published by a company"
+    source_types: [FinancialReport]
+    target_types: [Company]
+    attributes:
+      - name: audit_status
+        type: string
+        description: "Audit status: audited, unaudited, reviewed"
+
+  CORRELATES_WITH:
+    description: "Statistical correlation between two price actions or indicators"
+    source_types: [PriceAction, MacroIndicator]
+    target_types: [PriceAction, MacroIndicator]
+    attributes:
+      - name: correlation
+        type: float
+        description: "Pearson correlation coefficient (-1 to 1)"
+      - name: window_days
+        type: int
+        description: "Rolling window used for computation (trading days)"
+      - name: p_value
+        type: float
+        description: "Statistical significance (p-value)"
+
+  FUND_FLOW:
+    description: "Institutional fund flow into or out of a company or industry"
+    source_types: [Institution]
+    target_types: [Company, Industry]
+    attributes:
+      - name: flow_direction
+        type: string
+        description: "Direction: inflow, outflow"
+      - name: amount
+        type: float
+        description: "Flow amount (CNY, millions)"
+      - name: period
+        type: string
+        description: "Period: daily, weekly, monthly"
+      - name: date
+        type: string
+        description: "Reference date (YYYYMMDD)"
+
+  SENTIMENT_SHIFT:
+    description: "Detected shift in market sentiment towards a target"
+    source_types: [Event, Policy, Person]
+    target_types: [Company, Industry, Concept]
+    attributes:
+      - name: from_sentiment
+        type: string
+        description: "Previous sentiment: bullish, bearish, neutral"
+      - name: to_sentiment
+        type: string
+        description: "New sentiment: bullish, bearish, neutral"
+      - name: magnitude
+        type: float
+        description: "Shift intensity (0-1)"
+      - name: source_channel
+        type: string
+        description: "Where the shift was detected: news, social_media, analyst_report, regulatory_filing"

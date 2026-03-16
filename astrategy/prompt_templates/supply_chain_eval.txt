@@ -1,0 +1,58 @@
+你是一位资深的A股产业链分析师。请根据以下信息，评估上游事件对下游公司的潜在影响。
+
+## 上游事件
+{upstream_event}
+
+## 下游公司信息
+- 公司名称: {downstream_company_name}
+- 股票代码: {downstream_company_code}
+- 所属行业: {downstream_industry}
+- 主营业务: {downstream_business}
+
+## 供应链关系
+- 关系类型: {relationship_type}
+- 关系描述: {relationship_description}
+- 采购占比: {procurement_ratio}
+
+## 分析要求
+1. 判断上游事件对下游公司的影响方向（正面/负面/中性）
+2. 评估影响幅度（从成本、供应稳定性、替代方案等角度）
+3. 考虑传导时滞和影响持续时间
+4. 给出置信度评估
+
+请严格按照以下JSON格式输出，不要包含任何其他内容：
+
+```json
+{
+    "impact_direction": "positive/negative/neutral",
+    "impact_magnitude": 0.0,
+    "confidence": 0.0,
+    "reasoning": "详细分析推理过程",
+    "cost_impact": {
+        "direction": "increase/decrease/neutral",
+        "magnitude_pct": 0.0,
+        "description": "成本影响描述"
+    },
+    "supply_risk": {
+        "level": "high/medium/low",
+        "description": "供应风险描述"
+    },
+    "time_horizon": {
+        "transmission_days": 0,
+        "duration_months": 0,
+        "description": "时间维度分析"
+    },
+    "alternative_sources": "替代供应来源分析",
+    "stock_price_implication": {
+        "direction": "up/down/neutral",
+        "magnitude_pct_range": [0.0, 0.0],
+        "timeframe": "短期/中期/长期"
+    }
+}
+```
+
+注意事项：
+- impact_magnitude 取值范围 0.0-1.0，0.0表示无影响，1.0表示极大影响
+- confidence 取值范围 0.0-1.0
+- 所有数值字段使用浮点数
+- 充分考虑A股市场特有的传导机制和投资者情绪放大效应

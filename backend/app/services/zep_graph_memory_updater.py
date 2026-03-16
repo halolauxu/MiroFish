@@ -16,6 +16,7 @@ from zep_cloud.client import Zep
 
 from ..config import Config
 from ..utils.logger import get_logger
+from ..utils.zep_rate_limiter import rate_limited_call
 
 logger = get_logger('mirofish.zep_graph_memory_updater')
 
@@ -405,10 +406,12 @@ class ZepGraphMemoryUpdater:
         # 带重试的发送
         for attempt in range(self.MAX_RETRIES):
             try:
-                self.client.graph.add(
+                rate_limited_call(
+                    self.client.graph.add,
                     graph_id=self.graph_id,
                     type="text",
-                    data=combined_text
+                    data=combined_text,
+                    operation_name=f"更新图谱记忆({platform})",
                 )
                 
                 self._total_sent += 1
