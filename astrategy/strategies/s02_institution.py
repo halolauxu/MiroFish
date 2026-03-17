@@ -226,12 +226,53 @@ class InstitutionStrategy(BaseStrategy):
             self._stock_to_insts.setdefault(code, set()).add(inst_name)
 
     def _ingest_fund_holdings(self, code: str) -> None:
-        """Add mutual-fund holders of *code* to the network."""
+        """Add mutual-fund holders of *code* to the network.
+
+        Handles two formats:
+        - New aggregate format (stock_report_fund_hold): per-stock stats with
+          持股变化 and 持有基金家数 columns.  Creates synthetic institution nodes
+          so that stocks with similar fund activity are linked as peers.
+        - Old per-fund format (stock_fund_stock_holder): one row per fund.
+        """
         df = self._fundamental.get_fund_holdings(code)
         if df.empty:
             return
 
-        # Identify fund name column
+        # ── New aggregate format ──────────────────────────────────────
+        if "持股变化" in df.columns and "持有基金家数" in df.columns:
+            row = df.iloc[0]
+            change = str(row.get("持股变化", "")).strip()
+            raw_count = row.get("持有基金家数", 0)
+            try:
+                fund_count = int(raw_count)
+            except (ValueError, TypeError):
+                fund_count = 0
+
+            # Bucket by fund count to create peer groups with similar coverage
+            if fund_count >= 500:
+                bucket = "500p"
+            elif fund_count >= 100:
+                bucket = "100p"
+            elif fund_count >= 20:
+                bucket = "20p"
+            elif fund_count >= 5:
+                bucket = "5p"
+            else:
+                bucket = "1p"
+
+            # Synthetic institution represents: change direction + fund breadth
+            if change in ("增仓", "新进"):
+                inst_name = f"fund_acc_{bucket}"
+            elif change in ("减仓", "退出"):
+                inst_name = f"fund_red_{bucket}"
+            else:
+                inst_name = f"fund_stb_{bucket}"
+
+            self._inst_to_stocks.setdefault(inst_name, set()).add(code)
+            self._stock_to_insts.setdefault(code, set()).add(inst_name)
+            return
+
+        # ── Old per-fund format ───────────────────────────────────────
         name_col = None
         for candidate in ("基金名称", "基金简称"):
             if candidate in df.columns:

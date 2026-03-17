@@ -221,12 +221,41 @@ class LocalGraphStore:
         data = json.loads(path.read_text(encoding="utf-8"))
         g = _Graph(graph_id)
         g.nodes = data.get("nodes", {})
-        g.edges = data.get("edges", [])
-        g.facts = data.get("facts", [])
         g.episode_texts = data.get("episode_texts", [])
+
+        # Normalise edges: unify source_name/target_name → source/target
+        seen_facts: set[str] = set()
+        for e in data.get("edges", []):
+            src = e.get("source") or e.get("source_name") or ""
+            tgt = e.get("target") or e.get("target_name") or ""
+            norm = dict(e)  # preserve all saved fields (including source_display etc.)
+            norm["source"] = src
+            norm["target"] = tgt
+            norm["source_name"] = src
+            norm["target_name"] = tgt
+            g.edges.append(norm)
+            key = norm["fact"]
+            if key not in seen_facts:
+                seen_facts.add(key)
+                g.facts.append({"source": src, "target": tgt,
+                                 "relation": norm["relation"],
+                                 "fact": norm["fact"], "weight": norm["weight"]})
+
+        # Merge in any extra facts saved separately
+        for f in data.get("facts", []):
+            key = f.get("fact", "")
+            if key not in seen_facts:
+                seen_facts.add(key)
+                g.facts.append({
+                    "source": f.get("source") or f.get("source_name") or "",
+                    "target": f.get("target") or f.get("target_name") or "",
+                    "relation": f.get("relation", "RELATED_TO"),
+                    "fact": key, "weight": f.get("weight", 1.0),
+                })
+
         self._graphs[graph_id] = g
-        logger.info("Loaded graph '%s' from %s (%d nodes, %d edges)",
-                     graph_id, path, len(g.nodes), len(g.edges))
+        logger.info("Loaded graph '%s' from %s (%d nodes, %d edges, %d facts)",
+                     graph_id, path, len(g.nodes), len(g.edges), len(g.facts))
         return True
 
     # ── helpers ─────────────────────────────────────────────────

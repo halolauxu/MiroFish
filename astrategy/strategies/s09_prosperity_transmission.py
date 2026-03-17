@@ -274,6 +274,22 @@ class ProsperityTransmissionStrategy(BaseStrategy):
             )
         result["raw_summary"] = "; ".join(summary_parts)
 
+        # Fetch industry-specific stock returns to differentiate prosperity scores
+        result["industry_returns"] = {}
+        try:
+            from astrategy.data_collector.em_fallback import scan_industry_returns_sina
+            ind_df = scan_industry_returns_sina(lookback_days=60)
+            if ind_df is not None and not ind_df.empty:
+                for _, row in ind_df.iterrows():
+                    board = str(row.get("板块名称", ""))
+                    result["industry_returns"][board] = {
+                        "return_20d": row.get("return_20d"),
+                        "return_10d": row.get("return_10d"),
+                        "return_5d": row.get("return_5d"),
+                    }
+        except Exception as exc:
+            logger.debug("Industry returns fetch failed: %s", exc)
+
         return result
 
     # ==================================================================
@@ -317,19 +333,56 @@ class ProsperityTransmissionStrategy(BaseStrategy):
             pmi_df = macro_data["pmi_data"]
             pmi_detail = f"\nPMI近期数据:\n{pmi_df.tail(6).to_string(index=False)}"
 
+        # Look up industry-specific stock return as differentiated proxy
+        board_name = _INDUSTRY_TO_BOARD.get(industry, "")
+        industry_returns = macro_data.get("industry_returns", {})
+        ind_return_info = industry_returns.get(board_name, {})
+
+        # Compute a quantitative baseline score from industry returns
+        # This ensures different industries get meaningfully different scores
+        r5 = ind_return_info.get("return_5d")
+        r20 = ind_return_info.get("return_20d")
+        rs = ind_return_info.get("relative_strength")
+
+        quant_baseline = None
+        if rs is not None:
+            # relative_strength range approx -10 to +15 → map to 30-80
+            quant_baseline = max(25.0, min(80.0, 50.0 + float(rs) * 1.8))
+        elif r20 is not None:
+            quant_baseline = max(25.0, min(80.0, 50.0 + float(r20) * 0.8))
+
+        ind_return_text = ""
+        if ind_return_info:
+            parts = []
+            if r5 is not None:
+                parts.append(f"近5日涨跌幅={r5:.1f}%")
+            if r20 is not None:
+                parts.append(f"近20日涨跌幅={r20:.1f}%")
+            if rs is not None:
+                parts.append(f"综合相对强度={rs:.1f}")
+            if quant_baseline is not None:
+                parts.append(f"量化基准分={quant_baseline:.0f}")
+            ind_return_text = (
+                f"\n## 【核心数据】{industry}（{board_name}板块）近期市场表现\n"
+                + "；".join(parts)
+                + f"\n注：量化基准分已根据市场表现计算，你的最终评分应以此为锚点（±10分浮动），"
+                + f"不要脱离市场表现给出与基准分差距超过15分的评分。"
+            )
+
         prompt = (
-            f"你是一位产业链景气度分析专家。请根据以下宏观经济数据，"
-            f"评估「{industry}」行业当前的景气度。\n\n"
-            f"## 宏观数据概览\n{macro_summary}\n"
+            f"你是一位产业链景气度分析专家。请评估「{industry}」行业当前的景气度。\n\n"
+            f"{ind_return_text}\n\n"
+            f"## 宏观背景数据（参考）\n{macro_summary}\n"
+            f"注：以下宏观数据对所有行业相同，请优先参考上方行业专属数据。\n"
             f"{pmi_detail}\n{ppi_detail}\n\n"
-            f"## 评估要求\n"
-            f"1. 综合PMI子项、价格指数、产量数据等判断该行业景气状况\n"
-            f"2. 景气度评分0-100，50为荣枯线\n"
-            f"3. 判断趋势方向：上行/下行/平稳\n"
-            f"4. 给出置信度0-1\n\n"
-            f"请以JSON格式返回，包含以下字段：\n"
+            f"## 评分要求（严格执行）\n"
+            f"1. 以量化基准分为锚点，结合行业基本面调整（±10分以内）\n"
+            f"2. 评分范围0-100，50为荣枯线；各行业之间必须有明显差异\n"
+            f"3. 判断趋势：近5日强于近20日 → 上行；近20日强于近5日 → 下行；否则平稳\n"
+            f"4. 给出置信度0-1（有量化数据时置信度应≥0.65）\n\n"
+            f"请以JSON格式返回：\n"
             f'{{"prosperity_score": 数值, "trend": "上行/下行/平稳", '
-            f'"confidence": 数值, "reasoning": "分析理由"}}'
+            f'"confidence": 数值, "reasoning": "分析理由（需引用具体数据）"}}'
         )
 
         messages = [

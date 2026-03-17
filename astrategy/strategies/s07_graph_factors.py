@@ -56,13 +56,15 @@ _CST = timezone(timedelta(hours=8))
 # Default factor weights (graph + traditional)
 # ---------------------------------------------------------------------------
 DEFAULT_WEIGHTS: Dict[str, float] = {
-    # Graph factors
-    "supply_chain_centrality": 1.0,
+    # Graph factors — weights are scaled dynamically by graph coverage ratio
+    # (see compute_composite_score: if coverage < 50%, graph weight is reduced)
+    "supply_chain_centrality": 1.5,
+    "betweenness_centrality": 1.0,    # NEW: measures broker/connector role
     "institution_concentration": 1.0,
-    "concept_heat": 1.0,
-    "event_exposure": 1.0,
-    "industry_leadership": 1.0,
-    "peer_return_gap": 1.0,
+    "concept_heat": 0.5,
+    "event_exposure": 0.5,
+    "industry_leadership": 0.8,
+    "peer_return_gap": 0.8,
     # Traditional factors
     "momentum_20d": 1.0,
     "reversal_5d": 1.0,
@@ -71,6 +73,17 @@ DEFAULT_WEIGHTS: Dict[str, float] = {
     "pe_percentile": -1.0,   # lower PE percentile preferred (value tilt)
     "roe": 1.0,
 }
+
+# Graph factor names (subject to coverage scaling)
+_GRAPH_FACTOR_COLS = [
+    "supply_chain_centrality",
+    "betweenness_centrality",
+    "institution_concentration",
+    "concept_heat",
+    "event_exposure",
+    "industry_leadership",
+    "peer_return_gap",
+]
 
 
 class GraphFactorsStrategy(BaseStrategy):
@@ -215,6 +228,7 @@ class GraphFactorsStrategy(BaseStrategy):
         # If no graph data, return empty DataFrame with correct columns
         factor_cols = [
             "supply_chain_centrality",
+            "betweenness_centrality",
             "institution_concentration",
             "concept_heat",
             "event_exposure",
@@ -233,6 +247,11 @@ class GraphFactorsStrategy(BaseStrategy):
         # 1) supply_chain_centrality -- PageRank on SUPPLIES_TO sub-graph
         self._compute_supply_chain_centrality(
             graph_nodes, graph_edges, code_to_name, name_to_code, records,
+        )
+
+        # 1b) betweenness_centrality -- broker/connector role in full graph
+        self._compute_betweenness_centrality(
+            graph_nodes, graph_edges, code_to_name, records,
         )
 
         # 2) institution_concentration -- distinct HOLDS_SHARES sources
@@ -312,6 +331,31 @@ class GraphFactorsStrategy(BaseStrategy):
         for code in records:
             company_name = code_to_name.get(code, "")
             records[code]["supply_chain_centrality"] = pr.get(company_name, 0.0)
+
+    def _compute_betweenness_centrality(
+        self,
+        nodes: List[Dict],
+        edges: List[Dict],
+        code_to_name: Dict[str, str],
+        records: Dict[str, Dict[str, float]],
+    ) -> None:
+        """Betweenness centrality across ALL edge types (SUPPLIES_TO + COMPETES_WITH + COOPERATES_WITH)."""
+        # Only use stock-code nodes (filter out Institution nodes etc.)
+        import re as _re
+        stock_nodes = [n for n in nodes if _re.match(r"^\d{6}$", str(n.get("name", "")))]
+        stock_edges = [
+            e for e in edges
+            if e.get("relation") in ("SUPPLIES_TO", "COMPETES_WITH", "COOPERATES_WITH")
+        ]
+        if not stock_nodes or not stock_edges:
+            for code in records:
+                records[code]["betweenness_centrality"] = 0.0
+            return
+
+        bc = TopologyAnalyzer.betweenness_centrality(stock_nodes, stock_edges)
+        for code in records:
+            company_name = code_to_name.get(code, "")
+            records[code]["betweenness_centrality"] = bc.get(company_name, 0.0)
 
     def _compute_institution_concentration(
         self,
@@ -714,11 +758,34 @@ class GraphFactorsStrategy(BaseStrategy):
         # Fill NaN z-scores with 0 (neutral)
         z_scored = z_scored.fillna(0.0)
 
+        # Clip z-scores to [-3, 3] to prevent sparse factors from dominating.
+        z_scored = z_scored.clip(-3.0, 3.0)
+
+        # --- Dynamic graph weight scaling based on coverage ---
+        # If graph covers <50% of stocks, scale graph factor weights down proportionally.
+        # This prevents a 5%-coverage sparse graph from biasing signals with noise.
+        n_total = len(combined)
+        graph_cols = [c for c in z_scored.columns if c in _GRAPH_FACTOR_COLS]
+        n_covered = 0
+        if graph_cols:
+            # Count stocks with at least one non-zero graph factor
+            n_covered = int((combined[graph_cols].abs().sum(axis=1) > 1e-9).sum())
+        coverage_ratio = n_covered / max(n_total, 1)
+        # Scale: 0 coverage → 0.0 weight; 50% coverage → 1.0 weight; linear
+        graph_scale = min(1.0, coverage_ratio / 0.50)
+        if graph_scale < 1.0:
+            logger.info(
+                "Graph coverage %.1f%% (%d/%d stocks) — scaling graph factor weights by %.2f",
+                coverage_ratio * 100, n_covered, n_total, graph_scale,
+            )
+
         # Weighted composite
         composite = pd.Series(0.0, index=z_scored.index, dtype=float)
         total_abs_weight = 0.0
         for col in z_scored.columns:
             w = self._weights.get(col, 0.0)
+            if col in _GRAPH_FACTOR_COLS:
+                w = w * graph_scale
             composite += z_scored[col] * w
             total_abs_weight += abs(w)
 
@@ -837,21 +904,23 @@ class GraphFactorsStrategy(BaseStrategy):
     def _fetch_graph_data(
         self,
     ) -> Tuple[List[Dict[str, Any]], List[Dict[str, Any]]]:
-        """Fetch nodes and edges from the configured Zep graph.
+        """Fetch nodes and edges from the local graph store.
 
-        Returns empty lists if the graph backend is unavailable so that
+        Returns empty lists if the graph is unavailable so that
         the strategy can still run on traditional factors alone.
         """
         try:
-            from astrategy.graph.builder import GraphBuilder
-            from astrategy.config import settings
+            from astrategy.graph.local_store import LocalGraphStore
 
-            builder = GraphBuilder()
-            graph_id = settings.graph.group_id
-            nodes = builder.get_all_nodes(graph_id)
-            edges = builder.get_all_edges(graph_id)
+            store = LocalGraphStore()
+            graph_id = "supply_chain"
+            if not store.load(graph_id):
+                logger.warning("Local graph '%s' not found; no graph factors.", graph_id)
+                return [], []
+            nodes = store.get_all_nodes(graph_id)
+            edges = store.get_all_edges(graph_id)
             logger.info(
-                "Fetched %d nodes and %d edges from graph '%s'",
+                "Fetched %d nodes and %d edges from local graph '%s'",
                 len(nodes), len(edges), graph_id,
             )
             return nodes, edges
@@ -872,6 +941,7 @@ class GraphFactorsStrategy(BaseStrategy):
         -------
         (code_to_name, name_to_code)
         """
+        import re as _re
         code_to_name: Dict[str, str] = {}
         name_to_code: Dict[str, str] = {}
 
@@ -880,8 +950,12 @@ class GraphFactorsStrategy(BaseStrategy):
             if "Company" not in labels:
                 continue
             attrs = n.get("attributes", {}) or {}
-            code = str(attrs.get("stock_code", ""))
             name = n.get("name", "")
+            # Support both "stock_code" and "code" attribute keys
+            code = str(attrs.get("stock_code", "") or attrs.get("code", ""))
+            # If still empty but node name itself is a 6-digit stock code, use it directly
+            if not code and _re.match(r"^\d{6}$", name):
+                code = name
             # Normalise code: strip exchange suffix (.SH / .SZ)
             if "." in code:
                 code = code.split(".")[0]

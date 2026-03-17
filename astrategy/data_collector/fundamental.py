@@ -51,6 +51,40 @@ def _retry(fn, *args, retries: int = 2, delay: float = 0.5, **kwargs):
 
 
 # ---------------------------------------------------------------------------
+# Cached full fund-holding table (fetched once, filtered per stock)
+# ---------------------------------------------------------------------------
+_fund_hold_table: Optional[pd.DataFrame] = None
+_fund_hold_ts: float = 0.0
+_FUND_HOLD_TTL: int = 3600  # 1 hour
+
+
+def _get_fund_hold_table() -> pd.DataFrame:
+    """Return the full fund-holding report table, cached for 1 hour."""
+    global _fund_hold_table, _fund_hold_ts
+    if _fund_hold_table is not None and time.time() - _fund_hold_ts < _FUND_HOLD_TTL:
+        return _fund_hold_table
+    from datetime import datetime
+    # Use latest available quarter-end date
+    today = datetime.now()
+    quarter_dates = ["20241231", "20240930", "20240630", "20240331"]
+    for qdate in quarter_dates:
+        try:
+            df = ak.stock_report_fund_hold(symbol="基金持仓", date=qdate)
+            if df is not None and not df.empty:
+                # Normalise stock code column to string without leading zeros issues
+                if "股票代码" in df.columns:
+                    df["股票代码"] = df["股票代码"].astype(str).str.zfill(6)
+                _fund_hold_table = df
+                _fund_hold_ts = time.time()
+                logger.info("Loaded fund hold table for %s: %d rows", qdate, len(df))
+                return df
+        except Exception as exc:
+            logger.debug("Fund hold table %s failed: %s", qdate, exc)
+    _fund_hold_table = pd.DataFrame()
+    return pd.DataFrame()
+
+
+# ---------------------------------------------------------------------------
 # Cached stock code -> name lookup (shared across methods)
 # ---------------------------------------------------------------------------
 _stock_name_map: dict[str, str] = {}
@@ -164,8 +198,8 @@ class FundamentalCollector:
     def get_fund_holdings(self, code: str) -> pd.DataFrame:
         """Return mutual fund holdings for a stock.
 
-        Uses ``ak.stock_fund_stock_holder`` which returns fund holding
-        details from Sina/THS.
+        Uses ``ak.stock_report_fund_hold(symbol='基金持仓', date=<latest_quarter>)``
+        which returns the full holding table; we filter by stock code.
 
         Parameters
         ----------
@@ -175,8 +209,8 @@ class FundamentalCollector:
         Returns
         -------
         pd.DataFrame
-            Columns: 基金名称, 基金代码, 持仓数量, 占流通股比例, 持股市值,
-            占净值比例, 截止日期
+            Columns: 股票代码, 股票简称, 持有基金家数, 持股总数,
+            持股市值, 持股变化, 持股变动数值, 持股变动比例
         """
         cache_key = f"fund_holdings_{code}"
         cached = _get_cache(cache_key, ttl=3600)
@@ -184,7 +218,11 @@ class FundamentalCollector:
             return cached  # type: ignore[return-value]
 
         try:
-            df = _retry(ak.stock_fund_stock_holder, symbol=code)
+            full_table = _get_fund_hold_table()
+            if full_table.empty:
+                return pd.DataFrame()
+            code_str = str(code).zfill(6)
+            df = full_table[full_table["股票代码"] == code_str].reset_index(drop=True)
             _set_cache(cache_key, df)
             return df
         except Exception as exc:

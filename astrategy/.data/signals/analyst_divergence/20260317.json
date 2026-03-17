@@ -7,10 +7,10 @@
     "confidence": 0.15,
     "expected_return": 0.0,
     "holding_period_days": 45,
-    "reasoning": "No strong directional signal (consensus=4.8, shift=stable); Divergence: std=0.436, bull/bear=inf",
+    "reasoning": "No strong directional signal (consensus=4.8, shift=stable); Divergence: std=0.447, bull/bear=inf",
     "metadata": {
-      "consensus_rating": 4.76,
-      "divergence_score": 0.4364,
+      "consensus_rating": 4.75,
+      "divergence_score": 0.4472,
       "divergence_change": 0.0,
       "bull_bear_ratio": 999.0,
       "recent_upgrades": 0,
@@ -18,14 +18,14 @@
       "target_price_upside": null,
       "convergence_type": "stable",
       "leading_brokers": [],
-      "analyst_count": 21,
+      "analyst_count": 16,
       "price_divergence": 0.0,
       "consensus_target": null,
       "current_price": null,
       "wave_type": "none"
     },
-    "timestamp": "2026-03-16T23:48:55.488649+08:00",
-    "expires_at": "2026-04-30T23:48:55.488649+08:00"
+    "timestamp": "2026-03-17T00:01:18.682330+08:00",
+    "expires_at": "2026-05-01T00:01:18.682330+08:00"
   },
   {
     "strategy_name": "analyst_divergence",
@@ -46,14 +46,14 @@
       "target_price_upside": null,
       "convergence_type": "stable",
       "leading_brokers": [],
-      "analyst_count": 4,
+      "analyst_count": 3,
       "price_divergence": 0.0,
       "consensus_target": null,
       "current_price": null,
       "wave_type": "none"
     },
-    "timestamp": "2026-03-16T23:48:56.447100+08:00",
-    "expires_at": "2026-04-30T23:48:56.447100+08:00"
+    "timestamp": "2026-03-17T00:01:19.969405+08:00",
+    "expires_at": "2026-05-01T00:01:19.969405+08:00"
   },
   {
     "strategy_name": "analyst_divergence",
@@ -80,7 +80,7 @@
       "current_price": null,
       "wave_type": "none"
     },
-    "timestamp": "2026-03-16T23:49:08.471209+08:00",
-    "expires_at": "2026-04-30T23:49:08.471209+08:00"
+    "timestamp": "2026-03-17T00:01:39.775171+08:00",
+    "expires_at": "2026-05-01T00:01:39.775171+08:00"
   }
 ]

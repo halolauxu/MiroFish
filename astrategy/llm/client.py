@@ -91,11 +91,30 @@ class LLMClient:
         if response_format:
             kwargs["response_format"] = response_format
 
+        # Check cache before calling API
+        cache_key: Optional[str] = None
+        if self._cache is not None:
+            try:
+                cache_key = self._cache.make_key(self.model, messages, temperature)
+                cached_result = self._cache.get(cache_key)
+                if cached_result is not None:
+                    logger.debug("LLM cache hit for key %s", cache_key[:8])
+                    return cached_result
+            except Exception as _ce:
+                logger.debug("LLM cache lookup failed: %s", _ce)
+
         response = self.client.chat.completions.create(**kwargs)
         content = response.choices[0].message.content or ""
 
         # Strip <think>...</think> blocks from reasoning models
         content = re.sub(r"<think>[\s\S]*?</think>", "", content).strip()
+
+        # Store in cache
+        if self._cache is not None and cache_key is not None:
+            try:
+                self._cache.set(cache_key, content, model=self.model)
+            except Exception as _ce:
+                logger.debug("LLM cache write failed: %s", _ce)
 
         # Track cost if tracker and usage info are available
         usage = getattr(response, "usage", None)

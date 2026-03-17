@@ -1,0 +1,138 @@
+[
+  {
+    "strategy_name": "sector_rotation",
+    "stock_code": "300750",
+    "stock_name": "宁德时代",
+    "direction": "long",
+    "confidence": 0.85,
+    "expected_return": 0.1,
+    "holding_period_days": 10,
+    "reasoning": "近期表现强势（5日涨幅8.95%，相对强度10.51），成交量放大52.91%，显示资金流入；受益于政策宽松预期和新能源转型长期趋势，在衰退期具有防御性和成长性双重属性; 风险: 政策支持不及预期, 行业竞争加剧",
+    "metadata": {
+      "industry": "电力设备",
+      "industry_return_5d": 8.95,
+      "industry_return_10d": 12.98,
+      "industry_return_20d": 10.7,
+      "macro_phase": "contraction",
+      "north_flow_trend": "unknown",
+      "llm_reasoning": "资金从高估值、周期敏感的成长板块（如计算机、国防军工）和强周期板块（如有色金属、石油石化）流出，转向防御性高股息板块（煤炭）和政策受益/需求稳定的板块（电力设备、农林牧渔）。市场风格偏向价值，注重现金流和股息保护  风格切换: 成长→价值",
+      "recommended_industries": [
+        "电力设备",
+        "煤炭"
+      ],
+      "avoid_industries": [
+        "有色金属",
+        "传媒",
+        "计算机",
+        "石油石化",
+        "国防军工"
+      ],
+      "action": "超配",
+      "weight_suggestion": 0.15
+    },
+    "timestamp": "2026-03-17T00:06:32.644143+08:00",
+    "expires_at": "2026-03-27T00:06:32.644143+08:00"
+  },
+  {
+    "strategy_name": "sector_rotation",
+    "stock_code": "601012",
+    "stock_name": "隆基绿能",
+    "direction": "long",
+    "confidence": 0.85,
+    "expected_return": 0.1,
+    "holding_period_days": 10,
+    "reasoning": "近期表现强势（5日涨幅8.95%，相对强度10.51），成交量放大52.91%，显示资金流入；受益于政策宽松预期和新能源转型长期趋势，在衰退期具有防御性和成长性双重属性; 风险: 政策支持不及预期, 行业竞争加剧",
+    "metadata": {
+      "industry": "电力设备",
+      "industry_return_5d": 8.95,
+      "industry_return_10d": 12.98,
+      "industry_return_20d": 10.7,
+      "macro_phase": "contraction",
+      "north_flow_trend": "unknown",
+      "llm_reasoning": "资金从高估值、周期敏感的成长板块（如计算机、国防军工）和强周期板块（如有色金属、石油石化）流出，转向防御性高股息板块（煤炭）和政策受益/需求稳定的板块（电力设备、农林牧渔）。市场风格偏向价值，注重现金流和股息保护  风格切换: 成长→价值",
+      "recommended_industries": [
+        "电力设备",
+        "煤炭"
+      ],
+      "avoid_industries": [
+        "有色金属",
+        "传媒",
+        "计算机",
+        "石油石化",
+        "国防军工"
+      ],
+      "action": "超配",
+      "weight_suggestion": 0.15
+    },
+    "timestamp": "2026-03-17T00:06:32.644154+08:00",
+    "expires_at": "2026-03-27T00:06:32.644154+08:00"
+  },
+  {
+    "strategy_name": "sector_rotation",
+    "stock_code": "601088",
+    "stock_name": "中国神华",
+    "direction": "long",
+    "confidence": 0.85,
+    "expected_return": 0.065,
+    "holding_period_days": 10,
+    "reasoning": "20日涨幅26.39%领先，相对强度8.95，高股息属性在衰退期提供防御；低估值和稳定现金流吸引避险资金，但需注意成交量下降21.19%可能预示短期调整; 风险: 大宗商品价格波动, 环保政策收紧",
+    "metadata": {
+      "industry": "煤炭",
+      "industry_return_5d": 1.45,
+      "industry_return_10d": 9.81,
+      "industry_return_20d": 26.39,
+      "macro_phase": "contraction",
+      "north_flow_trend": "unknown",
+      "llm_reasoning": "资金从高估值、周期敏感的成长板块（如计算机、国防军工）和强周期板块（如有色金属、石油石化）流出，转向防御性高股息板块（煤炭）和政策受益/需求稳定的板块（电力设备、农林牧渔）。市场风格偏向价值，注重现金流和股息保护  风格切换: 成长→价值",
+      "recommended_industries": [
+        "电力设备",
+        "煤炭"
+      ],
+      "avoid_industries": [
+        "有色金属",
+        "传媒",
+        "计算机",
+        "石油石化",
+        "国防军工"
+      ],
+      "action": "超配",
+      "weight_suggestion": 0.12
+    },
+    "timestamp": "2026-03-17T00:06:37.044093+08:00",
+    "expires_at": "2026-03-27T00:06:37.044093+08:00"
+  },
+  {
+    "strategy_name": "sector_rotation",
+    "stock_code": "600760",
+    "stock_name": "中航沈飞",
+    "direction": "avoid",
+    "confidence": 0.55,
+    "expected_return": -0.015,
+    "holding_period_days": 10,
+    "reasoning": "; 风险: 军费开支不确定性, 估值回调风险",
+    "metadata": {
+      "industry": "国防军工",
+      "industry_return_5d": -7.18,
+      "industry_return_10d": -10.98,
+      "industry_return_20d": 3.35,
+      "macro_phase": "contraction",
+      "north_flow_trend": "unknown",
+      "llm_reasoning": "资金从高估值、周期敏感的成长板块（如计算机、国防军工）和强周期板块（如有色金属、石油石化）流出，转向防御性高股息板块（煤炭）和政策受益/需求稳定的板块（电力设备、农林牧渔）。市场风格偏向价值，注重现金流和股息保护  风格切换: 成长→价值",
+      "recommended_industries": [
+        "电力设备",
+        "煤炭"
+      ],
+      "avoid_industries": [
+        "有色金属",
+        "传媒",
+        "计算机",
+        "石油石化",
+        "国防军工"
+      ],
+      "action": "低配",
+      "weight_suggestion": 0.0
+    },
+    "timestamp": "2026-03-17T00:06:47.422796+08:00",
+    "expires_at": "2026-03-27T00:06:47.422796+08:00"
+  }
+]

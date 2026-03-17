@@ -15,7 +15,11 @@ import threading
 from typing import Any, Dict, List, Optional
 
 import yaml
-from zep_cloud.client import Zep
+
+try:
+    from zep_cloud.client import Zep
+except ImportError:
+    Zep = None  # type: ignore[assignment,misc]
 
 from astrategy.config import settings
 

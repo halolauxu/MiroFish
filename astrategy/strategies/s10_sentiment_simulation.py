@@ -1,23 +1,32 @@
 """
-Sentiment Simulation Strategy (S10)
-=====================================
+Sentiment Simulation Strategy (S10) — MiroFish Multi-Round Simulation
+=======================================================================
 
-For major events (earnings shock, policy change, scandal), use LLM to
-simulate how different market participants (retail, institutional, quant
-funds, speculators) would react.  Compare simulated consensus with actual
-market reaction to find mispricing.
+Mirrors MiroFish's group-intelligence simulation approach:
+- Round 1 (T+0~3h)  : fast-money agents (游资/量化) react to the raw event
+- Round 2 (T+1~2d)  : mid-speed agents (趋势跟随/散户) observe Round-1 price
+                       movement and decide whether to amplify or fade
+- Round 3 (T+3~10d) : deliberate agents (公募/价值) digest the full picture and
+                       determine whether the initial market reaction was correct
 
-This is a LIGHTWEIGHT simulation -- not using OASIS subprocess, but using
-LLM-based multi-agent simulation directly.
+This 3-round cascade captures the *information diffusion* mechanism that
+MiroFish models with OASIS agents.  It is fully LLM-based (no subprocess),
+but the sequential, cross-round influence is the key conceptual upgrade.
+
+Additional: Knowledge-graph context is injected per event so that supply-chain
+second-order effects are surfaced to agents that would not otherwise know them.
 
 Core idea
 ---------
 1. Detect simulation-worthy events (high-impact only).
-2. Generate event-specific agent profiles for 6 market participant archetypes.
-3. Simulate each archetype's reaction via a single batched LLM call.
-4. Aggregate reactions with market-influence weights.
-5. Compare simulated consensus with actual price movement.
-6. Large gap = potential opportunity (overreaction / underreaction).
+2. Query local graph for supply-chain / industry context around the stock.
+3. Generate event-specific agent profiles (with graph context) for 6 archetypes.
+4. Round-1 simulate fast-money reactions.
+5. Round-2 simulate mid-speed reactions, observing Round-1 outcome.
+6. Round-3 simulate deliberate reactions, observing Round-1+2 outcomes.
+7. Aggregate across rounds with time-decay weights.
+8. Compare simulated consensus with actual price movement.
+9. Large gap = potential opportunity (overreaction / underreaction).
 
 Typical holding period: 5-15 trading days.
 """
@@ -38,6 +47,13 @@ from astrategy.data_collector.market_data import MarketDataCollector
 from astrategy.data_collector.news import NewsCollector
 from astrategy.llm import create_llm_client
 from astrategy.strategies.base import BaseStrategy, StrategySignal
+
+# Optional: local graph (no hard dependency)
+try:
+    from astrategy.graph.local_store import LocalGraphStore
+    _GRAPH_AVAILABLE = True
+except ImportError:
+    _GRAPH_AVAILABLE = False
 
 logger = logging.getLogger("astrategy.strategies.s10_sentiment_simulation")
 
@@ -120,6 +136,14 @@ _INFLUENCE_WEIGHTS: Dict[str, float] = {
     k: v["market_influence_weight"] for k, v in AGENT_ARCHETYPES.items()
 }
 
+# Multi-round simulation: which archetypes react in which round
+# Round 1: immediate fast-money (T+0 to T+3h)
+_ROUND1_ARCHETYPES = ["游资/短线客", "量化基金"]
+# Round 2: medium-speed, observes round-1 price impact (T+1 to T+2d)
+_ROUND2_ARCHETYPES = ["趋势跟随者", "散户"]
+# Round 3: deliberate, sees the full picture (T+3 to T+10d)
+_ROUND3_ARCHETYPES = ["公募基金经理", "价值投资者"]
+
 # ---------------------------------------------------------------------------
 # Event detection keywords
 # ---------------------------------------------------------------------------
@@ -189,6 +213,61 @@ _AGENT_PROFILE_PROMPT = """\
 }}
 """
 
+# Round-2/3 observe prior-round results
+_ROUND2_REACTIONS_PROMPT = """\
+你是A股市场多参与者博弈模拟专家。正在进行第二轮模拟——中等速度的投资者已经观察到了
+早期快钱（游资/量化）的初步反应，现在决定是否跟进或逆向。
+
+## 事件信息
+事件: {event_title}
+股票: {stock_code} {stock_name}
+摘要: {event_summary}
+
+## 第一轮结果（快钱初步反应）
+{round1_summary}
+
+## 要求
+现在模拟以下中等速度投资者的决策（他们看到了第一轮的价格变动）：
+{target_archetypes}
+
+每位投资者的画像：
+{profiles_text}
+
+他们会跟进还是逆向第一轮？还是独立判断？考虑：
+1. 第一轮反应是否合理（是情绪化还是有基本面支撑）
+2. 该类型投资者的决策风格
+3. 当前已出现的价格变动是否影响其风险收益比
+
+请以JSON格式输出，包含 "reactions" 数组（结构同第一轮）。
+"""
+
+_ROUND3_REACTIONS_PROMPT = """\
+你是A股市场多参与者博弈模拟专家。正在进行第三轮模拟——深思熟虑的机构投资者（公募/价值）
+已经观察了前两轮（快钱+中速）的完整市场反应，现在做出最终判断。
+
+## 事件信息
+事件: {event_title}
+股票: {stock_code} {stock_name}
+摘要: {event_summary}
+
+## 前两轮综合反应
+{prior_rounds_summary}
+
+## 要求
+现在模拟以下深思熟虑型投资者的决策：
+{target_archetypes}
+
+画像：
+{profiles_text}
+
+关键问题：前两轮的市场反应正确定价了吗？这些机构投资者会：
+- 确认（买入/减仓跟随市场方向）
+- 纠偏（认为市场过度反应，逆向操作）
+- 观望（等待更多信息）
+
+请以JSON格式输出，包含 "reactions" 数组。
+"""
+
 _SIMULATE_REACTIONS_PROMPT = """\
 你是A股市场多参与者博弈模拟专家。请模拟以下不同类型投资者对事件的反应。
 
@@ -256,14 +335,27 @@ class SentimentSimulationStrategy(BaseStrategy):
         holding_days: int = 10,
         max_events_per_run: int = 3,
         signal_dir: Path | str | None = None,
+        use_multi_round: bool = True,
     ) -> None:
         super().__init__(signal_dir=signal_dir)
         self._holding_days = holding_days
         self._max_events = max_events_per_run
+        self._use_multi_round = use_multi_round
 
         self._news = NewsCollector()
         self._market = MarketDataCollector()
         self._llm = create_llm_client(strategy_name=self.name)
+
+        # Load local graph if available (supply-chain context)
+        self._graph: Optional[Any] = None
+        if _GRAPH_AVAILABLE:
+            try:
+                store = LocalGraphStore()
+                if store.load("astrategy"):
+                    self._graph = store
+                    logger.info("[%s] Local graph loaded for context enrichment.", self.name)
+            except Exception as exc:
+                logger.debug("[%s] Local graph unavailable: %s", self.name, exc)
 
     # ── BaseStrategy interface ────────────────────────────────────────
 
@@ -302,23 +394,32 @@ class SentimentSimulationStrategy(BaseStrategy):
         # Gather news from multiple sources
         all_news: list[dict] = []
 
-        # Market-wide hot topics
-        try:
-            hot = self._news.get_market_hot_topics(limit=30)
-            all_news.extend(hot)
-        except Exception as exc:
-            logger.warning("Failed to fetch hot topics: %s", exc)
-
-        # Per-stock news
+        # Per-stock news via ak.stock_news_em (stable API)
+        # Scan all supplied codes; batch in groups to stay within rate limits.
         if stock_codes:
-            for code in stock_codes[:10]:  # limit to avoid excessive API calls
+            import time as _time
+            for i, code in enumerate(stock_codes):
                 try:
                     news = self._news.get_company_news(code, limit=10)
                     for item in news:
                         item["_stock_code"] = code
                     all_news.extend(news)
                 except Exception as exc:
-                    logger.warning("Failed to fetch news for %s: %s", code, exc)
+                    logger.debug("News fetch failed %s: %s", code, exc)
+                # Gentle rate-limit: brief pause every 50 stocks
+                if i > 0 and i % 50 == 0:
+                    _time.sleep(0.5)
+
+        # Fallback: market hot topics (may fail due to network restrictions)
+        if len(all_news) < 10:
+            try:
+                hot = self._news.get_market_hot_topics(limit=30)
+                all_news.extend(hot)
+            except Exception as exc:
+                logger.debug("Hot topics fallback failed: %s", exc)
+
+        logger.info("[%s] Collected %d news items from %d stocks",
+                    self.name, len(all_news), len(stock_codes) if stock_codes else 0)
 
         if not all_news:
             logger.info("[%s] No news collected; no events to detect.", self.name)
@@ -330,9 +431,9 @@ class SentimentSimulationStrategy(BaseStrategy):
             logger.info("[%s] No high-impact news after keyword prefilter.", self.name)
             return []
 
-        # Format news for LLM
+        # Format news for LLM — send up to 50 filtered items in one batch call
         news_lines: list[str] = []
-        for i, item in enumerate(filtered[:30]):
+        for i, item in enumerate(filtered[:50]):
             title = item.get("新闻标题", item.get("标题", item.get("名称", str(item)[:100])))
             source = item.get("文章来源", item.get("来源", ""))
             time_str = item.get("发布时间", item.get("时间", ""))
@@ -938,6 +1039,337 @@ class SentimentSimulationStrategy(BaseStrategy):
         return signals
 
     # ==================================================================
+    # Graph context enrichment
+    # ==================================================================
+
+    def _get_graph_context(self, stock_code: str, stock_name: str) -> str:
+        """Query local graph for supply-chain / industry context.
+
+        Returns a text block injected into agent profiles so agents are
+        aware of second-order effects that raw news may not mention.
+        """
+        if self._graph is None:
+            return ""
+        try:
+            results = self._graph.search("astrategy", f"{stock_code} {stock_name}", limit=8)
+            if not results:
+                return ""
+            lines = ["【知识图谱上下文】"]
+            for r in results[:6]:
+                fact = r.get("fact", "")
+                src = r.get("source", "")
+                tgt = r.get("target", "")
+                rel = r.get("relation", "")
+                if fact and len(fact) > 10:
+                    lines.append(f"- {fact[:120]}")
+                elif src and tgt:
+                    lines.append(f"- {src} → [{rel}] → {tgt}")
+            return "\n".join(lines) if len(lines) > 1 else ""
+        except Exception as exc:
+            logger.debug("[%s] Graph context query failed: %s", self.name, exc)
+            return ""
+
+    # ==================================================================
+    # Multi-round simulation (MiroFish cascade model)
+    # ==================================================================
+
+    def simulate_multi_round_reactions(
+        self, event: dict, profiles: list[dict],
+    ) -> Dict[str, List[dict]]:
+        """Three-round cascade simulation mirroring MiroFish's OASIS model.
+
+        Round 1 — fast-money (游资/量化): react to raw event (no prior info)
+        Round 2 — mid-speed (趋势/散户): observe round-1 outcome, decide
+        Round 3 — deliberate (公募/价值): full picture, confirm or correct
+
+        Returns
+        -------
+        dict with keys "round1", "round2", "round3", each a list of reactions.
+        """
+        profile_map = {p["archetype"]: p for p in profiles}
+
+        # ── Round 1: fast-money ───────────────────────────────────────
+        r1_profiles = [profile_map[a] for a in _ROUND1_ARCHETYPES if a in profile_map]
+        reactions_r1 = self._simulate_round(event, r1_profiles, round_num=1)
+        logger.info("[%s] Round1 done: %d reactions", self.name, len(reactions_r1))
+
+        # Build round-1 summary for round-2 context
+        r1_summary = self._format_round_summary(reactions_r1, "第一轮（快钱 T+0~3h）")
+
+        # ── Round 2: mid-speed with round-1 context ───────────────────
+        r2_profiles = [profile_map[a] for a in _ROUND2_ARCHETYPES if a in profile_map]
+        reactions_r2 = self._simulate_observed_round(
+            event=event,
+            profiles=r2_profiles,
+            prior_summary=r1_summary,
+            prompt_template=_ROUND2_REACTIONS_PROMPT,
+            round_num=2,
+        )
+        logger.info("[%s] Round2 done: %d reactions", self.name, len(reactions_r2))
+
+        # Combined prior rounds for round 3
+        r12_summary = (
+            self._format_round_summary(reactions_r1, "第一轮（快钱）")
+            + "\n"
+            + self._format_round_summary(reactions_r2, "第二轮（中速）")
+        )
+
+        # ── Round 3: deliberate with full context ─────────────────────
+        r3_profiles = [profile_map[a] for a in _ROUND3_ARCHETYPES if a in profile_map]
+        reactions_r3 = self._simulate_observed_round(
+            event=event,
+            profiles=r3_profiles,
+            prior_summary=r12_summary,
+            prompt_template=_ROUND3_REACTIONS_PROMPT,
+            round_num=3,
+        )
+        logger.info("[%s] Round3 done: %d reactions", self.name, len(reactions_r3))
+
+        return {"round1": reactions_r1, "round2": reactions_r2, "round3": reactions_r3}
+
+    def _simulate_round(self, event: dict, profiles: list[dict], round_num: int) -> list[dict]:
+        """Run a single LLM call for a subset of archetypes (first-mover round)."""
+        if not profiles:
+            return []
+
+        profile_lines = self._format_profile_lines(profiles)
+        prompt = _SIMULATE_REACTIONS_PROMPT.format(
+            event_title=event.get("title", ""),
+            event_type=event.get("type", "other"),
+            stock_code=event.get("stock_code", ""),
+            stock_name=event.get("stock_name", ""),
+            event_summary=event.get("summary", ""),
+            key_data=event.get("key_data", "无"),
+            profiles_text="\n\n".join(profile_lines),
+        )
+        messages = [
+            {"role": "system", "content": "你是A股多参与者博弈模拟专家。严格以JSON格式输出。"},
+            {"role": "user", "content": prompt},
+        ]
+        try:
+            result = self._llm.chat_json(messages=messages, max_tokens=1500)
+            raw = result.get("reactions", [])
+        except Exception as exc:
+            logger.warning("[%s] Round%d LLM failed: %s", self.name, round_num, exc)
+            raw = self._rule_based_reactions(event, profiles)
+
+        return self._validate_reactions(raw, profiles)
+
+    def _simulate_observed_round(
+        self,
+        event: dict,
+        profiles: list[dict],
+        prior_summary: str,
+        prompt_template: str,
+        round_num: int,
+    ) -> list[dict]:
+        """Run a round where agents observe prior-round results."""
+        if not profiles:
+            return []
+
+        profile_lines = self._format_profile_lines(profiles)
+        archetype_list = ", ".join(p["archetype"] for p in profiles)
+        prompt = prompt_template.format(
+            event_title=event.get("title", ""),
+            stock_code=event.get("stock_code", ""),
+            stock_name=event.get("stock_name", ""),
+            event_summary=event.get("summary", ""),
+            round1_summary=prior_summary,
+            prior_rounds_summary=prior_summary,
+            target_archetypes=archetype_list,
+            profiles_text="\n\n".join(profile_lines),
+        )
+        messages = [
+            {"role": "system", "content": "你是A股多参与者博弈模拟专家。严格以JSON格式输出。"},
+            {"role": "user", "content": prompt},
+        ]
+        try:
+            result = self._llm.chat_json(messages=messages, max_tokens=1500)
+            raw = result.get("reactions", [])
+        except Exception as exc:
+            logger.warning("[%s] Round%d LLM failed: %s", self.name, round_num, exc)
+            raw = self._rule_based_reactions(event, profiles)
+
+        return self._validate_reactions(raw, profiles)
+
+    def _format_profile_lines(self, profiles: list[dict]) -> list[str]:
+        lines = []
+        for p in profiles:
+            lines.append(
+                f"### {p['archetype']}\n"
+                f"描述: {p['description'][:60]}\n"
+                f"当前持仓: {p['current_position']}（{p.get('position_reason', '')}）\n"
+                f"投资逻辑: {p['investment_thesis']}\n"
+                f"关注点: {', '.join(p.get('key_concerns', []))}\n"
+                f"事件前情绪: {p['pre_event_sentiment']}"
+            )
+        return lines
+
+    def _format_round_summary(self, reactions: list[dict], label: str) -> str:
+        if not reactions:
+            return f"{label}: 无反应"
+        lines = [f"{label}:"]
+        for r in reactions:
+            arch = r.get("archetype", "")
+            action = r.get("action", "hold")
+            sentiment = r.get("sentiment_score", 0.0)
+            price_target = r.get("price_target_change_pct", 0.0)
+            reasoning = r.get("reasoning", "")[:60]
+            lines.append(
+                f"  [{arch}] {action} | 情绪{sentiment:+.2f} | "
+                f"目标涨跌{price_target:+.1f}% | {reasoning}"
+            )
+        # Add weighted consensus
+        if reactions:
+            avg_s = sum(r.get("sentiment_score", 0.0) for r in reactions) / len(reactions)
+            lines.append(f"  → 本轮均值情绪: {avg_s:+.3f}")
+        return "\n".join(lines)
+
+    def _validate_reactions(self, raw: list[dict], profiles: list[dict]) -> list[dict]:
+        """Validate and normalise a list of raw LLM reactions."""
+        archetype_names = {p["archetype"] for p in profiles}
+        matched: set[str] = set()
+        reactions: list[dict] = []
+
+        for r in raw:
+            arch = r.get("archetype", "")
+            if arch not in archetype_names or arch in matched:
+                continue
+            matched.add(arch)
+            reaction = {
+                "archetype": arch,
+                "action": r.get("action", "hold"),
+                "urgency": r.get("urgency", "within_days"),
+                "size": r.get("size", "light"),
+                "sentiment_score": _clamp(r.get("sentiment_score", 0.0), -1.0, 1.0),
+                "reasoning": r.get("reasoning", ""),
+                "price_target_change_pct": r.get("price_target_change_pct", 0.0),
+                "time_horizon_days": r.get("time_horizon_days", 10),
+            }
+            if reaction["action"] not in ("buy", "sell", "hold", "watch"):
+                reaction["action"] = "hold"
+            reactions.append(reaction)
+
+        # Fill missing archetypes
+        for p in profiles:
+            if p["archetype"] not in matched:
+                reactions.append({
+                    "archetype": p["archetype"],
+                    "action": "watch",
+                    "urgency": "wait_for_confirmation",
+                    "size": "light",
+                    "sentiment_score": 0.0,
+                    "reasoning": "模拟结果缺失，默认观望",
+                    "price_target_change_pct": 0.0,
+                    "time_horizon_days": 10,
+                })
+        return reactions
+
+    def aggregate_multi_round(self, round_reactions: Dict[str, List[dict]]) -> dict:
+        """Aggregate multi-round reactions into a single market consensus.
+
+        Weights: Round-1 (fast-money) has lower final weight because they
+        set the initial price; Rounds 2-3 determine whether the move sustains.
+        The *convergence* across rounds is the key signal:
+        - All rounds agree → high conviction
+        - Round-3 reverses Round-1 → correction signal
+
+        Round weights: R1=0.25, R2=0.35, R3=0.40 (later rounds more informative)
+        """
+        round_weights = {"round1": 0.25, "round2": 0.35, "round3": 0.40}
+        all_flat: list[dict] = []  # for backward-compat aggregate_simulation
+        round_sentiments: Dict[str, float] = {}
+
+        for round_key, reactions in round_reactions.items():
+            if not reactions:
+                continue
+            rw = round_weights.get(round_key, 0.33)
+            round_avg = sum(r.get("sentiment_score", 0.0) for r in reactions) / len(reactions)
+            round_sentiments[round_key] = round_avg
+            # Inject round weight into each reaction for flat aggregation
+            for r in reactions:
+                r_copy = dict(r)
+                r_copy["_round_weight"] = rw
+                all_flat.append(r_copy)
+
+        if not all_flat:
+            return self.aggregate_simulation([])
+
+        # Weighted aggregation
+        total_weight = 0.0
+        weighted_sentiment = 0.0
+        weighted_price_target = 0.0
+        action_votes: Dict[str, float] = {"buy": 0.0, "sell": 0.0, "hold": 0.0, "watch": 0.0}
+        agent_summary: Dict[str, dict] = {}
+
+        for r in all_flat:
+            arch = r.get("archetype", "")
+            influence = _INFLUENCE_WEIGHTS.get(arch, 0.05)
+            rw = r.get("_round_weight", 0.33)
+            w = influence * rw
+            sentiment = r.get("sentiment_score", 0.0)
+            action = r.get("action", "hold")
+            price_target = float(r.get("price_target_change_pct", 0.0) or 0.0)
+
+            weighted_sentiment += sentiment * w
+            weighted_price_target += price_target * w
+            total_weight += w
+            if action in action_votes:
+                action_votes[action] += w
+
+            # Keep last round's reaction per archetype for summary
+            agent_summary[arch] = {
+                "action": action,
+                "urgency": r.get("urgency", "within_days"),
+                "size": r.get("size", "light"),
+                "sentiment": round(sentiment, 2),
+                "reasoning": r.get("reasoning", ""),
+            }
+
+        if total_weight > 0:
+            weighted_sentiment /= total_weight
+            weighted_price_target /= total_weight
+
+        weighted_sentiment = _clamp(weighted_sentiment, -1.0, 1.0)
+        consensus_action = max(action_votes, key=action_votes.get)  # type: ignore
+
+        # Conviction: how much do rounds agree with each other?
+        if len(round_sentiments) >= 2:
+            vs = list(round_sentiments.values())
+            mean_v = sum(vs) / len(vs)
+            variance = sum((v - mean_v) ** 2 for v in vs) / len(vs)
+            import math as _math
+            std_dev = _math.sqrt(variance)
+            conviction_level = max(0.0, 1.0 - std_dev * 1.5)
+        else:
+            conviction_level = abs(weighted_sentiment)
+
+        # Trend: is later-round sentiment stronger/weaker than earlier?
+        trend = "stable"
+        r1s = round_sentiments.get("round1", 0.0)
+        r3s = round_sentiments.get("round3", 0.0)
+        if abs(r3s) > abs(r1s) + 0.15:
+            trend = "amplifying"   # institutions confirm fast-money direction
+        elif abs(r3s) < abs(r1s) - 0.15:
+            trend = "fading"        # deliberate money reverses fast-money
+        elif r3s * r1s < 0:
+            trend = "reversal"      # direction flips by round 3
+
+        all_sentiments = [r.get("sentiment_score", 0.0) for r in all_flat]
+        agreement = all(s >= 0 for s in all_sentiments) or all(s <= 0 for s in all_sentiments)
+
+        return {
+            "weighted_sentiment": round(weighted_sentiment, 4),
+            "consensus_action": consensus_action,
+            "conviction_level": round(conviction_level, 4),
+            "agreement": agreement,
+            "agent_summary": agent_summary,
+            "weighted_price_target_pct": round(weighted_price_target, 2),
+            "round_sentiments": round_sentiments,
+            "simulation_trend": trend,
+        }
+
+    # ==================================================================
     # Internal: process a single event end-to-end
     # ==================================================================
 
@@ -953,14 +1385,37 @@ class SentimentSimulationStrategy(BaseStrategy):
         stock_name = event.get("stock_name", stock_code)
         event_title = event.get("title", "未知事件")
 
-        # 2. Generate profiles
+        # 2. Enrich event with graph context (supply-chain second-order effects)
+        graph_ctx = self._get_graph_context(stock_code, stock_name)
+        if graph_ctx:
+            event = dict(event)
+            event["graph_context"] = graph_ctx
+            event["summary"] = event.get("summary", "") + f"\n{graph_ctx}"
+            logger.info("[%s] Injected graph context (%d chars) for %s",
+                        self.name, len(graph_ctx), stock_code)
+
+        # 3. Generate profiles
         profiles = self.generate_agent_profiles(event, stock_code)
 
-        # 3. Simulate reactions
-        reactions = self.simulate_reactions(event, profiles)
-
-        # 4. Aggregate
-        simulation = self.aggregate_simulation(reactions)
+        # 4. Simulate reactions (multi-round or single-round)
+        if self._use_multi_round:
+            round_reactions = self.simulate_multi_round_reactions(event, profiles)
+            simulation = self.aggregate_multi_round(round_reactions)
+            # Flatten for downstream signal building
+            reactions = (
+                round_reactions.get("round1", [])
+                + round_reactions.get("round2", [])
+                + round_reactions.get("round3", [])
+            )
+            simulation["multi_round"] = True
+            simulation["round_reactions"] = {
+                k: [r["archetype"] + "=" + r["action"] for r in v]
+                for k, v in round_reactions.items()
+            }
+        else:
+            reactions = self.simulate_reactions(event, profiles)
+            simulation = self.aggregate_simulation(reactions)
+            simulation["multi_round"] = False
 
         # 5. Compare with reality
         now = datetime.now(tz=_CST)
@@ -1072,9 +1527,13 @@ class SentimentSimulationStrategy(BaseStrategy):
         holding_days = int(avg_horizon / count) if count > 0 else self._holding_days
 
         # Build reasoning
+        sim_trend = simulation.get("simulation_trend", "stable")
+        trend_label = {"amplifying": "机构确认", "fading": "情绪消退", "reversal": "方向反转", "stable": "稳定"}.get(sim_trend, sim_trend)
+        multi_tag = "[多轮]" if simulation.get("multi_round") else "[单轮]"
+        graph_tag = "[图谱]" if event.get("graph_context") else ""
         reasoning_parts = [
-            f"事件: {event.get('title', '?')[:40]}",
-            f"模拟共识: {consensus_action}({weighted_sentiment:+.2f})",
+            f"{multi_tag}{graph_tag}事件: {event.get('title', '?')[:40]}",
+            f"模拟共识: {consensus_action}({weighted_sentiment:+.2f}) 趋势:{trend_label}",
             f"一致性: {'高' if agreement else '低'}(conviction={conviction:.2f})",
         ]
         if actual_change is not None:
@@ -1113,6 +1572,12 @@ class SentimentSimulationStrategy(BaseStrategy):
             "reality_gap": round(reality_gap, 2) if reality_gap else 0.0,
             "opportunity_type": opportunity_type,
             "llm_reasoning": "\n".join(llm_reasoning_parts),
+            # Multi-round fields (populated when use_multi_round=True)
+            "multi_round": simulation.get("multi_round", False),
+            "round_sentiments": simulation.get("round_sentiments", {}),
+            "simulation_trend": simulation.get("simulation_trend", "stable"),
+            "round_reactions": simulation.get("round_reactions", {}),
+            "graph_context_used": bool(event.get("graph_context")),
         }
 
         return StrategySignal(

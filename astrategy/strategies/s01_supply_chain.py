@@ -30,7 +30,6 @@ from typing import Any, Dict, List, Optional
 from astrategy.data_collector.announcement import AnnouncementCollector
 from astrategy.data_collector.market_data import MarketDataCollector
 from astrategy.data_collector.news import NewsCollector
-from astrategy.graph.builder import GraphBuilder
 from astrategy.graph.local_store import LocalGraphStore
 from astrategy.graph.topology import TopologyAnalyzer
 from astrategy.llm import create_llm_client
@@ -140,7 +139,7 @@ class SupplyChainStrategy(BaseStrategy):
         graph_id: str = "supply_chain",
         signal_dir: Path | str | None = None,
         llm_client: LLMClient | None = None,
-        graph_builder: GraphBuilder | None = None,
+        graph_builder=None,  # kept for API compatibility, ignored
         lookback_days: int = 3,
         reaction_check_days: int = 5,
         min_confidence: float = 0.3,
@@ -176,8 +175,8 @@ class SupplyChainStrategy(BaseStrategy):
                 logger.info("Using local graph store for '%s'", self._graph_id)
                 self._graph = local
             else:
-                logger.info("Local graph not found, falling back to Zep GraphBuilder")
-                self._graph = GraphBuilder()
+                logger.warning("Local graph '%s' not found; S01 will produce no signals.", self._graph_id)
+                self._graph = LocalGraphStore()  # empty store
         return self._graph
 
     # ── identity ───────────────────────────────────────────────

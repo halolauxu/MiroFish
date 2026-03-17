@@ -86,21 +86,30 @@ class ResearchCollector:
         if cached is not None:
             return cached  # type: ignore[return-value]
 
-        # Fetch recent analyst forecasts from cninfo (巨潮)
-        # Need to scan recent dates to find ratings for this stock
+        # Fetch recent analyst forecasts from cninfo (巨潮).
+        # stock_rank_forecast_cninfo returns data only for dates with published reports.
+        # Scan day-by-day for the last 7 days to maximise hit rate.
         from datetime import datetime, timedelta
         results: list[dict] = []
         now = datetime.now()
-        for days_back in range(0, 30, 5):
+        daily_table_cache: dict[str, pd.DataFrame] = {}
+
+        for days_back in range(0, 7):
             date_str = (now - timedelta(days=days_back)).strftime("%Y%m%d")
-            try:
-                df = _retry(ak.stock_rank_forecast_cninfo, date=date_str)
-                if df is not None and not df.empty and "证券代码" in df.columns:
-                    matched = df[df["证券代码"].astype(str) == code]
-                    if not matched.empty:
-                        results.extend(_df_to_dicts(matched))
-            except Exception:
-                continue
+            if date_str in daily_table_cache:
+                df = daily_table_cache[date_str]
+            else:
+                try:
+                    df = _retry(ak.stock_rank_forecast_cninfo, date=date_str)
+                    daily_table_cache[date_str] = df if df is not None else pd.DataFrame()
+                except Exception:
+                    daily_table_cache[date_str] = pd.DataFrame()
+                    continue
+                df = daily_table_cache[date_str]
+            if df is not None and not df.empty and "证券代码" in df.columns:
+                matched = df[df["证券代码"].astype(str) == code]
+                if not matched.empty:
+                    results.extend(_df_to_dicts(matched))
 
         if results:
             _set_cache(cache_key, results)

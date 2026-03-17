@@ -36,17 +36,17 @@ logging.basicConfig(
 )
 logger = logging.getLogger("build_graph")
 
-# ── CSI-300 constituents ──────────────────────────────────────────
+# ── CSI-800 constituents (CSI300 + CSI500) ───────────────────────
 
-def fetch_csi300_codes() -> list[str]:
-    """Fetch CSI-300 constituent stock codes."""
+def fetch_csi800_codes() -> list[str]:
+    """Fetch CSI-800 constituent stock codes (symbol 000906)."""
     try:
-        df = ak.index_stock_cons_csindex(symbol="000300")
+        df = ak.index_stock_cons_csindex(symbol="000906")
         codes = df["成分券代码"].tolist()
-        logger.info("Fetched %d CSI-300 constituents from CSIndex", len(codes))
+        logger.info("Fetched %d CSI-800 constituents from CSIndex", len(codes))
         return codes
     except Exception as e:
-        logger.warning("Failed to fetch CSI-300 from CSIndex: %s", e)
+        logger.warning("Failed to fetch CSI-800 from CSIndex: %s", e)
         # Fallback: use representative stocks from em_fallback
         codes = []
         for stocks in INDUSTRY_REPRESENTATIVES.values():
@@ -237,7 +237,7 @@ def main():
     if not args.skip_companies:
         logger.info("=" * 60)
         logger.info("Step 2: Adding company entities ...")
-        codes = fetch_csi300_codes()
+        codes = fetch_csi800_codes()
         companies = build_company_data(codes)
         store.add_companies(graph_id, companies)
         logger.info("Added %d companies.", len(companies))
