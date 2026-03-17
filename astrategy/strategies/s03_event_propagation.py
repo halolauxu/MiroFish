@@ -1,6 +1,11 @@
 """
 Event Propagation Strategy (事件传播策略)
 ==========================================
+**DEPRECATED**: Policy event detection and multi-hop traversal have been
+merged into S01 (SupplyChainStrategy). See S01._find_downstream_multi_hop()
+and S01.detect_policy_events(). This file is kept for reference only.
+
+Original description:
 Major policy/event propagates along industry chains with time delays.
 First-order beneficiaries react quickly (limit up), second-order
 beneficiaries react slowly -- buy second-order before they react.

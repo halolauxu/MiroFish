@@ -1070,6 +1070,131 @@ class SentimentSimulationStrategy(BaseStrategy):
             return ""
 
     # ==================================================================
+    # Announcement sentiment integration (merged from S06)
+    # ==================================================================
+
+    def _get_announcement_sentiment(self, stock_code: str) -> dict:
+        """Query S06 announcement sentiment for event enrichment.
+
+        Returns a dict with inflection_detected, trend, sentiment_score.
+        This provides a secondary validation signal from corporate
+        announcements alongside news-based simulation.
+        """
+        try:
+            from astrategy.strategies.s06_announcement_sentiment import (
+                AnnouncementSentimentStrategy,
+            )
+            s06 = AnnouncementSentimentStrategy()
+            ann_data = s06.collect_announcements(stock_code, days=30)
+            if not ann_data:
+                return {"inflection_detected": False, "trend": "unknown", "sentiment_score": 0.0}
+
+            sentiments = []
+            for ann in ann_data[:8]:
+                try:
+                    s = s06.analyze_sentiment(ann)
+                    sentiments.append(s)
+                except Exception:
+                    continue
+
+            if not sentiments:
+                return {"inflection_detected": False, "trend": "unknown", "sentiment_score": 0.0}
+
+            trajectory = s06.compute_sentiment_trajectory(stock_code, sentiments)
+            return {
+                "inflection_detected": trajectory.get("inflection_detected", False),
+                "trend": trajectory.get("trend", "unknown"),
+                "sentiment_score": trajectory.get("current_sentiment", 0.0),
+            }
+        except Exception as exc:
+            logger.debug("[%s] S06 sentiment query failed: %s", self.name, exc)
+            return {"inflection_detected": False, "trend": "unknown", "sentiment_score": 0.0}
+
+    # ==================================================================
+    # Narrative overlay integration (merged from S11)
+    # ==================================================================
+
+    def _get_narrative_context(self, stock_code: str) -> dict | None:
+        """Query S11 narrative phase for this stock.
+
+        Returns a dict with narrative_name, phase, score, evidence_strength,
+        or None if no active narrative covers this stock.
+
+        Results are cached per instance to avoid repeated S11 scans (which
+        are slow due to external API calls for 14 narratives).
+        """
+        # Use instance-level cache: scan once, reuse for all stocks
+        if not hasattr(self, "_narrative_scan_cache"):
+            self._narrative_scan_cache = None
+
+        try:
+            if self._narrative_scan_cache is None:
+                from astrategy.strategies.s11_narrative_tracker import (
+                    NarrativeTrackerStrategy,
+                    NARRATIVES,
+                )
+                s11 = NarrativeTrackerStrategy()
+                scan = s11.scan_all_narratives()
+                # Build a lookup: stock_code -> narrative info
+                cache: dict[str, dict] = {}
+                if scan:
+                    for item in scan:
+                        nname = item.get("narrative_name", "")
+                        # Get representative stocks from NARRATIVES definition
+                        ndata = NARRATIVES.get(nname, {})
+                        rep_stocks = ndata.get("representative_stocks", [])
+                        info = {
+                            "narrative_name": nname,
+                            "phase": item.get("phase", ""),
+                            "score": item.get("score", 50),
+                            "evidence_strength": item.get("evidence_strength", "moderate"),
+                            "risk_factors": item.get("key_catalysts", []),
+                        }
+                        for code in rep_stocks:
+                            cache[code] = info
+                self._narrative_scan_cache = cache
+                logger.info(
+                    "[%s] Narrative scan cached: %d narratives, %d stock mappings",
+                    self.name, len(scan) if scan else 0, len(cache),
+                )
+
+            return self._narrative_scan_cache.get(stock_code)
+        except Exception as exc:
+            logger.debug("[%s] S11 narrative query failed: %s", self.name, exc)
+            return None
+
+    def _apply_narrative_overlay(
+        self, simulation: dict, narrative: dict,
+    ) -> dict:
+        """Apply S11 narrative phase context to adjust simulation output.
+
+        In mature/fading narratives, bullish signals are discounted.
+        Strong narrative evidence boosts conviction.
+        """
+        phase = narrative.get("phase", "")
+        evidence = narrative.get("evidence_strength", "moderate")
+
+        # Evidence-based conviction multiplier
+        evidence_mult = {"weak": 0.7, "moderate": 1.0, "strong": 1.2}.get(evidence, 1.0)
+        simulation["conviction_level"] = simulation.get("conviction_level", 0.0) * evidence_mult
+
+        # Phase-based sentiment adjustment
+        sentiment = simulation.get("weighted_sentiment", 0.0)
+        if phase in ("成熟期", "衰退期") and sentiment > 0:
+            simulation["weighted_sentiment"] = sentiment * 0.7
+            logger.info(
+                "[%s] Narrative phase '%s' → discounting bullish sentiment by 30%%",
+                self.name, phase,
+            )
+
+        # Store overlay metadata
+        simulation["narrative_phase"] = phase
+        simulation["narrative_name"] = narrative.get("narrative_name", "")
+        simulation["narrative_evidence"] = evidence
+
+        return simulation
+
+    # ==================================================================
     # Multi-round simulation (MiroFish cascade model)
     # ==================================================================
 
@@ -1417,6 +1542,25 @@ class SentimentSimulationStrategy(BaseStrategy):
             simulation = self.aggregate_simulation(reactions)
             simulation["multi_round"] = False
 
+        # 4b. Enrich with S06 announcement sentiment (merged from S06)
+        ann_sentiment = self._get_announcement_sentiment(stock_code)
+        if ann_sentiment.get("inflection_detected"):
+            # Announcement inflection aligns → boost conviction
+            simulation["conviction_level"] = simulation.get("conviction_level", 0.0) + 0.15
+            event["announcement_inflection"] = True
+            event["announcement_trend"] = ann_sentiment.get("trend", "")
+            logger.info(
+                "[%s] S06 inflection detected for %s (trend=%s) → +0.15 conviction",
+                self.name, stock_code, ann_sentiment.get("trend"),
+            )
+
+        # 4c. Apply S11 narrative overlay (merged from S11)
+        narrative = self._get_narrative_context(stock_code)
+        if narrative:
+            simulation = self._apply_narrative_overlay(simulation, narrative)
+            event["narrative_phase"] = narrative.get("phase", "")
+            event["narrative_name"] = narrative.get("narrative_name", "")
+
         # 5. Compare with reality
         now = datetime.now(tz=_CST)
         event_date = now.strftime("%Y%m%d")
@@ -1458,14 +1602,14 @@ class SentimentSimulationStrategy(BaseStrategy):
         opportunity_type = reality.get("opportunity_type", "none")
         actual_change = reality.get("actual_price_change_pct")
 
-        # Direction
-        if consensus_action == "buy" and weighted_sentiment > 0.1:
+        # Direction — thresholds lowered to avoid dropping valid simulation signals
+        if consensus_action == "buy" and weighted_sentiment > 0.05:
             direction = "long"
-        elif consensus_action == "sell" and weighted_sentiment < -0.1:
+        elif consensus_action == "sell" and weighted_sentiment < -0.05:
             direction = "short"
-        elif weighted_sentiment > 0.3:
+        elif weighted_sentiment > 0.15:
             direction = "long"
-        elif weighted_sentiment < -0.3:
+        elif weighted_sentiment < -0.15:
             direction = "short"
         else:
             direction = "neutral"
@@ -1484,12 +1628,20 @@ class SentimentSimulationStrategy(BaseStrategy):
             # Good news not priced in -> long
             direction = "long"
 
-        # Skip neutral signals with no mispricing
+        # Skip neutral signals with no mispricing — unless conviction is high
         if direction == "neutral" and opportunity_type == "none":
-            logger.debug(
-                "[%s] %s: neutral consensus, no mispricing -> skip", self.name, stock_code,
-            )
-            return None
+            if conviction >= 0.4 or abs(weighted_sentiment) >= 0.10:
+                # Weak but non-trivial signal: promote to direction based on sentiment
+                direction = "long" if weighted_sentiment >= 0 else "short"
+                logger.info(
+                    "[%s] %s: weak consensus promoted (conviction=%.2f, sentiment=%.2f)",
+                    self.name, stock_code, conviction, weighted_sentiment,
+                )
+            else:
+                logger.debug(
+                    "[%s] %s: neutral consensus, no mispricing -> skip", self.name, stock_code,
+                )
+                return None
 
         # Confidence
         base_confidence = abs(weighted_sentiment) * 0.5
@@ -1547,6 +1699,14 @@ class SentimentSimulationStrategy(BaseStrategy):
                 "divergence": "模拟与现实背离",
             }
             reasoning_parts.append(f"机会: {label_map.get(opportunity_type, opportunity_type)}")
+        # Narrative overlay tag (S11 merge)
+        if simulation.get("narrative_phase"):
+            reasoning_parts.append(
+                f"[叙事]{simulation.get('narrative_name', '')}({simulation['narrative_phase']})"
+            )
+        # Announcement inflection tag (S06 merge)
+        if event.get("announcement_inflection"):
+            reasoning_parts.append(f"[公告]拐点({event.get('announcement_trend', '')})")
 
         reasoning = "; ".join(reasoning_parts)
 
@@ -1578,6 +1738,13 @@ class SentimentSimulationStrategy(BaseStrategy):
             "simulation_trend": simulation.get("simulation_trend", "stable"),
             "round_reactions": simulation.get("round_reactions", {}),
             "graph_context_used": bool(event.get("graph_context")),
+            # Narrative overlay (S11 merge)
+            "narrative_phase": simulation.get("narrative_phase", ""),
+            "narrative_name": simulation.get("narrative_name", ""),
+            "narrative_evidence": simulation.get("narrative_evidence", ""),
+            # Announcement sentiment (S06 merge)
+            "announcement_inflection": event.get("announcement_inflection", False),
+            "announcement_trend": event.get("announcement_trend", ""),
         }
 
         return StrategySignal(

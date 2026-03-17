@@ -1,7 +1,13 @@
 """
 Announcement Sentiment Change Strategy (S06)
 ==============================================
+**DEPRECATED**: Announcement sentiment analysis has been merged into S10
+(SentimentSimulationStrategy) as an event enrichment input. S10 calls
+S06.collect_announcements(), analyze_sentiment(), and compute_sentiment_trajectory()
+to detect inflection points and boost conviction. This file is kept for
+reference and as a library of reusable methods.
 
+Original description:
 Track sentiment changes in a company's announcements over time.  When
 sentiment shifts from negative to positive (or vice versa) before the
 market reacts, generate trading signals.

@@ -50,6 +50,14 @@ SUPPLY_CHAIN_KEYWORDS: list[str] = [
     "供应中断", "供应链", "断供",
 ]
 
+# Policy event keywords (merged from S03)
+POLICY_EVENT_KEYWORDS: list[str] = [
+    "国务院", "发改委", "工信部", "政策", "规划",
+    "补贴", "新规", "禁令", "制裁", "央行",
+    "财政部", "商务部", "科技部", "国资委", "证监会",
+    "战略", "专项", "行动计划", "指导意见", "实施方案",
+]
+
 # Mapping from keyword to a normalised event type
 _KEYWORD_TO_EVENT_TYPE: dict[str, str] = {
     "涨价": "price_hike",
@@ -477,6 +485,176 @@ class SupplyChainStrategy(BaseStrategy):
             len(affected), event_company,
         )
         return affected
+
+    # ================================================================
+    # 2b. _find_downstream_multi_hop (merged from S03)
+    # ================================================================
+
+    def _find_downstream_multi_hop(
+        self,
+        event_company: str,
+        graph_id: str | None = None,
+        max_depth: int = 3,
+    ) -> dict[int, list[dict]]:
+        """Multi-hop BFS traversal to find 1st/2nd/3rd-order affected companies.
+
+        Merged from S03 ``identify_beneficiaries``. This extends the basic
+        ``find_affected_companies`` by providing level-tagged results for
+        propagation delay estimation.
+
+        Parameters
+        ----------
+        event_company : str
+            Name or code of the event-triggering company.
+        graph_id : str | None
+            Graph to query.
+        max_depth : int
+            Maximum BFS depth (1, 2, or 3).
+
+        Returns
+        -------
+        dict[int, list[dict]]
+            Mapping from hop level (1, 2, 3) to company dicts.
+        """
+        gid = graph_id or self._graph_id
+        graph = self._graph_builder
+
+        nodes = graph.get_all_nodes(graph_id=gid)
+        edges = graph.get_all_edges(graph_id=gid)
+
+        if not edges:
+            return {i: [] for i in range(1, max_depth + 1)}
+
+        # Level 1: direct neighbours
+        level_1_names = set(self._topology.get_neighbors(edges, event_company, depth=1))
+        level_1_names.discard(event_company)
+
+        result: dict[int, list[dict]] = {1: [], 2: [], 3: []}
+        seen = {event_company} | level_1_names
+
+        for name in level_1_names:
+            result[1].append({
+                "company_name": name,
+                "relationship_type": "DIRECT",
+                "relationship_detail": f"{event_company} → {name}",
+                "hop_distance": 1,
+                "supply_ratio": None,
+            })
+
+        if max_depth >= 2:
+            level_2_names: set[str] = set()
+            for name in level_1_names:
+                nbs = self._topology.get_neighbors(edges, name, depth=1)
+                for nb in nbs:
+                    if nb not in seen:
+                        level_2_names.add(nb)
+            seen |= level_2_names
+
+            for name in level_2_names:
+                path = self._topology.shortest_path(edges, event_company, name)
+                result[2].append({
+                    "company_name": name,
+                    "relationship_type": "INDIRECT_2HOP",
+                    "relationship_detail": " → ".join(path) if path else f"... → {name}",
+                    "hop_distance": 2,
+                    "supply_ratio": None,
+                })
+
+        if max_depth >= 3:
+            level_3_names: set[str] = set()
+            for name in level_2_names:
+                nbs = self._topology.get_neighbors(edges, name, depth=1)
+                for nb in nbs:
+                    if nb not in seen:
+                        level_3_names.add(nb)
+            seen |= level_3_names
+
+            for name in level_3_names:
+                path = self._topology.shortest_path(edges, event_company, name)
+                result[3].append({
+                    "company_name": name,
+                    "relationship_type": "INDIRECT_3HOP",
+                    "relationship_detail": " → ".join(path) if path else f"... → {name}",
+                    "hop_distance": 3,
+                    "supply_ratio": None,
+                })
+
+        for level in range(1, max_depth + 1):
+            logger.info(
+                "Multi-hop: %d %s-order companies found for '%s'",
+                len(result[level]), level, event_company,
+            )
+
+        return result
+
+    # ================================================================
+    # 2c. detect_policy_events (merged from S03)
+    # ================================================================
+
+    def detect_policy_events(self, date: str | None = None) -> list[dict]:
+        """Scan news for national-level policy events (merged from S03).
+
+        These are broader than supply-chain events — they cover industry
+        reforms, subsidies, regulations, etc.
+
+        Returns
+        -------
+        list[dict]
+            Same format as ``detect_supply_events``.
+        """
+        if date is None:
+            date = _today_str()
+
+        candidates: list[dict] = []
+
+        # Scan hot topics for policy keywords
+        try:
+            hot_topics = self._news.get_market_hot_topics(limit=50)
+        except Exception:
+            hot_topics = []
+
+        for item in hot_topics:
+            title = _extract_title(item)
+            content = _extract_content(item)
+            text = f"{title} {content}"
+            matched = [kw for kw in POLICY_EVENT_KEYWORDS if kw in text]
+            if matched:
+                candidates.append({
+                    "event_company": _extract_name(item) or title[:20],
+                    "event_code": _extract_code(item),
+                    "title": title,
+                    "content": content[:500],
+                    "matched_keywords": matched,
+                    "source": "policy_news",
+                    "date": date,
+                    "event_type": "policy",
+                })
+
+        # Scan industry news
+        for industry in ("新能源", "半导体", "医药", "人工智能", "军工"):
+            try:
+                ind_news = self._news.get_industry_news(industry, limit=10)
+                for item in ind_news:
+                    title = _extract_title(item)
+                    content = _extract_content(item)
+                    text = f"{title} {content}"
+                    matched = [kw for kw in POLICY_EVENT_KEYWORDS if kw in text]
+                    if matched:
+                        candidates.append({
+                            "event_company": _extract_name(item) or industry,
+                            "event_code": _extract_code(item),
+                            "title": title,
+                            "content": content[:500],
+                            "matched_keywords": matched,
+                            "source": "policy_news",
+                            "date": date,
+                            "event_type": "policy",
+                        })
+            except Exception:
+                continue
+
+        logger.info("Detected %d policy event candidates.", len(candidates))
+        return candidates
 
     # ================================================================
     # 3. evaluate_impact

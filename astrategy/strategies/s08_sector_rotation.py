@@ -498,7 +498,8 @@ class SectorRotationStrategy(BaseStrategy):
                     ind_returns["return_10d"] = float(row.get("return_10d", 0.0))
                     ind_returns["return_20d"] = float(row.get("return_20d", 0.0))
 
-            reasoning_parts = [ind_info.get("reasoning", "")]
+            base_reasoning = ind_info.get("reasoning", "") or f"{industry_name}: {action}"
+            reasoning_parts = [base_reasoning]
             risk_factors = ind_info.get("risk_factors", [])
             if risk_factors:
                 reasoning_parts.append(f"风险: {', '.join(risk_factors)}")

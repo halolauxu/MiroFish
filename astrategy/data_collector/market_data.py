@@ -154,12 +154,36 @@ class MarketDataCollector:
                 df = all_stocks
                 _set_cache(cache_key, df)
             except Exception as exc:
-                logger.error("get_realtime_quotes failed: %s", exc)
-                return pd.DataFrame()
+                logger.warning("stock_info_a_code_name failed: %s; trying local graph fallback", exc)
+                df = self._load_names_from_graph()
+                if not df.empty:
+                    _set_cache(cache_key, df)
 
         if codes is not None and not df.empty:
             df = df[df["代码"].isin(codes)].reset_index(drop=True)
         return df
+
+    @staticmethod
+    def _load_names_from_graph() -> pd.DataFrame:
+        """Fallback: load stock code→name mapping from local graph file."""
+        try:
+            import json
+            from pathlib import Path
+            graph_path = Path(__file__).resolve().parent.parent / ".data" / "local_graph" / "supply_chain.json"
+            if not graph_path.exists():
+                return pd.DataFrame()
+            with open(graph_path, encoding="utf-8") as f:
+                g = json.load(f)
+            rows = []
+            for key, node in g.get("nodes", {}).items():
+                display = node.get("display_name", key)
+                rows.append({"代码": key, "名称": display})
+            if rows:
+                logger.info("Loaded %d stock names from local graph fallback", len(rows))
+                return pd.DataFrame(rows)
+        except Exception as exc:
+            logger.debug("Graph name fallback failed: %s", exc)
+        return pd.DataFrame()
 
     # ------------------------------------------------------------------
     # Industry index – Shenwan classification (申万行业指数)

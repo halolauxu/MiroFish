@@ -1,0 +1,6 @@
+﻿alpha_line,strategy,stock_code,stock_name,direction,confidence,expected_return,holding_days,reasoning
+A_graph_factors,graph_factors,000001,平安银行,long,0.5325,0.0043,20,"Composite rank 1/5, score=0.217. Factors: supply_chain_centrality=0.00(w=+1.5), betweenness_centrality=0.00(w=+1.0), ins"
+A_graph_factors,graph_factors,000333,美的集团,long,0.5067,0.0009,20,"Composite rank 2/5, score=0.045. Factors: supply_chain_centrality=0.00(w=+1.5), betweenness_centrality=0.00(w=+1.0), ins"
+A_graph_factors,graph_factors,601318,中国平安,long,0.5064,0.0009,20,"Composite rank 3/5, score=0.043. Factors: supply_chain_centrality=0.00(w=+1.5), betweenness_centrality=0.00(w=+1.0), ins"
+A_graph_factors,graph_factors,000858,五 粮 液,avoid,0.4946,-0.0007,20,"Composite rank 4/5, score=-0.036. Factors: supply_chain_centrality=0.00(w=+1.5), betweenness_centrality=0.00(w=+1.0), in"
+A_graph_factors,graph_factors,600519,贵州茅台,avoid,0.4598,-0.0054,20,"Composite rank 5/5, score=-0.268. Factors: supply_chain_centrality=0.00(w=+1.5), betweenness_centrality=0.00(w=+1.0), in"

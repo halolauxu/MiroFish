@@ -826,7 +826,7 @@ def main():
 
     # 输出
     output_path = args.output or str(
-        Path(__file__).resolve().parent / ".data" / "backtest_report.md"
+        Path(__file__).resolve().parent / ".data" / "reports" / "backtest_report.md"
     )
     Path(output_path).parent.mkdir(parents=True, exist_ok=True)
     Path(output_path).write_text(report, encoding="utf-8")

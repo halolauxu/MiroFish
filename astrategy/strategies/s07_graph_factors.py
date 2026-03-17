@@ -312,7 +312,15 @@ class GraphFactorsStrategy(BaseStrategy):
         records: Dict[str, Dict[str, float]],
     ) -> None:
         """PageRank on the SUPPLIES_TO sub-graph."""
-        supply_edges = [e for e in edges if e.get("relation") == "SUPPLIES_TO"]
+        import re as _re
+        _code_pat = _re.compile(r"^\d{6}$")
+        # Only keep edges where both endpoints are 6-digit stock codes
+        supply_edges = [
+            e for e in edges
+            if e.get("relation") == "SUPPLIES_TO"
+            and _code_pat.match(e.get("source_name", ""))
+            and _code_pat.match(e.get("target_name", ""))
+        ]
         if not supply_edges:
             for code in records:
                 records[code]["supply_chain_centrality"] = 0.0
@@ -999,15 +1007,33 @@ class GraphFactorsStrategy(BaseStrategy):
         return peers
 
     def _get_stock_names(self, codes: list[str]) -> Dict[str, str]:
-        """Fetch stock names for a list of codes from the market data API."""
+        """Fetch stock names, preferring local graph data to avoid slow network calls."""
         names: Dict[str, str] = {}
+
+        # Priority 1: use graph node display_name (fast, no network)
+        code_set = set(codes)
         try:
-            rt = self._market.get_realtime_quotes(codes)
-            if not rt.empty and "代码" in rt.columns and "名称" in rt.columns:
-                for _, row in rt.iterrows():
-                    names[str(row["代码"])] = str(row["名称"])
-        except Exception as exc:
-            logger.debug("Failed to fetch stock names: %s", exc)
+            from astrategy.graph.local_store import LocalGraphStore
+            store = LocalGraphStore()
+            if store.load("supply_chain"):
+                for n in store.get_all_nodes("supply_chain"):
+                    dn = n.get("display_name", "")
+                    nm = n.get("name", "")
+                    if dn and nm in code_set:
+                        names[nm] = dn
+        except Exception:
+            pass
+
+        # Priority 2: market API (may fail on SSL)
+        missing = [c for c in codes if c not in names]
+        if missing:
+            try:
+                rt = self._market.get_realtime_quotes(missing)
+                if not rt.empty and "代码" in rt.columns and "名称" in rt.columns:
+                    for _, row in rt.iterrows():
+                        names[str(row["代码"])] = str(row["名称"])
+            except Exception as exc:
+                logger.debug("Failed to fetch stock names: %s", exc)
 
         # Fallback: use code as name
         for c in codes:

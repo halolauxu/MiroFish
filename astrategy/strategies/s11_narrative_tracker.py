@@ -1,6 +1,13 @@
 """
 Narrative Tracker Strategy (S11)
 ==================================
+**DEPRECATED**: Narrative phase scoring has been merged into S10
+(SentimentSimulationStrategy) as a post-processing overlay. S10 calls
+S11.scan_all_narratives() to get phase/evidence data and applies
+_apply_narrative_overlay() to adjust conviction and sentiment. This file
+is kept for reference and as a library of reusable methods.
+
+Original description:
 Tracks the lifecycle of investment narratives (投资叙事/主题) in A-share markets
 and generates signals based on where each narrative stands in its diffusion curve.
 

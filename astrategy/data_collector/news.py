@@ -33,16 +33,45 @@ def _set_cache(key: str, value: object) -> None:
     _cache[key] = (time.time(), value)
 
 
-def _retry(fn, *args, retries: int = 2, delay: float = 0.5, **kwargs):
+def _retry(fn, *args, retries: int = 2, delay: float = 0.5, timeout: float = 8.0, **kwargs):
+    """Retry wrapper with per-attempt timeout.
+
+    Parameters
+    ----------
+    timeout : float
+        Max seconds to wait per attempt (enforced via signal on Unix).
+    """
+    import signal as _signal
+    import platform
+
+    use_alarm = platform.system() != "Windows"
+
+    class _Timeout(Exception):
+        pass
+
+    def _handler(signum, frame):
+        raise _Timeout(f"{fn.__name__} timed out after {timeout}s")
+
     last_exc: Optional[Exception] = None
     for attempt in range(1, retries + 1):
+        old_handler = None
         try:
-            return fn(*args, **kwargs)
+            if use_alarm and timeout > 0:
+                old_handler = _signal.signal(_signal.SIGALRM, _handler)
+                _signal.alarm(int(timeout))
+            result = fn(*args, **kwargs)
+            if use_alarm:
+                _signal.alarm(0)
+            return result
         except Exception as exc:
+            if use_alarm:
+                _signal.alarm(0)
+            if old_handler is not None:
+                _signal.signal(_signal.SIGALRM, old_handler)
             last_exc = exc
             logger.warning(
                 "Attempt %d/%d for %s failed: %s",
-                attempt, retries, fn.__name__, exc,
+                attempt, retries, fn.__name__, str(exc)[:80],
             )
             if attempt < retries:
                 time.sleep(delay * attempt)
