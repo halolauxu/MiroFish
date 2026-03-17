@@ -5,6 +5,8 @@ Provides an enhanced LLM client with caching, batch scheduling,
 and cost tracking for A-share strategy research.
 """
 
+from typing import Optional
+
 from .client import LLMClient
 from .batch_scheduler import BatchScheduler
 from .cache import LLMCache
@@ -16,11 +18,11 @@ __all__ = ["LLMClient", "BatchScheduler", "LLMCache", "CostTracker"]
 # ---------------------------------------------------------------------------
 # Factory: creates a fully-wired LLMClient with cache + cost tracking
 # ---------------------------------------------------------------------------
-_default_cache: LLMCache | None = None
-_default_tracker: CostTracker | None = None
+_default_cache: Optional[LLMCache] = None
+_default_tracker: Optional[CostTracker] = None
 
 
-def create_llm_client(strategy_name: str | None = None) -> LLMClient:
+def create_llm_client(strategy_name: Optional[str] = None) -> LLMClient:
     """Create an LLMClient with shared LLMCache and CostTracker singletons.
 
     Parameters

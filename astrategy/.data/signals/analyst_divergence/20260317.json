@@ -24,21 +24,21 @@
       "current_price": null,
       "wave_type": "none"
     },
-    "timestamp": "2026-03-17T00:01:18.682330+08:00",
-    "expires_at": "2026-05-01T00:01:18.682330+08:00"
+    "timestamp": "2026-03-17T15:47:20.003908+08:00",
+    "expires_at": "2026-05-01T15:47:20.003908+08:00"
   },
   {
     "strategy_name": "analyst_divergence",
     "stock_code": "002594",
     "stock_name": "002594",
     "direction": "neutral",
-    "confidence": 0.14,
+    "confidence": 0.1,
     "expected_return": 0.0,
     "holding_period_days": 45,
-    "reasoning": "No strong directional signal (consensus=5.0, shift=stable); Divergence: std=0.000, bull/bear=inf",
+    "reasoning": "No strong directional signal (consensus=4.8, shift=stable); Divergence: std=0.500, bull/bear=inf",
     "metadata": {
-      "consensus_rating": 5.0,
-      "divergence_score": 0.0,
+      "consensus_rating": 4.75,
+      "divergence_score": 0.5,
       "divergence_change": 0.0,
       "bull_bear_ratio": 999.0,
       "recent_upgrades": 0,
@@ -46,14 +46,14 @@
       "target_price_upside": null,
       "convergence_type": "stable",
       "leading_brokers": [],
-      "analyst_count": 3,
+      "analyst_count": 4,
       "price_divergence": 0.0,
       "consensus_target": null,
       "current_price": null,
       "wave_type": "none"
     },
-    "timestamp": "2026-03-17T00:01:19.969405+08:00",
-    "expires_at": "2026-05-01T00:01:19.969405+08:00"
+    "timestamp": "2026-03-17T15:47:21.051158+08:00",
+    "expires_at": "2026-05-01T15:47:21.051158+08:00"
   },
   {
     "strategy_name": "analyst_divergence",
@@ -80,7 +80,7 @@
       "current_price": null,
       "wave_type": "none"
     },
-    "timestamp": "2026-03-17T00:01:39.775171+08:00",
-    "expires_at": "2026-05-01T00:01:39.775171+08:00"
+    "timestamp": "2026-03-17T15:47:36.221059+08:00",
+    "expires_at": "2026-05-01T15:47:36.221059+08:00"
   }
 ]

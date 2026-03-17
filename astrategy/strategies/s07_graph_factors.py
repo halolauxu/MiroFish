@@ -58,19 +58,20 @@ _CST = timezone(timedelta(hours=8))
 DEFAULT_WEIGHTS: Dict[str, float] = {
     # Graph factors — weights are scaled dynamically by graph coverage ratio
     # (see compute_composite_score: if coverage < 50%, graph weight is reduced)
+    # Weights optimised via coordinate descent (2026-03-17, quick mode, 30 stocks)
     "supply_chain_centrality": 1.5,
-    "betweenness_centrality": 1.0,    # NEW: measures broker/connector role
-    "institution_concentration": 1.0,
-    "concept_heat": 0.5,
+    "betweenness_centrality": 1.0,
+    "institution_concentration": -1.0,  # contrarian: fewer institutions = less crowded
+    "concept_heat": -1.5,              # contrarian: cooler concepts = less priced-in
     "event_exposure": 0.5,
     "industry_leadership": 0.8,
-    "peer_return_gap": 0.8,
+    "peer_return_gap": -2.0,           # outperformers, not catch-up
     # Traditional factors
     "momentum_20d": 1.0,
     "reversal_5d": 1.0,
-    "volatility_20d": -1.0,  # lower vol preferred
+    "volatility_20d": 3.0,            # high vol = momentum opportunity
     "turnover_rate": 1.0,
-    "pe_percentile": -1.0,   # lower PE percentile preferred (value tilt)
+    "pe_percentile": -1.0,            # lower PE percentile preferred (value tilt)
     "roe": 1.0,
 }
 
@@ -113,7 +114,7 @@ class GraphFactorsStrategy(BaseStrategy):
     def __init__(
         self,
         weights: Dict[str, float] | None = None,
-        top_n: int = 10,
+        top_n: int = 8,
         holding_days: int = 20,
         lookback_days: int = 60,
         event_recency_days: int = 30,
@@ -371,18 +372,54 @@ class GraphFactorsStrategy(BaseStrategy):
         name_to_code: Dict[str, str],
         records: Dict[str, Dict[str, float]],
     ) -> None:
-        """Count distinct institutions holding each stock via HOLDS_SHARES."""
+        """Count distinct institutions holding each stock via HOLDS_SHARES.
+
+        Uses two strategies:
+        1. Count distinct institution sources per stock (original graph approach)
+        2. Use edge weight as a proxy for fund-count when source is aggregate data
+        """
         holds_edges = [e for e in edges if e.get("relation") == "HOLDS_SHARES"]
         counter: Dict[str, set] = defaultdict(set)
+        weight_sum: Dict[str, float] = defaultdict(float)
         for e in holds_edges:
             target_name = e.get("target_name", "")
+            target_id = e.get("target", "")
             source_name = e.get("source_name", "")
-            code = name_to_code.get(target_name)
+            # Try name_to_code first, then fall back to target_id directly
+            code = name_to_code.get(target_name) or target_id
             if code and code in records:
                 counter[code].add(source_name)
+                weight_sum[code] += e.get("weight", 0.5)
+
+        # If graph-based counting found nothing for most stocks, use API fallback
+        codes_with_zero = [c for c in records if len(counter.get(c, set())) == 0]
+        if len(codes_with_zero) > len(records) * 0.5:
+            api_counts = self._fetch_fund_holder_counts()
+            for code in codes_with_zero:
+                if code in api_counts:
+                    counter[code] = {f"api_fund_{i}" for i in range(int(api_counts[code]))}
 
         for code in records:
             records[code]["institution_concentration"] = float(len(counter.get(code, set())))
+
+    @staticmethod
+    def _fetch_fund_holder_counts() -> Dict[str, float]:
+        """Fetch fund holder counts for all stocks from akshare (one API call)."""
+        try:
+            import akshare as ak
+            df = ak.stock_report_fund_hold(symbol="基金持仓", date="20241231")
+            code_col = next((c for c in df.columns if "代码" in c), None)
+            count_col = next((c for c in df.columns if "基金家数" in c), None)
+            if code_col and count_col:
+                result = {}
+                for _, row in df.iterrows():
+                    code = str(row[code_col]).strip().zfill(6)
+                    result[code] = float(row[count_col])
+                logger.info("Fetched fund holder counts for %d stocks via API", len(result))
+                return result
+        except Exception as exc:
+            logger.warning("Fund holder count API fallback failed: %s", exc)
+        return {}
 
     def _compute_concept_heat(
         self,
@@ -498,16 +535,25 @@ class GraphFactorsStrategy(BaseStrategy):
                 continue
             attrs = n.get("attributes", {}) or {}
             code = str(attrs.get("code", "") or attrs.get("stock_code", ""))
+            # Fall back to node name if it looks like a 6-digit stock code
+            if not code:
+                import re as _re
+                node_name = n.get("name", "")
+                if _re.match(r"^\d{6}$", node_name):
+                    code = node_name
             industry = attrs.get("industry", "")
             if code and industry:
                 code_industry[code] = industry
 
-        # API fallback: for target stocks missing cap/industry, fetch per-stock
-        codes_missing = [c for c in records if c not in code_industry
-                         and code_to_name.get(c, "") not in company_industry]
-        if codes_missing:
+        # API fallback: for target stocks missing cap OR industry, fetch per-stock
+        codes_needing_api = [
+            c for c in records
+            if (c not in code_industry and code_to_name.get(c, "") not in company_industry)
+            or (code_to_name.get(c, "") not in cap_map and c not in cap_map)
+        ]
+        if codes_needing_api:
             self._fill_industry_cap_from_api(
-                codes_missing, code_to_name, cap_map, code_industry,
+                codes_needing_api, code_to_name, cap_map, code_industry,
             )
 
         # Unify: company_industry (name-keyed) + code_industry (code-keyed)
@@ -848,10 +894,38 @@ class GraphFactorsStrategy(BaseStrategy):
                 coverage_ratio * 100, n_covered, n_total, graph_scale,
             )
 
+        # --- Per-factor sparsity filter ---
+        # Skip graph factors where <10% of stocks have non-zero raw values.
+        # These produce misleading z-scores (handful of extreme values, rest zero).
+        _COVERAGE_THRESHOLD = 0.10
+        skip_factors: set = set()
+        factor_coverage: dict = {}  # col -> nonzero_ratio (for diagnostics)
+        for col in graph_cols:
+            if col in combined.columns:
+                nonzero_ratio = float((combined[col].abs() > 1e-9).mean())
+                factor_coverage[col] = nonzero_ratio
+                if nonzero_ratio < _COVERAGE_THRESHOLD:
+                    skip_factors.add(col)
+                    logger.info(
+                        "Skipping sparse graph factor '%s' (%.1f%% non-zero, threshold %.0f%%)",
+                        col, nonzero_ratio * 100, _COVERAGE_THRESHOLD * 100,
+                    )
+                else:
+                    logger.info(
+                        "Keeping graph factor '%s' (%.1f%% non-zero)",
+                        col, nonzero_ratio * 100,
+                    )
+
+        # Store coverage info for external diagnostics (e.g. backtest reporting)
+        self._last_factor_coverage = factor_coverage
+        self._last_skip_factors = skip_factors
+
         # Weighted composite
         composite = pd.Series(0.0, index=z_scored.index, dtype=float)
         total_abs_weight = 0.0
         for col in z_scored.columns:
+            if col in skip_factors:
+                continue
             w = self._weights.get(col, 0.0)
             if col in _GRAPH_FACTOR_COLS:
                 w = w * graph_scale

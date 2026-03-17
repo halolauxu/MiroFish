@@ -812,10 +812,19 @@ class SentimentSimulationStrategy(BaseStrategy):
         all_negative = all(s <= 0 for s in sentiments)
         agreement = all_positive or all_negative
 
+        # Divergence: explicit std of agent sentiments (higher = more disagreement)
+        if len(sentiments) >= 2:
+            _mean = sum(sentiments) / len(sentiments)
+            _var = sum((s - _mean) ** 2 for s in sentiments) / len(sentiments)
+            divergence = math.sqrt(_var)
+        else:
+            divergence = 0.0
+
         return {
             "weighted_sentiment": round(weighted_sentiment, 4),
             "consensus_action": consensus_action,
             "conviction_level": round(conviction_level, 4),
+            "divergence": round(divergence, 4),
             "agreement": agreement,
             "agent_summary": agent_summary,
             "weighted_price_target_pct": round(weighted_price_target, 2),
@@ -1045,25 +1054,85 @@ class SentimentSimulationStrategy(BaseStrategy):
     def _get_graph_context(self, stock_code: str, stock_name: str) -> str:
         """Query local graph for supply-chain / industry context.
 
-        Returns a text block injected into agent profiles so agents are
-        aware of second-order effects that raw news may not mention.
+        Uses shock propagation to find downstream companies that would be
+        affected, providing agents with second-order effect awareness.
+
+        Returns a text block injected into agent profiles.
         """
         if self._graph is None:
             return ""
         try:
-            results = self._graph.search("astrategy", f"{stock_code} {stock_name}", limit=8)
-            if not results:
+            # First: use propagation paths (primary method)
+            graph_id = None
+            for gid in ("supply_chain", "astrategy"):
+                if gid in self._graph._graphs:
+                    graph_id = gid
+                    break
+            if graph_id is None:
                 return ""
-            lines = ["【知识图谱上下文】"]
-            for r in results[:6]:
-                fact = r.get("fact", "")
-                src = r.get("source", "")
-                tgt = r.get("target", "")
-                rel = r.get("relation", "")
-                if fact and len(fact) > 10:
-                    lines.append(f"- {fact[:120]}")
-                elif src and tgt:
-                    lines.append(f"- {src} → [{rel}] → {tgt}")
+
+            edges = self._graph.get_all_edges(graph_id)
+            if not edges:
+                return ""
+
+            from astrategy.graph.topology import TopologyAnalyzer
+            downstream = TopologyAnalyzer.propagate_shock(
+                edges=edges,
+                source=stock_code,
+                max_hops=2,
+                decay=0.5,
+            )
+
+            lines = ["【知识图谱上下文 — 供应链传播路径】"]
+
+            if downstream:
+                lines.append(f"该股票在图谱中有 {len(downstream)} 个下游关联公司:")
+                for node, info in sorted(
+                    downstream.items(),
+                    key=lambda x: x[1]["shock_weight"],
+                    reverse=True,
+                )[:6]:
+                    path = " → ".join(info["path"])
+                    rels = " → ".join(info["relation_chain"])
+                    lines.append(
+                        f"- {node}(传导权重:{info['shock_weight']:.2f}, "
+                        f"路径:{path}, 关系:{rels})"
+                    )
+
+            # Also try stock_name as source
+            if stock_name != stock_code:
+                upstream = TopologyAnalyzer.propagate_shock(
+                    edges=edges,
+                    source=stock_name,
+                    max_hops=2,
+                    decay=0.5,
+                )
+                for node, info in sorted(
+                    upstream.items(),
+                    key=lambda x: x[1]["shock_weight"],
+                    reverse=True,
+                )[:3]:
+                    if node not in downstream:
+                        path = " → ".join(info["path"])
+                        rels = " → ".join(info["relation_chain"])
+                        lines.append(
+                            f"- {node}(传导权重:{info['shock_weight']:.2f}, "
+                            f"路径:{path}, 关系:{rels})"
+                        )
+
+            # Fallback: keyword search for additional context
+            results = self._graph.search(graph_id, f"{stock_code} {stock_name}", limit=5)
+            if results:
+                for r in results[:3]:
+                    fact = r.get("fact", "")
+                    src = r.get("source", "")
+                    tgt = r.get("target", "")
+                    rel = r.get("relation", "")
+                    if fact and len(fact) > 10:
+                        lines.append(f"- {fact[:120]}")
+                    elif src and tgt:
+                        lines.append(f"- {src} → [{rel}] → {tgt}")
+
             return "\n".join(lines) if len(lines) > 1 else ""
         except Exception as exc:
             logger.debug("[%s] Graph context query failed: %s", self.name, exc)
@@ -1483,10 +1552,19 @@ class SentimentSimulationStrategy(BaseStrategy):
         all_sentiments = [r.get("sentiment_score", 0.0) for r in all_flat]
         agreement = all(s >= 0 for s in all_sentiments) or all(s <= 0 for s in all_sentiments)
 
+        # Divergence: explicit std of all agent sentiments across rounds
+        if len(all_sentiments) >= 2:
+            _mean_all = sum(all_sentiments) / len(all_sentiments)
+            _var_all = sum((s - _mean_all) ** 2 for s in all_sentiments) / len(all_sentiments)
+            divergence = math.sqrt(_var_all)
+        else:
+            divergence = 0.0
+
         return {
             "weighted_sentiment": round(weighted_sentiment, 4),
             "consensus_action": consensus_action,
             "conviction_level": round(conviction_level, 4),
+            "divergence": round(divergence, 4),
             "agreement": agreement,
             "agent_summary": agent_summary,
             "weighted_price_target_pct": round(weighted_price_target, 2),
@@ -1738,6 +1816,7 @@ class SentimentSimulationStrategy(BaseStrategy):
             "simulation_trend": simulation.get("simulation_trend", "stable"),
             "round_reactions": simulation.get("round_reactions", {}),
             "graph_context_used": bool(event.get("graph_context")),
+            "divergence": simulation.get("divergence", 0.0),
             # Narrative overlay (S11 merge)
             "narrative_phase": simulation.get("narrative_phase", ""),
             "narrative_name": simulation.get("narrative_name", ""),

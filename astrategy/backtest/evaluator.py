@@ -89,6 +89,10 @@ class Evaluator:
 
         actual_return = (exit_price - entry_price) / entry_price
 
+        # 扣除交易成本 (A股往返 ≈ 0.3%)
+        _ROUND_TRIP_COST = 0.003
+        actual_return = actual_return - _ROUND_TRIP_COST
+
         # Determine if direction was correct
         if signal.direction == "long":
             hit = actual_return > 0

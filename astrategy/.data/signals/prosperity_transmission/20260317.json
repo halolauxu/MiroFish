@@ -1,0 +1,94 @@
+[
+  {
+    "strategy_name": "prosperity_transmission",
+    "stock_code": "601668",
+    "stock_name": "中国建筑",
+    "direction": "avoid",
+    "confidence": 0.35,
+    "expected_return": 0.05,
+    "holding_period_days": 105,
+    "reasoning": "钢铁产业链传导：上游铁矿石景气度=52，上行拐点（3月变化+7.0），预计传导至下游基建，延迟5月，强度50%",
+    "metadata": {
+      "industry_chain": "钢铁产业链",
+      "upstream_industry": "铁矿石",
+      "upstream_prosperity": 52.0,
+      "upstream_turning_point": true,
+      "downstream_industry": "基建",
+      "predicted_prosperity_change": -10.0,
+      "transmission_delay_months": 5,
+      "current_stock_pe_percentile": 50.0,
+      "llm_reasoning": "上游铁矿石景气度上行拐点，预计5个月后传导至下游基建。 基建项目大量使用钢材，铁矿石价格上涨将增加基建材料成本，可能延缓项目进度或压缩利润。但基建需求刚性较强，且政府投资支撑部分抵消成本压力，传导强度相对较弱，时滞稍长。"
+    },
+    "timestamp": "2026-03-17T15:58:30.152368+08:00",
+    "expires_at": "2026-06-30T15:58:30.152368+08:00"
+  },
+  {
+    "strategy_name": "prosperity_transmission",
+    "stock_code": "601390",
+    "stock_name": "中国中铁",
+    "direction": "avoid",
+    "confidence": 0.35,
+    "expected_return": 0.05,
+    "holding_period_days": 105,
+    "reasoning": "钢铁产业链传导：上游铁矿石景气度=52，上行拐点（3月变化+7.0），预计传导至下游基建，延迟5月，强度50%",
+    "metadata": {
+      "industry_chain": "钢铁产业链",
+      "upstream_industry": "铁矿石",
+      "upstream_prosperity": 52.0,
+      "upstream_turning_point": true,
+      "downstream_industry": "基建",
+      "predicted_prosperity_change": -10.0,
+      "transmission_delay_months": 5,
+      "current_stock_pe_percentile": 50.0,
+      "llm_reasoning": "上游铁矿石景气度上行拐点，预计5个月后传导至下游基建。 基建项目大量使用钢材，铁矿石价格上涨将增加基建材料成本，可能延缓项目进度或压缩利润。但基建需求刚性较强，且政府投资支撑部分抵消成本压力，传导强度相对较弱，时滞稍长。"
+    },
+    "timestamp": "2026-03-17T15:58:30.152404+08:00",
+    "expires_at": "2026-06-30T15:58:30.152404+08:00"
+  },
+  {
+    "strategy_name": "prosperity_transmission",
+    "stock_code": "601668",
+    "stock_name": "中国建筑",
+    "direction": "avoid",
+    "confidence": 0.42,
+    "expected_return": 0.05,
+    "holding_period_days": 84,
+    "reasoning": "钢铁产业链传导：上游焦煤景气度=76，上行拐点（3月变化+31.0），预计传导至下游基建，延迟4月，强度50%",
+    "metadata": {
+      "industry_chain": "钢铁产业链",
+      "upstream_industry": "焦煤",
+      "upstream_prosperity": 76.0,
+      "upstream_turning_point": true,
+      "downstream_industry": "基建",
+      "predicted_prosperity_change": -10.0,
+      "transmission_delay_months": 4,
+      "current_stock_pe_percentile": 50.0,
+      "llm_reasoning": "上游焦煤景气度上行拐点，预计4个月后传导至下游基建。 基建行业同样依赖钢铁，焦煤上行增加钢铁成本，可能影响基建项目预算和进度。但基建通常有政府支持，需求刚性较强，传导时滞较短（约4个月），强度较低，预期变化幅度较小。"
+    },
+    "timestamp": "2026-03-17T15:58:56.555822+08:00",
+    "expires_at": "2026-06-09T15:58:56.555822+08:00"
+  },
+  {
+    "strategy_name": "prosperity_transmission",
+    "stock_code": "601390",
+    "stock_name": "中国中铁",
+    "direction": "avoid",
+    "confidence": 0.42,
+    "expected_return": 0.05,
+    "holding_period_days": 84,
+    "reasoning": "钢铁产业链传导：上游焦煤景气度=76，上行拐点（3月变化+31.0），预计传导至下游基建，延迟4月，强度50%",
+    "metadata": {
+      "industry_chain": "钢铁产业链",
+      "upstream_industry": "焦煤",
+      "upstream_prosperity": 76.0,
+      "upstream_turning_point": true,
+      "downstream_industry": "基建",
+      "predicted_prosperity_change": -10.0,
+      "transmission_delay_months": 4,
+      "current_stock_pe_percentile": 50.0,
+      "llm_reasoning": "上游焦煤景气度上行拐点，预计4个月后传导至下游基建。 基建行业同样依赖钢铁，焦煤上行增加钢铁成本，可能影响基建项目预算和进度。但基建通常有政府支持，需求刚性较强，传导时滞较短（约4个月），强度较低，预期变化幅度较小。"
+    },
+    "timestamp": "2026-03-17T15:58:56.555848+08:00",
+    "expires_at": "2026-06-09T15:58:56.555848+08:00"
+  }
+]

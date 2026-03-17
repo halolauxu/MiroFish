@@ -1,0 +1,47 @@
+{
+  "baseline": {
+    "sharpe_ratio": 0.4317,
+    "hit_rate": 0.6458,
+    "consistency": 0.4375,
+    "avg_return": 0.008161,
+    "pf": 1.3534,
+    "n": 48
+  },
+  "optimised": {
+    "sharpe_ratio": 0.611,
+    "hit_rate": 0.625,
+    "consistency": 0.375,
+    "avg_return": 0.01138,
+    "pf": 1.5437,
+    "n": 48
+  },
+  "weights": {
+    "supply_chain_centrality": 0.0,
+    "betweenness_centrality": -0.5,
+    "institution_concentration": -1.0,
+    "concept_heat": -1.5,
+    "event_exposure": 0.5,
+    "industry_leadership": 0.8,
+    "peer_return_gap": -2.0,
+    "momentum_20d": 1.0,
+    "reversal_5d": 1.0,
+    "volatility_20d": 3.0,
+    "turnover_rate": 1.0,
+    "pe_percentile": -1.0,
+    "roe": 1.0
+  },
+  "changes": [
+    [
+      "supply_chain_centrality",
+      1.5,
+      0.0,
+      1
+    ],
+    [
+      "betweenness_centrality",
+      1.0,
+      -0.5,
+      1
+    ]
+  ]
+}

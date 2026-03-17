@@ -1,125 +1,124 @@
 [
   {
     "strategy_name": "narrative_tracker",
+    "stock_code": "601012",
+    "stock_name": "隆基绿能",
+    "direction": "long",
+    "confidence": 0.55,
+    "expected_return": 0.05,
+    "holding_period_days": 20,
+    "reasoning": "[叙事追踪] 光伏储能 | 扩散期(分值45) | 催化剂:主力资金连续多日净流入光伏储能相关个股; 电力设备行业资金流向活跃 | 风险:监管警示和立案调查风险 | ",
+    "metadata": {
+      "narrative_name": "光伏储能",
+      "narrative_phase": "扩散期",
+      "narrative_score": 45,
+      "evidence_strength": "moderate",
+      "phase_reasoning": "多家财经媒体频繁报道资金流入和个股突破，但缺乏主流头条和散户广泛关注。",
+      "key_catalysts": [
+        "主力资金连续多日净流入光伏储能相关个股",
+        "电力设备行业资金流向活跃"
+      ],
+      "risk_factors": [
+        "监管警示和立案调查风险",
+        "行业展会规模收缩和巨头缺位"
+      ],
+      "is_leading_stock": false,
+      "is_laggard_stock": false,
+      "theme_type": "新能源"
+    },
+    "timestamp": "2026-03-17T16:06:50.939738+08:00",
+    "expires_at": "2026-04-06T16:06:50.939738+08:00"
+  },
+  {
+    "strategy_name": "narrative_tracker",
     "stock_code": "002415",
-    "stock_name": "002415",
+    "stock_name": "海康威视",
     "direction": "neutral",
     "confidence": 0.48,
     "expected_return": 0.01,
     "holding_period_days": 5,
-    "reasoning": "[叙事追踪] AI算力 | 成熟期(分值60) | 催化剂:主力资金持续流入电子和通信板块; 中际旭创等公司订单饱满、产能利用率充足 | 风险:板块资金流出风险（如计算机行业净流出） | ",
+    "reasoning": "[叙事追踪] AI算力 | 成熟期(分值65) | 催化剂:主力资金持续流入电子和通信板块; 中际旭创等龙头公司订单饱满、产能利用率充足 | 风险:板块资金净流出风险（如计算机行业） | ",
     "metadata": {
       "narrative_name": "AI算力",
       "narrative_phase": "成熟期",
-      "narrative_score": 60,
+      "narrative_score": 65,
       "evidence_strength": "strong",
-      "phase_reasoning": "主流媒体广泛报道，主力资金大量流入相关板块，个股表现活跃，估值已明显提升。",
+      "phase_reasoning": "主流媒体频繁报道，资金大量流入相关板块，龙头公司业绩向好，散户关注度高。",
       "key_catalysts": [
         "主力资金持续流入电子和通信板块",
-        "中际旭创等公司订单饱满、产能利用率充足"
+        "中际旭创等龙头公司订单饱满、产能利用率充足"
       ],
       "risk_factors": [
-        "板块资金流出风险（如计算机行业净流出）",
-        "估值过高风险",
-        "技术迭代或竞争加剧"
+        "板块资金净流出风险（如计算机行业）",
+        "估值过高可能引发回调"
       ],
       "is_leading_stock": false,
       "is_laggard_stock": false,
       "theme_type": "tech"
     },
-    "timestamp": "2026-03-17T00:10:14.409256+08:00",
-    "expires_at": "2026-03-22T00:10:14.409256+08:00"
+    "timestamp": "2026-03-17T16:07:02.594036+08:00",
+    "expires_at": "2026-03-22T16:07:02.594036+08:00"
   },
   {
     "strategy_name": "narrative_tracker",
     "stock_code": "300750",
-    "stock_name": "300750",
+    "stock_name": "宁德时代",
     "direction": "avoid",
     "confidence": 0.54,
     "expected_return": -0.02,
     "holding_period_days": 5,
-    "reasoning": "[叙事追踪] 新能源汽车 | 成熟期(分值65) | 催化剂:比亚迪计划2026年底前建成2万座闪充站; 美国放弃对华负极材料征收双反关税 | 风险:估值过高风险 | 成熟期领涨股，估值充分反映",
+    "reasoning": "[叙事追踪] 新能源汽车 | 成熟期(分值65) | 催化剂:比亚迪计划2026年底前建成2万座闪充站; 宁德时代智能科技公司增资至30.6亿 | 风险:政策变化风险 | 成熟期领涨股，估值充分反映",
     "metadata": {
       "narrative_name": "新能源汽车",
       "narrative_phase": "成熟期",
       "narrative_score": 65,
       "evidence_strength": "strong",
-      "phase_reasoning": "主流媒体广泛报道，龙头企业积极扩张，板块估值已明显提升。",
+      "phase_reasoning": "主流媒体广泛报道，龙头企业动作频繁，资金持续流入，估值已明显提升。",
       "key_catalysts": [
         "比亚迪计划2026年底前建成2万座闪充站",
-        "美国放弃对华负极材料征收双反关税"
+        "宁德时代智能科技公司增资至30.6亿元"
       ],
       "risk_factors": [
-        "估值过高风险",
-        "政策变动风险",
-        "技术迭代风险"
+        "政策变化风险",
+        "技术迭代风险",
+        "市场竞争加剧"
       ],
       "is_leading_stock": true,
       "is_laggard_stock": false,
       "theme_type": "新能源"
     },
-    "timestamp": "2026-03-17T00:11:21.364847+08:00",
-    "expires_at": "2026-03-22T00:11:21.364847+08:00"
+    "timestamp": "2026-03-17T16:07:54.869879+08:00",
+    "expires_at": "2026-03-22T16:07:54.869879+08:00"
   },
   {
     "strategy_name": "narrative_tracker",
     "stock_code": "002594",
-    "stock_name": "002594",
+    "stock_name": "比亚迪",
     "direction": "avoid",
     "confidence": 0.54,
     "expected_return": -0.02,
     "holding_period_days": 5,
-    "reasoning": "[叙事追踪] 新能源汽车 | 成熟期(分值65) | 催化剂:比亚迪计划2026年底前建成2万座闪充站; 美国放弃对华负极材料征收双反关税 | 风险:估值过高风险 | 成熟期领涨股，估值充分反映",
+    "reasoning": "[叙事追踪] 新能源汽车 | 成熟期(分值65) | 催化剂:比亚迪计划2026年底前建成2万座闪充站; 宁德时代智能科技公司增资至30.6亿 | 风险:政策变化风险 | 成熟期领涨股，估值充分反映",
     "metadata": {
       "narrative_name": "新能源汽车",
       "narrative_phase": "成熟期",
       "narrative_score": 65,
       "evidence_strength": "strong",
-      "phase_reasoning": "主流媒体广泛报道，龙头企业积极扩张，板块估值已明显提升。",
+      "phase_reasoning": "主流媒体广泛报道，龙头企业动作频繁，资金持续流入，估值已明显提升。",
       "key_catalysts": [
         "比亚迪计划2026年底前建成2万座闪充站",
-        "美国放弃对华负极材料征收双反关税"
+        "宁德时代智能科技公司增资至30.6亿元"
       ],
       "risk_factors": [
-        "估值过高风险",
-        "政策变动风险",
-        "技术迭代风险"
+        "政策变化风险",
+        "技术迭代风险",
+        "市场竞争加剧"
       ],
       "is_leading_stock": true,
       "is_laggard_stock": false,
       "theme_type": "新能源"
     },
-    "timestamp": "2026-03-17T00:11:21.364858+08:00",
-    "expires_at": "2026-03-22T00:11:21.364858+08:00"
-  },
-  {
-    "strategy_name": "narrative_tracker",
-    "stock_code": "601012",
-    "stock_name": "601012",
-    "direction": "neutral",
-    "confidence": 0.48,
-    "expected_return": 0.01,
-    "holding_period_days": 5,
-    "reasoning": "[叙事追踪] 光伏储能 | 成熟期(分值60) | 催化剂:算电协同上升为国家战略，新基建催生电力算力融合新赛道; 光伏储能板块资金持续净流 | 风险:行业竞争加剧，光伏巨头集体缺位展会 | ",
-    "metadata": {
-      "narrative_name": "光伏储能",
-      "narrative_phase": "成熟期",
-      "narrative_score": 60,
-      "evidence_strength": "strong",
-      "phase_reasoning": "主流媒体广泛报道，资金持续流入，但行业出现分化迹象，如展会规模收缩和监管事件。",
-      "key_catalysts": [
-        "算电协同上升为国家战略，新基建催生电力算力融合新赛道",
-        "光伏储能板块资金持续净流入，主力资金活跃"
-      ],
-      "risk_factors": [
-        "行业竞争加剧，光伏巨头集体缺位展会",
-        "监管风险，如双良节能因蹭热点被立案调查"
-      ],
-      "is_leading_stock": false,
-      "is_laggard_stock": false,
-      "theme_type": "新能源"
-    },
-    "timestamp": "2026-03-17T00:11:39.512650+08:00",
-    "expires_at": "2026-03-22T00:11:39.512650+08:00"
+    "timestamp": "2026-03-17T16:07:54.869914+08:00",
+    "expires_at": "2026-03-22T16:07:54.869914+08:00"
   }
 ]

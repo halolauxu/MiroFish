@@ -355,6 +355,97 @@ class TopologyAnalyzer:
         visited.discard(node_id)
         return sorted(visited)
 
+    # ── Shock Propagation ──────────────────────────────────────
+
+    @staticmethod
+    def propagate_shock(
+        edges: List[Dict[str, Any]],
+        source: str,
+        max_hops: int = 3,
+        decay: float = 0.5,
+        relation_types: Optional[Set[str]] = None,
+    ) -> Dict[str, Dict[str, Any]]:
+        """Propagate a shock from *source* along directed edges with decay.
+
+        Models how an event hitting company A ripples through supply-chain
+        / industry-chain / capital-flow relationships to downstream companies
+        B, C, D, …  Each hop attenuates the shock by *decay* (default 50%).
+
+        Parameters
+        ----------
+        edges :
+            Edge dicts (must contain source_name/target_name + relation).
+        source :
+            Starting node (stock code or company name).
+        max_hops :
+            Maximum propagation depth (default 3).
+        decay :
+            Multiplicative decay per hop (default 0.5).
+        relation_types :
+            Set of edge relations to traverse.  ``None`` = use defaults
+            (SUPPLIES_TO, CUSTOMER_OF, COOPERATES_WITH).
+
+        Returns
+        -------
+        dict
+            ``{node_name: {"shock_weight": float, "hop": int,
+            "path": [str], "relation_chain": [str]}}``
+            Only includes downstream nodes (excludes *source*).
+        """
+        if relation_types is None:
+            relation_types = {
+                "SUPPLIES_TO", "CUSTOMER_OF", "COOPERATES_WITH",
+                "COMPETES_WITH", "HOLDS_SHARES",
+            }
+
+        # Build directed adjacency: source → [(target, relation, weight)]
+        # Bidirectional relations are added in both directions.
+        _BIDIR_RELS = {"COOPERATES_WITH", "COMPETES_WITH", "HOLDS_SHARES"}
+        directed: Dict[str, List[Tuple[str, str, float]]] = defaultdict(list)
+        for e in edges:
+            rel = e.get("relation", "")
+            if rel not in relation_types:
+                continue
+            src = e.get("source_name") or e.get("source", "")
+            tgt = e.get("target_name") or e.get("target", "")
+            w = float(e.get("weight", 1.0))
+            if src and tgt:
+                directed[src].append((tgt, rel, w))
+                if rel in _BIDIR_RELS:
+                    directed[tgt].append((src, rel, w))
+
+        # BFS with decay
+        result: Dict[str, Dict[str, Any]] = {}
+        # queue entries: (node, current_shock_weight, hop, path, relation_chain)
+        queue: deque = deque()
+        queue.append((source, 1.0, 0, [source], []))
+        visited: Set[str] = {source}
+
+        while queue:
+            node, shock_w, hop, path, rel_chain = queue.popleft()
+            if hop >= max_hops:
+                continue
+            for neighbor, rel, edge_w in directed.get(node, []):
+                if neighbor in visited:
+                    continue
+                visited.add(neighbor)
+                next_shock = shock_w * decay * edge_w
+                next_path = path + [neighbor]
+                next_rels = rel_chain + [rel]
+                result[neighbor] = {
+                    "shock_weight": round(next_shock, 6),
+                    "hop": hop + 1,
+                    "path": next_path,
+                    "relation_chain": next_rels,
+                }
+                queue.append((neighbor, next_shock, hop + 1, next_path, next_rels))
+
+        logger.info(
+            "Shock propagation from '%s': %d downstream nodes (max_hops=%d, decay=%.2f)",
+            source, len(result), max_hops, decay,
+        )
+        return result
+
     # ── Community Detection (Label Propagation) ────────────────
 
     @staticmethod
