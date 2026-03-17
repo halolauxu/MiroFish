@@ -466,8 +466,12 @@ class GraphFactorsStrategy(BaseStrategy):
         name_to_code: Dict[str, str],
         records: Dict[str, Dict[str, float]],
     ) -> None:
-        """Company market_cap / sum of industry peers market_cap."""
-        # Map company name -> market_cap
+        """Company market_cap / sum of industry peers market_cap.
+
+        Falls back to akshare stock_individual_info_em when graph data
+        lacks BELONGS_TO edges or market_cap attributes.
+        """
+        # Map company name -> market_cap from graph
         cap_map: Dict[str, float] = {}
         for n in nodes:
             labels = n.get("labels", [])
@@ -486,6 +490,32 @@ class GraphFactorsStrategy(BaseStrategy):
         for e in belongs_edges:
             company_industry[e.get("source_name", "")] = e.get("target_name", "")
 
+        # Also check node 'industry' attribute (fallback from graph construction)
+        code_industry: Dict[str, str] = {}
+        for n in nodes:
+            labels = n.get("labels", [])
+            if "Company" not in labels:
+                continue
+            attrs = n.get("attributes", {}) or {}
+            code = str(attrs.get("code", "") or attrs.get("stock_code", ""))
+            industry = attrs.get("industry", "")
+            if code and industry:
+                code_industry[code] = industry
+
+        # API fallback: for target stocks missing cap/industry, fetch per-stock
+        codes_missing = [c for c in records if c not in code_industry
+                         and code_to_name.get(c, "") not in company_industry]
+        if codes_missing:
+            self._fill_industry_cap_from_api(
+                codes_missing, code_to_name, cap_map, code_industry,
+            )
+
+        # Unify: company_industry (name-keyed) + code_industry (code-keyed)
+        for code, ind in code_industry.items():
+            name = code_to_name.get(code, code)
+            if name not in company_industry:
+                company_industry[name] = ind
+
         # Group by industry
         industry_companies: Dict[str, List[str]] = defaultdict(list)
         for comp, ind in company_industry.items():
@@ -494,7 +524,12 @@ class GraphFactorsStrategy(BaseStrategy):
         for code in records:
             company_name = code_to_name.get(code, "")
             industry = company_industry.get(company_name, "")
+            # Also check code-keyed
+            if not industry:
+                industry = code_industry.get(code, "")
             my_cap = cap_map.get(company_name, 0.0)
+            if my_cap <= 0:
+                my_cap = cap_map.get(code, 0.0)
 
             if not industry or my_cap <= 0:
                 records[code]["industry_leadership"] = 0.0
@@ -506,6 +541,32 @@ class GraphFactorsStrategy(BaseStrategy):
                 records[code]["industry_leadership"] = my_cap / total_cap
             else:
                 records[code]["industry_leadership"] = 0.0
+
+    def _fill_industry_cap_from_api(
+        self,
+        codes: List[str],
+        code_to_name: Dict[str, str],
+        cap_map: Dict[str, float],
+        code_industry: Dict[str, str],
+    ) -> None:
+        """Fetch market_cap and industry from stock_individual_info_em (API fallback)."""
+        import akshare as ak
+        for code in codes[:50]:  # limit to avoid rate-limiting
+            try:
+                df = ak.stock_individual_info_em(symbol=code)
+                if df is None or df.empty:
+                    continue
+                info = dict(zip(df["item"], df["value"]))
+                mc = info.get("总市值")
+                industry = info.get("行业", "")
+                name = code_to_name.get(code, code)
+                if mc is not None:
+                    cap_map[name] = float(mc)
+                    cap_map[code] = float(mc)
+                if industry:
+                    code_industry[code] = industry
+            except Exception:
+                continue
 
     def _compute_peer_return_gap(
         self,
@@ -861,6 +922,27 @@ class GraphFactorsStrategy(BaseStrategy):
             # Expected return: rough estimate from historical factor return
             expected_return = score * 0.02  # 2% per unit z-score
 
+            # Dynamic holding period: momentum-driven signals hold shorter,
+            # value-driven signals hold longer (addresses T-20 vs T-40 inconsistency)
+            momentum_score = composite.at[code, "momentum_20d"] if "momentum_20d" in composite.columns else 0.0
+            reversal_score = composite.at[code, "reversal_5d"] if "reversal_5d" in composite.columns else 0.0
+            if isinstance(momentum_score, float) and not math.isnan(momentum_score):
+                mom_abs = abs(momentum_score)
+            else:
+                mom_abs = 0.0
+            if isinstance(reversal_score, float) and not math.isnan(reversal_score):
+                rev_abs = abs(reversal_score)
+            else:
+                rev_abs = 0.0
+
+            # Strong momentum → shorter hold (10-15d), strong reversal → longer hold (20-30d)
+            if mom_abs > rev_abs and mom_abs > 1.0:
+                holding = max(10, min(15, self._holding_days - int(mom_abs * 2)))
+            elif rev_abs > 1.0:
+                holding = min(30, self._holding_days + int(rev_abs * 3))
+            else:
+                holding = self._holding_days
+
             # Build reasoning string
             factor_contributions = []
             for col in composite.columns:
@@ -897,7 +979,7 @@ class GraphFactorsStrategy(BaseStrategy):
                     direction=direction,
                     confidence=confidence,
                     expected_return=round(expected_return, 4),
-                    holding_period_days=self._holding_days,
+                    holding_period_days=holding,
                     reasoning=reasoning,
                     metadata=metadata,
                 )

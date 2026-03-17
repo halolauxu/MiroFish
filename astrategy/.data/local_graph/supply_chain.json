@@ -106279,406 +106279,522 @@
       "target_name": "AI算力",
       "relation": "RELATES_TO_CONCEPT",
       "fact": "688041 relates to concept AI算力",
-      "weight": 1.0
+      "weight": 1.0,
+      "source": "688041",
+      "target": "AI算力"
     },
     {
       "source_name": "300308",
       "target_name": "AI算力",
       "relation": "RELATES_TO_CONCEPT",
       "fact": "300308 relates to concept AI算力",
-      "weight": 1.0
+      "weight": 1.0,
+      "source": "300308",
+      "target": "AI算力"
     },
     {
       "source_name": "002415",
       "target_name": "AI算力",
       "relation": "RELATES_TO_CONCEPT",
       "fact": "002415 relates to concept AI算力",
-      "weight": 1.0
+      "weight": 1.0,
+      "source": "002415",
+      "target": "AI算力"
     },
     {
       "source_name": "603501",
       "target_name": "AI算力",
       "relation": "RELATES_TO_CONCEPT",
       "fact": "603501 relates to concept AI算力",
-      "weight": 1.0
+      "weight": 1.0,
+      "source": "603501",
+      "target": "AI算力"
     },
     {
       "source_name": "300777",
       "target_name": "AI算力",
       "relation": "RELATES_TO_CONCEPT",
       "fact": "300777 relates to concept AI算力",
-      "weight": 1.0
+      "weight": 1.0,
+      "source": "300777",
+      "target": "AI算力"
     },
     {
       "source_name": "300124",
       "target_name": "人形机器人",
       "relation": "RELATES_TO_CONCEPT",
       "fact": "300124 relates to concept 人形机器人",
-      "weight": 1.0
+      "weight": 1.0,
+      "source": "300124",
+      "target": "人形机器人"
     },
     {
       "source_name": "002816",
       "target_name": "人形机器人",
       "relation": "RELATES_TO_CONCEPT",
       "fact": "002816 relates to concept 人形机器人",
-      "weight": 1.0
+      "weight": 1.0,
+      "source": "002816",
+      "target": "人形机器人"
     },
     {
       "source_name": "688169",
       "target_name": "人形机器人",
       "relation": "RELATES_TO_CONCEPT",
       "fact": "688169 relates to concept 人形机器人",
-      "weight": 1.0
+      "weight": 1.0,
+      "source": "688169",
+      "target": "人形机器人"
     },
     {
       "source_name": "300296",
       "target_name": "人形机器人",
       "relation": "RELATES_TO_CONCEPT",
       "fact": "300296 relates to concept 人形机器人",
-      "weight": 1.0
+      "weight": 1.0,
+      "source": "300296",
+      "target": "人形机器人"
     },
     {
       "source_name": "002747",
       "target_name": "人形机器人",
       "relation": "RELATES_TO_CONCEPT",
       "fact": "002747 relates to concept 人形机器人",
-      "weight": 1.0
+      "weight": 1.0,
+      "source": "002747",
+      "target": "人形机器人"
     },
     {
       "source_name": "600038",
       "target_name": "低空经济",
       "relation": "RELATES_TO_CONCEPT",
       "fact": "600038 relates to concept 低空经济",
-      "weight": 1.0
+      "weight": 1.0,
+      "source": "600038",
+      "target": "低空经济"
     },
     {
       "source_name": "002179",
       "target_name": "低空经济",
       "relation": "RELATES_TO_CONCEPT",
       "fact": "002179 relates to concept 低空经济",
-      "weight": 1.0
+      "weight": 1.0,
+      "source": "002179",
+      "target": "低空经济"
     },
     {
       "source_name": "300581",
       "target_name": "低空经济",
       "relation": "RELATES_TO_CONCEPT",
       "fact": "300581 relates to concept 低空经济",
-      "weight": 1.0
+      "weight": 1.0,
+      "source": "300581",
+      "target": "低空经济"
     },
     {
       "source_name": "688012",
       "target_name": "半导体国产替代",
       "relation": "RELATES_TO_CONCEPT",
       "fact": "688012 relates to concept 半导体国产替代",
-      "weight": 1.0
+      "weight": 1.0,
+      "source": "688012",
+      "target": "半导体国产替代"
     },
     {
       "source_name": "688981",
       "target_name": "半导体国产替代",
       "relation": "RELATES_TO_CONCEPT",
       "fact": "688981 relates to concept 半导体国产替代",
-      "weight": 1.0
+      "weight": 1.0,
+      "source": "688981",
+      "target": "半导体国产替代"
     },
     {
       "source_name": "002049",
       "target_name": "半导体国产替代",
       "relation": "RELATES_TO_CONCEPT",
       "fact": "002049 relates to concept 半导体国产替代",
-      "weight": 1.0
+      "weight": 1.0,
+      "source": "002049",
+      "target": "半导体国产替代"
     },
     {
       "source_name": "603501",
       "target_name": "半导体国产替代",
       "relation": "RELATES_TO_CONCEPT",
       "fact": "603501 relates to concept 半导体国产替代",
-      "weight": 1.0
+      "weight": 1.0,
+      "source": "603501",
+      "target": "半导体国产替代"
     },
     {
       "source_name": "688008",
       "target_name": "半导体国产替代",
       "relation": "RELATES_TO_CONCEPT",
       "fact": "688008 relates to concept 半导体国产替代",
-      "weight": 1.0
+      "weight": 1.0,
+      "source": "688008",
+      "target": "半导体国产替代"
     },
     {
       "source_name": "002594",
       "target_name": "新能源汽车",
       "relation": "RELATES_TO_CONCEPT",
       "fact": "002594 relates to concept 新能源汽车",
-      "weight": 1.0
+      "weight": 1.0,
+      "source": "002594",
+      "target": "新能源汽车"
     },
     {
       "source_name": "300750",
       "target_name": "新能源汽车",
       "relation": "RELATES_TO_CONCEPT",
       "fact": "300750 relates to concept 新能源汽车",
-      "weight": 1.0
+      "weight": 1.0,
+      "source": "300750",
+      "target": "新能源汽车"
     },
     {
       "source_name": "600884",
       "target_name": "新能源汽车",
       "relation": "RELATES_TO_CONCEPT",
       "fact": "600884 relates to concept 新能源汽车",
-      "weight": 1.0
+      "weight": 1.0,
+      "source": "600884",
+      "target": "新能源汽车"
     },
     {
       "source_name": "002456",
       "target_name": "新能源汽车",
       "relation": "RELATES_TO_CONCEPT",
       "fact": "002456 relates to concept 新能源汽车",
-      "weight": 1.0
+      "weight": 1.0,
+      "source": "002456",
+      "target": "新能源汽车"
     },
     {
       "source_name": "300014",
       "target_name": "新能源汽车",
       "relation": "RELATES_TO_CONCEPT",
       "fact": "300014 relates to concept 新能源汽车",
-      "weight": 1.0
+      "weight": 1.0,
+      "source": "300014",
+      "target": "新能源汽车"
     },
     {
       "source_name": "601012",
       "target_name": "光伏储能",
       "relation": "RELATES_TO_CONCEPT",
       "fact": "601012 relates to concept 光伏储能",
-      "weight": 1.0
+      "weight": 1.0,
+      "source": "601012",
+      "target": "光伏储能"
     },
     {
       "source_name": "300274",
       "target_name": "光伏储能",
       "relation": "RELATES_TO_CONCEPT",
       "fact": "300274 relates to concept 光伏储能",
-      "weight": 1.0
+      "weight": 1.0,
+      "source": "300274",
+      "target": "光伏储能"
     },
     {
       "source_name": "600519",
       "target_name": "消费复苏",
       "relation": "RELATES_TO_CONCEPT",
       "fact": "600519 relates to concept 消费复苏",
-      "weight": 1.0
+      "weight": 1.0,
+      "source": "600519",
+      "target": "消费复苏"
     },
     {
       "source_name": "000858",
       "target_name": "消费复苏",
       "relation": "RELATES_TO_CONCEPT",
       "fact": "000858 relates to concept 消费复苏",
-      "weight": 1.0
+      "weight": 1.0,
+      "source": "000858",
+      "target": "消费复苏"
     },
     {
       "source_name": "000568",
       "target_name": "消费复苏",
       "relation": "RELATES_TO_CONCEPT",
       "fact": "000568 relates to concept 消费复苏",
-      "weight": 1.0
+      "weight": 1.0,
+      "source": "000568",
+      "target": "消费复苏"
     },
     {
       "source_name": "601888",
       "target_name": "消费复苏",
       "relation": "RELATES_TO_CONCEPT",
       "fact": "601888 relates to concept 消费复苏",
-      "weight": 1.0
+      "weight": 1.0,
+      "source": "601888",
+      "target": "消费复苏"
     },
     {
       "source_name": "600036",
       "target_name": "消费复苏",
       "relation": "RELATES_TO_CONCEPT",
       "fact": "600036 relates to concept 消费复苏",
-      "weight": 1.0
+      "weight": 1.0,
+      "source": "600036",
+      "target": "消费复苏"
     },
     {
       "source_name": "603259",
       "target_name": "创新药",
       "relation": "RELATES_TO_CONCEPT",
       "fact": "603259 relates to concept 创新药",
-      "weight": 1.0
+      "weight": 1.0,
+      "source": "603259",
+      "target": "创新药"
     },
     {
       "source_name": "688180",
       "target_name": "创新药",
       "relation": "RELATES_TO_CONCEPT",
       "fact": "688180 relates to concept 创新药",
-      "weight": 1.0
+      "weight": 1.0,
+      "source": "688180",
+      "target": "创新药"
     },
     {
       "source_name": "300760",
       "target_name": "创新药",
       "relation": "RELATES_TO_CONCEPT",
       "fact": "300760 relates to concept 创新药",
-      "weight": 1.0
+      "weight": 1.0,
+      "source": "300760",
+      "target": "创新药"
     },
     {
       "source_name": "600276",
       "target_name": "创新药",
       "relation": "RELATES_TO_CONCEPT",
       "fact": "600276 relates to concept 创新药",
-      "weight": 1.0
+      "weight": 1.0,
+      "source": "600276",
+      "target": "创新药"
     },
     {
       "source_name": "600893",
       "target_name": "军工国防",
       "relation": "RELATES_TO_CONCEPT",
       "fact": "600893 relates to concept 军工国防",
-      "weight": 1.0
+      "weight": 1.0,
+      "source": "600893",
+      "target": "军工国防"
     },
     {
       "source_name": "600760",
       "target_name": "军工国防",
       "relation": "RELATES_TO_CONCEPT",
       "fact": "600760 relates to concept 军工国防",
-      "weight": 1.0
+      "weight": 1.0,
+      "source": "600760",
+      "target": "军工国防"
     },
     {
       "source_name": "688609",
       "target_name": "军工国防",
       "relation": "RELATES_TO_CONCEPT",
       "fact": "688609 relates to concept 军工国防",
-      "weight": 1.0
+      "weight": 1.0,
+      "source": "688609",
+      "target": "军工国防"
     },
     {
       "source_name": "601857",
       "target_name": "国企改革",
       "relation": "RELATES_TO_CONCEPT",
       "fact": "601857 relates to concept 国企改革",
-      "weight": 1.0
+      "weight": 1.0,
+      "source": "601857",
+      "target": "国企改革"
     },
     {
       "source_name": "600028",
       "target_name": "国企改革",
       "relation": "RELATES_TO_CONCEPT",
       "fact": "600028 relates to concept 国企改革",
-      "weight": 1.0
+      "weight": 1.0,
+      "source": "600028",
+      "target": "国企改革"
     },
     {
       "source_name": "601088",
       "target_name": "国企改革",
       "relation": "RELATES_TO_CONCEPT",
       "fact": "601088 relates to concept 国企改革",
-      "weight": 1.0
+      "weight": 1.0,
+      "source": "601088",
+      "target": "国企改革"
     },
     {
       "source_name": "601800",
       "target_name": "国企改革",
       "relation": "RELATES_TO_CONCEPT",
       "fact": "601800 relates to concept 国企改革",
-      "weight": 1.0
+      "weight": 1.0,
+      "source": "601800",
+      "target": "国企改革"
     },
     {
       "source_name": "300014",
       "target_name": "数据要素",
       "relation": "RELATES_TO_CONCEPT",
       "fact": "300014 relates to concept 数据要素",
-      "weight": 1.0
+      "weight": 1.0,
+      "source": "300014",
+      "target": "数据要素"
     },
     {
       "source_name": "688561",
       "target_name": "数据要素",
       "relation": "RELATES_TO_CONCEPT",
       "fact": "688561 relates to concept 数据要素",
-      "weight": 1.0
+      "weight": 1.0,
+      "source": "688561",
+      "target": "数据要素"
     },
     {
       "source_name": "600570",
       "target_name": "数据要素",
       "relation": "RELATES_TO_CONCEPT",
       "fact": "600570 relates to concept 数据要素",
-      "weight": 1.0
+      "weight": 1.0,
+      "source": "600570",
+      "target": "数据要素"
     },
     {
       "source_name": "688111",
       "target_name": "数据要素",
       "relation": "RELATES_TO_CONCEPT",
       "fact": "688111 relates to concept 数据要素",
-      "weight": 1.0
+      "weight": 1.0,
+      "source": "688111",
+      "target": "数据要素"
     },
     {
       "source_name": "601100",
       "target_name": "高端制造",
       "relation": "RELATES_TO_CONCEPT",
       "fact": "601100 relates to concept 高端制造",
-      "weight": 1.0
+      "weight": 1.0,
+      "source": "601100",
+      "target": "高端制造"
     },
     {
       "source_name": "300659",
       "target_name": "高端制造",
       "relation": "RELATES_TO_CONCEPT",
       "fact": "300659 relates to concept 高端制造",
-      "weight": 1.0
+      "weight": 1.0,
+      "source": "300659",
+      "target": "高端制造"
     },
     {
       "source_name": "688011",
       "target_name": "高端制造",
       "relation": "RELATES_TO_CONCEPT",
       "fact": "688011 relates to concept 高端制造",
-      "weight": 1.0
+      "weight": 1.0,
+      "source": "688011",
+      "target": "高端制造"
     },
     {
       "source_name": "002506",
       "target_name": "高端制造",
       "relation": "RELATES_TO_CONCEPT",
       "fact": "002506 relates to concept 高端制造",
-      "weight": 1.0
+      "weight": 1.0,
+      "source": "002506",
+      "target": "高端制造"
     },
     {
       "source_name": "601600",
       "target_name": "大宗商品",
       "relation": "RELATES_TO_CONCEPT",
       "fact": "601600 relates to concept 大宗商品",
-      "weight": 1.0
+      "weight": 1.0,
+      "source": "601600",
+      "target": "大宗商品"
     },
     {
       "source_name": "601899",
       "target_name": "大宗商品",
       "relation": "RELATES_TO_CONCEPT",
       "fact": "601899 relates to concept 大宗商品",
-      "weight": 1.0
+      "weight": 1.0,
+      "source": "601899",
+      "target": "大宗商品"
     },
     {
       "source_name": "600188",
       "target_name": "大宗商品",
       "relation": "RELATES_TO_CONCEPT",
       "fact": "600188 relates to concept 大宗商品",
-      "weight": 1.0
+      "weight": 1.0,
+      "source": "600188",
+      "target": "大宗商品"
     },
     {
       "source_name": "601857",
       "target_name": "大宗商品",
       "relation": "RELATES_TO_CONCEPT",
       "fact": "601857 relates to concept 大宗商品",
-      "weight": 1.0
+      "weight": 1.0,
+      "source": "601857",
+      "target": "大宗商品"
     },
     {
       "source_name": "600362",
       "target_name": "大宗商品",
       "relation": "RELATES_TO_CONCEPT",
       "fact": "600362 relates to concept 大宗商品",
-      "weight": 1.0
+      "weight": 1.0,
+      "source": "600362",
+      "target": "大宗商品"
     },
     {
       "source_name": "000333",
       "target_name": "出海主题",
       "relation": "RELATES_TO_CONCEPT",
       "fact": "000333 relates to concept 出海主题",
-      "weight": 1.0
+      "weight": 1.0,
+      "source": "000333",
+      "target": "出海主题"
     },
     {
       "source_name": "000425",
       "target_name": "出海主题",
       "relation": "RELATES_TO_CONCEPT",
       "fact": "000425 relates to concept 出海主题",
-      "weight": 1.0
+      "weight": 1.0,
+      "source": "000425",
+      "target": "出海主题"
     },
     {
       "source_name": "600690",
       "target_name": "出海主题",
       "relation": "RELATES_TO_CONCEPT",
       "fact": "600690 relates to concept 出海主题",
-      "weight": 1.0
+      "weight": 1.0,
+      "source": "600690",
+      "target": "出海主题"
     },
     {
       "source_name": "002594",
       "target_name": "出海主题",
       "relation": "RELATES_TO_CONCEPT",
       "fact": "002594 relates to concept 出海主题",
-      "weight": 1.0
+      "weight": 1.0,
+      "source": "002594",
+      "target": "出海主题"
     }
   ],
   "facts": [

@@ -1,6 +1,12 @@
 ﻿alpha_line,strategy,stock_code,stock_name,direction,confidence,expected_return,holding_days,reasoning
-A_graph_factors,graph_factors,000001,平安银行,long,0.5325,0.0043,20,"Composite rank 1/5, score=0.217. Factors: supply_chain_centrality=0.00(w=+1.5), betweenness_centrality=0.00(w=+1.0), ins"
-A_graph_factors,graph_factors,000333,美的集团,long,0.5067,0.0009,20,"Composite rank 2/5, score=0.045. Factors: supply_chain_centrality=0.00(w=+1.5), betweenness_centrality=0.00(w=+1.0), ins"
-A_graph_factors,graph_factors,601318,中国平安,long,0.5064,0.0009,20,"Composite rank 3/5, score=0.043. Factors: supply_chain_centrality=0.00(w=+1.5), betweenness_centrality=0.00(w=+1.0), ins"
-A_graph_factors,graph_factors,000858,五 粮 液,avoid,0.4946,-0.0007,20,"Composite rank 4/5, score=-0.036. Factors: supply_chain_centrality=0.00(w=+1.5), betweenness_centrality=0.00(w=+1.0), in"
-A_graph_factors,graph_factors,600519,贵州茅台,avoid,0.4598,-0.0054,20,"Composite rank 5/5, score=-0.268. Factors: supply_chain_centrality=0.00(w=+1.5), betweenness_centrality=0.00(w=+1.0), in"
+A_graph_factors,graph_factors,601318,中国平安,long,0.518,0.0024,20,"Composite rank 1/5, score=0.120. Factors: supply_chain_centrality=0.00(w=+1.5), betweenness_centrality=0.00(w=+1.0), ins"
+A_graph_factors,graph_factors,000001,平安银行,long,0.5156,0.0021,20,"Composite rank 2/5, score=0.104. Factors: supply_chain_centrality=0.00(w=+1.5), betweenness_centrality=0.00(w=+1.0), ins"
+A_graph_factors,graph_factors,000333,美的集团,long,0.514,0.0019,20,"Composite rank 3/5, score=0.093. Factors: supply_chain_centrality=0.00(w=+1.5), betweenness_centrality=0.00(w=+1.0), ins"
+A_graph_factors,graph_factors,000858,五 粮 液,avoid,0.4922,-0.001,20,"Composite rank 4/5, score=-0.052. Factors: supply_chain_centrality=0.00(w=+1.5), betweenness_centrality=0.00(w=+1.0), in"
+A_graph_factors,graph_factors,600519,贵州茅台,avoid,0.4602,-0.0053,20,"Composite rank 5/5, score=-0.265. Factors: supply_chain_centrality=0.00(w=+1.5), betweenness_centrality=0.00(w=+1.0), in"
+C_narrative,sentiment_simulation,600519,贵州茅台,avoid,0.18,-0.0004,7,[多轮]事件: 贵州茅台副总经理、财务总监、董事会秘书蒋焰被实施留置调查; 模拟共识: watch(-0.05) 趋势:情绪消退; 一致性: 低(conviction=0.79); [叙事]消费复苏(扩散期)
+C_narrative,sentiment_simulation,000858,五粮液,avoid,0.29,-0.0128,7,[多轮]事件: 五粮液董事长曾从钦被立案调查; 模拟共识: watch(-0.16) 趋势:情绪消退; 一致性: 高(conviction=0.58); [叙事]消费复苏(扩散期)
+C_narrative,sentiment_simulation,601318,中国平安,long,0.29,0.0113,7,[多轮]事件: 中国平安发布行业首个商业航天综合金融解决方案; 模拟共识: watch(+0.10) 趋势:情绪消退; 一致性: 高(conviction=0.68)
+C_narrative,sentiment_simulation,000001,上证指数,long,0.29,0.0113,7,[多轮]事件: 21家系统重要性银行名单出炉：5家城商行入围; 模拟共识: watch(+0.09) 趋势:情绪消退; 一致性: 高(conviction=0.72)
+C_narrative,sentiment_simulation,000333,美的集团,long,0.18,0.0075,7,[多轮]事件: 美的集团加码AI 拟未来三年投入超600亿元; 模拟共识: watch(+0.06) 趋势:情绪消退; 一致性: 低(conviction=0.75); [叙事]出海主题(扩散期)
+C_narrative,sentiment_simulation,000333,美的集团,long,0.18,0.0034,7,[多轮]事件: 广东威灵汽车部件有限公司增资至12亿，增幅500%; 模拟共识: watch(+0.06) 趋势:情绪消退; 一致性: 低(conviction=0.75); [叙事]出海主题(扩散期)
