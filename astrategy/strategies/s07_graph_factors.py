@@ -919,6 +919,9 @@ class GraphFactorsStrategy(BaseStrategy):
         # Store coverage info for external diagnostics (e.g. backtest reporting)
         self._last_factor_coverage = factor_coverage
         self._last_skip_factors = skip_factors
+        self._last_z_scored = z_scored
+        self._last_graph_scale = graph_scale
+        self._last_coverage_ratio = coverage_ratio
 
         # Weighted composite
         composite = pd.Series(0.0, index=z_scored.index, dtype=float)
@@ -1033,17 +1036,86 @@ class GraphFactorsStrategy(BaseStrategy):
                 f"Factors: {', '.join(factor_contributions[:6])}"
             )
 
-            # Build metadata with all factor values
-            metadata: Dict[str, Any] = {
-                "composite_score": round(score, 4),
-                "rank": rank,
-                "universe_size": n_stocks,
+            # ----- Build detailed metadata for frontend factor table -----
+            # Factor English-to-Chinese name mapping
+            _FACTOR_CN: Dict[str, str] = {
+                "supply_chain_centrality": "供应链中心性",
+                "betweenness_centrality": "中介中心性",
+                "institution_concentration": "机构持仓集中度",
+                "concept_heat": "概念热度",
+                "event_exposure": "事件敏感度",
+                "industry_leadership": "行业领导力",
+                "peer_return_gap": "同行收益差",
+                "momentum_20d": "20日动量",
+                "reversal_5d": "5日反转",
+                "volatility_20d": "20日波动率",
+                "turnover_rate": "换手率",
+                "pe_percentile": "PE分位",
+                "roe": "ROE",
             }
-            for col in composite.columns:
-                if col not in ("composite_score", "rank"):
-                    val = composite.at[code, col]
-                    if isinstance(val, float) and not math.isnan(val):
-                        metadata[col] = round(val, 4)
+
+            # Retrieve cached z-scores and diagnostics from compute_composite_score
+            z_scored = getattr(self, "_last_z_scored", None)
+            skip_factors = getattr(self, "_last_skip_factors", set())
+            graph_scale = getattr(self, "_last_graph_scale", 1.0)
+            coverage_ratio = getattr(self, "_last_coverage_ratio", 0.0)
+
+            factors_detail: Dict[str, Any] = {}
+            for col, cn_name in _FACTOR_CN.items():
+                if col in skip_factors:
+                    factors_detail[cn_name] = None
+                    continue
+                # Get z-score value
+                if z_scored is not None and col in z_scored.columns and code in z_scored.index:
+                    z_val = z_scored.at[code, col]
+                    if isinstance(z_val, float) and math.isnan(z_val):
+                        z_val = 0.0
+                else:
+                    z_val = None
+                # Get effective weight (graph factors are scaled)
+                raw_w = self._weights.get(col, 0.0)
+                eff_w = raw_w * graph_scale if col in _GRAPH_FACTOR_COLS else raw_w
+                if z_val is not None:
+                    factors_detail[cn_name] = {
+                        "z_score": round(z_val, 4),
+                        "weight": round(eff_w, 4),
+                        "contribution": round(z_val * eff_w, 4),
+                    }
+                else:
+                    factors_detail[cn_name] = None
+
+            # Confidence breakdown
+            rank_boost = 0.15 * score
+            # Factor consistency: ratio of factors agreeing with signal direction
+            pos_count = sum(
+                1 for v in factors_detail.values()
+                if v is not None and v["contribution"] > 0
+            )
+            neg_count = sum(
+                1 for v in factors_detail.values()
+                if v is not None and v["contribution"] < 0
+            )
+            total_factors = pos_count + neg_count
+            if direction == "long":
+                factor_consistency = pos_count / max(total_factors, 1)
+            elif direction == "short":
+                factor_consistency = neg_count / max(total_factors, 1)
+            else:
+                factor_consistency = 0.5
+
+            metadata: Dict[str, Any] = {
+                "rank": rank,
+                "total_stocks": n_stocks,
+                "composite_score": round(score, 4),
+                "factors": factors_detail,
+                "graph_coverage_ratio": round(coverage_ratio, 4),
+                "confidence_breakdown": {
+                    "base": 0.5,
+                    "rank_boost": round(rank_boost, 4),
+                    "factor_consistency": round(factor_consistency, 4),
+                    "final": round(confidence, 4),
+                },
+            }
 
             signals.append(
                 StrategySignal(

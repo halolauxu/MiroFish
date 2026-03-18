@@ -1,52 +1,53 @@
 import { createRouter, createWebHistory } from 'vue-router'
-import Home from '../views/Home.vue'
-import Process from '../views/MainView.vue'
-import SimulationView from '../views/SimulationView.vue'
-import SimulationRunView from '../views/SimulationRunView.vue'
-import ReportView from '../views/ReportView.vue'
-import InteractionView from '../views/InteractionView.vue'
 
 const routes = [
   {
     path: '/',
-    name: 'Home',
-    component: Home
+    name: 'Dashboard',
+    component: () => import('../views/DashboardView.vue'),
   },
   {
-    path: '/process/:projectId',
-    name: 'Process',
-    component: Process,
-    props: true
+    path: '/portfolio',
+    name: 'Portfolio',
+    component: () => import('../views/PortfolioView.vue'),
   },
   {
-    path: '/simulation/:simulationId',
-    name: 'Simulation',
-    component: SimulationView,
-    props: true
+    path: '/signals',
+    name: 'SignalCenter',
+    component: () => import('../views/SignalCenterView.vue'),
   },
   {
-    path: '/simulation/:simulationId/start',
-    name: 'SimulationRun',
-    component: SimulationRunView,
-    props: true
+    path: '/signals/:signalId',
+    name: 'SignalTrace',
+    component: () => import('../views/SignalTraceView.vue'),
+    props: true,
   },
   {
-    path: '/report/:reportId',
-    name: 'Report',
-    component: ReportView,
-    props: true
+    path: '/graph',
+    name: 'GraphExplorer',
+    component: () => import('../views/GraphExplorerView.vue'),
   },
   {
-    path: '/interaction/:reportId',
-    name: 'Interaction',
-    component: InteractionView,
-    props: true
-  }
+    path: '/events',
+    name: 'EventStream',
+    component: () => import('../views/EventStreamView.vue'),
+  },
+  {
+    path: '/backtest',
+    name: 'Performance',
+    component: () => import('../views/PerformanceView.vue'),
+    alias: '/performance',
+  },
+  {
+    path: '/settings',
+    name: 'Settings',
+    component: () => import('../views/SettingsView.vue'),
+  },
 ]
 
 const router = createRouter({
   history: createWebHistory(),
-  routes
+  routes,
 })
 
 export default router

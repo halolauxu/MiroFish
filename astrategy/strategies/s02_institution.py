@@ -678,8 +678,51 @@ class InstitutionStrategy(BaseStrategy):
 
         # Build metadata
         top_peers = peer_codes[:5]
+
+        # 为 peer_stocks 补充名称（从 _stock_names 缓存或图谱获取）
+        self._load_stock_names(top_peers)
+        top_peers_with_name = [
+            {"code": pc, "name": self._stock_names.get(pc, pc)}
+            for pc in top_peers
+        ]
+
+        # 构造 peer_detail（同行对比明细，前端展示为表格）
+        now_ts = datetime.now(tz=_CST)
+        _start = (now_ts - timedelta(days=self.LOOKBACK_DAYS + 15)).strftime("%Y%m%d")
+        _end = now_ts.strftime("%Y%m%d")
+        peer_detail = []
+        for pc in top_peers:
+            pr = self._calc_return(pc, _start, _end, self.LOOKBACK_DAYS)
+            if pr is not None:
+                peer_detail.append({
+                    "code": pc,
+                    "name": self._stock_names.get(pc, pc),
+                    "return_20d": round(pr, 6),
+                    "gap_vs_self": round(pr - catch_up["self_return"], 6),
+                })
+
+        # 置信度分解（前端展示推导过程）
+        peer_gap_boost = min(excess * self.CONFIDENCE_GAP_SCALE, 0.30)
+        position_change_boost = (
+            self.CONFIDENCE_INST_BONUS
+            if (direction == "long" and sentiment == "increase")
+            or (direction == "short" and sentiment == "decrease")
+            else 0.0
+        )
+        confidence_breakdown = {
+            "base": self.CONFIDENCE_BASE,
+            "peer_gap_boost": round(peer_gap_boost, 4),
+            "institution_sentiment": round(
+                self.CONFIDENCE_INST_BONUS if sentiment == "increase" else
+                -self.CONFIDENCE_INST_BONUS if sentiment == "decrease" else 0.0,
+                4,
+            ),
+            "position_change_boost": round(position_change_boost, 4),
+            "final": round(confidence, 4),
+        }
+
         metadata: Dict[str, Any] = {
-            "peer_stocks": top_peers,
+            "peer_stocks": top_peers_with_name,
             "peer_avg_return": catch_up["peer_avg_return"],
             "self_return": catch_up["self_return"],
             "catch_up_gap": catch_up["catch_up_gap"],
@@ -687,6 +730,14 @@ class InstitutionStrategy(BaseStrategy):
             "net_position_change": sentiment,
             "position_detail": pos_change["detail_count"],
             "peer_overlap_top5": peer_info[:5],
+            # 同行对比明细（前端展示为表格）
+            "peer_detail": peer_detail,
+            # 置信度分解（前端展示推导过程）
+            "confidence_breakdown": confidence_breakdown,
+            # 策略名称标识
+            "strategy_display_name": "S02 机构关联",
+            # 情绪来源说明
+            "sentiment_source": "基于近30日机构调仓数据(akshare stock_report_fund_hold)",
         }
 
         reasoning_parts = [

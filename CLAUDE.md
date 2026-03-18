@@ -3,38 +3,51 @@
 ## 底层要求
 - **必须使用中文回复**
 
-## Mission
-目标：推进 A 股量化研究。核心 alpha 来自冲击传播链路（信息差），辅以传统因子。
+## 系统定位
+**量化研究平台** — 当前无已验证可交易策略。
 
-## Architecture (v2)
-```
-PRIMARY:  冲击传播链路 (shock_pipeline.py)
-          事件 → 图谱传播 → Agent辩论 → 未反应检测 → Alpha
-SECONDARY: S07 图谱多因子 (传统因子辅助)
-TERTIARY:  S10 舆情模拟 (交叉验证)
-```
+## 回测验证结论（2026-03-18, 84事件/529信号）
 
-## Current status
-- 冲击链路: 历史回测验证通过 (Iteration 10)
-- **回测 Sharpe: +1.49 (含TC 0.3%)**
-- **回测胜率: 67.3% (全部) / 81.2% (3跳)**
-- 历史事件数据库: 15个事件, 98个信号
-- 信息差Alpha: 未反应信号 Sharpe=2.31
-- 供应链相关边: 251条
-- S07 OOS Sharpe: +0.56 (含TC)
+### 冲击链路策略：WF验证 FAIL
+| 指标 | 全样本 | WF-OOS | 准入标准 | 结果 |
+|------|--------|--------|---------|------|
+| Sharpe | 0.47 | -0.07 | ≥0.8 | **FAIL** |
+| 胜率 | 56.3% | 53.7% | ≥55% | **FAIL** |
+| MaxDD | -96.65% | -96.03% | ≤15% | **FAIL** |
+| 图谱vs随机 | p=1.0 | - | p<0.05 | **FAIL** |
+| 信息差假说 | 未反应<已反应 | - | 未反应>已反应 | **FAIL** |
+
+### 关键发现
+- 之前的 Sharpe=1.49（15事件）是**小样本过拟合**
+- 图谱传播选股**无统计优势**于随机同行业选股
+- 信息差假说**被证伪**（未反应信号Sharpe=-0.23 < 已反应0.86）
+- 方向映射修正后**更差**（子策略WF Sharpe=-1.51）
+
+### 唯一有前景的方向
+- Scandal事件板块连坐（原始方向 Sharpe=3.90, 67信号）
+- 需500+事件大样本独立验证
+
+## 策略分级
+| 模块 | 评级 | WF验证 | 允许进入持仓 |
+|------|------|--------|------------|
+| 冲击链路 | FAIL | 未通过 | ❌ |
+| S07 图谱因子 | 未测试 | 无 | ❌ |
+| S02 机构关联 | 已移除 | - | ❌ |
+| S08 行业轮动 | 已移除 | - | ❌ |
+| S10 舆情 | 降级 | - | ❌ |
+| Agent辩论 | 降级 | - | ❌ |
 
 ## Key files
-- **shock_pipeline.py** ← 核心链路 (含 run_historical 回测方法)
-- **run_shock_backtest.py** ← 历史事件回测脚本
-- **.data/historical_events.json** ← 历史事件数据库
-- alpha_factory.py (v2, 冲击链路为主线)
-- graph/topology.py (含 propagate_shock)
-- strategies/s10_sentiment_simulation.py (含分歧度+图谱注入)
-- strategies/s07_graph_factors.py
-- strategies/s01_supply_chain.py
-- graph/local_store.py
-- run_backtest.py
-- backtest/evaluator.py
+- **research/run_full_validation.py** ← 一键完整验证
+- **research/backtest_engine.py** ← 统一回测引擎
+- **research/walk_forward.py** ← WF验证
+- **research/ablation.py** ← 消融实验
+- **research/metrics.py** ← 评价指标
+- **.data/historical_events.json** ← 84个历史事件
+- **.data/research_results/** ← 回测结果
+- **shock_pipeline.py** ← 冲击链路（direction=规则映射,v3）
+- **alpha_factory.py** ← v3（只跑冲击链路）
+- **research_log.md** ← 全部迭代记录
 
 ## Research rules
 1. 一次只攻一个瓶颈
@@ -46,14 +59,7 @@ TERTIARY:  S10 舆情模拟 (交叉验证)
 7. 不允许跳过回测审计
 8. 连续 3 轮无改进，必须切换方向
 
-## Current bottlenecks
-1. 源头信号胜率仅 28.6%（需 Agent 辩论纠偏或过滤）
-2. 历史事件仅 15 个，需扩展至 30+ 验证结论稳定性
-3. 图谱节点名与公司名不匹配导致部分传播路径丢失
-4. 供应链边可继续扩展(目标500+)
-5. 东方财富 API 限流影响 enrichment
-
-## A股方向映射 (Iteration 10 回测验证)
-- 负面事件(scandal/policy_risk/management_change) → avoid (板块连坐)
-- 利好事件(product_launch/tech/buyback/price_adj) → avoid (利好出尽)
-- 合作/业绩/供应短缺 → long (少数真正利好)
+## 下一步研究方向
+1. Scandal事件独立大样本验证（需500+事件）
+2. 事件后T+1价格行为（跳空幅度）作为信号过滤器
+3. 重新审视策略假设——不是"修补参数"而是"验证基础逻辑"

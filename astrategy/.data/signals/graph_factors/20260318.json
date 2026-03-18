@@ -1,0 +1,832 @@
+[
+  {
+    "signal_id": "graph_factors_20260318_002594_0",
+    "strategy_name": "graph_factors",
+    "stock_code": "002594",
+    "stock_name": "比亚迪",
+    "direction": "neutral",
+    "confidence": 0.5741630781921297,
+    "expected_return": 0.0099,
+    "holding_period_days": 10,
+    "reasoning": "Composite rank 1/10, score=0.494. Factors: supply_chain_centrality=0.03(w=+1.5), betweenness_centrality=0.00(w=+1.0), institution_concentration=1414.00(w=-1.0), concept_heat=181.00(w=-1.5), event_exposure=0.00(w=+0.5), industry_leadership=0.00(w=+0.8)",
+    "signal_date": "2026-03-18",
+    "metadata": {
+      "rank": 1,
+      "total_stocks": 10,
+      "composite_score": 0.4944,
+      "factors": {
+        "供应链中心性": {
+          "z_score": 1.2864,
+          "weight": 1.5,
+          "contribution": 1.9296
+        },
+        "中介中心性": {
+          "z_score": 1.6675,
+          "weight": 1.0,
+          "contribution": 1.6675
+        },
+        "机构持仓集中度": {
+          "z_score": 0.3475,
+          "weight": -1.0,
+          "contribution": -0.3475
+        },
+        "概念热度": {
+          "z_score": 1.8533,
+          "weight": -1.5,
+          "contribution": -2.7799
+        },
+        "事件敏感度": null,
+        "行业领导力": null,
+        "同行收益差": {
+          "z_score": -1.4892,
+          "weight": -2.0,
+          "contribution": 2.9785
+        },
+        "20日动量": {
+          "z_score": 0.9906,
+          "weight": 1.0,
+          "contribution": 0.9906
+        },
+        "5日反转": {
+          "z_score": -0.7685,
+          "weight": 1.0,
+          "contribution": -0.7685
+        },
+        "20日波动率": {
+          "z_score": 1.2487,
+          "weight": 3.0,
+          "contribution": 3.7461
+        },
+        "换手率": {
+          "z_score": 0.0,
+          "weight": 1.0,
+          "contribution": 0.0
+        },
+        "PE分位": {
+          "z_score": 0.0,
+          "weight": -1.0,
+          "contribution": -0.0
+        },
+        "ROE": {
+          "z_score": 0.0,
+          "weight": 1.0,
+          "contribution": 0.0
+        }
+      },
+      "graph_coverage_ratio": 1.0,
+      "confidence_breakdown": {
+        "base": 0.5,
+        "rank_boost": 0.0742,
+        "factor_consistency": 0.5,
+        "final": 0.5742
+      }
+    }
+  },
+  {
+    "signal_id": "graph_factors_20260318_601088_1",
+    "strategy_name": "graph_factors",
+    "stock_code": "601088",
+    "stock_name": "中国神华",
+    "direction": "neutral",
+    "confidence": 0.5484669077615171,
+    "expected_return": 0.0065,
+    "holding_period_days": 10,
+    "reasoning": "Composite rank 2/10, score=0.323. Factors: supply_chain_centrality=0.00(w=+1.5), betweenness_centrality=0.00(w=+1.0), institution_concentration=1220.00(w=-1.0), concept_heat=90.00(w=-1.5), event_exposure=0.00(w=+0.5), industry_leadership=0.00(w=+0.8)",
+    "signal_date": "2026-03-18",
+    "metadata": {
+      "rank": 2,
+      "total_stocks": 10,
+      "composite_score": 0.3231,
+      "factors": {
+        "供应链中心性": {
+          "z_score": -1.3792,
+          "weight": 1.5,
+          "contribution": -2.0688
+        },
+        "中介中心性": {
+          "z_score": -0.8435,
+          "weight": 1.0,
+          "contribution": -0.8435
+        },
+        "机构持仓集中度": {
+          "z_score": 0.105,
+          "weight": -1.0,
+          "contribution": -0.105
+        },
+        "概念热度": {
+          "z_score": 0.2786,
+          "weight": -1.5,
+          "contribution": -0.4179
+        },
+        "事件敏感度": null,
+        "行业领导力": null,
+        "同行收益差": {
+          "z_score": -1.4509,
+          "weight": -2.0,
+          "contribution": 2.9017
+        },
+        "20日动量": {
+          "z_score": 1.0473,
+          "weight": 1.0,
+          "contribution": 1.0473
+        },
+        "5日反转": {
+          "z_score": 1.4343,
+          "weight": 1.0,
+          "contribution": 1.4343
+        },
+        "20日波动率": {
+          "z_score": 0.9662,
+          "weight": 3.0,
+          "contribution": 2.8985
+        },
+        "换手率": {
+          "z_score": 0.0,
+          "weight": 1.0,
+          "contribution": 0.0
+        },
+        "PE分位": {
+          "z_score": 0.0,
+          "weight": -1.0,
+          "contribution": -0.0
+        },
+        "ROE": {
+          "z_score": 0.0,
+          "weight": 1.0,
+          "contribution": 0.0
+        }
+      },
+      "graph_coverage_ratio": 1.0,
+      "confidence_breakdown": {
+        "base": 0.5,
+        "rank_boost": 0.0485,
+        "factor_consistency": 0.5,
+        "final": 0.5485
+      }
+    }
+  },
+  {
+    "signal_id": "graph_factors_20260318_300750_2",
+    "strategy_name": "graph_factors",
+    "stock_code": "300750",
+    "stock_name": "宁德时代",
+    "direction": "neutral",
+    "confidence": 0.5480600932224485,
+    "expected_return": 0.0064,
+    "holding_period_days": 10,
+    "reasoning": "Composite rank 3/10, score=0.320. Factors: supply_chain_centrality=0.02(w=+1.5), betweenness_centrality=0.00(w=+1.0), institution_concentration=2866.00(w=-1.0), concept_heat=95.00(w=-1.5), event_exposure=0.00(w=+0.5), industry_leadership=0.00(w=+0.8)",
+    "signal_date": "2026-03-18",
+    "metadata": {
+      "rank": 3,
+      "total_stocks": 10,
+      "composite_score": 0.3204,
+      "factors": {
+        "供应链中心性": {
+          "z_score": 0.1676,
+          "weight": 1.5,
+          "contribution": 0.2515
+        },
+        "中介中心性": {
+          "z_score": 1.293,
+          "weight": 1.0,
+          "contribution": 1.293
+        },
+        "机构持仓集中度": {
+          "z_score": 2.1624,
+          "weight": -1.0,
+          "contribution": -2.1624
+        },
+        "概念热度": {
+          "z_score": 0.3651,
+          "weight": -1.5,
+          "contribution": -0.5477
+        },
+        "事件敏感度": null,
+        "行业领导力": null,
+        "同行收益差": {
+          "z_score": -1.2438,
+          "weight": -2.0,
+          "contribution": 2.4876
+        },
+        "20日动量": {
+          "z_score": 0.8978,
+          "weight": 1.0,
+          "contribution": 0.8978
+        },
+        "5日反转": {
+          "z_score": -0.4272,
+          "weight": 1.0,
+          "contribution": -0.4272
+        },
+        "20日波动率": {
+          "z_score": 1.0044,
+          "weight": 3.0,
+          "contribution": 3.0133
+        },
+        "换手率": {
+          "z_score": 0.0,
+          "weight": 1.0,
+          "contribution": 0.0
+        },
+        "PE分位": {
+          "z_score": 0.0,
+          "weight": -1.0,
+          "contribution": -0.0
+        },
+        "ROE": {
+          "z_score": 0.0,
+          "weight": 1.0,
+          "contribution": 0.0
+        }
+      },
+      "graph_coverage_ratio": 1.0,
+      "confidence_breakdown": {
+        "base": 0.5,
+        "rank_boost": 0.0481,
+        "factor_consistency": 0.5,
+        "final": 0.5481
+      }
+    }
+  },
+  {
+    "signal_id": "graph_factors_20260318_000027_3",
+    "strategy_name": "graph_factors",
+    "stock_code": "000027",
+    "stock_name": "深圳能源",
+    "direction": "neutral",
+    "confidence": 0.5344943743823509,
+    "expected_return": 0.0046,
+    "holding_period_days": 10,
+    "reasoning": "Composite rank 4/10, score=0.230. Factors: supply_chain_centrality=0.02(w=+1.5), betweenness_centrality=0.00(w=+1.0), institution_concentration=1.00(w=-1.0), concept_heat=0.00(w=-1.5), event_exposure=0.00(w=+0.5), industry_leadership=0.00(w=+0.8)",
+    "signal_date": "2026-03-18",
+    "metadata": {
+      "rank": 4,
+      "total_stocks": 10,
+      "composite_score": 0.23,
+      "factors": {
+        "供应链中心性": {
+          "z_score": 0.629,
+          "weight": 1.5,
+          "contribution": 0.9435
+        },
+        "中介中心性": {
+          "z_score": -0.9822,
+          "weight": 1.0,
+          "contribution": -0.9822
+        },
+        "机构持仓集中度": {
+          "z_score": -1.4187,
+          "weight": -1.0,
+          "contribution": 1.4187
+        },
+        "概念热度": {
+          "z_score": -1.2788,
+          "weight": -1.5,
+          "contribution": 1.9182
+        },
+        "事件敏感度": null,
+        "行业领导力": null,
+        "同行收益差": {
+          "z_score": 0.3989,
+          "weight": -2.0,
+          "contribution": -0.7978
+        },
+        "20日动量": {
+          "z_score": 0.6652,
+          "weight": 1.0,
+          "contribution": 0.6652
+        },
+        "5日反转": {
+          "z_score": 1.3479,
+          "weight": 1.0,
+          "contribution": 1.3479
+        },
+        "20日波动率": {
+          "z_score": -0.3547,
+          "weight": 3.0,
+          "contribution": -1.064
+        },
+        "换手率": {
+          "z_score": 0.0,
+          "weight": 1.0,
+          "contribution": 0.0
+        },
+        "PE分位": {
+          "z_score": 0.0,
+          "weight": -1.0,
+          "contribution": -0.0
+        },
+        "ROE": {
+          "z_score": 0.0,
+          "weight": 1.0,
+          "contribution": 0.0
+        }
+      },
+      "graph_coverage_ratio": 1.0,
+      "confidence_breakdown": {
+        "base": 0.5,
+        "rank_boost": 0.0345,
+        "factor_consistency": 0.5,
+        "final": 0.5345
+      }
+    }
+  },
+  {
+    "signal_id": "graph_factors_20260318_601888_4",
+    "strategy_name": "graph_factors",
+    "stock_code": "601888",
+    "stock_name": "中国中免",
+    "direction": "neutral",
+    "confidence": 0.5058831188431672,
+    "expected_return": 0.0008,
+    "holding_period_days": 10,
+    "reasoning": "Composite rank 5/10, score=0.039. Factors: supply_chain_centrality=0.02(w=+1.5), betweenness_centrality=0.00(w=+1.0), institution_concentration=456.00(w=-1.0), concept_heat=93.00(w=-1.5), event_exposure=0.00(w=+0.5), industry_leadership=0.00(w=+0.8)",
+    "signal_date": "2026-03-18",
+    "metadata": {
+      "rank": 5,
+      "total_stocks": 10,
+      "composite_score": 0.0392,
+      "factors": {
+        "供应链中心性": {
+          "z_score": 0.629,
+          "weight": 1.5,
+          "contribution": 0.9435
+        },
+        "中介中心性": {
+          "z_score": -0.9267,
+          "weight": 1.0,
+          "contribution": -0.9267
+        },
+        "机构持仓集中度": {
+          "z_score": -0.8499,
+          "weight": -1.0,
+          "contribution": 0.8499
+        },
+        "概念热度": {
+          "z_score": 0.3305,
+          "weight": -1.5,
+          "contribution": -0.4958
+        },
+        "事件敏感度": null,
+        "行业领导力": null,
+        "同行收益差": {
+          "z_score": 0.3989,
+          "weight": -2.0,
+          "contribution": -0.7978
+        },
+        "20日动量": {
+          "z_score": -2.2145,
+          "weight": 1.0,
+          "contribution": -2.2145
+        },
+        "5日反转": {
+          "z_score": -0.4293,
+          "weight": 1.0,
+          "contribution": -0.4293
+        },
+        "20日波动率": {
+          "z_score": 1.2196,
+          "weight": 3.0,
+          "contribution": 3.6589
+        },
+        "换手率": {
+          "z_score": 0.0,
+          "weight": 1.0,
+          "contribution": 0.0
+        },
+        "PE分位": {
+          "z_score": 0.0,
+          "weight": -1.0,
+          "contribution": -0.0
+        },
+        "ROE": {
+          "z_score": 0.0,
+          "weight": 1.0,
+          "contribution": 0.0
+        }
+      },
+      "graph_coverage_ratio": 1.0,
+      "confidence_breakdown": {
+        "base": 0.5,
+        "rank_boost": 0.0059,
+        "factor_consistency": 0.5,
+        "final": 0.5059
+      }
+    }
+  },
+  {
+    "signal_id": "graph_factors_20260318_000001_5",
+    "strategy_name": "graph_factors",
+    "stock_code": "000001",
+    "stock_name": "平安银行",
+    "direction": "neutral",
+    "confidence": 0.49032657368142646,
+    "expected_return": -0.0013,
+    "holding_period_days": 20,
+    "reasoning": "Composite rank 6/10, score=-0.064. Factors: supply_chain_centrality=0.02(w=+1.5), betweenness_centrality=0.00(w=+1.0), institution_concentration=619.00(w=-1.0), concept_heat=0.00(w=-1.5), event_exposure=0.00(w=+0.5), industry_leadership=0.00(w=+0.8)",
+    "signal_date": "2026-03-18",
+    "metadata": {
+      "rank": 6,
+      "total_stocks": 10,
+      "composite_score": -0.0645,
+      "factors": {
+        "供应链中心性": {
+          "z_score": 0.629,
+          "weight": 1.5,
+          "contribution": 0.9435
+        },
+        "中介中心性": {
+          "z_score": 0.419,
+          "weight": 1.0,
+          "contribution": 0.419
+        },
+        "机构持仓集中度": {
+          "z_score": -0.6462,
+          "weight": -1.0,
+          "contribution": 0.6462
+        },
+        "概念热度": {
+          "z_score": -1.2788,
+          "weight": -1.5,
+          "contribution": 1.9182
+        },
+        "事件敏感度": null,
+        "行业领导力": null,
+        "同行收益差": {
+          "z_score": 0.3989,
+          "weight": -2.0,
+          "contribution": -0.7978
+        },
+        "20日动量": {
+          "z_score": -0.099,
+          "weight": 1.0,
+          "contribution": -0.099
+        },
+        "5日反转": {
+          "z_score": 0.0914,
+          "weight": 1.0,
+          "contribution": 0.0914
+        },
+        "20日波动率": {
+          "z_score": -1.3629,
+          "weight": 3.0,
+          "contribution": -4.0887
+        },
+        "换手率": {
+          "z_score": 0.0,
+          "weight": 1.0,
+          "contribution": 0.0
+        },
+        "PE分位": {
+          "z_score": 0.0,
+          "weight": -1.0,
+          "contribution": -0.0
+        },
+        "ROE": {
+          "z_score": 0.0,
+          "weight": 1.0,
+          "contribution": 0.0
+        }
+      },
+      "graph_coverage_ratio": 1.0,
+      "confidence_breakdown": {
+        "base": 0.5,
+        "rank_boost": -0.0097,
+        "factor_consistency": 0.5,
+        "final": 0.4903
+      }
+    }
+  },
+  {
+    "signal_id": "graph_factors_20260318_601012_6",
+    "strategy_name": "graph_factors",
+    "stock_code": "601012",
+    "stock_name": "隆基绿能",
+    "direction": "neutral",
+    "confidence": 0.4768243590638376,
+    "expected_return": -0.0031,
+    "holding_period_days": 26,
+    "reasoning": "Composite rank 7/10, score=-0.155. Factors: supply_chain_centrality=0.02(w=+1.5), betweenness_centrality=0.00(w=+1.0), institution_concentration=591.00(w=-1.0), concept_heat=94.00(w=-1.5), event_exposure=0.00(w=+0.5), industry_leadership=0.00(w=+0.8)",
+    "signal_date": "2026-03-18",
+    "metadata": {
+      "rank": 7,
+      "total_stocks": 10,
+      "composite_score": -0.1545,
+      "factors": {
+        "供应链中心性": {
+          "z_score": 0.1676,
+          "weight": 1.5,
+          "contribution": 0.2515
+        },
+        "中介中心性": {
+          "z_score": 0.3219,
+          "weight": 1.0,
+          "contribution": 0.3219
+        },
+        "机构持仓集中度": {
+          "z_score": -0.6812,
+          "weight": -1.0,
+          "contribution": 0.6812
+        },
+        "概念热度": {
+          "z_score": 0.3478,
+          "weight": -1.5,
+          "contribution": -0.5217
+        },
+        "事件敏感度": null,
+        "行业领导力": null,
+        "同行收益差": {
+          "z_score": 1.0511,
+          "weight": -2.0,
+          "contribution": -2.1022
+        },
+        "20日动量": {
+          "z_score": -0.0284,
+          "weight": 1.0,
+          "contribution": -0.0284
+        },
+        "5日反转": {
+          "z_score": 0.9031,
+          "weight": 1.0,
+          "contribution": 0.9031
+        },
+        "20日波动率": {
+          "z_score": -0.6076,
+          "weight": 3.0,
+          "contribution": -1.8229
+        },
+        "换手率": {
+          "z_score": 0.0,
+          "weight": 1.0,
+          "contribution": 0.0
+        },
+        "PE分位": {
+          "z_score": 0.0,
+          "weight": -1.0,
+          "contribution": -0.0
+        },
+        "ROE": {
+          "z_score": 0.0,
+          "weight": 1.0,
+          "contribution": 0.0
+        }
+      },
+      "graph_coverage_ratio": 1.0,
+      "confidence_breakdown": {
+        "base": 0.5,
+        "rank_boost": -0.0232,
+        "factor_consistency": 0.5,
+        "final": 0.4768
+      }
+    }
+  },
+  {
+    "signal_id": "graph_factors_20260318_601318_7",
+    "strategy_name": "graph_factors",
+    "stock_code": "601318",
+    "stock_name": "中国平安",
+    "direction": "neutral",
+    "confidence": 0.45887218260949864,
+    "expected_return": -0.0055,
+    "holding_period_days": 10,
+    "reasoning": "Composite rank 8/10, score=-0.274. Factors: supply_chain_centrality=0.00(w=+1.5), betweenness_centrality=0.00(w=+1.0), institution_concentration=1102.00(w=-1.0), concept_heat=0.00(w=-1.5), event_exposure=0.00(w=+0.5), industry_leadership=0.00(w=+0.8)",
+    "signal_date": "2026-03-18",
+    "metadata": {
+      "rank": 8,
+      "total_stocks": 10,
+      "composite_score": -0.2742,
+      "factors": {
+        "供应链中心性": {
+          "z_score": -1.3792,
+          "weight": 1.5,
+          "contribution": -2.0688
+        },
+        "中介中心性": {
+          "z_score": 0.6271,
+          "weight": 1.0,
+          "contribution": 0.6271
+        },
+        "机构持仓集中度": {
+          "z_score": -0.0425,
+          "weight": -1.0,
+          "contribution": 0.0425
+        },
+        "概念热度": {
+          "z_score": -1.2788,
+          "weight": -1.5,
+          "contribution": 1.9182
+        },
+        "事件敏感度": null,
+        "行业领导力": null,
+        "同行收益差": {
+          "z_score": 1.0406,
+          "weight": -2.0,
+          "contribution": -2.0811
+        },
+        "20日动量": {
+          "z_score": -0.8115,
+          "weight": 1.0,
+          "contribution": -0.8115
+        },
+        "5日反转": {
+          "z_score": -0.0105,
+          "weight": 1.0,
+          "contribution": -0.0105
+        },
+        "20日波动率": {
+          "z_score": -0.5762,
+          "weight": 3.0,
+          "contribution": -1.7286
+        },
+        "换手率": {
+          "z_score": 0.0,
+          "weight": 1.0,
+          "contribution": 0.0
+        },
+        "PE分位": {
+          "z_score": 0.0,
+          "weight": -1.0,
+          "contribution": -0.0
+        },
+        "ROE": {
+          "z_score": 0.0,
+          "weight": 1.0,
+          "contribution": 0.0
+        }
+      },
+      "graph_coverage_ratio": 1.0,
+      "confidence_breakdown": {
+        "base": 0.5,
+        "rank_boost": -0.0411,
+        "factor_consistency": 0.5,
+        "final": 0.4589
+      }
+    }
+  },
+  {
+    "signal_id": "graph_factors_20260318_000858_8",
+    "strategy_name": "graph_factors",
+    "stock_code": "000858",
+    "stock_name": "五 粮 液",
+    "direction": "neutral",
+    "confidence": 0.44601319131078654,
+    "expected_return": -0.0072,
+    "holding_period_days": 15,
+    "reasoning": "Composite rank 9/10, score=-0.360. Factors: supply_chain_centrality=0.02(w=+1.5), betweenness_centrality=0.00(w=+1.0), institution_concentration=1419.00(w=-1.0), concept_heat=93.00(w=-1.5), event_exposure=0.00(w=+0.5), industry_leadership=0.00(w=+0.8)",
+    "signal_date": "2026-03-18",
+    "metadata": {
+      "rank": 9,
+      "total_stocks": 10,
+      "composite_score": -0.3599,
+      "factors": {
+        "供应链中心性": {
+          "z_score": 0.629,
+          "weight": 1.5,
+          "contribution": 0.9435
+        },
+        "中介中心性": {
+          "z_score": -0.566,
+          "weight": 1.0,
+          "contribution": -0.566
+        },
+        "机构持仓集中度": {
+          "z_score": 0.3537,
+          "weight": -1.0,
+          "contribution": -0.3537
+        },
+        "概念热度": {
+          "z_score": 0.3305,
+          "weight": -1.5,
+          "contribution": -0.4958
+        },
+        "事件敏感度": null,
+        "行业领导力": null,
+        "同行收益差": {
+          "z_score": 0.6268,
+          "weight": -2.0,
+          "contribution": -1.2537
+        },
+        "20日动量": {
+          "z_score": -0.2153,
+          "weight": 1.0,
+          "contribution": -0.2153
+        },
+        "5日反转": {
+          "z_score": -0.3455,
+          "weight": 1.0,
+          "contribution": -0.3455
+        },
+        "20日波动率": {
+          "z_score": -1.0374,
+          "weight": 3.0,
+          "contribution": -3.1121
+        },
+        "换手率": {
+          "z_score": 0.0,
+          "weight": 1.0,
+          "contribution": 0.0
+        },
+        "PE分位": {
+          "z_score": 0.0,
+          "weight": -1.0,
+          "contribution": -0.0
+        },
+        "ROE": {
+          "z_score": 0.0,
+          "weight": 1.0,
+          "contribution": 0.0
+        }
+      },
+      "graph_coverage_ratio": 1.0,
+      "confidence_breakdown": {
+        "base": 0.5,
+        "rank_boost": -0.054,
+        "factor_consistency": 0.5,
+        "final": 0.446
+      }
+    }
+  },
+  {
+    "signal_id": "graph_factors_20260318_600519_9",
+    "strategy_name": "graph_factors",
+    "stock_code": "600519",
+    "stock_name": "贵州茅台",
+    "direction": "neutral",
+    "confidence": 0.41689612093283723,
+    "expected_return": -0.0111,
+    "holding_period_days": 30,
+    "reasoning": "Composite rank 10/10, score=-0.554. Factors: supply_chain_centrality=0.00(w=+1.5), betweenness_centrality=0.00(w=+1.0), institution_concentration=1672.00(w=-1.0), concept_heat=93.00(w=-1.5), event_exposure=0.00(w=+0.5), industry_leadership=0.00(w=+0.8)",
+    "signal_date": "2026-03-18",
+    "metadata": {
+      "rank": 10,
+      "total_stocks": 10,
+      "composite_score": -0.554,
+      "factors": {
+        "供应链中心性": {
+          "z_score": -1.3792,
+          "weight": 1.5,
+          "contribution": -2.0688
+        },
+        "中介中心性": {
+          "z_score": -1.0099,
+          "weight": 1.0,
+          "contribution": -1.0099
+        },
+        "机构持仓集中度": {
+          "z_score": 0.67,
+          "weight": -1.0,
+          "contribution": -0.67
+        },
+        "概念热度": {
+          "z_score": 0.3305,
+          "weight": -1.5,
+          "contribution": -0.4958
+        },
+        "事件敏感度": null,
+        "行业领导力": null,
+        "同行收益差": {
+          "z_score": 0.2687,
+          "weight": -2.0,
+          "contribution": -0.5374
+        },
+        "20日动量": {
+          "z_score": -0.2322,
+          "weight": 1.0,
+          "contribution": -0.2322
+        },
+        "5日反转": {
+          "z_score": -1.7958,
+          "weight": 1.0,
+          "contribution": -1.7958
+        },
+        "20日波动率": {
+          "z_score": -0.5002,
+          "weight": 3.0,
+          "contribution": -1.5005
+        },
+        "换手率": {
+          "z_score": 0.0,
+          "weight": 1.0,
+          "contribution": 0.0
+        },
+        "PE分位": {
+          "z_score": 0.0,
+          "weight": -1.0,
+          "contribution": -0.0
+        },
+        "ROE": {
+          "z_score": 0.0,
+          "weight": 1.0,
+          "contribution": 0.0
+        }
+      },
+      "graph_coverage_ratio": 1.0,
+      "confidence_breakdown": {
+        "base": 0.5,
+        "rank_boost": -0.0831,
+        "factor_consistency": 0.5,
+        "final": 0.4169
+      }
+    }
+  }
+]

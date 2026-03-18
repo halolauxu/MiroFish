@@ -847,98 +847,63 @@ class ShockPipeline:
     ) -> Optional[Dict[str, Any]]:
         """Build a final shock signal from pipeline components."""
         reacted = reaction.get("reacted", False)
-        conviction = debate.get("conviction", 0.0)
         divergence = debate.get("divergence", 0.0)
         consensus = debate.get("consensus_direction", "neutral")
         consensus_sentiment = debate.get("consensus_sentiment", 0.0)
 
-        # Core logic: Alpha = unreacted downstream + agent consensus
+        # Core logic: Alpha = unreacted downstream
         if reacted:
             alpha_type = "已反应"
-            confidence_penalty = 0.5
         else:
             alpha_type = "未反应(信息差)"
-            confidence_penalty = 1.0
 
-        # Direction from agent debate
-        if consensus == "bullish":
-            direction = "long"
-        elif consensus == "bearish":
+        # ── Direction: 纯规则映射（基于Iteration 10回测验证）──
+        # 不使用Agent辩论结果作为direction输入
+        event_type = event.get("type", "")
+
+        # A股方向映射表（回测验证）
+        _AVOID_EVENTS = {"scandal", "policy_risk", "management_change",
+                         "product_launch", "technology_breakthrough",
+                         "price_adjustment", "buyback"}
+        _LONG_EVENTS = {"cooperation", "earnings_surprise",
+                        "supply_shortage", "order_win"}
+
+        if event_type in _AVOID_EVENTS:
             direction = "avoid"
-        elif consensus == "neutral" and conviction == 0.0:
-            # No debate ran (skip_debate mode) — infer from event type
-            # 基于历史回测验证的 A 股事件→方向映射
-            event_type = event.get("type", "")
-
-            # 负面事件: A股板块联动下跌（含竞争对手连坐）
-            _AVOID_EVENTS = {"scandal", "policy_risk", "management_change"}
-            # 利好出尽→短期回调（A股特征：product_launch, tech_breakthrough等）
-            _NEUTRAL_EVENTS = {
-                "product_launch", "technology_breakthrough",
-                "price_adjustment", "buyback",
-            }
-            # 真正利好：合作、业绩、供应短缺(涨价预期)
-            _LONG_EVENTS = {
-                "cooperation", "earnings_surprise",
-                "supply_shortage", "order_win",
-            }
-
-            if event_type in _AVOID_EVENTS:
-                direction = "avoid"
-                conviction = 0.4
-            elif event_type in _LONG_EVENTS:
-                direction = "long"
-                conviction = 0.3
-            elif event_type in _NEUTRAL_EVENTS:
-                # 利好出尽→默认 avoid（回测显示 A 股短期利好多为反向）
-                direction = "avoid"
-                conviction = 0.25
-            else:
-                direction = "long"
-                conviction = 0.2
+        elif event_type in _LONG_EVENTS:
+            direction = "long"
         else:
-            direction = "neutral"
+            direction = "avoid"  # 默认保守
 
-        # Skip neutral with low conviction
-        if direction == "neutral" and conviction < _MIN_CONVICTION:
-            return None
-
-        # Confidence calculation (v2: informed by backtest)
-        # Base = conviction (from debate or rule)
-        # Modifiers:
-        #   - event_type_boost: based on historical hit rates
-        #   - hop_boost: higher hops → higher information gap confidence
-        #   - reaction_penalty: already reacted → halve confidence
-        shock_w = target.get("shock_weight", 0.0)
+        # ── Confidence: 基于可验证的硬指标 ──
+        # 不使用 conviction（来自Agent辩论）
         hop = target.get("hop", 1)
 
-        # Event type confidence boost (from backtest Iter 10)
-        _EVENT_TYPE_BOOST = {
-            "scandal": 0.35,        # 88.9% hit rate
-            "policy_risk": 0.15,    # 57.1%
-            "management_change": 0.10,
-            "cooperation": 0.10,    # 50%
-            "earnings_surprise": 0.15,  # 60%
+        confidence = 0.3  # 基础分
+
+        # 事件类型加成（基于回测胜率）
+        _EVENT_TYPE_CONFIDENCE = {
+            "scandal": 0.25,         # 回测胜率88.9%
+            "policy_risk": 0.10,     # 57.1%
+            "cooperation": 0.10,
+            "earnings_surprise": 0.15,
             "supply_shortage": 0.10,
-            "product_launch": 0.20,    # 利好出尽 works well with avoid
-            "technology_breakthrough": 0.15,
-            "price_adjustment": 0.15,
-            "buyback": 0.10,
+            "product_launch": 0.15,  # 利好出尽
+            "technology_breakthrough": 0.10,
         }
-        event_boost = _EVENT_TYPE_BOOST.get(
-            event.get("type", ""), 0.05
-        )
+        confidence += _EVENT_TYPE_CONFIDENCE.get(event_type, 0.05)
 
-        # Hop boost: further hops = higher alpha potential (per backtest)
-        hop_boost = min(0.15, hop * 0.05) if hop > 0 else 0.0
+        # 跳数加成（回测显示下游信号优于源头）
+        if hop >= 1:
+            confidence += 0.10
+        if hop >= 2:
+            confidence += 0.05
 
-        confidence = (
-            conviction * 0.4
-            + event_boost
-            + hop_boost
-            + shock_w * 0.1
-        ) * confidence_penalty
-        confidence = max(0.05, min(0.95, confidence))
+        # 未反应加成
+        if not reacted:
+            confidence += 0.15
+
+        confidence = max(0.1, min(0.9, confidence))
 
         # Divergence-based position sizing hint
         if divergence > _HIGH_DIVERGENCE:
@@ -965,11 +930,11 @@ class ShockPipeline:
             "hop": target["hop"],
             "propagation_path": path_str,
             "relation_chain": rel_str,
-            # Debate
+            # Debate (保留用于展示，不影响direction)
             "consensus_direction": consensus,
             "consensus_sentiment": consensus_sentiment,
             "divergence": divergence,
-            "conviction": conviction,
+            "conviction": debate.get("conviction", 0.0),
             "debate_summary": debate.get("debate_summary", ""),
             # Price reaction
             "reacted": reacted,

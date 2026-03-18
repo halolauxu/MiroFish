@@ -332,6 +332,15 @@ _SIMULATE_REACTIONS_PROMPT = """\
   ]
 }}
 
+重要：每位投资者的反应必须体现其独特的决策风格和信息处理方式。
+- 游资关注短期博弈机会和情绪差
+- 量化基金关注统计偏离和因子暴露
+- 公募基金关注相对收益和行业配置
+- 价值投资者关注基本面变化和估值安全边际
+- 趋势跟随者关注技术形态和成交量
+- 散户关注新闻标题和社交媒体情绪
+不同投资者对同一事件的判断应该有明显分歧。
+
 每个投资者类型必须有且仅有一条反应。确保不同类型的反应体现出差异化。
 """
 
@@ -576,7 +585,7 @@ class SentimentSimulationStrategy(BaseStrategy):
         ]
 
         try:
-            result = self._llm.chat_json(messages=messages, max_tokens=2000)
+            result = self._llm.chat_json(messages=messages, max_tokens=3000)
             raw_profiles = result.get("profiles", [])
         except Exception as exc:
             logger.warning(
@@ -655,7 +664,7 @@ class SentimentSimulationStrategy(BaseStrategy):
         for p in profiles:
             profile_lines.append(
                 f"### {p['archetype']}\n"
-                f"描述: {p['description'][:60]}\n"
+                f"描述: {p['description'][:120]}\n"
                 f"当前持仓: {p['current_position']}（{p.get('position_reason', '')}）\n"
                 f"投资逻辑: {p['investment_thesis']}\n"
                 f"关注点: {', '.join(p.get('key_concerns', []))}\n"
@@ -671,6 +680,10 @@ class SentimentSimulationStrategy(BaseStrategy):
             key_data=event.get("key_data", "无"),
             profiles_text="\n\n".join(profile_lines),
         )
+
+        graph_ctx = event.get("graph_context", "")
+        if graph_ctx:
+            prompt += f"\n\n## 供应链/图谱上下文\n{graph_ctx}"
 
         messages = [
             {
@@ -1364,12 +1377,15 @@ class SentimentSimulationStrategy(BaseStrategy):
             key_data=event.get("key_data", "无"),
             profiles_text="\n\n".join(profile_lines),
         )
+        graph_ctx = event.get("graph_context", "")
+        if graph_ctx:
+            prompt += f"\n\n## 供应链/图谱上下文\n{graph_ctx}"
         messages = [
             {"role": "system", "content": "你是A股多参与者博弈模拟专家。严格以JSON格式输出。"},
             {"role": "user", "content": prompt},
         ]
         try:
-            result = self._llm.chat_json(messages=messages, max_tokens=1500)
+            result = self._llm.chat_json(messages=messages, max_tokens=2500)
             raw = result.get("reactions", [])
         except Exception as exc:
             logger.warning("[%s] Round%d LLM failed: %s", self.name, round_num, exc)
@@ -1401,12 +1417,15 @@ class SentimentSimulationStrategy(BaseStrategy):
             target_archetypes=archetype_list,
             profiles_text="\n\n".join(profile_lines),
         )
+        graph_ctx = event.get("graph_context", "")
+        if graph_ctx:
+            prompt += f"\n\n## 供应链/图谱上下文\n{graph_ctx}"
         messages = [
             {"role": "system", "content": "你是A股多参与者博弈模拟专家。严格以JSON格式输出。"},
             {"role": "user", "content": prompt},
         ]
         try:
-            result = self._llm.chat_json(messages=messages, max_tokens=1500)
+            result = self._llm.chat_json(messages=messages, max_tokens=3000, temperature=0.6)
             raw = result.get("reactions", [])
         except Exception as exc:
             logger.warning("[%s] Round%d LLM failed: %s", self.name, round_num, exc)
@@ -1419,7 +1438,7 @@ class SentimentSimulationStrategy(BaseStrategy):
         for p in profiles:
             lines.append(
                 f"### {p['archetype']}\n"
-                f"描述: {p['description'][:60]}\n"
+                f"描述: {p['description'][:120]}\n"
                 f"当前持仓: {p['current_position']}（{p.get('position_reason', '')}）\n"
                 f"投资逻辑: {p['investment_thesis']}\n"
                 f"关注点: {', '.join(p.get('key_concerns', []))}\n"
@@ -1436,7 +1455,7 @@ class SentimentSimulationStrategy(BaseStrategy):
             action = r.get("action", "hold")
             sentiment = r.get("sentiment_score", 0.0)
             price_target = r.get("price_target_change_pct", 0.0)
-            reasoning = r.get("reasoning", "")[:60]
+            reasoning = r.get("reasoning", "")[:200]
             lines.append(
                 f"  [{arch}] {action} | 情绪{sentiment:+.2f} | "
                 f"目标涨跌{price_target:+.1f}% | {reasoning}"

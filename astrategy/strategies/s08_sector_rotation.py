@@ -504,11 +504,52 @@ class SectorRotationStrategy(BaseStrategy):
             if risk_factors:
                 reasoning_parts.append(f"风险: {', '.join(risk_factors)}")
 
+            # ── Rotation factor ranks from industry_data ────────────
+            momentum_val = ind_returns["return_20d"]
+            relative_strength_val = 0.0
+            volume_change_val = 0.0
+            momentum_rank = 0
+            rs_rank = 0
+            vol_rank = 0
+            sector_rank = 0
+            total_sectors = len(industry_data) if not industry_data.empty else 0
+
+            if not industry_data.empty:
+                match_row = industry_data[industry_data["板块名称"] == industry_name]
+                if not match_row.empty:
+                    row_data = match_row.iloc[0]
+                    relative_strength_val = float(row_data.get("relative_strength", 0.0))
+                    volume_change_val = float(row_data.get("volume_change_pct", 0.0))
+                    # momentum_rank is pre-computed in industry_data
+                    momentum_rank = int(row_data.get("momentum_rank", 0))
+                    # Compute ranks for relative_strength and volume_change
+                    rs_rank = int((industry_data["relative_strength"].rank(ascending=False)).loc[match_row.index[0]])
+                    vol_rank = int((industry_data["volume_change_pct"].rank(ascending=False)).loc[match_row.index[0]])
+                    sector_rank = momentum_rank  # overall rank by momentum
+
+            # ── Confidence breakdown ──────────────────────────────────
+            conf_base = 0.5
+            momentum_boost = min(0.2, max(-0.2, momentum_val / 100.0)) if momentum_val else 0.0
+            volume_boost = min(0.1, max(-0.1, volume_change_val / 200.0)) if volume_change_val else 0.0
+
             meta = {
+                "strategy_display_name": "S09 行业轮动",
+                "sector": industry_name,
+                "rotation_factors": {
+                    "动量(20日)": {"value": round(momentum_val, 4), "rank": momentum_rank},
+                    "相对强度": {"value": round(relative_strength_val, 4), "rank": rs_rank},
+                    "成交量变化": {"value": round(volume_change_val, 4), "rank": vol_rank},
+                },
+                "sector_rank": sector_rank,
+                "total_sectors": total_sectors,
+                "confidence_breakdown": {
+                    "base": conf_base,
+                    "momentum_boost": round(momentum_boost, 4),
+                    "volume_boost": round(volume_boost, 4),
+                    "final": round(confidence, 4),
+                },
+                # 保留原有关键字段供下游使用
                 "industry": industry_name,
-                "industry_return_5d": ind_returns["return_5d"],
-                "industry_return_10d": ind_returns["return_10d"],
-                "industry_return_20d": ind_returns["return_20d"],
                 "macro_phase": phase,
                 "north_flow_trend": north_flow_trend,
                 "llm_reasoning": llm_reasoning,
@@ -652,7 +693,7 @@ class SectorRotationStrategy(BaseStrategy):
                     expected_return=0.0,
                     holding_period_days=20,
                     reasoning=f"所属行业 {industry_name} 未在推荐/回避列表中",
-                    metadata={"industry": industry_name, "macro_phase": "unknown"},
+                    metadata={"strategy_display_name": "S09 行业轮动", "sector": industry_name, "industry": industry_name, "macro_phase": "unknown"},
                 )
             ]
 
