@@ -238,7 +238,21 @@ _ROUND2_REACTIONS_PROMPT = """\
 2. 该类型投资者的决策风格
 3. 当前已出现的价格变动是否影响其风险收益比
 
-请以JSON格式输出，包含 "reactions" 数组（结构同第一轮）。
+请以JSON格式输出，包含 "reactions" 数组，每个元素必须包含以下字段:
+{{
+  "reactions": [
+    {{
+      "archetype": "投资者类型名称（必须与上方画像标题完全一致）",
+      "action": "buy/sell/hold/watch",
+      "urgency": "immediate/within_days/wait_for_confirmation",
+      "size": "heavy/moderate/light",
+      "sentiment_score": -1.0到1.0之间的数值,
+      "reasoning": "决策逻辑（80字内）",
+      "price_target_change_pct": 预期涨跌幅百分比,
+      "time_horizon_days": 预期持有天数
+    }}
+  ]
+}}
 """
 
 _ROUND3_REACTIONS_PROMPT = """\
@@ -265,7 +279,21 @@ _ROUND3_REACTIONS_PROMPT = """\
 - 纠偏（认为市场过度反应，逆向操作）
 - 观望（等待更多信息）
 
-请以JSON格式输出，包含 "reactions" 数组。
+请以JSON格式输出，包含 "reactions" 数组，每个元素必须包含以下字段:
+{{
+  "reactions": [
+    {{
+      "archetype": "投资者类型名称（必须与上方画像标题完全一致）",
+      "action": "buy/sell/hold/watch",
+      "urgency": "immediate/within_days/wait_for_confirmation",
+      "size": "heavy/moderate/light",
+      "sentiment_score": -1.0到1.0之间的数值,
+      "reasoning": "决策逻辑（80字内）",
+      "price_target_change_pct": 预期涨跌幅百分比,
+      "time_horizon_days": 预期持有天数
+    }}
+  ]
+}}
 """
 
 _SIMULATE_REACTIONS_PROMPT = """\
@@ -1426,18 +1454,34 @@ class SentimentSimulationStrategy(BaseStrategy):
         reactions: list[dict] = []
 
         for r in raw:
-            arch = r.get("archetype", "")
+            # Tolerate alternate field names from LLM
+            arch = (
+                r.get("archetype", "")
+                or r.get("investor_type", "")
+                or r.get("type", "")
+                or r.get("name", "")
+            )
             if arch not in archetype_names or arch in matched:
                 continue
             matched.add(arch)
+            sentiment_raw = (
+                r.get("sentiment_score")
+                if r.get("sentiment_score") is not None
+                else r.get("sentiment", 0.0)
+            )
+            price_target_raw = (
+                r.get("price_target_change_pct")
+                if r.get("price_target_change_pct") is not None
+                else r.get("target_change_percent", 0.0)
+            )
             reaction = {
                 "archetype": arch,
                 "action": r.get("action", "hold"),
                 "urgency": r.get("urgency", "within_days"),
                 "size": r.get("size", "light"),
-                "sentiment_score": _clamp(r.get("sentiment_score", 0.0), -1.0, 1.0),
+                "sentiment_score": _clamp(sentiment_raw, -1.0, 1.0),
                 "reasoning": r.get("reasoning", ""),
-                "price_target_change_pct": r.get("price_target_change_pct", 0.0),
+                "price_target_change_pct": price_target_raw,
                 "time_horizon_days": r.get("time_horizon_days", 10),
             }
             if reaction["action"] not in ("buy", "sell", "hold", "watch"):

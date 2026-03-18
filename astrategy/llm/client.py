@@ -137,7 +137,8 @@ class LLMClient:
         """
         Send a chat request and parse JSON response.
 
-        Uses JSON mode when supported, then strips markdown fences as fallback.
+        Tries JSON mode first; falls back to plain chat if the SDK raises
+        a serialisation error (openai/pydantic version mismatch).
 
         Returns:
             Parsed JSON dict.
@@ -147,12 +148,21 @@ class LLMClient:
         """
         temperature = temperature if temperature is not None else 0.3
 
-        raw = self.chat(
-            messages=messages,
-            temperature=temperature,
-            max_tokens=max_tokens,
-            response_format={"type": "json_object"},
-        )
+        # Try with response_format first; fall back without it on TypeError
+        try:
+            raw = self.chat(
+                messages=messages,
+                temperature=temperature,
+                max_tokens=max_tokens,
+                response_format={"type": "json_object"},
+            )
+        except TypeError:
+            logger.debug("response_format not supported by SDK; retrying without it")
+            raw = self.chat(
+                messages=messages,
+                temperature=temperature,
+                max_tokens=max_tokens,
+            )
 
         # Clean markdown code fences
         cleaned = raw.strip()

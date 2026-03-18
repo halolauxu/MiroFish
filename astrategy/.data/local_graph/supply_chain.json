@@ -106795,6 +106795,407 @@
       "weight": 1.0,
       "source": "002594",
       "target": "出海主题"
+    },
+    {
+      "source_name": "002594",
+      "target_name": "000625",
+      "relation": "SUPPLIES_TO",
+      "fact": "比亚迪为长安汽车供应动力电池，支持其新能源汽车生产",
+      "weight": 1.0,
+      "source": "002594",
+      "target": "000625"
+    },
+    {
+      "source_name": "600104",
+      "target_name": "000625",
+      "relation": "COMPETES_WITH",
+      "fact": "上汽集团与长安汽车在乘用车市场存在直接竞争关系",
+      "weight": 1.0,
+      "source": "600104",
+      "target": "000625"
+    },
+    {
+      "source_name": "000625",
+      "target_name": "000800",
+      "relation": "CUSTOMER_OF",
+      "fact": "长安汽车向一汽解放销售部分汽车零部件",
+      "weight": 1.0,
+      "source": "000625",
+      "target": "000800"
+    },
+    {
+      "source_name": "000625",
+      "target_name": "002594",
+      "relation": "COOPERATES_WITH",
+      "fact": "长安汽车与比亚迪在新能源汽车技术研发方面有战略合作",
+      "weight": 1.0,
+      "source": "000625",
+      "target": "002594"
+    },
+    {
+      "source_name": "000625",
+      "target_name": "600660",
+      "relation": "SUPPLIES_TO",
+      "fact": "福耀玻璃为长安汽车供应汽车玻璃",
+      "weight": 1.0,
+      "source": "000625",
+      "target": "600660"
+    },
+    {
+      "source_name": "601888",
+      "target_name": "600754",
+      "relation": "CUSTOMER_OF",
+      "fact": "中国中免向锦江酒店销售免税商品，用于酒店零售",
+      "weight": 1.0,
+      "source": "601888",
+      "target": "600754"
+    },
+    {
+      "source_name": "600754",
+      "target_name": "601888",
+      "relation": "SUPPLIES_TO",
+      "fact": "锦江酒店为中国中免提供酒店场地支持免税店运营",
+      "weight": 1.0,
+      "source": "600754",
+      "target": "601888"
+    },
+    {
+      "source_name": "601888",
+      "target_name": "600258",
+      "relation": "COMPETES_WITH",
+      "fact": "中国中免与首旅酒店在旅游零售业务上存在竞争",
+      "weight": 1.0,
+      "source": "601888",
+      "target": "600258"
+    },
+    {
+      "source_name": "601888",
+      "target_name": "600138",
+      "relation": "COOPERATES_WITH",
+      "fact": "中国中免与中青旅在旅游免税业务上有战略合作",
+      "weight": 1.0,
+      "source": "601888",
+      "target": "600138"
+    },
+    {
+      "source_name": "601888",
+      "target_name": "600054",
+      "relation": "CUSTOMER_OF",
+      "fact": "中国中免向黄山旅游销售免税商品，用于景区零售",
+      "weight": 1.0,
+      "source": "601888",
+      "target": "600054"
+    },
+    {
+      "source_name": "000708",
+      "target_name": "000898",
+      "relation": "COMPETES_WITH",
+      "fact": "中信特钢与鞍钢股份在特种钢材市场存在直接竞争",
+      "weight": 1.0,
+      "source": "000708",
+      "target": "000898"
+    },
+    {
+      "source_name": "000708",
+      "target_name": "600019",
+      "relation": "CUSTOMER_OF",
+      "fact": "中信特钢向宝钢股份销售特种钢材，用于高端制造",
+      "weight": 1.0,
+      "source": "000708",
+      "target": "600019"
+    },
+    {
+      "source_name": "000708",
+      "target_name": "000932",
+      "relation": "SUPPLIES_TO",
+      "fact": "华菱钢铁为中信特钢供应部分原材料",
+      "weight": 1.0,
+      "source": "000708",
+      "target": "000932"
+    },
+    {
+      "source_name": "000708",
+      "target_name": "600282",
+      "relation": "COOPERATES_WITH",
+      "fact": "中信特钢与南钢股份在钢铁技术研发方面有合作",
+      "weight": 1.0,
+      "source": "000708",
+      "target": "600282"
+    },
+    {
+      "source_name": "000708",
+      "target_name": "000825",
+      "relation": "COMPETES_WITH",
+      "fact": "中信特钢与太钢不锈在不锈钢等特种钢领域竞争",
+      "weight": 1.0,
+      "source": "000708",
+      "target": "000825"
+    },
+    {
+      "source_name": "000596",
+      "target_name": "600059",
+      "relation": "COMPETES_WITH",
+      "fact": "同为白酒行业上市公司，在黄酒和白酒市场存在竞争关系",
+      "weight": 1.0
+    },
+    {
+      "source_name": "000596",
+      "target_name": "000858",
+      "relation": "COMPETES_WITH",
+      "fact": "同为白酒行业龙头企业，在高端白酒市场存在直接竞争",
+      "weight": 1.0
+    },
+    {
+      "source_name": "000596",
+      "target_name": "600809",
+      "relation": "COMPETES_WITH",
+      "fact": "同为白酒行业上市公司，在清香型白酒市场存在竞争",
+      "weight": 1.0
+    },
+    {
+      "source_name": "000630",
+      "target_name": "600362",
+      "relation": "COMPETES_WITH",
+      "fact": "同为有色金属冶炼行业，在铜产品市场存在竞争关系",
+      "weight": 1.0
+    },
+    {
+      "source_name": "000630",
+      "target_name": "000878",
+      "relation": "COMPETES_WITH",
+      "fact": "同为铜冶炼企业，在铜材生产和销售领域存在竞争",
+      "weight": 1.0
+    },
+    {
+      "source_name": "000630",
+      "target_name": "601899",
+      "relation": "SUPPLIES_TO",
+      "fact": "铜陵有色可能向紫金矿业供应铜精矿或铜产品",
+      "weight": 1.0
+    },
+    {
+      "source_name": "000661",
+      "target_name": "600276",
+      "relation": "COMPETES_WITH",
+      "fact": "同为生物医药行业龙头企业，在创新药研发和市场存在竞争",
+      "weight": 1.0
+    },
+    {
+      "source_name": "000661",
+      "target_name": "000963",
+      "relation": "COMPETES_WITH",
+      "fact": "在医药制造和销售领域存在竞争，特别是在生物制品市场",
+      "weight": 1.0
+    },
+    {
+      "source_name": "000661",
+      "target_name": "002007",
+      "relation": "COMPETES_WITH",
+      "fact": "同为生物制品企业，在血液制品和疫苗市场存在竞争",
+      "weight": 1.0
+    },
+    {
+      "source_name": "000768",
+      "target_name": "600893",
+      "relation": "SUPPLIES_TO",
+      "fact": "中航西飞作为飞机制造商，向航发动力采购航空发动机",
+      "weight": 1.0
+    },
+    {
+      "source_name": "000768",
+      "target_name": "600372",
+      "relation": "SUPPLIES_TO",
+      "fact": "中航西飞向中航电子采购机载电子设备和系统",
+      "weight": 1.0
+    },
+    {
+      "source_name": "000768",
+      "target_name": "000738",
+      "relation": "SUPPLIES_TO",
+      "fact": "中航西飞向航发控制采购航空发动机控制系统",
+      "weight": 1.0
+    },
+    {
+      "source_name": "000776",
+      "target_name": "600030",
+      "relation": "COMPETES_WITH",
+      "fact": "同为头部证券公司，在投行、经纪和资管业务存在竞争",
+      "weight": 1.0
+    },
+    {
+      "source_name": "000776",
+      "target_name": "601688",
+      "relation": "COMPETES_WITH",
+      "fact": "在证券经纪、投资银行和财富管理领域存在直接竞争",
+      "weight": 1.0
+    },
+    {
+      "source_name": "000776",
+      "target_name": "000166",
+      "relation": "COMPETES_WITH",
+      "fact": "同为综合性证券公司，在多个业务板块存在竞争关系",
+      "weight": 1.0
+    },
+    {
+      "source_name": "000301",
+      "target_name": "600028",
+      "relation": "SUPPLIES_TO",
+      "fact": "东方盛虹作为石化企业，可能向中国石化供应化工原料",
+      "weight": 1.0
+    },
+    {
+      "source_name": "000301",
+      "target_name": "000703",
+      "relation": "COMPETES_WITH",
+      "fact": "同为化纤和石化行业，在PTA和聚酯产品市场存在竞争",
+      "weight": 1.0
+    },
+    {
+      "source_name": "000301",
+      "target_name": "002493",
+      "relation": "COMPETES_WITH",
+      "fact": "在石化产业链中，特别是在炼化和化纤领域存在竞争",
+      "weight": 1.0
+    },
+    {
+      "source_name": "002475",
+      "target_name": "002241",
+      "relation": "COMPETES_WITH",
+      "fact": "同为苹果供应链核心供应商，在声学、光学等零部件领域存在竞争",
+      "weight": 1.0
+    },
+    {
+      "source_name": "002475",
+      "target_name": "002456",
+      "relation": "SUPPLIES_TO",
+      "fact": "立讯精密为欧菲光提供连接器、线缆等精密组件",
+      "weight": 1.0
+    },
+    {
+      "source_name": "002475",
+      "target_name": "000725",
+      "relation": "CUSTOMER_OF",
+      "fact": "立讯精密采购京东方A的显示面板用于其终端产品",
+      "weight": 1.0
+    },
+    {
+      "source_name": "002475",
+      "target_name": "002415",
+      "relation": "COOPERATES_WITH",
+      "fact": "在智能安防、物联网等领域有技术合作与供应链协同",
+      "weight": 1.0
+    },
+    {
+      "source_name": "002049",
+      "target_name": "002371",
+      "relation": "CUSTOMER_OF",
+      "fact": "紫光国微采购北方华创的半导体设备用于芯片制造",
+      "weight": 1.0
+    },
+    {
+      "source_name": "002049",
+      "target_name": "600584",
+      "relation": "COOPERATES_WITH",
+      "fact": "在芯片封装测试环节有长期合作关系",
+      "weight": 1.0
+    },
+    {
+      "source_name": "002049",
+      "target_name": "002156",
+      "relation": "COMPETES_WITH",
+      "fact": "在集成电路设计、安全芯片等领域存在市场竞争",
+      "weight": 1.0
+    },
+    {
+      "source_name": "002049",
+      "target_name": "000063",
+      "relation": "SUPPLIES_TO",
+      "fact": "紫光国微为中兴通讯提供通信芯片、安全芯片等产品",
+      "weight": 1.0
+    },
+    {
+      "source_name": "688012",
+      "target_name": "002371",
+      "relation": "COMPETES_WITH",
+      "fact": "同为国内半导体设备龙头，在刻蚀设备等领域存在竞争",
+      "weight": 1.0
+    },
+    {
+      "source_name": "688012",
+      "target_name": "688981",
+      "relation": "SUPPLIES_TO",
+      "fact": "中微公司为中芯国际提供刻蚀机等半导体制造设备",
+      "weight": 1.0
+    },
+    {
+      "source_name": "688012",
+      "target_name": "688126",
+      "relation": "CUSTOMER_OF",
+      "fact": "中微公司采购沪硅产业的硅片材料用于设备研发与测试",
+      "weight": 1.0
+    },
+    {
+      "source_name": "688012",
+      "target_name": "688396",
+      "relation": "COOPERATES_WITH",
+      "fact": "在半导体设备国产化、技术研发方面有战略合作",
+      "weight": 1.0
+    },
+    {
+      "source_name": "300059",
+      "target_name": "601688",
+      "relation": "COMPETES_WITH",
+      "fact": "在证券经纪、财富管理等金融服务领域存在竞争",
+      "weight": 1.0
+    },
+    {
+      "source_name": "300059",
+      "target_name": "000776",
+      "relation": "COOPERATES_WITH",
+      "fact": "在基金销售、金融产品代销等方面有业务合作",
+      "weight": 1.0
+    },
+    {
+      "source_name": "300059",
+      "target_name": "601318",
+      "relation": "CUSTOMER_OF",
+      "fact": "东方财富采购中国平安的保险、金融科技等服务",
+      "weight": 1.0
+    },
+    {
+      "source_name": "300059",
+      "target_name": "000001",
+      "relation": "SUPPLIES_TO",
+      "fact": "东方财富为平安银行提供金融数据、技术平台支持",
+      "weight": 1.0
+    },
+    {
+      "source_name": "002352",
+      "target_name": "002120",
+      "relation": "COMPETES_WITH",
+      "fact": "同为快递物流行业龙头，在快递服务市场存在竞争",
+      "weight": 1.0
+    },
+    {
+      "source_name": "002352",
+      "target_name": "002352",
+      "relation": "COOPERATES_WITH",
+      "fact": "顺丰控股与自身供应链体系协同，如内部物流网络合作",
+      "weight": 1.0
+    },
+    {
+      "source_name": "002352",
+      "target_name": "000858",
+      "relation": "SUPPLIES_TO",
+      "fact": "顺丰控股为五粮液提供高端物流、仓储配送服务",
+      "weight": 1.0
+    },
+    {
+      "source_name": "002352",
+      "target_name": "000333",
+      "relation": "CUSTOMER_OF",
+      "fact": "顺丰控股采购美的集团的空调、电器等设备用于办公与仓储",
+      "weight": 1.0
     }
   ],
   "facts": [
@@ -140060,6 +140461,377 @@
       "target": "出海主题",
       "relation": "RELATES_TO_CONCEPT",
       "fact": "002594 relates to concept 出海主题",
+      "weight": 1.0
+    },
+    {
+      "source": "002594",
+      "target": "000625",
+      "relation": "SUPPLIES_TO",
+      "fact": "比亚迪为长安汽车供应动力电池，支持其新能源汽车生产",
+      "weight": 1.0
+    },
+    {
+      "source": "600104",
+      "target": "000625",
+      "relation": "COMPETES_WITH",
+      "fact": "上汽集团与长安汽车在乘用车市场存在直接竞争关系",
+      "weight": 1.0
+    },
+    {
+      "source": "000625",
+      "target": "000800",
+      "relation": "CUSTOMER_OF",
+      "fact": "长安汽车向一汽解放销售部分汽车零部件",
+      "weight": 1.0
+    },
+    {
+      "source": "000625",
+      "target": "002594",
+      "relation": "COOPERATES_WITH",
+      "fact": "长安汽车与比亚迪在新能源汽车技术研发方面有战略合作",
+      "weight": 1.0
+    },
+    {
+      "source": "000625",
+      "target": "600660",
+      "relation": "SUPPLIES_TO",
+      "fact": "福耀玻璃为长安汽车供应汽车玻璃",
+      "weight": 1.0
+    },
+    {
+      "source": "601888",
+      "target": "600754",
+      "relation": "CUSTOMER_OF",
+      "fact": "中国中免向锦江酒店销售免税商品，用于酒店零售",
+      "weight": 1.0
+    },
+    {
+      "source": "600754",
+      "target": "601888",
+      "relation": "SUPPLIES_TO",
+      "fact": "锦江酒店为中国中免提供酒店场地支持免税店运营",
+      "weight": 1.0
+    },
+    {
+      "source": "601888",
+      "target": "600258",
+      "relation": "COMPETES_WITH",
+      "fact": "中国中免与首旅酒店在旅游零售业务上存在竞争",
+      "weight": 1.0
+    },
+    {
+      "source": "601888",
+      "target": "600138",
+      "relation": "COOPERATES_WITH",
+      "fact": "中国中免与中青旅在旅游免税业务上有战略合作",
+      "weight": 1.0
+    },
+    {
+      "source": "601888",
+      "target": "600054",
+      "relation": "CUSTOMER_OF",
+      "fact": "中国中免向黄山旅游销售免税商品，用于景区零售",
+      "weight": 1.0
+    },
+    {
+      "source": "000708",
+      "target": "000898",
+      "relation": "COMPETES_WITH",
+      "fact": "中信特钢与鞍钢股份在特种钢材市场存在直接竞争",
+      "weight": 1.0
+    },
+    {
+      "source": "000708",
+      "target": "600019",
+      "relation": "CUSTOMER_OF",
+      "fact": "中信特钢向宝钢股份销售特种钢材，用于高端制造",
+      "weight": 1.0
+    },
+    {
+      "source": "000708",
+      "target": "000932",
+      "relation": "SUPPLIES_TO",
+      "fact": "华菱钢铁为中信特钢供应部分原材料",
+      "weight": 1.0
+    },
+    {
+      "source": "000708",
+      "target": "600282",
+      "relation": "COOPERATES_WITH",
+      "fact": "中信特钢与南钢股份在钢铁技术研发方面有合作",
+      "weight": 1.0
+    },
+    {
+      "source": "000708",
+      "target": "000825",
+      "relation": "COMPETES_WITH",
+      "fact": "中信特钢与太钢不锈在不锈钢等特种钢领域竞争",
+      "weight": 1.0
+    },
+    {
+      "source": "000596",
+      "target": "600059",
+      "relation": "COMPETES_WITH",
+      "fact": "同为白酒行业上市公司，在黄酒和白酒市场存在竞争关系",
+      "weight": 1.0
+    },
+    {
+      "source": "000596",
+      "target": "000858",
+      "relation": "COMPETES_WITH",
+      "fact": "同为白酒行业龙头企业，在高端白酒市场存在直接竞争",
+      "weight": 1.0
+    },
+    {
+      "source": "000596",
+      "target": "600809",
+      "relation": "COMPETES_WITH",
+      "fact": "同为白酒行业上市公司，在清香型白酒市场存在竞争",
+      "weight": 1.0
+    },
+    {
+      "source": "000630",
+      "target": "600362",
+      "relation": "COMPETES_WITH",
+      "fact": "同为有色金属冶炼行业，在铜产品市场存在竞争关系",
+      "weight": 1.0
+    },
+    {
+      "source": "000630",
+      "target": "000878",
+      "relation": "COMPETES_WITH",
+      "fact": "同为铜冶炼企业，在铜材生产和销售领域存在竞争",
+      "weight": 1.0
+    },
+    {
+      "source": "000630",
+      "target": "601899",
+      "relation": "SUPPLIES_TO",
+      "fact": "铜陵有色可能向紫金矿业供应铜精矿或铜产品",
+      "weight": 1.0
+    },
+    {
+      "source": "000661",
+      "target": "600276",
+      "relation": "COMPETES_WITH",
+      "fact": "同为生物医药行业龙头企业，在创新药研发和市场存在竞争",
+      "weight": 1.0
+    },
+    {
+      "source": "000661",
+      "target": "000963",
+      "relation": "COMPETES_WITH",
+      "fact": "在医药制造和销售领域存在竞争，特别是在生物制品市场",
+      "weight": 1.0
+    },
+    {
+      "source": "000661",
+      "target": "002007",
+      "relation": "COMPETES_WITH",
+      "fact": "同为生物制品企业，在血液制品和疫苗市场存在竞争",
+      "weight": 1.0
+    },
+    {
+      "source": "000768",
+      "target": "600893",
+      "relation": "SUPPLIES_TO",
+      "fact": "中航西飞作为飞机制造商，向航发动力采购航空发动机",
+      "weight": 1.0
+    },
+    {
+      "source": "000768",
+      "target": "600372",
+      "relation": "SUPPLIES_TO",
+      "fact": "中航西飞向中航电子采购机载电子设备和系统",
+      "weight": 1.0
+    },
+    {
+      "source": "000768",
+      "target": "000738",
+      "relation": "SUPPLIES_TO",
+      "fact": "中航西飞向航发控制采购航空发动机控制系统",
+      "weight": 1.0
+    },
+    {
+      "source": "000776",
+      "target": "600030",
+      "relation": "COMPETES_WITH",
+      "fact": "同为头部证券公司，在投行、经纪和资管业务存在竞争",
+      "weight": 1.0
+    },
+    {
+      "source": "000776",
+      "target": "601688",
+      "relation": "COMPETES_WITH",
+      "fact": "在证券经纪、投资银行和财富管理领域存在直接竞争",
+      "weight": 1.0
+    },
+    {
+      "source": "000776",
+      "target": "000166",
+      "relation": "COMPETES_WITH",
+      "fact": "同为综合性证券公司，在多个业务板块存在竞争关系",
+      "weight": 1.0
+    },
+    {
+      "source": "000301",
+      "target": "600028",
+      "relation": "SUPPLIES_TO",
+      "fact": "东方盛虹作为石化企业，可能向中国石化供应化工原料",
+      "weight": 1.0
+    },
+    {
+      "source": "000301",
+      "target": "000703",
+      "relation": "COMPETES_WITH",
+      "fact": "同为化纤和石化行业，在PTA和聚酯产品市场存在竞争",
+      "weight": 1.0
+    },
+    {
+      "source": "000301",
+      "target": "002493",
+      "relation": "COMPETES_WITH",
+      "fact": "在石化产业链中，特别是在炼化和化纤领域存在竞争",
+      "weight": 1.0
+    },
+    {
+      "source": "002475",
+      "target": "002241",
+      "relation": "COMPETES_WITH",
+      "fact": "同为苹果供应链核心供应商，在声学、光学等零部件领域存在竞争",
+      "weight": 1.0
+    },
+    {
+      "source": "002475",
+      "target": "002456",
+      "relation": "SUPPLIES_TO",
+      "fact": "立讯精密为欧菲光提供连接器、线缆等精密组件",
+      "weight": 1.0
+    },
+    {
+      "source": "002475",
+      "target": "000725",
+      "relation": "CUSTOMER_OF",
+      "fact": "立讯精密采购京东方A的显示面板用于其终端产品",
+      "weight": 1.0
+    },
+    {
+      "source": "002475",
+      "target": "002415",
+      "relation": "COOPERATES_WITH",
+      "fact": "在智能安防、物联网等领域有技术合作与供应链协同",
+      "weight": 1.0
+    },
+    {
+      "source": "002049",
+      "target": "002371",
+      "relation": "CUSTOMER_OF",
+      "fact": "紫光国微采购北方华创的半导体设备用于芯片制造",
+      "weight": 1.0
+    },
+    {
+      "source": "002049",
+      "target": "600584",
+      "relation": "COOPERATES_WITH",
+      "fact": "在芯片封装测试环节有长期合作关系",
+      "weight": 1.0
+    },
+    {
+      "source": "002049",
+      "target": "002156",
+      "relation": "COMPETES_WITH",
+      "fact": "在集成电路设计、安全芯片等领域存在市场竞争",
+      "weight": 1.0
+    },
+    {
+      "source": "002049",
+      "target": "000063",
+      "relation": "SUPPLIES_TO",
+      "fact": "紫光国微为中兴通讯提供通信芯片、安全芯片等产品",
+      "weight": 1.0
+    },
+    {
+      "source": "688012",
+      "target": "002371",
+      "relation": "COMPETES_WITH",
+      "fact": "同为国内半导体设备龙头，在刻蚀设备等领域存在竞争",
+      "weight": 1.0
+    },
+    {
+      "source": "688012",
+      "target": "688981",
+      "relation": "SUPPLIES_TO",
+      "fact": "中微公司为中芯国际提供刻蚀机等半导体制造设备",
+      "weight": 1.0
+    },
+    {
+      "source": "688012",
+      "target": "688126",
+      "relation": "CUSTOMER_OF",
+      "fact": "中微公司采购沪硅产业的硅片材料用于设备研发与测试",
+      "weight": 1.0
+    },
+    {
+      "source": "688012",
+      "target": "688396",
+      "relation": "COOPERATES_WITH",
+      "fact": "在半导体设备国产化、技术研发方面有战略合作",
+      "weight": 1.0
+    },
+    {
+      "source": "300059",
+      "target": "601688",
+      "relation": "COMPETES_WITH",
+      "fact": "在证券经纪、财富管理等金融服务领域存在竞争",
+      "weight": 1.0
+    },
+    {
+      "source": "300059",
+      "target": "000776",
+      "relation": "COOPERATES_WITH",
+      "fact": "在基金销售、金融产品代销等方面有业务合作",
+      "weight": 1.0
+    },
+    {
+      "source": "300059",
+      "target": "601318",
+      "relation": "CUSTOMER_OF",
+      "fact": "东方财富采购中国平安的保险、金融科技等服务",
+      "weight": 1.0
+    },
+    {
+      "source": "300059",
+      "target": "000001",
+      "relation": "SUPPLIES_TO",
+      "fact": "东方财富为平安银行提供金融数据、技术平台支持",
+      "weight": 1.0
+    },
+    {
+      "source": "002352",
+      "target": "002120",
+      "relation": "COMPETES_WITH",
+      "fact": "同为快递物流行业龙头，在快递服务市场存在竞争",
+      "weight": 1.0
+    },
+    {
+      "source": "002352",
+      "target": "002352",
+      "relation": "COOPERATES_WITH",
+      "fact": "顺丰控股与自身供应链体系协同，如内部物流网络合作",
+      "weight": 1.0
+    },
+    {
+      "source": "002352",
+      "target": "000858",
+      "relation": "SUPPLIES_TO",
+      "fact": "顺丰控股为五粮液提供高端物流、仓储配送服务",
+      "weight": 1.0
+    },
+    {
+      "source": "002352",
+      "target": "000333",
+      "relation": "CUSTOMER_OF",
+      "fact": "顺丰控股采购美的集团的空调、电器等设备用于办公与仓储",
       "weight": 1.0
     }
   ],

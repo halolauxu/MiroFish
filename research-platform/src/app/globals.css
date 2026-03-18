@@ -1,0 +1,104 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+.dark {
+  --background: #0f172a;
+  --foreground: #e2e8f0;
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+}
+
+/* ─── Dark mode overrides (class-based) ─── */
+/* Cards, panels */
+.dark .bg-white {
+  background-color: #1e293b;
+}
+.dark .bg-gray-50 {
+  background-color: #0f172a;
+}
+.dark .bg-gray-100 {
+  background-color: #1e293b;
+}
+
+/* Borders */
+.dark .border-gray-200,
+.dark .border-gray-100,
+.dark .border-gray-50 {
+  border-color: #334155;
+}
+
+/* Text colors */
+.dark .text-gray-900 {
+  color: #f1f5f9;
+}
+.dark .text-gray-800 {
+  color: #e2e8f0;
+}
+.dark .text-gray-700 {
+  color: #cbd5e1;
+}
+.dark .text-gray-600 {
+  color: #94a3b8;
+}
+.dark .text-gray-500 {
+  color: #64748b;
+}
+.dark .text-gray-400 {
+  color: #64748b;
+}
+
+/* Hover states */
+.dark .hover\:bg-blue-50\/30:hover {
+  background-color: rgba(30, 58, 138, 0.2);
+}
+.dark .hover\:bg-gray-50:hover {
+  background-color: #334155;
+}
+.dark .hover\:bg-gray-100:hover {
+  background-color: #334155;
+}
+.dark .hover\:border-blue-300:hover {
+  border-color: #60a5fa;
+}
+
+/* Alert/insight backgrounds */
+.dark .bg-amber-50 {
+  background-color: rgba(245, 158, 11, 0.1);
+}
+.dark .border-amber-200 {
+  border-color: rgba(245, 158, 11, 0.3);
+}
+.dark .bg-blue-50 {
+  background-color: rgba(59, 130, 246, 0.1);
+}
+.dark .border-blue-200 {
+  border-color: rgba(59, 130, 246, 0.3);
+}
+
+/* Table header */
+.dark .bg-gray-50 th,
+.dark th {
+  color: #94a3b8;
+}
+
+/* Skeleton loading */
+.dark .animate-pulse {
+  opacity: 0.3;
+}
+
+/* Scrollbar */
+.dark ::-webkit-scrollbar-track {
+  background: #1e293b;
+}
+.dark ::-webkit-scrollbar-thumb {
+  background: #475569;
+}

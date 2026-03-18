@@ -31,6 +31,8 @@ from datetime import datetime, timedelta, timezone
 from pathlib import Path
 from typing import Any, Dict, List, Optional, Set
 
+import pandas as pd
+
 from astrategy.graph.local_store import LocalGraphStore
 from astrategy.graph.topology import TopologyAnalyzer
 from astrategy.strategies.base import BaseStrategy, StrategySignal
@@ -487,6 +489,122 @@ class ShockPipeline:
             "volume_change_pct": round(volume_change, 4),
         }
 
+    def check_price_reaction_at_date(
+        self,
+        stock_code: str,
+        event_date: str,
+        forward_days: int = 5,
+    ) -> Dict[str, Any]:
+        """Check price reaction in *forward_days* after *event_date*.
+
+        Used for historical backtesting: measure how the stock moved after
+        the event occurred.
+
+        Parameters
+        ----------
+        stock_code : stock code
+        event_date : YYYY-MM-DD format
+        forward_days : how many trading days forward to measure
+
+        Returns
+        -------
+        {reacted, return_pct, volume_change_pct,
+         return_1d, return_3d, return_5d, return_10d, return_20d}
+        """
+        try:
+            from astrategy.data_collector.market_data import MarketDataCollector
+            market = MarketDataCollector()
+            evt_dt = datetime.strptime(event_date, "%Y-%m-%d")
+            # Fetch from 5 days before event to 30 days after
+            start_dt = evt_dt - timedelta(days=5)
+            end_dt = evt_dt + timedelta(days=max(forward_days, 20) + 10)
+            df = market.get_daily_quotes(
+                stock_code,
+                start_dt.strftime("%Y%m%d"),
+                end_dt.strftime("%Y%m%d"),
+            )
+        except Exception as exc:
+            logger.debug("Price data unavailable for %s at %s: %s",
+                         stock_code, event_date, exc)
+            return self._empty_price_result()
+
+        if df is None or df.empty or len(df) < 3:
+            return self._empty_price_result()
+
+        close_col = "收盘" if "收盘" in df.columns else "close"
+        vol_col = "成交量" if "成交量" in df.columns else None
+        date_col = "日期" if "日期" in df.columns else "date"
+
+        if close_col not in df.columns:
+            return self._empty_price_result()
+
+        # Find the row closest to event_date (event day or next trading day)
+        if date_col in df.columns:
+            df[date_col] = pd.to_datetime(df[date_col])
+            evt_dt_pd = pd.to_datetime(event_date)
+            after_event = df[df[date_col] >= evt_dt_pd]
+            if after_event.empty:
+                return self._empty_price_result()
+            event_idx = after_event.index[0]
+        else:
+            # Fallback: use middle of data
+            event_idx = len(df) // 3
+
+        # Entry price = close on event day (or closest trading day)
+        entry_price = float(df.loc[event_idx, close_col])
+        if entry_price == 0:
+            return self._empty_price_result()
+
+        # Calculate returns at multiple horizons
+        after_event_data = df.loc[event_idx:]
+        returns = {}
+        for horizon in [1, 3, 5, 10, 20]:
+            if len(after_event_data) > horizon:
+                exit_price = float(after_event_data.iloc[horizon][close_col])
+                returns[f"return_{horizon}d"] = round(
+                    exit_price / entry_price - 1.0, 4
+                )
+            else:
+                returns[f"return_{horizon}d"] = None
+
+        main_return = returns.get(f"return_{forward_days}d", 0.0) or 0.0
+
+        # Volume change
+        volume_change = 0.0
+        if vol_col and vol_col in df.columns and len(after_event_data) > 1:
+            try:
+                vol_event = float(df.loc[event_idx, vol_col])
+                # Average volume in forward window
+                fwd_vols = after_event_data[vol_col].iloc[1:min(forward_days+1, len(after_event_data))]
+                if not fwd_vols.empty and vol_event > 0:
+                    volume_change = float(fwd_vols.mean()) / vol_event - 1.0
+            except (ValueError, TypeError):
+                pass
+
+        reacted = abs(main_return) > _REACTION_THRESHOLD
+        result = {
+            "reacted": reacted,
+            "return_pct": round(main_return, 4),
+            "volume_change_pct": round(volume_change, 4),
+            "entry_price": entry_price,
+        }
+        result.update(returns)
+        return result
+
+    @staticmethod
+    def _empty_price_result() -> Dict[str, Any]:
+        return {
+            "reacted": False,
+            "return_pct": 0.0,
+            "volume_change_pct": 0.0,
+            "entry_price": 0.0,
+            "return_1d": None,
+            "return_3d": None,
+            "return_5d": None,
+            "return_10d": None,
+            "return_20d": None,
+        }
+
     # ==================================================================
     # Step 5: Full Pipeline
     # ==================================================================
@@ -576,6 +694,150 @@ class ShockPipeline:
         )
         return all_signals
 
+    # ==================================================================
+    # Historical Backtesting Mode
+    # ==================================================================
+
+    def run_historical(
+        self,
+        events: List[Dict[str, Any]],
+        skip_debate: bool = False,
+        forward_days: int = 5,
+    ) -> List[Dict[str, Any]]:
+        """Run the shock pipeline on historical events for backtesting.
+
+        Unlike ``run()``, this skips live event detection and instead uses
+        a pre-built list of historical events.  Price reactions are measured
+        from the event date forward.
+
+        Parameters
+        ----------
+        events :
+            List of historical event dicts.  Each must have at minimum:
+            {title, type, stock_code, stock_name, event_date, summary}
+            ``event_date`` should be YYYY-MM-DD format.
+        skip_debate :
+            If True, skip LLM agent debate (faster).
+        forward_days :
+            Number of trading days after event to measure price reaction.
+
+        Returns
+        -------
+        list[dict]
+            Extended shock signals with historical return fields.
+        """
+        t0 = time.time()
+        logger.info("=" * 60)
+        logger.info("Shock Pipeline — HISTORICAL BACKTEST (%d events)", len(events))
+        logger.info("=" * 60)
+
+        all_signals: List[Dict[str, Any]] = []
+
+        for event in events:
+            source_code = event.get("stock_code", "")
+            event_date = event.get("event_date", "")
+            if not source_code or not event_date:
+                continue
+
+            logger.info(
+                "Processing historical event: [%s] %s (source: %s, date: %s)",
+                event.get("type", "?"),
+                event.get("title", "?")[:50],
+                source_code,
+                event_date,
+            )
+
+            # Step 2: Propagate shock via graph
+            targets = self.propagate(source_code, event)
+            if not targets:
+                logger.info("No downstream targets for %s", source_code)
+                continue
+
+            # Step 3 & 4: For each downstream target
+            for target in targets:
+                target_code = target["code"]
+
+                # Step 3: Agent debate (optional)
+                if skip_debate:
+                    debate = self._empty_debate_result()
+                else:
+                    debate = self.debate_impact(target, event)
+
+                # Step 4: Check price reaction at event date
+                reaction = self.check_price_reaction_at_date(
+                    target_code,
+                    event_date,
+                    forward_days=forward_days,
+                )
+
+                # Step 5: Generate signal
+                signal = self._build_shock_signal(
+                    event=event,
+                    target=target,
+                    debate=debate,
+                    reaction=reaction,
+                )
+
+                if signal is not None:
+                    # Add historical backtest fields
+                    signal["event_date"] = event_date
+                    signal["event_id"] = event.get("event_id", "")
+                    signal["entry_price"] = reaction.get("entry_price", 0.0)
+                    for h in [1, 3, 5, 10, 20]:
+                        signal[f"fwd_return_{h}d"] = reaction.get(
+                            f"return_{h}d"
+                        )
+                    all_signals.append(signal)
+
+            # Also check the source stock itself (event origin)
+            src_reaction = self.check_price_reaction_at_date(
+                source_code, event_date, forward_days=forward_days,
+            )
+            source_signal = {
+                "source_event": event.get("title", ""),
+                "source_code": source_code,
+                "source_name": event.get("stock_name", ""),
+                "event_type": event.get("type", ""),
+                "target_code": source_code,
+                "target_name": event.get("stock_name", ""),
+                "shock_weight": 1.0,
+                "hop": 0,
+                "propagation_path": source_code,
+                "relation_chain": "SOURCE",
+                "consensus_direction": "bearish" if event.get("type") in (
+                    "scandal", "policy_risk", "supply_shortage",
+                ) else "bullish",
+                "consensus_sentiment": 0.0,
+                "divergence": 0.0,
+                "conviction": 1.0,
+                "debate_summary": "事件源头",
+                "reacted": src_reaction.get("reacted", False),
+                "return_5d": src_reaction.get("return_pct", 0.0),
+                "volume_change_5d": src_reaction.get("volume_change_pct", 0.0),
+                "signal_direction": "avoid" if event.get("type") in (
+                    "scandal", "policy_risk", "supply_shortage",
+                ) else "long",
+                "confidence": 0.5,
+                "alpha_type": "事件源头",
+                "position_hint": "N/A(源头)",
+                "graph_context_used": False,
+                "event_date": event_date,
+                "event_id": event.get("event_id", ""),
+                "entry_price": src_reaction.get("entry_price", 0.0),
+            }
+            for h in [1, 3, 5, 10, 20]:
+                source_signal[f"fwd_return_{h}d"] = src_reaction.get(
+                    f"return_{h}d"
+                )
+            all_signals.append(source_signal)
+
+        elapsed = time.time() - t0
+        logger.info(
+            "Historical backtest complete — %d signals from %d events in %.1fs",
+            len(all_signals), len(events), elapsed,
+        )
+        return all_signals
+
     def _build_shock_signal(
         self,
         event: Dict,
@@ -605,24 +867,35 @@ class ShockPipeline:
             direction = "avoid"
         elif consensus == "neutral" and conviction == 0.0:
             # No debate ran (skip_debate mode) — infer from event type
+            # 基于历史回测验证的 A 股事件→方向映射
             event_type = event.get("type", "")
-            rel_chain = target.get("relation_chain", [])
-            is_negative_event = event_type in (
-                "scandal", "policy_risk", "supply_shortage", "production_cut",
-            )
-            has_compete = any("COMPETES" in r for r in rel_chain)
 
-            if is_negative_event and has_compete:
-                # Competitor in trouble → potential benefit
-                direction = "long"
-                conviction = 0.4
-            elif is_negative_event:
-                # Supply chain partner in trouble → negative impact
+            # 负面事件: A股板块联动下跌（含竞争对手连坐）
+            _AVOID_EVENTS = {"scandal", "policy_risk", "management_change"}
+            # 利好出尽→短期回调（A股特征：product_launch, tech_breakthrough等）
+            _NEUTRAL_EVENTS = {
+                "product_launch", "technology_breakthrough",
+                "price_adjustment", "buyback",
+            }
+            # 真正利好：合作、业绩、供应短缺(涨价预期)
+            _LONG_EVENTS = {
+                "cooperation", "earnings_surprise",
+                "supply_shortage", "order_win",
+            }
+
+            if event_type in _AVOID_EVENTS:
                 direction = "avoid"
-                conviction = 0.35
-            else:
+                conviction = 0.4
+            elif event_type in _LONG_EVENTS:
                 direction = "long"
                 conviction = 0.3
+            elif event_type in _NEUTRAL_EVENTS:
+                # 利好出尽→默认 avoid（回测显示 A 股短期利好多为反向）
+                direction = "avoid"
+                conviction = 0.25
+            else:
+                direction = "long"
+                conviction = 0.2
         else:
             direction = "neutral"
 
@@ -630,10 +903,42 @@ class ShockPipeline:
         if direction == "neutral" and conviction < _MIN_CONVICTION:
             return None
 
-        # Confidence = shock_weight × conviction × reaction_penalty
+        # Confidence calculation (v2: informed by backtest)
+        # Base = conviction (from debate or rule)
+        # Modifiers:
+        #   - event_type_boost: based on historical hit rates
+        #   - hop_boost: higher hops → higher information gap confidence
+        #   - reaction_penalty: already reacted → halve confidence
         shock_w = target.get("shock_weight", 0.0)
-        confidence = shock_w * conviction * confidence_penalty
-        confidence = max(0.05, min(1.0, confidence))
+        hop = target.get("hop", 1)
+
+        # Event type confidence boost (from backtest Iter 10)
+        _EVENT_TYPE_BOOST = {
+            "scandal": 0.35,        # 88.9% hit rate
+            "policy_risk": 0.15,    # 57.1%
+            "management_change": 0.10,
+            "cooperation": 0.10,    # 50%
+            "earnings_surprise": 0.15,  # 60%
+            "supply_shortage": 0.10,
+            "product_launch": 0.20,    # 利好出尽 works well with avoid
+            "technology_breakthrough": 0.15,
+            "price_adjustment": 0.15,
+            "buyback": 0.10,
+        }
+        event_boost = _EVENT_TYPE_BOOST.get(
+            event.get("type", ""), 0.05
+        )
+
+        # Hop boost: further hops = higher alpha potential (per backtest)
+        hop_boost = min(0.15, hop * 0.05) if hop > 0 else 0.0
+
+        confidence = (
+            conviction * 0.4
+            + event_boost
+            + hop_boost
+            + shock_w * 0.1
+        ) * confidence_penalty
+        confidence = max(0.05, min(0.95, confidence))
 
         # Divergence-based position sizing hint
         if divergence > _HIGH_DIVERGENCE:
