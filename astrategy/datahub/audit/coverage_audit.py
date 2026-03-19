@@ -158,6 +158,11 @@ def build_coverage_audit(
         for row in universe_membership.get("memberships", [])
         if row.get("universe_id") == universe_id
     ]
+    membership_name_map = {
+        str(row.get("ticker", "")).zfill(6): str(row.get("company_name", "")).strip()
+        for row in universe_membership.get("memberships", [])
+        if row.get("universe_id") == universe_id
+    }
     security_index = {
         str(item["ticker"]).zfill(6): item
         for item in security_master
@@ -169,7 +174,7 @@ def build_coverage_audit(
         event_info = event_stats.get(ticker, {})
         row = {
             "ticker": ticker,
-            "company_name": sec.get("company_name", ticker),
+            "company_name": sec.get("company_name") or membership_name_map.get(ticker) or ticker,
             "has_prices": ticker in price_codes,
             "price_row_count": int(price_stats.get(ticker, {}).get("row_count", 0)),
             "price_start": str(price_stats.get(ticker, {}).get("price_start", "")),

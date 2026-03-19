@@ -84,6 +84,30 @@ def _retry(fn, *args, retries: int = 2, delay: float = 0.5, timeout: float = 15.
 class MarketDataCollector:
     """Collect A-share market data via akshare."""
 
+    @staticmethod
+    def _normalize_daily_frame(df: pd.DataFrame, start: str, end: str) -> pd.DataFrame:
+        """Normalize vendor-specific daily frames to the common schema."""
+        if df is None or df.empty:
+            return pd.DataFrame()
+
+        if "date" in df.columns:
+            df = df.copy()
+            df["date"] = pd.to_datetime(df["date"])
+            start_dt = pd.to_datetime(start)
+            end_dt = pd.to_datetime(end)
+            df = df[(df["date"] >= start_dt) & (df["date"] <= end_dt)]
+            df = df.reset_index(drop=True)
+            col_map = {
+                "date": "日期",
+                "open": "开盘",
+                "high": "最高",
+                "low": "最低",
+                "close": "收盘",
+                "volume": "成交量",
+            }
+            return df.rename(columns=col_map)
+        return df
+
     # ------------------------------------------------------------------
     # Daily K-line (日K线)
     # ------------------------------------------------------------------
@@ -128,26 +152,28 @@ class MarketDataCollector:
                 symbol=sina_code,
                 adjust=sina_adjust,
             )
-            if df is not None and not df.empty:
-                # Sina returns: date, open, high, low, close, volume
-                # Filter by date range
-                if "date" in df.columns:
-                    df["date"] = pd.to_datetime(df["date"])
-                    start_dt = pd.to_datetime(start)
-                    end_dt = pd.to_datetime(end)
-                    df = df[(df["date"] >= start_dt) & (df["date"] <= end_dt)]
-                    df = df.reset_index(drop=True)
-                    # Rename to match expected columns
-                    col_map = {
-                        "date": "日期", "open": "开盘", "high": "最高",
-                        "low": "最低", "close": "收盘", "volume": "成交量",
-                    }
-                    df = df.rename(columns=col_map)
+            df = self._normalize_daily_frame(df, start, end)
             _set_cache(cache_key, df)
             return df
         except Exception as exc:
-            logger.error("get_daily_quotes(%s) failed on both APIs: %s", code, exc)
-            return pd.DataFrame()
+            logger.warning("stock_zh_a_daily failed for %s: %s", code, exc)
+
+        # Special-case CDR codes like 689009 (九号公司).
+        if code.startswith("689"):
+            try:
+                cdr_code = f"sh{code}"
+                df = _retry(
+                    ak.stock_zh_a_cdr_daily,
+                    symbol=cdr_code,
+                )
+                df = self._normalize_daily_frame(df, start, end)
+                _set_cache(cache_key, df)
+                return df
+            except Exception as exc:
+                logger.warning("stock_zh_a_cdr_daily failed for %s: %s", code, exc)
+
+        logger.error("get_daily_quotes(%s) failed on all supported APIs", code)
+        return pd.DataFrame()
 
     # ------------------------------------------------------------------
     # Realtime quotes (实时行情)

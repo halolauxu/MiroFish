@@ -3,9 +3,9 @@
     "universe_id": "csi800",
     "ingest_date": "2026-03-19",
     "collect_filings": true,
-    "raw_announcements": 1102,
-    "important_announcements": 989,
-    "matched_universe_announcements": 149,
+    "raw_announcements": 1104,
+    "important_announcements": 991,
+    "matched_universe_announcements": 150,
     "matched_universe_tickers": 89
   },
   "rows": [
@@ -24,6 +24,23 @@
         "公告类型": "获得认证",
         "公告日期": "2026-03-19",
         "网址": "https://data.eastmoney.com/notices/detail/300832/AN202603191820649292.html"
+      }
+    },
+    {
+      "ticker": "000776",
+      "company_name": "广发证券",
+      "title": "广发证券:广发证券股份有限公司2026年面向专业投资者公开发行永续次级债券(第二期)票面利率公告",
+      "announcement_type": "其他",
+      "publish_date": "2026-03-19",
+      "link": "",
+      "source": "akshare.stock_notice_report",
+      "raw": {
+        "代码": "000776",
+        "名称": "广发证券",
+        "公告标题": "广发证券:广发证券股份有限公司2026年面向专业投资者公开发行永续次级债券(第二期)票面利率公告",
+        "公告类型": "其他",
+        "公告日期": "2026-03-19",
+        "网址": "https://data.eastmoney.com/notices/detail/000776/AN202603191820652360.html"
       }
     },
     {

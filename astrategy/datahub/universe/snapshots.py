@@ -36,7 +36,7 @@ def build_universe_snapshots(
         grouped.setdefault(universe_id, []).append(
             {
                 "ticker": ticker,
-                "company_name": sec.get("company_name", ticker),
+                "company_name": sec.get("company_name") or row.get("company_name") or ticker,
                 "industry_l1": sec.get("industry_l1", ""),
                 "status": sec.get("status", ""),
                 "membership_source": row.get("membership_source", ""),
