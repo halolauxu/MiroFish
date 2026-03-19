@@ -38,6 +38,10 @@ def ingest_root() -> Path:
     return datahub_root() / "ingest"
 
 
+def graph_root() -> Path:
+    return datahub_root() / "graph"
+
+
 def graph_path() -> Path:
     return data_root() / "local_graph" / "supply_chain.json"
 
@@ -48,3 +52,7 @@ def event_master_path() -> Path:
 
 def pool_event_master_path() -> Path:
     return ingest_root() / "events" / "event_master.json"
+
+
+def sentiment_root() -> Path:
+    return ingest_root() / "sentiment"

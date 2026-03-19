@@ -9,13 +9,16 @@ from pathlib import Path
 from typing import Any, Dict
 
 from .audit import build_coverage_audit, save_coverage_audit
+from .graph import build_graph_layer, save_graph_layer
 from .ingest import (
     build_filings_layer,
     build_incremental_event_layer,
     build_news_layer,
+    build_sentiment_layer,
     save_filings_layer,
     save_incremental_event_layer,
     save_news_layer,
+    save_sentiment_layer,
 )
 from .market import build_price_layer, save_price_layer
 from .universe import (
@@ -48,6 +51,13 @@ def run_data_foundation(
     news_sample_limit: int | None = None,
     max_news_per_stock: int = 5,
     refresh_news: bool = False,
+    collect_graph: bool = False,
+    graph_top_concepts: int = 40,
+    graph_peer_limit: int = 3,
+    refresh_graph: bool = False,
+    collect_sentiment: bool = False,
+    refresh_sentiment: bool = False,
+    hot_topic_limit: int = 100,
 ) -> Dict[str, Any]:
     """Run the data-foundation bootstrap workflow."""
     as_of_date = ingest_date or date.today().isoformat()
@@ -58,6 +68,18 @@ def run_data_foundation(
     universe_path = save_universe_membership(universe_membership)
     snapshots = build_universe_snapshots(security_master, universe_membership)
     snapshot_paths = save_universe_snapshots(snapshots)
+
+    graph_layer = build_graph_layer(
+        security_master,
+        universe_membership,
+        universe_id=universe_id,
+        as_of_date=as_of_date,
+        collect_graph=collect_graph,
+        top_concepts=graph_top_concepts,
+        peer_limit=graph_peer_limit,
+        refresh_graph=refresh_graph,
+    )
+    graph_paths = save_graph_layer(graph_layer)
 
     price_layer = build_price_layer(
         universe_membership,
@@ -88,10 +110,23 @@ def run_data_foundation(
     )
     news_paths = save_news_layer(news_layer)
 
+    sentiment_layer = build_sentiment_layer(
+        universe_membership,
+        filings_layer,
+        news_layer,
+        universe_id=universe_id,
+        ingest_date=as_of_date,
+        collect_sentiment=collect_sentiment,
+        refresh_sentiment=refresh_sentiment,
+        hot_topic_limit=hot_topic_limit,
+    )
+    sentiment_paths = save_sentiment_layer(sentiment_layer)
+
     incremental_events = build_incremental_event_layer(
         security_master,
         filings_layer,
         news_layer,
+        sentiment_payload=sentiment_layer,
         ingest_date=as_of_date,
     )
     event_paths = save_incremental_event_layer(incremental_events)
@@ -108,16 +143,20 @@ def run_data_foundation(
         "security_master_path": str(security_path),
         "universe_membership_path": str(universe_path),
         "universe_snapshot_paths": {k: str(v) for k, v in snapshot_paths.items()},
+        "graph_paths": {k: str(v) for k, v in graph_paths.items()},
         "price_manifest_path": str(price_path),
         "filings_paths": {k: str(v) for k, v in filings_paths.items()},
         "news_paths": {k: str(v) for k, v in news_paths.items()},
+        "sentiment_paths": {k: str(v) for k, v in sentiment_paths.items()},
         "incremental_event_paths": {k: str(v) for k, v in event_paths.items()},
         "coverage_audit_json": str(audit_paths["json"]),
         "coverage_audit_markdown": str(audit_paths["markdown"]),
         "coverage_audit_daily_json": str(audit_paths["daily_json"]),
+        "graph_summary": graph_layer["summary"],
         "price_summary": price_layer["summary"],
         "filings_summary": filings_layer["summary"],
         "news_summary": news_layer["summary"],
+        "sentiment_summary": sentiment_layer["summary"],
         "incremental_event_summary": incremental_events["summary"],
         "coverage_summary": coverage_audit["summary"],
     }
@@ -181,6 +220,44 @@ def main() -> None:
         action="store_true",
         help="Refresh news files even when cached files already exist",
     )
+    parser.add_argument(
+        "--collect-graph",
+        action="store_true",
+        help="Expand graph nodes and edges for the target universe",
+    )
+    parser.add_argument(
+        "--graph-top-concepts",
+        type=int,
+        default=40,
+        help="Top concept boards to include during graph expansion",
+    )
+    parser.add_argument(
+        "--graph-peer-limit",
+        type=int,
+        default=3,
+        help="Maximum same-industry peer edges to add per stock",
+    )
+    parser.add_argument(
+        "--refresh-graph",
+        action="store_true",
+        help="Refresh graph-side profile lookups even when cached",
+    )
+    parser.add_argument(
+        "--collect-sentiment",
+        action="store_true",
+        help="Build ticker-level sentiment layer from filings/news/hot topics",
+    )
+    parser.add_argument(
+        "--refresh-sentiment",
+        action="store_true",
+        help="Refresh sentiment analysis even when cached files already exist",
+    )
+    parser.add_argument(
+        "--hot-topic-limit",
+        type=int,
+        default=100,
+        help="Maximum market hot-topic rows to fetch for sentiment enrichment",
+    )
     args = parser.parse_args()
 
     result = run_data_foundation(
@@ -195,9 +272,17 @@ def main() -> None:
         news_sample_limit=args.news_sample_limit,
         max_news_per_stock=args.max_news_per_stock,
         refresh_news=args.refresh_news,
+        collect_graph=args.collect_graph,
+        graph_top_concepts=args.graph_top_concepts,
+        graph_peer_limit=args.graph_peer_limit,
+        refresh_graph=args.refresh_graph,
+        collect_sentiment=args.collect_sentiment,
+        refresh_sentiment=args.refresh_sentiment,
+        hot_topic_limit=args.hot_topic_limit,
     )
     logger.info("Security master: %s", result["security_master_path"])
     logger.info("Universe membership: %s", result["universe_membership_path"])
+    logger.info("Graph manifest: %s", result["graph_paths"]["manifest"])
     logger.info("Price manifest: %s", result["price_manifest_path"])
     logger.info("Daily coverage audit: %s", result["coverage_audit_daily_json"])
     logger.info("Coverage audit: %s", result["coverage_audit_json"])

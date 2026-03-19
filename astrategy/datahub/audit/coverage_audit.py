@@ -19,23 +19,47 @@ from ..common import (
     ingest_root,
     market_root,
     pool_event_master_path,
+    sentiment_root,
 )
 
 logger = logging.getLogger("astrategy.datahub.coverage_audit")
 
 
-def _load_graph_codes() -> set[str]:
+def _load_graph_stats() -> Dict[str, Dict[str, Any]]:
     path = graph_path()
     if not path.exists():
-        return set()
+        return {}
     data = json.loads(path.read_text(encoding="utf-8"))
     nodes = data.get("nodes", {})
+    edges = data.get("edges", [])
     if not isinstance(nodes, dict):
-        return set()
-    return {
-        code for code in nodes
-        if isinstance(code, str) and code.isdigit() and len(code) == 6
-    }
+        return {}
+
+    stats: Dict[str, Dict[str, Any]] = {}
+    for code in nodes:
+        if isinstance(code, str) and code.isdigit() and len(code) == 6:
+            stats[code] = {
+                "has_graph_node": True,
+                "graph_relation_count": 0,
+                "relation_types": Counter(),
+            }
+
+    for edge in edges if isinstance(edges, list) else []:
+        relation = str(edge.get("relation", "")).strip()
+        for key in ("source_name", "target_name", "source", "target"):
+            code = str(edge.get(key, "")).strip()
+            if code in stats:
+                stats[code]["graph_relation_count"] += 1
+                stats[code]["relation_types"][relation] += 1
+
+    normalized: Dict[str, Dict[str, Any]] = {}
+    for code, info in stats.items():
+        normalized[code] = {
+            "has_graph_node": bool(info["has_graph_node"]),
+            "graph_relation_count": int(info["graph_relation_count"]),
+            "top_relations": dict(info["relation_types"].most_common(5)),
+        }
+    return normalized
 
 
 def _load_event_stats() -> Dict[str, Dict[str, Any]]:
@@ -100,6 +124,27 @@ def _load_news_stats() -> Dict[str, Dict[str, Any]]:
     return stats
 
 
+def _load_sentiment_stats() -> Dict[str, Dict[str, Any]]:
+    path = sentiment_root() / "sentiment_manifest.json"
+    if not path.exists():
+        return {}
+    payload = json.loads(path.read_text(encoding="utf-8"))
+    stats: Dict[str, Dict[str, Any]] = {}
+    for row in payload.get("rows", []):
+        ticker = str(row.get("ticker", "")).strip().zfill(6)
+        if not ticker or ticker == "000000":
+            continue
+        stats[ticker] = {
+            "sentiment_item_count": int(row.get("sentiment_item_count", 0) or 0),
+            "target_date_sentiment_count": int(row.get("target_date_sentiment_count", 0) or 0),
+            "avg_sentiment_score": float(row.get("avg_sentiment_score", 0.0) or 0.0),
+            "attention_score": float(row.get("attention_score", 0.0) or 0.0),
+            "hot_rank": int(row.get("hot_rank", 0) or 0),
+            "sentiment_label": str(row.get("sentiment_label", "")).strip(),
+        }
+    return stats
+
+
 def _load_price_codes() -> set[str]:
     return {code for code, info in _load_price_stats().items() if int(info.get("row_count", 0)) > 0}
 
@@ -146,11 +191,12 @@ def build_coverage_audit(
     as_of_date: str | None = None,
 ) -> Dict[str, Any]:
     """Build a first-pass coverage audit for one universe."""
-    graph_codes = _load_graph_codes()
+    graph_stats = _load_graph_stats()
     event_stats = _load_event_stats()
     price_stats = _load_price_stats()
     filing_stats = _load_filings_stats()
     news_stats = _load_news_stats()
+    sentiment_stats = _load_sentiment_stats()
     price_codes = {code for code, info in price_stats.items() if int(info.get("row_count", 0)) > 0}
 
     universe_codes = [
@@ -172,6 +218,8 @@ def build_coverage_audit(
     for ticker in universe_codes:
         sec = security_index.get(ticker, {})
         event_info = event_stats.get(ticker, {})
+        graph_info = graph_stats.get(ticker, {})
+        sentiment_info = sentiment_stats.get(ticker, {})
         row = {
             "ticker": ticker,
             "company_name": sec.get("company_name") or membership_name_map.get(ticker) or ticker,
@@ -185,8 +233,20 @@ def build_coverage_audit(
             "has_news": int(news_stats.get(ticker, {}).get("news_count", 0)) > 0,
             "news_count": int(news_stats.get(ticker, {}).get("news_count", 0)),
             "target_date_news_count": int(news_stats.get(ticker, {}).get("target_date_news_count", 0)),
-            "has_sentiment": False,
-            "has_graph": ticker in graph_codes,
+            "has_sentiment": (
+                int(sentiment_info.get("sentiment_item_count", 0)) > 0
+                or int(sentiment_info.get("hot_rank", 0)) > 0
+            ),
+            "sentiment_item_count": int(sentiment_info.get("sentiment_item_count", 0)),
+            "target_date_sentiment_count": int(sentiment_info.get("target_date_sentiment_count", 0)),
+            "avg_sentiment_score": float(sentiment_info.get("avg_sentiment_score", 0.0)),
+            "attention_score": float(sentiment_info.get("attention_score", 0.0)),
+            "hot_rank": int(sentiment_info.get("hot_rank", 0)),
+            "sentiment_label": str(sentiment_info.get("sentiment_label", "")).strip(),
+            "has_graph": bool(graph_info.get("has_graph_node", False)),
+            "graph_relation_count": int(graph_info.get("graph_relation_count", 0)),
+            "has_graph_edges": int(graph_info.get("graph_relation_count", 0)) > 0,
+            "top_graph_relations": graph_info.get("top_relations", {}),
             "has_available_at": bool(event_info.get("available_at_complete", False)),
             "event_count": int(event_info.get("event_count", 0)),
             "top_event_types": event_info.get("top_event_types", {}),
@@ -197,6 +257,7 @@ def build_coverage_audit(
             and row["price_row_count"] >= 20
             and row["has_events"]
             and row["has_graph"]
+            and row["has_graph_edges"]
             and row["has_available_at"]
             and row["coverage_score"] >= 0.70
         )
@@ -213,6 +274,7 @@ def build_coverage_audit(
         "has_news": sum(1 for row in rows if row["has_news"]),
         "has_sentiment": sum(1 for row in rows if row["has_sentiment"]),
         "has_graph": sum(1 for row in rows if row["has_graph"]),
+        "has_graph_edges": sum(1 for row in rows if row["has_graph_edges"]),
         "has_available_at": sum(1 for row in rows if row["has_available_at"]),
         "research_ready": sum(1 for row in rows if row["research_ready"]),
         "avg_coverage_score": round(
@@ -260,7 +322,9 @@ def _format_markdown(audit: Dict[str, Any]) -> str:
         f"- 事件覆盖: {summary['has_events']}",
         f"- filings覆盖: {summary['has_filings']}",
         f"- news覆盖: {summary['has_news']}",
+        f"- sentiment覆盖: {summary['has_sentiment']}",
         f"- 图谱覆盖: {summary['has_graph']}",
+        f"- 图谱有边覆盖: {summary['has_graph_edges']}",
         f"- available_at 完整: {summary['has_available_at']}",
         f"- research_ready: {summary['research_ready']}",
         f"- 平均覆盖分: {summary['avg_coverage_score']:.4f}",
