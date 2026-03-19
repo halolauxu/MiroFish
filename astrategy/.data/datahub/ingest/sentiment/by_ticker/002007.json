@@ -1,0 +1,58 @@
+{
+  "ticker": "002007",
+  "company_name": "华兰生物",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "news",
+      "title": "华兰生物：帕博利珠单抗注射液生物类似药获批开展临床",
+      "summary": "华兰生物（002007）发布公告，参股公司华兰安康生物股份有限公司于2026年2月25日收到国家药品监督管理局的《药物临床试验批准通知书》。标志着华兰安康研发的帕博利珠单抗注射液可以正式开展临床试验。",
+      "publish_date": "2026-02-25",
+      "available_at": "2026-02-25T18:25:10",
+      "sentiment_score": 0.0,
+      "category": "产品进展",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "关于参股公司收到药物临床试验批准通知书的公告",
+      "summary": "",
+      "publish_date": "2026-02-26",
+      "available_at": "2026-02-26T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "拒绝“卖青苗” 破解研发“断粮危机” 两会代表委员叩问创新药价值兑现之路 | 两会财经眼",
+      "summary": "全国人大代表、华兰生物（002007.SZ）董事长安康也表达了类似判断。他对财联社记者表示，“凭借庞大的患者基数和高效的创新体系，中国生物医药力量正重塑全球创新药产业格局，但我们也必须清醒看到，与国际先进水平和国家战略需求相比，国内产业仍存在差距。”",
+      "publish_date": "2026-03-09",
+      "available_at": "2026-03-09T17:35:44",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "华兰生物：公司持有华兰安康生物股份有限公司（原华兰基因）40%的股份",
+      "summary": "华兰生物（002007.SZ）3月18日在投资者互动平台表示，截至目前，公司持有华兰安康生物股份有限公司（原华兰基因）40%的股份。",
+      "publish_date": "2026-03-18",
+      "available_at": "2026-03-18T17:44:25",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 0,
+  "hot_reason": "",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

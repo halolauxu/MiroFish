@@ -1,0 +1,82 @@
+{
+  "ticker": "688692",
+  "company_name": "达梦数据",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "news",
+      "title": "688692，高级副总经理解除留置！",
+      "summary": "2月13日晚，达梦数据688692公告称，公司近日收到湖北省应城市监察委员会出具的《解除留置通知书》，应城市监察委员会已解除对陈文的留置措施。目前，公司生产经营管理情况正常，陈文已能正常履行高级副总经理职责。",
+      "publish_date": "2026-02-13",
+      "available_at": "2026-02-13T21:15:04",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "2026年第一次临时股东会会议资料",
+      "summary": "",
+      "publish_date": "2026-02-27",
+      "available_at": "2026-02-27T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "2025年度业绩快报公告",
+      "summary": "业绩预告",
+      "publish_date": "2026-02-27",
+      "available_at": "2026-02-27T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "业绩公告",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "2026年第一次临时股东会决议公告",
+      "summary": "",
+      "publish_date": "2026-03-07",
+      "available_at": "2026-03-07T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "计算机行业今日涨2.46%，主力资金净流入53.26亿元",
+      "summary": "3.41 -8557.42 300469 信息发展 -2.53 3.48 -8191.91 002230 科大讯飞 0.80 1.38 -6095.64 300551 古鳌科技 -4.79 6.24 -5981.98 002920 德赛西威 -0.54 0.96 -5036.46 688692",
+      "publish_date": "2026-03-18",
+      "available_at": "2026-03-18T17:07:04",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "94只科创板股票跻身百元股阵营",
+      "summary": "10.14 电子 688411 海博思创 257.90 1.93 4.00 电力设备 688125 安达智能 251.00 0.76 1.01 机械设备 688627 精智达 245.60 4.76 5.72 机械设备 688019 安集科技 243.80 3.89 1.58 电子 688692",
+      "publish_date": "2026-03-18",
+      "available_at": "2026-03-18T17:56:17",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 0,
+  "hot_reason": "",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

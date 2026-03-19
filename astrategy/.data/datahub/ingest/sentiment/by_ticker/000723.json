@@ -1,0 +1,70 @@
+{
+  "ticker": "000723",
+  "company_name": "美锦能源",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "news",
+      "title": "突发，000723，160万手封涨停！",
+      "summary": "【导读】光伏板块多股涨停，煤炭板块强势拉升 一起来看下最新的市场情况及资讯。 2月4日上午，A股三大指数走势分化，创业板指一度跌逾2%，截至午间收盘，深成指跌0.92%，创业板指跌1.74%。 从板块上看，煤炭板块强势走高，光伏、航空、地产等板块震荡拉升；互联网、文化传媒",
+      "publish_date": "2026-02-04",
+      "available_at": "2026-02-04T12:35:43",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "关于共同发起设立股权投资基金的进展公告",
+      "summary": "",
+      "publish_date": "2026-02-28",
+      "available_at": "2026-02-28T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "关于公司高级管理人员离任的公告",
+      "summary": "",
+      "publish_date": "2026-03-07",
+      "available_at": "2026-03-07T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "20.90亿元主力资金今日抢筹煤炭板块",
+      "summary": "6.11 11.43 10366.91 601918 新集能源 4.13 3.98 6991.77 600546 山煤国际 3.94 3.60 5497.93 600408 安泰集团 2.74 9.12 5478.50 002128 电投能源 5.22 1.33 5380.86 000723",
+      "publish_date": "2026-03-12",
+      "available_at": "2026-03-12T17:19:34",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "煤炭行业今日涨1.82%，主力资金净流入3.61亿元",
+      "summary": "2.72 -2575.84 600985 淮北矿业 -0.22 1.01 -2853.94 601918 新集能源 -0.13 2.61 -2895.40 600575 淮河能源 0.24 2.46 -3303.89 601898 中煤能源 3.63 0.79 -5076.16 000723",
+      "publish_date": "2026-03-19",
+      "available_at": "2026-03-19T18:05:43",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 0,
+  "hot_reason": "",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

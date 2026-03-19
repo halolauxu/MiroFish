@@ -1,0 +1,46 @@
+{
+  "ticker": "300699",
+  "company_name": "光威复材",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "news",
+      "title": "光威复材：维斯塔斯目前仍然是公司的重要客户，来自维斯塔斯的业务在公司风电碳梁业务中的比例有所下降",
+      "summary": "光威复材（300699.SZ）3月18日在投资者互动平台表示，维斯塔斯目前仍然是公司的重要客户，只是因为近年公司不断开发新客户，来自维斯塔斯的业务在公司风电碳梁业务中的比例有所下降。",
+      "publish_date": "2026-03-18",
+      "available_at": "2026-03-18T12:36:44",
+      "sentiment_score": -0.7,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "光威复材：公司目前没有赴港上市相关计划",
+      "summary": "光威复材（300699.SZ）3月18日在投资者互动平台表示，公司目前没有相关计划。",
+      "publish_date": "2026-03-19",
+      "available_at": "2026-03-19T08:28:25",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "光威复材：友商关于T1200级碳纤维的新产品发布或进展对公司没有影响",
+      "summary": "光威复材（300699.SZ）3月18日在投资者互动平台表示，国际局势的突然变化确实对原材料价格以及生产成本影响明显，特别是材料成本在成本结构中比例比较大的产品品质，公司也会在加强成本管控和工艺技术管理的基础上，根据供需格局和市场变化合理调整市场策略积极应对；关于T1200级碳纤维新品",
+      "publish_date": "2026-03-19",
+      "available_at": "2026-03-19T08:28:27",
+      "sentiment_score": 0.5,
+      "category": "产品进展",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 0,
+  "hot_reason": "",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

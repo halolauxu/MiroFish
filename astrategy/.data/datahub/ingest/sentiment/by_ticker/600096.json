@@ -1,0 +1,94 @@
+{
+  "ticker": "600096",
+  "company_name": "云天化",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "filing",
+      "title": "云天化：云天化集团有限责任公司关于云南云天化股份有限公司股票价格异常波动征询的复函",
+      "summary": "",
+      "publish_date": "2026-02-27",
+      "available_at": "2026-02-27T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "云天化：云南省国资委关于云南云天化股份有限公司股票价格异动情况的函",
+      "summary": "",
+      "publish_date": "2026-02-27",
+      "available_at": "2026-02-27T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "云天化股票交易异常波动公告",
+      "summary": "",
+      "publish_date": "2026-02-27",
+      "available_at": "2026-02-27T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "基础化工行业资金流出榜：万华化学等17股净流出资金超亿元",
+      "summary": "300798 锦鸡股份 3.68 12.39 5270.64 002585 双星新材 5.37 8.46 4800.72 基础化工行业资金流出榜 代码 简称 今日涨跌幅（%） 今日换手率（%） 主力资金流量（万元） 600309 万华化学 -6.00 2.55 -73638.95 600096",
+      "publish_date": "2026-03-16",
+      "available_at": "2026-03-16T17:12:19",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "基础化工行业资金流出榜：多氟多、吉林化纤等净流出资金居前",
+      "summary": "17899.99 603077 和邦生物 -3.25 4.54 -16734.21 600227 赤天化 -5.48 31.78 -15926.59 600367 红星发展 -9.22 21.21 -15344.05 600722 金牛化工 -10.00 19.13 -14278.48 600096",
+      "publish_date": "2026-03-18",
+      "available_at": "2026-03-18T17:06:31",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "hot_topic",
+      "title": "云天化",
+      "summary": "雪球关注#128; 雪球讨论#97; 雪球交易#81",
+      "publish_date": "2026-03-19",
+      "available_at": "2026-03-19T00:00:00",
+      "sentiment_score": 0.162,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.25,
+      "hot_rank": 59
+    },
+    {
+      "source_type": "news",
+      "title": "57.58亿元资金今日流出基础化工股",
+      "summary": "26513.17 600370 三房巷 -9.37 13.58 -25533.86 002407 多氟多 -5.97 6.54 -22618.90 002470 金正大 -6.41 21.05 -20618.05 600873 梅花生物 -4.58 2.98 -18621.74 600096",
+      "publish_date": "2026-03-19",
+      "available_at": "2026-03-19T18:05:40",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 59,
+  "hot_reason": "雪球关注#128; 雪球讨论#97; 雪球交易#81",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

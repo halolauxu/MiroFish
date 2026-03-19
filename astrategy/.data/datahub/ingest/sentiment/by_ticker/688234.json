@@ -1,0 +1,70 @@
+{
+  "ticker": "688234",
+  "company_name": "天岳先进",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "filing",
+      "title": "2025年度业绩快报公告",
+      "summary": "业绩预告",
+      "publish_date": "2026-02-28",
+      "available_at": "2026-02-28T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "业绩公告",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "H股公告-截止二零二六年二月二十八日止股份发行人的证券变动月报表",
+      "summary": "",
+      "publish_date": "2026-03-04",
+      "available_at": "2026-03-04T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "融资客看好12股 买入占成交比例超三成",
+      "summary": "成交金额（万元) 融资买入占比（%) 涨跌幅(%) 300955 嘉亨家化 6675.15 15304.97 43.61 0.47 688566 吉贝尔 3605.88 9187.24 39.25 -1.25 920685 新芝生物 685.59 1845.13 37.16 0.66 688234",
+      "publish_date": "2026-03-16",
+      "available_at": "2026-03-16T10:29:15",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "融资客看好4股 买入占成交比例超三成",
+      "summary": "10504.99 29.88 2.76 920128 胜业电气 276.50 983.47 28.12 1.43 603730 岱美股份 3860.82 13863.11 27.85 -0.66 600284 浦东建设 4706.28 17127.13 27.48 -1.77 688234",
+      "publish_date": "2026-03-17",
+      "available_at": "2026-03-17T10:18:10",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "282只科创板股融资余额环比增加",
+      "summary": "305.70 -1.07 0.00 688001 华兴源创 16130.93 3.64 30.88 -8.86 -5.10 688229 博睿数据 18155.68 3.62 0.00 -7.01 688630 芯碁微装 75586.72 3.56 152.62 7.57 -4.45 688234",
+      "publish_date": "2026-03-18",
+      "available_at": "2026-03-18T09:15:17",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 0,
+  "hot_reason": "",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

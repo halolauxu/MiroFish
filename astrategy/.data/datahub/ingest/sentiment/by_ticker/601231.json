@@ -1,0 +1,70 @@
+{
+  "ticker": "601231",
+  "company_name": "环旭电子",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "filing",
+      "title": "关于2026年2月股份回购进展的公告",
+      "summary": "股权变动",
+      "publish_date": "2026-03-03",
+      "available_at": "2026-03-03T00:00:00",
+      "sentiment_score": 0.8,
+      "category": "股权变动",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "2026年2月营业收入简报",
+      "summary": "",
+      "publish_date": "2026-03-10",
+      "available_at": "2026-03-10T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "【数据揭秘】融资客看好个股一览",
+      "summary": "17486.62 -14.15 2.74 -0.95 920375 派诺科技 1303.47 -14.14 1.19 -6.74 688031 星环科技-U 135646.50 -14.08 6.25 -20.00 001369 双欣材料 16709.79 -14.07 4.33 9.98 601231",
+      "publish_date": "2026-03-18",
+      "available_at": "2026-03-18T10:35:24",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "WiFi 6概念涨3.75%，主力资金净流入28股",
+      "summary": "-1.41 2.22 -1672.73 -17.27 000801 四川九洲 -0.26 1.16 -1811.85 -10.20 300638 广和通 1.49 2.68 -2989.28 -7.81 002429 兆驰股份 1.74 3.20 -7016.88 -4.68 601231",
+      "publish_date": "2026-03-18",
+      "available_at": "2026-03-18T17:04:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "84.28亿元主力资金今日抢筹电子板块",
+      "summary": "23652.43 002475 立讯精密 -0.98 1.18 -17425.37 000636 风华高科 0.45 7.92 -16528.42 600330 天通股份 -1.18 11.09 -15949.97 300857 协创数据 8.62 3.77 -15550.44 601231",
+      "publish_date": "2026-03-18",
+      "available_at": "2026-03-18T17:07:02",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 0,
+  "hot_reason": "",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

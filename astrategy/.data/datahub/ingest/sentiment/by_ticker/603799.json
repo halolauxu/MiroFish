@@ -1,0 +1,130 @@
+{
+  "ticker": "603799",
+  "company_name": "华友钴业",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "filing",
+      "title": "华友钴业第六届董事会第三十七会议决议公告",
+      "summary": "",
+      "publish_date": "2026-03-06",
+      "available_at": "2026-03-06T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "华友钴业关于变更注册资本并修订《公司章程》的公告",
+      "summary": "",
+      "publish_date": "2026-03-06",
+      "available_at": "2026-03-06T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "公司章程",
+      "summary": "",
+      "publish_date": "2026-03-06",
+      "available_at": "2026-03-06T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "华友钴业关于对外担保的进展公告",
+      "summary": "",
+      "publish_date": "2026-03-11",
+      "available_at": "2026-03-11T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "华友钴业2026年第一次临时股东会会议资料",
+      "summary": "",
+      "publish_date": "2026-03-17",
+      "available_at": "2026-03-17T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "华友钴业2026年度第四期绿色科技创新债券发行结果公告",
+      "summary": "",
+      "publish_date": "2026-03-18",
+      "available_at": "2026-03-18T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "hot_topic",
+      "title": "华友钴业",
+      "summary": "雪球关注#146; 雪球讨论#124; 雪球交易#75",
+      "publish_date": "2026-03-19",
+      "available_at": "2026-03-19T00:00:00",
+      "sentiment_score": 0.126,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.25,
+      "hot_rank": 77
+    },
+    {
+      "source_type": "news",
+      "title": "有色金属行业资金流出榜：紫金矿业等41股净流出资金超亿元",
+      "summary": "有色金属行业资金净流出个股中，资金净流出超亿元的有41只，净流出资金居前的有紫金矿业、洛阳钼业、华友钴业，净流出资金分别为29.36亿元、12.70亿元、7.37亿元。",
+      "publish_date": "2026-03-19",
+      "available_at": "2026-03-19T18:04:36",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "金属钴概念下跌4.85%，主力资金净流出31股",
+      "summary": "（数据宝） 金属钴概念资金流出榜 代码 简称 今日涨跌幅（%） 今日换手率（%） 主力资金流量（万元） 601899 紫金矿业 -7.45 2.56 -293559.68 603993 洛阳钼业 -8.04 2.83 -126967.83 603799 华友钴业 -6.81 4.29",
+      "publish_date": "2026-03-19",
+      "available_at": "2026-03-19T18:04:39",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "解密主力资金出逃股 连续5日净流出806股",
+      "summary": "华友钴业 7 20.72 8.80 -17.29 600010 包钢股份 5 19.23 13.19 -11.53 000878 云南铜业 14 18.96 8.16 -25.66 600893 航发动力 7 16.57 10.23 -17.67 688031 星环科技-U 7",
+      "publish_date": "2026-03-19",
+      "available_at": "2026-03-19T18:05:45",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 77,
+  "hot_reason": "雪球关注#146; 雪球讨论#124; 雪球交易#75",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

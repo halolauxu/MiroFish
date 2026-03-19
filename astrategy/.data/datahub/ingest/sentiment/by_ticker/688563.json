@@ -1,0 +1,70 @@
+{
+  "ticker": "688563",
+  "company_name": "航材股份",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "filing",
+      "title": "关于公司2025年度业绩快报的公告",
+      "summary": "业绩预告",
+      "publish_date": "2026-02-27",
+      "available_at": "2026-02-27T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "业绩公告",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "330只科创板股融资余额环比增加",
+      "summary": "59.27 12.17 14.97 688282 理工导航 9926.81 14.44 0.00 5.55 688070 纵横股份 16556.90 14.12 15.64 53.85 13.71 688678 福立旺 51765.43 12.84 9.69 -6.94 -2.04 688563",
+      "publish_date": "2026-03-03",
+      "available_at": "2026-03-03T09:37:28",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "关于以集中竞价交易方式回购公司股份的进展公告",
+      "summary": "股权变动",
+      "publish_date": "2026-03-04",
+      "available_at": "2026-03-04T00:00:00",
+      "sentiment_score": 0.8,
+      "category": "股权变动",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "航空发动机概念下跌1.39%，主力资金净流出69股",
+      "summary": "2.50 -2272.40 603859 能科科技 -1.62 2.44 -2178.97 002658 雪迪龙 -2.49 4.62 -2053.55 000962 东方钽业 -4.10 5.16 -1900.61 300337 银邦股份 -1.78 3.26 -1814.32 688563",
+      "publish_date": "2026-03-11",
+      "available_at": "2026-03-11T16:44:47",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "航空发动机概念下跌2.24%，11股主力资金净流出超亿元",
+      "summary": "金天钛业 -0.10 2.63 561.78 300424 航新科技 -1.71 5.98 588.47 300161 华中数控 -1.69 6.68 657.28 002438 江苏神通 -1.68 2.77 778.87 603766 隆鑫通用 -0.53 0.60 910.24 688563",
+      "publish_date": "2026-03-12",
+      "available_at": "2026-03-12T17:18:31",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 0,
+  "hot_reason": "",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

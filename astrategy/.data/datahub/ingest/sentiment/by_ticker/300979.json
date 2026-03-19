@@ -1,0 +1,94 @@
+{
+  "ticker": "300979",
+  "company_name": "华利集团",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "filing",
+      "title": "关于部分闲置募集资金现金管理到期赎回并继续进行现金管理的公告",
+      "summary": "",
+      "publish_date": "2026-02-27",
+      "available_at": "2026-02-27T18:54:28",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "关于收到控股股东2025年度利润分配预案提议的公告",
+      "summary": "",
+      "publish_date": "2026-03-10",
+      "available_at": "2026-03-10T20:36:11",
+      "sentiment_score": 0.0,
+      "category": "业绩公告",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "2025年度业绩快报",
+      "summary": "业绩预告",
+      "publish_date": "2026-03-10",
+      "available_at": "2026-03-10T20:36:12",
+      "sentiment_score": 0.0,
+      "category": "业绩公告",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "华利集团：2025年净利润同比下降16.50% 拟每10股派11元",
+      "summary": "每经AI快讯，3月10日，华利集团300979.SZ)公告称，2025年营业总收入249.80亿元，同比增长4.06%；净利润32.07亿元，同比下降16.50%。",
+      "publish_date": "2026-03-10",
+      "available_at": "2026-03-10T20:51:14",
+      "sentiment_score": -0.5,
+      "category": "业绩公告",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "华利集团：控股股东提议每10股派发现金红利11元",
+      "summary": "3月10日，华利集团（300979）发布公告，公司控股股东俊耀集团有限公司提议，2025年度每10股派发现金红利11元（含税），合计派发现金红利12.84亿元（含税），不送红股，不以公积金转增股本。",
+      "publish_date": "2026-03-10",
+      "available_at": "2026-03-10T20:57:59",
+      "sentiment_score": 0.0,
+      "category": "分红送转",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "关于部分闲置募集资金现金管理到期赎回并继续进行现金管理的公告",
+      "summary": "",
+      "publish_date": "2026-03-11",
+      "available_at": "2026-03-11T18:10:10",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "近日海外机构调研股名单",
+      "summary": "可孚医疗 3 60.74 4.36 医药生物 688179 阿拉丁 2 18.48 2.10 基础化工 688380 中微半导 5 49.90 1.67 电子 688099 晶晨股份 11 92.71 0.71 电子 000999 华润三九 2 29.32 0.51 医药生物 300979",
+      "publish_date": "2026-03-16",
+      "available_at": "2026-03-16T17:12:40",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 0,
+  "hot_reason": "",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

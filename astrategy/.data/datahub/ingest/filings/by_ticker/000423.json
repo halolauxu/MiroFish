@@ -1,0 +1,36 @@
+[
+  {
+    "ticker": "000423",
+    "company_name": "东阿阿胶",
+    "title": "关于以集中竞价交易方式回购公司股份的进展公告",
+    "announcement_type": "股权变动",
+    "publish_date": "2026-03-02",
+    "publish_time": "2026-03-02",
+    "link": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=000423&announcementId=1224988043&orgId=gssz0000423&announcementTime=2026-03-02",
+    "source": "cninfo.disclosure_report",
+    "raw": {
+      "代码": "000423",
+      "简称": "东阿阿胶",
+      "公告标题": "关于以集中竞价交易方式回购公司股份的进展公告",
+      "公告时间": "2026-03-02",
+      "公告链接": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=000423&announcementId=1224988043&orgId=gssz0000423&announcementTime=2026-03-02"
+    }
+  },
+  {
+    "ticker": "000423",
+    "company_name": "东阿阿胶",
+    "title": "关于第一期限制性股票激励计划预留授予登记完成的公告",
+    "announcement_type": "股权激励",
+    "publish_date": "2026-03-02",
+    "publish_time": "2026-03-02",
+    "link": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=000423&announcementId=1224988042&orgId=gssz0000423&announcementTime=2026-03-02",
+    "source": "cninfo.disclosure_report",
+    "raw": {
+      "代码": "000423",
+      "简称": "东阿阿胶",
+      "公告标题": "关于第一期限制性股票激励计划预留授予登记完成的公告",
+      "公告时间": "2026-03-02",
+      "公告链接": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=000423&announcementId=1224988042&orgId=gssz0000423&announcementTime=2026-03-02"
+    }
+  }
+]

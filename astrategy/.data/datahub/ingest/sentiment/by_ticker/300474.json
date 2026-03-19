@@ -1,0 +1,46 @@
+{
+  "ticker": "300474",
+  "company_name": "景嘉微",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "news",
+      "title": "周末证券丨“养虾”热潮起，算力链三大主线核心标的都有哪些？",
+      "summary": "潜力股精选 寒武纪（688256） 海光信息（688041） 景嘉微（300474） 龙芯中科（688047） AI基建： 光模块、液冷受宠 随着全球AI算力投资步入加速释放期，作为“卖铲人”的AI基础设施产业链正迎来基本面的强力支撑。",
+      "publish_date": "2026-03-13",
+      "available_at": "2026-03-13T19:23:26",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "17.94亿主力资金净流入，国家大基金持股概念涨2.28%",
+      "summary": "001287 中电港 4.50 5.25 2336.34 4.46 688702 盛科通信 -1.07 3.86 2276.53 1.61 688396 华润微 0.38 1.21 2009.10 2.52 301269 华大九天 1.40 0.55 1926.32 6.88 300474",
+      "publish_date": "2026-03-16",
+      "available_at": "2026-03-16T17:12:45",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "MCU芯片概念涨2.07%，主力资金净流入这些股",
+      "summary": "688249 晶合集成 1.49 2.92 2514.57 2.26 001287 中电港 4.50 5.25 2336.34 4.46 301563 云汉芯城 4.16 10.85 2046.19 8.91 688396 华润微 0.38 1.21 2009.10 2.52 300474",
+      "publish_date": "2026-03-16",
+      "available_at": "2026-03-16T17:12:57",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 0,
+  "hot_reason": "",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

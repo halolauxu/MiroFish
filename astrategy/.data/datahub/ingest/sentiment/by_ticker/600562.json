@@ -1,0 +1,58 @@
+{
+  "ticker": "600562",
+  "company_name": "国睿科技",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "news",
+      "title": "航空发动机概念下跌1.39%，主力资金净流出69股",
+      "summary": "2.01 1.51 -1019.85 600736 苏州高新 0.00 1.29 -741.79 300553 集智股份 -1.25 2.54 -683.88 300159 *ST新研 -0.63 1.16 -607.95 603766 隆鑫通用 -2.25 1.09 -470.13 600562",
+      "publish_date": "2026-03-11",
+      "available_at": "2026-03-11T16:44:47",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "国家军民融合产投基金、国调基金二期入股国睿科技旗下软件公司",
+      "summary": "企查查信息显示，该公司成立于2010年，经营范围包含人工智能基础软件开发；人工智能基础资源与技术平台；大数据服务；区块链技术相关软件和服务等，由国睿科技600562持股67.43%。据其官网，该公司是一家自主工业软件及智造解决方案提供商。",
+      "publish_date": "2026-03-12",
+      "available_at": "2026-03-12T09:16:36",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "航空发动机概念下跌2.24%，11股主力资金净流出超亿元",
+      "summary": "隆达股份 -3.44 2.69 162.17 300780 德恩精工 -1.81 9.97 174.62 000708 中信特钢 -0.06 0.26 182.12 300095 华伍股份 -3.13 4.20 182.40 300845 捷安高科 -1.14 3.93 378.04 600562",
+      "publish_date": "2026-03-12",
+      "available_at": "2026-03-12T17:18:31",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "国睿科技股份有限公司关于控股子公司增资扩股事项进展的公告",
+      "summary": "",
+      "publish_date": "2026-03-13",
+      "available_at": "2026-03-13T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 0,
+  "hot_reason": "",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

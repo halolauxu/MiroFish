@@ -1,0 +1,118 @@
+{
+  "ticker": "600737",
+  "company_name": "中粮糖业",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "news",
+      "title": "23.57亿元主力资金今日撤离农林牧渔板块",
+      "summary": "28.65 -12584.24 600201 生物股份 -2.22 2.87 -11810.46 000998 隆平高科 -7.34 8.57 -8960.82 300999 金龙鱼 -2.18 3.97 -7625.56 300498 温氏股份 -1.29 0.82 -6913.15 600737",
+      "publish_date": "2026-03-05",
+      "available_at": "2026-03-05T17:14:34",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "中粮糖业控股股份有限公司第十届董事会第二十三次会议决议公告",
+      "summary": "",
+      "publish_date": "2026-03-07",
+      "available_at": "2026-03-07T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "中粮糖业控股股份有限公司独立董事提名人声明",
+      "summary": "",
+      "publish_date": "2026-03-07",
+      "available_at": "2026-03-07T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "中粮糖业控股股份有限公司独立董事候选人声明与承诺（董煜）",
+      "summary": "",
+      "publish_date": "2026-03-07",
+      "available_at": "2026-03-07T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "中粮糖业控股股份有限公司独立董事候选人声明与承诺（张伟华）",
+      "summary": "",
+      "publish_date": "2026-03-07",
+      "available_at": "2026-03-07T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "中粮糖业控股股份有限公司独立董事候选人声明与承诺（司伟）",
+      "summary": "",
+      "publish_date": "2026-03-07",
+      "available_at": "2026-03-07T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "农林牧渔行业资金流入榜：牧原股份等6股净流入资金超3000万元",
+      "summary": "4.85 -3826.51 002100 天康生物 0.91 2.61 -2668.52 002548 金新农 -1.52 2.88 -2529.44 600313 农发种业 -2.13 7.47 -2442.92 300498 温氏股份 2.27 1.49 -2386.52 600737",
+      "publish_date": "2026-03-12",
+      "available_at": "2026-03-12T17:18:22",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "中粮糖业：关于公司高级管理人员辞任的公告",
+      "summary": "证券日报网讯 3月16日，中粮糖业发布公告称，公司董事会于近日收到公司副总经理王晓龙先生的书面辞职报告，王晓龙先生因工作变动原因不再担任公司副总经理职务，辞职后不再担任公司任何职务。",
+      "publish_date": "2026-03-16",
+      "available_at": "2026-03-16T21:34:08",
+      "sentiment_score": 0.0,
+      "category": "产品进展",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "中粮糖业控股股份有限公司关于公司高级管理人员辞任的公告",
+      "summary": "",
+      "publish_date": "2026-03-17",
+      "available_at": "2026-03-17T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 0,
+  "hot_reason": "",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

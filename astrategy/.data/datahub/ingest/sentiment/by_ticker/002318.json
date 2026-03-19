@@ -1,0 +1,46 @@
+{
+  "ticker": "002318",
+  "company_name": "久立特材",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "news",
+      "title": "短线防风险 23只个股短期均线现死叉",
+      "summary": "0.25 14.59 14.67 -0.55 14.26 -2.79 688027 国盾量子 -1.80 1.20 662.87 666.28 -0.51 638.28 -4.20 688676 金盘科技 0.40 0.97 97.59 98.02 -0.44 94.94 -3.14 002318",
+      "publish_date": "2026-03-13",
+      "available_at": "2026-03-13T11:13:26",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "特钢概念下跌3.14%，主力资金净流出37股",
+      "summary": "1.50 -2761.69 600399 抚顺特钢 -3.24 4.45 -2673.46 600231 凌钢股份 -6.64 2.96 -2585.60 600282 南钢股份 -7.11 1.83 -2289.36 600022 山东钢铁 -4.02 2.33 -2232.25 002318",
+      "publish_date": "2026-03-16",
+      "available_at": "2026-03-16T17:13:05",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "20.13亿元资金今日流出钢铁股",
+      "summary": "1.50 -2761.69 600399 抚顺特钢 -3.24 4.45 -2673.46 600231 凌钢股份 -6.64 2.96 -2585.60 600282 南钢股份 -7.11 1.83 -2289.36 600022 山东钢铁 -4.02 2.33 -2232.25 002318",
+      "publish_date": "2026-03-16",
+      "available_at": "2026-03-16T17:13:22",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 0,
+  "hot_reason": "",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

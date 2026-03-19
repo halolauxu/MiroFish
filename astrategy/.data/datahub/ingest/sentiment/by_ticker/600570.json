@@ -1,0 +1,70 @@
+{
+  "ticker": "600570",
+  "company_name": "恒生电子",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "filing",
+      "title": "恒生电子股份有限公司关于拟回购注销2022年、2023年员工持股计划部份股份的提示性公告",
+      "summary": "股权变动",
+      "publish_date": "2026-03-04",
+      "available_at": "2026-03-04T00:00:00",
+      "sentiment_score": 0.8,
+      "category": "股权变动",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "华为昇腾概念下跌2.93%，主力资金净流出76股",
+      "summary": "13789.67 002929 润建股份 -7.36 9.38 -13349.71 603220 中贝通信 -6.72 9.74 -12333.01 000034 神州数码 -5.00 5.69 -12236.22 300182 捷成股份 -2.99 6.87 -11420.49 600570",
+      "publish_date": "2026-03-13",
+      "available_at": "2026-03-13T17:14:47",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "华为昇腾概念涨3.55%，主力资金净流入49股",
+      "summary": "润和软件 1.19 1.84 -1738.70 -2.70 688636 智明达 3.99 2.47 -1773.53 -10.05 301486 致尚科技 0.77 7.65 -2376.95 -2.82 300377 赢时胜 -0.05 4.13 -2832.21 -5.21 600570",
+      "publish_date": "2026-03-18",
+      "available_at": "2026-03-18T17:06:40",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "计算机行业今日涨2.46%，主力资金净流入53.26亿元",
+      "summary": "3.48 -8191.91 002230 科大讯飞 0.80 1.38 -6095.64 300551 古鳌科技 -4.79 6.24 -5981.98 002920 德赛西威 -0.54 0.96 -5036.46 688692 达梦数据 2.75 1.76 -4301.88 600570",
+      "publish_date": "2026-03-18",
+      "available_at": "2026-03-18T17:07:04",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "hot_topic",
+      "title": "恒生电子",
+      "summary": "雪球关注#61",
+      "publish_date": "2026-03-19",
+      "available_at": "2026-03-19T00:00:00",
+      "sentiment_score": 0.08,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.25,
+      "hot_rank": 158
+    }
+  ],
+  "hot_rank": 158,
+  "hot_reason": "雪球关注#61",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

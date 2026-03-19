@@ -1,0 +1,82 @@
+{
+  "ticker": "002050",
+  "company_name": "三花智控",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "filing",
+      "title": "H股公告-截至2026年2月28日止之股份发行人的证券变动月报表",
+      "summary": "",
+      "publish_date": "2026-03-05",
+      "available_at": "2026-03-05T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "H股公告-董事会会议召开日期",
+      "summary": "",
+      "publish_date": "2026-03-10",
+      "available_at": "2026-03-10T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "空气能热泵概念涨0.46%，主力资金净流入这些股",
+      "summary": "13.50 -5932.91 -4.73 301018 申菱环境 -2.83 6.07 -8177.33 -6.68 600690 海尔智家 -0.63 0.50 -10447.52 -13.38 002506 协鑫集成 -7.67 17.34 -48071.79 -8.57 002050",
+      "publish_date": "2026-03-13",
+      "available_at": "2026-03-13T17:10:05",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "三花智控：公司热力膨胀阀在国内冷库市场市占率领先",
+      "summary": "三花智控（002050.SZ）3月18日在投资者互动平台表示，我司在热管理零部件领域深耕四十余年，已实现规模化量产与技术迭代，公司热力膨胀阀在国内冷库市场市占率领先。",
+      "publish_date": "2026-03-18",
+      "available_at": "2026-03-18T17:16:26",
+      "sentiment_score": 0.22,
+      "category": "产品进展",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "三花智控：液冷服务器与公司热泵系统的底层零部件高度重合，例如阀类、泵类、换热器等产品",
+      "summary": "三花智控（002050.SZ）3月18日在投资者互动平台表示，液冷服务器与我司热泵系统的底层零部件高度重合，例如阀类、泵类、换热器等产品。我司在热管理零部件领域深耕四十余年，已实现规模化量产与技术迭代，可以快速适配液冷服务器工况需求。",
+      "publish_date": "2026-03-18",
+      "available_at": "2026-03-18T17:16:28",
+      "sentiment_score": 0.22,
+      "category": "产品进展",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "hot_topic",
+      "title": "三花智控",
+      "summary": "雪球关注#138; 雪球讨论#53; 雪球交易#24",
+      "publish_date": "2026-03-19",
+      "available_at": "2026-03-19T00:00:00",
+      "sentiment_score": 0.2,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.25,
+      "hot_rank": 40
+    }
+  ],
+  "hot_rank": 40,
+  "hot_reason": "雪球关注#138; 雪球讨论#53; 雪球交易#24",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

@@ -1,0 +1,82 @@
+{
+  "ticker": "300803",
+  "company_name": "指南针",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "filing",
+      "title": "2025年年度股东会决议公告",
+      "summary": "",
+      "publish_date": "2026-02-25",
+      "available_at": "2026-02-25T18:10:08",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "2025年年度权益分派实施公告",
+      "summary": "权益分派",
+      "publish_date": "2026-02-28",
+      "available_at": "2026-02-28T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "关于举行2025年度网上业绩说明会的公告",
+      "summary": "",
+      "publish_date": "2026-03-02",
+      "available_at": "2026-03-02T16:16:11",
+      "sentiment_score": 0.0,
+      "category": "业绩公告",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "116家公司公布年报 20家业绩增幅翻倍",
+      "summary": "奇德新材 0.2349 1963.14 125.99 37497.56 8.33 000050 深天马A 0.0682 16737.59 125.03 3622654.03 8.16 603061 金海通 3.0500 17652.53 124.93 69817.60 71.68 300803",
+      "publish_date": "2026-03-17",
+      "available_at": "2026-03-17T10:19:00",
+      "sentiment_score": 0.0,
+      "category": "业绩公告",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "134家公司公布年报 24家业绩增幅翻倍",
+      "summary": "深天马A 0.0682 16737.59 125.03 3622654.03 8.16 603061 金海通 3.0500 17652.53 124.93 69817.60 71.68 300050 世纪鼎利 0.0300 1549.91 120.83 29116.56 3.33 300803",
+      "publish_date": "2026-03-18",
+      "available_at": "2026-03-18T10:34:59",
+      "sentiment_score": 0.0,
+      "category": "业绩公告",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "138家公司公布年报 24家业绩增幅翻倍",
+      "summary": "深天马A 0.0682 16737.59 125.03 3622654.03 8.16 603061 金海通 3.0500 17652.53 124.93 69817.60 71.68 300050 世纪鼎利 0.0300 1549.91 120.83 29116.56 3.33 300803",
+      "publish_date": "2026-03-19",
+      "available_at": "2026-03-19T11:02:36",
+      "sentiment_score": 0.0,
+      "category": "业绩公告",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 0,
+  "hot_reason": "",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

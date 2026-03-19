@@ -1,0 +1,70 @@
+{
+  "ticker": "003816",
+  "company_name": "中国广核",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "news",
+      "title": "公用事业行业今日涨2.27%，主力资金净流入29.20亿元",
+      "summary": "3.03 12.88 8077.21 601778 晶科科技 4.35 8.54 7366.72 600868 梅雁吉祥 4.22 8.80 6946.41 603318 水发燃气 10.01 12.13 6082.80 600101 明星电力 4.73 13.32 6063.58 003816",
+      "publish_date": "2026-02-27",
+      "available_at": "2026-02-27T17:24:38",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "境内同步披露公告-截至二零二六年二月二十八日止股份发行人的证券变动月报表",
+      "summary": "",
+      "publish_date": "2026-03-04",
+      "available_at": "2026-03-04T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "公用事业行业今日净流出资金32.85亿元，金开新能等8股净流出资金超亿元",
+      "summary": "9.93 2.17 13579.39 603318 水发燃气 0.11 23.47 9111.69 000537 绿发电力 10.00 1.36 8168.28 002218 拓日新能 3.57 13.71 6619.52 600475 华光环能 5.27 4.47 6321.34 003816",
+      "publish_date": "2026-03-10",
+      "available_at": "2026-03-10T17:03:39",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "17.21亿元资金今日流入公用事业股",
+      "summary": "8.64 -10117.83 000601 韶能股份 0.29 21.95 -8949.97 000862 银星能源 -3.54 17.66 -8756.33 000875 电投绿能 -1.12 4.27 -8561.09 600995 南网储能 0.06 2.36 -8402.22 003816",
+      "publish_date": "2026-03-12",
+      "available_at": "2026-03-12T17:35:16",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "关于公司2026年度第三期及第四期超短期融资券发行完成的公告",
+      "summary": "增发融资",
+      "publish_date": "2026-03-19",
+      "available_at": "2026-03-19T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 0,
+  "hot_reason": "",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

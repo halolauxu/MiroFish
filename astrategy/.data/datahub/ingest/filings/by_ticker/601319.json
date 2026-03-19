@@ -1,0 +1,53 @@
+[
+  {
+    "ticker": "601319",
+    "company_name": "中国人保",
+    "title": "H股公告",
+    "announcement_type": "",
+    "publish_date": "2026-03-03",
+    "publish_time": "2026-03-03",
+    "link": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=601319&announcementId=1224991428&orgId=9900024684&announcementTime=2026-03-03",
+    "source": "cninfo.disclosure_report",
+    "raw": {
+      "代码": "601319",
+      "简称": "中国人保",
+      "公告标题": "H股公告",
+      "公告时间": "2026-03-03",
+      "公告链接": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=601319&announcementId=1224991428&orgId=9900024684&announcementTime=2026-03-03"
+    }
+  },
+  {
+    "ticker": "601319",
+    "company_name": "中国人保",
+    "title": "H股公告",
+    "announcement_type": "",
+    "publish_date": "2026-03-05",
+    "publish_time": "2026-03-05",
+    "link": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=601319&announcementId=1224995940&orgId=9900024684&announcementTime=2026-03-05",
+    "source": "cninfo.disclosure_report",
+    "raw": {
+      "代码": "601319",
+      "简称": "中国人保",
+      "公告标题": "H股公告",
+      "公告时间": "2026-03-05",
+      "公告链接": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=601319&announcementId=1224995940&orgId=9900024684&announcementTime=2026-03-05"
+    }
+  },
+  {
+    "ticker": "601319",
+    "company_name": "中国人保",
+    "title": "H股公告",
+    "announcement_type": "",
+    "publish_date": "2026-03-17",
+    "publish_time": "2026-03-17",
+    "link": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=601319&announcementId=1225011449&orgId=9900024684&announcementTime=2026-03-17",
+    "source": "cninfo.disclosure_report",
+    "raw": {
+      "代码": "601319",
+      "简称": "中国人保",
+      "公告标题": "H股公告",
+      "公告时间": "2026-03-17",
+      "公告链接": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=601319&announcementId=1225011449&orgId=9900024684&announcementTime=2026-03-17"
+    }
+  }
+]

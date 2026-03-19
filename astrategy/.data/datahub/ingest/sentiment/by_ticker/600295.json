@@ -1,0 +1,46 @@
+{
+  "ticker": "600295",
+  "company_name": "鄂尔多斯",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "news",
+      "title": "A股高开高走，沪指收复4100点：算力硬件题材爆发，超4500股上涨",
+      "summary": "钢铁股高开低走，海南矿业（601969）跌超9%，安阳钢铁（600569）、鄂尔多斯（600295）、凌钢股份（600231）、中南股份（000717）、本钢板材（000761）等跌超2%。",
+      "publish_date": "2026-03-10",
+      "available_at": "2026-03-10T15:39:42",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "20.13亿元资金今日流出钢铁股",
+      "summary": "1.79 -1939.63 600382 广东明珠 -2.42 2.52 -1725.06 000778 新兴铸管 -3.22 2.04 -1495.68 000932 华菱钢铁 -5.19 1.89 -1493.16 002075 沙钢股份 -2.40 2.51 -1390.94 600295",
+      "publish_date": "2026-03-16",
+      "available_at": "2026-03-16T17:13:22",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "钢铁行业今日跌4.08%，主力资金净流出16.46亿元",
+      "summary": "3.55 1.05 -951.67 603878 武进不锈 -4.55 2.30 -940.49 600231 凌钢股份 -6.58 3.37 -927.87 000761 本钢板材 -5.16 0.78 -706.80 002318 久立特材 -4.04 1.00 -626.08 600295",
+      "publish_date": "2026-03-19",
+      "available_at": "2026-03-19T18:05:20",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 0,
+  "hot_reason": "",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

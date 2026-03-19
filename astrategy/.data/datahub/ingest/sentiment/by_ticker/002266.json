@@ -1,0 +1,94 @@
+{
+  "ticker": "002266",
+  "company_name": "浙富控股",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "filing",
+      "title": "关于母公司对全资子公司兰溪自立提供担保的公告",
+      "summary": "",
+      "publish_date": "2026-03-07",
+      "available_at": "2026-03-07T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "关于全资子公司申联环保集团、江西自立对兰溪自立提供担保的公告",
+      "summary": "",
+      "publish_date": "2026-03-14",
+      "available_at": "2026-03-14T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "浙富控股：中标4.12亿元水轮发电机组及其附属设备招标项目",
+      "summary": "人民财讯3月15日电，浙富控股0022663月15日公告，公司近日收到《中标通知书》，确定公司为金沙江上游昌波引水电站水轮发电机组及其附属设备招标项目的中标单位，中标总金额4.12亿元，约占公司2024年度营业收入的1.97%，按照27个月交货期安排，平均占2024年度营业收入的",
+      "publish_date": "2026-03-15",
+      "available_at": "2026-03-15T16:46:02",
+      "sentiment_score": 1.0,
+      "category": "重大合同",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "工程中标公告",
+      "summary": "重大合同",
+      "publish_date": "2026-03-16",
+      "available_at": "2026-03-16T00:00:00",
+      "sentiment_score": 1.0,
+      "category": "重大合同",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "关于控股股东部分股份质押及解除质押的公告",
+      "summary": "",
+      "publish_date": "2026-03-19",
+      "available_at": "2026-03-19T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "金属锌概念下跌5.54%，18股主力资金净流出超亿元",
+      "summary": "2.21 -9910.64 000060 中金岭南 -5.71 3.48 -9089.61 301500 飞南资源 -6.99 14.76 -6822.50 000688 国城矿业 -8.42 3.10 -5611.02 000751 锌业股份 -6.28 4.60 -5351.21 002266",
+      "publish_date": "2026-03-19",
+      "available_at": "2026-03-19T18:04:26",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "金属钴概念下跌4.85%，主力资金净流出31股",
+      "summary": "1.26 -10385.55 000060 中金岭南 -5.71 3.48 -9089.61 002009 天奇股份 -3.56 6.27 -7039.45 300618 寒锐钴业 -5.22 3.74 -4918.04 300919 中伟新材 -3.92 1.28 -4884.09 002266",
+      "publish_date": "2026-03-19",
+      "available_at": "2026-03-19T18:04:39",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 0,
+  "hot_reason": "",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

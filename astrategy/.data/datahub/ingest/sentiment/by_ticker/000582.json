@@ -1,0 +1,82 @@
+{
+  "ticker": "000582",
+  "company_name": "北部湾港",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "filing",
+      "title": "关于“北港转债”赎回结果的公告",
+      "summary": "",
+      "publish_date": "2026-03-03",
+      "available_at": "2026-03-03T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "关于\"北港转债\"摘牌的公告",
+      "summary": "",
+      "publish_date": "2026-03-03",
+      "available_at": "2026-03-03T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "东方金诚国际信用评估有限公司关于对北部湾港股份有限公司主体及“北港转债”终止评级的公告",
+      "summary": "",
+      "publish_date": "2026-03-04",
+      "available_at": "2026-03-04T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "北部湾港：截至目前，公司已不再持有国家管网集团广西防城港天然气有限责任公司股权",
+      "summary": "北部湾港（000582.SZ）3月5日在投资者互动平台表示，截至目前，公司已不再持有国家管网集团广西防城港天然气有限责任公司股权。",
+      "publish_date": "2026-03-05",
+      "available_at": "2026-03-05T12:59:59",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "北部湾港：公司没有石油和天然气的销售运输业务",
+      "summary": "北部湾港（000582.SZ）3月5日在投资者互动平台表示，公司目前主要经营业务包含货物装卸、港口仓储、港口拖轮、外轮理货、无船承运等，没有石油和天然气的销售运输业务。",
+      "publish_date": "2026-03-05",
+      "available_at": "2026-03-05T12:59:59",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "25.26亿元主力资金今日撤离交通运输板块",
+      "summary": "1.52 -6797.23 600009 上海机场 -1.89 0.61 -6201.84 601866 中远海发 -2.41 3.05 -4684.48 002352 顺丰控股 -0.91 0.50 -4467.17 600179 安通控股 -3.19 1.93 -4190.99 000582",
+      "publish_date": "2026-03-09",
+      "available_at": "2026-03-09T17:10:12",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 0,
+  "hot_reason": "",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

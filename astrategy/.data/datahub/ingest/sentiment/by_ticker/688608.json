@@ -1,0 +1,58 @@
+{
+  "ticker": "688608",
+  "company_name": "恒玄科技",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "filing",
+      "title": "2025年度业绩快报公告",
+      "summary": "业绩预告",
+      "publish_date": "2026-02-26",
+      "available_at": "2026-02-26T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "业绩公告",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "科创板高价股排行榜",
+      "summary": "688615 合合信息 186.39 -1.12 2.58 计算机 688031 星环科技-U 179.20 -20.00 12.57 计算机 688536 思瑞浦 176.90 -6.69 3.61 电子 688702 盛科通信-U 175.60 -5.08 2.89 电子 688608",
+      "publish_date": "2026-03-17",
+      "available_at": "2026-03-17T17:49:51",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "94只科创板股票跻身百元股阵营",
+      "summary": "计算机 688702 盛科通信-U 183.00 4.21 3.31 电子 688031 星环科技-U 179.97 0.43 10.60 计算机 688536 思瑞浦 178.62 0.97 2.17 电子 688630 芯碁微装 177.40 4.02 3.44 机械设备 688608",
+      "publish_date": "2026-03-18",
+      "available_at": "2026-03-18T17:56:17",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "杰理科技的“芯”病：一边高喊AI突围 一边内控“暗雷”频爆|读懂IPO",
+      "summary": "与之形成强烈对比的是，业绩快报显示，竞争对手恒玄科技（688608.SH）2025年的营业收入、归母净利润分别同比增长8.02%、27.75%，已连续三年实现双增长，一升一降之间，更凸显出杰理科技的业绩颓势，也从侧面反映出两者在核心竞争力上的差距。",
+      "publish_date": "2026-03-19",
+      "available_at": "2026-03-19T08:13:45",
+      "sentiment_score": 0.2,
+      "category": "业绩公告",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 0,
+  "hot_reason": "",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

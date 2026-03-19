@@ -1,0 +1,46 @@
+{
+  "ticker": "603606",
+  "company_name": "东方电缆",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "news",
+      "title": "电力设备行业3月9日资金流向日报",
+      "summary": "-18454.68 300316 晶盛机电 -1.60 2.63 -17963.97 601126 四方股份 0.47 5.04 -16955.03 002851 麦格米特 -5.98 4.33 -16841.72 300724 捷佳伟创 2.05 7.14 -14134.18 603606",
+      "publish_date": "2026-03-09",
+      "available_at": "2026-03-09T17:10:16",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "手握196亿元订单够吃三年？订单数据或为张冠李戴，太阳电缆辟谣",
+      "summary": "值得注意的是，《21辟谣》记者发现，前述订单金额与东方电缆（603606.SH）2025年三季报披露的在手订单情况高度一致，疑似张冠李戴。",
+      "publish_date": "2026-03-18",
+      "available_at": "2026-03-18T18:54:25",
+      "sentiment_score": 0.35,
+      "category": "重大合同",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "手握196亿元订单够吃三年？订单数据或为张冠李戴，太阳电缆辟谣",
+      "summary": "值得注意的是，《21辟谣》记者发现，前述订单金额与东方电缆（603606.SH）2025年三季报披露的在手订单情况高度一致，疑似张冠李戴。",
+      "publish_date": "2026-03-18",
+      "available_at": "2026-03-18T18:54:53",
+      "sentiment_score": 0.35,
+      "category": "重大合同",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 0,
+  "hot_reason": "",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

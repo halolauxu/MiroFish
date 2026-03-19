@@ -1,0 +1,106 @@
+{
+  "ticker": "603077",
+  "company_name": "和邦生物",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "filing",
+      "title": "和邦生物股票交易异常波动公告",
+      "summary": "",
+      "publish_date": "2026-02-27",
+      "available_at": "2026-02-27T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "和邦生物关于“和邦转债”预计满足赎回条件的提示性公告",
+      "summary": "",
+      "publish_date": "2026-03-04",
+      "available_at": "2026-03-04T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "首创证券股份有限公司关于和邦生物不提前赎回“和邦转债”的核查意见",
+      "summary": "",
+      "publish_date": "2026-03-11",
+      "available_at": "2026-03-11T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "和邦生物关于不提前赎回“和邦转债”的公告",
+      "summary": "",
+      "publish_date": "2026-03-11",
+      "available_at": "2026-03-11T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "和邦生物关于首次集中竞价减持已回购股份的进展公告",
+      "summary": "股权变动",
+      "publish_date": "2026-03-14",
+      "available_at": "2026-03-14T00:00:00",
+      "sentiment_score": 0.02,
+      "category": "股权变动",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "草甘膦概念下跌1.18%，主力资金净流出10股",
+      "summary": "草甘膦概念资金流出榜 代码 简称 今日涨跌幅（%） 今日换手率（%） 主力资金流量（万元） 603077 和邦生物 -3.25 4.54 -16734.21 002215 诺普信 -2.68 2.54 -2403.92 000525 红太阳 -2.99 4.72 -2146.43",
+      "publish_date": "2026-03-18",
+      "available_at": "2026-03-18T17:04:04",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "金属铅概念下跌5.71%，18股主力资金净流出超亿元",
+      "summary": "15923.22 601212 白银有色 -6.47 1.96 -15802.88 601020 华钰矿业 -6.58 4.45 -15366.37 600531 豫光金铅 -6.27 5.22 -15266.70 601390 中国中铁 -2.10 1.41 -15148.99 603077",
+      "publish_date": "2026-03-19",
+      "available_at": "2026-03-19T18:04:24",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "金属锌概念下跌5.54%，18股主力资金净流出超亿元",
+      "summary": "15923.22 601212 白银有色 -6.47 1.96 -15802.88 601020 华钰矿业 -6.58 4.45 -15366.37 600531 豫光金铅 -6.27 5.22 -15266.70 601390 中国中铁 -2.10 1.41 -15148.99 603077",
+      "publish_date": "2026-03-19",
+      "available_at": "2026-03-19T18:04:26",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 0,
+  "hot_reason": "",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

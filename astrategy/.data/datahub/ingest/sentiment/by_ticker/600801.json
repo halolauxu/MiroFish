@@ -1,0 +1,46 @@
+{
+  "ticker": "600801",
+  "company_name": "华新建材",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "news",
+      "title": "房地产、建材、水泥制造指数发力上涨，城投控股、我爱我家等涨停",
+      "summary": "水泥制造个股方面，海螺水泥（600585.SH）涨8.03%、华新建材（600801.SH）涨6.51%、天山股份涨4.58%、上峰水泥（000672.SZ）涨3.86%。",
+      "publish_date": "2026-02-25",
+      "available_at": "2026-02-25T11:32:18",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "建筑材料行业今日涨2.75%，主力资金净流入2.07亿元",
+      "summary": "4.06 1.79 4744.14 002457 青龙管业 2.63 15.67 4384.41 603616 韩建河山 7.66 29.69 4340.95 600585 海螺水泥 5.86 2.57 2354.85 601992 金隅集团 2.96 1.86 2057.81 600801",
+      "publish_date": "2026-02-25",
+      "available_at": "2026-02-25T17:08:13",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "建筑材料行业资金流入榜：再升科技等5股净流入资金超亿元",
+      "summary": "中旗新材 4.14 4.67 1410.71 300737 科顺股份 0.75 2.17 1292.38 000786 北新建材 1.85 0.71 823.49 000401 金隅冀东 0.99 0.63 748.71 601112 振石股份 1.12 5.37 582.59 600801",
+      "publish_date": "2026-03-10",
+      "available_at": "2026-03-10T17:10:25",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 0,
+  "hot_reason": "",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

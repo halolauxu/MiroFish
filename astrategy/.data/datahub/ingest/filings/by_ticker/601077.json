@@ -1,0 +1,36 @@
+[
+  {
+    "ticker": "601077",
+    "company_name": "渝农商行",
+    "title": "渝农商行H股公告",
+    "announcement_type": "",
+    "publish_date": "2026-03-03",
+    "publish_time": "2026-03-03",
+    "link": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=601077&announcementId=1224991319&orgId=9900016867&announcementTime=2026-03-03",
+    "source": "cninfo.disclosure_report",
+    "raw": {
+      "代码": "601077",
+      "简称": "渝农商行",
+      "公告标题": "渝农商行H股公告",
+      "公告时间": "2026-03-03",
+      "公告链接": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=601077&announcementId=1224991319&orgId=9900016867&announcementTime=2026-03-03"
+    }
+  },
+  {
+    "ticker": "601077",
+    "company_name": "渝农商行",
+    "title": "渝农商行H股公告",
+    "announcement_type": "",
+    "publish_date": "2026-03-14",
+    "publish_time": "2026-03-14",
+    "link": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=601077&announcementId=1225008658&orgId=9900016867&announcementTime=2026-03-14",
+    "source": "cninfo.disclosure_report",
+    "raw": {
+      "代码": "601077",
+      "简称": "渝农商行",
+      "公告标题": "渝农商行H股公告",
+      "公告时间": "2026-03-14",
+      "公告链接": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=601077&announcementId=1225008658&orgId=9900016867&announcementTime=2026-03-14"
+    }
+  }
+]

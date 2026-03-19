@@ -1,0 +1,58 @@
+{
+  "ticker": "300782",
+  "company_name": "卓胜微",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "news",
+      "title": "女方分走超12亿元！A股又现天价“分手”案，300782董事长离婚，其年薪达312万元",
+      "summary": "国产射频龙头卓胜微（SZ300782）2月11日晚间公告，公司于近日收到实控人之一许志翰的通知，其与ZHANG YU（张昱）经友好协商，已解除婚姻关系，并就离婚财产分割事宜做出相关安排。",
+      "publish_date": "2026-02-12",
+      "available_at": "2026-02-12T11:45:48",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "2025年度业绩快报",
+      "summary": "业绩预告",
+      "publish_date": "2026-03-06",
+      "available_at": "2026-03-06T19:16:29",
+      "sentiment_score": 0.0,
+      "category": "业绩公告",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "卓胜微：2025年净利润亏损2.68亿元 同比转亏",
+      "summary": "每经AI快讯，卓胜微3007823月6日发布业绩快报，2025年度营业总收入37.26亿元，同比下降16.96%；归母净利润亏损2.68亿元，上年同期净利润为4.02亿元。",
+      "publish_date": "2026-03-06",
+      "available_at": "2026-03-06T19:41:23",
+      "sentiment_score": -1.0,
+      "category": "业绩公告",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "WiFi 6概念涨3.75%，主力资金净流入28股",
+      "summary": "300870 欧陆通 6.17 4.59 11001.07 8.56 300571 平治信息 19.99 18.03 10277.81 14.95 002792 通宇通讯 6.11 9.65 9641.17 7.26 002213 大为股份 5.01 20.83 8320.52 6.39 300782",
+      "publish_date": "2026-03-18",
+      "available_at": "2026-03-18T17:04:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 0,
+  "hot_reason": "",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

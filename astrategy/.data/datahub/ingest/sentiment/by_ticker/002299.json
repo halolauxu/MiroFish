@@ -1,0 +1,58 @@
+{
+  "ticker": "002299",
+  "company_name": "圣农发展",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "news",
+      "title": "1.36亿主力资金净流入，养鸡概念涨3.72%",
+      "summary": "300761 立华股份 6.56 2.60 -211.44 -0.62 002840 华统股份 3.77 2.79 -281.93 -1.29 000529 广弘控股 2.54 1.39 -287.40 -6.05 605567 春雪食品 4.45 2.45 -398.73 -7.18 002299",
+      "publish_date": "2026-03-06",
+      "available_at": "2026-03-06T18:09:34",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "圣农发展：2月销售收入13.17亿元 同比增长15.1%",
+      "summary": "人民财讯3月10日电，圣农发展0022993月10日公告，2月实现销售收入13.17亿元，同比增长15.1%，环比下降34.87%。",
+      "publish_date": "2026-03-10",
+      "available_at": "2026-03-10T18:02:01",
+      "sentiment_score": -0.5,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "2026年2月份销售情况简报",
+      "summary": "",
+      "publish_date": "2026-03-11",
+      "available_at": "2026-03-11T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "养鸡概念涨0.65%，主力资金净流入13股",
+      "summary": "002982 湘佳股份 -0.59 7.26 -54.50 -0.38 603609 禾丰股份 0.94 0.66 -116.94 -2.62 603668 天马科技 -1.58 0.98 -361.38 -5.28 000895 双汇发展 0.98 0.26 -402.24 -1.64 002299",
+      "publish_date": "2026-03-12",
+      "available_at": "2026-03-12T17:18:51",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 0,
+  "hot_reason": "",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

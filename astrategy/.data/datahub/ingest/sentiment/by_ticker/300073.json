@@ -1,0 +1,70 @@
+{
+  "ticker": "300073",
+  "company_name": "当升科技",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "news",
+      "title": "金属钴概念上涨3.18%，7股主力资金净流入超亿元",
+      "summary": "301265 华新环保 0.13 4.37 38.87 0.33 000009 中国宝安 0.53 0.79 -1754.73 -9.12 002266 浙富控股 1.36 2.38 -2241.24 -3.71 002009 天奇股份 1.16 17.06 -3159.84 -1.66 300073",
+      "publish_date": "2026-02-27",
+      "available_at": "2026-02-27T17:23:34",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "关于2024年管理层与核心骨干股权增持计划锁定期届满的提示性公告",
+      "summary": "股权变动",
+      "publish_date": "2026-03-03",
+      "available_at": "2026-03-03T16:46:11",
+      "sentiment_score": 0.78,
+      "category": "股权变动",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "金属钴概念下跌2.42% 15股主力资金净流出超亿元",
+      "summary": "0.70 2.27 -489.27 603257 中国瑞林 -3.23 8.86 -466.45 300487 蓝晓科技 -5.41 1.89 -425.28 688077 大地熊 -1.18 2.32 -389.17 600980 北矿科技 -0.57 1.92 -222.21 300073",
+      "publish_date": "2026-03-16",
+      "available_at": "2026-03-16T17:12:44",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "关于变更持续督导保荐代表人的公告",
+      "summary": "",
+      "publish_date": "2026-03-17",
+      "available_at": "2026-03-17T17:01:11",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "金属钴概念下跌4.85%，主力资金净流出31股",
+      "summary": "3.48 -9089.61 002009 天奇股份 -3.56 6.27 -7039.45 300618 寒锐钴业 -5.22 3.74 -4918.04 300919 中伟新材 -3.92 1.28 -4884.09 002266 浙富控股 -4.39 1.65 -4634.58 300073",
+      "publish_date": "2026-03-19",
+      "available_at": "2026-03-19T18:04:39",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 0,
+  "hot_reason": "",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

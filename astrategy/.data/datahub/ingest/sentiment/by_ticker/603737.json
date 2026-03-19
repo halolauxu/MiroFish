@@ -1,0 +1,70 @@
+{
+  "ticker": "603737",
+  "company_name": "三棵树",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "news",
+      "title": "三棵树：2025年净利同比预增128.96%~189.21%",
+      "summary": "1月30日，三棵树603737.SH)公告称，预计2025年归属于上市公司股东的净利润为7.60亿元至9.60亿元，同比增加128.96%到189.21%。",
+      "publish_date": "2026-01-30",
+      "available_at": "2026-01-30T16:19:58",
+      "sentiment_score": 0.0,
+      "category": "业绩公告",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "建筑材料行业资金流入榜：再升科技等5股净流入资金超亿元",
+      "summary": "塔牌集团 0.97 0.65 -185.40 002247 聚力文化 1.97 3.09 -246.11 000055 方大集团 0.00 1.39 -303.47 002088 鲁阳节能 1.28 0.70 -303.81 002066 瑞泰科技 0.05 1.02 -398.36 603737",
+      "publish_date": "2026-03-10",
+      "available_at": "2026-03-10T17:10:25",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "关于为子公司提供担保的公告",
+      "summary": "",
+      "publish_date": "2026-03-14",
+      "available_at": "2026-03-14T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "关于公司实际控制人、控股股东部分股份质押续期的公告",
+      "summary": "",
+      "publish_date": "2026-03-17",
+      "available_at": "2026-03-17T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "强势股追踪 主力资金连续5日净流入52股",
+      "summary": "汉朔科技 6 0.69 4.81 -13.25 000089 深圳机场 7 0.63 12.17 1.71 688679 通源环境 7 0.62 7.86 6.60 300206 理邦仪器 9 0.60 5.20 7.78 688052 纳芯微 5 0.56 3.00 -9.29 603737",
+      "publish_date": "2026-03-18",
+      "available_at": "2026-03-18T17:06:51",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 0,
+  "hot_reason": "",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

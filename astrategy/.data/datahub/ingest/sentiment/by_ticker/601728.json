@@ -1,0 +1,58 @@
+{
+  "ticker": "601728",
+  "company_name": "中国电信",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "news",
+      "title": "中国电信在湖南成立数智科技新公司",
+      "summary": "企查查股权穿透显示，该公司由中国电信601728间接全资持股。",
+      "publish_date": "2026-02-27",
+      "available_at": "2026-02-27T10:00:30",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "中国电信股份有限公司H股公告-股份发行人的证券变动月报表",
+      "summary": "",
+      "publish_date": "2026-03-03",
+      "available_at": "2026-03-03T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "中国电信旗下天翼视联增资至7.9亿，增幅约12%",
+      "summary": "股东信息显示，该公司由中国电信（601728）全资持股。",
+      "publish_date": "2026-03-13",
+      "available_at": "2026-03-13T16:35:23",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "中国电信旗下天翼视联增资至7.9亿",
+      "summary": "股东信息显示，该公司由中国电信（601728）全资持股。",
+      "publish_date": "2026-03-13",
+      "available_at": "2026-03-13T16:55:58",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 0,
+  "hot_reason": "",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

@@ -1,0 +1,36 @@
+[
+  {
+    "ticker": "000750",
+    "company_name": "国海证券",
+    "title": "国海证券股份有限公司关于实际控制人的一致行动人将所持公司股份在同一控制下进行转让事项完成股份过户的公告",
+    "announcement_type": "",
+    "publish_date": "2026-03-05",
+    "publish_time": "2026-03-05",
+    "link": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=000750&announcementId=1224995629&orgId=gssz0000750&announcementTime=2026-03-05",
+    "source": "cninfo.disclosure_report",
+    "raw": {
+      "代码": "000750",
+      "简称": "国海证券",
+      "公告标题": "国海证券股份有限公司关于实际控制人的一致行动人将所持公司股份在同一控制下进行转让事项完成股份过户的公告",
+      "公告时间": "2026-03-05",
+      "公告链接": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=000750&announcementId=1224995629&orgId=gssz0000750&announcementTime=2026-03-05"
+    }
+  },
+  {
+    "ticker": "000750",
+    "company_name": "国海证券",
+    "title": "国海证券股份有限公司关于参与碳排放权交易获得中国证监会复函的公告",
+    "announcement_type": "",
+    "publish_date": "2026-03-07",
+    "publish_time": "2026-03-07",
+    "link": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=000750&announcementId=1224998701&orgId=gssz0000750&announcementTime=2026-03-07",
+    "source": "cninfo.disclosure_report",
+    "raw": {
+      "代码": "000750",
+      "简称": "国海证券",
+      "公告标题": "国海证券股份有限公司关于参与碳排放权交易获得中国证监会复函的公告",
+      "公告时间": "2026-03-07",
+      "公告链接": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=000750&announcementId=1224998701&orgId=gssz0000750&announcementTime=2026-03-07"
+    }
+  }
+]

@@ -1,0 +1,58 @@
+{
+  "ticker": "002230",
+  "company_name": "科大讯飞",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "news",
+      "title": "业绩预喜！002230 直线涨停",
+      "summary": "AI应用概念股集体走强，科大讯飞（002230）直线涨停。房地产板块同样表现活跃，我爱我家等多股涨停。 AI应用再爆发 科大讯飞业绩预喜后股价涨停 AI应用概念29日盘中再度爆发，截至午间休市，因赛集团以20%幅度涨停，蓝色光标、值得买等涨超10%，科大讯飞等亦涨停。",
+      "publish_date": "2026-01-29",
+      "available_at": "2026-01-29T12:52:38",
+      "sentiment_score": 0.0,
+      "category": "业绩公告",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "科大讯飞：公司不涉及AI除幻相关业务",
+      "summary": "科大讯飞（002230.SZ）3月16日在投资者互动平台表示，您好，公司不涉及相关业务。",
+      "publish_date": "2026-03-16",
+      "available_at": "2026-03-16T17:31:43",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "hot_topic",
+      "title": "科大讯飞",
+      "summary": "雪球关注#45; 雪球讨论#65; 雪球交易#158",
+      "publish_date": "2026-03-19",
+      "available_at": "2026-03-19T00:00:00",
+      "sentiment_score": 0.178,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.25,
+      "hot_rank": 51
+    },
+    {
+      "source_type": "news",
+      "title": "解密主力资金出逃股 连续5日净流出806股",
+      "summary": "11.36 -20.03 002617 露笑科技 17 11.62 7.59 -11.32 600531 豫光金铅 13 11.53 9.26 -29.61 000831 中国稀土 8 11.31 8.48 -16.52 300303 聚飞光电 6 11.24 10.22 -13.66 002230",
+      "publish_date": "2026-03-19",
+      "available_at": "2026-03-19T18:05:45",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 51,
+  "hot_reason": "雪球关注#45; 雪球讨论#65; 雪球交易#158",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

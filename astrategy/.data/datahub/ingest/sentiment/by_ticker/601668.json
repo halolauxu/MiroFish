@@ -1,0 +1,106 @@
+{
+  "ticker": "601668",
+  "company_name": "中国建筑",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "news",
+      "title": "中国建筑：1月新签合同总额3995亿元 同比增长1.8%",
+      "summary": "中国建筑6016682月10日公告，2026年1月新签合同总额3995亿元，同比增长1.8%。",
+      "publish_date": "2026-02-10",
+      "available_at": "2026-02-10T17:14:37",
+      "sentiment_score": 0.2,
+      "category": "重大合同",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "中国建筑重大项目公告",
+      "summary": "",
+      "publish_date": "2026-02-28",
+      "available_at": "2026-02-28T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "中国建筑第四届董事会第三十一次会议决议公告",
+      "summary": "",
+      "publish_date": "2026-03-12",
+      "available_at": "2026-03-12T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "中国建筑关于公司高级管理人员离任的公告",
+      "summary": "",
+      "publish_date": "2026-03-12",
+      "available_at": "2026-03-12T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "中国建筑：1-2月新签合同总额7198亿元 同比增长0.9%",
+      "summary": "中国建筑601668.SH)公告称，2026年1-2月新签合同总额7198亿元，同比增长0.9%。其中，建筑业务新签合同额6935亿元，同比增长1.9%。地产业务合约销售额263亿元，同比下降19.9%。",
+      "publish_date": "2026-03-16",
+      "available_at": "2026-03-16T18:19:38",
+      "sentiment_score": -0.5,
+      "category": "重大合同",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "中国建筑2026年1-2月经营情况简报",
+      "summary": "",
+      "publish_date": "2026-03-17",
+      "available_at": "2026-03-17T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "中国建筑2026年1—2月经营业绩向好，实现“十五五”稳健开局",
+      "summary": "近日，中国建筑（601668.SH）公布2026年1—2月经营情况简报。2026年前2个月，中国建筑实现新签合同总额7198亿元，同比增长0.9%，整体订单规模保持稳健上升趋势。 建筑业务方面，新签合同额6935亿元，同比增长1.9%。",
+      "publish_date": "2026-03-17",
+      "available_at": "2026-03-17T11:15:06",
+      "sentiment_score": 0.55,
+      "category": "业绩公告",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "hot_topic",
+      "title": "中国建筑",
+      "summary": "雪球关注#66",
+      "publish_date": "2026-03-19",
+      "available_at": "2026-03-19T00:00:00",
+      "sentiment_score": 0.08,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.25,
+      "hot_rank": 163
+    }
+  ],
+  "hot_rank": 163,
+  "hot_reason": "雪球关注#66",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

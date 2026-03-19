@@ -1,0 +1,94 @@
+{
+  "ticker": "601233",
+  "company_name": "桐昆股份",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "filing",
+      "title": "桐昆集团股份有限公司关于实施公司回购专用证券账户股份注销暨股份变动公告",
+      "summary": "股权变动",
+      "publish_date": "2026-03-05",
+      "available_at": "2026-03-05T00:00:00",
+      "sentiment_score": 0.8,
+      "category": "股权变动",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "桐昆集团股份有限公司关于2026年度第二期科技创新债券发行结果的公告",
+      "summary": "",
+      "publish_date": "2026-03-07",
+      "available_at": "2026-03-07T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "桐昆股份601233龙虎榜数据03-09)",
+      "summary": "交易所2026年3月9日公布的交易公开信息显示，桐昆股份因成为有价格涨跌幅限制的日收盘价格跌幅偏离值达到7%的前五只证券上榜。桐昆股份当日收报20.46元，涨跌幅-9.99%，偏离值-9.32%，换手率3.35%，成交额16.39亿。 免责声明：本文基于AI生产，仅供参考，不构成任何投资建议",
+      "publish_date": "2026-03-09",
+      "available_at": "2026-03-09T16:57:56",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "桐昆集团股份有限公司关于2025年度第四期科技创新债券到期兑付的公告",
+      "summary": "",
+      "publish_date": "2026-03-10",
+      "available_at": "2026-03-10T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "桐昆集团股份有限公司关于公司注册资本变更完成工商变更登记的公告",
+      "summary": "",
+      "publish_date": "2026-03-12",
+      "available_at": "2026-03-12T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "桐昆股份601233龙虎榜数据03-19)",
+      "summary": "交易所2026年3月19日公布的交易公开信息显示，桐昆股份因成为有价格涨跌幅限制的日收盘价格跌幅偏离值达到7%的前五只证券上榜。桐昆股份当日收报17.25元，涨跌幅-8.97%，偏离值-7.58%，换手率4.74%，成交额19.76亿。 免责声明：本文基于AI生产，仅供参考，不构成任何投资建议",
+      "publish_date": "2026-03-19",
+      "available_at": "2026-03-19T16:56:28",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "3月19日龙虎榜机构席位买卖详情",
+      "summary": "其中，机构净买入前三分别为固德电材(301680.SZ)、九安医疗(002432.SZ)与纳百川(301667.SZ)，详情见下图：机构净卖出的个股中，前三分别为桐昆股份601233.SH)、通源石油(300164.SZ)与铜牛信息(300895.SZ)。",
+      "publish_date": "2026-03-19",
+      "available_at": "2026-03-19T17:23:42",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 0,
+  "hot_reason": "",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

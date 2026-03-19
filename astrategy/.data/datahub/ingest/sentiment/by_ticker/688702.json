@@ -1,0 +1,82 @@
+{
+  "ticker": "688702",
+  "company_name": "盛科通信",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "filing",
+      "title": "盛科通信2025年度业绩快报公告",
+      "summary": "业绩预告",
+      "publish_date": "2026-02-26",
+      "available_at": "2026-02-26T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "业绩公告",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "盛科通信关于持股5%以上股东权益变动触及1%刻度的提示性公告",
+      "summary": "",
+      "publish_date": "2026-02-28",
+      "available_at": "2026-02-28T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "盛科通信：近期国家集成电路产业投资基金减持1%公司股份",
+      "summary": "盛科通信688702.SH)公告称，公司收到持股5%以上股东国家集成电路产业投资基金股份有限公司的告知函，其在2026年3月2日至2026年3月11日期间，通过集中竞价方式减持公司股份410万股，占公司总股本的比例由13.00%减少至12.00%，权益变动触及1%刻度。",
+      "publish_date": "2026-03-11",
+      "available_at": "2026-03-11T20:41:32",
+      "sentiment_score": -0.78,
+      "category": "股权变动",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "盛科通信：近期国家集成电路产业投资基金减持1%公司股份",
+      "summary": "每经AI快讯，3月11日，盛科通信688702.SH)公告称，公司收到持股5%以上股东国家集成电路产业投资基金股份有限公司的告知函，其在2026年3月2日至2026年3月11日期间，通过集中竞价方式减持公司股份410万股，占公司总股本的比例由13.00%减少至12.00%，权益变动触及",
+      "publish_date": "2026-03-11",
+      "available_at": "2026-03-11T20:50:17",
+      "sentiment_score": -0.78,
+      "category": "股权变动",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "盛科通信：国家集成电路基金已减持410万股，持股降至12%",
+      "summary": "3月11日，盛科通信（688702）发布公告，国家集成电路产业投资基金股份有限公司在2026年3月2日至3月6日期间，通过集中竞价方式减持公司股份410万股，占公司总股本的比例由13.00%减少至12.00%。",
+      "publish_date": "2026-03-11",
+      "available_at": "2026-03-11T20:56:34",
+      "sentiment_score": -0.78,
+      "category": "股权变动",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "盛科通信关于持股5%以上股东权益变动触及1%刻度的提示性公告",
+      "summary": "",
+      "publish_date": "2026-03-12",
+      "available_at": "2026-03-12T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 0,
+  "hot_reason": "",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

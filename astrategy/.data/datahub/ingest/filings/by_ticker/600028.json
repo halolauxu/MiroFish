@@ -1,0 +1,36 @@
+[
+  {
+    "ticker": "600028",
+    "company_name": "中国石化",
+    "title": "关于高级管理人员离任的公告",
+    "announcement_type": "",
+    "publish_date": "2026-02-28",
+    "publish_time": "2026-02-28",
+    "link": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=600028&announcementId=1224987117&orgId=gssh0600028&announcementTime=2026-02-28",
+    "source": "cninfo.disclosure_report",
+    "raw": {
+      "代码": "600028",
+      "简称": "中国石化",
+      "公告标题": "关于高级管理人员离任的公告",
+      "公告时间": "2026-02-28",
+      "公告链接": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=600028&announcementId=1224987117&orgId=gssh0600028&announcementTime=2026-02-28"
+    }
+  },
+  {
+    "ticker": "600028",
+    "company_name": "中国石化",
+    "title": "关于公司A股股票交易异常波动公告",
+    "announcement_type": "",
+    "publish_date": "2026-03-04",
+    "publish_time": "2026-03-04",
+    "link": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=600028&announcementId=1224994741&orgId=gssh0600028&announcementTime=2026-03-04",
+    "source": "cninfo.disclosure_report",
+    "raw": {
+      "代码": "600028",
+      "简称": "中国石化",
+      "公告标题": "关于公司A股股票交易异常波动公告",
+      "公告时间": "2026-03-04",
+      "公告链接": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=600028&announcementId=1224994741&orgId=gssh0600028&announcementTime=2026-03-04"
+    }
+  }
+]

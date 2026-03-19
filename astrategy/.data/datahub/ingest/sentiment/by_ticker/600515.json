@@ -1,0 +1,70 @@
+{
+  "ticker": "600515",
+  "company_name": "海南机场",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "filing",
+      "title": "海南机场设施股份有限公司2026年1月机场业务生产经营数据快报",
+      "summary": "",
+      "publish_date": "2026-02-28",
+      "available_at": "2026-02-28T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "业绩公告",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "海南机场2月起降架次同比增2.3% 货邮吞吐量增幅超五成",
+      "summary": "3月13日，海南机场（600515）发布公告，2026年2月的机场业务生产经营数据快报显示，起降架次为34,602架次，同比增长2.30%，累计起降架次为69,665架次，同比下降1.74%。",
+      "publish_date": "2026-03-13",
+      "available_at": "2026-03-13T19:03:08",
+      "sentiment_score": -0.5,
+      "category": "业绩公告",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "海南机场设施股份有限公司2026年2月机场业务生产经营数据快报",
+      "summary": "",
+      "publish_date": "2026-03-14",
+      "available_at": "2026-03-14T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "业绩公告",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "土地流转概念下跌1.21%，主力资金净流出32股",
+      "summary": "13.67 -8097.05 600313 农发种业 -2.58 9.69 -7450.10 002941 新疆交建 -1.57 2.60 -4757.29 002157 正邦科技 -1.78 1.97 -4227.83 600598 北大荒 -1.33 1.72 -3811.81 600515",
+      "publish_date": "2026-03-18",
+      "available_at": "2026-03-18T17:04:04",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "房地产行业资金流出榜：保利发展、万科A等净流出资金居前",
+      "summary": "2.64 -3339.51 600383 金地集团 -1.92 2.07 -2885.29 600340 华夏幸福 -5.42 6.28 -2858.75 600325 华发股份 -1.95 1.73 -2857.92 600094 大名城 -1.62 1.16 -2839.51 600515",
+      "publish_date": "2026-03-18",
+      "available_at": "2026-03-18T17:06:26",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 0,
+  "hot_reason": "",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

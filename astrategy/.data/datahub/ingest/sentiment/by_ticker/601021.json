@@ -1,0 +1,70 @@
+{
+  "ticker": "601021",
+  "company_name": "春秋航空",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "filing",
+      "title": "春秋航空关于股份回购进展公告",
+      "summary": "股权变动",
+      "publish_date": "2026-03-03",
+      "available_at": "2026-03-03T00:00:00",
+      "sentiment_score": 0.8,
+      "category": "股权变动",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "25.26亿元主力资金今日撤离交通运输板块",
+      "summary": "（数据宝） 交通运输行业资金流入榜 代码 简称 今日涨跌幅（%） 今日换手率（%） 主力资金流量（万元） 601021 春秋航空 -5.48 2.71 12815.50 002930 宏川智慧 9.97 5.13 7874.78 601006 大秦铁路 0.39 0.98 5990.04",
+      "publish_date": "2026-03-09",
+      "available_at": "2026-03-09T17:10:12",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "春秋航空：2月份旅客周转量同比增长25.58%",
+      "summary": "每经AI快讯，春秋航空6010213月16日公告，2月份旅客周转量54.52亿人公里，同比增长25.58%。客座率93.53%，同比增长2.11%。",
+      "publish_date": "2026-03-16",
+      "available_at": "2026-03-16T16:00:22",
+      "sentiment_score": 0.2,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "春秋航空：2月份旅客周转量同比增长25.58%",
+      "summary": "人民财讯3月16日电，春秋航空6010213月16日公告，2月份旅客周转量54.52亿人公里，同比增长25.58%。客座率93.53%，同比增长2.11%。",
+      "publish_date": "2026-03-16",
+      "available_at": "2026-03-16T16:02:58",
+      "sentiment_score": 0.2,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "春秋航空2026年2月份主要运营数据公告",
+      "summary": "",
+      "publish_date": "2026-03-17",
+      "available_at": "2026-03-17T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 0,
+  "hot_reason": "",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

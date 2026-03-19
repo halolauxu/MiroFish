@@ -1,0 +1,58 @@
+{
+  "ticker": "600483",
+  "company_name": "福能股份",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "news",
+      "title": "今日突破半年线个股",
+      "summary": "5.97 14.62 4.22 4.44 5.18 920370 新安洁 14.42 11.05 4.55 4.76 4.60 603118 共进股份 4.38 6.41 12.14 12.64 4.10 300167 ST迪威迅 7.90 5.88 5.66 5.87 3.72 600483",
+      "publish_date": "2026-02-26",
+      "available_at": "2026-02-26T15:41:40",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "福能股份关于开立募集资金现金管理专用结算账户及使用暂时闲置募集资金进行现金管理的进展公告",
+      "summary": "",
+      "publish_date": "2026-02-28",
+      "available_at": "2026-02-28T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "抽水蓄能概念上涨1.72%，10股主力资金净流入超亿元",
+      "summary": "4.17 300712 永福股份 8.84 8.63 1272.76 2.61 300930 屹通新材 2.46 6.47 859.55 8.58 000600 建投能源 -0.11 3.11 727.73 2.32 600268 国电南自 2.65 5.18 720.70 0.98 600483",
+      "publish_date": "2026-03-04",
+      "available_at": "2026-03-04T16:43:10",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "公用事业行业今日净流入资金7.77亿元，广安爱众等8股净流入资金超亿元",
+      "summary": "0.91 -7139.69 605090 九丰能源 -2.54 2.48 -6525.29 600868 梅雁吉祥 -4.77 7.78 -6440.10 600900 长江电力 -0.11 0.41 -6428.85 000543 皖能电力 -1.52 2.14 -5331.94 600483",
+      "publish_date": "2026-03-19",
+      "available_at": "2026-03-19T18:04:26",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 0,
+  "hot_reason": "",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

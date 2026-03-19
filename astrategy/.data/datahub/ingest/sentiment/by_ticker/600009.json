@@ -1,0 +1,82 @@
+{
+  "ticker": "600009",
+  "company_name": "上海机场",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "news",
+      "title": "上海机场：2月浦东国际机场旅客吞吐量同比增长12.3%",
+      "summary": "每经AI快讯，上海机场6000093月13日公告，2月，浦东国际机场旅客吞吐量725.23万人次，同比增长12.3%；货邮吞吐量29.98万吨，同比增长16.37%。虹桥国际机场旅客吞吐量394.73万人次，同比增长2.66%；货邮吞吐量2.84万吨，同比增长5.10%。",
+      "publish_date": "2026-03-13",
+      "available_at": "2026-03-13T16:25:38",
+      "sentiment_score": 0.2,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "上海机场2026年2月运输生产情况简报",
+      "summary": "",
+      "publish_date": "2026-03-14",
+      "available_at": "2026-03-14T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "上海机场：拟14.69亿元投资建设浦东国际机场运行保障基地项目",
+      "summary": "每经AI快讯，3月16日，上海机场600009.SH)公告称，公司决定以自筹资金14.69亿元投资建设浦东国际机场运行保障基地项目，授权经营层向银行机构申请办理不超过11亿元的项目贷款业务。",
+      "publish_date": "2026-03-16",
+      "available_at": "2026-03-16T17:51:17",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "上海机场：拟14.69亿元投建浦东国际机场运行保障基地项目",
+      "summary": "人民财讯3月16日电，上海机场6000093月16日公告，公司决定以自筹资金14.69亿元投资建设浦东国际机场运行保障基地项目，授权经营层向银行机构申请办理不超过11亿元的项目贷款业务。",
+      "publish_date": "2026-03-16",
+      "available_at": "2026-03-16T18:00:26",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "上海机场第九届董事会第三十一次会议决议公告",
+      "summary": "",
+      "publish_date": "2026-03-17",
+      "available_at": "2026-03-17T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "hot_topic",
+      "title": "上海机场",
+      "summary": "雪球关注#32; 雪球交易#97",
+      "publish_date": "2026-03-19",
+      "available_at": "2026-03-19T00:00:00",
+      "sentiment_score": 0.166,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.25,
+      "hot_rank": 57
+    }
+  ],
+  "hot_rank": 57,
+  "hot_reason": "雪球关注#32; 雪球交易#97",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

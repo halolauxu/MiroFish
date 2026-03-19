@@ -1,0 +1,36 @@
+[
+  {
+    "ticker": "603259",
+    "company_name": "药明康德",
+    "title": "H股公告",
+    "announcement_type": "",
+    "publish_date": "2026-03-05",
+    "publish_time": "2026-03-05",
+    "link": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=603259&announcementId=1224995990&orgId=9900035584&announcementTime=2026-03-05",
+    "source": "cninfo.disclosure_report",
+    "raw": {
+      "代码": "603259",
+      "简称": "药明康德",
+      "公告标题": "H股公告",
+      "公告时间": "2026-03-05",
+      "公告链接": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=603259&announcementId=1224995990&orgId=9900035584&announcementTime=2026-03-05"
+    }
+  },
+  {
+    "ticker": "603259",
+    "company_name": "药明康德",
+    "title": "H股公告",
+    "announcement_type": "",
+    "publish_date": "2026-03-10",
+    "publish_time": "2026-03-10",
+    "link": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=603259&announcementId=1225001631&orgId=9900035584&announcementTime=2026-03-10",
+    "source": "cninfo.disclosure_report",
+    "raw": {
+      "代码": "603259",
+      "简称": "药明康德",
+      "公告标题": "H股公告",
+      "公告时间": "2026-03-10",
+      "公告链接": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=603259&announcementId=1225001631&orgId=9900035584&announcementTime=2026-03-10"
+    }
+  }
+]

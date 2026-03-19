@@ -1,0 +1,70 @@
+{
+  "ticker": "002532",
+  "company_name": "天山铝业",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "filing",
+      "title": "关于实际控制人减持股份的预披露公告",
+      "summary": "股权变动",
+      "publish_date": "2026-02-26",
+      "available_at": "2026-02-26T00:00:00",
+      "sentiment_score": -0.78,
+      "category": "股权变动",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "关于控股股东部分股份质押的公告",
+      "summary": "",
+      "publish_date": "2026-03-05",
+      "available_at": "2026-03-05T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "有色金属行业资金流出榜：紫金矿业、华友钴业等净流出资金居前",
+      "summary": "-2.21 5.48 9657.83 000933 神火股份 -2.68 2.80 7453.50 600595 中孚实业 1.28 2.28 6945.19 002460 赣锋锂业 0.81 3.33 6196.82 603876 鼎胜新材 3.30 4.83 4673.34 002532",
+      "publish_date": "2026-03-16",
+      "available_at": "2026-03-16T17:12:27",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "天山铝业：公司在几内亚参股了一家本土矿业公司并获得其矿产品独家购买权",
+      "summary": "天山铝业（002532.SZ）3月19日在投资者互动平台表示，公司在几内亚参股了一家本土矿业公司并获得其矿产品独家购买权。就上述您提到的有关当地铝土矿出口配额、限制开采等问题，公司目前没有收到通知，也不存在应披露而未披露的事宜。",
+      "publish_date": "2026-03-19",
+      "available_at": "2026-03-19T15:14:35",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "俄乌冲突概念涨0.05%，主力资金净流入32股",
+      "summary": "-2.54 2.48 -6525.29 -9.29 603393 新天然气 6.15 8.01 -7185.67 -5.08 000625 长安汽车 -1.39 0.58 -9018.15 -17.64 300164 通源石油 8.72 38.16 -9071.94 -2.02 002532",
+      "publish_date": "2026-03-19",
+      "available_at": "2026-03-19T18:04:23",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 0,
+  "hot_reason": "",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

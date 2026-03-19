@@ -1,0 +1,58 @@
+{
+  "ticker": "600372",
+  "company_name": "中航机载",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "filing",
+      "title": "中航机载关于股份回购进展的公告",
+      "summary": "股权变动",
+      "publish_date": "2026-03-03",
+      "available_at": "2026-03-03T00:00:00",
+      "sentiment_score": 0.8,
+      "category": "股权变动",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "国产航母概念下跌2.67%，13股主力资金净流出超亿元",
+      "summary": "25678.16 002151 北斗星通 -3.94 9.13 -23762.77 002465 海格通信 -3.62 4.61 -23389.07 300101 振芯科技 -7.04 8.26 -22594.06 000768 中航西飞 -3.16 1.73 -16487.65 600372",
+      "publish_date": "2026-03-12",
+      "available_at": "2026-03-12T17:19:54",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "解密主力资金出逃股 连续5日净流出534股",
+      "summary": "4.53 5.60 -12.05 002639 雪人集团 9 4.50 2.73 -12.48 603220 中贝通信 5 4.49 5.59 -11.63 600886 国投电力 6 4.39 8.89 5.13 603444 吉比特 17 4.36 5.01 -14.05 600372",
+      "publish_date": "2026-03-16",
+      "available_at": "2026-03-16T17:13:04",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "解密主力资金出逃股 连续5日净流出736股",
+      "summary": "5.02 7.12 -10.55 601958 金钼股份 7 5.01 6.82 -14.08 688126 沪硅产业 14 4.97 5.86 -14.49 603220 中贝通信 6 4.91 5.61 -14.53 300115 长盈精密 5 4.88 7.81 -8.26 600372",
+      "publish_date": "2026-03-17",
+      "available_at": "2026-03-17T17:25:25",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 0,
+  "hot_reason": "",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

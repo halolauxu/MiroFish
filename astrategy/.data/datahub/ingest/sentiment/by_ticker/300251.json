@@ -1,0 +1,94 @@
+{
+  "ticker": "300251",
+  "company_name": "光线传媒",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "news",
+      "title": "全线爆发！300251强势涨停",
+      "summary": "A股市场超3100股飘绿，酿酒、食品饮料、零售等消费板块集体下挫，电力、有色等板块均走低；传媒板块全线爆发，短剧游戏、影视股表现亮眼，荣信文化、中文在线、捷成股份等连续两日20%涨停，光线传媒（300251）亦大单封涨停；创新药概念拉升，广生堂涨超10%，万邦德涨停。",
+      "publish_date": "2026-02-10",
+      "available_at": "2026-02-10T19:37:44",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "利好，603103，300251......《飞驰人生3》赢麻了！",
+      "summary": "光线传媒（300251）在2025年业绩预告中表示，2026年公司参投的电影《飞驰人生3》《惊蛰无声》《熊猫计划之部落奇遇记》将于大年初一上映；公司已储备的项目如《第十七条》《去你的岛》《三心两意》《女字旁》《小圆同学》《活色生香》《我的女朋友》《四十四个涩柿子》等影片预计也将于年内上映",
+      "publish_date": "2026-02-22",
+      "available_at": "2026-02-22T18:12:18",
+      "sentiment_score": 0.0,
+      "category": "业绩公告",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "关于电影《飞驰人生3》票房的公告",
+      "summary": "",
+      "publish_date": "2026-02-24",
+      "available_at": "2026-02-24T18:40:30",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "关于电影《惊蛰无声》票房的公告",
+      "summary": "",
+      "publish_date": "2026-02-24",
+      "available_at": "2026-02-24T18:40:30",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "《飞驰人生3》票房超31亿元！“批量”跌停后，300251最新披露！",
+      "summary": "多股披露参投电影票房 2月24日，光线传媒300251公告称，公司子公司参与的影片《飞驰人生3》已于2026年2月17日起在中国大陆地区公映。",
+      "publish_date": "2026-02-24",
+      "available_at": "2026-02-24T20:53:44",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "关于变更办公地址及投资者联系方式的公告",
+      "summary": "",
+      "publish_date": "2026-03-05",
+      "available_at": "2026-03-05T18:22:11",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "hot_topic",
+      "title": "光线传媒",
+      "summary": "雪球关注#119; 雪球讨论#151; 雪球交易#98",
+      "publish_date": "2026-03-19",
+      "available_at": "2026-03-19T00:00:00",
+      "sentiment_score": 0.1,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.25,
+      "hot_rank": 90
+    }
+  ],
+  "hot_rank": 90,
+  "hot_reason": "雪球关注#119; 雪球讨论#151; 雪球交易#98",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

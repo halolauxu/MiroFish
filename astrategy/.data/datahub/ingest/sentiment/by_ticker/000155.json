@@ -1,0 +1,70 @@
+{
+  "ticker": "000155",
+  "company_name": "川能动力",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "filing",
+      "title": "四川省新能源动力股份有限公司关于公司控股股东权益变动的进展公告",
+      "summary": "",
+      "publish_date": "2026-02-27",
+      "available_at": "2026-02-27T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "川能动力：公司生产的碳酸锂是电池级",
+      "summary": "川能动力（000155.SZ）3月4日在投资者互动平台表示，您好！公司生产的碳酸锂是电池级，具体经营数据请以公司拟披露的定期报告为准。",
+      "publish_date": "2026-03-04",
+      "available_at": "2026-03-04T16:58:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "关于2026年度第一期中期票据发行情况的公告",
+      "summary": "债券融资",
+      "publish_date": "2026-03-12",
+      "available_at": "2026-03-12T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "17.21亿元资金今日流入公用事业股",
+      "summary": "2.99 14311.25 000791 甘肃能源 4.96 6.91 13914.10 000593 德龙汇能 9.98 8.24 12968.08 601985 中国核电 1.10 1.44 12714.07 601016 节能风电 9.93 13.35 12633.39 000155",
+      "publish_date": "2026-03-12",
+      "available_at": "2026-03-12T17:35:16",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "磷化工概念涨0.67%，主力资金净流入这些股",
+      "summary": "000833 粤桂股份 1.63 16.19 12423.21 5.84 002455 百川股份 -5.32 46.58 7342.11 1.88 300432 富临精工 1.85 3.35 6456.59 6.39 300769 德方纳米 3.09 14.90 5738.76 3.24 000155",
+      "publish_date": "2026-03-13",
+      "available_at": "2026-03-13T17:14:29",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 0,
+  "hot_reason": "",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

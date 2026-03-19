@@ -1,0 +1,36 @@
+[
+  {
+    "ticker": "002939",
+    "company_name": "长城证券",
+    "title": "长城证券股份有限公司2023年面向专业投资者公开发行公司债券（第一期）（品种二）付息兑付暨摘牌公告",
+    "announcement_type": "债券融资",
+    "publish_date": "2026-03-12",
+    "publish_time": "2026-03-12 16:34:29",
+    "link": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=002939&announcementId=1225006039&orgId=qsgn0000030&announcementTime=2026-03-12 16:34:29",
+    "source": "cninfo.disclosure_report",
+    "raw": {
+      "代码": "002939",
+      "简称": "长城证券",
+      "公告标题": "长城证券股份有限公司2023年面向专业投资者公开发行公司债券（第一期）（品种二）付息兑付暨摘牌公告",
+      "公告时间": "2026-03-12 16:34:29",
+      "公告链接": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=002939&announcementId=1225006039&orgId=qsgn0000030&announcementTime=2026-03-12 16:34:29"
+    }
+  },
+  {
+    "ticker": "002939",
+    "company_name": "长城证券",
+    "title": "2026年度第五期短期融资券发行结果公告",
+    "announcement_type": "增发融资",
+    "publish_date": "2026-03-14",
+    "publish_time": "2026-03-14 00:00:00",
+    "link": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=002939&announcementId=1225008353&orgId=qsgn0000030&announcementTime=2026-03-14 00:00:00",
+    "source": "cninfo.disclosure_report",
+    "raw": {
+      "代码": "002939",
+      "简称": "长城证券",
+      "公告标题": "2026年度第五期短期融资券发行结果公告",
+      "公告时间": "2026-03-14 00:00:00",
+      "公告链接": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=002939&announcementId=1225008353&orgId=qsgn0000030&announcementTime=2026-03-14 00:00:00"
+    }
+  }
+]

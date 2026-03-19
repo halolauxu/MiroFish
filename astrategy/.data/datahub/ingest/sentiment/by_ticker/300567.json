@@ -1,0 +1,106 @@
+{
+  "ticker": "300567",
+  "company_name": "精测电子",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "news",
+      "title": "300567，预告扭亏为盈，近期股价大涨",
+      "summary": "1月30日晚间，半导体概念股精测电子（300567）发布2025年度业绩预告。该股近期股价大涨。",
+      "publish_date": "2026-02-01",
+      "available_at": "2026-02-01T09:33:34",
+      "sentiment_score": 0.45,
+      "category": "业绩公告",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "武汉精测电子集团股份有限公司关于精测转22026年付息公告",
+      "summary": "",
+      "publish_date": "2026-02-24",
+      "available_at": "2026-02-24T18:28:29",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "武汉精测电子集团股份有限公司关于子公司股权转让暨关联交易的进展公告",
+      "summary": "",
+      "publish_date": "2026-02-26",
+      "available_at": "2026-02-26T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "武汉精测电子集团股份有限公司关于为子公司向银行申请授信提供担保的进展公告",
+      "summary": "",
+      "publish_date": "2026-02-28",
+      "available_at": "2026-02-28T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "武汉精测电子集团股份有限公司关于使用部分闲置募集资金进行现金管理的进展公告",
+      "summary": "",
+      "publish_date": "2026-03-04",
+      "available_at": "2026-03-04T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "17.94亿主力资金净流入，国家大基金持股概念涨2.28%",
+      "summary": "北斗星通 5.01 16.36 -1401.41 -0.41 600206 有研新材 0.50 3.60 -1569.85 -2.36 300655 晶瑞电材 0.99 3.12 -1584.59 -2.98 688172 燕东微 8.48 3.40 -1619.91 -1.44 300567",
+      "publish_date": "2026-03-16",
+      "available_at": "2026-03-16T17:12:45",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "武汉精测电子集团股份有限公司关于子公司签订《施工总承包合同》暨对外投资建设项目的进展公告",
+      "summary": "重大合同",
+      "publish_date": "2026-03-17",
+      "available_at": "2026-03-17T00:00:00",
+      "sentiment_score": 1.0,
+      "category": "重大合同",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "存储芯片概念涨3.50%，主力资金净流入95股",
+      "summary": "688135 利扬芯片 4.92 5.08 -609.44 -1.90 300903 科翔股份 2.01 7.61 -629.14 -0.68 002579 中京电子 3.59 6.41 -633.36 -1.38 002975 博杰股份 4.68 3.64 -695.77 -2.49 300567",
+      "publish_date": "2026-03-18",
+      "available_at": "2026-03-18T17:06:43",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 0,
+  "hot_reason": "",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

@@ -1,0 +1,106 @@
+{
+  "ticker": "601878",
+  "company_name": "浙商证券",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "filing",
+      "title": "浙商证券股份有限公司第四届董事会第四十二次会议决议公告",
+      "summary": "",
+      "publish_date": "2026-02-27",
+      "available_at": "2026-02-27T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "浙商证券股份有限公司关于变更公司总裁的公告",
+      "summary": "",
+      "publish_date": "2026-02-27",
+      "available_at": "2026-02-27T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "浙商证券股份有限公司2026年第二次临时股东会会议资料",
+      "summary": "",
+      "publish_date": "2026-02-27",
+      "available_at": "2026-02-27T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "托管业务违规、对子公司合规管理不到位，浙商证券被责令改正",
+      "summary": "根据浙江证监局3月13日发布的公告，浙商证券股份有限公司（公司简称浙商证券；证券代码601878）因存在多项合规问题而被采取责令改正措施。",
+      "publish_date": "2026-03-13",
+      "available_at": "2026-03-13T16:32:13",
+      "sentiment_score": -0.5,
+      "category": "产品进展",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "浙商证券收罚单！个别核心业务岗位人员从业经验不足2年",
+      "summary": "3月13日，浙江证监局披露一则针对浙商证券（601878.SZ）的行政监管措施。经查，浙商证券在托管业务及子公司管理等方面存在问题。",
+      "publish_date": "2026-03-14",
+      "available_at": "2026-03-14T01:12:49",
+      "sentiment_score": 0.0,
+      "category": "政策影响",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "因对子公司合规管理不到位等问题，浙商证券年内再被监管点名",
+      "summary": "浙商证券股份有限公司（下称“浙商证券 ”，601878）因子公司合规管理不到位等问题，被浙江证监局责令改正。",
+      "publish_date": "2026-03-15",
+      "available_at": "2026-03-15T17:44:30",
+      "sentiment_score": 0.0,
+      "category": "政策影响",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "浙商证券股份有限公司关于董事任职的公告",
+      "summary": "",
+      "publish_date": "2026-03-17",
+      "available_at": "2026-03-17T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "浙商证券股份有限公司2026年第二次临时股东会决议公告",
+      "summary": "",
+      "publish_date": "2026-03-17",
+      "available_at": "2026-03-17T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 0,
+  "hot_reason": "",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

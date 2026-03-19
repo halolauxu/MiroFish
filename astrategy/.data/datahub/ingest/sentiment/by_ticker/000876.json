@@ -1,0 +1,130 @@
+{
+  "ticker": "000876",
+  "company_name": "新 希 望",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "filing",
+      "title": "发行保荐书（注册稿）",
+      "summary": "",
+      "publish_date": "2026-02-27",
+      "available_at": "2026-02-27T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "募集说明书（注册稿）",
+      "summary": "",
+      "publish_date": "2026-02-27",
+      "available_at": "2026-02-27T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "关于向特定对象发行股票提交募集说明书（注册稿）等申请文件的提示性公告",
+      "summary": "增发融资",
+      "publish_date": "2026-02-27",
+      "available_at": "2026-02-27T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "上市保荐书（注册稿）",
+      "summary": "",
+      "publish_date": "2026-02-27",
+      "available_at": "2026-02-27T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "新希望：2月商品猪销售收入13.27亿元 同比下降7.42%",
+      "summary": "每经AI快讯，新希望0008763月6日公告，2月销售商品猪98.22万头，环比下降12.44%，同比增长19.97%。商品猪销售收入13.27亿元，环比下降18.49%，同比下降7.42%。商品猪销售均价11.45元/公斤，环比下降8.25%，同比下降21.79%。",
+      "publish_date": "2026-03-06",
+      "available_at": "2026-03-06T19:13:00",
+      "sentiment_score": -0.5,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "2026年2月销售情况简报",
+      "summary": "",
+      "publish_date": "2026-03-07",
+      "available_at": "2026-03-07T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "关于2025年度第二期科技创新债券(乡村振兴)兑付公告",
+      "summary": "",
+      "publish_date": "2026-03-11",
+      "available_at": "2026-03-11T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "关于2021年度第一期中期票据（乡村振兴）兑付公告",
+      "summary": "债券融资",
+      "publish_date": "2026-03-11",
+      "available_at": "2026-03-11T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "猪肉概念上涨0.91%，7股主力资金净流入超千万元",
+      "summary": "新希望 0.34 0.91 -625.65 -1.72 600073 光明肉业 0.30 1.38 -1290.28 -14.94 300761 立华股份 2.31 2.45 -1683.41 -4.90 300498 温氏股份 2.27 1.49 -2386.52 -1.55",
+      "publish_date": "2026-03-12",
+      "available_at": "2026-03-12T17:18:44",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "养鸡概念涨0.65%，主力资金净流入13股",
+      "summary": "新希望 0.34 0.91 -625.65 -1.72 002746 仙坛股份 1.23 3.54 -1282.42 -7.79 300761 立华股份 2.31 2.45 -1683.41 -4.90 300498 温氏股份 2.27 1.49 -2386.52 -1.55",
+      "publish_date": "2026-03-12",
+      "available_at": "2026-03-12T17:18:51",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 0,
+  "hot_reason": "",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

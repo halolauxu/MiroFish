@@ -1,0 +1,106 @@
+{
+  "ticker": "601872",
+  "company_name": "招商轮船",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "news",
+      "title": "A股强势上攻，房地产全线走强！601872，4天3板！",
+      "summary": "板块内所有个股上涨，招商轮船601872开盘后仅约4分钟垂直涨停，4日3涨停，股价创历史新高（复权，下同），中远海能、中远海发等亦快速封板，股价均创多年新高。 消息面上，据央视报道，在美伊26日新一轮谈判前夕，伊朗伊斯兰革命卫队24日在伊南部沿海地区举行军事演习。",
+      "publish_date": "2026-02-25",
+      "available_at": "2026-02-25T13:22:42",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "招商轮船股票交易异常波动公告",
+      "summary": "",
+      "publish_date": "2026-02-27",
+      "available_at": "2026-02-27T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "招商轮船601872龙虎榜数据03-03)",
+      "summary": "交易所2026年3月3日公布的交易公开信息显示，招商轮船因成为非ST、*ST和S证券连续三个交易日内收盘价格涨幅偏离值累计达到20%的证券上榜。招商轮船当日收报19.65元，涨跌幅10.02%，换手率4.70%，成交额72.81亿。",
+      "publish_date": "2026-03-03",
+      "available_at": "2026-03-03T16:58:03",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "招商轮船股票交易异常波动公告",
+      "summary": "",
+      "publish_date": "2026-03-04",
+      "available_at": "2026-03-04T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "招商轮船关于AFRAMAX油轮新船交付的公告",
+      "summary": "",
+      "publish_date": "2026-03-06",
+      "available_at": "2026-03-06T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "招商轮船关于卡姆萨型干散货船新船交付的公告",
+      "summary": "",
+      "publish_date": "2026-03-11",
+      "available_at": "2026-03-11T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "hot_topic",
+      "title": "招商轮船",
+      "summary": "雪球讨论#87",
+      "publish_date": "2026-03-19",
+      "available_at": "2026-03-19T00:00:00",
+      "sentiment_score": 0.08,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.25,
+      "hot_rank": 200
+    },
+    {
+      "source_type": "news",
+      "title": "一张“通关梗图”刷屏背后：霍尔木兹实际通行量如何？",
+      "summary": "但在二级市场，截至今日收盘，招商轮船（601872.SH）、中远海能（600026.SH）分别收跌2%和4.62%。 反观霍尔木兹通行量，中远海科（002401.SZ）船视宝数据显示，根据船舶AIS情况，近一天，通过霍尔木兹海峡的船舶仅3艘。",
+      "publish_date": "2026-03-19",
+      "available_at": "2026-03-19T18:19:59",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 200,
+  "hot_reason": "雪球讨论#87",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

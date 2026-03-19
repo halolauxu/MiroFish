@@ -1,0 +1,58 @@
+{
+  "ticker": "605358",
+  "company_name": "立昂微",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "filing",
+      "title": "立昂微关于获得政府补助的公告",
+      "summary": "",
+      "publish_date": "2026-02-28",
+      "available_at": "2026-02-28T00:00:00",
+      "sentiment_score": 0.22,
+      "category": "政策影响",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "共封装光学(CPO)概念下跌5.27%，53股主力资金净流出超亿元",
+      "summary": "-5.76 3.66 -414.30 003028 振邦智能 -3.08 1.68 -257.78 605358 立昂微 -3.42 1.86 -215.30 002184 海得控制 -2.96 1.81 -198.92 688609 九联科技 -2.63 1.26 -117.21",
+      "publish_date": "2026-03-17",
+      "available_at": "2026-03-17T17:23:07",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "共封装光学(CPO)概念涨3.69%，主力资金净流入这些股",
+      "summary": "3.59 6.41 -633.36 -1.38 301511 德福科技 1.03 6.52 -757.25 -0.80 002600 领益智造 0.85 0.71 -805.51 -1.11 300252 金信诺 2.24 3.21 -830.07 -3.33 605358 立昂微",
+      "publish_date": "2026-03-18",
+      "available_at": "2026-03-18T17:06:38",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "存储芯片概念涨3.50%，主力资金净流入95股",
+      "summary": "-0.84 2.65 -802.93 -0.70 688691 灿芯股份 2.04 5.20 -824.36 -2.11 000620 盈新发展 -2.65 7.80 -838.89 -0.70 605178 时空科技 2.85 3.66 -862.18 -3.42 605358",
+      "publish_date": "2026-03-18",
+      "available_at": "2026-03-18T17:06:43",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 0,
+  "hot_reason": "",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

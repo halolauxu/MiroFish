@@ -1,0 +1,118 @@
+{
+  "ticker": "002340",
+  "company_name": "格林美",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "filing",
+      "title": "关于回购注销部分限制性股票减少注册资本暨通知债权人的公告",
+      "summary": "股权变动",
+      "publish_date": "2026-03-07",
+      "available_at": "2026-03-07T00:00:00",
+      "sentiment_score": 0.8,
+      "category": "股权变动",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "2026年第一次临时股东会决议公告",
+      "summary": "",
+      "publish_date": "2026-03-07",
+      "available_at": "2026-03-07T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "关于与中国恩菲签署共同推动关键矿产资源开发的战略合作协议的公告",
+      "summary": "重大合同",
+      "publish_date": "2026-03-09",
+      "available_at": "2026-03-09T00:00:00",
+      "sentiment_score": 1.0,
+      "category": "重大合同",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "国联民生证券承销保荐有限公司关于格林美股份有限公司回购注销部分限制性股票减少注册资本的临时受托管理事务报告",
+      "summary": "股权变动",
+      "publish_date": "2026-03-11",
+      "available_at": "2026-03-11T17:24:27",
+      "sentiment_score": 0.8,
+      "category": "股权变动",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "国联民生证券承销保荐有限公司关于格林美股份有限公司注销部分回购股份暨变更注册资本的临时受托管理事务报告",
+      "summary": "股权变动",
+      "publish_date": "2026-03-11",
+      "available_at": "2026-03-11T17:26:09",
+      "sentiment_score": 0.8,
+      "category": "股权变动",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "格林美：2026年至今，印尼园区累计产出镍金属近2万吨，同比增长约10%",
+      "summary": "每经AI快讯，格林美（002340.SZ）3月16日在投资者互动平台表示，2026年2月，公司位于印尼的青美邦园区临时渣库堆放区因暴雨引起的山体滑坡而发生一起事故，公司已按要求完成整改。此次整改仅涉及青美邦HPAL产能部分，对公司经营整体而言影响较小。",
+      "publish_date": "2026-03-16",
+      "available_at": "2026-03-16T19:50:04",
+      "sentiment_score": 0.2,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "hot_topic",
+      "title": "格林美",
+      "summary": "雪球关注#85",
+      "publish_date": "2026-03-19",
+      "available_at": "2026-03-19T00:00:00",
+      "sentiment_score": 0.08,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.25,
+      "hot_rank": 185
+    },
+    {
+      "source_type": "news",
+      "title": "金属钴概念下跌4.85%，主力资金净流出31股",
+      "summary": "26435.04 300409 道氏技术 -8.87 8.40 -17383.04 601390 中国中铁 -2.10 1.41 -15148.99 600490 鹏欣资源 -6.89 3.88 -13230.81 002601 龙佰集团 -4.97 1.95 -11963.38 002340",
+      "publish_date": "2026-03-19",
+      "available_at": "2026-03-19T18:04:39",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "近日海外机构调研股名单",
+      "summary": "顺络电子 16 37.45 -8.48 电子 688213 思特威 2 80.94 -9.75 电子 688322 奥比中光 14 75.65 -10.35 电子 000050 深天马A 2 8.62 -11.13 电子 300870 欧陆通 1 254.20 -13.30 电力设备 002340",
+      "publish_date": "2026-03-19",
+      "available_at": "2026-03-19T18:04:54",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 185,
+  "hot_reason": "雪球关注#85",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

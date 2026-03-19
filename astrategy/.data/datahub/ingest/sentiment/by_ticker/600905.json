@@ -1,0 +1,46 @@
+{
+  "ticker": "600905",
+  "company_name": "三峡能源",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "news",
+      "title": "三峡能源控股子公司500万元项目环评获同意",
+      "summary": "每经AI快讯，“A股绿色报告”项目监控到的数据显示，三峡能源（SH600905）控股子公司三峡能源（枣庄市峄城区）有限公司三峡能源峄城底阁50MW光伏发电项目配套升压站、送出线路工程环评审批获同意。该项目总投资额达500万元。",
+      "publish_date": "2026-03-17",
+      "available_at": "2026-03-17T16:50:30",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "公用事业行业今日净流入资金7.77亿元，广安爱众等8股净流入资金超亿元",
+      "summary": "12972.18 600021 上海电力 -2.39 1.24 -11497.71 600396 华电辽能 10.06 12.51 -10921.66 601991 大唐发电 -3.02 2.62 -10802.07 603393 新天然气 6.15 8.01 -7185.67 600905",
+      "publish_date": "2026-03-19",
+      "available_at": "2026-03-19T18:04:26",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "解密主力资金出逃股 连续5日净流出806股",
+      "summary": "9.26 -29.61 000831 中国稀土 8 11.31 8.48 -16.52 300303 聚飞光电 6 11.24 10.22 -13.66 002230 科大讯飞 8 11.20 8.12 -5.87 600711 盛屯矿业 7 10.90 10.25 -18.10 600905",
+      "publish_date": "2026-03-19",
+      "available_at": "2026-03-19T18:05:45",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 0,
+  "hot_reason": "",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

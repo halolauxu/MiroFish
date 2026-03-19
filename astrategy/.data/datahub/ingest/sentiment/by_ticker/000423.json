@@ -1,0 +1,82 @@
+{
+  "ticker": "000423",
+  "company_name": "东阿阿胶",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "filing",
+      "title": "关于第一期限制性股票激励计划预留授予登记完成的公告",
+      "summary": "股权激励",
+      "publish_date": "2026-03-02",
+      "available_at": "2026-03-02T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "股权变动",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "关于以集中竞价交易方式回购公司股份的进展公告",
+      "summary": "股权变动",
+      "publish_date": "2026-03-02",
+      "available_at": "2026-03-02T00:00:00",
+      "sentiment_score": 0.8,
+      "category": "股权变动",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "最新股东户数揭秘：这127股股东户数连降三期",
+      "summary": "东阿阿胶 65856 -2.54 4 3.08 3.89 301515 港通医疗 8303 -2.48 6 -1.51 -0.64 002915 中欣氟材 58786 -2.47 5 -11.81 -11.11 002277 友阿股份 54665 -2.46 6 -14.16 -",
+      "publish_date": "2026-03-16",
+      "available_at": "2026-03-16T17:12:43",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "最新股东户数揭秘：这130股股东户数连降三期",
+      "summary": "东阿阿胶 65856 -2.54 4 4.37 6.02 301515 港通医疗 8303 -2.48 6 -3.06 -1.35 002915 中欣氟材 58786 -2.47 5 -15.50 -13.95 002277 友阿股份 54665 -2.46 6 -14.78 -",
+      "publish_date": "2026-03-17",
+      "available_at": "2026-03-17T16:25:12",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "筹码连续集中股名单（附股）",
+      "summary": "东阿阿胶 65856 -2.54 4 4.78 6.11 301515 港通医疗 8303 -2.48 6 -0.96 0.43 002915 中欣氟材 58786 -2.47 5 -16.59 -15.36 002277 友阿股份 54665 -2.46 6 -15.64 -14.25",
+      "publish_date": "2026-03-18",
+      "available_at": "2026-03-18T17:57:05",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "hot_topic",
+      "title": "东阿阿胶",
+      "summary": "雪球关注#71; 雪球讨论#78",
+      "publish_date": "2026-03-19",
+      "available_at": "2026-03-19T00:00:00",
+      "sentiment_score": 0.14,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.25,
+      "hot_rank": 70
+    }
+  ],
+  "hot_rank": 70,
+  "hot_reason": "雪球关注#71; 雪球讨论#78",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

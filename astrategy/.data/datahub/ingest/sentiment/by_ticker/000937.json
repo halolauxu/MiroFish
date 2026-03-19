@@ -1,0 +1,70 @@
+{
+  "ticker": "000937",
+  "company_name": "冀中能源",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "filing",
+      "title": "关于公司股东部分股份解除质押的公告",
+      "summary": "",
+      "publish_date": "2026-03-03",
+      "available_at": "2026-03-03T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "关于白涧铁矿项目的进展公告",
+      "summary": "",
+      "publish_date": "2026-03-17",
+      "available_at": "2026-03-17T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "【盘中播报】13只个股跨越牛熊分界线",
+      "summary": "3.19 3.77 10.54 10.67 1.24 603689 皖天然气 1.42 1.18 8.45 8.55 1.16 002267 陕天然气 1.90 1.01 7.99 8.06 0.91 600012 皖通高速 0.84 0.15 15.45 15.55 0.66 000937",
+      "publish_date": "2026-03-19",
+      "available_at": "2026-03-19T11:00:09",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "【盘中播报】15只个股突破年线",
+      "summary": "4.85 5.05 4.69 4.76 1.51 301195 北路智控 4.04 3.91 34.91 35.29 1.08 600643 爱建集团 2.62 5.46 5.43 5.48 0.87 002152 广电运通 1.01 1.07 12.90 12.99 0.68 000937",
+      "publish_date": "2026-03-19",
+      "available_at": "2026-03-19T14:12:33",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "今日14只股长线走稳 站上年线",
+      "summary": "1.82 0.69 15.45 15.70 1.63 603689 皖天然气 1.90 3.32 8.45 8.59 1.63 301195 北路智控 4.16 4.73 34.91 35.33 1.19 300199 翰宇药业 2.32 6.61 18.77 18.96 1.00 000937",
+      "publish_date": "2026-03-19",
+      "available_at": "2026-03-19T16:20:10",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 0,
+  "hot_reason": "",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

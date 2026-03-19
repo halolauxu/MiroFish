@@ -1,0 +1,46 @@
+{
+  "ticker": "601360",
+  "company_name": "三六零",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "news",
+      "title": "午后异动！601360涨停",
+      "summary": "东方国信触及涨停，三六零（601360）封涨停，此前中文在线、荣信文化、掌阅科技等多股涨停，流金科技、安诺其、数字人等涨幅居前。 消息面上，近期国内视频生成厂商进一步加速模型研发节奏。",
+      "publish_date": "2026-02-09",
+      "available_at": "2026-02-09T14:03:41",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "“龙虾”风险提示受关注 三六零推出全网首份OpenClaw安全部署指南",
+      "summary": "为了帮助企业团队和OPC（一人公司）创业者在保障安全的前提下使用AI智能体，三六零在《指南》中提出“先可控、再提效”的原则。",
+      "publish_date": "2026-03-11",
+      "available_at": "2026-03-11T17:07:30",
+      "sentiment_score": -0.92,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "大动作！三六零火速发布“龙虾”新品！发布会现场“真吃虾”",
+      "summary": "3月14日晚，三六零进行以“360安全龙虾”为代表的“龙虾”新品发布。与一般的发布会不同，现场摆放了十多台餐桌，座位上摆了龙虾玩偶，桌上则都摆了真正的小龙虾熟食。",
+      "publish_date": "2026-03-14",
+      "available_at": "2026-03-14T20:06:15",
+      "sentiment_score": 0.22,
+      "category": "产品进展",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 0,
+  "hot_reason": "",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

@@ -1,0 +1,58 @@
+{
+  "ticker": "600517",
+  "company_name": "国网英大",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "news",
+      "title": "国网英大：子公司英大证券参与碳排放权交易获得中国证监会复函",
+      "summary": "人民财讯3月9日电，国网英大6005173月9日公告，子公司英大证券有限责任公司于近日收到中国证券监督管理委员会《关于英大证券有限责任公司参与碳排放权交易有关意见的复函》。根据复函，中国证监会同意英大证券自营业务在境内合法交易场所参与碳排放权交易。",
+      "publish_date": "2026-03-09",
+      "available_at": "2026-03-09T16:54:22",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "国网英大关于子公司英大证券参与碳排放权交易获得中国证监会复函的公告",
+      "summary": "",
+      "publish_date": "2026-03-10",
+      "available_at": "2026-03-10T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "20.19亿主力资金净流入，期货概念涨0.02%",
+      "summary": "-0.93 1.46 -1201.49 -6.86 600755 厦门国贸 -0.16 1.36 -1333.22 -7.11 601236 红塔证券 0.37 0.48 -1371.73 -7.53 301299 卓创资讯 -5.49 5.90 -1424.40 -7.97 600517",
+      "publish_date": "2026-03-17",
+      "available_at": "2026-03-17T17:23:25",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "36.33亿元主力资金今日抢筹非银金融板块",
+      "summary": "4.13 2.33 -706.00 000567 海德股份 -0.90 0.72 -743.40 002670 国盛证券 -0.39 1.21 -819.03 000712 锦龙股份 -0.62 2.77 -1018.46 601236 红塔证券 0.37 0.48 -1371.72 600517",
+      "publish_date": "2026-03-17",
+      "available_at": "2026-03-17T17:23:34",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 0,
+  "hot_reason": "",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

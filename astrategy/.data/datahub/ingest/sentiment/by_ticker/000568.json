@@ -1,0 +1,58 @@
+{
+  "ticker": "000568",
+  "company_name": "泸州老窖",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "news",
+      "title": "食品饮料行业今日涨1.99%，主力资金净流入15.49亿元",
+      "summary": "10.18 10.32 12353.87 000995 皇台酒业 5.55 28.04 9372.20 605499 东鹏饮料 5.17 0.64 4739.53 600872 中炬高新 2.75 2.45 4055.10 600186 莲花控股 2.16 5.91 4027.37 000568",
+      "publish_date": "2026-03-16",
+      "available_at": "2026-03-16T17:13:27",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "食品饮料行业3月17日资金流向日报",
+      "summary": "%） 主力资金流量（万元） 600887 伊利股份 0.11 0.82 -23080.18 603288 海天味业 1.14 0.63 -10765.29 002507 涪陵榨菜 1.45 4.05 -3945.91 000799 酒鬼酒 -2.45 2.67 -3109.88 000568",
+      "publish_date": "2026-03-17",
+      "available_at": "2026-03-17T17:23:55",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "食品饮料行业今日净流出资金9.13亿元，贵州茅台等5股净流出资金超5000万元",
+      "summary": "0.30 -9114.29 603288 海天味业 -1.00 0.38 -7393.46 000639 西王食品 -3.18 9.57 -5187.37 600809 山西汾酒 -1.60 0.28 -4538.76 603027 千禾味业 -5.71 2.91 -4095.88 000568",
+      "publish_date": "2026-03-18",
+      "available_at": "2026-03-18T17:06:45",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "hot_topic",
+      "title": "泸州老窖",
+      "summary": "雪球关注#25; 雪球讨论#27; 雪球交易#62",
+      "publish_date": "2026-03-19",
+      "available_at": "2026-03-19T00:00:00",
+      "sentiment_score": 0.24,
+      "category": "其他",
+      "urgency": "high",
+      "weight": 1.25,
+      "hot_rank": 20
+    }
+  ],
+  "hot_rank": 20,
+  "hot_reason": "雪球关注#25; 雪球讨论#27; 雪球交易#62",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

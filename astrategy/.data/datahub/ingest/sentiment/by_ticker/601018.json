@@ -1,0 +1,70 @@
+{
+  "ticker": "601018",
+  "company_name": "宁波港",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "news",
+      "title": "宁波港：2月预计完成货物吞吐量同比增长18.35%",
+      "summary": "人民财讯3月3日电，宁波港6010183月3日公告，2026年2月份，公司预计完成集装箱吞吐量432万标准箱，同比增长28.42%；预计完成货物吞吐量9500万吨，同比增长18.35%。",
+      "publish_date": "2026-03-03",
+      "available_at": "2026-03-03T16:59:51",
+      "sentiment_score": 0.2,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "宁波港：2月预计完成货物吞吐量同比增长18.35%",
+      "summary": "每经AI快讯，3月3日，宁波港601018.SH)公告称，2026年2月，公司预计完成集装箱吞吐量432万标准箱，同比增长28.42%；预计完成货物吞吐量9500万吨，同比增长18.35%。",
+      "publish_date": "2026-03-03",
+      "available_at": "2026-03-03T17:03:27",
+      "sentiment_score": 0.2,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "宁波舟山港股份有限公司2026年2月份主要生产数据提示性公告",
+      "summary": "",
+      "publish_date": "2026-03-04",
+      "available_at": "2026-03-04T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "宁波舟山港股份有限公司关于全资子公司向关联方续借款项暨关联交易的公告",
+      "summary": "",
+      "publish_date": "2026-03-06",
+      "available_at": "2026-03-06T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "台州港港务公司增资至35.6亿",
+      "summary": "股东信息显示，该公司由宁波港（601018）全资持股。",
+      "publish_date": "2026-03-10",
+      "available_at": "2026-03-10T15:14:55",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 0,
+  "hot_reason": "",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

@@ -1,0 +1,46 @@
+{
+  "ticker": "002223",
+  "company_name": "鱼跃医疗",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "news",
+      "title": "鱼跃医疗：子公司持续葡萄糖监测系统获欧盟MDR认证",
+      "summary": "1月28日，鱼跃医疗（002223）发布公告，控股子公司鱼跃凯立特近日获得了符合欧盟医疗器械第2017/745号法规（MDR）要求的IIb类医疗器械CE认证证书，认证的产品为持续葡萄糖监测系统（CGM）。",
+      "publish_date": "2026-01-28",
+      "available_at": "2026-01-28T18:06:16",
+      "sentiment_score": 0.0,
+      "category": "产品进展",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "盈利承压 鱼跃医疗加速转型构建新增长曲线",
+      "summary": "《经济参考报》记者注意到，作为医疗器械行业龙头企业，鱼跃医疗（002223.SZ）正加快向“AI+医疗”转型的战略布局并积极开拓海外市场，不断探索高质量的稳定增长之路。",
+      "publish_date": "2026-02-12",
+      "available_at": "2026-02-12T03:59:21",
+      "sentiment_score": -0.3,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "【盘中播报】150只个股突破年线",
+      "summary": "2.52 26.33 26.92 2.24 688768 容知日新 3.95 1.53 49.20 50.30 2.24 688501 青达环保 3.06 0.82 26.38 26.95 2.17 002802 洪汇新材 3.30 1.13 13.52 13.79 2.03 002223",
+      "publish_date": "2026-03-06",
+      "available_at": "2026-03-06T11:10:39",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 0,
+  "hot_reason": "",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

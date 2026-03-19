@@ -1,0 +1,70 @@
+{
+  "ticker": "300207",
+  "company_name": "欣旺达",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "news",
+      "title": "IPO关键期！300207，大和解",
+      "summary": "【导读】欣旺达与吉利系诉讼和解，当前正在申报港股IPO 2月6日盘后，欣旺达发布公告称，公司子公司欣旺达动力科技股份有限公司（以下简称欣旺达动力）与威睿电动汽车技术（宁波）有限公司（以下简称威睿电动）在一审阶段达成和解。威睿电动将在《和解协议》生效后撤回起诉。 威睿电动隶属于吉利控股集团",
+      "publish_date": "2026-02-06",
+      "available_at": "2026-02-06T20:29:40",
+      "sentiment_score": -0.32,
+      "category": "产品进展",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "关于2022年限制性股票与股票期权激励计划部分股票期权注销完成的公告",
+      "summary": "股权激励",
+      "publish_date": "2026-02-24",
+      "available_at": "2026-02-24T15:42:30",
+      "sentiment_score": 0.0,
+      "category": "股权变动",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "2026年第一次临时股东会决议公告",
+      "summary": "",
+      "publish_date": "2026-03-05",
+      "available_at": "2026-03-05T19:06:11",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "苹果COO一行到访欣旺达 考察“果链”智能制造最新进展",
+      "summary": "记者从欣旺达300207获悉，3月17日，苹果公司首席运营官Sabih Khan一行到访欣旺达总部，在欣旺达董事长王威的陪同下，参观了高度自动化的iPhone电池生产线，深入考察了中国“果链”在智能制造方面的最新进展。",
+      "publish_date": "2026-03-19",
+      "available_at": "2026-03-19T17:47:26",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "电力设备行业今日跌2.10%，主力资金净流出124.96亿元",
+      "summary": "主力资金流量（万元） 601218 吉鑫科技 10.07 13.59 39970.65 688223 晶科能源 0.84 3.36 25169.65 300438 鹏辉能源 1.63 10.67 19642.87 300274 阳光电源 -0.89 3.67 19434.05 300207",
+      "publish_date": "2026-03-19",
+      "available_at": "2026-03-19T18:05:29",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 0,
+  "hot_reason": "",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

@@ -1,0 +1,70 @@
+{
+  "ticker": "300054",
+  "company_name": "鼎龙股份",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "filing",
+      "title": "关于2024年股票期权激励计划第一期行权完成后调整可转债转股价格的公告",
+      "summary": "股权激励",
+      "publish_date": "2026-03-07",
+      "available_at": "2026-03-07T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "股权变动",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "关于公司部分董事兼高级管理人员减持股份计划到期暨实施情况的公告",
+      "summary": "股权变动",
+      "publish_date": "2026-03-17",
+      "available_at": "2026-03-17T00:00:00",
+      "sentiment_score": -0.78,
+      "category": "股权变动",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "鼎龙股份：年产300吨KrF/ArF光刻胶产业化项目建成投产",
+      "summary": "每经AI快讯，3月19日，鼎龙股份300054.SZ)公告称，公司控股子公司鼎龙(潜江)新材料有限公司投资建设的“年产300吨KrF/ArF光刻胶产业化项目”主体厂房及配套设施已建成，并于近期顺利投产。",
+      "publish_date": "2026-03-19",
+      "available_at": "2026-03-19T16:25:11",
+      "sentiment_score": 0.24,
+      "category": "产品进展",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "鼎龙股份：年产300吨KrF/ArF光刻胶产业化项目投产",
+      "summary": "人民财讯3月19日电，鼎龙股份3000543月19日公告，控股子公司鼎龙(潜江)新材料有限公司在江汉盐化工业园投资建设的“年产300吨KrF/ArF光刻胶产业化项目”主体厂房及配套设施均已建成，经相关主管部门审核后，已于近期顺利投产。",
+      "publish_date": "2026-03-19",
+      "available_at": "2026-03-19T16:33:32",
+      "sentiment_score": 0.24,
+      "category": "产品进展",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "鼎龙股份：国内首条全流程高端光刻胶量产线项目投产，助力半导体材料布局",
+      "summary": "3月19日，鼎龙股份（300054）发布公告，控股子公司鼎龙（潜江）新材料有限公司投资建设的“年产300吨KrF/ArF光刻胶产业化项目”已于近期顺利投产。",
+      "publish_date": "2026-03-19",
+      "available_at": "2026-03-19T16:33:41",
+      "sentiment_score": 0.46,
+      "category": "产品进展",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 0,
+  "hot_reason": "",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

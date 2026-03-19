@@ -1,0 +1,94 @@
+{
+  "ticker": "601899",
+  "company_name": "紫金矿业",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "filing",
+      "title": "紫金矿业集团股份有限公司关于2023年股票期权激励计划第一个行权期自主行权结果暨股份变动月度公告",
+      "summary": "股权变动",
+      "publish_date": "2026-03-03",
+      "available_at": "2026-03-03T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "紫金矿业H股市场公告",
+      "summary": "",
+      "publish_date": "2026-03-03",
+      "available_at": "2026-03-03T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "紫金矿业集团股份有限公司关于全资子公司与专业投资机构共同投资的公告",
+      "summary": "",
+      "publish_date": "2026-03-13",
+      "available_at": "2026-03-13T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "hot_topic",
+      "title": "紫金矿业",
+      "summary": "雪球关注#49; 雪球讨论#14; 雪球交易#15",
+      "publish_date": "2026-03-19",
+      "available_at": "2026-03-19T00:00:00",
+      "sentiment_score": 0.25,
+      "category": "其他",
+      "urgency": "high",
+      "weight": 1.25,
+      "hot_rank": 15
+    },
+    {
+      "source_type": "news",
+      "title": "紫金矿业旗下海南锂业公司增资至78亿",
+      "summary": "股东信息显示，该公司由紫金矿业（601899）旗下紫金国际控股有限公司全资持股。",
+      "publish_date": "2026-03-19",
+      "available_at": "2026-03-19T15:31:32",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "紫金矿业旗下海南锂业公司增资至78亿元",
+      "summary": "股东信息显示，该公司由紫金矿业（601899）旗下紫金国际控股有限公司全资持股。",
+      "publish_date": "2026-03-19",
+      "available_at": "2026-03-19T15:36:29",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "紫金矿业旗下海南锂业公司增资至78亿",
+      "summary": "股东信息显示，该公司由紫金矿业（601899）旗下紫金国际控股有限公司全资持股。",
+      "publish_date": "2026-03-19",
+      "available_at": "2026-03-19T15:49:13",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 15,
+  "hot_reason": "雪球关注#49; 雪球讨论#14; 雪球交易#15",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

@@ -1,0 +1,36 @@
+[
+  {
+    "ticker": "002131",
+    "company_name": "利欧股份",
+    "title": "关于公司为全资子公司提供担保的公告",
+    "announcement_type": "",
+    "publish_date": "2026-03-03",
+    "publish_time": "2026-03-03",
+    "link": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=002131&announcementId=1224991329&orgId=9900002724&announcementTime=2026-03-03",
+    "source": "cninfo.disclosure_report",
+    "raw": {
+      "代码": "002131",
+      "简称": "利欧股份",
+      "公告标题": "关于公司为全资子公司提供担保的公告",
+      "公告时间": "2026-03-03",
+      "公告链接": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=002131&announcementId=1224991329&orgId=9900002724&announcementTime=2026-03-03"
+    }
+  },
+  {
+    "ticker": "002131",
+    "company_name": "利欧股份",
+    "title": "关于回购股份集中竞价减持进展的公告",
+    "announcement_type": "股权变动",
+    "publish_date": "2026-03-03",
+    "publish_time": "2026-03-03",
+    "link": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=002131&announcementId=1224991328&orgId=9900002724&announcementTime=2026-03-03",
+    "source": "cninfo.disclosure_report",
+    "raw": {
+      "代码": "002131",
+      "简称": "利欧股份",
+      "公告标题": "关于回购股份集中竞价减持进展的公告",
+      "公告时间": "2026-03-03",
+      "公告链接": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=002131&announcementId=1224991328&orgId=9900002724&announcementTime=2026-03-03"
+    }
+  }
+]

@@ -1,0 +1,58 @@
+{
+  "ticker": "601799",
+  "company_name": "星宇股份",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "filing",
+      "title": "星宇股份关于股份回购进展公告",
+      "summary": "股权变动",
+      "publish_date": "2026-03-03",
+      "available_at": "2026-03-03T00:00:00",
+      "sentiment_score": 0.8,
+      "category": "股权变动",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "星宇股份拟每股派发现金红利1.8元",
+      "summary": "3月19日，星宇股份（601799）发布公告，公司拟向全体股东每股派发现金红利1.8元（含税），预计总派发金额为5.09亿元。 2025年度，公司现金分红和回购金额合计7.27亿元，占2025年度归母净利润44.76%。",
+      "publish_date": "2026-03-19",
+      "available_at": "2026-03-19T18:15:52",
+      "sentiment_score": 1.0,
+      "category": "业绩公告",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "星宇股份：2025年归母净利润同比增15.3%至16.2亿元",
+      "summary": "3月19日，星宇股份601799公布2025年年报，公司营业收入为152.6亿元，同比上升15.1%；归母净利润为16.2亿元，同比上升15.3%；扣非归母净利润为15.8亿元，同比上升16.3%；经营现金流净额为24.37亿元，同比增长168.0%；EPS(全面摊薄)为5.685",
+      "publish_date": "2026-03-19",
+      "available_at": "2026-03-19T18:22:07",
+      "sentiment_score": 0.2,
+      "category": "业绩公告",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "星宇股份：2025年净利润同比增长15.32% 拟10派18元",
+      "summary": "人民财讯3月19日电，星宇股份6017993月19日披露年度报告，2025年实现营业收入152.57亿元，同比增长15.12%；归母净利润16.24亿元，同比增长15.32%；基本每股收益5.7072元。公司拟每10股派发现金红利18元（含税）。",
+      "publish_date": "2026-03-19",
+      "available_at": "2026-03-19T18:22:13",
+      "sentiment_score": 0.2,
+      "category": "业绩公告",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 0,
+  "hot_reason": "",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

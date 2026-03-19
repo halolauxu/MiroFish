@@ -1,0 +1,46 @@
+{
+  "ticker": "002423",
+  "company_name": "中粮资本",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "news",
+      "title": "信托概念涨0.85%，主力资金净流入这些股",
+      "summary": "中粮资本 0.65 0.66 652.14 3.95 600331 宏达股份 1.79 2.84 504.47 0.49 000958 电投产融 0.87 1.19 414.65 0.93 000812 陕西金叶 -0.93 1.40 -47.00 -1.02 600865 百大集团",
+      "publish_date": "2026-03-12",
+      "available_at": "2026-03-12T17:18:38",
+      "sentiment_score": 0.24,
+      "category": "产品进展",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "20.19亿主力资金净流入，期货概念涨0.02%",
+      "summary": "今日涨跌幅居前的概念板块 概念 今日涨跌幅（%） 概念 今日涨跌幅（%） 高股息精选 0.10 共封装光学(CPO) -5.27 期货概念 0.02 F5G概念 -4.84 互联网保险 -0.04 光纤概念 -4.81 特钢概念 -0.14 PET铜箔 -4.30 信托概念 -0.15",
+      "publish_date": "2026-03-17",
+      "available_at": "2026-03-17T17:23:25",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "36.33亿元主力资金今日抢筹非银金融板块",
+      "summary": "0.81 2953.56 001236 弘业期货 2.86 5.53 2854.27 601066 中信建投 0.79 0.26 2655.26 000728 国元证券 0.50 0.71 2158.61 600369 西南证券 0.23 0.63 1971.47 601375 中原证券",
+      "publish_date": "2026-03-17",
+      "available_at": "2026-03-17T17:23:34",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 0,
+  "hot_reason": "",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

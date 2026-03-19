@@ -1,0 +1,46 @@
+{
+  "ticker": "002624",
+  "company_name": "完美世界",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "news",
+      "title": "券商3月金股出炉：石油石化增配居前，中际旭创热度第一",
+      "summary": "贵州茅台（600519）、完美世界（002624）、宁德时代（300750）、恒力石化（600346）、安井食品（603345）、海光信息（688041）等，分别被推荐了4次。",
+      "publish_date": "2026-03-05",
+      "available_at": "2026-03-05T07:58:53",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "券商3月金股出炉：石油石化增配居前 中际旭创热度第一",
+      "summary": "贵州茅台（600519）、完美世界（002624）、宁德时代（300750）、恒力石化（600346）、安井食品（603345）、海光信息（688041）等，分别被推荐了4次。",
+      "publish_date": "2026-03-05",
+      "available_at": "2026-03-05T08:02:11",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "完美世界：《异环》国服全平台公测正式定档2026年4月23日",
+      "summary": "完美世界（002624.SZ）3月9日在投资者互动平台表示，您好，在《异环》「共存测试」过程中，公司收到了玩家热情而真诚的反馈，目前已全面启动公测筹备，在持续优化性能、玩法、角色与剧情的同时，全力推进全新内容的开发。",
+      "publish_date": "2026-03-09",
+      "available_at": "2026-03-09T21:12:11",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 0,
+  "hot_reason": "",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

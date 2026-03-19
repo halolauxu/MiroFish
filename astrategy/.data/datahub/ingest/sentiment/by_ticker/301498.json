@@ -1,0 +1,46 @@
+{
+  "ticker": "301498",
+  "company_name": "乖宝宠物",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "news",
+      "title": "23.57亿元主力资金今日撤离农林牧渔板块",
+      "summary": "索宝蛋白 -0.22 2.06 242.64 002234 民和股份 -1.86 2.44 212.71 002852 道道全 -0.85 2.21 187.32 002069 獐子岛 -1.53 1.87 175.62 002891 中宠股份 1.26 0.96 155.34 301498",
+      "publish_date": "2026-03-05",
+      "available_at": "2026-03-05T17:14:34",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "110家公司获机构调研（附名单）",
+      "summary": "-3.40 美容护理 601619 嘉泽新能 1 4 6.77 -2.45 公用事业 600623 华谊集团 1 4 10.76 12.67 基础化工 002182 宝武镁业 1 4 20.06 -7.94 有色金属 002463 沪电股份 1 4 75.41 -9.80 电子 301498",
+      "publish_date": "2026-03-09",
+      "available_at": "2026-03-09T09:31:29",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "山东富豪秦华剪不断的麻烦：乖宝宠物弗列加特再陷“瘫痪猫粮”投诉",
+      "summary": "弗列加特是乖宝宠物（301498）旗下高价位猫粮，根据公开信息，80-100元/kg价格区间通常被视作高端宠物粮。弗列加特猫粮官网售价约86.3元/kg，已经超过同等重量牛羊肉零售价格水平了。",
+      "publish_date": "2026-03-17",
+      "available_at": "2026-03-17T15:48:12",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 0,
+  "hot_reason": "",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

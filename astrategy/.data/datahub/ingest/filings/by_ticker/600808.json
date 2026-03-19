@@ -1,0 +1,36 @@
+[
+  {
+    "ticker": "600808",
+    "company_name": "马钢股份",
+    "title": "马钢股份证券变动月报表",
+    "announcement_type": "",
+    "publish_date": "2026-03-04",
+    "publish_time": "2026-03-04",
+    "link": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=600808&announcementId=1224993410&orgId=gssh0600808&announcementTime=2026-03-04",
+    "source": "cninfo.disclosure_report",
+    "raw": {
+      "代码": "600808",
+      "简称": "马钢股份",
+      "公告标题": "马钢股份证券变动月报表",
+      "公告时间": "2026-03-04",
+      "公告链接": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=600808&announcementId=1224993410&orgId=gssh0600808&announcementTime=2026-03-04"
+    }
+  },
+  {
+    "ticker": "600808",
+    "company_name": "马钢股份",
+    "title": "马钢股份H股市场公告",
+    "announcement_type": "",
+    "publish_date": "2026-03-05",
+    "publish_time": "2026-03-05",
+    "link": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=600808&announcementId=1224995862&orgId=gssh0600808&announcementTime=2026-03-05",
+    "source": "cninfo.disclosure_report",
+    "raw": {
+      "代码": "600808",
+      "简称": "马钢股份",
+      "公告标题": "马钢股份H股市场公告",
+      "公告时间": "2026-03-05",
+      "公告链接": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=600808&announcementId=1224995862&orgId=gssh0600808&announcementTime=2026-03-05"
+    }
+  }
+]

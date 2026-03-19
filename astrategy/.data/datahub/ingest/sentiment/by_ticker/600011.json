@@ -1,0 +1,106 @@
+{
+  "ticker": "600011",
+  "company_name": "华能国际",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "filing",
+      "title": "华能国际关于第四期超短期融资券发行的公告",
+      "summary": "增发融资",
+      "publish_date": "2026-03-06",
+      "available_at": "2026-03-06T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "华能国际关于第三期超短期融资券发行的公告",
+      "summary": "增发融资",
+      "publish_date": "2026-03-06",
+      "available_at": "2026-03-06T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "华能国际董事会会议召开日期公告",
+      "summary": "",
+      "publish_date": "2026-03-10",
+      "available_at": "2026-03-10T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "【盘中播报】84只个股突破半年线",
+      "summary": "2.51 1.67 13.16 13.47 2.39 002424 ST百灵 2.90 1.46 5.22 5.33 2.07 002179 中航光电 5.01 4.15 36.37 37.12 2.05 001217 华尔泰 2.89 4.81 13.29 13.53 1.81 600011",
+      "publish_date": "2026-03-11",
+      "available_at": "2026-03-11T14:11:14",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "今日105只个股突破半年线",
+      "summary": "5.54 4.92 36.37 37.31 2.57 002011 盾安环境 2.44 2.32 13.15 13.46 2.32 002444 巨星科技 4.81 1.85 33.49 34.22 2.19 000677 恒天海龙 3.34 7.52 4.55 4.64 1.92 600011",
+      "publish_date": "2026-03-11",
+      "available_at": "2026-03-11T15:41:50",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "华能国际关于第五期超短期融资券发行的公告",
+      "summary": "增发融资",
+      "publish_date": "2026-03-12",
+      "available_at": "2026-03-12T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "华能国际：完成20亿元超短期融资券发行",
+      "summary": "中证智能财讯华能国际（600011）3月12日公告，公司已于近日完成2026年度第五期超短期融资券的发行，发行额为20亿元。本期债券募集资金将用于补充公司营运资金、调整债务结构、偿还银行借款及即将到期的债券。 本期债券期限为66天，发行利率为1.46%。",
+      "publish_date": "2026-03-12",
+      "available_at": "2026-03-12T09:41:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "华能国际关于第六期超短期融资券发行的公告",
+      "summary": "增发融资",
+      "publish_date": "2026-03-13",
+      "available_at": "2026-03-13T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 0,
+  "hot_reason": "",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

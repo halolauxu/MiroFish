@@ -1,0 +1,70 @@
+{
+  "ticker": "601012",
+  "company_name": "隆基绿能",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "filing",
+      "title": "关于提供担保的进展公告",
+      "summary": "",
+      "publish_date": "2026-03-06",
+      "available_at": "2026-03-06T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "69只股中线走稳 站上半年线",
+      "summary": "5.95 11.53 17.89 18.35 2.56 001388 信通电子 4.37 7.63 45.04 46.05 2.25 688768 容知日新 2.32 1.49 49.32 50.36 2.12 600496 精工钢构 2.61 0.89 4.25 4.33 1.91 601012",
+      "publish_date": "2026-03-17",
+      "available_at": "2026-03-17T12:14:59",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "【盘中播报】44只个股突破半年线",
+      "summary": "1.18 1.70 49.31 49.80 0.99 002946 新乳业 1.17 0.98 17.95 18.12 0.97 002422 科伦药业 2.39 1.23 33.13 33.43 0.92 600329 达仁堂 3.25 1.08 43.15 43.54 0.92 601012",
+      "publish_date": "2026-03-17",
+      "available_at": "2026-03-17T14:20:04",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "28只股中线走稳 站上半年线",
+      "summary": "中国银行 1.85 0.17 5.49 5.50 0.25 002422 科伦药业 1.68 1.48 33.12 33.20 0.23 000761 本钢板材 1.15 1.09 3.52 3.52 0.13 600782 新钢股份 0.50 3.08 4.02 4.02 0.09 601012",
+      "publish_date": "2026-03-17",
+      "available_at": "2026-03-17T15:42:36",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "hot_topic",
+      "title": "隆基绿能",
+      "summary": "雪球关注#13; 雪球讨论#37; 雪球交易#55",
+      "publish_date": "2026-03-19",
+      "available_at": "2026-03-19T00:00:00",
+      "sentiment_score": 0.246,
+      "category": "其他",
+      "urgency": "high",
+      "weight": 1.25,
+      "hot_rank": 17
+    }
+  ],
+  "hot_rank": 17,
+  "hot_reason": "雪球关注#13; 雪球讨论#37; 雪球交易#55",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

@@ -15,10 +15,14 @@ from ..common import (
     data_root,
     ensure_dir,
     event_master_path,
+    filings_manifest_path,
+    graph_manifest_path,
     graph_path,
     ingest_root,
     market_root,
+    news_manifest_path,
     pool_event_master_path,
+    sentiment_manifest_path,
     sentiment_root,
 )
 
@@ -26,6 +30,23 @@ logger = logging.getLogger("astrategy.datahub.coverage_audit")
 
 
 def _load_graph_stats() -> Dict[str, Dict[str, Any]]:
+    manifest = graph_manifest_path()
+    if manifest.exists():
+        payload = json.loads(manifest.read_text(encoding="utf-8"))
+        stats: Dict[str, Dict[str, Any]] = {}
+        for row in payload.get("rows", []):
+            ticker = str(row.get("ticker", "")).strip().zfill(6)
+            if not ticker or ticker == "000000":
+                continue
+            stats[ticker] = {
+                "has_graph_node": bool(row.get("has_graph_node", False)),
+                "graph_relation_count": int(row.get("graph_relation_count", 0) or 0),
+                "has_graph_edges": bool(row.get("has_graph_edges", False)),
+                "top_relations": dict(row.get("top_relations", {}) or {}),
+            }
+        if stats:
+            return stats
+
     path = graph_path()
     if not path.exists():
         return {}
@@ -57,6 +78,7 @@ def _load_graph_stats() -> Dict[str, Dict[str, Any]]:
         normalized[code] = {
             "has_graph_node": bool(info["has_graph_node"]),
             "graph_relation_count": int(info["graph_relation_count"]),
+            "has_graph_edges": int(info["graph_relation_count"]) > 0,
             "top_relations": dict(info["relation_types"].most_common(5)),
         }
     return normalized
@@ -95,7 +117,7 @@ def _load_event_stats() -> Dict[str, Dict[str, Any]]:
 
 
 def _load_filings_stats() -> Dict[str, Dict[str, Any]]:
-    path = ingest_root() / "filings" / "filings_manifest.json"
+    path = filings_manifest_path()
     if not path.exists():
         return {}
     payload = json.loads(path.read_text(encoding="utf-8"))
@@ -108,7 +130,7 @@ def _load_filings_stats() -> Dict[str, Dict[str, Any]]:
 
 
 def _load_news_stats() -> Dict[str, Dict[str, Any]]:
-    path = ingest_root() / "news" / "news_manifest.json"
+    path = news_manifest_path()
     if not path.exists():
         return {}
     payload = json.loads(path.read_text(encoding="utf-8"))
@@ -125,7 +147,7 @@ def _load_news_stats() -> Dict[str, Dict[str, Any]]:
 
 
 def _load_sentiment_stats() -> Dict[str, Dict[str, Any]]:
-    path = sentiment_root() / "sentiment_manifest.json"
+    path = sentiment_manifest_path()
     if not path.exists():
         return {}
     payload = json.loads(path.read_text(encoding="utf-8"))
@@ -138,11 +160,88 @@ def _load_sentiment_stats() -> Dict[str, Dict[str, Any]]:
             "sentiment_item_count": int(row.get("sentiment_item_count", 0) or 0),
             "target_date_sentiment_count": int(row.get("target_date_sentiment_count", 0) or 0),
             "avg_sentiment_score": float(row.get("avg_sentiment_score", 0.0) or 0.0),
+            "latest_sentiment_score": float(row.get("latest_sentiment_score", 0.0) or 0.0),
             "attention_score": float(row.get("attention_score", 0.0) or 0.0),
             "hot_rank": int(row.get("hot_rank", 0) or 0),
             "sentiment_label": str(row.get("sentiment_label", "")).strip(),
         }
     return stats
+
+
+def _load_manifest_payload(path: Path) -> Dict[str, Any]:
+    if not path.exists():
+        return {}
+    try:
+        payload = json.loads(path.read_text(encoding="utf-8"))
+    except Exception:
+        return {}
+    return payload if isinstance(payload, dict) else {}
+
+
+def _graph_layer_quality() -> Dict[str, Any]:
+    payload = _load_manifest_payload(graph_manifest_path())
+    summary = payload.get("summary", {})
+    requested = int(summary.get("requested_tickers", 0) or 0)
+    industry_source = str(summary.get("industry_source", "")).strip()
+    concept_source = str(summary.get("concept_source", "")).strip()
+    industry_mapped = int(summary.get("industry_live_mapped_tickers", summary.get("industry_mapped_tickers", 0)) or 0)
+    concept_mapped = int(summary.get("concept_live_mapped_tickers", summary.get("concept_mapped_tickers", 0)) or 0)
+    api_failure_count = int(summary.get("api_failure_count", 0) or 0)
+    request_count = (
+        int(summary.get("industry_request_count", summary.get("industry_board_request_count", 0)) or 0)
+        + int(summary.get("concept_request_count", summary.get("concept_board_request_count", 0)) or 0)
+    )
+    reasons: List[str] = []
+    if industry_source not in {"cninfo_live", "cninfo_cache"}:
+        reasons.append("industry_source_not_authoritative")
+    if concept_source not in {"ths_live", "live_event_sentiment_topics"}:
+        reasons.append("concept_source_not_authoritative")
+    failure_threshold = max(10, int(request_count * 0.05)) if request_count else 0
+    if api_failure_count > failure_threshold:
+        reasons.append("graph_api_failed")
+    if requested and industry_mapped < max(1, int(requested * 0.75)):
+        reasons.append("industry_live_mapping_insufficient")
+    if requested and concept_mapped < max(1, int(requested * 0.20)):
+        reasons.append("concept_live_mapping_insufficient")
+    return {
+        "status": "authoritative" if not reasons else "degraded",
+        "reasons": reasons,
+        "requested_tickers": requested,
+        "industry_source": industry_source,
+        "concept_source": concept_source,
+        "industry_mapped_tickers": industry_mapped,
+        "concept_mapped_tickers": concept_mapped,
+        "api_failure_count": api_failure_count,
+    }
+
+
+def _sentiment_layer_quality() -> Dict[str, Any]:
+    payload = _load_manifest_payload(sentiment_manifest_path())
+    summary = payload.get("summary", {})
+    requested = int(summary.get("requested_tickers", 0) or 0)
+    with_sentiment = int(summary.get("with_sentiment", 0) or 0)
+    with_hot_rank = int(summary.get("authoritative_hot_rank_count", summary.get("with_hot_rank", 0)) or 0)
+    hot_topic_source = str(summary.get("hot_topic_source", "")).strip()
+    hot_topic_authoritative = bool(summary.get("hot_topic_authoritative", False))
+    hot_topic_api_failed = bool(summary.get("hot_topic_api_failed", False))
+    reasons: List[str] = []
+    if hot_topic_api_failed or not hot_topic_authoritative or hot_topic_source not in {"baidu_xueqiu_live", "baidu_xueqiu_cache"}:
+        reasons.append("market_hot_topic_not_authoritative")
+    hot_rank_floor = min(200, max(50, int(requested * 0.10))) if requested else 50
+    if with_hot_rank < hot_rank_floor:
+        reasons.append("hot_rank_coverage_insufficient")
+    if requested and with_sentiment < max(1, int(requested * 0.80)):
+        reasons.append("sentiment_coverage_insufficient")
+    return {
+        "status": "authoritative" if not reasons else "degraded",
+        "reasons": reasons,
+        "requested_tickers": requested,
+        "with_sentiment": with_sentiment,
+        "with_hot_rank": with_hot_rank,
+        "hot_topic_source": hot_topic_source,
+        "hot_topic_authoritative": hot_topic_authoritative,
+        "hot_topic_api_failed": hot_topic_api_failed,
+    }
 
 
 def _load_price_codes() -> set[str]:
@@ -183,6 +282,26 @@ def _coverage_score(row: Dict[str, Any]) -> float:
     )
 
 
+def _strict_coverage_score(
+    row: Dict[str, Any],
+    *,
+    graph_quality: Dict[str, Any],
+    sentiment_quality: Dict[str, Any],
+) -> float:
+    graph_ok = graph_quality.get("status") == "authoritative"
+    sentiment_ok = sentiment_quality.get("status") == "authoritative"
+    return round(
+        0.35 * float(row["has_prices"])
+        + 0.20 * float(row["has_events"])
+        + 0.10 * float(row["has_filings"])
+        + 0.10 * float(row["has_news"])
+        + 0.05 * float(row["has_sentiment"] and sentiment_ok)
+        + 0.15 * float(row["has_graph"] and row["has_graph_edges"] and graph_ok)
+        + 0.05 * float(row["has_available_at"]),
+        4,
+    )
+
+
 def build_coverage_audit(
     security_master: List[Dict[str, Any]],
     universe_membership: Dict[str, Any],
@@ -197,6 +316,8 @@ def build_coverage_audit(
     filing_stats = _load_filings_stats()
     news_stats = _load_news_stats()
     sentiment_stats = _load_sentiment_stats()
+    graph_quality = _graph_layer_quality()
+    sentiment_quality = _sentiment_layer_quality()
     price_codes = {code for code, info in price_stats.items() if int(info.get("row_count", 0)) > 0}
 
     universe_codes = [
@@ -240,18 +361,28 @@ def build_coverage_audit(
             "sentiment_item_count": int(sentiment_info.get("sentiment_item_count", 0)),
             "target_date_sentiment_count": int(sentiment_info.get("target_date_sentiment_count", 0)),
             "avg_sentiment_score": float(sentiment_info.get("avg_sentiment_score", 0.0)),
+            "latest_sentiment_score": float(sentiment_info.get("latest_sentiment_score", 0.0)),
             "attention_score": float(sentiment_info.get("attention_score", 0.0)),
             "hot_rank": int(sentiment_info.get("hot_rank", 0)),
             "sentiment_label": str(sentiment_info.get("sentiment_label", "")).strip(),
             "has_graph": bool(graph_info.get("has_graph_node", False)),
             "graph_relation_count": int(graph_info.get("graph_relation_count", 0)),
-            "has_graph_edges": int(graph_info.get("graph_relation_count", 0)) > 0,
+            "has_graph_edges": bool(graph_info.get("has_graph_edges", int(graph_info.get("graph_relation_count", 0)) > 0)),
             "top_graph_relations": graph_info.get("top_relations", {}),
+            "graph_layer_quality": graph_quality["status"],
+            "graph_quality_reasons": graph_quality["reasons"],
+            "sentiment_layer_quality": sentiment_quality["status"],
+            "sentiment_quality_reasons": sentiment_quality["reasons"],
             "has_available_at": bool(event_info.get("available_at_complete", False)),
             "event_count": int(event_info.get("event_count", 0)),
             "top_event_types": event_info.get("top_event_types", {}),
         }
         row["coverage_score"] = _coverage_score(row)
+        row["strict_coverage_score"] = _strict_coverage_score(
+            row,
+            graph_quality=graph_quality,
+            sentiment_quality=sentiment_quality,
+        )
         row["research_ready"] = bool(
             row["has_prices"]
             and row["price_row_count"] >= 20
@@ -260,6 +391,12 @@ def build_coverage_audit(
             and row["has_graph_edges"]
             and row["has_available_at"]
             and row["coverage_score"] >= 0.70
+        )
+        row["research_ready_strict"] = bool(
+            row["research_ready"]
+            and graph_quality["status"] == "authoritative"
+            and sentiment_quality["status"] == "authoritative"
+            and row["strict_coverage_score"] >= 0.70
         )
         rows.append(row)
 
@@ -277,13 +414,27 @@ def build_coverage_audit(
         "has_graph_edges": sum(1 for row in rows if row["has_graph_edges"]),
         "has_available_at": sum(1 for row in rows if row["has_available_at"]),
         "research_ready": sum(1 for row in rows if row["research_ready"]),
+        "research_ready_strict": sum(1 for row in rows if row["research_ready_strict"]),
         "avg_coverage_score": round(
             sum(float(row["coverage_score"]) for row in rows) / max(len(rows), 1),
+            4,
+        ),
+        "avg_strict_coverage_score": round(
+            sum(float(row["strict_coverage_score"]) for row in rows) / max(len(rows), 1),
             4,
         ),
         "event_density_per_stock": round(
             sum(int(row["event_count"]) for row in rows) / max(len(rows), 1),
             4,
+        ),
+        "graph_layer_quality": graph_quality["status"],
+        "graph_quality_reasons": graph_quality["reasons"],
+        "sentiment_layer_quality": sentiment_quality["status"],
+        "sentiment_quality_reasons": sentiment_quality["reasons"],
+        "data_quality_status": (
+            "authoritative"
+            if graph_quality["status"] == "authoritative" and sentiment_quality["status"] == "authoritative"
+            else "degraded"
         ),
     }
 
@@ -326,9 +477,16 @@ def _format_markdown(audit: Dict[str, Any]) -> str:
         f"- 图谱覆盖: {summary['has_graph']}",
         f"- 图谱有边覆盖: {summary['has_graph_edges']}",
         f"- available_at 完整: {summary['has_available_at']}",
-        f"- research_ready: {summary['research_ready']}",
+        f"- research_ready(宽松): {summary['research_ready']}",
+        f"- research_ready(严格): {summary['research_ready_strict']}",
         f"- 平均覆盖分: {summary['avg_coverage_score']:.4f}",
+        f"- 严格覆盖分: {summary['avg_strict_coverage_score']:.4f}",
         f"- 每股平均事件数: {summary['event_density_per_stock']:.4f}",
+        f"- graph层质量: {summary['graph_layer_quality']}",
+        f"- graph质量原因: {', '.join(summary.get('graph_quality_reasons', [])) or 'none'}",
+        f"- sentiment层质量: {summary['sentiment_layer_quality']}",
+        f"- sentiment质量原因: {', '.join(summary.get('sentiment_quality_reasons', [])) or 'none'}",
+        f"- 总体数据质量: {summary['data_quality_status']}",
         "",
         "## Top Event Gaps",
         "",

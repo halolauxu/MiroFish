@@ -1,0 +1,94 @@
+{
+  "ticker": "600346",
+  "company_name": "恒力石化",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "filing",
+      "title": "恒力石化关于实际控制人增持公司股份结果的公告",
+      "summary": "股权变动",
+      "publish_date": "2026-02-28",
+      "available_at": "2026-02-28T00:00:00",
+      "sentiment_score": 0.78,
+      "category": "股权变动",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "北京市天元律师事务所关于恒力石化股份有限公司实际控制人增持股份的专项法律意见",
+      "summary": "股权变动",
+      "publish_date": "2026-02-28",
+      "available_at": "2026-02-28T00:00:00",
+      "sentiment_score": 0.78,
+      "category": "股权变动",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "恒力石化600346龙虎榜数据03-09)",
+      "summary": "交易所2026年3月9日公布的交易公开信息显示，恒力石化因成为有价格涨跌幅限制的日收盘价格跌幅偏离值达到7%的前五只证券上榜。恒力石化当日收报22.88元，涨跌幅-9.78%，偏离值-9.11%，换手率1.30%，成交额21.47亿。 免责声明：本文基于AI生产，仅供参考，不构成任何投资建议",
+      "publish_date": "2026-03-09",
+      "available_at": "2026-03-09T16:58:12",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "恒力石化关于第五期员工持股计划锁定期届满的提示性公告",
+      "summary": "股权激励",
+      "publish_date": "2026-03-10",
+      "available_at": "2026-03-10T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "股权变动",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "恒力石化关于控股股东解除部分股份质押的公告",
+      "summary": "",
+      "publish_date": "2026-03-14",
+      "available_at": "2026-03-14T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "18.58亿元资金今日流入石油石化股",
+      "summary": "2.11 -635.67 001316 润贝航科 -3.98 1.37 -813.19 000698 ST沈化 -2.71 1.47 -862.82 002629 仁智股份 -4.70 12.86 -1094.31 600800 渤海化学 -5.14 3.57 -1834.41 600346",
+      "publish_date": "2026-03-19",
+      "available_at": "2026-03-19T18:05:26",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "解密主力资金出逃股 连续5日净流出806股",
+      "summary": "8.81 -8.40 603501 豪威集团 7 10.51 12.69 -7.22 300748 金力永磁 14 10.40 6.16 -23.69 002498 汉缆股份 5 10.21 5.89 -13.58 688676 金盘科技 7 9.94 10.29 -19.33 600346",
+      "publish_date": "2026-03-19",
+      "available_at": "2026-03-19T18:05:45",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 0,
+  "hot_reason": "",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

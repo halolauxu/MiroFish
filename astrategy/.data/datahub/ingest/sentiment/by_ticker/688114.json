@@ -1,0 +1,142 @@
+{
+  "ticker": "688114",
+  "company_name": "华大智造",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "filing",
+      "title": "第二届董事会第二十次会议决议公告",
+      "summary": "",
+      "publish_date": "2026-02-24",
+      "available_at": "2026-02-24T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "关于出售子公司100%股权及调整CoolMPS测序技术《授权许可协议》的公告",
+      "summary": "",
+      "publish_date": "2026-02-24",
+      "available_at": "2026-02-24T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "《深圳华大智造科技股份有限公司等拟对外授权使用专利技术涉及的知识产权许可使用费率资产评估报告》（北方亚事评报字[2026]第01-0116号）",
+      "summary": "",
+      "publish_date": "2026-02-24",
+      "available_at": "2026-02-24T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "《深圳华大智造科技股份有限公司拟转让股权涉及的模拟剥离相关资产及负债后的CompleteGenomics,Inc.股东全部权益价值估值报告》（北方亚事咨报字[2026]第01-024号）",
+      "summary": "",
+      "publish_date": "2026-02-24",
+      "available_at": "2026-02-24T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "资产重组",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "华大智造2025年度业绩快报：收入27.8亿元 亏损2.37亿元",
+      "summary": "2月27日，华大智造（688114）发布公告，2025年度业绩快报显示，公司实现营业总收入27.8亿元，同比减少7.73%；归母净利润约亏损2.37亿元，亏损同比减少。",
+      "publish_date": "2026-02-27",
+      "available_at": "2026-02-27T17:38:25",
+      "sentiment_score": -0.84,
+      "category": "业绩公告",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "华大智造2025年净利亏损2.37亿元，同比减亏",
+      "summary": "北京商报讯2月27日晚间，华大智造（688114）发布2025年度业绩快报显示，报告期内，公司实现营业收入约为27.8亿元，同比下降7.73%；归属净利润约为-2.37亿元，同比减亏。",
+      "publish_date": "2026-02-27",
+      "available_at": "2026-02-27T20:42:49",
+      "sentiment_score": -1.0,
+      "category": "业绩公告",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "2025年度业绩快报",
+      "summary": "业绩预告",
+      "publish_date": "2026-02-28",
+      "available_at": "2026-02-28T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "业绩公告",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "2026年第一次临时股东会决议公告",
+      "summary": "",
+      "publish_date": "2026-03-04",
+      "available_at": "2026-03-04T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "2026年第二次临时股东会会议资料",
+      "summary": "",
+      "publish_date": "2026-03-05",
+      "available_at": "2026-03-05T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "2026年第二次临时股东会决议公告",
+      "summary": "",
+      "publish_date": "2026-03-13",
+      "available_at": "2026-03-13T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "华大智造赋能贝康医疗PGT-A试剂盒获批 辅助生殖实现全链路自主可控",
+      "summary": "从华大智造688114获悉，3月13日，国家药品监督管理局正式批准苏州贝康医疗器械有限公司（简称“贝康医疗”）研发的胚胎植入前染色体非整倍体检测试剂盒（联合探针锚定聚合测序法）上市（注册证号：国械注准20263400529）。",
+      "publish_date": "2026-03-18",
+      "available_at": "2026-03-18T13:58:14",
+      "sentiment_score": 0.0,
+      "category": "产品进展",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 0,
+  "hot_reason": "",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

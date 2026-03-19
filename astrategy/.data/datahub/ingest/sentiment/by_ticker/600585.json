@@ -1,0 +1,82 @@
+{
+  "ticker": "600585",
+  "company_name": "海螺水泥",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "filing",
+      "title": "关于控股股东增持公司股份计划的公告",
+      "summary": "股权变动",
+      "publish_date": "2026-02-25",
+      "available_at": "2026-02-25T00:00:00",
+      "sentiment_score": 0.78,
+      "category": "股权变动",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "建筑材料行业资金流入榜：再升科技等5股净流入资金超亿元",
+      "summary": "21.54 64801.79 603256 宏和科技 6.73 4.47 47491.41 301526 国际复材 3.84 19.29 28133.49 600176 中国巨石 3.31 1.66 17029.05 002080 中材科技 4.73 2.70 14890.04 600585",
+      "publish_date": "2026-03-10",
+      "available_at": "2026-03-10T17:10:25",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "强势股追踪 主力资金连续5日净流入91股",
+      "summary": "高能环境 7 7.39 8.31 28.14 600888 新疆众和 7 5.95 10.65 9.40 300085 银之杰 5 5.07 9.81 9.71 688472 阿特斯 5 4.16 6.24 17.67 688099 晶晨股份 7 3.84 5.74 3.48 600585",
+      "publish_date": "2026-03-12",
+      "available_at": "2026-03-12T17:19:33",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "董事會會議通告",
+      "summary": "",
+      "publish_date": "2026-03-13",
+      "available_at": "2026-03-13T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "强势股追踪 主力资金连续5日净流入82股",
+      "summary": "横店东磁 6 7.44 11.63 21.31 300085 银之杰 6 5.86 9.56 8.99 600941 中国移动 6 5.03 7.65 2.38 688099 晶晨股份 8 4.99 6.18 5.22 601218 吉鑫科技 5 3.93 12.02 20.28 600585",
+      "publish_date": "2026-03-13",
+      "available_at": "2026-03-13T17:15:29",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "hot_topic",
+      "title": "海螺水泥",
+      "summary": "雪球关注#22; 雪球交易#31",
+      "publish_date": "2026-03-19",
+      "available_at": "2026-03-19T00:00:00",
+      "sentiment_score": 0.186,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.25,
+      "hot_rank": 47
+    }
+  ],
+  "hot_rank": 47,
+  "hot_reason": "雪球关注#22; 雪球交易#31",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

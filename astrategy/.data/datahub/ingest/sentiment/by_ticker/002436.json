@@ -1,0 +1,118 @@
+{
+  "ticker": "002436",
+  "company_name": "兴森科技",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "news",
+      "title": "兴森科技：控股股东邱醒亚累计质押19.58%持股",
+      "summary": "3月13日，兴森科技（002436）发布公告，控股股东邱醒亚将其持有的1100万股股份办理质押，占其所持股份的4.69%及公司总股本的0.65%；同时解除质押股份950万股，占其所持股份的4.05%及公司总股本的0.56%。",
+      "publish_date": "2026-03-13",
+      "available_at": "2026-03-13T20:38:28",
+      "sentiment_score": 0.0,
+      "category": "产品进展",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "第七届董事会第十一次会议决议公告",
+      "summary": "",
+      "publish_date": "2026-03-14",
+      "available_at": "2026-03-14T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "关于预计担保额度的公告",
+      "summary": "",
+      "publish_date": "2026-03-14",
+      "available_at": "2026-03-14T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "关于控股股东部分股份质押及解除质押的公告",
+      "summary": "",
+      "publish_date": "2026-03-14",
+      "available_at": "2026-03-14T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "关于开展外汇衍生品交易业务的可行性分析报告",
+      "summary": "",
+      "publish_date": "2026-03-14",
+      "available_at": "2026-03-14T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "关于开展外汇衍生品交易业务的公告",
+      "summary": "",
+      "publish_date": "2026-03-14",
+      "available_at": "2026-03-14T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "关于使用闲置自有资金购买理财产品的公告",
+      "summary": "",
+      "publish_date": "2026-03-14",
+      "available_at": "2026-03-14T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "共封装光学(CPO)概念涨3.69%，主力资金净流入这些股",
+      "summary": "688099 晶晨股份 1.99 2.19 2188.81 2.60 688102 斯瑞新材 4.77 1.84 2066.75 4.05 000062 深圳华强 1.10 4.72 2059.97 1.51 688400 凌云光 1.90 2.07 1965.44 4.69 002436",
+      "publish_date": "2026-03-18",
+      "available_at": "2026-03-18T17:06:38",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "存储芯片概念涨3.50%，主力资金净流入95股",
+      "summary": "688037 芯源微 0.46 1.43 2170.86 4.40 000062 深圳华强 1.10 4.72 2059.97 1.51 300666 江丰电子 0.96 3.02 2031.65 2.23 603283 赛腾股份 3.21 4.91 1993.08 3.18 002436",
+      "publish_date": "2026-03-18",
+      "available_at": "2026-03-18T17:06:43",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 0,
+  "hot_reason": "",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

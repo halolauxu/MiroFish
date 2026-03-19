@@ -1,0 +1,118 @@
+{
+  "ticker": "600183",
+  "company_name": "生益科技",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "filing",
+      "title": "生益科技持股5%以上股东及董事减持股份结果公告",
+      "summary": "股权变动",
+      "publish_date": "2026-02-27",
+      "available_at": "2026-02-27T00:00:00",
+      "sentiment_score": -0.78,
+      "category": "股权变动",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "生益科技2025年度业绩快报公告",
+      "summary": "业绩预告",
+      "publish_date": "2026-02-28",
+      "available_at": "2026-02-28T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "业绩公告",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "生益科技第十一届董事会第十三次会议决议公告",
+      "summary": "",
+      "publish_date": "2026-03-12",
+      "available_at": "2026-03-12T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "生益科技关于授权湖南绿晟环保股份有限公司开展期货套期保值业务的公告",
+      "summary": "",
+      "publish_date": "2026-03-12",
+      "available_at": "2026-03-12T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "湖南绿晟环保股份有限公司关于开展境内期货套期保值业务的可行性报告",
+      "summary": "",
+      "publish_date": "2026-03-12",
+      "available_at": "2026-03-12T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "生益科技关于持股5%以上股东拟非公开发行可交换公司债券办理持有股份担保及信托登记的公告",
+      "summary": "增发融资",
+      "publish_date": "2026-03-14",
+      "available_at": "2026-03-14T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "电子行业资金流出榜：兆易创新、工业富联等净流出资金居前",
+      "summary": "33257.07 600330 天通股份 -9.99 11.93 -31312.54 688041 海光信息 -2.89 0.59 -30690.05 001309 德明利 0.55 12.06 -29473.25 300475 香农芯创 -3.90 4.56 -28641.95 600183",
+      "publish_date": "2026-03-17",
+      "available_at": "2026-03-17T17:23:05",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "共封装光学(CPO)概念涨3.69%，主力资金净流入这些股",
+      "summary": "广合科技 10.00 6.03 10479.46 9.92 300571 平治信息 19.99 18.03 10277.81 14.95 002792 通宇通讯 6.11 9.65 9641.17 7.26 688048 长光华芯 2.49 5.46 9020.30 5.80 600183",
+      "publish_date": "2026-03-18",
+      "available_at": "2026-03-18T17:06:38",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "电子行业3月19日资金流向日报",
+      "summary": "-54693.95 002384 东山精密 4.04 5.97 -49846.98 000021 深科技 -3.57 9.13 -42972.29 688041 海光信息 -3.79 0.75 -42311.44 300475 香农芯创 -4.89 7.38 -41301.99 600183",
+      "publish_date": "2026-03-19",
+      "available_at": "2026-03-19T18:06:06",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 0,
+  "hot_reason": "",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

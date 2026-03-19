@@ -1,0 +1,70 @@
+{
+  "ticker": "688248",
+  "company_name": "南网科技",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "filing",
+      "title": "南网科技：关于公司董事辞职的公告",
+      "summary": "",
+      "publish_date": "2026-02-27",
+      "available_at": "2026-02-27T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "南网科技：公司2025年度业绩快报",
+      "summary": "业绩预告",
+      "publish_date": "2026-02-27",
+      "available_at": "2026-02-27T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "业绩公告",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "近日海外机构调研股名单",
+      "summary": "（数据宝） 近10日海外机构调研股 证券代码 证券简称 海外机构家数 最新收盘价（元） 其间涨跌幅（%） 行业 301265 华新环保 1 20.86 32.19 环保 688248 南网科技 4 62.53 24.96 电力设备 300480 光力科技 3 29.80 15.06",
+      "publish_date": "2026-03-17",
+      "available_at": "2026-03-17T17:22:58",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "48家公司获海外机构调研",
+      "summary": "（数据宝） 近10日海外机构调研股 证券代码 证券简称 海外机构家数 最新收盘价（元） 其间涨跌幅（%） 行业 301265 华新环保 1 21.86 37.57 环保 002382 蓝帆医疗 9 7.96 28.59 医药生物 688248 南网科技 4 64.66 27.03",
+      "publish_date": "2026-03-18",
+      "available_at": "2026-03-18T17:06:15",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "近日海外机构调研股名单",
+      "summary": "（数据宝） 近10日海外机构调研股 证券代码 证券简称 海外机构家数 最新收盘价（元） 其间涨跌幅（%） 行业 301265 华新环保 1 21.61 30.97 环保 002382 蓝帆医疗 9 7.89 21.38 医药生物 688248 南网科技 4 63.13 21.22",
+      "publish_date": "2026-03-19",
+      "available_at": "2026-03-19T18:04:54",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 0,
+  "hot_reason": "",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

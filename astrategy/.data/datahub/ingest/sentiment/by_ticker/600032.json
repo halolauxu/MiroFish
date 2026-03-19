@@ -1,0 +1,82 @@
+{
+  "ticker": "600032",
+  "company_name": "浙江新能",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "filing",
+      "title": "浙江新能第三届董事会第二次会议决议公告",
+      "summary": "",
+      "publish_date": "2026-02-25",
+      "available_at": "2026-02-25T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "浙江新能关于持股5%以上股东权益变动触及1%刻度的提示性公告",
+      "summary": "",
+      "publish_date": "2026-03-11",
+      "available_at": "2026-03-11T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "17.21亿元资金今日流入公用事业股",
+      "summary": "13.70 -7807.38 003035 南网能源 5.05 6.23 -6476.10 600930 华电新能 0.78 11.31 -5754.36 600886 国投电力 2.46 0.89 -5641.51 601619 嘉泽新能 -1.06 4.17 -4899.85 600032",
+      "publish_date": "2026-03-12",
+      "available_at": "2026-03-12T17:35:16",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "浙江新能关于持股5%以上股东减持计划实施完毕暨减持结果公告",
+      "summary": "股权变动",
+      "publish_date": "2026-03-14",
+      "available_at": "2026-03-14T00:00:00",
+      "sentiment_score": -0.78,
+      "category": "股权变动",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "44只股上午收盘涨停(附股)",
+      "summary": "20726.35 建筑装饰 600408 安泰集团 4.30 10.87 4550.59 19567.52 煤炭 000042 中洲控股 9.50 1.11 1978.32 18794.04 房地产 600396 华电辽能 4.70 11.97 3764.58 17693.53 公用事业 600032",
+      "publish_date": "2026-03-17",
+      "available_at": "2026-03-17T12:23:34",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "221只股短线走稳 站上五日均线",
+      "summary": "3.63 43.41 45.78 5.47 300763 锦浪科技 8.41 7.98 101.50 106.98 5.40 301658 首航新能 7.56 38.16 49.51 51.95 4.92 601218 吉鑫科技 10.07 12.43 7.10 7.43 4.68 600032",
+      "publish_date": "2026-03-19",
+      "available_at": "2026-03-19T12:00:44",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 0,
+  "hot_reason": "",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

@@ -1,0 +1,58 @@
+{
+  "ticker": "601628",
+  "company_name": "中国人寿",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "filing",
+      "title": "中国人寿H股公告",
+      "summary": "",
+      "publish_date": "2026-03-07",
+      "available_at": "2026-03-07T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "险企她力量！国寿四支巾帼团队书写暖心守护",
+      "summary": "值得关注的是，有4个来自中国人寿保险股份有限公司（以下简称“中国人寿”，股票代码：601628.SH，2628.HK）的集体荣获“全国巾帼文明岗”称号。",
+      "publish_date": "2026-03-09",
+      "available_at": "2026-03-09T16:56:24",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "拓展服务边界 中国人寿打造普惠金融“暖心样本”",
+      "summary": "作为寿险头部企业，中国人寿保险股份有限公司（以下简称“中国人寿”，股票代码：601628.SH，2628.HK）坚守“以人民为中心”的价值导向，将消费者权益置于服务核心。",
+      "publish_date": "2026-03-16",
+      "available_at": "2026-03-16T17:04:17",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "中国人寿：李伟获聘职工董事 任职自3月11日生效",
+      "summary": "3月19日，中国人寿（601628/02628）发布公告，董事会选举李伟为公司第八届董事会职工董事。 近日，公司收到国家金融监督管理总局关于李伟任职资格的批复，金融监管总局已核准其担任公司董事的任职资格，任职自2026年3月11日起生效。",
+      "publish_date": "2026-03-19",
+      "available_at": "2026-03-19T16:33:38",
+      "sentiment_score": 0.0,
+      "category": "产品进展",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 0,
+  "hot_reason": "",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

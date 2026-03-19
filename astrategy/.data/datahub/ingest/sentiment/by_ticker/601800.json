@@ -1,0 +1,106 @@
+{
+  "ticker": "601800",
+  "company_name": "中国交建",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "filing",
+      "title": "中国交建关于股份回购进展公告",
+      "summary": "股权变动",
+      "publish_date": "2026-03-04",
+      "available_at": "2026-03-04T00:00:00",
+      "sentiment_score": 0.8,
+      "category": "股权变动",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "中国交建：公司目前在伊朗没有正在实施的重大项目",
+      "summary": "中国交建（601800.SH）3月18日在投资者互动平台表示，您好，公司目前在该国没有正在实施的重大项目，亦无相关存量业务及逾期款项。感谢关注。",
+      "publish_date": "2026-03-18",
+      "available_at": "2026-03-18T15:41:39",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "中国交建：529万股解除限售条件达成 涉激励对象128人",
+      "summary": "3月18日，中国交建（601800/01800）发布公告，披露关于2022年限制性股票激励计划预留部分第一个解除限售期解除限售条件成就的事项。 本次解锁股票数量为529万股，符合解除限售条件的激励对象人数为128人，解锁的股票数量约占公司总股本的0.03%。",
+      "publish_date": "2026-03-18",
+      "available_at": "2026-03-18T20:26:17",
+      "sentiment_score": 0.0,
+      "category": "产品进展",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "中国交建第六届董事会第二次会议决议公告",
+      "summary": "",
+      "publish_date": "2026-03-19",
+      "available_at": "2026-03-19T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "中国交建关于回购注销2022年限制性股票激励计划部分限制性股票的公告",
+      "summary": "股权变动",
+      "publish_date": "2026-03-19",
+      "available_at": "2026-03-19T00:00:00",
+      "sentiment_score": 0.8,
+      "category": "股权变动",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "中国交建关于2022年限制性股票激励计划预留部分第一次解除限售条件成就公告",
+      "summary": "股权激励",
+      "publish_date": "2026-03-19",
+      "available_at": "2026-03-19T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "股权变动",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "中国交建2022年限制性股票激励计划回购部分限制性股票及调整回购价格的法律意见书",
+      "summary": "股权变动",
+      "publish_date": "2026-03-19",
+      "available_at": "2026-03-19T00:00:00",
+      "sentiment_score": 0.8,
+      "category": "股权变动",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "中国交建：拟回购注销3761.97万股限制性股票 总金额约1.72亿元",
+      "summary": "中证智能财讯中国交建（601800）3月19日公告，公司董事会审议通过回购注销2022年限制性股票激励计划部分限制性股票的议案，涉及758名激励对象，回购股份3761.97万股，资金总额约1.72亿元（另加同期银行定期存款利息）。",
+      "publish_date": "2026-03-19",
+      "available_at": "2026-03-19T10:06:14",
+      "sentiment_score": 0.8,
+      "category": "股权变动",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 0,
+  "hot_reason": "",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

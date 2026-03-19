@@ -1,0 +1,46 @@
+{
+  "ticker": "300623",
+  "company_name": "捷捷微电",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "news",
+      "title": "捷捷微电：中东局势对公司业务及生产暂无影响",
+      "summary": "捷捷微电（300623.SZ）3月5日在投资者互动平台表示，中东局势对公司业务及生产暂无影响。公司产品价格会随着外部环境、竞争态势变化而调整，以保持竞争优势，出现上游材料涨价情况公司会先进行内部自我消化，如果涨价幅度过大公司会对产品价格作出相应调整。",
+      "publish_date": "2026-03-05",
+      "available_at": "2026-03-05T21:15:13",
+      "sentiment_score": 0.5,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "【盘中播报】60只个股跨越牛熊分界线",
+      "summary": "1.99 24.87 25.08 0.86 600519 贵州茅台 2.84 0.40 1441.51 1453.84 0.86 600927 永安期货 1.10 0.55 14.60 14.72 0.83 002846 英联股份 3.04 3.87 15.12 15.24 0.81 300623",
+      "publish_date": "2026-03-16",
+      "available_at": "2026-03-16T14:22:24",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "半导体涨价攻入终端：手机率先调价，家电汽车亦承压",
+      "summary": "就具体公司而言，年初至今，希荻微（688173.SH）、捷捷微电（300623.SZ）、士兰微（600460.SH）、思特威（688213.SH）、新洁能（605111.SH）、中微半导（688380.SH）、必易微（688045.SH）、国科微（300672.SZ）、美芯晟（688458",
+      "publish_date": "2026-03-17",
+      "available_at": "2026-03-17T20:54:37",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 0,
+  "hot_reason": "",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

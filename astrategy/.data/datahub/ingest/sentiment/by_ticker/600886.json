@@ -1,0 +1,118 @@
+{
+  "ticker": "600886",
+  "company_name": "国投电力",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "filing",
+      "title": "国投电力控股股份有限公司重大事项内部报告管理制度",
+      "summary": "",
+      "publish_date": "2026-03-03",
+      "available_at": "2026-03-03T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "国投电力控股股份有限公司第十三届董事会第七次会议决议公告",
+      "summary": "",
+      "publish_date": "2026-03-03",
+      "available_at": "2026-03-03T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "国投电力控股股份有限公司年报信息披露重大差错责任追究制度",
+      "summary": "",
+      "publish_date": "2026-03-03",
+      "available_at": "2026-03-03T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "国投电力控股股份有限公司信息披露事务管理制度",
+      "summary": "",
+      "publish_date": "2026-03-03",
+      "available_at": "2026-03-03T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "国投电力控股股份有限公司2026年第二次临时股东会决议公告",
+      "summary": "",
+      "publish_date": "2026-03-03",
+      "available_at": "2026-03-03T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "解密主力资金出逃股 连续5日净流出534股",
+      "summary": "4.66 7.30 -7.13 301489 思泉新材 9 4.63 7.13 -9.24 688126 沪硅产业 13 4.53 5.60 -12.05 002639 雪人集团 9 4.50 2.73 -12.48 603220 中贝通信 5 4.49 5.59 -11.63 600886",
+      "publish_date": "2026-03-16",
+      "available_at": "2026-03-16T17:13:04",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "解密主力资金出逃股 连续5日净流出675股",
+      "summary": "5.11 4.49 -14.76 603920 世运电路 5 5.11 8.63 -6.19 601958 金钼股份 8 5.05 6.41 -14.97 300118 东方日升 6 4.97 5.68 -6.95 600025 华能水电 14 4.90 7.80 10.68 600886",
+      "publish_date": "2026-03-18",
+      "available_at": "2026-03-18T17:07:22",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "hot_topic",
+      "title": "国投电力",
+      "summary": "雪球关注#74",
+      "publish_date": "2026-03-19",
+      "available_at": "2026-03-19T00:00:00",
+      "sentiment_score": 0.08,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.25,
+      "hot_rank": 174
+    },
+    {
+      "source_type": "news",
+      "title": "解密主力资金出逃股 连续5日净流出806股",
+      "summary": "拓普集团 7 5.30 6.83 -8.59 300164 通源石油 5 5.09 3.11 3.49 603893 瑞芯微 8 5.01 8.77 -8.20 600025 华能水电 15 4.99 7.62 10.68 600268 国电南自 6 4.96 9.52 -18.39 600886",
+      "publish_date": "2026-03-19",
+      "available_at": "2026-03-19T18:05:45",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 174,
+  "hot_reason": "雪球关注#74",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

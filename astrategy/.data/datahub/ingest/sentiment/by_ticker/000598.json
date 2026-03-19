@@ -1,0 +1,142 @@
+{
+  "ticker": "000598",
+  "company_name": "兴蓉环境",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "filing",
+      "title": "关于收到控股股东2025年度现金分红提议的公告",
+      "summary": "权益分派",
+      "publish_date": "2026-02-28",
+      "available_at": "2026-02-28T00:00:00",
+      "sentiment_score": 0.76,
+      "category": "分红送转",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "2025年度业绩快报",
+      "summary": "业绩预告",
+      "publish_date": "2026-02-28",
+      "available_at": "2026-02-28T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "业绩公告",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "兴蓉环境：公司目前未涉及水库项目投资建设",
+      "summary": "兴蓉环境（000598.SZ）3月6日在投资者互动平台表示，尊敬的投资者您好，感谢您对公司的关注！公司主营业务包括自来水生产与供应、污水处理及固废处置等环保业务，并向产业链细分领域着力延伸。公司目前未涉及水库项目投资建设。",
+      "publish_date": "2026-03-06",
+      "available_at": "2026-03-06T16:44:29",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "兴蓉环境：目前成都市第六再生水厂二期等项目处于试运行阶段并积极推进建设收尾工作",
+      "summary": "兴蓉环境（000598.SZ）3月13日在投资者互动平台表示，目前，成都市第六再生水厂二期、成都合作污水处理厂四期、成都中心城区厨余（餐厨）垃圾无害化处理项目（三期）等项目处于试运行阶段并积极推进建设收尾工作。项目投运情况请以公司在定期报告及相关公告中的披露信息为准。",
+      "publish_date": "2026-03-13",
+      "available_at": "2026-03-13T18:19:02",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "成都市兴蓉环境股份有限公司2026年面向专业投资者公开发行科技创新公司债券（第一期）更名公告",
+      "summary": "债券融资",
+      "publish_date": "2026-03-18",
+      "available_at": "2026-03-18T16:54:10",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "成都市兴蓉环境股份有限公司2026年面向专业投资者公开发行科技创新公司债券（第一期）发行公告",
+      "summary": "债券融资",
+      "publish_date": "2026-03-18",
+      "available_at": "2026-03-18T16:54:10",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "成都市兴蓉环境股份有限公司2026年面向专业投资者公开发行科技创新公司债券（第一期）募集说明书",
+      "summary": "债券融资",
+      "publish_date": "2026-03-18",
+      "available_at": "2026-03-18T16:54:10",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "成都市兴蓉环境股份有限公司2026年面向专业投资者公开发行科技创新公司债券（第一期）信用评级报告",
+      "summary": "债券融资",
+      "publish_date": "2026-03-18",
+      "available_at": "2026-03-18T16:54:10",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "【盘中播报】13只个股跨越牛熊分界线",
+      "summary": "皖天然气 1.42 1.18 8.45 8.55 1.16 002267 陕天然气 1.90 1.01 7.99 8.06 0.91 600012 皖通高速 0.84 0.15 15.45 15.55 0.66 000937 冀中能源 1.39 0.43 5.82 5.85 0.51 000598",
+      "publish_date": "2026-03-19",
+      "available_at": "2026-03-19T11:00:09",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "关于延长成都市兴蓉环境股份有限公司2026年面向专业投资者公开发行科技创新公司债券（第一期）簿记建档时间的公告",
+      "summary": "债券融资",
+      "publish_date": "2026-03-19",
+      "available_at": "2026-03-19T17:32:29",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "成都市兴蓉环境股份有限公司2026年面向专业投资者公开发行科技创新公司债券（第一期）票面利率公告",
+      "summary": "债券融资",
+      "publish_date": "2026-03-19",
+      "available_at": "2026-03-19T19:48:29",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 0,
+  "hot_reason": "",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

@@ -1,0 +1,46 @@
+{
+  "ticker": "600919",
+  "company_name": "江苏银行",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "news",
+      "title": "宁波银行董事长更迭 庄灵君将面临资本补充与规模保增压力",
+      "summary": "依托江浙区域民营经济活跃度高、产业集群效应显著的优势，宁波银行近几年规模增速较快，已成为我国仅次于江苏银行（600919.SH）和北京银行（601169.SH）的第三大城商行。据该行官网显示，截至2025年末的总资产为3.62万亿元，较年初增长16.11%。",
+      "publish_date": "2026-02-27",
+      "available_at": "2026-02-27T19:01:07",
+      "sentiment_score": 0.2,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "21家系统重要性银行名单出炉：5家城商行入围",
+      "summary": "按系统重要性得分从低到高分为五组：第一组11家，包括民生银行（600016.SH）、光大银行（601818.SH）、平安银行（000001.SZ）、华夏银行（600015.SH）、宁波银行（002142.SZ）、江苏银行（600919.SH）、北京银行（601169.SH）、南京银行",
+      "publish_date": "2026-02-28",
+      "available_at": "2026-02-28T02:39:05",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "8只个股大宗交易超5000万元",
+      "summary": "（数据宝） 3月11日大宗交易成交额居前股票 证券代码 证券简称 涨幅（%） 收盘价（元） 成交量（万股） 成交额（万元） 笔数 成交价（元） 折溢价（%） 688521 芯原股份 -7.97 220.87 111.11 21333.12 22 192.00 -13.07 600919",
+      "publish_date": "2026-03-11",
+      "available_at": "2026-03-11T22:14:14",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 0,
+  "hot_reason": "",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

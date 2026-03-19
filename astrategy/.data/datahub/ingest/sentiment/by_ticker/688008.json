@@ -1,0 +1,142 @@
+{
+  "ticker": "688008",
+  "company_name": "澜起科技",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "filing",
+      "title": "澜起科技2025年度业绩快报公告",
+      "summary": "业绩预告",
+      "publish_date": "2026-02-28",
+      "available_at": "2026-02-28T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "业绩公告",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "澜起科技关于2025年第二次回购A股股份方案回购股份进展的公告",
+      "summary": "股权变动",
+      "publish_date": "2026-03-04",
+      "available_at": "2026-03-04T00:00:00",
+      "sentiment_score": 0.8,
+      "category": "股权变动",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "澜起科技关于公司核心技术人员逝世的公告",
+      "summary": "",
+      "publish_date": "2026-03-05",
+      "available_at": "2026-03-05T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "澜起科技关于稳定价格行动及稳定价格期结束的公告",
+      "summary": "",
+      "publish_date": "2026-03-07",
+      "available_at": "2026-03-07T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "澜起科技股份有限公司章程",
+      "summary": "",
+      "publish_date": "2026-03-10",
+      "available_at": "2026-03-10T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "澜起科技关于统一采用中国企业会计准则编制财务报告的公告",
+      "summary": "",
+      "publish_date": "2026-03-10",
+      "available_at": "2026-03-10T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "澜起科技关于变更公司注册资本及修订《公司章程》的公告",
+      "summary": "",
+      "publish_date": "2026-03-10",
+      "available_at": "2026-03-10T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "近日海外机构调研股名单",
+      "summary": "301087 可孚医疗 3 58.86 0.96 医药生物 000035 中国天楹 2 7.38 0.14 环保 002511 中顺洁柔 1 8.78 - 美容护理 000999 华润三九 2 29.48 -0.24 医药生物 603711 香飘飘 1 13.15 -0.38 食品饮料 688008",
+      "publish_date": "2026-03-17",
+      "available_at": "2026-03-17T17:22:58",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "84.28亿元主力资金今日抢筹电子板块",
+      "summary": "电子行业资金流入榜 代码 简称 今日涨跌幅（%） 今日换手率（%） 主力资金流量（万元） 603986 兆易创新 5.15 6.30 91902.82 688525 佰维存储 9.46 10.14 82012.10 300475 香农芯创 10.63 11.08 72457.72 688008",
+      "publish_date": "2026-03-18",
+      "available_at": "2026-03-18T17:07:02",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "16只科创板个股主力资金净流入超亿元",
+      "summary": "（数据宝） 主力资金净流入排名 代码 简称 主力资金净流入（万元） 主力资金流入率（%） 涨跌幅（%） 换手率（%） 688525 佰维存储 82012.10 6.85 9.46 10.14 688008 澜起科技 67852.49 9.29 4.80 4.19 688498",
+      "publish_date": "2026-03-18",
+      "available_at": "2026-03-18T17:57:31",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "H股公告-董事会会议召开日期",
+      "summary": "",
+      "publish_date": "2026-03-19",
+      "available_at": "2026-03-19T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 0,
+  "hot_reason": "",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

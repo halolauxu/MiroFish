@@ -1,0 +1,94 @@
+{
+  "ticker": "600010",
+  "company_name": "包钢股份",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "filing",
+      "title": "包钢股份股票交易异常波动公告",
+      "summary": "",
+      "publish_date": "2026-02-28",
+      "available_at": "2026-02-28T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "包钢股份关于股份回购进展情况的公告",
+      "summary": "股权变动",
+      "publish_date": "2026-03-04",
+      "available_at": "2026-03-04T00:00:00",
+      "sentiment_score": 0.8,
+      "category": "股权变动",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "包钢股份关于选举职工董事的公告",
+      "summary": "",
+      "publish_date": "2026-03-10",
+      "available_at": "2026-03-10T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "特钢概念下跌3.14%，主力资金净流出37股",
+      "summary": "特钢概念资金流出榜 代码 简称 今日涨跌幅（%） 今日换手率（%） 主力资金流量（万元） 600010 包钢股份 -1.74 4.12 -59617.47 600019 宝钢股份 -3.23 1.37 -31468.28 600126 杭钢股份 -2.92 4.96 -8845.24",
+      "publish_date": "2026-03-16",
+      "available_at": "2026-03-16T17:13:05",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "hot_topic",
+      "title": "包钢股份",
+      "summary": "百度热搜#3; 雪球关注#106",
+      "publish_date": "2026-03-19",
+      "available_at": "2026-03-19T00:00:00",
+      "sentiment_score": 0.18,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.25,
+      "hot_rank": 50
+    },
+    {
+      "source_type": "news",
+      "title": "28股特大单净流入资金超2亿元",
+      "summary": "包钢股份 2.61 -5.09 -4.33 钢铁 603799 华友钴业 56.51 -6.81 -4.30 有色金属 603019 中科曙光 84.77 -3.11 -4.13 计算机",
+      "publish_date": "2026-03-19",
+      "available_at": "2026-03-19T18:05:08",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "解密主力资金出逃股 连续5日净流出806股",
+      "summary": "包钢股份 5 19.23 13.19 -11.53 000878 云南铜业 14 18.96 8.16 -25.66 600893 航发动力 7 16.57 10.23 -17.67 688031 星环科技-U 7 15.87 12.47 -37.06 001696 宗申动力 9",
+      "publish_date": "2026-03-19",
+      "available_at": "2026-03-19T18:05:45",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 50,
+  "hot_reason": "百度热搜#3; 雪球关注#106",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

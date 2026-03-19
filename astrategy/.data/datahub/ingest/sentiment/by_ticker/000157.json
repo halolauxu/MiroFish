@@ -1,0 +1,46 @@
+{
+  "ticker": "000157",
+  "company_name": "中联重科",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "news",
+      "title": "中联重科：公司在意大利、德国、印度、墨西哥、巴西、土耳其、美国、匈牙利等国家拥有生产基地",
+      "summary": "中联重科（000157.SZ）3月10日在投资者互动平台表示，公司在全球有比较完善的研发、制造、供应链网络战略布局，在意大利、德国、印度、墨西哥、巴西、土耳其、美国、匈牙利等国家拥有生产基地。",
+      "publish_date": "2026-03-10",
+      "available_at": "2026-03-10T18:14:50",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "金涌投资附属公司增持中联重科131万股，金额达1301万港元",
+      "summary": "3月10日，金涌投资（01328）发布公告，公司的全资附属公司Redwood通过联交所以1301万港元价格购买131万股中联重科（000157/01157）股份，每股价格约9.9318港元。",
+      "publish_date": "2026-03-10",
+      "available_at": "2026-03-10T19:18:36",
+      "sentiment_score": 0.78,
+      "category": "股权变动",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "中联重科：公司开创了“以一带三”的共享制造新模式，实现了跨品种的生产资源优化配置",
+      "summary": "中联重科（000157.SZ）3月11日在投资者互动平台表示，公司开创了“以一带三”的共享制造新模式，通过建设下料、冲压等三大共性制造中心，横向覆盖挖掘机、起重机、泵车、高空作业车四大品类。这种模式实现了跨品种的生产资源优化配置，能够有效应对行业周期性波动。",
+      "publish_date": "2026-03-11",
+      "available_at": "2026-03-11T17:27:15",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 0,
+  "hot_reason": "",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

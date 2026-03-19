@@ -1,0 +1,130 @@
+{
+  "ticker": "688223",
+  "company_name": "晶科能源",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "news",
+      "title": "午后异动！688223，直线涨停",
+      "summary": "晶科能源（688223）直线“20cm”涨停，此前中来股份、拓日新能涨停，天合光能、金晶科技、ST京机等涨幅靠前。 紧盯盘中热点轮动，捕捉板块异动信号，把脉主力资金动向。",
+      "publish_date": "2026-02-04",
+      "available_at": "2026-02-04T13:50:45",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "晶科能源关于提供担保的进展公告",
+      "summary": "",
+      "publish_date": "2026-02-28",
+      "available_at": "2026-02-28T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "晶科能源2025年度业绩快报公告",
+      "summary": "业绩预告",
+      "publish_date": "2026-02-28",
+      "available_at": "2026-02-28T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "业绩公告",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "晶科能源关于提前归还部分暂时补充流动资金的闲置募集资金的公告",
+      "summary": "",
+      "publish_date": "2026-03-11",
+      "available_at": "2026-03-11T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "晶科能源关于“晶能转债”预计满足赎回条件的提示性公告",
+      "summary": "",
+      "publish_date": "2026-03-13",
+      "available_at": "2026-03-13T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "晶科能源管理层调整！陈康平担任副董事长",
+      "summary": "北京商报讯3月16日晚间，晶科能源（688223）披露公告称，公司当日召开第二届董事会第二十六次会议，同意选举陈康平为公司第二届董事会副董事长，同意聘任曹海云为公司总经理、蒋瑞为公司副总经理、常宸为公司财务总监。",
+      "publish_date": "2026-03-16",
+      "available_at": "2026-03-16T22:05:30",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "晶科能源股份有限公司章程（2026年3月修订）",
+      "summary": "",
+      "publish_date": "2026-03-17",
+      "available_at": "2026-03-17T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "晶科能源关于选举公司副董事长和高级管理人员变动的公告",
+      "summary": "",
+      "publish_date": "2026-03-17",
+      "available_at": "2026-03-17T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "晶科能源关于变更公司注册资本并修订《公司章程》的公告",
+      "summary": "",
+      "publish_date": "2026-03-17",
+      "available_at": "2026-03-17T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "电力设备行业今日跌2.10%，主力资金净流出124.96亿元",
+      "summary": "（数据宝） 电力设备行业资金流入榜 代码 简称 今日涨跌幅（%） 今日换手率（%） 主力资金流量（万元） 601218 吉鑫科技 10.07 13.59 39970.65 688223 晶科能源 0.84 3.36 25169.65 300438 鹏辉能源 1.63 10.67",
+      "publish_date": "2026-03-19",
+      "available_at": "2026-03-19T18:05:29",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 0,
+  "hot_reason": "",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

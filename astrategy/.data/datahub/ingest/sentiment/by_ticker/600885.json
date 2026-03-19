@@ -1,0 +1,46 @@
+{
+  "ticker": "600885",
+  "company_name": "宏发股份",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "news",
+      "title": "境外投资者持股比例超24%的股票名单",
+      "summary": "（数据宝） 3月12日境外投资者持股信息 证券代码 证券简称 境外投资者持有A股总数（亿股） 占公司总股本比例（%） 600885 宏发股份 3.78 24.396 注：境外投资者含QFII/RQFII/深股通/全球存托凭证跨境转换机构/全球存托凭证存托人；沪市境外投资者含",
+      "publish_date": "2026-03-13",
+      "available_at": "2026-03-13T09:57:40",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "境外投资者持股比例超24%的股票名单",
+      "summary": "（数据宝） 3月13日境外投资者持股信息 证券代码 证券简称 境外投资者持有A股总数（亿股） 占公司总股本比例（%） 600885 宏发股份 3.78 24.431 注：境外投资者含QFII/RQFII/深股通/全球存托凭证跨境转换机构/全球存托凭证存托人；沪市境外投资者含",
+      "publish_date": "2026-03-16",
+      "available_at": "2026-03-16T10:01:02",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "外资持股比例超24%的股票名单",
+      "summary": "（数据宝） 3月17日境外投资者持股信息 证券代码 证券简称 境外投资者持有A股总数（亿股） 占公司总股本比例（%） 600885 宏发股份 3.72 24.063 注：境外投资者含QFII/RQFII/深股通/全球存托凭证跨境转换机构/全球存托凭证存托人；沪市境外投资者含",
+      "publish_date": "2026-03-18",
+      "available_at": "2026-03-18T09:53:03",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 0,
+  "hot_reason": "",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

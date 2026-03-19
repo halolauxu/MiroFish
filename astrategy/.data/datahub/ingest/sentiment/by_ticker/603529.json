@@ -1,0 +1,82 @@
+{
+  "ticker": "603529",
+  "company_name": "爱玛科技",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "filing",
+      "title": "爱玛科技关于2024年限制性股票激励计划部分限制性股票回购注销实施公告",
+      "summary": "股权变动",
+      "publish_date": "2026-03-10",
+      "available_at": "2026-03-10T00:00:00",
+      "sentiment_score": 0.8,
+      "category": "股权变动",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "北京海润天睿律师事务所关于爱玛科技2024年限制性股票激励计划部分限制性股票回购注销实施的法律意见书",
+      "summary": "股权变动",
+      "publish_date": "2026-03-10",
+      "available_at": "2026-03-10T00:00:00",
+      "sentiment_score": 0.8,
+      "category": "股权变动",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "爱玛科技关于部分限制性股票回购注销完成调整“爱玛转债”转股价格的公告",
+      "summary": "股权变动",
+      "publish_date": "2026-03-16",
+      "available_at": "2026-03-16T00:00:00",
+      "sentiment_score": 0.8,
+      "category": "股权变动",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "近日海外机构调研股名单",
+      "summary": "大金重工 12 71.72 3.51 电力设备 688531 日联科技 5 71.94 2.92 机械设备 002254 泰和新材 1 12.20 2.69 基础化工 600995 南网储能 2 14.90 2.62 公用事业 688380 中微半导 5 47.88 2.31 电子 603529",
+      "publish_date": "2026-03-17",
+      "available_at": "2026-03-17T17:22:58",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "48家公司获海外机构调研",
+      "summary": "晶晨股份 11 91.96 6.87 电子 300498 温氏股份 9 17.33 6.38 农林牧渔 688531 日联科技 6 73.80 5.90 机械设备 000429 粤高速A 2 12.66 5.32 交通运输 603529 爱玛科技 1 28.80 3.34 汽车 301172",
+      "publish_date": "2026-03-18",
+      "available_at": "2026-03-18T17:06:15",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "近日海外机构调研股名单",
+      "summary": "光力科技 3 30.39 3.61 机械设备 603529 爱玛科技 1 28.48 2.30 汽车 688531 日联科技 6 71.08 1.75 机械设备 601009 南京银行 5 11.47 1.68 银行 603711 香飘飘 1 12.98 0.78 食品饮料 002511",
+      "publish_date": "2026-03-19",
+      "available_at": "2026-03-19T18:04:54",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 0,
+  "hot_reason": "",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

@@ -1,0 +1,36 @@
+[
+  {
+    "ticker": "601021",
+    "company_name": "春秋航空",
+    "title": "春秋航空关于股份回购进展公告",
+    "announcement_type": "股权变动",
+    "publish_date": "2026-03-03",
+    "publish_time": "2026-03-03",
+    "link": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=601021&announcementId=1224990281&orgId=9900023129&announcementTime=2026-03-03",
+    "source": "cninfo.disclosure_report",
+    "raw": {
+      "代码": "601021",
+      "简称": "春秋航空",
+      "公告标题": "春秋航空关于股份回购进展公告",
+      "公告时间": "2026-03-03",
+      "公告链接": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=601021&announcementId=1224990281&orgId=9900023129&announcementTime=2026-03-03"
+    }
+  },
+  {
+    "ticker": "601021",
+    "company_name": "春秋航空",
+    "title": "春秋航空2026年2月份主要运营数据公告",
+    "announcement_type": "",
+    "publish_date": "2026-03-17",
+    "publish_time": "2026-03-17",
+    "link": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=601021&announcementId=1225010670&orgId=9900023129&announcementTime=2026-03-17",
+    "source": "cninfo.disclosure_report",
+    "raw": {
+      "代码": "601021",
+      "简称": "春秋航空",
+      "公告标题": "春秋航空2026年2月份主要运营数据公告",
+      "公告时间": "2026-03-17",
+      "公告链接": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=601021&announcementId=1225010670&orgId=9900023129&announcementTime=2026-03-17"
+    }
+  }
+]

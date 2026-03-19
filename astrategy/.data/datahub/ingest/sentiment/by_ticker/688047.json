@@ -1,0 +1,58 @@
+{
+  "ticker": "688047",
+  "company_name": "龙芯中科",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "filing",
+      "title": "龙芯中科2025年度业绩快报公告",
+      "summary": "业绩预告",
+      "publish_date": "2026-02-28",
+      "available_at": "2026-02-28T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "业绩公告",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "98只股中线走稳 站上半年线",
+      "summary": "5.31 2.80 7.26 7.53 3.69 300184 力源信息 4.69 5.21 10.80 11.17 3.38 600605 汇通能源 6.33 4.63 30.07 31.08 3.36 603833 欧派家居 4.11 0.46 53.95 55.74 3.33 688047",
+      "publish_date": "2026-03-16",
+      "available_at": "2026-03-16T14:22:24",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "今日139只个股突破半年线",
+      "summary": "26.09 45.44 50.94 12.10 600337 美克家居 9.02 11.32 2.57 2.78 8.00 301389 隆扬电子 8.82 27.60 55.10 59.00 7.08 000020 深华发A 10.01 3.96 14.91 15.94 6.94 688047",
+      "publish_date": "2026-03-16",
+      "available_at": "2026-03-16T15:22:44",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "16只科创板个股主力资金净流入超亿元",
+      "summary": "688380 中微半导 6698.37 5.81 7.96 5.71 688375 国博电子 5717.71 9.59 5.93 0.91 688403 汇成股份 5681.36 10.53 3.76 3.99 688802 沐曦股份-U 5515.04 4.55 1.77 11.89 688047",
+      "publish_date": "2026-03-18",
+      "available_at": "2026-03-18T17:57:31",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 0,
+  "hot_reason": "",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

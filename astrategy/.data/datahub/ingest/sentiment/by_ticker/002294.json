@@ -1,0 +1,70 @@
+{
+  "ticker": "002294",
+  "company_name": "信立泰",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "filing",
+      "title": "关于股东减持计划期限届满暨实施情况的公告",
+      "summary": "股权变动",
+      "publish_date": "2026-03-04",
+      "available_at": "2026-03-04T00:00:00",
+      "sentiment_score": -0.78,
+      "category": "股权变动",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "54只股上午收盘涨停(附股)",
+      "summary": "41290.26 国防军工 002636 金安国纪 27.87 2.13 1466.46 40870.11 电子 000014 沙河股份 14.31 4.57 2813.06 40254.90 房地产 002536 飞龙股份 38.09 6.55 1032.72 39336.30 汽车 002294",
+      "publish_date": "2026-03-10",
+      "available_at": "2026-03-10T12:39:40",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "创新药板块走强：荣昌生物10%涨停，开拓药业涨31%，行情能否持续？",
+      "summary": "A股方面，荣昌生物（688331）、百利天恒（688506）、信立泰（002294）10%涨停，艾迪药业（688488）、海思科（002653）涨8%以上，百诚医药（301096）、泽璟制药（688266）、科伦药业（002422）、百济神州（688235）等涨超5%。",
+      "publish_date": "2026-03-10",
+      "available_at": "2026-03-10T20:11:35",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "强势股追踪 主力资金连续5日净流入109股",
+      "summary": "可孚医疗 13 2.42 9.44 6.51 002796 世嘉科技 5 2.35 3.44 27.21 300461 田中精机 6 2.21 8.31 8.65 600299 安迪苏 6 2.14 6.10 22.57 002311 海大集团 6 1.99 7.26 1.83 002294",
+      "publish_date": "2026-03-11",
+      "available_at": "2026-03-11T16:50:26",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "关于签订募集资金三方监管协议的公告",
+      "summary": "",
+      "publish_date": "2026-03-14",
+      "available_at": "2026-03-14T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "政策影响",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 0,
+  "hot_reason": "",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

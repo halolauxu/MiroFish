@@ -1,0 +1,94 @@
+{
+  "ticker": "300432",
+  "company_name": "富临精工",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "filing",
+      "title": "2026年第三次临时股东会决议公告",
+      "summary": "",
+      "publish_date": "2026-02-24",
+      "available_at": "2026-02-24T16:36:30",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "第五届董事会第三十二次会议决议公告",
+      "summary": "",
+      "publish_date": "2026-02-27",
+      "available_at": "2026-02-27T17:12:11",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "关于变更公司董事会秘书的公告",
+      "summary": "",
+      "publish_date": "2026-02-27",
+      "available_at": "2026-02-27T17:12:28",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "富临精工：公司目前没有毫米波雷达相关产品",
+      "summary": "富临精工（300432.SZ）3月11日在投资者互动平台表示，公司目前没有毫米波雷达相关产品。",
+      "publish_date": "2026-03-11",
+      "available_at": "2026-03-11T09:44:46",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "富临精工：公司正在有序推进与智元等相关各方的合作",
+      "summary": "富临精工（300432.SZ）3月12日在投资者互动平台表示，公司正在有序推进与智元等相关各方的合作，后续合作如有相关进展，公司将按照法律法规和《公司章程》等相关规定，履行相应的审批程序和信息披露义务。",
+      "publish_date": "2026-03-12",
+      "available_at": "2026-03-12T22:09:38",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "32.12亿元资金今日流出电力设备股",
+      "summary": "20992.33 300850 新强联 -1.65 7.68 -18274.23 688223 晶科能源 -3.24 2.50 -17461.99 688717 艾罗能源 -2.78 9.10 -17089.57 002759 天际股份 -3.78 7.64 -16943.28 300432",
+      "publish_date": "2026-03-18",
+      "available_at": "2026-03-18T17:06:58",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "关于子公司签订《增资协议》暨新建年产50万吨高端储能用磷酸铁锂项目进展的公告",
+      "summary": "",
+      "publish_date": "2026-03-18",
+      "available_at": "2026-03-18T17:38:10",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 0,
+  "hot_reason": "",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

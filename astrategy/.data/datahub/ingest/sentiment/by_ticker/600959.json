@@ -1,0 +1,82 @@
+{
+  "ticker": "600959",
+  "company_name": "江苏有线",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "news",
+      "title": "江苏有线：视京呈通信拟减持公司不超874.44万股股份",
+      "summary": "人民财讯3月17日电，江苏有线6009593月17日公告，持股0.28%的股东视京呈通信拟通过集中竞价方式，减持其持有公司股份总数不超过874.44万股，占公司总股本的0.17%。减持价格根据减持时市场价格确定，且不低于减持公告日前一个交易日股票收盘价。",
+      "publish_date": "2026-03-17",
+      "available_at": "2026-03-17T18:30:42",
+      "sentiment_score": -0.78,
+      "category": "股权变动",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "江苏有线股东减持股份计划公告",
+      "summary": "股权变动",
+      "publish_date": "2026-03-18",
+      "available_at": "2026-03-18T00:00:00",
+      "sentiment_score": -0.78,
+      "category": "股权变动",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "江苏有线控股股东增持计划调整 尚未有实施进展",
+      "summary": "2025年11月8日江苏有线600959曾披露，公司控股股东江苏省文化科技控股集团有限公司（下称“省文化科技集团”）拟自2025年11月8日起的12个月内，通过上海证券交易所系统以集中竞价交易方式增持公司无限售流通 A 股股份，增持金额合计不低于1亿元（含）且不高于1.5亿元（",
+      "publish_date": "2026-03-18",
+      "available_at": "2026-03-18T20:05:21",
+      "sentiment_score": 0.78,
+      "category": "股权变动",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "江苏有线第六届董事会第十七次会议决议公告",
+      "summary": "",
+      "publish_date": "2026-03-19",
+      "available_at": "2026-03-19T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "江苏有线关于控股股东增持进展暨增持计划调整的公告",
+      "summary": "股权变动",
+      "publish_date": "2026-03-19",
+      "available_at": "2026-03-19T00:00:00",
+      "sentiment_score": 0.78,
+      "category": "股权变动",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "国资云概念上涨0.32%，5股主力资金净流入超亿元",
+      "summary": "600131 国网信通 7.40 5.74 8231.94 5.66 002063 远光软件 2.71 9.30 7177.01 6.08 002368 太极股份 3.59 3.28 6392.51 15.00 600941 中国移动 0.83 1.55 3623.08 2.63 600959",
+      "publish_date": "2026-03-19",
+      "available_at": "2026-03-19T18:04:30",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 0,
+  "hot_reason": "",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

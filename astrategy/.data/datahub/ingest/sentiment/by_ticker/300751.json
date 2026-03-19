@@ -1,0 +1,142 @@
+{
+  "ticker": "300751",
+  "company_name": "迈为股份",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "filing",
+      "title": "关于与专业投资机构共同投资的公告",
+      "summary": "",
+      "publish_date": "2026-02-25",
+      "available_at": "2026-02-25T17:24:10",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "关于公司拟签署《投资协议书》的公告",
+      "summary": "",
+      "publish_date": "2026-03-06",
+      "available_at": "2026-03-06T18:50:12",
+      "sentiment_score": 0.0,
+      "category": "重大合同",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "第四届董事会第一次会议决议公告",
+      "summary": "",
+      "publish_date": "2026-03-06",
+      "available_at": "2026-03-06T18:50:29",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "关于选举职工代表董事的公告",
+      "summary": "",
+      "publish_date": "2026-03-06",
+      "available_at": "2026-03-06T18:50:29",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "关于注销部分回购股份并减少注册资本暨通知债权人的公告",
+      "summary": "股权变动",
+      "publish_date": "2026-03-06",
+      "available_at": "2026-03-06T18:50:29",
+      "sentiment_score": 0.8,
+      "category": "股权变动",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "关于公司控股子公司拟签署《投资协议书》的公告",
+      "summary": "",
+      "publish_date": "2026-03-06",
+      "available_at": "2026-03-06T18:50:29",
+      "sentiment_score": 0.0,
+      "category": "重大合同",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "2026年第一次临时股东会决议的公告",
+      "summary": "",
+      "publish_date": "2026-03-06",
+      "available_at": "2026-03-06T18:50:29",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "300751，重磅宣布！拟加码新能源与半导体！两大项目，总投资50亿！",
+      "summary": "迈为股份300751同日披露多份投资协议，在新能源与半导体两大装备项目上加速布局。 3月6日迈为股份公告，公司拟与吴江经济技术开发区管理委员会签署《投资协议书》，投资建设“钙钛矿叠层电池成套装备项目”，项目计划投资金额为35亿元。",
+      "publish_date": "2026-03-06",
+      "available_at": "2026-03-06T21:03:47",
+      "sentiment_score": 0.0,
+      "category": "重大合同",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "关于控股股东部分股份解除质押的公告",
+      "summary": "",
+      "publish_date": "2026-03-12",
+      "available_at": "2026-03-12T18:02:29",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "总投资50亿元 迈为股份钙钛矿叠层电池及半导体装备项目签约落地",
+      "summary": "3月18日，迈为股份300751钙钛矿叠层电池装备项目和半导体装备研发制造项目签约落地。苏州市委书记范波，迈为股份董事长周剑出席签约仪式。 迈为股份是一家集机械设计、电气研制、软件开发、精密制造于一体的泛半导体高端装备制造商。",
+      "publish_date": "2026-03-18",
+      "available_at": "2026-03-18T21:27:10",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "28股获融资客大手笔净买入",
+      "summary": "轻工制造 600026 中远海能 7.15 18288.62 148325.60 1.72 交通运输 002463 沪电股份 6.32 17993.72 420843.22 2.41 电子 688256 寒武纪 -1.30 17583.71 1570419.51 3.52 电子 300751",
+      "publish_date": "2026-03-19",
+      "available_at": "2026-03-19T09:44:49",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 0,
+  "hot_reason": "",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

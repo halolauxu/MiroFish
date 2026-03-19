@@ -1,0 +1,58 @@
+{
+  "ticker": "600795",
+  "company_name": "国电电力",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "news",
+      "title": "杠杆资金大手笔加仓股名单",
+      "summary": "建筑装饰 601318 中国平安 -1.18 10401.39 3341812.80 5.18 非银金融 002015 协鑫能科 -4.13 10101.29 151950.64 4.38 公用事业 301308 江波龙 6.32 10097.07 410327.72 4.31 电子 600795",
+      "publish_date": "2026-03-17",
+      "available_at": "2026-03-17T09:52:10",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "融资客看好4股 买入占成交比例超三成",
+      "summary": "46659.94 23.28 -2.16 688435 英方软件 2546.96 11004.23 23.15 1.44 688325 赛微微电 9539.94 42042.53 22.69 7.26 601901 方正证券 6598.71 29208.06 22.59 -0.40 600795",
+      "publish_date": "2026-03-17",
+      "available_at": "2026-03-17T10:18:10",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "hot_topic",
+      "title": "国电电力",
+      "summary": "雪球关注#109; 雪球讨论#96; 雪球交易#174",
+      "publish_date": "2026-03-19",
+      "available_at": "2026-03-19T00:00:00",
+      "sentiment_score": 0.09,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.25,
+      "hot_rank": 95
+    },
+    {
+      "source_type": "news",
+      "title": "公用事业行业今日净流入资金7.77亿元，广安爱众等8股净流入资金超亿元",
+      "summary": "1.50 9.54 3832.69 000767 晋控电力 0.81 4.94 3691.50 300040 九洲集团 1.28 18.31 3268.14 003035 南网能源 0.24 3.31 3120.86 001286 陕西能源 3.32 4.76 2594.71 600795",
+      "publish_date": "2026-03-19",
+      "available_at": "2026-03-19T18:04:26",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 95,
+  "hot_reason": "雪球关注#109; 雪球讨论#96; 雪球交易#174",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

@@ -1,0 +1,118 @@
+{
+  "ticker": "000958",
+  "company_name": "电投产融",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "filing",
+      "title": "第八届董事会第一次会议决议公告",
+      "summary": "",
+      "publish_date": "2026-02-28",
+      "available_at": "2026-02-28T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "关于财务公司风险评估的报告",
+      "summary": "",
+      "publish_date": "2026-02-28",
+      "available_at": "2026-02-28T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "关于调整2026年度日常关联交易预计额度的公告",
+      "summary": "",
+      "publish_date": "2026-02-28",
+      "available_at": "2026-02-28T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "关于公司变更办公地址、投资者联系方式的公告",
+      "summary": "",
+      "publish_date": "2026-02-28",
+      "available_at": "2026-02-28T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "关于与财务公司签订金融服务协议的公告",
+      "summary": "",
+      "publish_date": "2026-02-28",
+      "available_at": "2026-02-28T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "年内定增募资排行榜：5家公司募资超50亿元",
+      "summary": "今年以来定增募资金额排名 代码 简称 募资金额（亿元） 行业 代码 简称 募资金额（亿元） 行业 002379 宏桥控股 635.18 有色金属 603196 日播时尚 13.17 纺织服饰 000958 电投产融 402.85 非银金融 002967 广电计量 13.00 社会服务",
+      "publish_date": "2026-03-16",
+      "available_at": "2026-03-16T10:54:52",
+      "sentiment_score": 0.24,
+      "category": "产品进展",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "20.19亿主力资金净流入，期货概念涨0.02%",
+      "summary": "600909 华安证券 0.00 1.84 1727.56 3.01 600155 华创云信 0.15 1.38 1617.71 7.76 601901 方正证券 0.27 0.74 1435.07 3.17 000551 创元科技 -1.00 2.30 1408.41 9.04 000958",
+      "publish_date": "2026-03-17",
+      "available_at": "2026-03-17T17:23:25",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "2026年第二次临时股东会决议公告",
+      "summary": "",
+      "publish_date": "2026-03-18",
+      "available_at": "2026-03-18T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "电投产融：当前公司尚未涉及可控核聚变技术领域",
+      "summary": "电投产融（000958.SZ）3月18日在投资者互动平台表示，当前公司尚未涉及可控核聚变技术领域。后续相关信息敬请关注公司公告。",
+      "publish_date": "2026-03-18",
+      "available_at": "2026-03-18T12:04:27",
+      "sentiment_score": 0.24,
+      "category": "产品进展",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 0,
+  "hot_reason": "",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

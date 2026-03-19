@@ -30,6 +30,9 @@ from pathlib import Path
 from typing import Any, Dict, List
 
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+os.environ.setdefault("ASTRATEGY_LOCAL_ONLY_MARKET", "1")
+
+from astrategy.events.normalizer import normalize_events
 
 logging.basicConfig(
     level=logging.INFO,
@@ -46,6 +49,15 @@ def load_events(path: str, max_events: int = 0) -> List[Dict]:
     """Load historical events from JSON."""
     with open(path, "r", encoding="utf-8") as f:
         events = json.load(f)
+    events = normalize_events(events)
+    events = [
+        event for event in events
+        if event.get("stock_code") and event.get("event_date")
+    ]
+    events = sorted(
+        events,
+        key=lambda event: (event.get("event_date", ""), event.get("event_id", "")),
+    )
     if max_events > 0:
         events = events[:max_events]
     logger.info("Loaded %d historical events", len(events))
@@ -205,6 +217,24 @@ def generate_report(
     elapsed: float,
 ) -> str:
     """Generate markdown backtest report."""
+    if analysis.get("error"):
+        return "\n".join(
+            [
+                "# 冲击传播链路 — 历史事件回测报告",
+                "",
+                f"**日期**: {datetime.now().strftime('%Y-%m-%d %H:%M')}",
+                f"**事件数**: {len(events)}",
+                f"**总信号数**: 0",
+                f"**有效信号数(有行情)**: 0",
+                f"**耗时**: {elapsed:.1f}s",
+                "",
+                "## 结果",
+                "",
+                f"- {analysis['error']}",
+                "- 当前样本可能超出本地价格覆盖区间，或事件未形成可交易信号。",
+            ]
+        )
+
     lines = [
         "# 冲击传播链路 — 历史事件回测报告",
         "",
@@ -394,9 +424,18 @@ def main():
     print("冲击传播链路 — 历史事件回测结果")
     print("=" * 70)
     print(f"  事件数: {len(events)}")
-    print(f"  总信号: {analysis['total_signals']}")
-    print(f"  有效信号: {analysis['valid_signals']}")
+    print(f"  总信号: {analysis.get('total_signals', 0)}")
+    print(f"  有效信号: {analysis.get('valid_signals', 0)}")
     print(f"  耗时: {elapsed:.1f}s")
+
+    if analysis.get("error"):
+        print()
+        print(f"  结果: {analysis['error']}")
+        print(f"  报告: {report_path}")
+        print(f"  信号: {signals_path}")
+        print("=" * 70)
+        return
+
     print()
     print("  Alpha 对比:")
     for key, label in [("alpha_all", "全部"), ("alpha_unreacted", "未反应"), ("alpha_reacted", "已反应")]:

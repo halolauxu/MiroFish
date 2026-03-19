@@ -1,0 +1,53 @@
+[
+  {
+    "ticker": "000002",
+    "company_name": "万科A",
+    "title": "关于担保进展情况的公告",
+    "announcement_type": "",
+    "publish_date": "2026-03-03",
+    "publish_time": "2026-03-03",
+    "link": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=000002&announcementId=1224992492&orgId=gssz0000002&announcementTime=2026-03-03",
+    "source": "cninfo.disclosure_report",
+    "raw": {
+      "代码": "000002",
+      "简称": "万科A",
+      "公告标题": "关于担保进展情况的公告",
+      "公告时间": "2026-03-03",
+      "公告链接": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=000002&announcementId=1224992492&orgId=gssz0000002&announcementTime=2026-03-03"
+    }
+  },
+  {
+    "ticker": "000002",
+    "company_name": "万科A",
+    "title": "关于按照《香港上市规则》公布2026年2月证券变动月报表的公告",
+    "announcement_type": "",
+    "publish_date": "2026-03-03",
+    "publish_time": "2026-03-03",
+    "link": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=000002&announcementId=1224992493&orgId=gssz0000002&announcementTime=2026-03-03",
+    "source": "cninfo.disclosure_report",
+    "raw": {
+      "代码": "000002",
+      "简称": "万科A",
+      "公告标题": "关于按照《香港上市规则》公布2026年2月证券变动月报表的公告",
+      "公告时间": "2026-03-03",
+      "公告链接": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=000002&announcementId=1224992493&orgId=gssz0000002&announcementTime=2026-03-03"
+    }
+  },
+  {
+    "ticker": "000002",
+    "company_name": "万科A",
+    "title": "关于董事会会议召开日期的公告",
+    "announcement_type": "",
+    "publish_date": "2026-03-18",
+    "publish_time": "2026-03-18",
+    "link": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=000002&announcementId=1225014045&orgId=gssz0000002&announcementTime=2026-03-18",
+    "source": "cninfo.disclosure_report",
+    "raw": {
+      "代码": "000002",
+      "简称": "万科A",
+      "公告标题": "关于董事会会议召开日期的公告",
+      "公告时间": "2026-03-18",
+      "公告链接": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=000002&announcementId=1225014045&orgId=gssz0000002&announcementTime=2026-03-18"
+    }
+  }
+]

@@ -1,0 +1,58 @@
+{
+  "ticker": "000709",
+  "company_name": "河钢股份",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "filing",
+      "title": "2025年面向专业投资者公开发行可续期公司债券(第一期)2026年付息公告",
+      "summary": "债券融资",
+      "publish_date": "2026-03-10",
+      "available_at": "2026-03-10T18:06:12",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "特钢概念下跌3.14%，主力资金净流出37股",
+      "summary": "物产金轮 -0.52 1.23 -60.40 603028 赛福天 0.86 2.05 96.54 300402 宝色股份 0.47 2.29 148.54 300881 盛德鑫泰 -0.88 4.31 520.14 000898 鞍钢股份 -4.10 1.34 634.08 000709",
+      "publish_date": "2026-03-16",
+      "available_at": "2026-03-16T17:13:05",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "20.13亿元资金今日流出钢铁股",
+      "summary": "甬金股份 -2.59 1.52 -180.51 301160 翔楼新材 0.69 2.96 437.93 300881 盛德鑫泰 -0.88 4.31 520.14 000655 金岭矿业 -4.59 4.02 584.97 000898 鞍钢股份 -4.10 1.34 634.08 000709",
+      "publish_date": "2026-03-16",
+      "available_at": "2026-03-16T17:13:22",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "113家公司获机构调研（附名单）",
+      "summary": "-0.78 医药生物 600279 重庆港 1 2 5.28 -1.86 交通运输 600113 浙江东日 1 1 54.73 -4.52 商贸零售 002939 长城证券 1 1 9.35 -1.37 非银金融 600367 红星发展 1 1 26.00 14.59 基础化工 000709",
+      "publish_date": "2026-03-19",
+      "available_at": "2026-03-19T09:15:59",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 0,
+  "hot_reason": "",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

@@ -1,0 +1,46 @@
+{
+  "ticker": "000786",
+  "company_name": "北新建材",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "news",
+      "title": "建筑材料行业资金流入榜：再升科技等5股净流入资金超亿元",
+      "summary": "三峡新材 3.69 5.17 2062.69 601636 旗滨集团 1.46 1.65 1687.79 002652 扬子新材 3.27 6.59 1500.72 001212 中旗新材 4.14 4.67 1410.71 300737 科顺股份 0.75 2.17 1292.38 000786",
+      "publish_date": "2026-03-10",
+      "available_at": "2026-03-10T17:10:25",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "【盘中播报】74只个股突破年线",
+      "summary": "未名 2.11 0.60 8.11 8.23 1.49 000797 中国武夷 1.99 2.43 3.04 3.08 1.31 603456 九洲药业 1.42 0.63 16.91 17.12 1.22 000069 华侨城A 1.22 0.47 2.46 2.49 1.18 000786",
+      "publish_date": "2026-03-17",
+      "available_at": "2026-03-17T10:51:29",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "【盘中播报】38只个股跨越牛熊分界线",
+      "summary": "1.69 3.71 34.69 34.92 0.65 601688 华泰证券 1.85 1.36 19.73 19.84 0.55 688428 诺诚健华 2.08 2.89 23.91 24.03 0.50 000897 津滨发展 1.76 4.59 2.30 2.31 0.45 000786",
+      "publish_date": "2026-03-17",
+      "available_at": "2026-03-17T14:18:17",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 0,
+  "hot_reason": "",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

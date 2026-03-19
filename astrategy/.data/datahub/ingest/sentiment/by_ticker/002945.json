@@ -1,0 +1,82 @@
+{
+  "ticker": "002945",
+  "company_name": "华林证券",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "news",
+      "title": "午后异动！002945涨停",
+      "summary": "华林证券（002945）涨停，华鑫股份、国盛证券、中信建投、兴业证券等多股跟涨。消息面上，上交所数据显示，2026年1月A股新开户491.58万户，环比增长89%，同比2025年1月的157.0万户增长213%。",
+      "publish_date": "2026-02-05",
+      "available_at": "2026-02-05T14:09:49",
+      "sentiment_score": 0.2,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "关于控股股东部分股份解除质押及再质押的公告",
+      "summary": "",
+      "publish_date": "2026-03-11",
+      "available_at": "2026-03-11T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "第四届董事会第六次会议决议公告",
+      "summary": "",
+      "publish_date": "2026-03-14",
+      "available_at": "2026-03-14T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "关于高级管理人员职务调整的公告",
+      "summary": "",
+      "publish_date": "2026-03-14",
+      "available_at": "2026-03-14T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "解密主力资金出逃股 连续5日净流出534股",
+      "summary": "3.57 9.24 -19.26 600452 涪陵电力 6 3.50 3.95 -7.65 000534 万泽股份 5 3.39 4.23 -13.58 301236 软通动力 5 3.36 8.11 -6.35 600312 平高电气 5 3.33 6.23 -11.26 002945",
+      "publish_date": "2026-03-16",
+      "available_at": "2026-03-16T17:13:04",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "36.33亿元主力资金今日抢筹非银金融板块",
+      "summary": "华创云信 0.15 1.38 1617.71 601901 方正证券 0.27 0.74 1435.07 000958 电投产融 0.29 1.21 1397.82 002961 瑞达期货 1.15 4.09 1237.60 601136 首创证券 0.40 0.35 1198.13 002945",
+      "publish_date": "2026-03-17",
+      "available_at": "2026-03-17T17:23:34",
+      "sentiment_score": 0.24,
+      "category": "产品进展",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 0,
+  "hot_reason": "",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

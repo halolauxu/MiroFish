@@ -1,0 +1,58 @@
+{
+  "ticker": "002738",
+  "company_name": "中矿资源",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "news",
+      "title": "中矿资源：公司目前合计拥有418万吨/年锂矿处理能力和7.1万吨/年电池级锂盐产能",
+      "summary": "中矿资源（002738.SZ）3月13日在投资者互动平台表示，公司目前合计拥有418万吨/年锂矿处理能力和 7.1 万吨/年电池级锂盐产能。",
+      "publish_date": "2026-03-13",
+      "available_at": "2026-03-13T17:27:30",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "有色金属行业今日净流出资金34.49亿元，赣锋锂业等16股净流出资金超亿元",
+      "summary": "31851.89 300139 晓程科技 -2.50 12.16 -26817.72 601600 中国铝业 -2.92 2.42 -26324.24 600219 南山铝业 -3.67 2.35 -25381.95 603799 华友钴业 -1.97 3.19 -20692.50 002738",
+      "publish_date": "2026-03-18",
+      "available_at": "2026-03-18T17:06:48",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "hot_topic",
+      "title": "中矿资源",
+      "summary": "雪球讨论#46",
+      "publish_date": "2026-03-19",
+      "available_at": "2026-03-19T00:00:00",
+      "sentiment_score": 0.08,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.25,
+      "hot_rank": 155
+    },
+    {
+      "source_type": "news",
+      "title": "有色金属行业资金流出榜：紫金矿业等41股净流出资金超亿元",
+      "summary": "49758.15 000630 铜陵有色 -6.46 3.85 -39944.44 000408 藏格矿业 -7.10 2.41 -39760.68 600547 山东黄金 -7.04 1.91 -37279.34 002378 章源钨业 -6.48 6.52 -32642.03 002738",
+      "publish_date": "2026-03-19",
+      "available_at": "2026-03-19T18:04:36",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 155,
+  "hot_reason": "雪球讨论#46",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

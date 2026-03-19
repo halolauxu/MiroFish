@@ -1,0 +1,36 @@
+[
+  {
+    "ticker": "600095",
+    "company_name": "湘财股份",
+    "title": "湘财股份关于子公司诉讼事项的进展公告",
+    "announcement_type": "风险事项",
+    "publish_date": "2026-02-25",
+    "publish_time": "2026-02-25",
+    "link": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=600095&announcementId=1224983485&orgId=gssh0600095&announcementTime=2026-02-25",
+    "source": "cninfo.disclosure_report",
+    "raw": {
+      "代码": "600095",
+      "简称": "湘财股份",
+      "公告标题": "湘财股份关于子公司诉讼事项的进展公告",
+      "公告时间": "2026-02-25",
+      "公告链接": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=600095&announcementId=1224983485&orgId=gssh0600095&announcementTime=2026-02-25"
+    }
+  },
+  {
+    "ticker": "600095",
+    "company_name": "湘财股份",
+    "title": "湘财股份关于需更新申报文件财务数据收到上海证券交易所中止审核通知的公告",
+    "announcement_type": "",
+    "publish_date": "2026-03-16",
+    "publish_time": "2026-03-16",
+    "link": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=600095&announcementId=1225010503&orgId=gssh0600095&announcementTime=2026-03-16",
+    "source": "cninfo.disclosure_report",
+    "raw": {
+      "代码": "600095",
+      "简称": "湘财股份",
+      "公告标题": "湘财股份关于需更新申报文件财务数据收到上海证券交易所中止审核通知的公告",
+      "公告时间": "2026-03-16",
+      "公告链接": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=600095&announcementId=1225010503&orgId=gssh0600095&announcementTime=2026-03-16"
+    }
+  }
+]

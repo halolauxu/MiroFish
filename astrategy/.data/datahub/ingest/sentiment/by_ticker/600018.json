@@ -1,0 +1,58 @@
+{
+  "ticker": "600018",
+  "company_name": "上港集团",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "filing",
+      "title": "上港集团2026年2月份主要生产数据提示性公告",
+      "summary": "",
+      "publish_date": "2026-03-04",
+      "available_at": "2026-03-04T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "F5G概念上涨2.09%，5股主力资金净流入超亿元",
+      "summary": "603803 瑞斯康达 10.00 10.69 6216.48 11.32 603118 共进股份 2.94 6.93 2422.11 3.41 600582 天地科技 1.32 1.05 923.54 3.49 688418 震有科技 -1.70 3.33 674.15 2.45 600018",
+      "publish_date": "2026-03-11",
+      "available_at": "2026-03-11T16:44:13",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "F5G概念下跌4.84%，主力资金净流出31股",
+      "summary": "梅安森 -2.68 1.63 -468.72 301314 科瑞思 -5.11 7.67 -289.80 000810 创维数字 -0.18 1.30 -47.66 688418 震有科技 -3.06 2.28 330.36 688107 安路科技 2.56 2.76 654.15 600018",
+      "publish_date": "2026-03-17",
+      "available_at": "2026-03-17T17:22:54",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "42.01亿主力资金净流入，F5G概念涨4.84%",
+      "summary": "002792 通宇通讯 6.11 9.65 9641.17 7.26 002897 意华股份 8.39 9.65 7066.38 6.25 002396 星网锐捷 5.27 4.64 5528.73 7.15 300570 太辰光 3.22 8.63 4242.04 2.21 600018",
+      "publish_date": "2026-03-18",
+      "available_at": "2026-03-18T17:06:55",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 0,
+  "hot_reason": "",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

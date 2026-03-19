@@ -1,0 +1,130 @@
+{
+  "ticker": "002568",
+  "company_name": "百润股份",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "filing",
+      "title": "第六届董事会第八次会议决议公告",
+      "summary": "",
+      "publish_date": "2026-03-04",
+      "available_at": "2026-03-04T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "关于注销部分已回购股份减资减资暨通知债权人公告",
+      "summary": "股权变动",
+      "publish_date": "2026-03-04",
+      "available_at": "2026-03-04T00:00:00",
+      "sentiment_score": 0.8,
+      "category": "股权变动",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "关于向下修正百润转债转股价格的公告",
+      "summary": "",
+      "publish_date": "2026-03-04",
+      "available_at": "2026-03-04T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "2026年第一次临时股东会决议公告",
+      "summary": "",
+      "publish_date": "2026-03-04",
+      "available_at": "2026-03-04T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "百润股份：注销692万回购股份减少注册资本",
+      "summary": "南方财经3月4日电，百润股份002568.SZ)公告，公司决定将已回购的6,924,854股股份注销并减少注册资本。本次注销后，公司总股本将从1,048,548,555股减至1,041,623,701股，注册资本相应减少692.49万元。",
+      "publish_date": "2026-03-04",
+      "available_at": "2026-03-04T11:07:04",
+      "sentiment_score": 0.8,
+      "category": "股权变动",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "百润股份：股东刘建国新增质押522万股，已满仓质押",
+      "summary": "3月5日，百润股份（002568）发布公告，股东刘建国将其持有的522万股股份办理质押，占其所持股份的8.29%及公司总股本的0.50%；截至公告披露日，刘建国累计质押股份为6300万股，占其持股总数的100%及公司总股本的6.01%。",
+      "publish_date": "2026-03-05",
+      "available_at": "2026-03-05T18:09:32",
+      "sentiment_score": 0.0,
+      "category": "产品进展",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "关于股东股份质押变动的公告",
+      "summary": "",
+      "publish_date": "2026-03-06",
+      "available_at": "2026-03-06T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "食品饮料行业今日净流出资金9.13亿元，贵州茅台等5股净流出资金超5000万元",
+      "summary": "2.10 -2179.11 603919 金徽酒 -4.87 2.57 -1876.68 600702 舍得酒业 -1.41 1.22 -1801.68 603369 今世缘 -1.72 0.45 -1480.76 605499 东鹏饮料 -1.35 0.23 -1163.73 002568",
+      "publish_date": "2026-03-18",
+      "available_at": "2026-03-18T17:06:45",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "关于部分已回购股份注销完成暨股份变动的公告",
+      "summary": "股权变动",
+      "publish_date": "2026-03-19",
+      "available_at": "2026-03-19T00:00:00",
+      "sentiment_score": 0.8,
+      "category": "股权变动",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "关于可转换公司债券转股价格调整的公告",
+      "summary": "债券融资",
+      "publish_date": "2026-03-19",
+      "available_at": "2026-03-19T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 0,
+  "hot_reason": "",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

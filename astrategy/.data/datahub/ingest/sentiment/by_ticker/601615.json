@@ -1,0 +1,70 @@
+{
+  "ticker": "601615",
+  "company_name": "明阳智能",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "filing",
+      "title": "关于发行股份及支付现金购买资产并募集配套资金暨关联交易事项的进展公告",
+      "summary": "",
+      "publish_date": "2026-02-24",
+      "available_at": "2026-02-24T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "2026年第二次临时股东会决议公告",
+      "summary": "",
+      "publish_date": "2026-03-03",
+      "available_at": "2026-03-03T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "中企首次包揽全球风机制造商市场份额前六 出海战略显效",
+      "summary": "明阳智能（601615.SH）和运达股份（300772.SZ）分别以18.9GW、18.4GW新增装机紧随其后，三一重能（688349.SH）与东方电气（600875.SH）则均以13.5GW装机量共同跻身前六。",
+      "publish_date": "2026-03-11",
+      "available_at": "2026-03-11T13:57:52",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "国内外多重政策利好，风电板块“八连涨”",
+      "summary": "彭博新能源财经发布的全球风电整机制造商排名中，中企包揽了前六（第五和第六并列），依次为金风科技(002202.SZ)、远景能源、明阳智能601615.SH)、运达股份(300772.SZ)、三一重能(688349.SH)、东方电气(600875.SH)。",
+      "publish_date": "2026-03-13",
+      "available_at": "2026-03-13T22:09:27",
+      "sentiment_score": 0.0,
+      "category": "产品进展",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "29股获杠杆资金净买入超亿元",
+      "summary": "有色金属 600016 民生银行 -0.75 10694.27 745218.21 5.31 银行 688630 芯碁微装 -3.60 10381.25 70407.69 2.98 机械设备 002080 中材科技 -0.07 10321.87 134423.42 1.74 建筑材料 601615",
+      "publish_date": "2026-03-16",
+      "available_at": "2026-03-16T09:35:56",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 0,
+  "hot_reason": "",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

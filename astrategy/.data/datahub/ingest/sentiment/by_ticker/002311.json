@@ -1,0 +1,82 @@
+{
+  "ticker": "002311",
+  "company_name": "海大集团",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "filing",
+      "title": "关于以集中竞价交易方式回购公司股份的进展公告",
+      "summary": "股权变动",
+      "publish_date": "2026-03-03",
+      "available_at": "2026-03-03T00:00:00",
+      "sentiment_score": 0.8,
+      "category": "股权变动",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "关于控股股东部分股份质押的公告",
+      "summary": "",
+      "publish_date": "2026-03-07",
+      "available_at": "2026-03-07T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "关于回购公司股份比例达到1%的进展公告",
+      "summary": "股权变动",
+      "publish_date": "2026-03-12",
+      "available_at": "2026-03-12T00:00:00",
+      "sentiment_score": 0.8,
+      "category": "股权变动",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "强势股追踪 主力资金连续5日净流入82股",
+      "summary": "田中精机 8 3.02 8.12 14.02 688390 固德威 6 2.88 3.48 5.34 600299 安迪苏 8 2.75 5.33 29.70 002445 中南文化 5 2.65 39.98 61.51 601328 交通银行 7 2.36 3.33 2.85 002311",
+      "publish_date": "2026-03-13",
+      "available_at": "2026-03-13T17:15:29",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "82只股中线走稳 站上半年线",
+      "summary": "2.77 0.92 10.88 11.14 2.43 603707 健友股份 2.64 0.81 9.87 10.10 2.33 600794 保税科技 3.26 2.18 4.03 4.12 2.29 688148 芳源股份 4.16 3.94 8.59 8.77 2.11 002311",
+      "publish_date": "2026-03-16",
+      "available_at": "2026-03-16T10:45:59",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "98只股中线走稳 站上半年线",
+      "summary": "5.40 11.38 14.40 14.84 3.05 600889 南京化纤 3.05 2.15 16.06 16.54 2.99 600337 美克家居 3.92 9.71 2.57 2.65 2.99 300611 美力科技 5.08 8.28 27.99 28.75 2.71 002311",
+      "publish_date": "2026-03-16",
+      "available_at": "2026-03-16T14:22:24",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 0,
+  "hot_reason": "",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

@@ -1,0 +1,94 @@
+{
+  "ticker": "300748",
+  "company_name": "金力永磁",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "filing",
+      "title": "H股公告-证券变动月报表",
+      "summary": "",
+      "publish_date": "2026-03-05",
+      "available_at": "2026-03-05T20:02:12",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "H股公告-董事会会议召开日期",
+      "summary": "",
+      "publish_date": "2026-03-16",
+      "available_at": "2026-03-16T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "关于全资子公司对外投资暨与专业机构共同投资的公告",
+      "summary": "",
+      "publish_date": "2026-03-17",
+      "available_at": "2026-03-17T17:35:18",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "金力永磁：全资子公司拟2080万元参投天津创能基金",
+      "summary": "每经AI快讯，3月17日，金力永磁300748.SZ)公告称，公司全资子公司金力宁波投资拟以自有资金不超过2080万元参与投资天津创能创业投资合伙企业（有限合伙）。投资完成后，金力宁波投资将认缴出资2080万元，占合伙企业33.28%的份额，基金目标规模为6250万元。",
+      "publish_date": "2026-03-17",
+      "available_at": "2026-03-17T17:46:50",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "金力永磁：全资子公司拟不超2080万元投资天津创能基金",
+      "summary": "人民财讯3月17日电，金力永磁3007483月17日公告，公司全资子公司金力永磁（宁波）投资有限公司拟以自有资金不超过2080万元参与投资天津创能创业投资合伙企业（有限合伙）（简称“天津创能基金”）。",
+      "publish_date": "2026-03-17",
+      "available_at": "2026-03-17T17:57:30",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "金力永磁：子公司拟不超2080万元参投天津创能基金",
+      "summary": "3月17日，金力永磁（300748/06680）发布公告，公司全资子公司金力永磁（宁波）投资有限公司拟以自有资金不超过2080万元人民币参与投资天津创能创业投资合伙企业（有限合伙）。",
+      "publish_date": "2026-03-17",
+      "available_at": "2026-03-17T18:02:01",
+      "sentiment_score": 0.0,
+      "category": "产品进展",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "hot_topic",
+      "title": "金力永磁",
+      "summary": "雪球交易#16",
+      "publish_date": "2026-03-19",
+      "available_at": "2026-03-19T00:00:00",
+      "sentiment_score": 0.08,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.25,
+      "hot_rank": 134
+    }
+  ],
+  "hot_rank": 134,
+  "hot_reason": "雪球交易#16",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

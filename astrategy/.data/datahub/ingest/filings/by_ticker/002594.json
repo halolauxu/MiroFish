@@ -1,0 +1,53 @@
+[
+  {
+    "ticker": "002594",
+    "company_name": "比亚迪",
+    "title": "2026年2月产销快报",
+    "announcement_type": "",
+    "publish_date": "2026-03-02",
+    "publish_time": "2026-03-02",
+    "link": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=002594&announcementId=1224989596&orgId=gshk0001211&announcementTime=2026-03-02",
+    "source": "cninfo.disclosure_report",
+    "raw": {
+      "代码": "002594",
+      "简称": "比亚迪",
+      "公告标题": "2026年2月产销快报",
+      "公告时间": "2026-03-02",
+      "公告链接": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=002594&announcementId=1224989596&orgId=gshk0001211&announcementTime=2026-03-02"
+    }
+  },
+  {
+    "ticker": "002594",
+    "company_name": "比亚迪",
+    "title": "H股公告（股份发行人及根据《上市规则》第十九B章上市的香港预托证券发行人的证券变动月报表）",
+    "announcement_type": "",
+    "publish_date": "2026-03-03",
+    "publish_time": "2026-03-03",
+    "link": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=002594&announcementId=1224992511&orgId=gshk0001211&announcementTime=2026-03-03",
+    "source": "cninfo.disclosure_report",
+    "raw": {
+      "代码": "002594",
+      "简称": "比亚迪",
+      "公告标题": "H股公告（股份发行人及根据《上市规则》第十九B章上市的香港预托证券发行人的证券变动月报表）",
+      "公告时间": "2026-03-03",
+      "公告链接": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=002594&announcementId=1224992511&orgId=gshk0001211&announcementTime=2026-03-03"
+    }
+  },
+  {
+    "ticker": "002594",
+    "company_name": "比亚迪",
+    "title": "H股公告（董事会会议通告）",
+    "announcement_type": "",
+    "publish_date": "2026-03-12",
+    "publish_time": "2026-03-12",
+    "link": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=002594&announcementId=1225005114&orgId=gshk0001211&announcementTime=2026-03-12",
+    "source": "cninfo.disclosure_report",
+    "raw": {
+      "代码": "002594",
+      "简称": "比亚迪",
+      "公告标题": "H股公告（董事会会议通告）",
+      "公告时间": "2026-03-12",
+      "公告链接": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=002594&announcementId=1225005114&orgId=gshk0001211&announcementTime=2026-03-12"
+    }
+  }
+]

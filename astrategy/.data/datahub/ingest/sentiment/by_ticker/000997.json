@@ -1,0 +1,94 @@
+{
+  "ticker": "000997",
+  "company_name": "新 大 陆",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "news",
+      "title": "新大陆旗下星驿支付被罚没847万元",
+      "summary": "日前，因违反收单业务管理规定、与身份不明的客户进行交易，新大陆（000997.SZ）旗下支付机构福建星驿支付科技有限公司被中国人民银行福建省分行处罚，被警告、没收违法所得3,421,878.39元、并处505万元罚款。",
+      "publish_date": "2026-02-25",
+      "available_at": "2026-02-25T16:38:46",
+      "sentiment_score": -1.0,
+      "category": "政策影响",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "涉“与身份不明客户交易” 新大陆旗下星驿支付被罚没847万",
+      "summary": "星驿支付成立于2010年6月，是上市公司新大陆（000997.SZ）的控股子公司，拥有中国人民银行颁发的全国范围展业《支付业务许可证》的第三方支付机构。",
+      "publish_date": "2026-02-26",
+      "available_at": "2026-02-26T22:29:17",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "第九届董事会第十五次会议决议公告",
+      "summary": "",
+      "publish_date": "2026-03-10",
+      "available_at": "2026-03-10T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "关于开展商品期货套期保值业务的可行性分析报告",
+      "summary": "",
+      "publish_date": "2026-03-10",
+      "available_at": "2026-03-10T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "关于开展商品期货套期保值业务的公告",
+      "summary": "",
+      "publish_date": "2026-03-10",
+      "available_at": "2026-03-10T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "关于子公司网商融担公司开展融资担保业务暨公司为子公司提供担保的公告",
+      "summary": "增发融资",
+      "publish_date": "2026-03-10",
+      "available_at": "2026-03-10T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "电子身份证概念下跌3.05%，7股主力资金净流出超3000万元",
+      "summary": "7.45 -9852.95 300229 拓尔思 -4.72 4.40 -9743.27 603232 格尔软件 -5.61 9.13 -5205.09 300531 优博讯 -7.72 11.78 -4932.21 300188 国投智能 -2.04 2.48 -3164.03 000997",
+      "publish_date": "2026-03-13",
+      "available_at": "2026-03-13T17:14:35",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 0,
+  "hot_reason": "",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

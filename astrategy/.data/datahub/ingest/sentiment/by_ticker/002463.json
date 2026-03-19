@@ -1,0 +1,118 @@
+{
+  "ticker": "002463",
+  "company_name": "沪电股份",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "filing",
+      "title": "关于股票交易异常波动的公告",
+      "summary": "",
+      "publish_date": "2026-02-27",
+      "available_at": "2026-02-27T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "关于为控股子公司提供担保的进展公告",
+      "summary": "",
+      "publish_date": "2026-02-27",
+      "available_at": "2026-02-27T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "第八届董事会第十五次会议决议公告",
+      "summary": "",
+      "publish_date": "2026-03-07",
+      "available_at": "2026-03-07T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "关于同意签署投资协议暨新建印制电路板生产项目及其配套设施的公告",
+      "summary": "",
+      "publish_date": "2026-03-07",
+      "available_at": "2026-03-07T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "重大合同",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "关于出售二级全资子公司股权暨关联交易的公告",
+      "summary": "",
+      "publish_date": "2026-03-07",
+      "available_at": "2026-03-07T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "002463，拟55亿元投建项目！",
+      "summary": "印制电路板（PCB）龙头企业沪电股份002463，拟斥资55亿元投建新产能。 3月6日沪电股份公告，公司全资子公司昆山沪利微电有限公司（简称“沪利微电”）拟投资新建印制电路板生产项目及其配套设施，生产高层数、高频高速、高密度互连、高通流印制电路板。",
+      "publish_date": "2026-03-07",
+      "available_at": "2026-03-07T12:45:17",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "002463，拟55亿元投建PCB项目",
+      "summary": "3月6日晚间，PCB龙头沪电股份（002463）公告，公司当日召开了第八届董事会第十五次会议，审议通过《关于同意签署投资协议暨新建印制电路板生产项目及其配套设施的议案》。",
+      "publish_date": "2026-03-07",
+      "available_at": "2026-03-07T12:52:55",
+      "sentiment_score": 0.0,
+      "category": "重大合同",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "hot_topic",
+      "title": "沪电股份",
+      "summary": "雪球关注#200; 雪球讨论#145; 雪球交易#129",
+      "publish_date": "2026-03-19",
+      "available_at": "2026-03-19T00:00:00",
+      "sentiment_score": 0.08,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.25,
+      "hot_rank": 180
+    },
+    {
+      "source_type": "news",
+      "title": "28股获融资客大手笔净买入",
+      "summary": "电力设备 001309 德明利 5.65 22937.63 555192.60 9.23 电子 002565 顺灏股份 9.97 19591.38 85801.77 4.99 轻工制造 600026 中远海能 7.15 18288.62 148325.60 1.72 交通运输 002463",
+      "publish_date": "2026-03-19",
+      "available_at": "2026-03-19T09:44:49",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 180,
+  "hot_reason": "雪球关注#200; 雪球讨论#145; 雪球交易#129",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

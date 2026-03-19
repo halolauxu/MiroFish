@@ -1,0 +1,82 @@
+{
+  "ticker": "688561",
+  "company_name": "奇安信",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "filing",
+      "title": "奇安信2025年度业绩快报公告",
+      "summary": "业绩预告",
+      "publish_date": "2026-02-28",
+      "available_at": "2026-02-28T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "业绩公告",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "3月9日科创板主力资金净流出42.76亿元",
+      "summary": "华丰科技 7558.34 2.75 -4.60 13.89 688717 艾罗能源 6590.65 4.35 12.36 12.33 688120 华海清科 6531.79 5.65 -3.03 1.91 688229 博睿数据 6448.33 20.38 20.00 7.21 688561",
+      "publish_date": "2026-03-09",
+      "available_at": "2026-03-09T16:53:23",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "奇安信关于增加日常关联交易预计的公告",
+      "summary": "",
+      "publish_date": "2026-03-11",
+      "available_at": "2026-03-11T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "奇安信2026年第一次临时股东会通知",
+      "summary": "",
+      "publish_date": "2026-03-11",
+      "available_at": "2026-03-11T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "工信部就OpenClaw安全风险防范再发文 国产“龙虾”如何成为可靠工具？",
+      "summary": "奇安信-U（688561.SH）安全专家汪列军告诉财联社记者，相关安全事件的出现主要归因于OpenClaw极大加速了AI向“超人化”演进的脚步，具体风险集中在权限失控与“越狱”、Skill供应链、公网暴露与远程入侵、数据隐私泄露四方面。",
+      "publish_date": "2026-03-12",
+      "available_at": "2026-03-12T01:30:37",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "国资云概念上涨0.32%，5股主力资金净流入超亿元",
+      "summary": "-1.30 1.13 -986.86 -1.23 600831 广电网络 -2.42 1.54 -1049.87 -23.48 000665 湖北广电 -1.71 1.87 -1147.64 -10.36 603927 中科软 -0.94 0.86 -1151.96 -8.98 688561",
+      "publish_date": "2026-03-19",
+      "available_at": "2026-03-19T18:04:30",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 0,
+  "hot_reason": "",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

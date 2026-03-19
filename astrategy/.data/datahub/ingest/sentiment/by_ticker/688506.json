@@ -1,0 +1,130 @@
+{
+  "ticker": "688506",
+  "company_name": "百利天恒",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "filing",
+      "title": "四川百利天恒药业股份有限公司自愿披露关于iza-bren（EGFR×HER3双抗ADC）用于局部晚期或转移性三阴乳腺癌III期临床试验的期中分析达到主要终点的公告",
+      "summary": "",
+      "publish_date": "2026-02-24",
+      "available_at": "2026-02-24T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "四川百利天恒药业股份有限公司2025年年度业绩快报公告",
+      "summary": "业绩预告",
+      "publish_date": "2026-02-28",
+      "available_at": "2026-02-28T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "业绩公告",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "四川百利天恒药业股份有限公司关于股份回购进展公告",
+      "summary": "股权变动",
+      "publish_date": "2026-03-04",
+      "available_at": "2026-03-04T00:00:00",
+      "sentiment_score": 0.8,
+      "category": "股权变动",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "四川百利天恒药业股份有限公司自愿披露关于注射用BL-M11D1（CD33-ADC）用于治疗复发或难治性骨髓增生异常综合征获得药物临床试验批准通知书的公告",
+      "summary": "",
+      "publish_date": "2026-03-05",
+      "available_at": "2026-03-05T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "四川百利天恒药业股份有限公司关于股份回购实施结果的公告",
+      "summary": "股权变动",
+      "publish_date": "2026-03-13",
+      "available_at": "2026-03-13T00:00:00",
+      "sentiment_score": 0.8,
+      "category": "股权变动",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "百利天恒1187万限售股将于3月25日上市流通",
+      "summary": "3月17日，百利天恒（688506）发布公告，宣布1187万股限售股于3月25日上市流通，占公司总股本的2.88%。 2025年前三季度，百利天恒实现收入20.66亿元，归母净利润-4.95亿元。",
+      "publish_date": "2026-03-17",
+      "available_at": "2026-03-17T18:06:39",
+      "sentiment_score": 0.0,
+      "category": "业绩公告",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "四川百利天恒药业股份有限公司向特定对象发行限售股上市流通公告",
+      "summary": "增发融资",
+      "publish_date": "2026-03-18",
+      "available_at": "2026-03-18T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "中信证券股份有限公司关于四川百利天恒药业股份有限公司向特定对象发行股票限售股上市的核查意见",
+      "summary": "增发融资",
+      "publish_date": "2026-03-18",
+      "available_at": "2026-03-18T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "百利天恒核心在研产品iza-bren研究取得新进展",
+      "summary": "百利天恒6885063月18日晚在其微信公众号上发文表示，由同济大学附属东方医院周彩存教授牵头的iza-bren（EGFR×HER3双抗ADC）联合斯鲁利单抗用于初治广泛期小细胞肺癌（ES-SCLC）的Ⅱ期临床研究取得积极成果，并成功入选2026年欧洲肺癌大会（ELCC 2026",
+      "publish_date": "2026-03-19",
+      "available_at": "2026-03-19T09:19:01",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "强势股追踪 主力资金连续5日净流入52股",
+      "summary": "11 2.03 3.76 42.73 000020 深华发A 6 1.55 36.04 43.60 600072 中船科技 5 1.49 3.81 -1.53 688787 海天瑞声 5 1.38 3.92 4.54 600815 厦工股份 5 1.35 9.68 10.51 688506",
+      "publish_date": "2026-03-19",
+      "available_at": "2026-03-19T18:06:18",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 0,
+  "hot_reason": "",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

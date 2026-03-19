@@ -1,0 +1,94 @@
+{
+  "ticker": "600588",
+  "company_name": "用友网络",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "filing",
+      "title": "用友网络关于向北京中关村银行股份有限公司申请授信额度暨关联交易的公告",
+      "summary": "",
+      "publish_date": "2026-02-25",
+      "available_at": "2026-02-25T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "用友网络关于控股股东部分股份质押的公告",
+      "summary": "",
+      "publish_date": "2026-02-26",
+      "available_at": "2026-02-26T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "用友网络关于全资子公司为公司提供担保的公告",
+      "summary": "",
+      "publish_date": "2026-02-28",
+      "available_at": "2026-02-28T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "用友网络：公司并非豆包的供应商",
+      "summary": "用友网络（600588.SH）3月2日在投资者互动平台表示，投资者您好，公司并非豆包的供应商。公司与包括豆包（字节跳动）在内的国内众多大模型厂商存在合作关系。感谢您的关注。",
+      "publish_date": "2026-03-02",
+      "available_at": "2026-03-02T20:59:22",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "用友网络：拟使用不超过21亿元自有资金进行委托理财",
+      "summary": "每经AI快讯，3月4日，用友网络600588.SH)公告称，公司及子公司拟使用闲置自有资金进行委托理财，单日最高余额不超过人民币21亿元（含本数），用于购买安全性高、流动性好的理财产品。该事项已经公司第九届董事会第二十六次会议审议通过，无需提交股东会审议。",
+      "publish_date": "2026-03-04",
+      "available_at": "2026-03-04T16:58:06",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "用友网络关于使用部分闲置自有资金进行委托理财的公告",
+      "summary": "",
+      "publish_date": "2026-03-05",
+      "available_at": "2026-03-05T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "财税数字化概念涨2.12%，主力资金净流入这些股",
+      "summary": "603171 税友股份 0.76 1.44 1774.77 5.25 300687 赛意信息 2.87 3.73 1127.07 4.39 000555 神州信息 2.02 8.10 1054.09 0.73 300523 辰安科技 2.56 2.22 1045.39 8.63 600588",
+      "publish_date": "2026-03-09",
+      "available_at": "2026-03-09T17:04:59",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 0,
+  "hot_reason": "",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

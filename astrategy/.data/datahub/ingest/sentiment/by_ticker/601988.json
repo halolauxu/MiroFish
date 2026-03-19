@@ -1,0 +1,82 @@
+{
+  "ticker": "601988",
+  "company_name": "中国银行",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "filing",
+      "title": "H股公告-截至二零二六年二月二十八日止之股份发行人的证券变动月报表",
+      "summary": "",
+      "publish_date": "2026-03-03",
+      "available_at": "2026-03-03T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "银行板块表现亮眼",
+      "summary": "三是建议关注有望受益于特别国债资本补充，且兼具低估值、高股息、经营稳健的农业银行（601288）、工商银行（601398）、中国银行（601988）和建设银行（601939）。",
+      "publish_date": "2026-03-12",
+      "available_at": "2026-03-12T16:47:54",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "工行发布超1200条招聘信息！2026银行春招开启抢人模式，AI和大数据岗位升温",
+      "summary": "国有大行依旧是本次春招的绝对主力军，工商银行、农业银行（601288.SH）、中国银行（601988.SH）等头部国有行均于3月中旬前集中发布2026年度春季校园招聘公告，建设银行（601939.SH）则更早于2月下旬启动远程智能银行中心社会招聘，实现校园招聘与社会招聘双轨并行。",
+      "publish_date": "2026-03-16",
+      "available_at": "2026-03-16T18:30:23",
+      "sentiment_score": 0.0,
+      "category": "产品进展",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "“香饽饽”不再 票据“失宠”：中小行扎堆压降 四大行逆势加仓",
+      "summary": "据界面新闻记者统计，2023年-2025年6月建设银行（601939.SH）、中国银行（601988.SH）、工商银行（601398.SH）票据贴现余额增幅在60%左右。 值得注意的是，国有大行的票据贴现收益率也低于负债成本，其开展票据业务相当于“亏本赚吆喝”。",
+      "publish_date": "2026-03-17",
+      "available_at": "2026-03-17T19:14:58",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "H股公告-董事会召开日期",
+      "summary": "",
+      "publish_date": "2026-03-19",
+      "available_at": "2026-03-19T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "hot_topic",
+      "title": "中国银行",
+      "summary": "雪球关注#58; 雪球讨论#160; 雪球交易#166",
+      "publish_date": "2026-03-19",
+      "available_at": "2026-03-19T00:00:00",
+      "sentiment_score": 0.092,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.25,
+      "hot_rank": 94
+    }
+  ],
+  "hot_rank": 94,
+  "hot_reason": "雪球关注#58; 雪球讨论#160; 雪球交易#166",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

@@ -1,0 +1,130 @@
+{
+  "ticker": "003021",
+  "company_name": "兆威机电",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "filing",
+      "title": "关于刊发H股招股说明书、H股发行价格上限及H股香港公开发售等事宜的公告",
+      "summary": "",
+      "publish_date": "2026-02-27",
+      "available_at": "2026-02-27T07:47:34",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "关于境外上市外资股（H股）公开发行价格的公告",
+      "summary": "",
+      "publish_date": "2026-03-09",
+      "available_at": "2026-03-09T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "第三届董事会第十六次会议决议公告",
+      "summary": "",
+      "publish_date": "2026-03-10",
+      "available_at": "2026-03-10T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "关于聘任境外会计师事务所的公告",
+      "summary": "",
+      "publish_date": "2026-03-10",
+      "available_at": "2026-03-10T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "关于控股股东、实际控制人及其一致行动人持股比例被动稀释触及1%和5%整数倍的公告",
+      "summary": "",
+      "publish_date": "2026-03-10",
+      "available_at": "2026-03-10T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "关于境外上市外资股（H股）调入港股通标的证券名单的公告",
+      "summary": "",
+      "publish_date": "2026-03-10",
+      "available_at": "2026-03-10T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "关于境外上市外资股（H股）挂牌并上市交易的公告",
+      "summary": "",
+      "publish_date": "2026-03-10",
+      "available_at": "2026-03-10T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "今日186只股长线走稳 站上年线",
+      "summary": "6.06 49.27 52.17 5.88 301160 翔楼新材 5.60 4.45 63.41 66.93 5.56 003026 中晶科技 6.49 7.42 33.03 34.60 4.75 300709 精研科技 6.69 9.07 43.08 45.00 4.45 003021",
+      "publish_date": "2026-03-10",
+      "available_at": "2026-03-10T15:40:21",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "今日302只个股突破半年线",
+      "summary": "10.64 28.50 30.25 6.15 688379 华光新材 6.73 5.45 51.22 54.26 5.94 300469 信息发展 16.33 7.25 68.25 71.79 5.18 300778 新城市 5.40 3.91 13.61 14.25 4.70 003021",
+      "publish_date": "2026-03-10",
+      "available_at": "2026-03-10T15:40:23",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "《做多中国行》走进兆威机电：放大镜才看得清的齿轮，撑起了一门15亿元的生意",
+      "summary": "深耕微驱动，成就行业“单项冠军” 扎根深圳宝安的兆威机电（003021.SZ/02692.HK），自2001年创立以来，以科技创新为核心驱动，从行业新兵成长为国内微型传动与驱动领域的佼佼者，并跻身全球领先的一体化微型传动与驱动系统解决方案提供商行列。",
+      "publish_date": "2026-03-19",
+      "available_at": "2026-03-19T17:40:56",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 0,
+  "hot_reason": "",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

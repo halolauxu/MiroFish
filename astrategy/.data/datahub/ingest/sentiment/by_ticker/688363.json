@@ -1,0 +1,58 @@
+{
+  "ticker": "688363",
+  "company_name": "华熙生物",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "news",
+      "title": "华熙生物2025年净利2.91亿元，同比增长67.03%",
+      "summary": "北京商报讯2月27日晚间，华熙生物（688363）发布2025年度业绩快报显示，报告期内，公司实现营业收入约为42.17亿元，同比下降21.49%；归属净利润约为2.91亿元，同比增长67.03%。",
+      "publish_date": "2026-02-27",
+      "available_at": "2026-02-27T20:42:46",
+      "sentiment_score": -0.5,
+      "category": "业绩公告",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "华熙生物2025年度业绩快报公告",
+      "summary": "业绩预告",
+      "publish_date": "2026-02-28",
+      "available_at": "2026-02-28T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "业绩公告",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "超200万手封板！002445 复牌一字涨停！",
+      "summary": "华熙昕宇系华熙生物688363控股股东，公司实际控制人为赵燕。 从中南文化2025年第三季度报告来看，里面并没有范雯、华熙昕宇的身影。这说明二者是在去年第四季度之后大举买入了中南文化。2025年10月9日至2026年2月12日，中南文化股票加权均价为2.69元/股。",
+      "publish_date": "2026-03-09",
+      "available_at": "2026-03-09T12:37:18",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "1.03亿元资金今日流出美容护理股",
+      "summary": "8.56 18.33 -191.55 300849 锦盛新材 2.07 2.97 -188.19 603605 珀莱雅 -1.86 0.83 -186.09 603983 丸美生物 -1.76 0.55 -173.54 300955 嘉亨家化 0.18 1.72 -172.65 688363",
+      "publish_date": "2026-03-09",
+      "available_at": "2026-03-09T17:10:12",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 0,
+  "hot_reason": "",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

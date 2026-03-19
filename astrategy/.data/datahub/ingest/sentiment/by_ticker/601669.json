@@ -1,0 +1,106 @@
+{
+  "ticker": "601669",
+  "company_name": "中国电建",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "filing",
+      "title": "中国电力建设股份有限公司2026年1月主要经营情况公告",
+      "summary": "",
+      "publish_date": "2026-03-04",
+      "available_at": "2026-03-04T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "中国电力建设股份有限公司关于签署重大合同的公告",
+      "summary": "重大合同",
+      "publish_date": "2026-03-12",
+      "available_at": "2026-03-12T00:00:00",
+      "sentiment_score": 1.0,
+      "category": "重大合同",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "中国电力建设股份有限公司2026年1月至2月主要经营情况公告",
+      "summary": "",
+      "publish_date": "2026-03-12",
+      "available_at": "2026-03-12T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "中国电力建设股份有限公司关于签署重大合同的公告",
+      "summary": "重大合同",
+      "publish_date": "2026-03-13",
+      "available_at": "2026-03-13T00:00:00",
+      "sentiment_score": 1.0,
+      "category": "重大合同",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "601669，斩获超139亿元光储EPC大单",
+      "summary": "3月12日晚间，中国电建（601669）披露，公司阿布扎比分公司与公司下属子公司中国电建集团华东勘测设计研究院有限公司组成联营体，与阿布扎比未来能源公司签订了阿联酋阿布扎比RTC2.1GW+7.75GWh光储项目EPC合同，合同金额折合人民币约为139.62亿元。",
+      "publish_date": "2026-03-13",
+      "available_at": "2026-03-13T00:41:13",
+      "sentiment_score": 0.0,
+      "category": "重大合同",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "601669，350万手封死涨停！",
+      "summary": "【导读】中国电建大举涨停，签订重大海外光储项目EPC合同 中国基金报记者晨曦 千亿巨头，大举涨停！ 3月13日上午，A股中国电建盘中封住涨停。截至发稿，中国电建报7.19元/股，涨幅为9.94%；总市值达1238.56亿元，买1近350万手。 截至发稿，中国电建成交额超",
+      "publish_date": "2026-03-13",
+      "available_at": "2026-03-13T11:41:01",
+      "sentiment_score": 0.0,
+      "category": "重大合同",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "中国电力建设股份有限公司关于签署重大合同的公告",
+      "summary": "重大合同",
+      "publish_date": "2026-03-14",
+      "available_at": "2026-03-14T00:00:00",
+      "sentiment_score": 1.0,
+      "category": "重大合同",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "中国电建601669龙虎榜数据03-16",
+      "summary": "交易所2026年3月16日公布的交易公开信息显示，中国电建因成为有价格涨跌幅限制的日收盘价格跌幅偏离值达到7%的前五只证券上榜。中国电建当日收报6.47元，涨跌幅-10.01%，偏离值-9.75%，换手率14.62%，成交额127.79亿。 免责声明：本文基于AI生产，仅供参考，不构成任何投资建议",
+      "publish_date": "2026-03-16",
+      "available_at": "2026-03-16T16:56:41",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 0,
+  "hot_reason": "",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

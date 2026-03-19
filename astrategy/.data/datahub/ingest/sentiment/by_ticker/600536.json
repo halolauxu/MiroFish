@@ -1,0 +1,82 @@
+{
+  "ticker": "600536",
+  "company_name": "中国软件",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "filing",
+      "title": "中国软件2026年第一次临时股东会决议公告",
+      "summary": "",
+      "publish_date": "2026-03-03",
+      "available_at": "2026-03-03T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "中国软件关于使用部分暂时闲置募集资金进行现金管理到期赎回的公告",
+      "summary": "",
+      "publish_date": "2026-03-05",
+      "available_at": "2026-03-05T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "中国软件关于使用部分暂时闲置募集资金进行现金管理的公告",
+      "summary": "",
+      "publish_date": "2026-03-07",
+      "available_at": "2026-03-07T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "华为欧拉概念涨2.03%，主力资金净流入这些股",
+      "summary": "-0.31 2.58 -2388.69 -9.02 300348 长亮科技 -0.45 2.99 -2459.33 -8.81 300166 东方国信 4.17 14.18 -2460.85 -1.49 300339 润和软件 0.19 4.28 -2634.53 -1.72 600536",
+      "publish_date": "2026-03-09",
+      "available_at": "2026-03-09T17:12:02",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "电子身份证概念下跌3.05%，7股主力资金净流出超3000万元",
+      "summary": "9.13 -5205.09 300531 优博讯 -7.72 11.78 -4932.21 300188 国投智能 -2.04 2.48 -3164.03 000997 新大陆 -2.22 1.33 -3090.42 002987 京北方 -3.28 1.50 -2783.46 600536",
+      "publish_date": "2026-03-13",
+      "available_at": "2026-03-13T17:14:35",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "28.16亿主力资金净流入，AI PC概念涨1.87%",
+      "summary": "博敏电子 -0.13 10.17 -703.72 -0.71 300331 苏大维格 4.83 5.89 -775.29 -1.41 002600 领益智造 0.28 1.11 -1302.37 -1.15 002156 通富微电 2.05 4.79 -2844.14 -0.85 600536",
+      "publish_date": "2026-03-16",
+      "available_at": "2026-03-16T17:13:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 0,
+  "hot_reason": "",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

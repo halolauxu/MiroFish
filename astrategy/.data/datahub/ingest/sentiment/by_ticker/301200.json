@@ -1,0 +1,130 @@
+{
+  "ticker": "301200",
+  "company_name": "大族数控",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "filing",
+      "title": "H股公告-截至2026年2月28日止月份之股份发行人的证券变动月报表",
+      "summary": "",
+      "publish_date": "2026-03-04",
+      "available_at": "2026-03-04T18:46:10",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "关于提前归还部分用于暂时补充流动资金的A股闲置募集资金的公告",
+      "summary": "",
+      "publish_date": "2026-03-05",
+      "available_at": "2026-03-05T18:02:11",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "关于悉数行使超额配售权、稳定价格行动及稳定价格期结束的公告",
+      "summary": "",
+      "publish_date": "2026-03-06",
+      "available_at": "2026-03-06T16:46:29",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "大族数控：超额配售权获全额行使，额外净筹约7.09亿港元",
+      "summary": "3月6日，大族数控（301200/03200）发布公告，公司同意由保荐人兼整体协调人于2026年3月5日悉数行使超额配售权，按发售价每股H股股份95.80港元发行757万股新H股。 公司本次发行的H股由5045万股增加至5802万股。",
+      "publish_date": "2026-03-06",
+      "available_at": "2026-03-06T17:40:05",
+      "sentiment_score": 0.0,
+      "category": "产品进展",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "关于控股股东持股比例被动稀释触及1%整数倍及跨越5%整数倍的提示性公告",
+      "summary": "",
+      "publish_date": "2026-03-10",
+      "available_at": "2026-03-10T17:26:12",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "H股公告-翌日披露报表",
+      "summary": "",
+      "publish_date": "2026-03-10",
+      "available_at": "2026-03-10T18:10:12",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "创业板股融资余额增幅榜（附股）",
+      "summary": "2.77 建筑装饰 301021 英诺激光 43674.44 -10.67 56.22 2.57 机械设备 300945 曼卡龙 18345.87 -10.60 19.20 -1.13 纺织服饰 300960 通业科技 7242.06 -9.92 26.53 3.27 机械设备 301200",
+      "publish_date": "2026-03-11",
+      "available_at": "2026-03-11T09:49:09",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "大族数控：公司目前在手订单充足，在手订单正有序生产和交付中",
+      "summary": "大族数控（301200.SZ）3月11日在投资者互动平台表示，公司目前在手订单充足，在手订单正有序生产和交付中，具体经营情况请关注公司定期报告。",
+      "publish_date": "2026-03-11",
+      "available_at": "2026-03-11T13:02:20",
+      "sentiment_score": 0.35,
+      "category": "重大合同",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "关于归还用于暂时补充流动资金的A股闲置募集资金的公告",
+      "summary": "",
+      "publish_date": "2026-03-18",
+      "available_at": "2026-03-18T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "H股公告-董事会会议召开日期",
+      "summary": "",
+      "publish_date": "2026-03-18",
+      "available_at": "2026-03-18T18:14:10",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 0,
+  "hot_reason": "",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

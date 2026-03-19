@@ -1,0 +1,58 @@
+{
+  "ticker": "600150",
+  "company_name": "中国船舶",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "news",
+      "title": "杠杆资金大手笔加仓股名单",
+      "summary": "601555 东吴证券 -7.10 15254.59 303158.41 7.07 非银金融 601390 中国中铁 -3.03 14834.64 381004.98 3.23 建筑装饰 002429 兆驰股份 -5.11 14654.69 197230.85 3.85 家用电器 600150",
+      "publish_date": "2026-03-17",
+      "available_at": "2026-03-17T09:52:10",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "杠杆资金大手笔加仓股名单",
+      "summary": "601555 东吴证券 -0.81 10479.28 313637.69 7.37 非银金融 000792 盐湖股份 -3.16 10379.77 513166.60 2.68 基础化工 300001 特锐德 -2.88 10251.55 138907.95 4.54 电力设备 600150",
+      "publish_date": "2026-03-18",
+      "available_at": "2026-03-18T09:52:40",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "解密主力资金出逃股 连续5日净流出675股",
+      "summary": "连续5日或以上主力资金净流出个股排名 证券代码 证券简称 主力资金净流出天数 主力资金净流出金额（亿元） 主力资金净流出比例（%） 累计涨跌幅（%） 601868 中国能建 5 57.72 10.07 -2.03 002195 岩山科技 9 35.39 7.41 -5.89 600150",
+      "publish_date": "2026-03-18",
+      "available_at": "2026-03-18T17:07:22",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "hot_topic",
+      "title": "中国船舶",
+      "summary": "雪球关注#75",
+      "publish_date": "2026-03-19",
+      "available_at": "2026-03-19T00:00:00",
+      "sentiment_score": 0.08,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.25,
+      "hot_rank": 175
+    }
+  ],
+  "hot_rank": 175,
+  "hot_reason": "雪球关注#75",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

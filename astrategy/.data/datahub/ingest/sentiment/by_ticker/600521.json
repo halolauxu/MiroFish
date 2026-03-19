@@ -1,0 +1,118 @@
+{
+  "ticker": "600521",
+  "company_name": "华海药业",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "filing",
+      "title": "浙江华海药业股份有限公司关于获得药品注册证书的公告",
+      "summary": "产品进展",
+      "publish_date": "2026-02-25",
+      "available_at": "2026-02-25T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "浙江华海药业股份有限公司关于公司涉及仲裁案件的进展公告",
+      "summary": "风险事项",
+      "publish_date": "2026-02-28",
+      "available_at": "2026-02-28T00:00:00",
+      "sentiment_score": -0.25,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "浙江华海药业股份有限公司关于公司及下属子公司涉及诉讼的进展公告",
+      "summary": "风险事项",
+      "publish_date": "2026-02-28",
+      "available_at": "2026-02-28T00:00:00",
+      "sentiment_score": -0.32,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "浙江华海药业股份有限公司关于子公司获得药品注册证书的公告",
+      "summary": "产品进展",
+      "publish_date": "2026-03-10",
+      "available_at": "2026-03-10T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "浙江华海药业股份有限公司关于制剂产品加巴喷丁胶囊获得美国FDA批准文号的公告",
+      "summary": "",
+      "publish_date": "2026-03-11",
+      "available_at": "2026-03-11T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "华海药业：子公司HB0025注射液启动子宫内膜癌III期临床试验",
+      "summary": "每经AI快讯，3月18日，华海药业600521.SH)公告称，公司下属子公司华奥泰就HB0025联合化疗一线治疗晚期/复发子宫内膜癌经过与国家药品监督管理局药品审评中心（简称“CDE”）Ⅱ期临床试验结束/Ⅲ期临床试验启动前的会议沟通，公司将正式启动HB0025注射液子宫内膜癌的Ⅲ",
+      "publish_date": "2026-03-18",
+      "available_at": "2026-03-18T18:09:26",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "华海药业：子公司HB0025注射液启动子宫内膜癌Ⅲ期临床试验",
+      "summary": "人民财讯3月18日电，华海药业6005213月18日公告，下属子公司华奥泰就HB0025联合化疗一线治疗晚期/复发子宫内膜癌经过与国家药品监督管理局药品审评中心Ⅱ期临床试验结束/Ⅲ期临床试验启动前的会议沟通，公司将正式启动HB0025注射液子宫内膜癌的Ⅲ期临床试验。",
+      "publish_date": "2026-03-18",
+      "available_at": "2026-03-18T18:11:45",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "浙江华海药业股份有限公司关于子公司HB0025注射液启动子宫内膜癌III期临床试验的公告",
+      "summary": "",
+      "publish_date": "2026-03-19",
+      "available_at": "2026-03-19T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "华海药业：HB0025注射液启动子宫内膜癌Ⅲ期临床试验",
+      "summary": "中证智能财讯华海药业（600521）3月19日公告，公司下属子公司上海华奥泰生物药业股份有限公司自主研发的HB0025注射液，在完成与国家药品监督管理局药品审评中心的Ⅱ期临床试验结束/Ⅲ期临床试验启动前会议沟通后，将正式启动针对晚期/复发子宫内膜癌的Ⅲ期临床试验。",
+      "publish_date": "2026-03-19",
+      "available_at": "2026-03-19T10:06:22",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 0,
+  "hot_reason": "",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

@@ -1,0 +1,106 @@
+{
+  "ticker": "000338",
+  "company_name": "潍柴动力",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "filing",
+      "title": "潍柴动力股份有限公司关于回购公司部分A股股份的进展公告",
+      "summary": "股权变动",
+      "publish_date": "2026-03-03",
+      "available_at": "2026-03-03T00:00:00",
+      "sentiment_score": 0.8,
+      "category": "股权变动",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "潍柴动力股份有限公司关于对控股子公司增资暨关联交易的公告",
+      "summary": "",
+      "publish_date": "2026-03-13",
+      "available_at": "2026-03-13T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "潍柴动力股份有限公司2026年第三次临时董事会会议决议公告",
+      "summary": "",
+      "publish_date": "2026-03-13",
+      "available_at": "2026-03-13T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "潍柴动力股份有限公司关于部分A股限制性股票注销完成的公告",
+      "summary": "股权激励",
+      "publish_date": "2026-03-17",
+      "available_at": "2026-03-17T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "股权变动",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "潍柴动力：公司没有燃气轮机产品",
+      "summary": "潍柴动力（000338.SZ）3月17日在投资者互动平台表示，公司没有燃气轮机产品。公司电力能源业务可以柴油发动机、天然气发动机、SOFC等多种产品组合充分满足备用电源和主电源等多元化市场需求，致力于为全球客户打造安全可靠、高效低碳、智能灵活的一体化电力解决方案。",
+      "publish_date": "2026-03-17",
+      "available_at": "2026-03-17T09:29:54",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "33股今日获机构买入评级",
+      "summary": "亿纬锂能 交银国际 买入 未评级 94.74 68.62 301162 国能日新 国泰海通 增持 增持 89.48 68.99 689009 九号公司-WD 交银国际 买入 未评级 75.02 49.80 002074 国轩高科 交银国际 买入 未评级 54.84 37.73 000338",
+      "publish_date": "2026-03-17",
+      "available_at": "2026-03-17T17:49:38",
+      "sentiment_score": 0.78,
+      "category": "股权变动",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "潍柴动力：公司没有燃气轮机和商业航天业务",
+      "summary": "潍柴动力（000338.SZ）3月17日在投资者互动平台表示，公司没有燃气轮机和商业航天业务。",
+      "publish_date": "2026-03-17",
+      "available_at": "2026-03-17T21:16:49",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "hot_topic",
+      "title": "潍柴动力",
+      "summary": "雪球关注#76; 雪球讨论#104; 雪球交易#190",
+      "publish_date": "2026-03-19",
+      "available_at": "2026-03-19T00:00:00",
+      "sentiment_score": 0.116,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.25,
+      "hot_rank": 82
+    }
+  ],
+  "hot_rank": 82,
+  "hot_reason": "雪球关注#76; 雪球讨论#104; 雪球交易#190",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

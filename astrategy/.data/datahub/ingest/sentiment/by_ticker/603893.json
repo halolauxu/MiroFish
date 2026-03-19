@@ -1,0 +1,70 @@
+{
+  "ticker": "603893",
+  "company_name": "瑞芯微",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "filing",
+      "title": "关于完成工商变更登记的公告",
+      "summary": "",
+      "publish_date": "2026-03-17",
+      "available_at": "2026-03-17T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "瑞芯微增资至约4.21亿",
+      "summary": "南方财经3月18日电，天眼查工商信息显示，近日瑞芯微（603893）发生工商变更，注册资本由约4.18亿人民币增至约4.21亿人民币。",
+      "publish_date": "2026-03-18",
+      "available_at": "2026-03-18T15:05:16",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "解密主力资金出逃股 连续5日净流出675股",
+      "summary": "4.02 8.28 -9.05 300520 科大国创 6 3.96 10.75 -9.84 600312 平高电气 7 3.93 5.91 -11.74 002664 信质集团 21 3.75 9.09 -21.45 002085 万丰奥威 5 3.75 13.94 -5.74 603893",
+      "publish_date": "2026-03-18",
+      "available_at": "2026-03-18T17:07:22",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "关于调整向全资子公司提供担保的额度的进展公告",
+      "summary": "",
+      "publish_date": "2026-03-19",
+      "available_at": "2026-03-19T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "解密主力资金出逃股 连续5日净流出806股",
+      "summary": "5 5.48 6.49 -20.15 002237 恒邦股份 14 5.33 4.47 -19.10 002714 牧原股份 5 5.31 5.44 -3.54 601689 拓普集团 7 5.30 6.83 -8.59 300164 通源石油 5 5.09 3.11 3.49 603893",
+      "publish_date": "2026-03-19",
+      "available_at": "2026-03-19T18:05:45",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 0,
+  "hot_reason": "",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

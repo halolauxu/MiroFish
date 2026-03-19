@@ -1,0 +1,58 @@
+{
+  "ticker": "688676",
+  "company_name": "金盘科技",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "filing",
+      "title": "2025年度业绩快报公告",
+      "summary": "业绩预告",
+      "publish_date": "2026-02-26",
+      "available_at": "2026-02-26T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "业绩公告",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "解密主力资金出逃股 连续5日净流出675股",
+      "summary": "9.31 7.72 -3.59 603501 豪威集团 6 9.29 13.34 -5.08 600108 亚盛集团 5 8.66 7.74 -14.61 002402 和而泰 15 8.36 7.03 -14.67 600711 盛屯矿业 6 8.26 9.45 -12.59 688676",
+      "publish_date": "2026-03-18",
+      "available_at": "2026-03-18T17:07:22",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "电力设备行业今日跌2.10%，主力资金净流出124.96亿元",
+      "summary": "20811.08 002851 麦格米特 -5.38 3.77 -19572.96 600550 保变电气 -4.75 4.23 -18921.19 600577 精达股份 -4.97 2.65 -18089.37 300409 道氏技术 -8.87 8.40 -17383.04 688676",
+      "publish_date": "2026-03-19",
+      "available_at": "2026-03-19T18:05:29",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "解密主力资金出逃股 连续5日净流出806股",
+      "summary": "8.40 -6.66 000100 TCL科技 6 10.60 8.81 -8.40 603501 豪威集团 7 10.51 12.69 -7.22 300748 金力永磁 14 10.40 6.16 -23.69 002498 汉缆股份 5 10.21 5.89 -13.58 688676",
+      "publish_date": "2026-03-19",
+      "available_at": "2026-03-19T18:05:45",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 0,
+  "hot_reason": "",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

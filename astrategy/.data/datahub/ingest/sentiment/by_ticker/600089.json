@@ -1,0 +1,142 @@
+{
+  "ticker": "600089",
+  "company_name": "特变电工",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "filing",
+      "title": "特变电工股份有限公司聘任高级管理人员的公告",
+      "summary": "",
+      "publish_date": "2026-03-07",
+      "available_at": "2026-03-07T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "特变电工股份有限公司关于非独立董事辞职暨选举职工董事的公告",
+      "summary": "",
+      "publish_date": "2026-03-07",
+      "available_at": "2026-03-07T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "特变电工股份有限公司关于为控股公司提供担保的公告",
+      "summary": "",
+      "publish_date": "2026-03-07",
+      "available_at": "2026-03-07T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "特变电工股份有限公司2026年第四次临时董事会会议决议公告",
+      "summary": "",
+      "publish_date": "2026-03-07",
+      "available_at": "2026-03-07T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "电力设备行业今日跌2.32% 主力资金净流出112.51亿元",
+      "summary": "广大特材 -0.84 5.25 4746.36 电力设备行业资金流出榜 代码 简称 今日涨跌幅（%） 今日换手率（%） 主力资金流量（万元） 300274 阳光电源 -3.77 4.60 -164361.98 002202 金风科技 -7.93 9.56 -76893.86 600089",
+      "publish_date": "2026-03-17",
+      "available_at": "2026-03-17T17:23:37",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "特变电工股份有限公司发行2026年度第一期超短期融资券的公告",
+      "summary": "增发融资",
+      "publish_date": "2026-03-18",
+      "available_at": "2026-03-18T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "特变电工股份有限公司关于股东股票质押延期购回的公告",
+      "summary": "",
+      "publish_date": "2026-03-18",
+      "available_at": "2026-03-18T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "特变电工股份有限公司2026年第二次临时股东会会议资料",
+      "summary": "",
+      "publish_date": "2026-03-18",
+      "available_at": "2026-03-18T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "hot_topic",
+      "title": "特变电工",
+      "summary": "雪球关注#63; 雪球讨论#35; 雪球交易#36",
+      "publish_date": "2026-03-19",
+      "available_at": "2026-03-19T00:00:00",
+      "sentiment_score": 0.224,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.25,
+      "hot_rank": 28
+    },
+    {
+      "source_type": "news",
+      "title": "28股特大单净流入资金超2亿元",
+      "summary": "电子 601899 紫金矿业 32.32 -7.45 -14.35 有色金属 688525 佰维存储 243.18 -5.78 -10.25 电子 002463 沪电股份 86.33 -5.13 -8.88 电子 300308 中际旭创 575.20 -0.83 -8.81 通信 600089",
+      "publish_date": "2026-03-19",
+      "available_at": "2026-03-19T18:05:08",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "电力设备行业今日跌2.10%，主力资金净流出124.96亿元",
+      "summary": "002580 圣阳股份 4.97 8.61 3676.39 600732 爱旭股份 1.17 2.45 3109.09 电力设备行业资金流出榜 代码 简称 今日涨跌幅（%） 今日换手率（%） 主力资金流量（万元） 002202 金风科技 -3.84 9.40 -207167.34 600089",
+      "publish_date": "2026-03-19",
+      "available_at": "2026-03-19T18:05:29",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 28,
+  "hot_reason": "雪球关注#63; 雪球讨论#35; 雪球交易#36",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

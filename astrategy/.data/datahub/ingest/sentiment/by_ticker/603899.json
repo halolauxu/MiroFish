@@ -1,0 +1,58 @@
+{
+  "ticker": "603899",
+  "company_name": "晨光股份",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "news",
+      "title": "晨光股份：拟筹划分拆子公司科力普科技集团于港交所上市",
+      "summary": "每经AI快讯，3月16日，晨光股份603899.SH)公告称，为促进公司在企业通用物资数智化采购服务业务领域的发展，公司拟筹划分拆控股子公司科力普科技集团于香港联交所上市。科力普科技集团主营企业通用物资数智化采购服务业务，为各类企业客户提供全场景数智化采购解决方案。",
+      "publish_date": "2026-03-16",
+      "available_at": "2026-03-16T18:59:41",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "晨光股份：拟筹划分拆控股子公司科力普科技集团于香港联交所上市",
+      "summary": "人民财讯3月16日电，晨光股份6038993月16日公告，公司拟筹划分拆控股子公司科力普科技集团于香港联交所上市。",
+      "publish_date": "2026-03-16",
+      "available_at": "2026-03-16T19:02:39",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "上海晨光文具股份有限公司关于拟筹划控股子公司分拆上市的提示性公告",
+      "summary": "",
+      "publish_date": "2026-03-17",
+      "available_at": "2026-03-17T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "晨光股份拟分拆控股子公司赴港上市",
+      "summary": "3月16日晚间，晨光股份603899.SH)发布公告，拟筹划分拆控股子公司科力普科技集团股份有限公司（以下简称“科力普科技集团”）于香港联合交易所上市。此举旨在借助资本市场优化资源配置，拓宽融资渠道，提升科力普科技集团的综合竞争力。",
+      "publish_date": "2026-03-17",
+      "available_at": "2026-03-17T20:15:49",
+      "sentiment_score": 0.0,
+      "category": "产品进展",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 0,
+  "hot_reason": "",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

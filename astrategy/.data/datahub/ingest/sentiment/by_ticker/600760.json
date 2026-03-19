@@ -1,0 +1,58 @@
+{
+  "ticker": "600760",
+  "company_name": "中航沈飞",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "news",
+      "title": "解密主力资金出逃股 连续5日净流出574股",
+      "summary": "8.60 6.90 -19.82 600531 豫光金铅 9 8.56 9.04 -20.29 002049 紫光国微 9 8.51 8.17 -7.77 600346 恒力石化 10 8.35 4.85 -10.66 688122 西部超导 6 8.31 10.34 -10.51 600760",
+      "publish_date": "2026-03-13",
+      "available_at": "2026-03-13T16:39:01",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "解密主力资金出逃股 连续5日净流出534股",
+      "summary": "10.05 10.62 -6.62 300762 上海瀚讯 10 9.69 7.91 -15.48 600531 豫光金铅 10 9.51 9.04 -23.71 688025 杰普特 9 9.37 7.66 -17.87 688122 西部超导 7 9.32 10.34 -11.74 600760",
+      "publish_date": "2026-03-16",
+      "available_at": "2026-03-16T17:13:04",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "解密主力资金出逃股 连续5日净流出736股",
+      "summary": "9.81 8.81 -24.79 600028 中国石化 5 9.76 7.51 -4.73 300748 金力永磁 12 9.39 6.09 -20.64 600346 恒力石化 12 9.34 4.89 -14.20 000831 中国稀土 6 9.33 8.84 -12.12 600760",
+      "publish_date": "2026-03-17",
+      "available_at": "2026-03-17T17:25:25",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "中航证券有限公司关于中航沈飞股份有限公司2025年度持续督导现场检查报告",
+      "summary": "",
+      "publish_date": "2026-03-18",
+      "available_at": "2026-03-18T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 0,
+  "hot_reason": "",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

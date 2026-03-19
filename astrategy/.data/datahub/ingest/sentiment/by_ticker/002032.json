@@ -1,0 +1,106 @@
+{
+  "ticker": "002032",
+  "company_name": "苏泊尔",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "filing",
+      "title": "2025年度业绩快报",
+      "summary": "业绩预告",
+      "publish_date": "2026-02-25",
+      "available_at": "2026-02-25T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "业绩公告",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "第八届董事会第二十次会议决议公告",
+      "summary": "",
+      "publish_date": "2026-02-27",
+      "available_at": "2026-02-27T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "浙江苏泊尔股份有限公司董事会薪酬与考核委员会关于公司股权激励计划相关事项的审查意见",
+      "summary": "股权激励",
+      "publish_date": "2026-02-27",
+      "available_at": "2026-02-27T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "股权变动",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "关于2022年限制性股票激励计划暂缓授予部分第二个解除限售期解除限售条件成就的公告",
+      "summary": "股权激励",
+      "publish_date": "2026-02-27",
+      "available_at": "2026-02-27T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "股权变动",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "002032，5年来首现负增长",
+      "summary": "苏泊尔（002032）五年来净利润首次出现负增长。 近日，苏泊尔发布2025年业绩快报，2025年公司实现营业收入227.72亿元，同比增长1.54%；归母净利润20.97亿元，同比下降6.58%；扣非净利润19.14亿元，同比下降7.30%。",
+      "publish_date": "2026-03-01",
+      "available_at": "2026-03-01T00:06:05",
+      "sentiment_score": -0.5,
+      "category": "业绩公告",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "苏泊尔：2.96万股限制性股票将于3月6日上市流通",
+      "summary": "3月3日，苏泊尔（002032）发布公告，披露关于2022年限制性股票激励计划暂缓授予部分第二个解除限售期解除限售的情况。 根据公告，本次解除限售的限制性股票上市流通日为2026年3月6日。",
+      "publish_date": "2026-03-03",
+      "available_at": "2026-03-03T20:11:11",
+      "sentiment_score": 0.0,
+      "category": "产品进展",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "关于2022年限制性股票激励计划暂缓授予部分第二个解除限售期解除限售股份上市流通的提示性公告",
+      "summary": "股权激励",
+      "publish_date": "2026-03-04",
+      "available_at": "2026-03-04T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "股权变动",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "9.56亿元主力资金今日抢筹家用电器板块",
+      "summary": "东方电热 -0.71 4.33 758.58 600619 海立股份 -0.11 1.51 679.56 300911 亿田智能 -3.06 4.19 660.62 002403 爱仕达 2.23 2.57 615.32 603579 荣泰健康 0.91 1.95 604.00 002032",
+      "publish_date": "2026-03-13",
+      "available_at": "2026-03-13T16:39:11",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 0,
+  "hot_reason": "",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

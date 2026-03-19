@@ -1,0 +1,36 @@
+[
+  {
+    "ticker": "000932",
+    "company_name": "华菱钢铁",
+    "title": "关于回购股份注销完成暨股份变动公告",
+    "announcement_type": "股权变动",
+    "publish_date": "2026-03-06",
+    "publish_time": "2026-03-06",
+    "link": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=000932&announcementId=1224997255&orgId=gssz0000932&announcementTime=2026-03-06",
+    "source": "cninfo.disclosure_report",
+    "raw": {
+      "代码": "000932",
+      "简称": "华菱钢铁",
+      "公告标题": "关于回购股份注销完成暨股份变动公告",
+      "公告时间": "2026-03-06",
+      "公告链接": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=000932&announcementId=1224997255&orgId=gssz0000932&announcementTime=2026-03-06"
+    }
+  },
+  {
+    "ticker": "000932",
+    "company_name": "华菱钢铁",
+    "title": "关于持股5%以上股东股份增持计划实施结果的公告",
+    "announcement_type": "股权变动",
+    "publish_date": "2026-03-12",
+    "publish_time": "2026-03-12",
+    "link": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=000932&announcementId=1225004648&orgId=gssz0000932&announcementTime=2026-03-12",
+    "source": "cninfo.disclosure_report",
+    "raw": {
+      "代码": "000932",
+      "简称": "华菱钢铁",
+      "公告标题": "关于持股5%以上股东股份增持计划实施结果的公告",
+      "公告时间": "2026-03-12",
+      "公告链接": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=000932&announcementId=1225004648&orgId=gssz0000932&announcementTime=2026-03-12"
+    }
+  }
+]

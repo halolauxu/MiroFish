@@ -1,0 +1,46 @@
+{
+  "ticker": "601001",
+  "company_name": "晋控煤业",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "news",
+      "title": "今日盘中突破五日均线个股一览",
+      "summary": "8.38 6.22 6.99 7.37 5.50 600617 国新能源 9.88 2.94 3.59 3.78 5.29 002930 宏川智慧 7.72 3.24 13.67 14.37 5.14 300779 惠城环保 6.67 5.93 97.54 102.51 5.10 601001",
+      "publish_date": "2026-03-09",
+      "available_at": "2026-03-09T11:27:43",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "20.90亿元主力资金今日抢筹煤炭板块",
+      "summary": "美锦能源 1.29 5.96 4802.35 600403 大有能源 2.38 2.87 3352.77 600758 辽宁能源 2.91 4.13 2603.52 600508 上海能源 5.43 3.48 2589.78 600985 淮北矿业 4.92 1.53 2516.08 601001",
+      "publish_date": "2026-03-12",
+      "available_at": "2026-03-12T17:19:34",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "煤炭行业今日涨1.82%，主力资金净流入3.61亿元",
+      "summary": "0.71 8.02 -108.87 600925 苏能股份 0.21 1.07 -135.80 603071 物产环能 -1.03 0.82 -284.72 601101 昊华能源 2.00 3.07 -527.24 600395 盘江股份 -0.67 1.43 -571.07 601001",
+      "publish_date": "2026-03-19",
+      "available_at": "2026-03-19T18:05:43",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 0,
+  "hot_reason": "",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

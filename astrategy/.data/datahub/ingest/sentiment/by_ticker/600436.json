@@ -1,0 +1,70 @@
+{
+  "ticker": "600436",
+  "company_name": "片仔癀",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "news",
+      "title": "片仔癀：PZH2107Ⅱ期临床试验完成首例受试者入组",
+      "summary": "每经AI快讯，2月10日，片仔癀600436.SH)公告称，公司与璃道医药合作研发的PZH2107（LDS片）已完成Ⅱ期临床试验首例受试者入组。PZH2107为化学药品1类创新药，用于治疗纤维肌痛。",
+      "publish_date": "2026-02-10",
+      "available_at": "2026-02-10T16:50:56",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "片仔癀：PZH2107正式进入Ⅱ期临床试验 适应症聚焦纤维肌痛",
+      "summary": "2月10日，片仔癀（600436）发布公告，公司与上海璃道医药科技有限公司合作研发的PZH2107（LDS片）已完成Ⅱ期临床试验的首例受试者入组，正式进入Ⅱ期临床试验。 该药物适应症为纤维肌痛，临床试验方案已获得伦理委员会审查批准。",
+      "publish_date": "2026-02-10",
+      "available_at": "2026-02-10T17:01:48",
+      "sentiment_score": 0.0,
+      "category": "产品进展",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "片仔癀PZH2107Ⅱ期临床试验完成首例受试者入组",
+      "summary": "北京商报讯2月10日晚间，片仔癀（600436）发布公告称，近日，公司与上海璃道医药科技有限公司（以下简称“璃道医药”）合作研发项目PZH2107（璃道医药内部研发项目代号：LDS片），已完成“LDS片治疗纤维肌痛的随机、双盲、安慰剂平行对照、多中心、Ⅱ期临床试验”的首例受试者入组",
+      "publish_date": "2026-02-10",
+      "available_at": "2026-02-10T20:38:55",
+      "sentiment_score": 0.0,
+      "category": "产品进展",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "漳州片仔癀药业股份有限公司关于选举第七届董事会职工董事的公告",
+      "summary": "",
+      "publish_date": "2026-03-02",
+      "available_at": "2026-03-02T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "hot_topic",
+      "title": "片仔癀",
+      "summary": "雪球关注#27; 雪球讨论#39; 雪球交易#186",
+      "publish_date": "2026-03-19",
+      "available_at": "2026-03-19T00:00:00",
+      "sentiment_score": 0.202,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.25,
+      "hot_rank": 39
+    }
+  ],
+  "hot_rank": 39,
+  "hot_reason": "雪球关注#27; 雪球讨论#39; 雪球交易#186",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

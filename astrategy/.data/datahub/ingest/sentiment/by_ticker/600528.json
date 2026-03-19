@@ -1,0 +1,46 @@
+{
+  "ticker": "600528",
+  "company_name": "中铁工业",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "news",
+      "title": "抽水蓄能概念涨2.08% 主力资金净流入44股",
+      "summary": "通裕重工 -0.33 2.27 -558.44 -2.20 000883 湖北能源 0.00 0.39 -626.86 -5.36 600502 安徽建工 -0.42 0.93 -646.77 -8.50 688425 铁建重工 0.00 0.35 -653.74 -6.50 600528",
+      "publish_date": "2026-02-12",
+      "available_at": "2026-02-12T17:27:15",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "今日盘中突破半年线个股",
+      "summary": "3.56 2.75 13.07 13.37 2.33 600675 中华企业 3.83 1.21 2.91 2.98 2.28 920873 中设咨询 2.26 1.21 7.96 8.14 2.21 002843 泰嘉股份 4.57 10.35 20.85 21.30 2.15 600528",
+      "publish_date": "2026-02-25",
+      "available_at": "2026-02-25T10:59:13",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "抽水蓄能概念上涨1.72%，10股主力资金净流入超亿元",
+      "summary": "8.58 000600 建投能源 -0.11 3.11 727.73 2.32 600268 国电南自 2.65 5.18 720.70 0.98 600483 福能股份 0.40 1.28 719.41 2.00 000883 湖北能源 -0.42 0.72 527.91 2.36 600528",
+      "publish_date": "2026-03-04",
+      "available_at": "2026-03-04T16:43:10",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 0,
+  "hot_reason": "",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

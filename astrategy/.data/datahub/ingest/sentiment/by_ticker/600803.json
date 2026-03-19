@@ -1,0 +1,70 @@
+{
+  "ticker": "600803",
+  "company_name": "新奥股份",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "news",
+      "title": "新奥股份600803龙虎榜数据03-03",
+      "summary": "交易所2026年3月3日公布的交易公开信息显示，新奥股份因成为非ST、*ST和S证券连续三个交易日内收盘价格涨幅偏离值累计达到20%的证券上榜。新奥股份当日收报24.05元，涨跌幅10.02%，换手率2.11%，成交额15.08亿。异常期间2月27日至3月3日，期间涨幅21.53%",
+      "publish_date": "2026-03-03",
+      "available_at": "2026-03-03T16:57:46",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "新奥股份关于股票交易异常波动的公告",
+      "summary": "",
+      "publish_date": "2026-03-04",
+      "available_at": "2026-03-04T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "新奥股份关于签订日常经营重大合同的进展公告",
+      "summary": "重大合同",
+      "publish_date": "2026-03-06",
+      "available_at": "2026-03-06T00:00:00",
+      "sentiment_score": 1.0,
+      "category": "重大合同",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "俄乌冲突概念涨0.05%，主力资金净流入32股",
+      "summary": "600871 石化油服 2.57 2.78 4459.52 3.73 002554 惠博普 0.52 6.87 4191.79 11.81 600598 北大荒 -1.29 1.83 4037.19 7.31 002149 西部材料 -2.93 8.16 2460.52 1.40 600803",
+      "publish_date": "2026-03-19",
+      "available_at": "2026-03-19T18:04:23",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "公用事业行业今日净流入资金7.77亿元，广安爱众等8股净流入资金超亿元",
+      "summary": "0.81 4.94 3691.50 300040 九洲集团 1.28 18.31 3268.14 003035 南网能源 0.24 3.31 3120.86 001286 陕西能源 3.32 4.76 2594.71 600795 国电电力 -0.60 0.91 2562.77 600803",
+      "publish_date": "2026-03-19",
+      "available_at": "2026-03-19T18:04:26",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 0,
+  "hot_reason": "",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

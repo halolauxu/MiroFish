@@ -1,0 +1,70 @@
+{
+  "ticker": "000333",
+  "company_name": "美的集团",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "filing",
+      "title": "关于以集中竞价交易方式回购A股股份进展情况的公告",
+      "summary": "股权变动",
+      "publish_date": "2026-03-03",
+      "available_at": "2026-03-03T00:00:00",
+      "sentiment_score": 0.8,
+      "category": "股权变动",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "美的集团旗下威灵汽车部件公司增资至12亿",
+      "summary": "股东信息显示，该公司由美的集团（000333）、佛山市美的空调工业投资有限公司共同持股。",
+      "publish_date": "2026-03-16",
+      "available_at": "2026-03-16T12:17:42",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "广东威灵汽车部件有限公司增资至12亿，增幅500%",
+      "summary": "股东信息显示，该公司由美的集团（000333）、佛山市美的空调工业投资有限公司共同持股。",
+      "publish_date": "2026-03-16",
+      "available_at": "2026-03-16T13:47:47",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "9只个股大宗交易超5000万元",
+      "summary": "美的集团 -0.05 76.60 52.00 3983.20 2 76.60 0.00 301275 汉朔科技 -0.50 45.72 85.00 3834.55 2 45.11 -1.33 301606 绿联科技 -5.82 71.00 55.70 3638.31 10 65.32",
+      "publish_date": "2026-03-17",
+      "available_at": "2026-03-17T19:43:02",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "hot_topic",
+      "title": "美的集团",
+      "summary": "雪球关注#14; 雪球讨论#12; 雪球交易#26",
+      "publish_date": "2026-03-19",
+      "available_at": "2026-03-19T00:00:00",
+      "sentiment_score": 0.26,
+      "category": "其他",
+      "urgency": "high",
+      "weight": 1.25,
+      "hot_rank": 10
+    }
+  ],
+  "hot_rank": 10,
+  "hot_reason": "雪球关注#14; 雪球讨论#12; 雪球交易#26",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

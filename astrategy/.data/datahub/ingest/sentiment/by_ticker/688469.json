@@ -1,0 +1,58 @@
+{
+  "ticker": "688469",
+  "company_name": "芯联集成",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "filing",
+      "title": "芯联集成电路制造股份有限公司2025年度业绩快报公告",
+      "summary": "业绩预告",
+      "publish_date": "2026-02-27",
+      "available_at": "2026-02-27T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "业绩公告",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "80只科创板股融资余额增加超1000万元",
+      "summary": "1220.28 7.47 -3.91 688321 微芯生物 66473.13 1185.29 1.82 -1.22 688005 容百科技 175644.37 1180.17 0.68 0.20 688779 五矿新能 141522.10 1169.49 0.83 -1.53 688469",
+      "publish_date": "2026-03-13",
+      "available_at": "2026-03-13T09:48:24",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "芯朋微2025年归母净利润1.86亿元 增67.3%",
+      "summary": "值得注意的是，2025年9月，公司通过“90%股份+10%现金”方式出售芯联集成（688469.SH）子公司芯联越州1.67%股权，这一举措不仅增加了公司账面公允价值变动收益，也显著强化了与上游供应商芯联集成的战略合作关系。",
+      "publish_date": "2026-03-15",
+      "available_at": "2026-03-15T16:28:00",
+      "sentiment_score": 0.5,
+      "category": "业绩公告",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "MCU芯片概念涨2.07%，主力资金净流入这些股",
+      "summary": "109.01 1.57 603933 睿能科技 2.14 1.11 59.27 1.19 688522 纳睿雷达 2.28 2.43 30.23 0.27 603015 弘讯科技 -0.51 1.04 21.56 0.37 300287 飞利信 0.63 1.18 -8.59 -0.12 688469",
+      "publish_date": "2026-03-16",
+      "available_at": "2026-03-16T17:12:57",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 0,
+  "hot_reason": "",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

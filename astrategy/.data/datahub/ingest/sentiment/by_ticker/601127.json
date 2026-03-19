@@ -1,0 +1,94 @@
+{
+  "ticker": "601127",
+  "company_name": "赛力斯",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "filing",
+      "title": "H股公告（股份发行人及根据《上市规则》第十九B章上市的香港预托证券发行人的证券变动月报表）",
+      "summary": "",
+      "publish_date": "2026-03-03",
+      "available_at": "2026-03-03T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "2026年2月份产销快报",
+      "summary": "",
+      "publish_date": "2026-03-03",
+      "available_at": "2026-03-03T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "业绩公告",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "赛力斯：目前问界M6已经开启预热",
+      "summary": "赛力斯（601127.SH）3月10日在投资者互动平台表示，目前问界M6已经开启预热，欢迎关注官方平台了解最新信息。",
+      "publish_date": "2026-03-10",
+      "available_at": "2026-03-10T17:15:21",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "赛力斯：公司正在加快布局和开拓海外业务，海外渠道网络建设正在有序推进",
+      "summary": "赛力斯（601127.SH）3月18日在投资者互动平台表示，公司正在加快布局和开拓海外业务，海外渠道网络建设正在有序推进。公司将持续打造产品核心竞争力，强化海外业务发展动能，通过稳健的经营策略和持续的业绩增长，为广大投资者带来长期回报。",
+      "publish_date": "2026-03-18",
+      "available_at": "2026-03-18T17:44:29",
+      "sentiment_score": 0.2,
+      "category": "业绩公告",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "赛力斯：问界在特定时间段推出不同的购车专项活动，不同车型的权益配置根据不同时期的市场情况有所差异",
+      "summary": "赛力斯（601127.SH）3月18日在投资者互动平台表示，问界在特定时间段推出不同的购车专项活动，不同车型的权益配置根据不同时期的市场情况有所差异。公司始终将用户体验放在首位，也会持续为用户提供更好的产品与服务体验。",
+      "publish_date": "2026-03-18",
+      "available_at": "2026-03-18T17:48:17",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "H股公告（董事会会议召开日期）",
+      "summary": "",
+      "publish_date": "2026-03-19",
+      "available_at": "2026-03-19T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "hot_topic",
+      "title": "赛力斯",
+      "summary": "雪球关注#89; 雪球讨论#3; 雪球交易#43",
+      "publish_date": "2026-03-19",
+      "available_at": "2026-03-19T00:00:00",
+      "sentiment_score": 0.232,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.25,
+      "hot_rank": 24
+    }
+  ],
+  "hot_rank": 24,
+  "hot_reason": "雪球关注#89; 雪球讨论#3; 雪球交易#43",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

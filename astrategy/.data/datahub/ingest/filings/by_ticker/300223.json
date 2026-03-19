@@ -1,0 +1,36 @@
+[
+  {
+    "ticker": "300223",
+    "company_name": "北京君正",
+    "title": "关于持股5%以上股东减持股份触及1%整数倍的公告",
+    "announcement_type": "股权变动",
+    "publish_date": "2026-03-11",
+    "publish_time": "2026-03-11 18:10:28",
+    "link": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=300223&announcementId=1225005146&orgId=9900016187&announcementTime=2026-03-11 18:10:28",
+    "source": "cninfo.disclosure_report",
+    "raw": {
+      "代码": "300223",
+      "简称": "北京君正",
+      "公告标题": "关于持股5%以上股东减持股份触及1%整数倍的公告",
+      "公告时间": "2026-03-11 18:10:28",
+      "公告链接": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=300223&announcementId=1225005146&orgId=9900016187&announcementTime=2026-03-11 18:10:28"
+    }
+  },
+  {
+    "ticker": "300223",
+    "company_name": "北京君正",
+    "title": "关于持股5%以上股东减持股份触及1%整数倍的公告",
+    "announcement_type": "股权变动",
+    "publish_date": "2026-03-19",
+    "publish_time": "2026-03-19 17:42:29",
+    "link": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=300223&announcementId=1225018197&orgId=9900016187&announcementTime=2026-03-19 17:42:29",
+    "source": "cninfo.disclosure_report",
+    "raw": {
+      "代码": "300223",
+      "简称": "北京君正",
+      "公告标题": "关于持股5%以上股东减持股份触及1%整数倍的公告",
+      "公告时间": "2026-03-19 17:42:29",
+      "公告链接": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=300223&announcementId=1225018197&orgId=9900016187&announcementTime=2026-03-19 17:42:29"
+    }
+  }
+]

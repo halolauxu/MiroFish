@@ -1,0 +1,46 @@
+{
+  "ticker": "600578",
+  "company_name": "京能电力",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "news",
+      "title": "京能电力：2025年净利同比预增89.04%—118.34%",
+      "summary": "人民财讯1月28日电，京能电力6005781月28日公告，预计2025年实现归属于母公司所有者的净利润为33.07亿元至38.19亿元，与上年同期（重述后数据：17.49亿元）相比，同比增长89.04%至118.34%。",
+      "publish_date": "2026-01-28",
+      "available_at": "2026-01-28T16:41:49",
+      "sentiment_score": 0.2,
+      "category": "业绩公告",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "京能电力：预计2025年净利润33.07亿元~38.19亿元 同比增89.04%~118.34%",
+      "summary": "京能电力（600578）1月28日发布2025年业绩预增公告，预计实现净利润为33.07亿元~38.19亿元，净利润同比增长89.04%~118.34%。",
+      "publish_date": "2026-01-28",
+      "available_at": "2026-01-28T17:11:04",
+      "sentiment_score": 0.7,
+      "category": "业绩公告",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "京能电力：京能电力目前拥有4个超超临界机组",
+      "summary": "京能电力（600578.SH）3月10日在投资者互动平台表示，感谢您的提问。",
+      "publish_date": "2026-03-10",
+      "available_at": "2026-03-10T18:06:39",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 0,
+  "hot_reason": "",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

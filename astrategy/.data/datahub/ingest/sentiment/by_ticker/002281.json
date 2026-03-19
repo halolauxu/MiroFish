@@ -1,0 +1,70 @@
+{
+  "ticker": "002281",
+  "company_name": "光迅科技",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "filing",
+      "title": "武汉光迅科技股份有限公司关于向特定对象发行股票申请获得深圳证券交易所审核中心审核通过的公告",
+      "summary": "增发融资",
+      "publish_date": "2026-02-27",
+      "available_at": "2026-02-27T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "002281午后直线涨停！CPO概念爆发",
+      "summary": "CPO概念爆发，源杰科技涨近14%创历史新高，天孚通信涨超10%；光迅科技（002281）午后直线拉升封涨停，东山精密亦涨停，股价突破100元，市值逼近2000亿元。AI眼镜概念活跃，宜安科技涨超10%，道明光学、奥海科技等涨停。",
+      "publish_date": "2026-03-10",
+      "available_at": "2026-03-10T16:28:15",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "光迅科技002281龙虎榜数据03-12",
+      "summary": "交易所2026年3月12日公布的交易公开信息显示，光迅科技因成为连续三个交易日内，涨幅偏离值累计达到20%的证券上榜。光迅科技当日收报98.82元，涨跌幅8.01%，换手率14.72%，成交额112.28亿。异常期间3月10日至3月12日，期间涨幅26.16%，累计偏离值24.49%",
+      "publish_date": "2026-03-12",
+      "available_at": "2026-03-12T16:28:26",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "武汉光迅科技股份有限公司股票交易异常波动公告",
+      "summary": "",
+      "publish_date": "2026-03-13",
+      "available_at": "2026-03-13T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "光迅科技002281龙虎榜数据03-13)",
+      "summary": "交易所2026年3月13日公布的交易公开信息显示，光迅科技因成为日跌幅偏离值达到7%的前5只证券上榜。光迅科技当日收报88.94元，涨跌幅-10.00%，偏离值-9.12%，换手率11.37%，成交额80.59亿。 免责声明：本文基于AI生产，仅供参考，不构成任何投资建议，据此操作风险自担",
+      "publish_date": "2026-03-13",
+      "available_at": "2026-03-13T16:27:01",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 0,
+  "hot_reason": "",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

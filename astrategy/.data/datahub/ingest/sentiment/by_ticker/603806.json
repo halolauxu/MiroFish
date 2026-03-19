@@ -1,0 +1,82 @@
+{
+  "ticker": "603806",
+  "company_name": "福斯特",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "filing",
+      "title": "与私募基金合作投资事项进展公告",
+      "summary": "",
+      "publish_date": "2026-02-25",
+      "available_at": "2026-02-25T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "电力设备行业今日跌2.32% 主力资金净流出112.51亿元",
+      "summary": "5.38 30016.80 300432 富临精工 3.27 7.64 14798.36 603248 锡华科技 9.99 43.90 12809.23 300393 中来股份 3.83 11.43 8932.78 300617 安靠智电 -1.66 10.90 8838.77 603806",
+      "publish_date": "2026-03-17",
+      "available_at": "2026-03-17T17:23:37",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "23股今日获机构买入评级 12股上涨空间超20%",
+      "summary": "比亚迪 爱建证券 买入 未评级 101.69 002920 德赛西威 甬兴证券 买入 买入 115.45 600919 江苏银行 华源证券 买入 未评级 10.91 603061 金海通 中邮证券 买入 买入 249.50 603558 健盛集团 天风证券 买入 买入 13.96 603806",
+      "publish_date": "2026-03-18",
+      "available_at": "2026-03-18T17:57:10",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "关于归还临时补充流动资金的募集资金的公告",
+      "summary": "",
+      "publish_date": "2026-03-19",
+      "available_at": "2026-03-19T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "关于使用闲置募集资金进行现金管理的进展公告",
+      "summary": "",
+      "publish_date": "2026-03-19",
+      "available_at": "2026-03-19T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "电力设备行业今日跌2.10%，主力资金净流出124.96亿元",
+      "summary": "4.85 16359.30 300763 锦浪科技 5.27 10.48 15380.13 603985 恒润股份 6.81 16.02 12610.59 605117 德业股份 0.10 1.44 11619.51 688390 固德威 4.44 5.39 10798.82 603806",
+      "publish_date": "2026-03-19",
+      "available_at": "2026-03-19T18:05:29",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 0,
+  "hot_reason": "",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

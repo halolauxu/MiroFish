@@ -1,0 +1,82 @@
+{
+  "ticker": "300999",
+  "company_name": "金龙鱼",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "filing",
+      "title": "第三届董事会第十一次会议决议公告",
+      "summary": "",
+      "publish_date": "2026-02-26",
+      "available_at": "2026-02-26T18:14:12",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "关于会计政策变更的公告",
+      "summary": "",
+      "publish_date": "2026-02-26",
+      "available_at": "2026-02-26T18:14:12",
+      "sentiment_score": 0.0,
+      "category": "政策影响",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "2025年度业绩快报",
+      "summary": "业绩预告",
+      "publish_date": "2026-02-26",
+      "available_at": "2026-02-26T18:14:12",
+      "sentiment_score": 0.0,
+      "category": "业绩公告",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "今日盘中突破年线个股",
+      "summary": "9.99 4.74 23.48 24.55 4.55 300584 海辰药业 5.37 7.46 43.01 44.95 4.50 600639 浦东金桥 6.35 2.45 10.60 11.05 4.25 000677 恒天海龙 10.09 2.11 4.82 5.02 4.22 300999",
+      "publish_date": "2026-03-13",
+      "available_at": "2026-03-13T12:11:21",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "【盘中播报】49只股长线走稳 站上年线",
+      "summary": "9.99 5.03 23.48 24.55 4.55 000677 恒天海龙 10.09 2.32 4.82 5.02 4.22 600639 浦东金桥 5.97 2.71 10.60 11.01 3.87 603366 日出东方 10.02 9.85 9.96 10.32 3.62 300999",
+      "publish_date": "2026-03-13",
+      "available_at": "2026-03-13T14:26:43",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "今日38只个股跨越牛熊分界线",
+      "summary": "10.09 2.59 4.82 5.02 4.22 603366 日出东方 10.02 10.23 9.96 10.32 3.62 600639 浦东金桥 5.68 3.16 10.60 10.98 3.59 300611 美力科技 5.60 6.51 26.53 27.36 3.13 300999",
+      "publish_date": "2026-03-13",
+      "available_at": "2026-03-13T15:26:22",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 0,
+  "hot_reason": "",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

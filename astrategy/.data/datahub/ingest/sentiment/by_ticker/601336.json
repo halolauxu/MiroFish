@@ -1,0 +1,94 @@
+{
+  "ticker": "601336",
+  "company_name": "新华保险",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "filing",
+      "title": "新华保险第九届董事会第四次会议决议公告",
+      "summary": "",
+      "publish_date": "2026-02-28",
+      "available_at": "2026-02-28T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "新华保险H股公告",
+      "summary": "",
+      "publish_date": "2026-03-03",
+      "available_at": "2026-03-03T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "A股保险股集体走强，新华保险一度涨超5%",
+      "summary": "3月17日上午，A股市场保险股集体拉涨，其中，新华保险（601336.SH）一度涨超5%，中国平安（601318.SH）、中国人寿（601628.SH）、中国太保（601601.SH）一度涨超3%，中国人保（601319.SH）涨超2%。",
+      "publish_date": "2026-03-17",
+      "available_at": "2026-03-17T11:14:55",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "【盘中播报】44只个股突破半年线",
+      "summary": "7.28 1.39 60.56 62.66 3.46 688107 安路科技 3.78 2.37 28.71 29.65 3.29 600231 凌钢股份 3.56 5.17 2.26 2.33 3.23 603789 *ST星农 4.08 3.48 5.72 5.87 2.60 601336",
+      "publish_date": "2026-03-17",
+      "available_at": "2026-03-17T14:20:04",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "28只股中线走稳 站上半年线",
+      "summary": "1.61 60.56 62.20 2.71 001388 信通电子 4.44 13.69 45.04 46.08 2.31 688107 安路科技 2.56 2.76 28.70 29.30 2.08 603789 *ST星农 3.55 4.04 5.72 5.84 2.08 601336",
+      "publish_date": "2026-03-17",
+      "available_at": "2026-03-17T15:42:36",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "新华保险H股公告",
+      "summary": "",
+      "publish_date": "2026-03-18",
+      "available_at": "2026-03-18T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "hot_topic",
+      "title": "新华保险",
+      "summary": "雪球关注#191; 雪球讨论#168; 雪球交易#80",
+      "publish_date": "2026-03-19",
+      "available_at": "2026-03-19T00:00:00",
+      "sentiment_score": 0.08,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.25,
+      "hot_rank": 150
+    }
+  ],
+  "hot_rank": 150,
+  "hot_reason": "雪球关注#191; 雪球讨论#168; 雪球交易#80",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

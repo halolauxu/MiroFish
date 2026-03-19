@@ -1,0 +1,82 @@
+{
+  "ticker": "002252",
+  "company_name": "上海莱士",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "filing",
+      "title": "关于第六届董事会第十六次（临时）会议决议公告",
+      "summary": "",
+      "publish_date": "2026-03-03",
+      "available_at": "2026-03-03T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "关于2026年度日常关联交易预计的公告",
+      "summary": "",
+      "publish_date": "2026-03-03",
+      "available_at": "2026-03-03T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "上海莱士：除“SR604”外，公司也正在推进其他全球首创新靶点新机制的抗体药物研发",
+      "summary": "上海莱士（002252.SZ）3月5日在投资者互动平台表示， 1.我们理解您指的是公司代理进口人血白蛋白事项，公司代理进口人血白蛋白产品以美元结算为主，假设除汇率以外的其他变量不变，人民币升值可增加公司净利润。 2.",
+      "publish_date": "2026-03-05",
+      "available_at": "2026-03-05T12:58:40",
+      "sentiment_score": 0.0,
+      "category": "业绩公告",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "上海莱士：丰镇血浆站获执业许可 有效期至2028年3月",
+      "summary": "3月9日，上海莱士（002252）发布公告，丰镇市同路单采血浆有限公司已获得内蒙古自治区卫生健康委员会下发的《单采血浆许可证》，自2026年3月6日起有效，至2028年3月5日。",
+      "publish_date": "2026-03-09",
+      "available_at": "2026-03-09T17:18:38",
+      "sentiment_score": 0.0,
+      "category": "产品进展",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "关于下属丰镇市同路单采血浆有限公司取得单采血浆许可证的公告",
+      "summary": "",
+      "publish_date": "2026-03-10",
+      "available_at": "2026-03-10T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "上海莱士：公司研发创新的SR604注射液已进入临床试验阶段",
+      "summary": "上海莱士（002252.SZ）3月16日在投资者互动平台表示，目前，公司研发创新的SR604注射液已进入临床试验阶段，其中针对“血友病A/B及先天性凝血因子Ⅶ缺乏症患者出血发作的预防治疗”的适应症已进入Ⅱb期临床试验阶段, 已完成全部患者入组；新增“血管性血友病患者出血发作的预防治疗",
+      "publish_date": "2026-03-16",
+      "available_at": "2026-03-16T11:55:16",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 0,
+  "hot_reason": "",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

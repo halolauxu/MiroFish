@@ -1,0 +1,58 @@
+{
+  "ticker": "601228",
+  "company_name": "广州港",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "news",
+      "title": "广州港：公司集装箱班轮航线覆盖国内及世界主要港口，包括欧盟国家",
+      "summary": "广州港（601228.SH）2月10日在投资者互动平台表示，公司集装箱班轮航线覆盖国内及世界主要港口，包括欧盟国家。",
+      "publish_date": "2026-02-10",
+      "available_at": "2026-02-10T17:20:19",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "广州港：2月预计完成货物吞吐量同比下降3.6%",
+      "summary": "广州港6012283月3日公告，2026年2月份，公司预计完成集装箱吞吐量180万标准箱，同比下降3.6%；预计完成货物吞吐量4143.7万吨，同比下降3.6%。",
+      "publish_date": "2026-03-03",
+      "available_at": "2026-03-03T16:40:38",
+      "sentiment_score": -0.7,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "3月3日晚间沪深上市公司重大事项公告最新快递",
+      "summary": "广州港：2月预计完成货物吞吐量同比下降3.6% 广州港6012283月3日公告，2026年2月份，公司预计完成集装箱吞吐量180万标准箱，同比下降3.6%；预计完成货物吞吐量4143.7万吨，同比下降3.6%。",
+      "publish_date": "2026-03-03",
+      "available_at": "2026-03-03T19:32:38",
+      "sentiment_score": -0.7,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "广州港股份有限公司2026年2月份及1-2月主要生产数据提示性公告",
+      "summary": "",
+      "publish_date": "2026-03-04",
+      "available_at": "2026-03-04T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 0,
+  "hot_reason": "",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

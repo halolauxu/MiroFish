@@ -1,0 +1,70 @@
+{
+  "ticker": "300058",
+  "company_name": "蓝色光标",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "filing",
+      "title": "关于全资子公司对外担保及担保进展的公告",
+      "summary": "",
+      "publish_date": "2026-03-10",
+      "available_at": "2026-03-10T16:50:12",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "解密主力资金出逃股 连续5日净流出574股",
+      "summary": "（数据宝） 连续5日或以上主力资金净流出个股排名 证券代码 证券简称 主力资金净流出天数 主力资金净流出金额（亿元） 主力资金净流出比例（%） 累计涨跌幅（%） 603993 洛阳钼业 10 64.46 10.13 -17.63 300058 蓝色光标 10 47.91 8.89",
+      "publish_date": "2026-03-13",
+      "available_at": "2026-03-13T16:39:01",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "3·15揭露GEO“洗脑”：AI大模型被投毒问题日趋严重",
+      "summary": "利欧股份（002131.SZ）七天斩获4板，蓝色光标（300058.SZ）七天股价翻倍，浙文互联（600986.SH)、易点天下(301171.SZ)连续迎来涨停，成为跨年以来最热门的板块之一。",
+      "publish_date": "2026-03-16",
+      "available_at": "2026-03-16T11:29:02",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "Web3.0概念涨1.96%，主力资金净流入这些股",
+      "summary": "002235 安妮股份 9.99 16.18 22388.20 22.41 002995 天地在线 9.99 17.97 9837.28 20.36 600986 浙文互联 1.94 5.99 8481.64 9.17 688400 凌云光 7.36 4.73 6715.40 6.94 300058",
+      "publish_date": "2026-03-16",
+      "available_at": "2026-03-16T17:13:13",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "hot_topic",
+      "title": "蓝色光标",
+      "summary": "雪球关注#141; 雪球讨论#51; 雪球交易#58",
+      "publish_date": "2026-03-19",
+      "available_at": "2026-03-19T00:00:00",
+      "sentiment_score": 0.174,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.25,
+      "hot_rank": 53
+    }
+  ],
+  "hot_rank": 53,
+  "hot_reason": "雪球关注#141; 雪球讨论#51; 雪球交易#58",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

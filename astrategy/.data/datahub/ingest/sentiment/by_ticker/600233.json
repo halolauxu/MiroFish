@@ -1,0 +1,58 @@
+{
+  "ticker": "600233",
+  "company_name": "圆通速递",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "news",
+      "title": "两融余额增加96.68亿元 杠杆资金大幅加仓292股",
+      "summary": "139020.25 -30.49 -3.39 石油石化 000912 泸天化 20409.25 -23.23 1.66 基础化工 920036 觅睿科技 572.39 -21.59 -6.08 计算机 603897 长城科技 26063.36 -21.52 3.73 电力设备 600233",
+      "publish_date": "2026-03-17",
+      "available_at": "2026-03-17T09:50:46",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "圆通速递：股东拟减持不超2%公司股份",
+      "summary": "人民财讯3月18日电，圆通速递6002333月18日公告，持股7.06%的股东杭州灏月企业管理有限公司计划通过大宗交易方式合计转让公司股份不超过6845.32万股，拟转让比例不超过公司总股本的2%。杭州灏月系阿里巴巴集团控股有限公司内企业。",
+      "publish_date": "2026-03-18",
+      "available_at": "2026-03-18T23:12:17",
+      "sentiment_score": -0.78,
+      "category": "股权变动",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "圆通速递股份有限公司关于5%以上股东大宗交易减持股份计划的公告",
+      "summary": "股权变动",
+      "publish_date": "2026-03-19",
+      "available_at": "2026-03-19T00:00:00",
+      "sentiment_score": -0.78,
+      "category": "股权变动",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "圆通速递：2月快递收入44.52亿元 同比增长3.76%",
+      "summary": "人民财讯3月19日电，圆通速递6002333月19日公告，2026年2月快递产品收入44.52亿元，同比增长3.76%；业务完成量18.57亿票，同比增长0.59%；快递产品单票收入2.4元，同比增长3.15%。",
+      "publish_date": "2026-03-19",
+      "available_at": "2026-03-19T18:49:36",
+      "sentiment_score": 0.2,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 0,
+  "hot_reason": "",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

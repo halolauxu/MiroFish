@@ -1,0 +1,58 @@
+{
+  "ticker": "600511",
+  "company_name": "国药股份",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "news",
+      "title": "今日盘中突破年线个股",
+      "summary": "恒通股份 2.51 1.75 9.70 9.81 1.16 603712 七一二 3.37 2.88 20.65 20.83 0.89 600698 湖南天雁 5.96 4.45 8.81 8.89 0.86 002274 华昌化工 3.21 2.90 6.72 6.75 0.45 600511",
+      "publish_date": "2026-03-02",
+      "available_at": "2026-03-02T10:59:27",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "国药股份关于归还临时补充流动资金的募集资金的公告",
+      "summary": "",
+      "publish_date": "2026-03-06",
+      "available_at": "2026-03-06T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "国药股份拟每10股派发现金红利8元",
+      "summary": "3月19日，国药股份（600511）发布公告，公司拟向全体股东每10股派发现金红利8元（含税），预计总派发金额为6.04亿元，占归母净利润的30.23%。",
+      "publish_date": "2026-03-19",
+      "available_at": "2026-03-19T19:22:08",
+      "sentiment_score": 0.0,
+      "category": "业绩公告",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "国药股份2025年归母净利润降0.2%至20亿元",
+      "summary": "3月19日，国药股份600511公布2025年年报，公司营业收入为524.7亿元，同比上升3.7%；归母净利润为20亿元，同比下降0.2%；扣非归母净利润为19.7亿元，同比下降1.3%；经营现金流净额为20.06亿元，同比增长20.9%；EPS(全面摊薄)为2.6462元。",
+      "publish_date": "2026-03-19",
+      "available_at": "2026-03-19T19:22:21",
+      "sentiment_score": -0.5,
+      "category": "业绩公告",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 0,
+  "hot_reason": "",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

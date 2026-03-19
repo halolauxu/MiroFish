@@ -31,8 +31,10 @@ from pathlib import Path
 from typing import Any, Dict, List, Optional, Tuple
 
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+os.environ.setdefault("ASTRATEGY_LOCAL_ONLY_MARKET", "1")
 
 import pandas as pd
+from astrategy.events.normalizer import normalize_events
 
 logging.basicConfig(
     level=logging.INFO,
@@ -86,7 +88,8 @@ def _load_benchmark() -> pd.DataFrame:
             return df
     except Exception as exc:
         logger.warning("Failed to load CSI300 benchmark: %s", exc)
-    return pd.DataFrame(columns=["date", "close"])
+    _benchmark_cache = pd.DataFrame(columns=["date", "close"])
+    return _benchmark_cache
 
 
 def _get_benchmark_return(event_date: str, horizon_days: int) -> Optional[float]:
@@ -464,6 +467,12 @@ def main():
     # Load events
     with open(events_path, "r", encoding="utf-8") as f:
         events = json.load(f)
+    events = normalize_events(events)
+    events = [
+        event for event in events
+        if event.get("stock_code") and event.get("event_date")
+    ]
+    events = sorted(events, key=lambda event: (event.get("event_date", ""), event.get("event_id", "")))
     if args.events > 0:
         events = events[:args.events]
     logger.info("Loaded %d historical events", len(events))

@@ -1,0 +1,118 @@
+{
+  "ticker": "000725",
+  "company_name": "京东方A",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "news",
+      "title": "京东方Ａ：公司第8.6代OLED生产线已于2025年12月30日成功点亮",
+      "summary": "京东方Ａ（000725.SZ）3月10日在投资者互动平台表示，公司第8.6代OLED生产线已于2025年12月30日成功点亮。",
+      "publish_date": "2026-03-10",
+      "available_at": "2026-03-10T18:24:26",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "京东方A：钙钛矿光伏在太空卫星领域具有较大应用潜力 但目前需克服严峻挑战",
+      "summary": "有投资者在互动平台向京东方A000725提问：公司生产的钙钛矿光伏电池板能用于太空卫星吗？能用于月球基站吗？对此，京东方A回复，钙钛矿光伏在该领域具有较大应用潜力，但目前仍需克服效率、寿命和空间环境适应性等严峻挑战，公司会重点关注并调研相关场景的应用。",
+      "publish_date": "2026-03-13",
+      "available_at": "2026-03-13T09:06:55",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "京东方科技集团股份有限公司2026年面向专业投资者公开发行科技创新公司债券（第二期）发行公告",
+      "summary": "债券融资",
+      "publish_date": "2026-03-13",
+      "available_at": "2026-03-13T19:08:09",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "京东方科技集团股份有限公司2026年面向专业投资者公开发行科技创新公司债券（第二期）募集说明书",
+      "summary": "债券融资",
+      "publish_date": "2026-03-13",
+      "available_at": "2026-03-13T19:08:09",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "关于延长“京东方科技集团股份有限公司2026年面向专业投资者公开发行科技创新公司债券（第二期）”簿记建档时间的公告",
+      "summary": "债券融资",
+      "publish_date": "2026-03-17",
+      "available_at": "2026-03-17T17:03:11",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "京东方科技集团股份有限公司2026年面向专业投资者公开发行公司债券（第二期）票面利率公告",
+      "summary": "债券融资",
+      "publish_date": "2026-03-17",
+      "available_at": "2026-03-17T19:37:25",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "hot_topic",
+      "title": "京东方A",
+      "summary": "雪球关注#17; 雪球讨论#44; 雪球交易#153",
+      "publish_date": "2026-03-19",
+      "available_at": "2026-03-19T00:00:00",
+      "sentiment_score": 0.214,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.25,
+      "hot_rank": 33
+    },
+    {
+      "source_type": "filing",
+      "title": "京东方科技集团股份有限公司2026年面向专业投资者公开发行科技创新公司债券（第二期）发行结果公告",
+      "summary": "债券融资",
+      "publish_date": "2026-03-19",
+      "available_at": "2026-03-19T16:50:12",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "电子行业3月19日资金流向日报",
+      "summary": "京东方A -2.62 1.43 -39510.81 002130 沃尔核材 -4.91 6.60 -36900.21 002475 立讯精密 -2.63 1.26 -35872.74 688521 芯原股份 -4.40 2.52 -33698.21 300223 北京君正 -6.67",
+      "publish_date": "2026-03-19",
+      "available_at": "2026-03-19T18:06:06",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 33,
+  "hot_reason": "雪球关注#17; 雪球讨论#44; 雪球交易#153",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

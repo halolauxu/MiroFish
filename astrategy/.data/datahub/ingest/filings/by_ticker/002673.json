@@ -1,0 +1,36 @@
+[
+  {
+    "ticker": "002673",
+    "company_name": "西部证券",
+    "title": "2026年度第三期短期融资券发行结果公告",
+    "announcement_type": "增发融资",
+    "publish_date": "2026-03-03",
+    "publish_time": "2026-03-03 00:00:00",
+    "link": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=002673&announcementId=1224990325&orgId=qsgn0000644&announcementTime=2026-03-03 00:00:00",
+    "source": "cninfo.disclosure_report",
+    "raw": {
+      "代码": "002673",
+      "简称": "西部证券",
+      "公告标题": "2026年度第三期短期融资券发行结果公告",
+      "公告时间": "2026-03-03 00:00:00",
+      "公告链接": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=002673&announcementId=1224990325&orgId=qsgn0000644&announcementTime=2026-03-03 00:00:00"
+    }
+  },
+  {
+    "ticker": "002673",
+    "company_name": "西部证券",
+    "title": "2025年面向专业投资者公开发行公司债券（第二期）2026年付息公告",
+    "announcement_type": "债券融资",
+    "publish_date": "2026-03-09",
+    "publish_time": "2026-03-09 17:06:09",
+    "link": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=002673&announcementId=1225001158&orgId=qsgn0000644&announcementTime=2026-03-09 17:06:09",
+    "source": "cninfo.disclosure_report",
+    "raw": {
+      "代码": "002673",
+      "简称": "西部证券",
+      "公告标题": "2025年面向专业投资者公开发行公司债券（第二期）2026年付息公告",
+      "公告时间": "2026-03-09 17:06:09",
+      "公告链接": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=002673&announcementId=1225001158&orgId=qsgn0000644&announcementTime=2026-03-09 17:06:09"
+    }
+  }
+]

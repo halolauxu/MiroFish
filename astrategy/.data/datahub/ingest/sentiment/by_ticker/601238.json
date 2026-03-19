@@ -1,0 +1,118 @@
+{
+  "ticker": "601238",
+  "company_name": "广汽集团",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "filing",
+      "title": "广汽集团2026年2月产销快报",
+      "summary": "",
+      "publish_date": "2026-03-03",
+      "available_at": "2026-03-03T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "业绩公告",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "H股公告-广汽集团2026年2月证券变动月报表",
+      "summary": "",
+      "publish_date": "2026-03-06",
+      "available_at": "2026-03-06T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "广汽集团第七届董事会第20次会议决议公告",
+      "summary": "",
+      "publish_date": "2026-03-14",
+      "available_at": "2026-03-14T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "广汽集团回复上交所监管函：收入端下降、利润端缩减、成本端抬升导致2025年度毛利率为负",
+      "summary": "人民财讯3月15日电，广汽集团6012383月15日发布关于上交所对公司业绩预告相关事项监管工作函的回复公告称，公司2025年度毛利率为负的主要原因为：一是收入端下降。",
+      "publish_date": "2026-03-15",
+      "available_at": "2026-03-15T19:01:36",
+      "sentiment_score": -0.7,
+      "category": "业绩公告",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "广汽集团回应监管问询：所持广汽本田长期股权投资无减值迹象",
+      "summary": "3月15日，广汽集团（601238.SH）就公司业绩预告相关事项对上交所监管工作函作出回复。公司称，综合考量行业未来发展趋势以及广汽本田的战略调整与经营状况，经审慎评估，所持广汽本田的长期股权投资未出现减值迹象。",
+      "publish_date": "2026-03-15",
+      "available_at": "2026-03-15T22:36:50",
+      "sentiment_score": -0.3,
+      "category": "业绩公告",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "广汽集团关于上海证券交易所对公司业绩预告相关事项监管工作函的回复公告",
+      "summary": "业绩预告",
+      "publish_date": "2026-03-16",
+      "available_at": "2026-03-16T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "业绩公告",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "H股公告-广汽集团董事会会议日期公告",
+      "summary": "",
+      "publish_date": "2026-03-18",
+      "available_at": "2026-03-18T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "广汽集团成功发行30亿元绿色科技创新债券 发行利率1.79%",
+      "summary": "3月18日，广汽集团（601238/02238）发布公告，2026年3月17日，公司完成了2026年度第三期绿色科技创新债券的发行，发行规模为30亿元，募集资金已于2026年3月17日全部到账。此次债券的发行利率为1.79%，债券期限为3年，兑付日为2029年3月17日。",
+      "publish_date": "2026-03-18",
+      "available_at": "2026-03-18T18:16:44",
+      "sentiment_score": 0.0,
+      "category": "产品进展",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "广汽集团关于2026年度第三期绿色科技创新债券发行结果的公告",
+      "summary": "",
+      "publish_date": "2026-03-19",
+      "available_at": "2026-03-19T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 0,
+  "hot_reason": "",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

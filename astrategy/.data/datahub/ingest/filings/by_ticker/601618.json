@@ -1,0 +1,70 @@
+[
+  {
+    "ticker": "601618",
+    "company_name": "中国中冶",
+    "title": "中国中冶H股公告-翌日披露报表",
+    "announcement_type": "",
+    "publish_date": "2026-02-24",
+    "publish_time": "2026-02-24",
+    "link": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=601618&announcementId=1224982641&orgId=9900008087&announcementTime=2026-02-24",
+    "source": "cninfo.disclosure_report",
+    "raw": {
+      "代码": "601618",
+      "简称": "中国中冶",
+      "公告标题": "中国中冶H股公告-翌日披露报表",
+      "公告时间": "2026-02-24",
+      "公告链接": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=601618&announcementId=1224982641&orgId=9900008087&announcementTime=2026-02-24"
+    }
+  },
+  {
+    "ticker": "601618",
+    "company_name": "中国中冶",
+    "title": "中国中冶关于股份回购进展的公告",
+    "announcement_type": "股权变动",
+    "publish_date": "2026-03-04",
+    "publish_time": "2026-03-04",
+    "link": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=601618&announcementId=1224994690&orgId=9900008087&announcementTime=2026-03-04",
+    "source": "cninfo.disclosure_report",
+    "raw": {
+      "代码": "601618",
+      "简称": "中国中冶",
+      "公告标题": "中国中冶关于股份回购进展的公告",
+      "公告时间": "2026-03-04",
+      "公告链接": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=601618&announcementId=1224994690&orgId=9900008087&announcementTime=2026-03-04"
+    }
+  },
+  {
+    "ticker": "601618",
+    "company_name": "中国中冶",
+    "title": "中国中冶2026年1-2月新签合同情况简报",
+    "announcement_type": "重大合同",
+    "publish_date": "2026-03-12",
+    "publish_time": "2026-03-12",
+    "link": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=601618&announcementId=1225005175&orgId=9900008087&announcementTime=2026-03-12",
+    "source": "cninfo.disclosure_report",
+    "raw": {
+      "代码": "601618",
+      "简称": "中国中冶",
+      "公告标题": "中国中冶2026年1-2月新签合同情况简报",
+      "公告时间": "2026-03-12",
+      "公告链接": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=601618&announcementId=1225005175&orgId=9900008087&announcementTime=2026-03-12"
+    }
+  },
+  {
+    "ticker": "601618",
+    "company_name": "中国中冶",
+    "title": "中国中冶H股公告",
+    "announcement_type": "",
+    "publish_date": "2026-03-19",
+    "publish_time": "2026-03-19",
+    "link": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=601618&announcementId=1225016397&orgId=9900008087&announcementTime=2026-03-19",
+    "source": "cninfo.disclosure_report",
+    "raw": {
+      "代码": "601618",
+      "简称": "中国中冶",
+      "公告标题": "中国中冶H股公告",
+      "公告时间": "2026-03-19",
+      "公告链接": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=601618&announcementId=1225016397&orgId=9900008087&announcementTime=2026-03-19"
+    }
+  }
+]

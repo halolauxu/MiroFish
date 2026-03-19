@@ -1,0 +1,118 @@
+{
+  "ticker": "600062",
+  "company_name": "华润双鹤",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "filing",
+      "title": "华润双鹤关于通过GMP符合性检查的公告",
+      "summary": "",
+      "publish_date": "2026-02-27",
+      "available_at": "2026-02-27T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "华润双鹤关于全资子公司西安京西双鹤药业有限公司平衡盐冲洗液获得药品注册证书的公告",
+      "summary": "产品进展",
+      "publish_date": "2026-02-27",
+      "available_at": "2026-02-27T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "华润双鹤关于全资子公司西安京西双鹤药业有限公司醋酸钠林格注射液获得药品注册证书的公告",
+      "summary": "产品进展",
+      "publish_date": "2026-03-07",
+      "available_at": "2026-03-07T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "华润双鹤关于2021年限制性股票激励计划回购注销实施公告",
+      "summary": "股权变动",
+      "publish_date": "2026-03-12",
+      "available_at": "2026-03-12T00:00:00",
+      "sentiment_score": 0.8,
+      "category": "股权变动",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "北京市中伦律师事务所关于华润双鹤药业股份有限公司2021年限制性股票激励计划部分限制性股票回购注销实施的法律意见书",
+      "summary": "股权变动",
+      "publish_date": "2026-03-12",
+      "available_at": "2026-03-12T00:00:00",
+      "sentiment_score": 0.8,
+      "category": "股权变动",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "华润双鹤：控股子公司药品丙戊酸钠口服溶液获药品注册证书",
+      "summary": "人民财讯3月17日电，华润双鹤6000623月17日公告，控股子公司湘中制药收到了国家药监局颁发的丙戊酸钠口服溶液药品注册证书。丙戊酸钠口服溶液适用于全面性、部分性或其它类型癫痫。",
+      "publish_date": "2026-03-17",
+      "available_at": "2026-03-17T17:08:11",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "华润双鹤：控股子公司获丙戊酸钠口服溶液药品注册证书",
+      "summary": "每经AI快讯，3月17日，华润双鹤600062.SH)公告称，公司控股子公司湖南省湘中制药有限公司近日收到国家药监局颁发的丙戊酸钠口服溶液《药品注册证书》（批准文号：国药准字H20263535）。该药品用于治疗癫痫，规格为300ml:12g。",
+      "publish_date": "2026-03-17",
+      "available_at": "2026-03-17T17:11:26",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "华润双鹤关于控股子公司湖南省湘中制药有限公司丙戊酸钠口服溶液获得药品注册证书的公告",
+      "summary": "产品进展",
+      "publish_date": "2026-03-18",
+      "available_at": "2026-03-18T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "华润双鹤拟每股派发现金红利0.379元",
+      "summary": "3月19日，华润双鹤（600062）发布公告，公司拟向全体股东每股派发现金红利0.379元（含税），预计总派发金额为3.94亿元，占2025年度归母净利润的23.90%；本年度现金分红总额为4.97亿元，占归母净利润的30.21%。",
+      "publish_date": "2026-03-19",
+      "available_at": "2026-03-19T18:31:40",
+      "sentiment_score": 0.76,
+      "category": "业绩公告",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 0,
+  "hot_reason": "",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

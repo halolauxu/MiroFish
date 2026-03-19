@@ -1,0 +1,58 @@
+{
+  "ticker": "601058",
+  "company_name": "赛轮轮胎",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "filing",
+      "title": "赛轮轮胎关于提供担保的进展公告",
+      "summary": "",
+      "publish_date": "2026-02-28",
+      "available_at": "2026-02-28T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "今日186只股长线走稳 站上年线",
+      "summary": "7.08 10.10 8.67 8.92 2.94 688501 青达环保 3.22 1.61 26.47 27.25 2.93 603296 华勤技术 2.92 1.30 84.29 86.66 2.81 603679 华体科技 3.14 2.92 15.04 15.46 2.79 601058",
+      "publish_date": "2026-03-10",
+      "available_at": "2026-03-10T15:40:21",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "赛轮轮胎：公司目前未开展逆回购业务",
+      "summary": "每经AI快讯，有投资者在投资者互动平台提问：你们发布逆回购信息了吗》 赛轮轮胎（601058.SH）3月17日在投资者互动平台表示，尊敬的投资者您好，公司目前未开展逆回购业务。感谢您对公司的关注。",
+      "publish_date": "2026-03-17",
+      "available_at": "2026-03-17T16:51:24",
+      "sentiment_score": 0.8,
+      "category": "股权变动",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "赛轮轮胎：目前液体黄金轮胎销售正常",
+      "summary": "赛轮轮胎（601058.SH）3月18日在投资者互动平台表示，公司液体黄金轮胎自发售以来，凭借优异的性能受到广大消费者的认可，目前液体黄金轮胎销售正常。",
+      "publish_date": "2026-03-18",
+      "available_at": "2026-03-18T17:44:39",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 0,
+  "hot_reason": "",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

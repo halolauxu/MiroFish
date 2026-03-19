@@ -1,0 +1,70 @@
+{
+  "ticker": "601077",
+  "company_name": "渝农商行",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "filing",
+      "title": "渝农商行H股公告",
+      "summary": "",
+      "publish_date": "2026-03-03",
+      "available_at": "2026-03-03T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "银行行业今日净流入资金8.65亿元，招商银行等8股净流入资金超5000万元",
+      "summary": "中国银行 0.37 0.11 7886.77 600000 浦发银行 0.79 0.30 6534.58 601229 上海银行 1.23 0.38 5353.38 601998 中信银行 1.35 0.17 4918.11 600015 华夏银行 1.70 0.71 4202.46 601077",
+      "publish_date": "2026-03-13",
+      "available_at": "2026-03-13T16:39:01",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "渝农商行H股公告",
+      "summary": "",
+      "publish_date": "2026-03-14",
+      "available_at": "2026-03-14T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "高股息精选概念涨0.10%，主力资金净流入这些股",
+      "summary": "-0.81 1.29 -893.57 -4.85 605368 蓝天燃气 -1.63 1.17 -981.69 -13.81 002601 龙佰集团 -0.42 1.37 -1146.01 -2.22 605098 行动教育 -3.47 1.73 -1185.12 -10.42 601077",
+      "publish_date": "2026-03-17",
+      "available_at": "2026-03-17T17:22:49",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "银行行业资金流入榜：农业银行、工商银行等净流入资金居前",
+      "summary": "0.39 1.45 -755.52 601997 贵阳银行 0.34 0.91 -825.27 601328 交通银行 1.02 0.55 -1074.42 002807 江阴银行 0.64 1.83 -1268.31 001227 兰州银行 0.43 1.89 -1499.96 601077",
+      "publish_date": "2026-03-17",
+      "available_at": "2026-03-17T17:23:22",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 0,
+  "hot_reason": "",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

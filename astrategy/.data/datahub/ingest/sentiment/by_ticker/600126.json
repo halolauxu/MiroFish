@@ -1,0 +1,58 @@
+{
+  "ticker": "600126",
+  "company_name": "杭钢股份",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "filing",
+      "title": "杭州钢铁股份有限公司关于控股股东非公开发行可交换公司债券拟办理持有股份担保及信托登记的公告",
+      "summary": "增发融资",
+      "publish_date": "2026-03-19",
+      "available_at": "2026-03-19T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "短线防风险 223只个股短期均线现死叉",
+      "summary": "5.33 1.91 9.33 9.40 -0.81 8.88 -5.55 300450 先导智能 -1.72 0.94 50.25 50.66 -0.80 48.65 -3.96 002108 沧州明珠 -2.28 1.53 4.94 4.98 -0.80 4.72 -5.22 600126",
+      "publish_date": "2026-03-19",
+      "available_at": "2026-03-19T11:00:11",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "短线防风险 252只个股短期均线现死叉",
+      "summary": "1.06 8.60 8.69 -1.01 8.58 -1.27 688758 赛分科技 -2.46 0.48 18.70 18.89 -1.01 18.21 -3.60 601869 长飞光纤 -2.88 2.18 226.03 228.34 -1.01 216.50 -5.18 600126",
+      "publish_date": "2026-03-19",
+      "available_at": "2026-03-19T14:12:51",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "国资云概念上涨0.32%，5股主力资金净流入超亿元",
+      "summary": "2.44 2.07 -1893.97 -10.45 000539 粤电力A 9.98 5.43 -2058.65 -2.44 000070 特发信息 -4.22 5.17 -3309.29 -4.68 600756 浪潮软件 -2.11 12.05 -3387.72 -4.76 600126",
+      "publish_date": "2026-03-19",
+      "available_at": "2026-03-19T18:04:30",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 0,
+  "hot_reason": "",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

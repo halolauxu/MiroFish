@@ -1,0 +1,82 @@
+{
+  "ticker": "300418",
+  "company_name": "昆仑万维",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "filing",
+      "title": "第五届董事会第三十七次会议决议公告",
+      "summary": "",
+      "publish_date": "2026-03-12",
+      "available_at": "2026-03-12T16:20:28",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "关于公司向银行申请授信并由控股股东提供关联担保的公告",
+      "summary": "",
+      "publish_date": "2026-03-12",
+      "available_at": "2026-03-12T16:20:28",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "hot_topic",
+      "title": "昆仑万维",
+      "summary": "雪球讨论#64; 雪球交易#180",
+      "publish_date": "2026-03-19",
+      "available_at": "2026-03-19T00:00:00",
+      "sentiment_score": 0.08,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.25,
+      "hot_rank": 152
+    },
+    {
+      "source_type": "news",
+      "title": "189只股短线走稳 站上五日均线",
+      "summary": "13.07 15.07 15.32 300332 天壕能源 20.00 22.98 6.28 7.14 13.77 300483 首华燃气 11.15 19.51 21.41 23.43 9.42 920014 特瑞斯 17.74 21.10 15.36 16.79 9.28 300418",
+      "publish_date": "2026-03-19",
+      "available_at": "2026-03-19T14:12:34",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "今日突破五日均线个股一览",
+      "summary": "6.28 7.14 13.77 920010 凯添燃气 19.74 23.34 12.95 14.50 11.93 300483 首华燃气 13.66 23.01 21.52 23.96 11.35 603130 云中马 10.01 3.17 42.22 45.60 8.00 300418",
+      "publish_date": "2026-03-19",
+      "available_at": "2026-03-19T16:20:02",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "28股特大单净流入资金超2亿元",
+      "summary": "（数据宝） 特大单净流入资金排名 代码 简称 收盘价（元） 涨跌幅（%） 特大单净流入（亿元） 行业 000617 中油资本 10.71 9.96 13.52 非银金融 300418 昆仑万维 54.88 9.45 8.19 传媒 601857 中国石油 12.48 5.23",
+      "publish_date": "2026-03-19",
+      "available_at": "2026-03-19T18:05:08",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 152,
+  "hot_reason": "雪球讨论#64; 雪球交易#180",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

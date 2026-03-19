@@ -1,0 +1,36 @@
+[
+  {
+    "ticker": "603737",
+    "company_name": "三棵树",
+    "title": "关于为子公司提供担保的公告",
+    "announcement_type": "",
+    "publish_date": "2026-03-14",
+    "publish_time": "2026-03-14",
+    "link": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=603737&announcementId=1225007797&orgId=9900032852&announcementTime=2026-03-14",
+    "source": "cninfo.disclosure_report",
+    "raw": {
+      "代码": "603737",
+      "简称": "三棵树",
+      "公告标题": "关于为子公司提供担保的公告",
+      "公告时间": "2026-03-14",
+      "公告链接": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=603737&announcementId=1225007797&orgId=9900032852&announcementTime=2026-03-14"
+    }
+  },
+  {
+    "ticker": "603737",
+    "company_name": "三棵树",
+    "title": "关于公司实际控制人、控股股东部分股份质押续期的公告",
+    "announcement_type": "",
+    "publish_date": "2026-03-17",
+    "publish_time": "2026-03-17",
+    "link": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=603737&announcementId=1225010773&orgId=9900032852&announcementTime=2026-03-17",
+    "source": "cninfo.disclosure_report",
+    "raw": {
+      "代码": "603737",
+      "简称": "三棵树",
+      "公告标题": "关于公司实际控制人、控股股东部分股份质押续期的公告",
+      "公告时间": "2026-03-17",
+      "公告链接": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=603737&announcementId=1225010773&orgId=9900032852&announcementTime=2026-03-17"
+    }
+  }
+]

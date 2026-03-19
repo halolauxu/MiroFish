@@ -1,0 +1,118 @@
+{
+  "ticker": "601236",
+  "company_name": "红塔证券",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "filing",
+      "title": "红塔证券股份有限公司第八届董事会第七次会议决议公告",
+      "summary": "",
+      "publish_date": "2026-02-28",
+      "available_at": "2026-02-28T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "红塔证券股份有限公司关于聘任证券事务代表的公告",
+      "summary": "",
+      "publish_date": "2026-02-28",
+      "available_at": "2026-02-28T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "红塔证券股份有限公司关于公司部分高级管理人员调整的公告",
+      "summary": "",
+      "publish_date": "2026-02-28",
+      "available_at": "2026-02-28T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "红塔证券高层大调整，高管团队扩至11人，公司治理问题亟待理清",
+      "summary": "2月27日，红塔证券（601236.SH）披露董事会决议公告，对首席风险官、总审计师、财务总监、副总裁、董事会秘书、首席信息官等职务进行调整。",
+      "publish_date": "2026-02-28",
+      "available_at": "2026-02-28T18:16:19",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "385亿烟草系券商高管迎新，“卖房”或将增收2.63亿",
+      "summary": "截至2月27日收盘，红塔证券（601236.SH）总市值为385亿。 核心管理团队扩容至11人 “80后”骨干加盟 随着新一批高管正式到任，红塔证券核心管理团队规模增至11人。",
+      "publish_date": "2026-02-28",
+      "available_at": "2026-02-28T22:00:55",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "红塔证券股份有限公司关于股份回购进展公告",
+      "summary": "股权变动",
+      "publish_date": "2026-03-03",
+      "available_at": "2026-03-03T00:00:00",
+      "sentiment_score": 0.8,
+      "category": "股权变动",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "红塔证券股份有限公司2026年度第一期短期融资券发行结果公告",
+      "summary": "增发融资",
+      "publish_date": "2026-03-07",
+      "available_at": "2026-03-07T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "红塔证券股份有限公司2025年度第五期短期融资券兑付完成的公告",
+      "summary": "增发融资",
+      "publish_date": "2026-03-12",
+      "available_at": "2026-03-12T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "20.19亿主力资金净流入，期货概念涨0.02%",
+      "summary": "现代投资 0.23 1.45 -880.98 -9.11 000712 锦龙股份 -0.62 2.77 -1018.46 -3.65 603319 美湖股份 -0.93 1.46 -1201.49 -6.86 600755 厦门国贸 -0.16 1.36 -1333.22 -7.11 601236",
+      "publish_date": "2026-03-17",
+      "available_at": "2026-03-17T17:23:25",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 0,
+  "hot_reason": "",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

@@ -1,0 +1,94 @@
+{
+  "ticker": "300601",
+  "company_name": "康泰生物",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "news",
+      "title": "康泰生物：副总裁于冰因个人原因辞职",
+      "summary": "2月6日，康泰生物（300601）发布公告，公司副总裁于冰因个人原因申请辞职，辞职报告自送达董事会之日起生效，原定任期至2028年1月21日。 2025年前三季度，康泰生物实现收入20.63亿元，归母净利润4916万元。",
+      "publish_date": "2026-02-06",
+      "available_at": "2026-02-06T19:35:14",
+      "sentiment_score": 0.0,
+      "category": "业绩公告",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "康泰生物：终止与阿斯利康疫苗合资 2025年净利润预降超六成",
+      "summary": "南方财经2月9日电，康泰生物300601.SZ)于2月6日公告，终止与阿斯利康设立疫苗合资公司的合作。该合作于2025年3月敲定，原计划在北京经开区设立合资公司，双方各持50%股权，注册资本3.45亿元，投资总额约27.6亿元；截至公告披露，合资公司未成立、公司亦未实际出资。",
+      "publish_date": "2026-02-09",
+      "available_at": "2026-02-09T10:43:04",
+      "sentiment_score": 0.0,
+      "category": "业绩公告",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "关于更换持续督导保荐代表人的公告",
+      "summary": "",
+      "publish_date": "2026-02-25",
+      "available_at": "2026-02-25T17:16:10",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "关于控股股东的一致行动人减持期限届满暨实施情况的公告",
+      "summary": "股权变动",
+      "publish_date": "2026-03-02",
+      "available_at": "2026-03-02T19:04:09",
+      "sentiment_score": -0.78,
+      "category": "股权变动",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "关于全资子公司为公司提供担保的进展公告",
+      "summary": "",
+      "publish_date": "2026-03-06",
+      "available_at": "2026-03-06T17:26:29",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "11只个股大宗交易超5000万元",
+      "summary": "8038.59 53456.62 1 6.65 -6.99 601899 紫金矿业 -2.85 34.75 1041.35 36187.22 5 34.75 0.00 300223 北京君正 9.02 129.90 129.50 15121.72 1 116.77 -10.11 300601",
+      "publish_date": "2026-03-16",
+      "available_at": "2026-03-16T21:15:07",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "关于持股5%以上股东一致行动人之间内部转让股份触及1%整数倍的提示性公告",
+      "summary": "",
+      "publish_date": "2026-03-17",
+      "available_at": "2026-03-17T17:13:14",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 0,
+  "hot_reason": "",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

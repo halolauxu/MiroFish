@@ -1,0 +1,46 @@
+{
+  "ticker": "605589",
+  "company_name": "圣泉集团",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "news",
+      "title": "圣泉集团：公司产品暂未应用在可控核聚变领域",
+      "summary": "每经AI快讯，有投资者在投资者互动平台提问：请问圣泉集团是否有应用于核电和可控核聚变的产品？谢谢。 圣泉集团（605589.SH）3月17日在投资者互动平台表示，尊敬的投资者，您好！公司产品暂未应用在可控核聚变领域，感谢您对公司的关注！",
+      "publish_date": "2026-03-17",
+      "available_at": "2026-03-17T16:51:24",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "圣泉集团：公司自主研发的酚醛树脂炭素阳极产品，多家客户正在进行工业化试验",
+      "summary": "圣泉集团（605589.SH）3月17日在投资者互动平台表示，公司自主研发的酚醛树脂炭素阳极产品，在不改变现有炭素工艺的前提下，通过复配方案生产的树脂阳极产品正在不断优化改进中，多家客户正在进行工业化试验。",
+      "publish_date": "2026-03-17",
+      "available_at": "2026-03-17T19:43:25",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "圣泉集团：公司在新能源布局硅碳负极用多孔碳等电池材料，产品广泛应用于消费电子、新能源汽车、储能等领域",
+      "summary": "圣泉集团（605589.SH）3月17日在投资者互动平台表示，公司在新能源布局硅碳负极用多孔碳、高比能硅碳负极、钠离子电池硬碳等电池材料，产品广泛应用于消费电子、新能源汽车、储能、小动力及半固态/固态电池等领域。",
+      "publish_date": "2026-03-17",
+      "available_at": "2026-03-17T19:43:33",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 0,
+  "hot_reason": "",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

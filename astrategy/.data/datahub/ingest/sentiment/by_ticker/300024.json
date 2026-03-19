@@ -1,0 +1,46 @@
+{
+  "ticker": "300024",
+  "company_name": "机器人",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "news",
+      "title": "机器人：公司目前相关人形机器人产品在自有工厂处于试验性应用阶段，尚未实现规模化量产",
+      "summary": "每经AI快讯，机器人（300024.SZ）3月10日在投资者互动平台表示，公司目前相关人形机器人产品在自有工厂处于试验性应用阶段，尚未实现规模化量产，后续的市场拓展计划将结合自身技术成熟度、市场需求等有序推进。",
+      "publish_date": "2026-03-10",
+      "available_at": "2026-03-10T21:39:49",
+      "sentiment_score": 0.22,
+      "category": "产品进展",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "机器人：公司特种机器人产品主要面向如高温、高危、防爆、狭窄空间等极限、特殊作业环境的应用",
+      "summary": "每经AI快讯，机器人（300024.SZ）3月10日在投资者互动平台表示，公司特种机器人产品主要面向如高温、高危、防爆、狭窄空间等极限、特殊作业环境的应用，产品包括自动转载机器人系统、装备自动保障系统等。",
+      "publish_date": "2026-03-11",
+      "available_at": "2026-03-11T09:44:46",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "机器人半导体装备子公司谋求新一轮融资 首轮融资后估值已达14亿元",
+      "summary": "“半导体装备”作为上市公司机器人300024的战略新兴业务，得到了公司的高度重视。 证券时报·e公司记者注意到，沈阳新松半导体设备有限公司（下称“新松半导体”）增资项目正在北京产权交易所挂牌。",
+      "publish_date": "2026-03-16",
+      "available_at": "2026-03-16T16:28:20",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 0,
+  "hot_reason": "",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

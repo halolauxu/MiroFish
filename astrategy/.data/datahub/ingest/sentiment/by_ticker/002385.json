@@ -1,0 +1,118 @@
+{
+  "ticker": "002385",
+  "company_name": "大北农",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "filing",
+      "title": "关于部分募集资金专户销户完成的公告",
+      "summary": "",
+      "publish_date": "2026-02-28",
+      "available_at": "2026-02-28T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "第六届董事会第四十二次（临时）会议决议公告",
+      "summary": "",
+      "publish_date": "2026-03-05",
+      "available_at": "2026-03-05T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "2026年2月份生猪销售情况简报",
+      "summary": "",
+      "publish_date": "2026-03-10",
+      "available_at": "2026-03-10T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "公司及控股子公司担保进展公告",
+      "summary": "",
+      "publish_date": "2026-03-11",
+      "available_at": "2026-03-11T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "中德证券有限责任公司关于北京大北农科技集团股份有限公司2025年度持续督导培训情况的报告",
+      "summary": "",
+      "publish_date": "2026-03-11",
+      "available_at": "2026-03-11T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "关于控股子公司大豆产品获批欧盟进口许可的公告",
+      "summary": "产品进展",
+      "publish_date": "2026-03-13",
+      "available_at": "2026-03-13T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "产品进展",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "玉米概念下跌1.62%，6股主力资金净流出超3000万元",
+      "summary": "2.38 -2234.73 300087 荃银高科 -3.03 2.63 -2228.38 002100 天康生物 0.26 2.49 -1868.06 301301 川宁生物 0.00 3.05 -1842.96 300829 金丹科技 -1.14 5.51 -1456.44 002385",
+      "publish_date": "2026-03-18",
+      "available_at": "2026-03-18T17:06:15",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "粮食概念下跌1.24%，主力资金净流出34股",
+      "summary": "4.36 -2600.09 000505 京粮控股 -2.59 3.75 -2272.37 000998 隆平高科 -1.34 2.38 -2234.73 300087 荃银高科 -3.03 2.63 -2228.38 301301 川宁生物 0.00 3.05 -1842.96 002385",
+      "publish_date": "2026-03-18",
+      "available_at": "2026-03-18T17:06:15",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "转基因概念下跌1.71%，10股主力资金净流出超千万元",
+      "summary": "8.82 -3043.62 000505 京粮控股 -2.59 3.75 -2272.37 000998 隆平高科 -1.34 2.38 -2234.73 300087 荃银高科 -3.03 2.63 -2228.38 002170 芭田股份 -1.24 4.44 -2162.76 002385",
+      "publish_date": "2026-03-18",
+      "available_at": "2026-03-18T17:06:27",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 0,
+  "hot_reason": "",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

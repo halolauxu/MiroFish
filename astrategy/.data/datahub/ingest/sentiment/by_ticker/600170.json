@@ -1,0 +1,70 @@
+{
+  "ticker": "600170",
+  "company_name": "上海建工",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "filing",
+      "title": "上海建工关于提供担保的进展公告",
+      "summary": "",
+      "publish_date": "2026-03-10",
+      "available_at": "2026-03-10T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "上海建工关于取得土地使用权的公告",
+      "summary": "",
+      "publish_date": "2026-03-11",
+      "available_at": "2026-03-11T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "建筑装饰行业3月11日资金流向日报",
+      "summary": "9.53 74203.08 603778 国晟科技 9.98 22.41 30069.71 601117 中国化学 5.04 3.76 29872.16 601668 中国建筑 1.99 1.15 28635.01 601390 中国中铁 1.89 2.00 17976.84 600170",
+      "publish_date": "2026-03-11",
+      "available_at": "2026-03-11T16:50:29",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "24.35亿元主力资金今日抢筹建筑装饰板块",
+      "summary": "建筑装饰行业资金流出榜 代码 简称 今日涨跌幅（%） 今日换手率（%） 主力资金流量（万元） 601868 中国能建 -1.58 11.71 -138937.66 001267 汇绿生态 -6.15 11.22 -37341.86 601117 中国化学 1.71 4.58 -8685.74 600170",
+      "publish_date": "2026-03-13",
+      "available_at": "2026-03-13T16:38:58",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "56.01亿元资金今日流出建筑装饰股",
+      "summary": "87097.53 601668 中国建筑 -1.17 0.75 -22483.03 601117 中国化学 -6.11 4.22 -19292.99 601186 中国铁建 -1.86 1.26 -16052.33 601390 中国中铁 -3.03 2.36 -15423.56 600170",
+      "publish_date": "2026-03-16",
+      "available_at": "2026-03-16T17:13:34",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 0,
+  "hot_reason": "",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

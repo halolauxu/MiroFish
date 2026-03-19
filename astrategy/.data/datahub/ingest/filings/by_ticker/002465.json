@@ -1,0 +1,36 @@
+[
+  {
+    "ticker": "002465",
+    "company_name": "海格通信",
+    "title": "关于发行中期票据获准注册的公告",
+    "announcement_type": "债券融资",
+    "publish_date": "2026-02-26",
+    "publish_time": "2026-02-26",
+    "link": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=002465&announcementId=1224983901&orgId=9900014188&announcementTime=2026-02-26",
+    "source": "cninfo.disclosure_report",
+    "raw": {
+      "代码": "002465",
+      "简称": "海格通信",
+      "公告标题": "关于发行中期票据获准注册的公告",
+      "公告时间": "2026-02-26",
+      "公告链接": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=002465&announcementId=1224983901&orgId=9900014188&announcementTime=2026-02-26"
+    }
+  },
+  {
+    "ticker": "002465",
+    "company_name": "海格通信",
+    "title": "关于2026年度第一期中期票据发行情况的公告",
+    "announcement_type": "债券融资",
+    "publish_date": "2026-03-19",
+    "publish_time": "2026-03-19",
+    "link": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=002465&announcementId=1225015808&orgId=9900014188&announcementTime=2026-03-19",
+    "source": "cninfo.disclosure_report",
+    "raw": {
+      "代码": "002465",
+      "简称": "海格通信",
+      "公告标题": "关于2026年度第一期中期票据发行情况的公告",
+      "公告时间": "2026-03-19",
+      "公告链接": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=002465&announcementId=1225015808&orgId=9900014188&announcementTime=2026-03-19"
+    }
+  }
+]

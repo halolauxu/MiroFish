@@ -1,0 +1,58 @@
+{
+  "ticker": "688036",
+  "company_name": "传音控股",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "filing",
+      "title": "传音控股2025年度业绩快报公告",
+      "summary": "业绩预告",
+      "publish_date": "2026-02-26",
+      "available_at": "2026-02-26T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "业绩公告",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "4只科创板股大宗交易成交超3000万元",
+      "summary": "（数据宝） 科创板股3月17日大宗交易概况 代码 简称 成交笔数 大宗交易数量（万股） 平均成交价格（元） 相对收盘价折溢价（%） 大宗交易金额（万元） 688036 传音控股 1 120.00 56.14 0.00 6736.80 688027 国盾量子 1 9.57 637.00",
+      "publish_date": "2026-03-17",
+      "available_at": "2026-03-17T19:42:46",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "9只个股大宗交易超5000万元",
+      "summary": "543.00 16.23 8810.61 2 542.86 -0.03 600026 中远海能 -2.31 23.22 325.83 7565.77 1 23.22 0.00 601872 招商轮船 -1.55 16.49 443.93 7320.41 1 16.49 0.00 688036",
+      "publish_date": "2026-03-17",
+      "available_at": "2026-03-17T19:43:02",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "MLOps概念涨3.69%，主力资金净流入9股",
+      "summary": "科大国创 3.03 4.17 -442.05 -0.98 300674 宇信科技 0.93 1.20 -491.33 -2.70 300168 万达信息 0.84 1.01 -1666.76 -19.26 300339 润和软件 1.19 1.84 -1738.70 -2.70 688036",
+      "publish_date": "2026-03-18",
+      "available_at": "2026-03-18T17:06:37",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 0,
+  "hot_reason": "",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

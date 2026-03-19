@@ -1,0 +1,94 @@
+{
+  "ticker": "600426",
+  "company_name": "华鲁恒升",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "filing",
+      "title": "华鲁恒升关于股份回购进展公告",
+      "summary": "股权变动",
+      "publish_date": "2026-03-03",
+      "available_at": "2026-03-03T00:00:00",
+      "sentiment_score": 0.8,
+      "category": "股权变动",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "华鲁恒升第九届董事会2026年第1次临时会议决议公告",
+      "summary": "",
+      "publish_date": "2026-03-11",
+      "available_at": "2026-03-11T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "华鲁恒升关于调整回购股份价格上限的公告",
+      "summary": "股权变动",
+      "publish_date": "2026-03-11",
+      "available_at": "2026-03-11T00:00:00",
+      "sentiment_score": 0.8,
+      "category": "股权变动",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "华鲁恒升2021年限制性股票激励计划首次授予限制性股票第三个限售期解除限售条件成就的公告",
+      "summary": "股权激励",
+      "publish_date": "2026-03-11",
+      "available_at": "2026-03-11T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "股权变动",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "基础化工行业资金流出榜：万华化学等17股净流出资金超亿元",
+      "summary": "） 主力资金流量（万元） 000420 吉林化纤 5.81 20.62 33101.57 600367 红星发展 8.10 31.84 30530.31 600470 六国化工 6.21 31.16 24773.67 002407 多氟多 -0.97 9.02 14374.06 600426",
+      "publish_date": "2026-03-16",
+      "available_at": "2026-03-16T17:12:19",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "两融余额增加96.68亿元 杠杆资金大幅加仓292股",
+      "summary": "688628 优利德 6467.17 23.07 8.25 机械设备 301449 天溯计量 6998.21 22.51 5.83 社会服务 688272 富吉瑞 6216.96 22.00 5.56 国防军工 301205 联特科技 122476.40 19.95 3.94 通信 600426",
+      "publish_date": "2026-03-17",
+      "available_at": "2026-03-17T09:50:46",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "杠杆资金大手笔加仓股名单",
+      "summary": "非银金融 002015 协鑫能科 -4.13 10101.29 151950.64 4.38 公用事业 301308 江波龙 6.32 10097.07 410327.72 4.31 电子 600795 国电电力 -1.38 10068.74 114338.73 1.28 公用事业 600426",
+      "publish_date": "2026-03-17",
+      "available_at": "2026-03-17T09:52:10",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 0,
+  "hot_reason": "",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

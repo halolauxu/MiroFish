@@ -1,0 +1,53 @@
+[
+  {
+    "ticker": "601298",
+    "company_name": "青岛港",
+    "title": "H股公告",
+    "announcement_type": "",
+    "publish_date": "2026-03-05",
+    "publish_time": "2026-03-05",
+    "link": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=601298&announcementId=1224996033&orgId=GD025907&announcementTime=2026-03-05",
+    "source": "cninfo.disclosure_report",
+    "raw": {
+      "代码": "601298",
+      "简称": "青岛港",
+      "公告标题": "H股公告",
+      "公告时间": "2026-03-05",
+      "公告链接": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=601298&announcementId=1224996033&orgId=GD025907&announcementTime=2026-03-05"
+    }
+  },
+  {
+    "ticker": "601298",
+    "company_name": "青岛港",
+    "title": "青岛港国际股份有限公司2025年度业绩快报公告",
+    "announcement_type": "业绩预告",
+    "publish_date": "2026-03-17",
+    "publish_time": "2026-03-17",
+    "link": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=601298&announcementId=1225010970&orgId=GD025907&announcementTime=2026-03-17",
+    "source": "cninfo.disclosure_report",
+    "raw": {
+      "代码": "601298",
+      "简称": "青岛港",
+      "公告标题": "青岛港国际股份有限公司2025年度业绩快报公告",
+      "公告时间": "2026-03-17",
+      "公告链接": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=601298&announcementId=1225010970&orgId=GD025907&announcementTime=2026-03-17"
+    }
+  },
+  {
+    "ticker": "601298",
+    "company_name": "青岛港",
+    "title": "H股公告",
+    "announcement_type": "",
+    "publish_date": "2026-03-18",
+    "publish_time": "2026-03-18",
+    "link": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=601298&announcementId=1225013685&orgId=GD025907&announcementTime=2026-03-18",
+    "source": "cninfo.disclosure_report",
+    "raw": {
+      "代码": "601298",
+      "简称": "青岛港",
+      "公告标题": "H股公告",
+      "公告时间": "2026-03-18",
+      "公告链接": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=601298&announcementId=1225013685&orgId=GD025907&announcementTime=2026-03-18"
+    }
+  }
+]

@@ -1,0 +1,94 @@
+{
+  "ticker": "600516",
+  "company_name": "方大炭素",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "filing",
+      "title": "方大炭素关于首次集中竞价减持已回购股份的进展公告",
+      "summary": "股权变动",
+      "publish_date": "2026-02-26",
+      "available_at": "2026-02-26T00:00:00",
+      "sentiment_score": 0.02,
+      "category": "股权变动",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "方大炭素关于集中竞价减持已回购股份的进展公告",
+      "summary": "股权变动",
+      "publish_date": "2026-03-03",
+      "available_at": "2026-03-03T00:00:00",
+      "sentiment_score": 0.02,
+      "category": "股权变动",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "方大炭素关于控股子公司委托理财进展的公告",
+      "summary": "",
+      "publish_date": "2026-03-04",
+      "available_at": "2026-03-04T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "方大炭素600516龙虎榜数据03-05",
+      "summary": "交易所2026年3月5日公布的交易公开信息显示，方大炭素因成为有价格涨跌幅限制的日收盘价格涨幅偏离值达到7%的前五只证券上榜。方大炭素当日收报6.88元，涨跌幅10.08%，偏离值9.44%，换手率10.56%，成交额28.74亿。 免责声明：本文基于AI生产，仅供参考，不构成任何投资建议",
+      "publish_date": "2026-03-05",
+      "available_at": "2026-03-05T16:58:28",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "方大炭素关于使用自有资金购买理财产品的公告",
+      "summary": "",
+      "publish_date": "2026-03-07",
+      "available_at": "2026-03-07T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "解密主力资金出逃股 连续5日净流出675股",
+      "summary": "6.23 8.20 -14.23 002126 银轮股份 8 5.99 5.53 -13.92 300433 蓝思科技 6 5.95 7.27 -5.93 600459 贵研铂业 13 5.73 5.78 -20.23 600490 鹏欣资源 12 5.71 7.98 -23.00 600516",
+      "publish_date": "2026-03-18",
+      "available_at": "2026-03-18T17:07:22",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "解密主力资金出逃股 连续5日净流出806股",
+      "summary": "6.63 6.77 -11.81 002276 万马股份 15 6.62 8.29 -17.52 002639 雪人集团 12 6.52 3.36 -20.62 601117 中国化学 6 6.43 5.09 -5.53 002600 领益智造 6 6.26 9.77 -7.67 600516",
+      "publish_date": "2026-03-19",
+      "available_at": "2026-03-19T18:05:45",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 0,
+  "hot_reason": "",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

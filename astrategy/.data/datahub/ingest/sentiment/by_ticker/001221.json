@@ -1,0 +1,118 @@
+{
+  "ticker": "001221",
+  "company_name": "悍高集团",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "filing",
+      "title": "悍高集团股份有限公司关于独立董事取得独立董事培训证明的公告",
+      "summary": "",
+      "publish_date": "2026-03-04",
+      "available_at": "2026-03-04T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "悍高集团：拟购买土地使用权并投资建设项目",
+      "summary": "南方财经3月9日电，悍高集团0012213月9日公告，为进一步落实公司未来发展战略规划，扩大优势产品产能，提升公司综合实力，公司拟竞拍广东省佛山市顺德高新区二期SD-I-05-01-02-08地块土地使用权并投资新建项目。",
+      "publish_date": "2026-03-09",
+      "available_at": "2026-03-09T20:41:19",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "悍高集团：拟购买土地使用权并投资建设项目",
+      "summary": "人民财讯3月9日电，悍高集团0012213月9日公告，为进一步落实公司未来发展战略规划，扩大优势产品产能，提升公司综合实力，公司拟竞拍广东省佛山市顺德高新区二期SD-I-05-01-02-08地块土地使用权并投资新建项目。",
+      "publish_date": "2026-03-09",
+      "available_at": "2026-03-09T20:48:50",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "悍高集团股份有限公司第二届董事会第十七次会议决议公告",
+      "summary": "",
+      "publish_date": "2026-03-10",
+      "available_at": "2026-03-10T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "悍高集团股份有限公司关于拟购买土地使用权并投资建设项目的公告",
+      "summary": "",
+      "publish_date": "2026-03-10",
+      "available_at": "2026-03-10T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "悍高集团：拟20.18亿元竞拍土地并投建生产基地 扩大家居五金产能",
+      "summary": "中证智能财讯悍高集团（001221）3月10日公告，为进一步落实公司未来发展战略规划，扩大优势产品产能，公司拟竞拍广东省佛山市顺德高新区二期一幅工业用地并投资新建项目。",
+      "publish_date": "2026-03-10",
+      "available_at": "2026-03-10T09:48:57",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "悍高集团股份有限公司关于竞拍取得土地使用权的公告",
+      "summary": "",
+      "publish_date": "2026-03-17",
+      "available_at": "2026-03-17T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "悍高集团股份有限公司关于证券事务代表辞职的公告",
+      "summary": "",
+      "publish_date": "2026-03-18",
+      "available_at": "2026-03-18T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "悍高集团股份有限公司关于公司董事会秘书取得任职培训证明并正式履职的公告",
+      "summary": "",
+      "publish_date": "2026-03-18",
+      "available_at": "2026-03-18T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 0,
+  "hot_reason": "",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

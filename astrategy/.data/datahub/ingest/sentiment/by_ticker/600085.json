@@ -1,0 +1,82 @@
+{
+  "ticker": "600085",
+  "company_name": "同仁堂",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "news",
+      "title": "同仁堂：公司目前尚无回购股票计划",
+      "summary": "同仁堂（600085.SH）2月24日在投资者互动平台表示，您好。公司目前尚无回购股票计划，如未来有相关实施计划，公司将严格按照法律、法规要求履行审议程序和信息披露义务。",
+      "publish_date": "2026-02-24",
+      "available_at": "2026-02-24T23:32:47",
+      "sentiment_score": 0.8,
+      "category": "股权变动",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "同仁堂：公司已推进财务共享中心建设运行",
+      "summary": "同仁堂（600085.SH）2月24日在投资者互动平台表示，您好。公司已推进财务共享中心建设运行，通过综合运用数字化、智能化技术提升信息化管理水平，赋能公司经营管理高效运作。",
+      "publish_date": "2026-02-24",
+      "available_at": "2026-02-24T23:32:48",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "同仁堂 关于获得加拿大产品许可证的公告",
+      "summary": "",
+      "publish_date": "2026-02-25",
+      "available_at": "2026-02-25T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "同仁堂 关于获得加拿大产品许可证的公告",
+      "summary": "",
+      "publish_date": "2026-03-05",
+      "available_at": "2026-03-05T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "两省清理“不活跃”药品，北京同仁堂安宫牛黄丸等药品被撤网",
+      "summary": "而在数十家生产安宫牛黄丸的药企中，北京同仁堂科技发展股份有限公司制药厂市场份额占比最高，紧随其后的是其第一大股东北京同仁堂股份有限公司（下称“同仁堂”，600085.SH），两家公司均为中国北京同仁堂（集团）有限责任公司的下属公司。",
+      "publish_date": "2026-03-16",
+      "available_at": "2026-03-16T19:50:20",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "hot_topic",
+      "title": "同仁堂",
+      "summary": "雪球关注#160; 雪球讨论#128",
+      "publish_date": "2026-03-19",
+      "available_at": "2026-03-19T00:00:00",
+      "sentiment_score": 0.08,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.25,
+      "hot_rank": 192
+    }
+  ],
+  "hot_rank": 192,
+  "hot_reason": "雪球关注#160; 雪球讨论#128",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

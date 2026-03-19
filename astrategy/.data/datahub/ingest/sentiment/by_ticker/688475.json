@@ -1,0 +1,58 @@
+{
+  "ticker": "688475",
+  "company_name": "萤石网络",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "news",
+      "title": "萤石网络：董事长斥资419万元增持15.6万股",
+      "summary": "3月10日，萤石网络（688475）发布公告，董事长兼总经理蒋海青于2026年3月9日至10日期间，通过上海证券交易所集中竞价平台累计增持公司股份15.6万股，占公司总股本的0.0198%，增持金额达419万元。",
+      "publish_date": "2026-03-10",
+      "available_at": "2026-03-10T18:43:13",
+      "sentiment_score": 0.78,
+      "category": "股权变动",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "关于董事长兼总经理增持公司股份的公告",
+      "summary": "股权变动",
+      "publish_date": "2026-03-11",
+      "available_at": "2026-03-11T00:00:00",
+      "sentiment_score": 0.78,
+      "category": "股权变动",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "萤石网络AI双擎蒸汽洗地机器人亮相AWE",
+      "summary": "记者获悉，萤石网络688475在2026年中国家电及消费电子博览会（AWE）上发布全球首创AI双擎蒸汽洗地机器人“Stella星辰”系列产品，其搭载的全球首创BiCore Suction双擎分区直吸系统，首次在扫地机器人上实现了“干吸”与“湿吸”的彻底分离，打破传统清洁技术局限",
+      "publish_date": "2026-03-13",
+      "available_at": "2026-03-13T10:21:04",
+      "sentiment_score": 0.0,
+      "category": "产品进展",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "10家公司重要股东开启增持模式 累计增持5.80亿元（附股）",
+      "summary": "301322 绿通科技 1 2 89.55 2999.69 -5.09 301281 科源制药 1 1 56.35 2747.06 13.32 002517 恺英网络 8 8 50.38 975.05 -11.44 301228 实朴检测 1 1 24.88 970.35 -2.07 688475",
+      "publish_date": "2026-03-16",
+      "available_at": "2026-03-16T09:36:06",
+      "sentiment_score": 0.78,
+      "category": "股权变动",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 0,
+  "hot_reason": "",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

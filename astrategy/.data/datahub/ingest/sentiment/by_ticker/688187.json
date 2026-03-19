@@ -1,0 +1,94 @@
+{
+  "ticker": "688187",
+  "company_name": "时代电气",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "filing",
+      "title": "H股公告",
+      "summary": "",
+      "publish_date": "2026-02-24",
+      "available_at": "2026-02-24T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "H股公告",
+      "summary": "",
+      "publish_date": "2026-02-24",
+      "available_at": "2026-02-24T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "H股公告",
+      "summary": "",
+      "publish_date": "2026-02-25",
+      "available_at": "2026-02-25T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "H股公告",
+      "summary": "",
+      "publish_date": "2026-03-03",
+      "available_at": "2026-03-03T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "时代电气：公司具备600V~6500V SiC技术和产业化能力",
+      "summary": "时代电气（688187.SH）3月12日在投资者互动平台表示，公司具备600V~6500V SiC技术和产业化能力，产品正向多应用领域拓展。",
+      "publish_date": "2026-03-12",
+      "available_at": "2026-03-12T16:41:36",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "时代电气：第五代SiC技术已完成布局",
+      "summary": "时代电气（688187.SH）3月12日在投资者互动平台表示，当前公司SiC第四代沟槽栅产品已完成设计定型，达行业先进水平，第五代SiC技术也已完成布局。",
+      "publish_date": "2026-03-12",
+      "available_at": "2026-03-12T16:41:37",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "时代电气：公司目前已有产品中，少量双极器件应用于数据中心机房设备中",
+      "summary": "时代电气（688187.SH）3月12日在投资者互动平台表示，公司目前已有产品中，少量双极器件应用于数据中心机房设备中。公司正在持续关注AI服务器电源需求。",
+      "publish_date": "2026-03-12",
+      "available_at": "2026-03-12T16:41:45",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 0,
+  "hot_reason": "",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

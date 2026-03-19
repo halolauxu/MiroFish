@@ -1,0 +1,36 @@
+[
+  {
+    "ticker": "002050",
+    "company_name": "三花智控",
+    "title": "H股公告-截至2026年2月28日止之股份发行人的证券变动月报表",
+    "announcement_type": "",
+    "publish_date": "2026-03-05",
+    "publish_time": "2026-03-05",
+    "link": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=002050&announcementId=1224995545&orgId=gssz0002050&announcementTime=2026-03-05",
+    "source": "cninfo.disclosure_report",
+    "raw": {
+      "代码": "002050",
+      "简称": "三花智控",
+      "公告标题": "H股公告-截至2026年2月28日止之股份发行人的证券变动月报表",
+      "公告时间": "2026-03-05",
+      "公告链接": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=002050&announcementId=1224995545&orgId=gssz0002050&announcementTime=2026-03-05"
+    }
+  },
+  {
+    "ticker": "002050",
+    "company_name": "三花智控",
+    "title": "H股公告-董事会会议召开日期",
+    "announcement_type": "",
+    "publish_date": "2026-03-10",
+    "publish_time": "2026-03-10",
+    "link": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=002050&announcementId=1225001913&orgId=gssz0002050&announcementTime=2026-03-10",
+    "source": "cninfo.disclosure_report",
+    "raw": {
+      "代码": "002050",
+      "简称": "三花智控",
+      "公告标题": "H股公告-董事会会议召开日期",
+      "公告时间": "2026-03-10",
+      "公告链接": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=002050&announcementId=1225001913&orgId=gssz0002050&announcementTime=2026-03-10"
+    }
+  }
+]

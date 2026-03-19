@@ -1,0 +1,106 @@
+{
+  "ticker": "002156",
+  "company_name": "通富微电",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "filing",
+      "title": "通富微电子股份有限公司2026年度向特定对象发行A股股票募集说明书（申报稿）",
+      "summary": "增发融资",
+      "publish_date": "2026-02-24",
+      "available_at": "2026-02-24T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "国泰海通证券股份有限公司关于公司2026年度向特定对象发行A股股票之发行保荐书",
+      "summary": "增发融资",
+      "publish_date": "2026-02-24",
+      "available_at": "2026-02-24T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "国泰海通证券股份有限公司关于公司2026年度向特定对象发行A股股票之上市保荐书",
+      "summary": "增发融资",
+      "publish_date": "2026-02-24",
+      "available_at": "2026-02-24T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "关于向特定对象发行股票申请获得深圳证券交易所受理的公告",
+      "summary": "增发融资",
+      "publish_date": "2026-02-24",
+      "available_at": "2026-02-24T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "关于变更持续督导保荐代表人的公告",
+      "summary": "",
+      "publish_date": "2026-02-24",
+      "available_at": "2026-02-24T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "通富微电：HBM相关产品目前仍是国际Memory IDM大厂主导封测",
+      "summary": "通富微电（002156.SZ）3月12日在投资者互动平台表示，据了解，相关产品目前仍是国际Memory IDM大厂主导封测。",
+      "publish_date": "2026-03-12",
+      "available_at": "2026-03-12T09:10:50",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "84.28亿元主力资金今日抢筹电子板块",
+      "summary": "3.45 5.10 63988.34 002463 沪电股份 6.32 7.93 52749.80 301308 江波龙 8.26 8.85 49226.33 601138 工业富联 2.28 0.59 45749.04 300136 信维通信 5.76 8.05 42840.76 002156",
+      "publish_date": "2026-03-18",
+      "available_at": "2026-03-18T17:07:02",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "电子行业3月19日资金流向日报",
+      "summary": "39510.81 002130 沃尔核材 -4.91 6.60 -36900.21 002475 立讯精密 -2.63 1.26 -35872.74 688521 芯原股份 -4.40 2.52 -33698.21 300223 北京君正 -6.67 9.80 -30130.22 002156",
+      "publish_date": "2026-03-19",
+      "available_at": "2026-03-19T18:06:06",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 0,
+  "hot_reason": "",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

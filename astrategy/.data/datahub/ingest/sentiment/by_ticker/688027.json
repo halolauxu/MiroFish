@@ -1,0 +1,94 @@
+{
+  "ticker": "688027",
+  "company_name": "国盾量子",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "filing",
+      "title": "2025年度业绩快报公告",
+      "summary": "业绩预告",
+      "publish_date": "2026-02-28",
+      "available_at": "2026-02-28T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "业绩公告",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "第四届董事会第二十三次会议决议公告",
+      "summary": "",
+      "publish_date": "2026-03-04",
+      "available_at": "2026-03-04T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "国元证券股份有限公司关于科大国盾量子技术股份有限公司使用暂时闲置募集资金进行现金管理的核查意见",
+      "summary": "",
+      "publish_date": "2026-03-04",
+      "available_at": "2026-03-04T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "关于使用闲置募集资金进行现金管理的公告",
+      "summary": "",
+      "publish_date": "2026-03-04",
+      "available_at": "2026-03-04T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "11只个股大宗交易超5000万元",
+      "summary": "2.58 3000.00 7560.00 1 2.52 -2.33 001300 三柏硕 2.25 17.27 480.03 7296.38 3 15.20 -11.99 300933 中辰股份 -2.43 8.82 925.50 7098.63 25 7.67 -13.04 688027",
+      "publish_date": "2026-03-16",
+      "available_at": "2026-03-16T21:15:07",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "4只科创板股大宗交易成交超3000万元",
+      "summary": "（数据宝） 科创板股3月17日大宗交易概况 代码 简称 成交笔数 大宗交易数量（万股） 平均成交价格（元） 相对收盘价折溢价（%） 大宗交易金额（万元） 688036 传音控股 1 120.00 56.14 0.00 6736.80 688027 国盾量子 1 9.57 637.00",
+      "publish_date": "2026-03-17",
+      "available_at": "2026-03-17T19:42:46",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "9只个股大宗交易超5000万元",
+      "summary": "2.31 23.22 325.83 7565.77 1 23.22 0.00 601872 招商轮船 -1.55 16.49 443.93 7320.41 1 16.49 0.00 688036 传音控股 -1.90 56.14 120.00 6736.80 1 56.14 0.00 688027",
+      "publish_date": "2026-03-17",
+      "available_at": "2026-03-17T19:43:02",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 0,
+  "hot_reason": "",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

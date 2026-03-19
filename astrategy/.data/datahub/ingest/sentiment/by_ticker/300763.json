@@ -1,0 +1,46 @@
+{
+  "ticker": "300763",
+  "company_name": "锦浪科技",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "news",
+      "title": "锦浪科技：目前暂无在欧洲建厂的计划",
+      "summary": "锦浪科技（300763.SZ）3月12日在投资者互动平台表示，公司密切跟踪欧洲政策与市场机会，目前暂无在欧洲建厂的计划。",
+      "publish_date": "2026-03-12",
+      "available_at": "2026-03-12T17:47:54",
+      "sentiment_score": 0.0,
+      "category": "政策影响",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "锦浪科技：公司逆变器产品主要应用于户用、工商业以及地面电站等各类场景",
+      "summary": "锦浪科技（300763.SZ）3月16日在投资者互动平台表示，您好，公司逆变器产品主要应用于户用、工商业以及地面电站等各类场景，感谢您的关注！",
+      "publish_date": "2026-03-16",
+      "available_at": "2026-03-16T17:40:54",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "221只股短线走稳 站上五日均线",
+      "summary": "16.10 15.22 16.08 5.64 688622 禾信仪器 11.31 4.19 72.81 76.84 5.53 603366 日出东方 10.03 7.99 10.19 10.75 5.47 688226 威腾电气 8.25 3.63 43.41 45.78 5.47 300763",
+      "publish_date": "2026-03-19",
+      "available_at": "2026-03-19T12:00:44",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 0,
+  "hot_reason": "",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

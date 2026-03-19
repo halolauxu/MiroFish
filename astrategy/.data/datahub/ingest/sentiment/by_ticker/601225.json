@@ -1,0 +1,70 @@
+{
+  "ticker": "601225",
+  "company_name": "陕西煤业",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "filing",
+      "title": "陕西煤业股份有限公司2026年2月主要运营数据公告",
+      "summary": "",
+      "publish_date": "2026-03-07",
+      "available_at": "2026-03-07T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "陕西煤业：2025年净利润同比下降25.99%",
+      "summary": "每经AI快讯，3月10日，陕西煤业601225.SH)公告称，2025年营业总收入1581.89亿元，同比减少14.10%；实现归属于上市公司股东的净利润165.48亿元，同比减少25.99%。受市场供需形势变化影响，公司煤炭产品销售价格同比下降，导致经营业绩同比下降。",
+      "publish_date": "2026-03-10",
+      "available_at": "2026-03-10T16:26:33",
+      "sentiment_score": -0.7,
+      "category": "业绩公告",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "陕西煤业股份有限公司2025年度业绩快报公告",
+      "summary": "业绩预告",
+      "publish_date": "2026-03-11",
+      "available_at": "2026-03-11T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "业绩公告",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "1月5日以来首次！沪指盘中一度失守4000点，后市将会怎么走？",
+      "summary": "煤炭板块同样表现活跃，陕西黑猫（601015.SH）、华电能源（600726.SH）涨停，大有能源（600403.SH）、中国神华（601088.SH）、陕西煤业（601225.SH）等多股上涨。",
+      "publish_date": "2026-03-19",
+      "available_at": "2026-03-19T16:07:30",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "煤炭行业今日涨1.82%，主力资金净流入3.61亿元",
+      "summary": "1.03 0.82 -284.72 601101 昊华能源 2.00 3.07 -527.24 600395 盘江股份 -0.67 1.43 -571.07 601001 晋控煤业 2.85 1.85 -1200.48 600188 兖矿能源 3.66 1.86 -1337.67 601225",
+      "publish_date": "2026-03-19",
+      "available_at": "2026-03-19T18:05:43",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 0,
+  "hot_reason": "",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

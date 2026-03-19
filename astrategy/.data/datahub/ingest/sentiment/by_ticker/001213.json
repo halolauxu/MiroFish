@@ -1,0 +1,58 @@
+{
+  "ticker": "001213",
+  "company_name": "中铁特货",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "news",
+      "title": "中铁特货：2025年前三季度净利润4.73亿元",
+      "summary": "中证智能财讯中铁特货（001213）10月31日披露2025年第三季度报告。",
+      "publish_date": "2025-10-30",
+      "available_at": "2025-10-30T20:15:42",
+      "sentiment_score": 0.0,
+      "category": "业绩公告",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "冷链物流概念涨1.32% 主力资金净流入这些股",
+      "summary": "002695 煌上煌 0.59 0.87 -273.92 -5.24 000417 合百集团 0.66 6.53 -274.52 -0.71 000019 深粮控股 1.31 1.96 -301.36 -5.35 603057 紫燕食品 0.35 0.37 -312.11 -11.82 001213",
+      "publish_date": "2025-12-15",
+      "available_at": "2025-12-15T17:03:06",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "中铁特货物流股份有限公司关于副总经理退休离职的公告",
+      "summary": "",
+      "publish_date": "2026-03-03",
+      "available_at": "2026-03-03T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "中铁特货：公司目前拥有的油罐车运输资产主要用于食用油运输，尚未开展原油或其他成品油运输业务",
+      "summary": "每经AI快讯，中铁特货（001213.SZ）3月13日在投资者互动平台表示，公司目前拥有的油罐车运输资产主要用于食用油运输，尚未开展原油或其他成品油运输业务，具体业务情况请关注公司公告。",
+      "publish_date": "2026-03-13",
+      "available_at": "2026-03-13T12:36:48",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 0,
+  "hot_reason": "",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

@@ -1,0 +1,46 @@
+{
+  "ticker": "002595",
+  "company_name": "豪迈科技",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "news",
+      "title": "68只股收盘价创历史新高",
+      "summary": "605060 联德股份 58.03 10.01 机械设备 601869 长飞光纤 211.48 10.00 通信 605287 德才股份 55.67 10.00 建筑装饰 603103 横店影视 40.41 9.99 传媒 002429 兆驰股份 11.37 9.96 家用电器 002595",
+      "publish_date": "2026-02-10",
+      "available_at": "2026-02-10T17:52:08",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "51只股收盘价创历史新高",
+      "summary": "电力设备 605376 博迁新材 114.03 3.45 有色金属 001226 拓山重工 54.39 3.29 机械设备 688593 新相微 28.91 3.21 电子 601869 长飞光纤 218.26 3.21 通信 603391 力聚热能 75.30 2.95 机械设备 002595",
+      "publish_date": "2026-02-11",
+      "available_at": "2026-02-11T23:52:15",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "90只股收盘价创历史新高",
+      "summary": "机械设备 002318 久立特材 35.54 2.45 钢铁 300819 聚杰微纤 53.78 2.32 纺织服饰 002911 佛燃能源 14.88 1.99 公用事业 600487 亨通光电 41.85 1.82 通信 688081 兴图新科 44.02 1.73 国防军工 002595",
+      "publish_date": "2026-02-12",
+      "available_at": "2026-02-12T23:32:43",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 0,
+  "hot_reason": "",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

@@ -1,0 +1,70 @@
+{
+  "ticker": "600143",
+  "company_name": "金发科技",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "filing",
+      "title": "金发科技关于子公司通过高新技术企业认定的公告",
+      "summary": "",
+      "publish_date": "2026-02-27",
+      "available_at": "2026-02-27T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "金发科技：子公司通过高新技术企业重新认定",
+      "summary": "人民财讯3月18日电，金发科技6001433月18日公告，近日，公司全资子公司珠海金发生物材料有限公司（简称“金发生物”）收到由广东省科学技术厅、广东省财政厅和国家税务总局广东省税务局联合颁发的《高新技术企业证书》，发证日期为2025年12月19日，有效期三年。",
+      "publish_date": "2026-03-18",
+      "available_at": "2026-03-18T18:11:46",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "金发科技关于子公司通过高新技术企业重新认定的公告",
+      "summary": "",
+      "publish_date": "2026-03-19",
+      "available_at": "2026-03-19T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "57.58亿元资金今日流出基础化工股",
+      "summary": "18010.08 002734 利民股份 -10.00 13.67 -17837.79 300505 川金诺 -6.72 22.66 -17176.28 600227 赤天化 -6.60 28.48 -16774.48 002165 红宝丽 -6.32 18.64 -14817.87 600143",
+      "publish_date": "2026-03-19",
+      "available_at": "2026-03-19T18:05:40",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "解密主力资金出逃股 连续5日净流出806股",
+      "summary": "4.75 6.68 -17.87 600338 西藏珠峰 5 4.72 11.61 -15.77 300903 科翔股份 6 4.69 5.64 -12.67 002546 新联电子 9 4.64 7.22 -14.57 603667 五洲新春 5 4.63 8.48 -12.11 600143",
+      "publish_date": "2026-03-19",
+      "available_at": "2026-03-19T18:05:45",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 0,
+  "hot_reason": "",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

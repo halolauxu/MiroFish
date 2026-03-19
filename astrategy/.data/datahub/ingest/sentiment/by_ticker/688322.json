@@ -1,0 +1,118 @@
+{
+  "ticker": "688322",
+  "company_name": "奥比中光",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "filing",
+      "title": "关于变更保荐代表人的公告",
+      "summary": "",
+      "publish_date": "2026-02-28",
+      "available_at": "2026-02-28T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "2025年度业绩快报公告",
+      "summary": "业绩预告",
+      "publish_date": "2026-02-28",
+      "available_at": "2026-02-28T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "业绩公告",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "关于以集中竞价交易方式回购公司股份的进展公告",
+      "summary": "股权变动",
+      "publish_date": "2026-03-03",
+      "available_at": "2026-03-03T00:00:00",
+      "sentiment_score": 0.8,
+      "category": "股权变动",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "关于2025年度向特定对象发行A股股票申请收到中国证券监督管理委员会同意注册批复的公告",
+      "summary": "增发融资",
+      "publish_date": "2026-03-11",
+      "available_at": "2026-03-11T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "第二届董事会第二十四次会议决议公告",
+      "summary": "",
+      "publish_date": "2026-03-17",
+      "available_at": "2026-03-17T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "独立董事专门会议2026年第一次会议决议",
+      "summary": "",
+      "publish_date": "2026-03-17",
+      "available_at": "2026-03-17T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "48家公司获海外机构调研",
+      "summary": "262.79 -1.58 电力设备 002920 德赛西威 12 115.45 -1.65 计算机 300718 长盛轴承 1 71.87 -1.86 机械设备 600166 福田汽车 1 2.93 -2.01 汽车 001322 箭牌家居 1 8.47 -2.53 轻工制造 688322",
+      "publish_date": "2026-03-18",
+      "available_at": "2026-03-18T17:06:15",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "MLOps概念涨3.69%，主力资金净流入9股",
+      "summary": "3.98 688232 新点软件 1.74 0.62 288.12 5.93 002232 启明信息 2.44 0.80 23.30 0.40 605398 新炬网络 2.79 1.40 -10.59 -0.16 300366 ST创意 0.97 1.02 -16.26 -0.48 688322",
+      "publish_date": "2026-03-18",
+      "available_at": "2026-03-18T17:06:37",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "近日海外机构调研股名单",
+      "summary": "福田汽车 1 2.86 -6.23 汽车 688082 盛美上海 8 150.47 -6.72 电子 002916 深南电路 4 249.99 -6.78 电子 002138 顺络电子 16 37.45 -8.48 电子 688213 思特威 2 80.94 -9.75 电子 688322",
+      "publish_date": "2026-03-19",
+      "available_at": "2026-03-19T18:04:54",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 0,
+  "hot_reason": "",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

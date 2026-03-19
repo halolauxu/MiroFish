@@ -1,0 +1,94 @@
+{
+  "ticker": "002594",
+  "company_name": "比亚迪",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "filing",
+      "title": "2026年2月产销快报",
+      "summary": "",
+      "publish_date": "2026-03-02",
+      "available_at": "2026-03-02T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "业绩公告",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "002594，重磅发布！午后飙涨",
+      "summary": "【导读】比亚迪将于3月5日召开颠覆性技术发布会 中国基金报记者晨曦 3月2日午后，A股比亚迪股价持续拉升，盘中最高达97.25元/股，涨近9%。截至当日收盘，比亚迪报96.79元/股，涨幅为8.36%；成交额超135亿元，总市值达8824.54亿元。 H股比亚迪股份同步走强",
+      "publish_date": "2026-03-02",
+      "available_at": "2026-03-02T15:36:22",
+      "sentiment_score": 0.0,
+      "category": "产品进展",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "H股公告（股份发行人及根据《上市规则》第十九B章上市的香港预托证券发行人的证券变动月报表）",
+      "summary": "",
+      "publish_date": "2026-03-03",
+      "available_at": "2026-03-03T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "H股公告（董事会会议通告）",
+      "summary": "",
+      "publish_date": "2026-03-12",
+      "available_at": "2026-03-12T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "比亚迪注册多枚“比亚迪天算”商标",
+      "summary": "人民财讯3月12日电，企查查APP显示，近日，比亚迪002594成功注册多枚“比亚迪天算”商标，国际分类包括12类运输工具、42类设计研究、9类科学仪器。",
+      "publish_date": "2026-03-12",
+      "available_at": "2026-03-12T12:07:43",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "23股今日获机构买入评级 12股上涨空间超20%",
+      "summary": "中信出版 华鑫证券 买入 买入 33.02 300788 中信出版 国盛证券 买入 买入 33.02 300972 万辰集团 国金证券 买入 买入 195.09 300972 万辰集团 方正证券 推荐 推荐 195.09 001979 招商蛇口 方正证券 推荐 推荐 9.48 002594",
+      "publish_date": "2026-03-18",
+      "available_at": "2026-03-18T17:57:10",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "hot_topic",
+      "title": "比亚迪",
+      "summary": "雪球关注#5; 雪球讨论#2; 雪球交易#2",
+      "publish_date": "2026-03-19",
+      "available_at": "2026-03-19T00:00:00",
+      "sentiment_score": 0.274,
+      "category": "其他",
+      "urgency": "high",
+      "weight": 1.25,
+      "hot_rank": 3
+    }
+  ],
+  "hot_rank": 3,
+  "hot_reason": "雪球关注#5; 雪球讨论#2; 雪球交易#2",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

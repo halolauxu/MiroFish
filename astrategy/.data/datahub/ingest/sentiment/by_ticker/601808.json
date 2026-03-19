@@ -1,0 +1,142 @@
+{
+  "ticker": "601808",
+  "company_name": "中海油服",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "news",
+      "title": "中海油服601808龙虎榜数据03-03)",
+      "summary": "交易所2026年3月3日公布的交易公开信息显示，中海油服因成为非ST、*ST和S证券连续三个交易日内收盘价格涨幅偏离值累计达到20%的证券上榜。中海油服当日收报20.42元，涨跌幅10.02%，换手率3.92%，成交额23.02亿。异常期间3月2日至3月3日，期间涨幅21.04%，",
+      "publish_date": "2026-03-03",
+      "available_at": "2026-03-03T16:57:34",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "中海油服关于A股股票交易异常波动的公告",
+      "summary": "",
+      "publish_date": "2026-03-04",
+      "available_at": "2026-03-04T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "中海油服601808龙虎榜数据03-04)",
+      "summary": "交易所2026年3月4日公布的交易公开信息显示，中海油服因成为有价格涨跌幅限制的日价格振幅达到15%的前五只证券上榜。中海油服当日收报20.68元，涨跌幅1.27%，偏离值18.88%，换手率5.74%，成交额34.68亿。 免责声明：本文基于AI生产，仅供参考，不构成任何投资建议",
+      "publish_date": "2026-03-04",
+      "available_at": "2026-03-04T16:57:01",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "中海油服H股公告-董事会会议公告",
+      "summary": "",
+      "publish_date": "2026-03-06",
+      "available_at": "2026-03-06T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "中海油服H股公告-建议发行有担保票据",
+      "summary": "",
+      "publish_date": "2026-03-09",
+      "available_at": "2026-03-09T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "中海油服H股公告-发行于2029年到期之5,000,000,000人民币1.95厘利率有担保票据",
+      "summary": "",
+      "publish_date": "2026-03-10",
+      "available_at": "2026-03-10T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "中海油服关于为全资子公司提供担保的公告",
+      "summary": "",
+      "publish_date": "2026-03-17",
+      "available_at": "2026-03-17T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "中海油服H股公告-于2029年到期之5,000,000,000人民币1.95厘利率有担保票据刊发发售通函",
+      "summary": "",
+      "publish_date": "2026-03-17",
+      "available_at": "2026-03-17T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "中海油服H股公告-于2029年到期之5,000,000,000人民币1.95厘利率有担保票据上市的通告",
+      "summary": "",
+      "publish_date": "2026-03-17",
+      "available_at": "2026-03-17T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "中海油服子公司成功发行50亿元境外人民币债券 票面利率1.95%",
+      "summary": "3月17日，中海油服（601808/02883）发布公告，公司的全资子公司COSL Singapore Capital Ltd.在境外成功发行50亿元人民币债券，资金主要用于偿还企业债务及一般企业用途。",
+      "publish_date": "2026-03-17",
+      "available_at": "2026-03-17T17:18:59",
+      "sentiment_score": 0.0,
+      "category": "产品进展",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "中海油服全资子公司发行境外人民币债券完成的公告",
+      "summary": "",
+      "publish_date": "2026-03-18",
+      "available_at": "2026-03-18T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 0,
+  "hot_reason": "",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

@@ -1,0 +1,70 @@
+{
+  "ticker": "300223",
+  "company_name": "北京君正",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "filing",
+      "title": "关于持股5%以上股东减持股份触及1%整数倍的公告",
+      "summary": "股权变动",
+      "publish_date": "2026-03-11",
+      "available_at": "2026-03-11T18:10:28",
+      "sentiment_score": -0.78,
+      "category": "股权变动",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "北京君正：公司DDR4和LPDDR4已经量产销售",
+      "summary": "北京君正（300223.SZ）3月17日在投资者互动平台表示，公司DDR4和LPDDR4已经量产销售，公司不对外披露各细分品类的销量。",
+      "publish_date": "2026-03-17",
+      "available_at": "2026-03-17T17:52:53",
+      "sentiment_score": 0.22,
+      "category": "产品进展",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "北京君正：公司DRAM产品自去年三季度以来持续在调整价格，不同产品价格调整幅度不同",
+      "summary": "北京君正（300223.SZ）3月17日在投资者互动平台表示，公司DRAM产品自去年三季度以来持续在调整价格，不同产品价格调整幅度不同。",
+      "publish_date": "2026-03-17",
+      "available_at": "2026-03-17T17:52:53",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "关于持股5%以上股东减持股份触及1%整数倍的公告",
+      "summary": "股权变动",
+      "publish_date": "2026-03-19",
+      "available_at": "2026-03-19T17:42:29",
+      "sentiment_score": -0.78,
+      "category": "股权变动",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "北京君正：武岳峰集电减持1%公司股份",
+      "summary": "3月19日，北京君正（300223）发布公告，股东上海武岳峰集成电路股权投资合伙企业（有限合伙）通过集中竞价方式减持股份483万股，占公司总股本的1%。 2025年前三季度，北京君正实现收入34.37亿元，归母净利润2.44亿元。",
+      "publish_date": "2026-03-19",
+      "available_at": "2026-03-19T17:58:57",
+      "sentiment_score": -0.78,
+      "category": "业绩公告",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 0,
+  "hot_reason": "",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

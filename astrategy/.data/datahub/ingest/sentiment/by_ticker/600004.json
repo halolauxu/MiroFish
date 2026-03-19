@@ -1,0 +1,82 @@
+{
+  "ticker": "600004",
+  "company_name": "白云机场",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "filing",
+      "title": "广州白云国际机场股份有限公司关于白云机场T1航站楼运营安排及后续升级改造、三期资产使用有关情况的公告",
+      "summary": "",
+      "publish_date": "2026-03-03",
+      "available_at": "2026-03-03T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "白云机场：2月旅客吞吐量同比增长18.39%",
+      "summary": "人民财讯3月10日电，白云机场6000043月10日公告，公司2月旅客吞吐量747.59万人次，同比增长18.39%，1月—2月累计旅客吞吐量1497.97万人次，同比增长11.26%",
+      "publish_date": "2026-03-10",
+      "available_at": "2026-03-10T16:59:50",
+      "sentiment_score": 0.2,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "广州白云国际机场股份有限公司2026年2月生产经营数据快报",
+      "summary": "",
+      "publish_date": "2026-03-11",
+      "available_at": "2026-03-11T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "业绩公告",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "白云机场：与中免集团签署T2航站楼出境免税项目经营合作合同",
+      "summary": "白云机场6000043月12日公告，公司和中国免税品(集团)有限责任公司（简称“中免集团”）签署了T2航站楼出境免税项目经营合作合同，公司将特定场地的经营权在合同期限内转让给中免集团，由中免集团在上述区域经营国家政策允许范围内的免税商品。",
+      "publish_date": "2026-03-12",
+      "available_at": "2026-03-12T17:59:30",
+      "sentiment_score": 0.0,
+      "category": "重大合同",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "白云机场：与中免集团签署T2航站楼出境免税项目经营合作合同",
+      "summary": "每经AI快讯，3月12日，白云机场600004.SH)公告称，公司和中国免税品(集团)有限责任公司（简称“中免集团”）签署了T2航站楼出境免税项目经营合作合同，公司将特定场地的经营权在合同期限内转让给中免集团，由中免集团在上述区域经营国家政策允许范围内的免税商品。",
+      "publish_date": "2026-03-12",
+      "available_at": "2026-03-12T18:16:08",
+      "sentiment_score": 0.0,
+      "category": "重大合同",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "广州白云国际机场股份有限公司关于T2航站楼出境免税项目经营合作合同的公告",
+      "summary": "重大合同",
+      "publish_date": "2026-03-13",
+      "available_at": "2026-03-13T00:00:00",
+      "sentiment_score": 1.0,
+      "category": "重大合同",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 0,
+  "hot_reason": "",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

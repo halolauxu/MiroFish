@@ -1,0 +1,82 @@
+{
+  "ticker": "600312",
+  "company_name": "平高电气",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "filing",
+      "title": "河南平高电气股份有限公司第九届董事会第十六次会议决议公告",
+      "summary": "",
+      "publish_date": "2026-03-10",
+      "available_at": "2026-03-10T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "河南平高电气股份有限公司关于开展外汇金融衍生业务计划的公告",
+      "summary": "",
+      "publish_date": "2026-03-10",
+      "available_at": "2026-03-10T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "平高电气第九届董事会第十六次会议决议33",
+      "summary": "",
+      "publish_date": "2026-03-10",
+      "available_at": "2026-03-10T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "解密主力资金出逃股 连续5日净流出534股",
+      "summary": "3.62 4.84 -19.14 002664 信质集团 19 3.57 9.24 -19.26 600452 涪陵电力 6 3.50 3.95 -7.65 000534 万泽股份 5 3.39 4.23 -13.58 301236 软通动力 5 3.36 8.11 -6.35 600312",
+      "publish_date": "2026-03-16",
+      "available_at": "2026-03-16T17:13:04",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "解密主力资金出逃股 连续5日净流出675股",
+      "summary": "4.08 6.91 -6.26 600763 通策医疗 15 4.07 6.03 -14.40 000758 中色股份 13 4.06 5.03 -21.46 300708 聚灿光电 5 4.02 8.28 -9.05 300520 科大国创 6 3.96 10.75 -9.84 600312",
+      "publish_date": "2026-03-18",
+      "available_at": "2026-03-18T17:07:22",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "解密主力资金出逃股 连续5日净流出806股",
+      "summary": "4.45 7.89 -1.68 600452 涪陵电力 9 4.41 3.94 -11.45 000758 中色股份 14 4.40 5.20 -25.88 600763 通策医疗 16 4.38 6.13 -16.82 300708 聚灿光电 6 4.33 8.19 -11.51 600312",
+      "publish_date": "2026-03-19",
+      "available_at": "2026-03-19T18:05:45",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 0,
+  "hot_reason": "",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

@@ -1,0 +1,36 @@
+[
+  {
+    "ticker": "600031",
+    "company_name": "三一重工",
+    "title": "三一重工股份有限公司关于回购公司A股股份的进展公告",
+    "announcement_type": "股权变动",
+    "publish_date": "2026-03-02",
+    "publish_time": "2026-03-02",
+    "link": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=600031&announcementId=1224989488&orgId=gssh0600031&announcementTime=2026-03-02",
+    "source": "cninfo.disclosure_report",
+    "raw": {
+      "代码": "600031",
+      "简称": "三一重工",
+      "公告标题": "三一重工股份有限公司关于回购公司A股股份的进展公告",
+      "公告时间": "2026-03-02",
+      "公告链接": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=600031&announcementId=1224989488&orgId=gssh0600031&announcementTime=2026-03-02"
+    }
+  },
+  {
+    "ticker": "600031",
+    "company_name": "三一重工",
+    "title": "三一重工股份有限公司H股公告-证券变动月报表",
+    "announcement_type": "",
+    "publish_date": "2026-03-06",
+    "publish_time": "2026-03-06",
+    "link": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=600031&announcementId=1224997177&orgId=gssh0600031&announcementTime=2026-03-06",
+    "source": "cninfo.disclosure_report",
+    "raw": {
+      "代码": "600031",
+      "简称": "三一重工",
+      "公告标题": "三一重工股份有限公司H股公告-证券变动月报表",
+      "公告时间": "2026-03-06",
+      "公告链接": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=600031&announcementId=1224997177&orgId=gssh0600031&announcementTime=2026-03-06"
+    }
+  }
+]

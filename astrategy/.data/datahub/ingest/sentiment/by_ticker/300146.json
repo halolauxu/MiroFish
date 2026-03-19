@@ -1,0 +1,58 @@
+{
+  "ticker": "300146",
+  "company_name": "汤臣倍健",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "news",
+      "title": "食品饮料行业今日净流入资金26.05亿元，贵州茅台等6股净流入资金超亿元",
+      "summary": "主力资金流量（万元） 000995 皇台酒业 -1.61 41.82 -11413.68 600186 莲花控股 -5.94 8.31 -8153.74 002582 好想你 -2.84 10.43 -6194.33 600779 水井坊 -0.98 3.57 -3671.00 300146",
+      "publish_date": "2026-02-04",
+      "available_at": "2026-02-04T16:48:07",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "汤臣倍健：已递交轻络素相关的新功能申报及产品注册申请，目前尚在审批中",
+      "summary": "汤臣倍健（300146.SZ）2月28日在投资者互动平台表示，公司已递交轻络素相关的新功能申报及产品注册申请，目前尚在审批中。相关产品进展请以公司官方发布的信息为准。",
+      "publish_date": "2026-02-28",
+      "available_at": "2026-02-28T22:30:11",
+      "sentiment_score": 0.0,
+      "category": "产品进展",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "汤臣倍健：公司积极开拓海外业务，产品已覆盖澳洲、东南亚等多个市场",
+      "summary": "汤臣倍健（300146.SZ）3月6日在投资者互动平台表示，公司积极开拓海外业务，产品已覆盖澳洲、东南亚等多个市场，目前已进入新加坡、马来西亚、越南、泰国等多个国家重点线下连锁渠道，拓展东南亚多国兴趣电商渠道，并稳步推进美国主流线上渠道覆盖。",
+      "publish_date": "2026-03-06",
+      "available_at": "2026-03-06T18:20:29",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "hot_topic",
+      "title": "汤臣倍健",
+      "summary": "雪球关注#43",
+      "publish_date": "2026-03-19",
+      "available_at": "2026-03-19T00:00:00",
+      "sentiment_score": 0.08,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.25,
+      "hot_rank": 130
+    }
+  ],
+  "hot_rank": 130,
+  "hot_reason": "雪球关注#43",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

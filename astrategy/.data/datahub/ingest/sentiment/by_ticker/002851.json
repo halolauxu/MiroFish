@@ -1,0 +1,82 @@
+{
+  "ticker": "002851",
+  "company_name": "麦格米特",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "filing",
+      "title": "关于审计机构变更项目合伙人、签字注册会计师及项目质量控制复核人的公告",
+      "summary": "",
+      "publish_date": "2026-03-09",
+      "available_at": "2026-03-09T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "关于继续使用部分闲置募集资金进行现金管理的公告",
+      "summary": "",
+      "publish_date": "2026-03-14",
+      "available_at": "2026-03-14T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "麦格米特：暂无拆分怡和卫浴单独上市的相关计划",
+      "summary": "麦格米特（002851.SZ）3月16日在投资者互动平台表示，暂无相关计划。",
+      "publish_date": "2026-03-16",
+      "available_at": "2026-03-16T11:47:03",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "hot_topic",
+      "title": "麦格米特",
+      "summary": "雪球讨论#47",
+      "publish_date": "2026-03-19",
+      "available_at": "2026-03-19T00:00:00",
+      "sentiment_score": 0.08,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.25,
+      "hot_rank": 156
+    },
+    {
+      "source_type": "news",
+      "title": "电力设备行业今日跌2.10%，主力资金净流出124.96亿元",
+      "summary": "23156.17 000533 顺钠股份 -5.92 29.33 -22987.58 300450 先导智能 -2.69 2.47 -22250.49 600482 中国动力 -4.99 2.12 -21744.16 601727 上海电气 -1.95 1.11 -20811.08 002851",
+      "publish_date": "2026-03-19",
+      "available_at": "2026-03-19T18:05:29",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "解密主力资金出逃股 连续5日净流出806股",
+      "summary": "9.66 4.46 -17.20 600108 亚盛集团 6 9.43 7.72 -19.48 603077 和邦生物 5 9.34 9.80 -15.02 002179 中航光电 5 9.14 13.10 -8.52 002402 和而泰 16 9.03 7.18 -16.87 002851",
+      "publish_date": "2026-03-19",
+      "available_at": "2026-03-19T18:05:45",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 156,
+  "hot_reason": "雪球讨论#47",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

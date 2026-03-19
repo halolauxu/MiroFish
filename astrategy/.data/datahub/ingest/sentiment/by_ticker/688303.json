@@ -1,0 +1,94 @@
+{
+  "ticker": "688303",
+  "company_name": "大全能源",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "news",
+      "title": "大全能源：2025年度净利润亏损11.29亿元",
+      "summary": "大全能源688303.SH)公告称，2025年实现营业收入48.39亿元，同比减少34.71%；归属于上市公司股东的净亏损11.29亿元，持续亏损。主要原因为报告期内生产成本降低与运营效率提升。",
+      "publish_date": "2026-02-26",
+      "available_at": "2026-02-26T20:21:43",
+      "sentiment_score": -0.84,
+      "category": "业绩公告",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "大全能源：控股股东预计2026年第一季度多晶硅产量3.5万—4万吨",
+      "summary": "人民财讯2月26日电，大全能源6883032月26日公告，开曼大全为公司的控股股东，系一家于美国纽约证券交易所上市的公司。开曼大全预计2026年第一季度多晶硅产量3.5万—4万吨。考虑年度产线检修的影响，预计2026年全年多晶硅产量14万—17万吨。",
+      "publish_date": "2026-02-26",
+      "available_at": "2026-02-26T21:08:32",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "大全能源关于自愿披露公司控股股东2025年第四季度及全年业绩以及2026年第一季度及2026年度产量预测的公告",
+      "summary": "",
+      "publish_date": "2026-02-27",
+      "available_at": "2026-02-27T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "业绩公告",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "大全能源2025年度业绩快报公告",
+      "summary": "业绩预告",
+      "publish_date": "2026-02-27",
+      "available_at": "2026-02-27T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "业绩公告",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "大全新能源公司2025年第4季度及2025年度业绩情况说明",
+      "summary": "",
+      "publish_date": "2026-02-27",
+      "available_at": "2026-02-27T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "业绩公告",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "大全能源关于以集中竞价交易方式回购公司股份的进展公告",
+      "summary": "股权变动",
+      "publish_date": "2026-03-04",
+      "available_at": "2026-03-04T00:00:00",
+      "sentiment_score": 0.8,
+      "category": "股权变动",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "80只科创板股融资余额增加超1000万元",
+      "summary": "116424.63 2158.97 1.89 2.42 688629 华丰科技 154445.59 2060.14 1.35 -6.44 688021 奥福科技 6934.71 2056.48 42.16 4.92 688679 通源环境 34058.66 1946.79 6.06 1.13 688303",
+      "publish_date": "2026-03-13",
+      "available_at": "2026-03-13T09:48:24",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 0,
+  "hot_reason": "",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

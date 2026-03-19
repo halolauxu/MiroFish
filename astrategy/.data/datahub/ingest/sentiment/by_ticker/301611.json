@@ -1,0 +1,106 @@
+{
+  "ticker": "301611",
+  "company_name": "珂玛科技",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "filing",
+      "title": "苏州珂玛材料科技股份有限公司薪酬与考核委员会关于公司2025年限制性股票激励计划激励对象名单（预留授予日）的核查意见",
+      "summary": "股权激励",
+      "publish_date": "2026-03-09",
+      "available_at": "2026-03-09T18:06:09",
+      "sentiment_score": 0.0,
+      "category": "股权变动",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "第三届董事会第十次会议决议公告",
+      "summary": "",
+      "publish_date": "2026-03-09",
+      "available_at": "2026-03-09T18:06:09",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "关于签署股权收购意向书的公告",
+      "summary": "",
+      "publish_date": "2026-03-09",
+      "available_at": "2026-03-09T18:06:09",
+      "sentiment_score": 0.0,
+      "category": "资产重组",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "关于向激励对象授予预留部分限制性股票的公告",
+      "summary": "股权激励",
+      "publish_date": "2026-03-09",
+      "available_at": "2026-03-09T18:06:09",
+      "sentiment_score": 0.0,
+      "category": "股权变动",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "301611重要收购！3股获机构大幅净买入",
+      "summary": "珂玛科技301611：公司签署收购意向书，拟筹划以自有资金向江苏霍克海默光学科技有限公司（简称“霍克海默”）增资或收购其控股股东闫新持有的霍克海默股权，以实现收购霍克海默的目的。霍克海默是一家专注于半导体零部件加工、电镀等表面处理领域的高科技企业。",
+      "publish_date": "2026-03-09",
+      "available_at": "2026-03-09T22:22:20",
+      "sentiment_score": 0.0,
+      "category": "资产重组",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "关于为子公司提供担保的进展公告",
+      "summary": "",
+      "publish_date": "2026-03-12",
+      "available_at": "2026-03-12T15:44:29",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "光刻机概念下跌4.25%，7股主力资金净流出超亿元",
+      "summary": "4.32 -6795.82 688268 华特气体 -5.54 7.43 -5268.27 603738 泰晶科技 -9.72 16.10 -5054.54 300219 鸿利智汇 -3.92 5.91 -4923.45 688146 中船特气 -5.30 6.07 -4283.51 301611",
+      "publish_date": "2026-03-17",
+      "available_at": "2026-03-17T17:22:50",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "创业板股融资余额增幅榜（附股）",
+      "summary": "机械设备 301225 恒勃股份 12197.13 -11.57 106.20 -5.37 汽车 300967 晓鸣股份 11277.96 -11.49 19.75 -4.64 农林牧渔 301217 铜冠铜箔 34800.69 -10.92 39.85 -6.10 电力设备 301611",
+      "publish_date": "2026-03-18",
+      "available_at": "2026-03-18T09:52:54",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 0,
+  "hot_reason": "",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

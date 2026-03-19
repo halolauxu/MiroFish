@@ -1,0 +1,58 @@
+{
+  "ticker": "300724",
+  "company_name": "捷佳伟创",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "filing",
+      "title": "关于完成工商变更登记的公告",
+      "summary": "",
+      "publish_date": "2026-03-17",
+      "available_at": "2026-03-17T17:01:11",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "捷佳伟创：公司目前在手订单以TOPCon为主，公司海外订单和钙钛矿设备订单保持增长",
+      "summary": "捷佳伟创（300724.SZ）3月18日在投资者互动平台表示，公司合同负债情况请详见4月底即将披露的2025年年报及2026年一季报。",
+      "publish_date": "2026-03-18",
+      "available_at": "2026-03-18T17:23:37",
+      "sentiment_score": 0.55,
+      "category": "重大合同",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "捷佳伟创：公司现已具备超薄p型异质结电池及其钙钛矿叠层电池的量产制造能力",
+      "summary": "捷佳伟创（300724.SZ）3月18日在投资者互动平台表示，公司作为太阳能电池整线方案领域的领军提供商，凭借在光伏高端装备领域深厚的技术积淀与强大的平台优势，现已具备超薄p型异质结电池及其钙钛矿叠层电池的量产制造能力。公司愿与各方携手共同推进新技术在新领域的运用。",
+      "publish_date": "2026-03-18",
+      "available_at": "2026-03-18T17:32:06",
+      "sentiment_score": 0.22,
+      "category": "产品进展",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "捷佳伟创：公司自布局钙钛矿领域以来，已与多个领域的客户展开合作并提供核心或整线设备",
+      "summary": "捷佳伟创（300724.SZ）3月18日在投资者互动平台表示，公司在钙钛矿设备领域紧跟技术发展和客户需求，不断创新持续突破，具备提供钙钛矿电池整线设备及工艺解决方案能力。",
+      "publish_date": "2026-03-18",
+      "available_at": "2026-03-18T17:44:27",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 0,
+  "hot_reason": "",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

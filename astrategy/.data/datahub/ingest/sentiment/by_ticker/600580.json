@@ -1,0 +1,82 @@
+{
+  "ticker": "600580",
+  "company_name": "卧龙电驱",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "filing",
+      "title": "卧龙电驱关于发行H股并上市的进展公告",
+      "summary": "",
+      "publish_date": "2026-03-02",
+      "available_at": "2026-03-02T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "卧龙电驱关于2025年度部分财务数据的自愿性披露公告",
+      "summary": "",
+      "publish_date": "2026-03-02",
+      "available_at": "2026-03-02T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "卧龙电驱、智元机器人等成立智龙未来机器人公司，注册资本2000万",
+      "summary": "股东信息显示，该公司由卧龙电驱（600580）、智元机器人关联公司智元创新（上海）科技股份有限公司、浙江智鼎机器人有限公司、绍兴市上虞江科数智产业发展有限公司共同持股。",
+      "publish_date": "2026-03-10",
+      "available_at": "2026-03-10T15:58:19",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "解密主力资金出逃股 连续5日净流出675股",
+      "summary": "4.44 9.07 -2.05 002546 新联电子 8 4.40 7.22 -12.03 600268 国电南自 5 4.36 9.22 -15.15 600452 涪陵电力 8 4.16 3.99 -11.32 000603 盛达资源 6 4.13 7.96 -10.73 600580",
+      "publish_date": "2026-03-18",
+      "available_at": "2026-03-18T17:07:22",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "hot_topic",
+      "title": "卧龙电驱",
+      "summary": "雪球讨论#113; 雪球交易#94",
+      "publish_date": "2026-03-19",
+      "available_at": "2026-03-19T00:00:00",
+      "sentiment_score": 0.08,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.25,
+      "hot_rank": 125
+    },
+    {
+      "source_type": "news",
+      "title": "解密主力资金出逃股 连续5日净流出806股",
+      "summary": "5.72 12.88 -8.28 000603 盛达资源 7 5.72 8.91 -17.78 000807 云铝股份 6 5.69 3.59 -13.52 688126 沪硅产业 16 5.65 6.10 -15.53 601991 大唐发电 5 5.61 4.54 -8.73 600580",
+      "publish_date": "2026-03-19",
+      "available_at": "2026-03-19T18:05:45",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 125,
+  "hot_reason": "雪球讨论#113; 雪球交易#94",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

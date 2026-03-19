@@ -1,0 +1,82 @@
+{
+  "ticker": "600739",
+  "company_name": "辽宁成大",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "filing",
+      "title": "辽宁成大股份有限公司关于股东股份解质押的公告",
+      "summary": "",
+      "publish_date": "2026-03-03",
+      "available_at": "2026-03-03T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "辽宁成大股份有限公司关于股东股份解质押的公告",
+      "summary": "",
+      "publish_date": "2026-03-05",
+      "available_at": "2026-03-05T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "辽宁成大股份有限公司关于股东股份质押的公告",
+      "summary": "",
+      "publish_date": "2026-03-07",
+      "available_at": "2026-03-07T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "今日72只个股突破半年线",
+      "summary": "3.52 1.30 2.61 2.65 1.66 603086 先达股份 6.61 14.67 8.74 8.87 1.53 600927 永安期货 3.27 0.92 15.25 15.47 1.47 688410 山外山 2.83 2.34 15.76 15.99 1.47 600739",
+      "publish_date": "2026-03-12",
+      "available_at": "2026-03-12T16:26:57",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "融资客看好6股 买入占成交比例超三成",
+      "summary": "（数据宝） 3月18日融资买入占成交额居前个股 证券代码 证券简称 融资买入额（万元） 成交金额（万元) 融资买入占比（%) 涨跌幅(%) 600739 辽宁成大 9373.46 23112.84 40.56 0.33 000539 粤电力A 5956.58 14713.29",
+      "publish_date": "2026-03-19",
+      "available_at": "2026-03-19T11:02:47",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "辽宁成大：新疆宝明已长期停产，公司不再追加大额现金投入",
+      "summary": "辽宁成大（600739.SH）3月19日在投资者互动平台表示，新疆宝明已长期停产，公司不再追加大额现金投入，后续如有进展，将按照相关规定履行信披义务。",
+      "publish_date": "2026-03-19",
+      "available_at": "2026-03-19T17:14:31",
+      "sentiment_score": -0.42,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 0,
+  "hot_reason": "",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

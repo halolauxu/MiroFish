@@ -1,0 +1,142 @@
+{
+  "ticker": "300308",
+  "company_name": "中际旭创",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "news",
+      "title": "300308，成交额A股第一",
+      "summary": "沪深北三市半日成交14592亿元，中际旭创（300308）成交额140.60亿元，位居A股第一。 盘面上，大消费板块逆势上涨，杭州解百2连板，海欣食品、安记食品涨停。影视股盘中走强，浙文影业（601599）开盘2分钟，直线拉升涨停；横店影视走出6天5板。",
+      "publish_date": "2026-02-05",
+      "available_at": "2026-02-05T13:09:39",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "2025年度业绩快报",
+      "summary": "业绩预告",
+      "publish_date": "2026-02-28",
+      "available_at": "2026-02-28T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "业绩公告",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "关于特定股东部分股票解除质押及延期购回的公告",
+      "summary": "",
+      "publish_date": "2026-03-07",
+      "available_at": "2026-03-07T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "中际旭创授予110万股限制性股票，授予价53.1元/股",
+      "summary": "3月13日，中际旭创（300308）发布公告，宣布向第四期限制性股票激励计划的激励对象授予预留限制性股票。 此次授予的限制性股票数量为110万股，授予价格为53.1元/股，授予日为2026年3月12日。",
+      "publish_date": "2026-03-13",
+      "available_at": "2026-03-13T19:09:31",
+      "sentiment_score": 0.0,
+      "category": "产品进展",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "薪酬与考核委员会关于公司第四期股权激励计划预留部分授予及激励对象名单的核查意见",
+      "summary": "股权激励",
+      "publish_date": "2026-03-14",
+      "available_at": "2026-03-14T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "股权变动",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "第四期限制性股票激励计划预留部分激励对象名单（授予日）",
+      "summary": "股权激励",
+      "publish_date": "2026-03-14",
+      "available_at": "2026-03-14T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "股权变动",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "第五届董事会第二十八次会议决议公告",
+      "summary": "",
+      "publish_date": "2026-03-14",
+      "available_at": "2026-03-14T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "关于调整第四期限制性股票激励计划预留部分授予价格的公告",
+      "summary": "股权激励",
+      "publish_date": "2026-03-14",
+      "available_at": "2026-03-14T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "股权变动",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "关于向第四期限制性股票激励计划激励对象授予预留限制性股票的公告",
+      "summary": "股权激励",
+      "publish_date": "2026-03-14",
+      "available_at": "2026-03-14T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "股权变动",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "9只个股大宗交易超5000万元",
+      "summary": "6.81 3000.00 19320.00 1 6.44 -5.43 300394 天孚通信 -10.02 280.00 49.34 13812.56 2 279.95 -0.02 002217 合力泰 3.49 2.67 3500.00 9135.00 2 2.61 -2.25 300308",
+      "publish_date": "2026-03-17",
+      "available_at": "2026-03-17T19:43:02",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "hot_topic",
+      "title": "中际旭创",
+      "summary": "雪球关注#177; 雪球讨论#11; 雪球交易#12",
+      "publish_date": "2026-03-19",
+      "available_at": "2026-03-19T00:00:00",
+      "sentiment_score": 0.208,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.25,
+      "hot_rank": 36
+    }
+  ],
+  "hot_rank": 36,
+  "hot_reason": "雪球关注#177; 雪球讨论#11; 雪球交易#12",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

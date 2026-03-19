@@ -1,0 +1,36 @@
+[
+  {
+    "ticker": "600941",
+    "company_name": "中国移动",
+    "title": "中国移动：月报表",
+    "announcement_type": "",
+    "publish_date": "2026-03-05",
+    "publish_time": "2026-03-05",
+    "link": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=600941&announcementId=1224995981&orgId=gshk0000941&announcementTime=2026-03-05",
+    "source": "cninfo.disclosure_report",
+    "raw": {
+      "代码": "600941",
+      "简称": "中国移动",
+      "公告标题": "中国移动：月报表",
+      "公告时间": "2026-03-05",
+      "公告链接": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=600941&announcementId=1224995981&orgId=gshk0000941&announcementTime=2026-03-05"
+    }
+  },
+  {
+    "ticker": "600941",
+    "company_name": "中国移动",
+    "title": "港股公告：董事会会议召开日期",
+    "announcement_type": "",
+    "publish_date": "2026-03-17",
+    "publish_time": "2026-03-17",
+    "link": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=600941&announcementId=1225011667&orgId=gshk0000941&announcementTime=2026-03-17",
+    "source": "cninfo.disclosure_report",
+    "raw": {
+      "代码": "600941",
+      "简称": "中国移动",
+      "公告标题": "港股公告：董事会会议召开日期",
+      "公告时间": "2026-03-17",
+      "公告链接": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=600941&announcementId=1225011667&orgId=gshk0000941&announcementTime=2026-03-17"
+    }
+  }
+]

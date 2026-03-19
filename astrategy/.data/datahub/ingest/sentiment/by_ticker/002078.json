@@ -1,0 +1,58 @@
+{
+  "ticker": "002078",
+  "company_name": "太阳纸业",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "news",
+      "title": "太阳纸业业绩快报：2025年净利润32.58亿元 同比增长5.05%",
+      "summary": "太阳纸业002078发布业绩快报，2025年度营业总收入391.84亿元，同比降低3.79%；归母净利润32.58亿元，同比增长5.05%。报告期内公司新上项目产能带动，相关产品产销量增加，公司原料采购成本费用、管理成本控制较好。",
+      "publish_date": "2026-02-27",
+      "available_at": "2026-02-27T19:13:06",
+      "sentiment_score": 0.2,
+      "category": "业绩公告",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "2025年度业绩快报",
+      "summary": "业绩预告",
+      "publish_date": "2026-02-28",
+      "available_at": "2026-02-28T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "业绩公告",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "太阳纸业：2025年净利32.58亿元 同比增长5.05%",
+      "summary": "中证智能财讯太阳纸业（002078）2月27日晚间披露2025年业绩快报，公司实现营业收入391.84亿元，同比下降3.79%；归母净利润32.58亿元，同比增长5.05%；扣非净利润32亿元，同比下降1.07%；基本每股收益1.1658元，加权平均净资产收益率为10.95%。",
+      "publish_date": "2026-02-28",
+      "available_at": "2026-02-28T09:07:24",
+      "sentiment_score": -0.5,
+      "category": "业绩公告",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "代糖概念涨3.74%，主力资金净流入15股",
+      "summary": "今日换手率（%） 主力资金流量（万元） 主力资金净流入比率（%） 600108 亚盛集团 9.96 25.32 14324.85 5.53 000930 中粮科技 7.62 4.93 5868.25 9.03 600500 中化国际 5.51 2.29 2932.48 7.58 002078",
+      "publish_date": "2026-03-06",
+      "available_at": "2026-03-06T18:09:22",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 0,
+  "hot_reason": "",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

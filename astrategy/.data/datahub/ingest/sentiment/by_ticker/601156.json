@@ -1,0 +1,58 @@
+{
+  "ticker": "601156",
+  "company_name": "东航物流",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "news",
+      "title": "25.26亿元主力资金今日撤离交通运输板块",
+      "summary": "9.97 5.13 7874.78 601006 大秦铁路 0.39 0.98 5990.04 002928 华夏航空 -4.51 3.78 4040.88 000626 远大控股 3.46 6.32 3308.55 600350 山东高速 -1.14 0.40 1882.28 601156",
+      "publish_date": "2026-03-09",
+      "available_at": "2026-03-09T17:10:12",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "东航物流：股东拟减持不超1%公司股份",
+      "summary": "人民财讯3月18日电，东航物流6011563月18日公告，因自身资金规划安排，持股5.3%的股东天津睿远企业管理合伙企业（有限合伙）拟通过集中竞价交易方式减持不超过1587.56万股，减持比例不超过1%。具体减持价格将按市场价格确定。",
+      "publish_date": "2026-03-18",
+      "available_at": "2026-03-18T23:12:15",
+      "sentiment_score": -0.78,
+      "category": "股权变动",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "东航物流关于5%以上股东减持股份计划公告",
+      "summary": "股权变动",
+      "publish_date": "2026-03-19",
+      "available_at": "2026-03-19T00:00:00",
+      "sentiment_score": -0.78,
+      "category": "股权变动",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "东航物流股东天津睿远计划减持不超1588万股",
+      "summary": "3月18日，东航物流（601156.SH）发布公告，股东天津睿远企业管理合伙企业（有限合伙）因自身资金规划安排，计划在2026年4月10日至2026年7月9日期间，通过集中竞价交易方式减持不超过1588万股，约占公司总股本的1%。",
+      "publish_date": "2026-03-19",
+      "available_at": "2026-03-19T10:58:37",
+      "sentiment_score": -0.78,
+      "category": "股权变动",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 0,
+  "hot_reason": "",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

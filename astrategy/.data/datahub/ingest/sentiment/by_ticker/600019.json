@@ -1,0 +1,106 @@
+{
+  "ticker": "600019",
+  "company_name": "宝钢股份",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "filing",
+      "title": "宝钢股份薪酬与考核委员会关于公司第四期A股限制性股票计划（草案修订稿）相关事项的核查意见",
+      "summary": "股权激励",
+      "publish_date": "2026-03-05",
+      "available_at": "2026-03-05T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "股权变动",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "宝钢股份第四期A股限制性股票计划（草案修订稿）摘要公告",
+      "summary": "股权激励",
+      "publish_date": "2026-03-05",
+      "available_at": "2026-03-05T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "股权变动",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "宝钢股份第四期A股限制性股票计划（草案修订稿）",
+      "summary": "股权激励",
+      "publish_date": "2026-03-05",
+      "available_at": "2026-03-05T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "股权变动",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "宝钢股份第四期A股限制性股票计划管理办法",
+      "summary": "股权激励",
+      "publish_date": "2026-03-05",
+      "available_at": "2026-03-05T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "股权变动",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "宝钢股份第九届董事会第七次会议决议公告",
+      "summary": "",
+      "publish_date": "2026-03-05",
+      "available_at": "2026-03-05T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "特钢概念下跌3.14%，主力资金净流出37股",
+      "summary": "特钢概念资金流出榜 代码 简称 今日涨跌幅（%） 今日换手率（%） 主力资金流量（万元） 600010 包钢股份 -1.74 4.12 -59617.47 600019 宝钢股份 -3.23 1.37 -31468.28 600126 杭钢股份 -2.92 4.96 -8845.24",
+      "publish_date": "2026-03-16",
+      "available_at": "2026-03-16T17:13:05",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "杠杆资金大手笔加仓股名单",
+      "summary": "宝钢股份 -3.23 20823.64 142757.55 0.95 钢铁 001309 德明利 10.00 20610.36 499513.66 8.82 电子 301205 联特科技 3.94 20371.28 122476.40 7.77 通信 002594 比亚迪 4.97",
+      "publish_date": "2026-03-17",
+      "available_at": "2026-03-17T09:52:10",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "解密主力资金出逃股 连续5日净流出806股",
+      "summary": "宝钢股份 5 5.53 8.60 -7.05 603920 世运电路 6 5.52 8.06 -9.03 600141 兴发集团 5 5.48 6.49 -20.15 002237 恒邦股份 14 5.33 4.47 -19.10 002714 牧原股份 5 5.31 5.44",
+      "publish_date": "2026-03-19",
+      "available_at": "2026-03-19T18:05:45",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 0,
+  "hot_reason": "",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

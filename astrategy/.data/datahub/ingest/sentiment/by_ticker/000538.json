@@ -1,0 +1,82 @@
+{
+  "ticker": "000538",
+  "company_name": "云南白药",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "news",
+      "title": "云南白药：子公司拟1.37亿元投建文山公司口服液二期项目",
+      "summary": "人民财讯2月10日电，云南白药0005382月10日公告，为提升气血康等口服液产品的产能，满足持续增长的市场销售需求，公司全资子公司云南白药集团文山七花有限责任公司拟建设文山公司口服液二期项目，本项目投资总预算1.37亿元。",
+      "publish_date": "2026-02-10",
+      "available_at": "2026-02-10T18:25:39",
+      "sentiment_score": 0.2,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "关于股东部分股份质押的公告",
+      "summary": "",
+      "publish_date": "2026-02-26",
+      "available_at": "2026-02-26T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "关于认购云白国际有限公司可换股债券的进展公告",
+      "summary": "",
+      "publish_date": "2026-02-28",
+      "available_at": "2026-02-28T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "强势股追踪 主力资金连续5日净流入91股",
+      "summary": "坤彩科技 7 1.87 6.43 28.15 603507 振江股份 5 1.62 6.46 22.85 301093 华兰股份 6 1.60 6.34 14.73 601328 交通银行 6 1.45 2.48 2.10 600066 宇通客车 6 1.42 4.39 6.36 000538",
+      "publish_date": "2026-03-12",
+      "available_at": "2026-03-12T17:19:33",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "医美概念上涨0.49%，6股主力资金净流入超3000万元",
+      "summary": "信邦制药 0.30 1.68 -1200.26 -11.00 000516 国际医学 -0.19 6.17 -1251.16 -1.75 002004 华邦健康 0.36 2.77 -1361.26 -4.61 600998 九州通 -0.56 0.59 -1513.13 -9.48 000538",
+      "publish_date": "2026-03-13",
+      "available_at": "2026-03-13T17:10:08",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "hot_topic",
+      "title": "云南白药",
+      "summary": "雪球关注#57; 雪球讨论#162; 雪球交易#194",
+      "publish_date": "2026-03-19",
+      "available_at": "2026-03-19T00:00:00",
+      "sentiment_score": 0.08,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.25,
+      "hot_rank": 111
+    }
+  ],
+  "hot_rank": 111,
+  "hot_reason": "雪球关注#57; 雪球讨论#162; 雪球交易#194",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

@@ -1,0 +1,82 @@
+{
+  "ticker": "601298",
+  "company_name": "青岛港",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "filing",
+      "title": "H股公告",
+      "summary": "",
+      "publish_date": "2026-03-05",
+      "available_at": "2026-03-05T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "青岛港2025年业绩快报：归母净利润52.72亿元 增长0.7%",
+      "summary": "3月16日，青岛港（601298/06198）发布公告，2025年财务数据初步核算显示，公司实现营业总收入188.06亿元，同比降低0.7%；归母净利润52.72亿元，同比增长0.7%。",
+      "publish_date": "2026-03-16",
+      "available_at": "2026-03-16T16:58:29",
+      "sentiment_score": 0.2,
+      "category": "业绩公告",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "青岛港：2025年实现净利润52.72亿元 同比增长0.7%",
+      "summary": "每经AI快讯，3月16日，青岛港601298.SH)发布业绩快报，2025年实现营业总收入188.06亿元，同比下降0.7%；实现净利润52.72亿元，同比增长0.7%。",
+      "publish_date": "2026-03-16",
+      "available_at": "2026-03-16T17:00:58",
+      "sentiment_score": -0.5,
+      "category": "业绩公告",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "青岛港国际股份有限公司2025年度业绩快报公告",
+      "summary": "业绩预告",
+      "publish_date": "2026-03-17",
+      "available_at": "2026-03-17T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "业绩公告",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "青岛港：2025年净利52.72亿元 同比增长0.7%",
+      "summary": "中证智能财讯青岛港（601298）3月16日晚间披露2025年业绩快报，公司实现营业收入188.06亿元，同比下降0.7%；归母净利润52.72亿元，同比增长0.7%；扣非净利润50.45亿元，同比下降0.6%；基本每股收益0.81元，加权平均净资产收益率为11.95%。",
+      "publish_date": "2026-03-17",
+      "available_at": "2026-03-17T09:05:34",
+      "sentiment_score": -0.5,
+      "category": "业绩公告",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "H股公告",
+      "summary": "",
+      "publish_date": "2026-03-18",
+      "available_at": "2026-03-18T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 0,
+  "hot_reason": "",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

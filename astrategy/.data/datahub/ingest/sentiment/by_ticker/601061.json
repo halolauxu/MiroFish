@@ -1,0 +1,82 @@
+{
+  "ticker": "601061",
+  "company_name": "中信金属",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "filing",
+      "title": "中信金属股份有限公司2026年第一次临时股东会会议资料",
+      "summary": "",
+      "publish_date": "2026-03-03",
+      "available_at": "2026-03-03T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "中信金属股份有限公司第三届董事会第十五次会议决议公告",
+      "summary": "",
+      "publish_date": "2026-03-10",
+      "available_at": "2026-03-10T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "中信金属股份有限公司2026年第一次临时股东会决议公告",
+      "summary": "",
+      "publish_date": "2026-03-11",
+      "available_at": "2026-03-11T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "金属锌概念下跌2.77%，11股主力资金净流出超亿元",
+      "summary": "中信金属 -2.94 3.47 -1282.92 603132 金徽股份 -1.59 1.04 -1240.10 000751 锌业股份 -1.82 5.38 -989.44 601121 宝地矿业 -4.72 3.82 -818.89 000850 华茂股份 -1.69 1.40",
+      "publish_date": "2026-03-16",
+      "available_at": "2026-03-16T17:12:55",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "金属铜概念下跌4.91%，主力资金净流出77股",
+      "summary": "中信金属 -3.81 3.47 -2855.14 601609 金田股份 -4.02 1.70 -2816.40 000816 智慧农业 -3.92 3.58 -2815.51 600961 株冶集团 -6.00 2.73 -2608.15 301219 腾远钴业 -4.71 2.87",
+      "publish_date": "2026-03-19",
+      "available_at": "2026-03-19T18:04:10",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "金属锌概念下跌5.54%，18股主力资金净流出超亿元",
+      "summary": "中信金属 -3.81 3.47 -2855.14 000816 智慧农业 -3.92 3.58 -2815.51 600961 株冶集团 -6.00 2.73 -2608.15 300774 倍杰特 -7.43 7.51 -2321.91 002237 恒邦股份 -5.09 3.08",
+      "publish_date": "2026-03-19",
+      "available_at": "2026-03-19T18:04:26",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 0,
+  "hot_reason": "",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

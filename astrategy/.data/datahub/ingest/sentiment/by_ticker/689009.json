@@ -1,0 +1,70 @@
+{
+  "ticker": "689009",
+  "company_name": "九号公司",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "filing",
+      "title": "九号有限公司2025年年度业绩快报公告",
+      "summary": "业绩预告",
+      "publish_date": "2026-02-28",
+      "available_at": "2026-02-28T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "业绩公告",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "九号有限公司员工认股期权计划第十七次行权结果暨股份变动公告",
+      "summary": "股权变动",
+      "publish_date": "2026-03-05",
+      "available_at": "2026-03-05T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "今日38只个股跨越牛熊分界线",
+      "summary": "13日突破年线个股乖离率排名 证券代码 证券简称 今日涨跌幅（%） 今日换手率（%） 年线（元） 最新价（元） 乖离率（%） 688131 皓元医药 9.10 3.42 60.82 65.85 8.27 600756 浪潮软件 9.98 9.30 16.54 17.63 6.61 689009",
+      "publish_date": "2026-03-13",
+      "available_at": "2026-03-13T15:26:22",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "6.27亿元主力资金今日抢筹汽车板块",
+      "summary": "九号公司-WD 1.65 1.73 1706.52 002355 兴民智通 0.54 9.19 1648.92 汽车行业资金流出榜 代码 简称 今日涨跌幅（%） 今日换手率（%） 主力资金流量（万元） 002594 比亚迪 -1.67 2.41 -33174.60 002536",
+      "publish_date": "2026-03-17",
+      "available_at": "2026-03-17T17:25:14",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "33股今日获机构买入评级",
+      "summary": "跑赢行业 跑赢行业 105.00 80.15 300014 亿纬锂能 交银国际 买入 未评级 94.74 68.62 301162 国能日新 国泰海通 增持 增持 89.48 68.99 689009 九号公司-WD 交银国际 买入 未评级 75.02 49.80 002074",
+      "publish_date": "2026-03-17",
+      "available_at": "2026-03-17T17:49:38",
+      "sentiment_score": 0.78,
+      "category": "股权变动",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 0,
+  "hot_reason": "",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

@@ -1,0 +1,70 @@
+{
+  "ticker": "601009",
+  "company_name": "南京银行",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "news",
+      "title": "A股高开高走：周期股延续强势，银行股午后回落",
+      "summary": "午后银行股转跌，上海银行（601229）、厦门银行（601187）、华夏银行（600015）、南京银行（601009）、青岛银行（002948）等跌超1%。",
+      "publish_date": "2026-02-25",
+      "available_at": "2026-02-25T15:22:20",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "南京银行：董事郭俊任职资格获监管机构核准",
+      "summary": "人民财讯3月10日电，南京银行6010093月10日公告，公司收到国家金融监督管理总局江苏监管局下发的批复，核准郭俊担任公司董事的任职资格。郭俊的董事任期自核准之日起生效，至公司第十届董事会任期届满之日止。",
+      "publish_date": "2026-03-10",
+      "available_at": "2026-03-10T18:06:41",
+      "sentiment_score": 0.0,
+      "category": "政策影响",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "南京银行股份有限公司关于董事任职资格获监管机构核准的公告",
+      "summary": "",
+      "publish_date": "2026-03-11",
+      "available_at": "2026-03-11T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "政策影响",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "南京银行股份有限公司关于独立董事任职报告完成的公告",
+      "summary": "",
+      "publish_date": "2026-03-14",
+      "available_at": "2026-03-14T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "A股午后单边下行跌幅扩大：大金融走强，两市成交2.2万亿元",
+      "summary": "银行股盘初大幅走高后高位震荡，中信银行（601998）涨超3%，南京银行（601009）、中国银行（601988）、农业银行（601288）、工商银行（601398）、华夏银行（600015）等涨超1%。",
+      "publish_date": "2026-03-17",
+      "available_at": "2026-03-17T15:32:38",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 0,
+  "hot_reason": "",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

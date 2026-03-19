@@ -1,0 +1,36 @@
+[
+  {
+    "ticker": "600690",
+    "company_name": "海尔智家",
+    "title": "海尔智家股份有限公司关于以集中竞价交易方式回购A股股份的进展公告",
+    "announcement_type": "股权变动",
+    "publish_date": "2026-02-28",
+    "publish_time": "2026-02-28",
+    "link": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=600690&announcementId=1224986892&orgId=gssh0600690&announcementTime=2026-02-28",
+    "source": "cninfo.disclosure_report",
+    "raw": {
+      "代码": "600690",
+      "简称": "海尔智家",
+      "公告标题": "海尔智家股份有限公司关于以集中竞价交易方式回购A股股份的进展公告",
+      "公告时间": "2026-02-28",
+      "公告链接": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=600690&announcementId=1224986892&orgId=gssh0600690&announcementTime=2026-02-28"
+    }
+  },
+  {
+    "ticker": "600690",
+    "company_name": "海尔智家",
+    "title": "海尔智家股份有限公司关于回购境外上市外资股（D股）股份的进展公告",
+    "announcement_type": "股权变动",
+    "publish_date": "2026-02-28",
+    "publish_time": "2026-02-28",
+    "link": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=600690&announcementId=1224986896&orgId=gssh0600690&announcementTime=2026-02-28",
+    "source": "cninfo.disclosure_report",
+    "raw": {
+      "代码": "600690",
+      "简称": "海尔智家",
+      "公告标题": "海尔智家股份有限公司关于回购境外上市外资股（D股）股份的进展公告",
+      "公告时间": "2026-02-28",
+      "公告链接": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=600690&announcementId=1224986896&orgId=gssh0600690&announcementTime=2026-02-28"
+    }
+  }
+]

@@ -1,0 +1,46 @@
+{
+  "ticker": "003022",
+  "company_name": "联泓新科",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "news",
+      "title": "联泓新科：公司部分产品出口至东南亚、拉美等地区国家",
+      "summary": "联泓新科（003022.SZ）3月19日在投资者互动平台表示，公司部分产品出口至东南亚、拉美等地区国家。",
+      "publish_date": "2026-03-19",
+      "available_at": "2026-03-19T15:39:34",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "联泓新科：公司年产甲醇约100万吨，主要作为公司MTO装置的原料，保障了公司高端烯烃产业链的成本优势",
+      "summary": "联泓新科（003022.SZ）3月19日在投资者互动平台表示，公司年产甲醇约100万吨，主要作为公司MTO装置的原料，保障了公司高端烯烃产业链的成本优势。",
+      "publish_date": "2026-03-19",
+      "available_at": "2026-03-19T15:39:39",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "联泓新科：目前公司乙烯、丙烯产能合计近100万吨/年，主要供应公司下游装置深加工",
+      "summary": "联泓新科（003022.SZ）3月19日在投资者互动平台表示，目前公司乙烯、丙烯产能合计近100万吨/年，主要供应公司下游装置深加工。",
+      "publish_date": "2026-03-19",
+      "available_at": "2026-03-19T15:39:41",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 0,
+  "hot_reason": "",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

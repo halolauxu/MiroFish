@@ -1,0 +1,82 @@
+{
+  "ticker": "002261",
+  "company_name": "拓维信息",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "news",
+      "title": "拓维信息002261龙虎榜数据03-06",
+      "summary": "交易所2026年3月6日公布的交易公开信息显示，拓维信息因成为日涨幅偏离值达到7%的前5只证券上榜。拓维信息当日收报39.05元，涨跌幅10.00%，偏离值9.05%，换手率17.82%，成交额74.89亿。 免责声明：本文基于AI生产，仅供参考，不构成任何投资建议，据此操作风险自担",
+      "publish_date": "2026-03-06",
+      "available_at": "2026-03-06T16:29:55",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "关于延期披露2025年年度报告的公告",
+      "summary": "",
+      "publish_date": "2026-03-07",
+      "available_at": "2026-03-07T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "拓维信息002261龙虎榜数据03-09)",
+      "summary": "交易所2026年3月9日公布的交易公开信息显示，拓维信息因成为日涨幅偏离值达到7%的前5只证券、连续三个交易日内，涨幅偏离值累计达到20%的证券上榜。拓维信息当日收报42.96元，涨跌幅10.01%，偏离值10.66%，换手率29.75%，成交额137.98亿。异常期间3月6日至3",
+      "publish_date": "2026-03-09",
+      "available_at": "2026-03-09T16:26:43",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "002261，尾盘直线涨停！“龙虾”火爆A股，腾讯出手了……",
+      "summary": "今日，受外围市场剧烈下跌影响，A股跟随低开，但随后触底反弹，深证成指14000点失而复得，上证指数、上证50等均收出带长下影线的十字阴线。超4000只个股下跌，成交放大至2.67万亿元。 盘面上，油气开采、算力租赁、电网设备、人工智能等板块表现活跃，化纤、航空机场、航运港口、通信设备等板块跌幅居前",
+      "publish_date": "2026-03-09",
+      "available_at": "2026-03-09T17:02:48",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "关于股价异常波动的公告",
+      "summary": "",
+      "publish_date": "2026-03-10",
+      "available_at": "2026-03-10T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "关于延期披露2025年年度报告的公告",
+      "summary": "",
+      "publish_date": "2026-03-18",
+      "available_at": "2026-03-18T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 0,
+  "hot_reason": "",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

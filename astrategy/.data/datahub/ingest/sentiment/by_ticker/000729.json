@@ -1,0 +1,70 @@
+{
+  "ticker": "000729",
+  "company_name": "燕京啤酒",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "news",
+      "title": "食品饮料行业今日净流入资金4.54亿元，贵州茅台等5股净流入资金超3000万元",
+      "summary": "酒鬼酒 0.45 2.67 2537.86 000639 西王食品 1.06 3.51 1810.87 002304 洋河股份 0.41 0.46 1810.41 000596 古井贡酒 1.29 0.75 1426.17 000860 顺鑫农业 0.43 1.00 1207.81 000729",
+      "publish_date": "2026-03-13",
+      "available_at": "2026-03-13T16:38:38",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "第八届董事会第三十七次会议决议公告",
+      "summary": "",
+      "publish_date": "2026-03-14",
+      "available_at": "2026-03-14T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "关于使用闲置自有资金投资结构性存款的公告",
+      "summary": "",
+      "publish_date": "2026-03-14",
+      "available_at": "2026-03-14T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "食品饮料行业今日涨1.99%，主力资金净流入15.49亿元",
+      "summary": "食品饮料行业资金流出榜 代码 简称 今日涨跌幅（%） 今日换手率（%） 主力资金流量（万元） 600887 伊利股份 0.49 0.62 -4874.07 603288 海天味业 1.91 0.56 -4250.95 002515 金字火腿 -2.09 2.29 -1924.63 000729",
+      "publish_date": "2026-03-16",
+      "available_at": "2026-03-16T17:13:27",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "食品饮料行业今日净流出资金9.13亿元，贵州茅台等5股净流出资金超5000万元",
+      "summary": "603777 来伊份 1.63 1.89 899.71 002570 贝因美 0.70 1.30 863.95 600429 三元股份 4.66 3.52 760.86 002507 涪陵榨菜 -1.58 2.08 701.68 002840 华统股份 1.37 2.16 653.71 000729",
+      "publish_date": "2026-03-18",
+      "available_at": "2026-03-18T17:06:45",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 0,
+  "hot_reason": "",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

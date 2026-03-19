@@ -1,0 +1,118 @@
+{
+  "ticker": "600487",
+  "company_name": "亨通光电",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "filing",
+      "title": "亨通光电股票交易异常波动的公告",
+      "summary": "",
+      "publish_date": "2026-03-03",
+      "available_at": "2026-03-03T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "亨通光电关于控股股东部分股权解除质押公告",
+      "summary": "",
+      "publish_date": "2026-03-05",
+      "available_at": "2026-03-05T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "亨通光电关于实控人部分股权解除质押及控股股东部分股权质押公告",
+      "summary": "",
+      "publish_date": "2026-03-11",
+      "available_at": "2026-03-11T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "亨通光电关于控股股东部分股权解除质押及质押公告",
+      "summary": "",
+      "publish_date": "2026-03-12",
+      "available_at": "2026-03-12T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "安徽承义律师事务所关于江苏亨通光电股份有限公司2024年限制性股票激励计划回购注销部分限制性股票实施情况的法律意见书",
+      "summary": "股权变动",
+      "publish_date": "2026-03-18",
+      "available_at": "2026-03-18T00:00:00",
+      "sentiment_score": 0.8,
+      "category": "股权变动",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "亨通光电关于2024年限制性股票激励计划部分限制性股票回购注销实施公告",
+      "summary": "股权变动",
+      "publish_date": "2026-03-18",
+      "available_at": "2026-03-18T00:00:00",
+      "sentiment_score": 0.8,
+      "category": "股权变动",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "42.01亿主力资金净流入，F5G概念涨4.84%",
+      "summary": "瑞斯康达 9.97 18.74 30570.18 29.86 603220 中贝通信 10.02 12.73 29003.70 19.72 600498 烽火通信 1.88 6.94 21651.77 5.20 002281 光迅科技 5.45 6.93 19362.42 4.37 600487",
+      "publish_date": "2026-03-18",
+      "available_at": "2026-03-18T17:06:55",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "通信行业3月18日资金流向日报",
+      "summary": "3.39 22772.37 600498 烽火通信 1.88 6.94 21651.77 300383 光环新网 13.89 13.47 19689.80 002281 光迅科技 5.45 6.93 19362.42 300738 奥飞数据 9.11 11.63 17149.76 600487",
+      "publish_date": "2026-03-18",
+      "available_at": "2026-03-18T17:07:12",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "亨通光电：控股股东质押400万股，累计质押55.27%持股",
+      "summary": "3月19日，亨通光电（600487）发布公告，控股股东亨通集团有限公司将其持有的400万股股份办理质押，占其所持股份的0.67%及公司总股本的0.16%。 截至公告披露日，亨通集团累计质押股份3.28亿股，占其所持股份的55.27%及公司总股本的13.30%。",
+      "publish_date": "2026-03-19",
+      "available_at": "2026-03-19T16:43:15",
+      "sentiment_score": 0.0,
+      "category": "产品进展",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 0,
+  "hot_reason": "",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

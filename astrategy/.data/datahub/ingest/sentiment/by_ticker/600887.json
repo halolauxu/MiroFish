@@ -1,0 +1,106 @@
+{
+  "ticker": "600887",
+  "company_name": "伊利股份",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "filing",
+      "title": "内蒙古伊利实业集团股份有限公司关于股东股份质押及解除质押的公告",
+      "summary": "",
+      "publish_date": "2026-03-11",
+      "available_at": "2026-03-11T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "伊利股份股东呼和浩特投资解除305万股质押 占总股本的0.05%",
+      "summary": "3月12日，伊利股份（600887）发布公告，股东呼和浩特投资有限责任公司解除质押股份305万股，占其所持股份的0.57%及公司总股本的0.05%；截至公告披露日，其累计质押股份为1.78亿股，占其所持股份的33.13%及公司总股本的2.82%。",
+      "publish_date": "2026-03-12",
+      "available_at": "2026-03-12T16:14:26",
+      "sentiment_score": 0.0,
+      "category": "产品进展",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "内蒙古伊利实业集团股份有限公司关于股东股份解除质押公告",
+      "summary": "",
+      "publish_date": "2026-03-13",
+      "available_at": "2026-03-13T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "伊利股份 ：股东呼和浩特投资解押1150万股，累计质押30.99%持股",
+      "summary": "3月16日，伊利股份（600887）发布公告，股东呼和浩特投资有限责任公司解除质押股份1150万股，占其所持股份的2.14%及公司总股本的0.18%。",
+      "publish_date": "2026-03-16",
+      "available_at": "2026-03-16T16:09:12",
+      "sentiment_score": 0.0,
+      "category": "产品进展",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "内蒙古伊利实业集团股份有限公司关于股东股份解除质押公告",
+      "summary": "",
+      "publish_date": "2026-03-17",
+      "available_at": "2026-03-17T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "伊利股份董事长兼总裁潘刚已减持0.98%公司股份，套现16.43亿元",
+      "summary": "伊利股份（600887）发布公告，2026年3月17日，董事长兼总裁潘刚通过集中竞价交易方式减持公司股份6199万股，占公司总股本的0.98%，减持总金额达16.43亿元。 当前，潘刚持有公司股份2.25亿股，占公司总股本的3.55%。本次减持计划实施完毕。",
+      "publish_date": "2026-03-17",
+      "available_at": "2026-03-17T17:01:29",
+      "sentiment_score": -0.78,
+      "category": "股权变动",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "内蒙古伊利实业集团股份有限公司董事兼高级管理人员减持股份结果公告",
+      "summary": "股权变动",
+      "publish_date": "2026-03-18",
+      "available_at": "2026-03-18T00:00:00",
+      "sentiment_score": -0.78,
+      "category": "股权变动",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "hot_topic",
+      "title": "伊利股份",
+      "summary": "雪球关注#7; 雪球讨论#16; 雪球交易#4",
+      "publish_date": "2026-03-19",
+      "available_at": "2026-03-19T00:00:00",
+      "sentiment_score": 0.266,
+      "category": "其他",
+      "urgency": "high",
+      "weight": 1.25,
+      "hot_rank": 7
+    }
+  ],
+  "hot_rank": 7,
+  "hot_reason": "雪球关注#7; 雪球讨论#16; 雪球交易#4",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

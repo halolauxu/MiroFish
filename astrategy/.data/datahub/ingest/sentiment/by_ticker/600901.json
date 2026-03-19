@@ -1,0 +1,118 @@
+{
+  "ticker": "600901",
+  "company_name": "江苏金租",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "filing",
+      "title": "江苏金租：关于总经理任职资格获监管机构核准的公告",
+      "summary": "",
+      "publish_date": "2026-03-03",
+      "available_at": "2026-03-03T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "政策影响",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "江苏金租：关于为项目公司提供担保的公告",
+      "summary": "",
+      "publish_date": "2026-03-03",
+      "available_at": "2026-03-03T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "江苏金租：关于职工董事任职资格获监管机构核准的公告",
+      "summary": "",
+      "publish_date": "2026-03-05",
+      "available_at": "2026-03-05T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "政策影响",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "江苏金租：关于为项目公司提供担保的公告",
+      "summary": "",
+      "publish_date": "2026-03-06",
+      "available_at": "2026-03-06T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "江苏金租：关于为项目公司提供担保的公告",
+      "summary": "",
+      "publish_date": "2026-03-12",
+      "available_at": "2026-03-12T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "江苏金租：关于为项目公司提供担保的公告",
+      "summary": "",
+      "publish_date": "2026-03-14",
+      "available_at": "2026-03-14T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "收盘价创历史新高股一览",
+      "summary": "301216 万凯新材 26.29 4.16 基础化工 688308 欧科亿 97.15 4.04 机械设备 600777 *ST新潮 5.09 2.41 石油石化 605098 行动教育 56.75 1.85 社会服务 600714 金瑞矿业 25.30 1.81 基础化工 600901",
+      "publish_date": "2026-03-16",
+      "available_at": "2026-03-16T17:54:40",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "17只股收盘价创历史新高",
+      "summary": "电力设备 301003 江苏博云 51.87 2.31 基础化工 600777 *ST新潮 5.20 2.16 石油石化 002463 沪电股份 85.59 1.95 电子 002636 金安国纪 32.42 1.44 电子 300720 海川智能 49.50 0.71 机械设备 600901",
+      "publish_date": "2026-03-17",
+      "available_at": "2026-03-17T19:42:51",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "江苏金租：已构建完善、规范的财务管理制度与管控体系 可有效支撑经营管理及业务发展需要",
+      "summary": "江苏金租（600901.SH）3月18日在投资者互动平台表示，公司已构建完善、规范的财务管理制度与管控体系，可有效支撑经营管理及业务发展需要。",
+      "publish_date": "2026-03-18",
+      "available_at": "2026-03-18T16:09:05",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 0,
+  "hot_reason": "",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

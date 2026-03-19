@@ -1,0 +1,58 @@
+{
+  "ticker": "601958",
+  "company_name": "金钼股份",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "filing",
+      "title": "金钼股份关于收购参股公司部分股权进展的公告",
+      "summary": "",
+      "publish_date": "2026-03-06",
+      "available_at": "2026-03-06T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "资产重组",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "解密主力资金出逃股 连续5日净流出534股",
+      "summary": "5.52 6.03 -19.85 002126 银轮股份 6 5.50 6.05 -14.01 002471 中超控股 5 5.30 7.11 -11.53 688698 伟创电气 16 5.13 8.86 -21.31 002237 恒邦股份 11 4.98 4.68 -14.07 601958",
+      "publish_date": "2026-03-16",
+      "available_at": "2026-03-16T17:13:04",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "解密主力资金出逃股 连续5日净流出736股",
+      "summary": "5.21 7.39 -15.91 002237 恒邦股份 12 5.09 4.60 -14.50 300346 南大光电 5 5.07 7.86 -7.80 688388 嘉元科技 6 5.07 5.30 -4.48 002792 通宇通讯 7 5.02 7.12 -10.55 601958",
+      "publish_date": "2026-03-17",
+      "available_at": "2026-03-17T17:25:25",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "解密主力资金出逃股 连续5日净流出806股",
+      "summary": "6 6.23 9.90 -14.10 002241 歌尔股份 7 6.22 6.68 -4.73 002366 融发核电 5 6.18 7.70 -9.27 600188 兖矿能源 5 6.18 5.68 -6.81 300346 南大光电 7 6.17 7.57 -8.50 601958",
+      "publish_date": "2026-03-19",
+      "available_at": "2026-03-19T18:05:45",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 0,
+  "hot_reason": "",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

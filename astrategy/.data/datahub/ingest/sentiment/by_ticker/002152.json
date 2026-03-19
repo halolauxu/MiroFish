@@ -1,0 +1,58 @@
+{
+  "ticker": "002152",
+  "company_name": "广电运通",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "filing",
+      "title": "2025年度业绩快报",
+      "summary": "业绩预告",
+      "publish_date": "2026-02-28",
+      "available_at": "2026-02-28T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "业绩公告",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "今日盘中突破年线个股",
+      "summary": "9.44 6.74 12.36 12.98 4.98 600996 贵广网络 9.95 5.44 9.15 9.50 3.79 301195 北路智控 5.45 3.30 34.91 35.77 2.45 600012 皖通高速 1.95 0.33 15.45 15.72 1.76 002152",
+      "publish_date": "2026-03-19",
+      "available_at": "2026-03-19T12:00:47",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "【盘中播报】15只个股突破年线",
+      "summary": "1.82 0.47 15.45 15.70 1.63 002808 *ST恒久 4.85 5.05 4.69 4.76 1.51 301195 北路智控 4.04 3.91 34.91 35.29 1.08 600643 爱建集团 2.62 5.46 5.43 5.48 0.87 002152",
+      "publish_date": "2026-03-19",
+      "available_at": "2026-03-19T14:12:33",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "今日14只股长线走稳 站上年线",
+      "summary": "1.90 3.32 8.45 8.59 1.63 301195 北路智控 4.16 4.73 34.91 35.33 1.19 300199 翰宇药业 2.32 6.61 18.77 18.96 1.00 000937 冀中能源 1.21 0.91 5.82 5.84 0.34 002152",
+      "publish_date": "2026-03-19",
+      "available_at": "2026-03-19T16:20:10",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 0,
+  "hot_reason": "",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

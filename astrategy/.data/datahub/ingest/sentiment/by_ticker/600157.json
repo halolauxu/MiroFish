@@ -1,0 +1,118 @@
+{
+  "ticker": "600157",
+  "company_name": "永泰能源",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "filing",
+      "title": "永泰能源集团股份有限公司关于股份回购进展公告",
+      "summary": "股权变动",
+      "publish_date": "2026-03-04",
+      "available_at": "2026-03-04T00:00:00",
+      "sentiment_score": 0.8,
+      "category": "股权变动",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "永泰能源集团股份有限公司第十二届董事会第二十七次会议决议公告",
+      "summary": "",
+      "publish_date": "2026-03-17",
+      "available_at": "2026-03-17T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "永泰能源集团股份有限公司独立董事提名人声明与承诺",
+      "summary": "",
+      "publish_date": "2026-03-17",
+      "available_at": "2026-03-17T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "永泰能源集团股份有限公司独立董事候选人声明与承诺（赵引贵、王文利、洪潮波）",
+      "summary": "",
+      "publish_date": "2026-03-17",
+      "available_at": "2026-03-17T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "永泰能源集团股份有限公司关于修改公司经营范围及《公司章程》的公告",
+      "summary": "",
+      "publish_date": "2026-03-17",
+      "available_at": "2026-03-17T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "hot_topic",
+      "title": "永泰能源",
+      "summary": "百度热搜#4",
+      "publish_date": "2026-03-19",
+      "available_at": "2026-03-19T00:00:00",
+      "sentiment_score": 0.13,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.25,
+      "hot_rank": 75
+    },
+    {
+      "source_type": "news",
+      "title": "永泰能源：公司所属部分电厂、煤矿已引入国资等战略合作伙伴",
+      "summary": "永泰能源（600157.SH）3月19日在投资者互动平台表示，目前，公司所属部分电厂、煤矿已引入国资等战略合作伙伴，后续公司将根据各重点项目进展情况和实际发展需求，适时引入相关战略投资者，不断提升公司核心竞争力和资产价值。",
+      "publish_date": "2026-03-19",
+      "available_at": "2026-03-19T15:39:34",
+      "sentiment_score": 0.5,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "永泰能源：公司生产经营正常，发展前景良好，经营持续盈利未出现亏损情形，亦不存在退市情形",
+      "summary": "永泰能源（600157.SH）3月19日在投资者互动平台表示，公司生产经营正常，发展前景良好，经营持续盈利未出现亏损情形，亦不存在退市情形。",
+      "publish_date": "2026-03-19",
+      "available_at": "2026-03-19T15:39:36",
+      "sentiment_score": -1.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "永泰能源：公司所属森达源、金泰源两座煤矿已取得煤下铝资源储量评审备案",
+      "summary": "永泰能源（600157.SH）3月19日在投资者互动平台表示，感谢您对公司的关注。",
+      "publish_date": "2026-03-19",
+      "available_at": "2026-03-19T15:48:12",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 75,
+  "hot_reason": "百度热搜#4",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

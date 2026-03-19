@@ -1,0 +1,70 @@
+{
+  "ticker": "603392",
+  "company_name": "万泰生物",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "news",
+      "title": "万泰生物：重组呼吸道合胞病毒疫苗获临床试验批准通知书",
+      "summary": "人民财讯3月16日电，万泰生物6033923月16日公告，2025年12月，全资子公司万泰沧海收到国家药监局行政许可文书受理通知书，公司申报的“重组呼吸道合胞病毒疫苗（CHO细胞）”临床试验申请已获得受理。",
+      "publish_date": "2026-03-16",
+      "available_at": "2026-03-16T16:55:12",
+      "sentiment_score": 0.0,
+      "category": "资产重组",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "万泰生物：子公司重组呼吸道合胞病毒疫苗临床试验获批",
+      "summary": "3月16日，万泰生物（603392）发布公告，近日全资子公司万泰沧海收到国家药监局核准签发的《药物临床试验批准通知书》，公司申报的“重组呼吸道合胞病毒疫苗（CHO 细胞）”临床试验申请已获得受理，同意开展预防由呼吸道合胞病毒（RSV）感染引起的下呼吸道疾病的临床试验。",
+      "publish_date": "2026-03-16",
+      "available_at": "2026-03-16T16:55:15",
+      "sentiment_score": 0.0,
+      "category": "资产重组",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "万泰生物：重组呼吸道合胞病毒疫苗获临床试验批准通知书",
+      "summary": "每经AI快讯，万泰生物6033923月16日公告，2025年12月，全资子公司万泰沧海收到国家药监局行政许可文书受理通知书，公司申报的“重组呼吸道合胞病毒疫苗（CHO细胞）”临床试验申请已获得受理。",
+      "publish_date": "2026-03-16",
+      "available_at": "2026-03-16T17:00:58",
+      "sentiment_score": 0.0,
+      "category": "资产重组",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "万泰生物关于重组呼吸道合胞病毒疫苗（CHO细胞）获得临床试验批准通知书的公告",
+      "summary": "",
+      "publish_date": "2026-03-17",
+      "available_at": "2026-03-17T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "资产重组",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "万泰生物关于使用部分闲置募集资金进行现金管理到期赎回并继续进行现金管理的公告",
+      "summary": "",
+      "publish_date": "2026-03-19",
+      "available_at": "2026-03-19T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 0,
+  "hot_reason": "",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

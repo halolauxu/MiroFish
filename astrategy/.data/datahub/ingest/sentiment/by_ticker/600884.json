@@ -1,0 +1,118 @@
+{
+  "ticker": "600884",
+  "company_name": "杉杉股份",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "news",
+      "title": "600884，控制权拟变更！安徽国资入主！股价上周五刚涨停！",
+      "summary": "2月8日晚间，杉杉股份600884发布重磅公告，公司控股股东杉杉集团及其全资子公司朋泽贸易、杉杉集团管理人与重整投资人皖维集团和宁波金资签署了《重整投资协议》。如本次重整成功，公司的控制权将发生变更，控股股东将变更为皖维集团，实际控制人将变更为安徽省国资委。",
+      "publish_date": "2026-02-08",
+      "available_at": "2026-02-08T19:02:47",
+      "sentiment_score": 0.0,
+      "category": "重大合同",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "提前涨停！600884，拟易主",
+      "summary": "【导读】杉杉股份拟易主安徽省国资委，公告前一个交易日股价涨停 中国基金报记者邱德坤 2月8日，杉杉股份发布公告称，若本次重整成功，公司控股股东将变为安徽皖维集团有限责任公司（以下简称皖维集团），实控人将变为安徽省人民政府国有资产监督管理委员会。 同时，皖维集团、安徽海螺集团有限责任公司",
+      "publish_date": "2026-02-08",
+      "available_at": "2026-02-08T19:47:13",
+      "sentiment_score": 0.0,
+      "category": "产品进展",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "002326、600884提前涨停！什么情况？",
+      "summary": "杉杉股份（600884.SH）公告称，公司控股股东杉杉集团及其全资子公司宁波朋泽贸易有限公司、杉杉集团管理人与重整投资人安徽皖维集团有限责任公司和宁波金融资产管理股份有限公司签署了《重整投资协议》。",
+      "publish_date": "2026-02-08",
+      "available_at": "2026-02-08T22:27:40",
+      "sentiment_score": 0.0,
+      "category": "重大合同",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "杉杉股份关于控股股东部分股份解除标记、轮候冻结生效和被轮候冻结情况的公告",
+      "summary": "",
+      "publish_date": "2026-02-26",
+      "available_at": "2026-02-26T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "杉杉股份关于已回购股份首次集中竞价减持的进展公告",
+      "summary": "股权变动",
+      "publish_date": "2026-02-27",
+      "available_at": "2026-02-27T00:00:00",
+      "sentiment_score": 0.02,
+      "category": "股权变动",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "杉杉股份关于间接控股股东部分股份将被司法拍卖的提示性公告",
+      "summary": "",
+      "publish_date": "2026-03-03",
+      "available_at": "2026-03-03T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "杉杉股份关于已回购股份集中竞价减持的进展公告",
+      "summary": "股权变动",
+      "publish_date": "2026-03-03",
+      "available_at": "2026-03-03T00:00:00",
+      "sentiment_score": 0.02,
+      "category": "股权变动",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "杉杉股份关于控股股东重整的进展公告",
+      "summary": "",
+      "publish_date": "2026-03-04",
+      "available_at": "2026-03-04T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "杉杉股份关于控股股东一致行动人部分股份解除标记和冻结的公告",
+      "summary": "",
+      "publish_date": "2026-03-04",
+      "available_at": "2026-03-04T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 0,
+  "hot_reason": "",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

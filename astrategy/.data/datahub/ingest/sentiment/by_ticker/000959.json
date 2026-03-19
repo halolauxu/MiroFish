@@ -1,0 +1,130 @@
+{
+  "ticker": "000959",
+  "company_name": "首钢股份",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "news",
+      "title": "钢铁行业今日净流入资金21.77亿元，包钢股份等9股净流入资金超3000万元",
+      "summary": "601121 宝地矿业 2.44 6.32 673.77 000655 金岭矿业 3.10 2.78 585.65 002110 三钢闽光 2.66 1.73 481.98 600282 南钢股份 1.90 0.79 461.30 000898 鞍钢股份 2.27 0.99 446.98 000959",
+      "publish_date": "2026-02-27",
+      "available_at": "2026-02-27T17:23:48",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "北京首钢股份有限公司关于回购股份进展情况的公告",
+      "summary": "股权变动",
+      "publish_date": "2026-03-03",
+      "available_at": "2026-03-03T00:00:00",
+      "sentiment_score": 0.8,
+      "category": "股权变动",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "北京首钢股份有限公司董事会薪酬与考核委员会关于公司2025年股票期权与限制性股票激励计划调整及授予事项的核查意见",
+      "summary": "股权激励",
+      "publish_date": "2026-03-07",
+      "available_at": "2026-03-07T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "股权变动",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "北京首钢股份有限公司董事会薪酬与考核委员会关于公司2025年股票期权与限制性股票激励计划激励对象名单(授予日)的核查意见",
+      "summary": "股权激励",
+      "publish_date": "2026-03-07",
+      "available_at": "2026-03-07T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "股权变动",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "北京首钢股份有限公司关于调整2025年股票期权与限制性股票激励计划激励对象名单及授予权益数量的公告",
+      "summary": "股权激励",
+      "publish_date": "2026-03-07",
+      "available_at": "2026-03-07T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "股权变动",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "北京首钢股份有限公司关于向激励对象授予股票期权与限制性股票的公告",
+      "summary": "股权激励",
+      "publish_date": "2026-03-07",
+      "available_at": "2026-03-07T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "股权变动",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "北京首钢股份有限公司九届三次董事会会议决议公告",
+      "summary": "",
+      "publish_date": "2026-03-07",
+      "available_at": "2026-03-07T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "北京首钢股份有限公司2025年股票期权与限制性股票激励计划激励对象名单（截至授予日）",
+      "summary": "股权激励",
+      "publish_date": "2026-03-07",
+      "available_at": "2026-03-07T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "股权变动",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "特钢概念下跌3.14%，主力资金净流出37股",
+      "summary": "7.08 -5082.08 000825 太钢不锈 -3.63 1.60 -3581.77 300855 图南股份 -1.89 2.60 -3487.12 601005 重庆钢铁 -3.77 3.41 -3368.48 600581 八一钢铁 -4.03 3.71 -2970.21 000959",
+      "publish_date": "2026-03-16",
+      "available_at": "2026-03-16T17:13:05",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "20.13亿元资金今日流出钢铁股",
+      "summary": "1.95 -8241.96 600782 新钢股份 -2.68 2.89 -4004.42 000825 太钢不锈 -3.63 1.60 -3581.77 601005 重庆钢铁 -3.77 3.41 -3368.48 600581 八一钢铁 -4.03 3.71 -2970.20 000959",
+      "publish_date": "2026-03-16",
+      "available_at": "2026-03-16T17:13:22",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 0,
+  "hot_reason": "",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

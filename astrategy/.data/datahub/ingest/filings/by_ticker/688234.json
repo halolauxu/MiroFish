@@ -1,0 +1,36 @@
+[
+  {
+    "ticker": "688234",
+    "company_name": "天岳先进",
+    "title": "2025年度业绩快报公告",
+    "announcement_type": "业绩预告",
+    "publish_date": "2026-02-28",
+    "publish_time": "2026-02-28",
+    "link": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=688234&announcementId=1224987582&orgId=9900047650&announcementTime=2026-02-28",
+    "source": "cninfo.disclosure_report",
+    "raw": {
+      "代码": "688234",
+      "简称": "天岳先进",
+      "公告标题": "2025年度业绩快报公告",
+      "公告时间": "2026-02-28",
+      "公告链接": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=688234&announcementId=1224987582&orgId=9900047650&announcementTime=2026-02-28"
+    }
+  },
+  {
+    "ticker": "688234",
+    "company_name": "天岳先进",
+    "title": "H股公告-截止二零二六年二月二十八日止股份发行人的证券变动月报表",
+    "announcement_type": "",
+    "publish_date": "2026-03-04",
+    "publish_time": "2026-03-04",
+    "link": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=688234&announcementId=1224994265&orgId=9900047650&announcementTime=2026-03-04",
+    "source": "cninfo.disclosure_report",
+    "raw": {
+      "代码": "688234",
+      "简称": "天岳先进",
+      "公告标题": "H股公告-截止二零二六年二月二十八日止股份发行人的证券变动月报表",
+      "公告时间": "2026-03-04",
+      "公告链接": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=688234&announcementId=1224994265&orgId=9900047650&announcementTime=2026-03-04"
+    }
+  }
+]

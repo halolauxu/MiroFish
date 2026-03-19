@@ -1,0 +1,118 @@
+{
+  "ticker": "002008",
+  "company_name": "大族激光",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "filing",
+      "title": "第八届董事会第十四次会议决议公告",
+      "summary": "",
+      "publish_date": "2026-02-25",
+      "available_at": "2026-02-25T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "关于设立海外运营中心的公告",
+      "summary": "",
+      "publish_date": "2026-02-25",
+      "available_at": "2026-02-25T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "股票交易异常波动公告",
+      "summary": "",
+      "publish_date": "2026-02-27",
+      "available_at": "2026-02-27T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "关于股东部分股份解除质押及质押的公告",
+      "summary": "",
+      "publish_date": "2026-03-11",
+      "available_at": "2026-03-11T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "关于控股股东部分股份解除质押的公告",
+      "summary": "",
+      "publish_date": "2026-03-14",
+      "available_at": "2026-03-14T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "光刻机概念下跌4.25%，7股主力资金净流出超亿元",
+      "summary": "（数据宝） 光刻机概念资金流出榜 代码 简称 今日涨跌幅（%） 今日换手率（%） 主力资金流量（万元） 688167 炬光科技 -12.16 9.75 -39297.73 300456 赛微电子 -7.00 6.98 -36649.08 002008 大族激光 -5.39 3.07",
+      "publish_date": "2026-03-17",
+      "available_at": "2026-03-17T17:22:50",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "光纤概念下跌4.81%，主力资金净流出72股",
+      "summary": "27426.26 688313 仕佳光子 -6.88 5.68 -27285.73 002428 云南锗业 -6.54 6.61 -26199.55 300570 太辰光 -9.73 15.05 -23348.69 688498 源杰科技 -8.66 4.18 -19528.97 002008",
+      "publish_date": "2026-03-17",
+      "available_at": "2026-03-17T17:22:58",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "关于股东部分股份解除质押及质押的公告",
+      "summary": "",
+      "publish_date": "2026-03-18",
+      "available_at": "2026-03-18T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "存储芯片概念涨3.50%，主力资金净流入95股",
+      "summary": "万润科技 6.76 10.35 11480.65 8.07 002413 雷科防务 3.61 9.99 11266.33 6.31 688809 强一股份 7.26 10.27 10047.15 11.50 603175 超颖电子 2.61 32.47 9902.44 7.35 002008",
+      "publish_date": "2026-03-18",
+      "available_at": "2026-03-18T17:06:43",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 0,
+  "hot_reason": "",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

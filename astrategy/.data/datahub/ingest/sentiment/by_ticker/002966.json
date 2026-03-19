@@ -1,0 +1,130 @@
+{
+  "ticker": "002966",
+  "company_name": "苏州银行",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "news",
+      "title": "银行纷纷补充首席合规官：来源多样化 不少由行长兼任",
+      "summary": "就上市银行披露的信息来看，南京银行（601009.SH）、上海银行（601229.SH）、苏州银行（002966.SZ）、齐鲁银行（601665.SH)、江阴银行（002807.SZ）等均由行长兼任首席合规官；光大银行（601818.SH）、民生银行（600016.SH）则聘任副行长兼任首席合规官",
+      "publish_date": "2026-02-18",
+      "available_at": "2026-02-18T08:37:16",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "关于取消2026年第一次临时股东会部分提案暨补充通知的公告",
+      "summary": "",
+      "publish_date": "2026-02-26",
+      "available_at": "2026-02-26T11:37:15",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "险资开年1287次A股调研：泰康资管调研最多 天顺风能、上海银行等受关注",
+      "summary": "区域性银行作为高股息资产的重要代表向来备受险资欢迎，除上海银行外，南京银行（601009.SH）、苏州银行（002966.SZ）、杭州银行（600926.SH）开年以来也分别获得10、8、7家保险公司或保险资管公司调研。",
+      "publish_date": "2026-02-27",
+      "available_at": "2026-02-27T01:36:14",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "关于选举职工董事的公告",
+      "summary": "",
+      "publish_date": "2026-03-03",
+      "available_at": "2026-03-03T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "2026年第一次临时股东会决议公告",
+      "summary": "",
+      "publish_date": "2026-03-03",
+      "available_at": "2026-03-03T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "第五届董事会第三十二次会议决议公告",
+      "summary": "",
+      "publish_date": "2026-03-07",
+      "available_at": "2026-03-07T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "独立董事提名人声明与承诺（吴杰）",
+      "summary": "",
+      "publish_date": "2026-03-07",
+      "available_at": "2026-03-07T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "独立董事候选人声明与承诺（吴杰）",
+      "summary": "",
+      "publish_date": "2026-03-07",
+      "available_at": "2026-03-07T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "2026年第二次临时股东会会议材料",
+      "summary": "",
+      "publish_date": "2026-03-07",
+      "available_at": "2026-03-07T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "3月18日15家公司获基金调研",
+      "summary": "长缆科技 8 21.94 -9.30 电力设备 002126 银轮股份 8 46.75 -9.40 汽车 301045 天禄科技 7 47.07 -7.85 电子 002985 北摩高科 4 37.97 -3.68 国防军工 002521 齐峰新材 3 8.07 -1.22 轻工制造 002966",
+      "publish_date": "2026-03-19",
+      "available_at": "2026-03-19T11:33:56",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 0,
+  "hot_reason": "",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

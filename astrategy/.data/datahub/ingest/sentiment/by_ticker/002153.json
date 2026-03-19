@@ -1,0 +1,46 @@
+{
+  "ticker": "002153",
+  "company_name": "石基信息",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "news",
+      "title": "解密主力资金出逃股 连续5日净流出466股",
+      "summary": "3.12 6.70 -6.46 000676 智度股份 8 3.07 7.47 -6.30 002338 奥普光电 17 3.07 7.26 -10.75 603396 金辰股份 7 3.05 8.88 -14.59 002181 粤传媒 5 3.00 7.38 -16.48 002153",
+      "publish_date": "2026-02-25",
+      "available_at": "2026-02-25T17:08:19",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "解密主力资金出逃股 连续5日净流出512股",
+      "summary": "3.27 8.85 -15.13 002181 粤传媒 6 3.27 7.09 -19.12 300142 沃森生物 10 3.21 8.58 -3.93 002354 天娱数科 6 3.16 6.18 -13.32 000676 智度股份 9 3.15 7.08 -5.98 002153",
+      "publish_date": "2026-02-26",
+      "available_at": "2026-02-26T17:09:20",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "数据前后不一，股权代持迷局未解：绿云软件赴港上市",
+      "summary": "杨铭魁并非资本市场的新面孔，早在上世纪90年代，他就创立了杭州西湖软件（即“西软”），后将其卖给A股上市公司石基信息（002153），作价累计5700万元。值得一提的是，这次交易附带了一份为期五年的竞业协议：2011年4月起，杨铭魁不得从事与石基竞争的业务。",
+      "publish_date": "2026-03-16",
+      "available_at": "2026-03-16T10:32:51",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 0,
+  "hot_reason": "",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

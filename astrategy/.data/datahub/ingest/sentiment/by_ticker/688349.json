@@ -1,0 +1,94 @@
+{
+  "ticker": "688349",
+  "company_name": "三一重能",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "filing",
+      "title": "三一重能2025年度业绩快报公告",
+      "summary": "业绩预告",
+      "publish_date": "2026-02-28",
+      "available_at": "2026-02-28T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "业绩公告",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "三一重能股份有限公司章程（2026年3月）",
+      "summary": "",
+      "publish_date": "2026-03-04",
+      "available_at": "2026-03-04T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "三一重能关于聘任副总经理的公告",
+      "summary": "",
+      "publish_date": "2026-03-04",
+      "available_at": "2026-03-04T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "三一重能关于变更注册地址并修订《公司章程》的公告",
+      "summary": "",
+      "publish_date": "2026-03-04",
+      "available_at": "2026-03-04T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "今日盘中突破半年线个股",
+      "summary": "日突破半年线个股乖离率排名 证券代码 证券简称 今日涨跌幅（%） 今日换手率（%） 半年线（元） 最新价（元） 乖离率（%） 300690 双一科技 19.99 30.05 33.15 37.40 12.81 000553 安道麦A 10.03 1.41 6.24 6.80 9.04 688349",
+      "publish_date": "2026-03-12",
+      "available_at": "2026-03-12T14:19:55",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "今日72只个股突破半年线",
+      "summary": "半年线（元） 最新价（元） 乖离率（%） 300690 双一科技 19.99 33.34 33.15 37.40 12.81 300531 优博讯 10.56 17.80 17.96 19.69 9.63 000553 安道麦A 10.03 1.44 6.24 6.80 9.04 688349",
+      "publish_date": "2026-03-12",
+      "available_at": "2026-03-12T16:26:57",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "322只科创板股融资余额环比增加",
+      "summary": "392.36 29.01 0.77 688148 芳源股份 18471.83 5.42 6.46 6.53 688170 德龙激光 19791.80 5.36 16.62 -40.64 7.24 688308 欧科亿 141793.46 5.04 95.47 10.80 4.04 688349",
+      "publish_date": "2026-03-17",
+      "available_at": "2026-03-17T09:51:52",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 0,
+  "hot_reason": "",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

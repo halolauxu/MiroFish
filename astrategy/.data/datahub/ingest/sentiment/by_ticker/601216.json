@@ -1,0 +1,58 @@
+{
+  "ticker": "601216",
+  "company_name": "君正集团",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "filing",
+      "title": "君正集团关于2026年2月为子公司提供担保的进展公告",
+      "summary": "",
+      "publish_date": "2026-03-03",
+      "available_at": "2026-03-03T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "君正集团：公司现有甲醇产能55万吨/年",
+      "summary": "每经AI快讯，君正集团（601216.SH）3月13日在投资者互动平台表示，1、公司现有甲醇产能55万吨/年，目前公司生产的甲醇部分用于生产BDO（1,4-丁二醇）和PTMEG（聚四氢呋喃），剩余部分对外销售。",
+      "publish_date": "2026-03-13",
+      "available_at": "2026-03-13T17:27:32",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "君正集团：公司产品不涉及绿氨",
+      "summary": "君正集团（601216.SH）3月19日在投资者互动平台表示，公司产品不涉及绿氨。公司目前的主要产品有聚氯乙烯树脂、烧碱、电石、硅铁、水泥熟料、煤炭、焦炭、甲醇、BDO（1,4-丁二醇）、PTMEG（聚四氢呋喃）。",
+      "publish_date": "2026-03-19",
+      "available_at": "2026-03-19T15:39:40",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "君正集团：阿拉善风光制氢项目目前仍处于前期工作及相关手续审批阶段",
+      "summary": "君正集团（601216.SH）3月19日在投资者互动平台表示，公司阿拉善风光制氢项目目前仍处于前期工作及相关手续审批阶段。",
+      "publish_date": "2026-03-19",
+      "available_at": "2026-03-19T15:39:41",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 0,
+  "hot_reason": "",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

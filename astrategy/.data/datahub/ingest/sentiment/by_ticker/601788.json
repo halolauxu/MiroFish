@@ -1,0 +1,94 @@
+{
+  "ticker": "601788",
+  "company_name": "光大证券",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "filing",
+      "title": "光大证券股份有限公司2026年第一次临时股东会决议公告",
+      "summary": "",
+      "publish_date": "2026-02-28",
+      "available_at": "2026-02-28T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "H股公告",
+      "summary": "",
+      "publish_date": "2026-03-03",
+      "available_at": "2026-03-03T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "乔震正式出任光证资管董事长",
+      "summary": "南方财经3月5日电，21世纪经济报道记者获悉，光大证券（601788.SH）旗下资管子公司光证资管核心管理层调整落定，公司总经理乔震正式出任董事长。此前2025年8月，光证资管公告称，熊国兵因工作职务调整离任公司董事长，在新任董事长到任前，由公司总经理乔震代为履行董事长职务。",
+      "publish_date": "2026-03-05",
+      "available_at": "2026-03-05T20:11:41",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "三家券商官宣：获准参与碳排放权交易；乔震正式出任光证资管董事长| 券商基金早参",
+      "summary": "NO.2乔震正式出任光证资管董事长 光大证券（601788.SH）旗下资管子公司光证资管核心管理层调整落定，公司总经理乔震正式出任董事长。此前2025年8月，光证资管公告称，熊国兵因工作职务调整离任公司董事长，在新任董事长到任前，由公司总经理乔震代为履行董事长职务。",
+      "publish_date": "2026-03-06",
+      "available_at": "2026-03-06T09:51:23",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "H股公告",
+      "summary": "",
+      "publish_date": "2026-03-13",
+      "available_at": "2026-03-13T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "20.19亿主力资金净流入，期货概念涨0.02%",
+      "summary": "光大证券 0.56 0.68 2997.06 6.94 600704 物产中大 -0.55 1.24 2857.51 8.11 001236 弘业期货 2.86 5.53 2854.27 6.47 000539 粤电力A -0.20 1.58 2103.33 10.12 600369",
+      "publish_date": "2026-03-17",
+      "available_at": "2026-03-17T17:23:25",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "hot_topic",
+      "title": "光大证券",
+      "summary": "雪球关注#136; 雪球交易#88",
+      "publish_date": "2026-03-19",
+      "available_at": "2026-03-19T00:00:00",
+      "sentiment_score": 0.08,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.25,
+      "hot_rank": 135
+    }
+  ],
+  "hot_rank": 135,
+  "hot_reason": "雪球关注#136; 雪球交易#88",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

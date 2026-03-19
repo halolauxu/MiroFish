@@ -1,0 +1,94 @@
+{
+  "ticker": "603920",
+  "company_name": "世运电路",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "filing",
+      "title": "世运电路关于使用部分闲置募集资金进行现金管理到期赎回的公告",
+      "summary": "",
+      "publish_date": "2026-02-28",
+      "available_at": "2026-02-28T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "世运电路关于使用部分闲置募集资金进行现金管理到期赎回的公告",
+      "summary": "",
+      "publish_date": "2026-03-03",
+      "available_at": "2026-03-03T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "世运电路关于使用部分闲置募集资金进行现金管理到期赎回的公告",
+      "summary": "",
+      "publish_date": "2026-03-07",
+      "available_at": "2026-03-07T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "世运电路关于使用部分闲置募集资金进行现金管理到期赎回的公告",
+      "summary": "",
+      "publish_date": "2026-03-13",
+      "available_at": "2026-03-13T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "世运电路：AI服务器在公司营业收入属于成长型业务板块，目前在公司营业收入的占比仍较少",
+      "summary": "世运电路（603920.SH）3月17日在投资者互动平台表示，尊敬的投资者，您好！公司通过OEM模式切入英伟达服务器供应链体系后，依托在高多层板、高频高速PCB领域的核心工艺优势及稳定的量产交付能力，现阶段对英伟达服务器相关PCB产品的供货量实现快速增长。",
+      "publish_date": "2026-03-17",
+      "available_at": "2026-03-17T16:52:38",
+      "sentiment_score": 0.42,
+      "category": "产品进展",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "世运电路：AI服务器在公司营业收入属于成长型业务板块，目前在公司营业收入占比仍较少",
+      "summary": "世运电路（603920.SH）3月17日在投资者互动平台表示，公司AI服务器相关产品的需求增长良好，公司AI服务器在公司营业收入属于成长型业务板块，目前在公司营业收入的占比仍较少。",
+      "publish_date": "2026-03-17",
+      "available_at": "2026-03-17T19:43:18",
+      "sentiment_score": 0.2,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "解密主力资金出逃股 连续5日净流出806股",
+      "summary": "5.69 3.59 -13.52 688126 沪硅产业 16 5.65 6.10 -15.53 601991 大唐发电 5 5.61 4.54 -8.73 600580 卧龙电驱 7 5.54 7.71 -10.12 600019 宝钢股份 5 5.53 8.60 -7.05 603920",
+      "publish_date": "2026-03-19",
+      "available_at": "2026-03-19T18:05:45",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 0,
+  "hot_reason": "",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

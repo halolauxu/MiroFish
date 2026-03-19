@@ -1,0 +1,82 @@
+{
+  "ticker": "002384",
+  "company_name": "东山精密",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "filing",
+      "title": "关于完成工商变更登记并换发营业执照的公告",
+      "summary": "",
+      "publish_date": "2026-02-28",
+      "available_at": "2026-02-28T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "关于2026年员工持股计划的进展公告",
+      "summary": "股权激励",
+      "publish_date": "2026-02-28",
+      "available_at": "2026-02-28T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "股权变动",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "东山精密002384龙虎榜数据03-10",
+      "summary": "交易所2026年3月10日公布的交易公开信息显示，东山精密因成为日涨幅偏离值达到7%的前5只证券上榜。东山精密当日收报108.06元，涨跌幅10.00%，偏离值8.16%，换手率6.59%，成交额96.00亿。 免责声明：本文基于AI生产，仅供参考，不构成任何投资建议，据此操作风险自担",
+      "publish_date": "2026-03-10",
+      "available_at": "2026-03-10T16:26:46",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "关于2026年员工持股计划非交易过户完成的公告",
+      "summary": "股权激励",
+      "publish_date": "2026-03-11",
+      "available_at": "2026-03-11T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "股权变动",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "7天4板股价大涨31.3% 瑞斯康达回应",
+      "summary": "与此同时，安孚科技（603031.SH）、东山精密（002384.SZ）、ST惠伦（300460.SZ）等概念股小幅下跌，跌幅均在3%以内。",
+      "publish_date": "2026-03-18",
+      "available_at": "2026-03-18T21:16:36",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "电子行业3月19日资金流向日报",
+      "summary": "99067.78 688525 佰维存储 -5.78 9.45 -84099.34 603986 兆易创新 -2.43 4.67 -82795.12 001309 德明利 -7.75 12.13 -56195.61 688256 寒武纪 -2.72 1.17 -54693.95 002384",
+      "publish_date": "2026-03-19",
+      "available_at": "2026-03-19T18:06:06",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 0,
+  "hot_reason": "",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

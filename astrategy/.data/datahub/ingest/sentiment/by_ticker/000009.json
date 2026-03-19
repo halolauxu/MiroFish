@@ -1,0 +1,82 @@
+{
+  "ticker": "000009",
+  "company_name": "中国宝安",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "filing",
+      "title": "第十五届董事局第八次会议决议公告",
+      "summary": "",
+      "publish_date": "2026-02-24",
+      "available_at": "2026-02-24T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "第十五届董事局第九次会议决议公告",
+      "summary": "",
+      "publish_date": "2026-03-04",
+      "available_at": "2026-03-04T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "关于持股5%以上股东增持计划实施结果的公告",
+      "summary": "股权变动",
+      "publish_date": "2026-03-10",
+      "available_at": "2026-03-10T00:00:00",
+      "sentiment_score": 0.78,
+      "category": "股权变动",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "金属钴概念下跌2.42% 15股主力资金净流出超亿元",
+      "summary": "4.79 -4199.84 688005 容百科技 0.35 2.65 -3368.85 300919 中伟新材 -2.37 1.26 -2227.55 301219 腾远钴业 -4.73 4.63 -2128.65 000758 中色股份 -2.27 3.20 -1660.64 000009",
+      "publish_date": "2026-03-16",
+      "available_at": "2026-03-16T17:12:44",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "土地流转概念下跌1.21%，主力资金净流出32股",
+      "summary": "1.72 -3811.81 600515 海南机场 -1.53 1.01 -2734.63 002170 芭田股份 -1.24 4.44 -2162.76 301301 川宁生物 0.00 3.05 -1842.96 600251 冠农股份 2.43 2.70 -1813.99 000009",
+      "publish_date": "2026-03-18",
+      "available_at": "2026-03-18T17:04:04",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "金属钴概念下跌4.85%，主力资金净流出31股",
+      "summary": "1.28 -4884.09 002266 浙富控股 -4.39 1.65 -4634.58 300073 当升科技 -2.19 2.05 -3933.47 000758 中色股份 -5.63 2.88 -3390.19 301219 腾远钴业 -4.71 2.87 -2570.75 000009",
+      "publish_date": "2026-03-19",
+      "available_at": "2026-03-19T18:04:39",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 0,
+  "hot_reason": "",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

@@ -1,0 +1,70 @@
+{
+  "ticker": "600820",
+  "company_name": "隧道股份",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "news",
+      "title": "天然气概念下跌2.64%，主力资金净流出118股",
+      "summary": "5.57 2.29 -590.48 001332 锡装股份 -1.88 3.20 -574.91 300540 蜀道装备 1.13 10.03 -528.88 002483 润邦股份 -0.64 1.63 -524.06 600207 安彩高科 -0.36 2.85 -482.92 600820",
+      "publish_date": "2026-03-04",
+      "available_at": "2026-03-04T16:33:43",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "上海隧道工程股份有限公司关于国泰海通-晟元保理第1期供应链资产支持专项计划成立的公告",
+      "summary": "",
+      "publish_date": "2026-03-06",
+      "available_at": "2026-03-06T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "建筑装饰行业今日涨2.08%，主力资金净流入27.43亿元",
+      "summary": "东华科技 2.23 3.10 2372.57 002717 ST岭南 4.73 4.95 2155.46 002628 成都路桥 3.37 6.65 1690.96 300982 苏文电能 2.17 5.83 1386.66 002163 海南发展 0.70 2.75 1357.83 600820",
+      "publish_date": "2026-03-06",
+      "available_at": "2026-03-06T18:10:15",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "上海隧道工程股份有限公司关于基础设施公募REITs申报发行工作的进展公告",
+      "summary": "",
+      "publish_date": "2026-03-18",
+      "available_at": "2026-03-18T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "隧道股份：拟35亿元参与认购中国能建定增股份 占后者发行后总股本的3.1%",
+      "summary": "每经AI快讯，3月19日，隧道股份600820.SH)公告称，公司以自筹资金3,499,999,998.45元(约35亿元)，按2.55元/股的价格，参与认购中国能源建设股份有限公司向特定对象发行的1,372,549,019股A股股票，占中国能建发行后总股本的3.10%。",
+      "publish_date": "2026-03-19",
+      "available_at": "2026-03-19T17:26:11",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 0,
+  "hot_reason": "",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

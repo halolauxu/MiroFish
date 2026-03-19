@@ -1,0 +1,118 @@
+{
+  "ticker": "601111",
+  "company_name": "中国国航",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "filing",
+      "title": "中国国航H股公告-月报表",
+      "summary": "",
+      "publish_date": "2026-03-03",
+      "available_at": "2026-03-03T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "中国国航：副董事长王明远因退休辞职",
+      "summary": "中国国航（601111/00753）发布公告，王明远因退休，向公司董事会辞去副董事长、董事职务以及航空安全委员会主任、委员及总裁职务，辞任时间为2026年3月5日。 2025年前三季度，中国国航实现收入1298.26亿元，归母净利润18.70亿元。",
+      "publish_date": "2026-03-05",
+      "available_at": "2026-03-05T18:33:33",
+      "sentiment_score": 0.0,
+      "category": "业绩公告",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "中国国际航空股份有限公司第七届董事会第十三次会议决议公告",
+      "summary": "",
+      "publish_date": "2026-03-06",
+      "available_at": "2026-03-06T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "中国国际航空股份有限公司关于董事、高级管理人员辞任的公告",
+      "summary": "",
+      "publish_date": "2026-03-06",
+      "available_at": "2026-03-06T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "中国央行连续第16个月增持黄金；商务部回应“安世中国员工办公软件被禁用”；多家航司恢复部分至中东地区航班；伊朗宣布关闭股市丨每经早参",
+      "summary": "（央视新闻） 2 我国多家航司陆续恢复部分至中东地区航班 中国国航（SH601111，股价7.69元，市值1342亿元）；中国东航（SH600115，股价5.12元，市值1131亿元）；南方航空（SH600029，股价6.63元，市值1201亿元）：3月7日，记者从多家航空公司了解到",
+      "publish_date": "2026-03-08",
+      "available_at": "2026-03-08T07:14:36",
+      "sentiment_score": 0.78,
+      "category": "股权变动",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "中国国际航空股份有限公司关于向特定对象发行A股股票申请获得中国证监会同意注册批复的公告",
+      "summary": "增发融资",
+      "publish_date": "2026-03-10",
+      "available_at": "2026-03-10T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "中国国际航空股份有限公司2026年2月主要运营数据公告",
+      "summary": "",
+      "publish_date": "2026-03-17",
+      "available_at": "2026-03-17T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "中国国航2026年第一次临时股东会会议资料",
+      "summary": "",
+      "publish_date": "2026-03-17",
+      "available_at": "2026-03-17T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "李成钢：中美就一些议题取得初步共识；严查！事关直播带货和网售食品；英伟达官方支持极简养虾丨每经早参",
+      "summary": "6 国航、东航、南航发布公告：机票买贵了可免费退 中国国航（SH601111，股价7.23元，市值1262亿元）、中国东航（SH600115，股价4.68元，市值1034亿元）、南方航空（SH600029，股价6.17元，市值1118亿元）：日前，中国国际航空、中国东方航空、中国南方航空发布维护旅客权益公告",
+      "publish_date": "2026-03-17",
+      "available_at": "2026-03-17T06:15:51",
+      "sentiment_score": 0.0,
+      "category": "产品进展",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 0,
+  "hot_reason": "",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

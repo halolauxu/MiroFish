@@ -5,14 +5,20 @@ Fetches market-level data from akshare: daily K-lines, realtime quotes,
 industry indices, northbound capital flow, and individual stock money flow.
 """
 
+import json
 import logging
+import os
 import time
+from pathlib import Path
 from typing import Optional
 
 import akshare as ak
 import pandas as pd
 
+from astrategy.datahub.common import market_root, resolve_repo_path
+
 logger = logging.getLogger(__name__)
+LOCAL_ONLY_ENV = "ASTRATEGY_LOCAL_ONLY_MARKET"
 
 # ---------------------------------------------------------------------------
 # Simple in-memory TTL cache
@@ -85,6 +91,61 @@ class MarketDataCollector:
     """Collect A-share market data via akshare."""
 
     @staticmethod
+    def _local_daily_path(code: str) -> Path:
+        return resolve_repo_path(
+            None,
+            fallback=market_root() / "daily" / f"{str(code).strip().zfill(6)}.json",
+        )
+
+    @classmethod
+    def _load_local_daily_quotes(
+        cls,
+        code: str,
+        start: str,
+        end: str,
+    ) -> pd.DataFrame:
+        path = cls._local_daily_path(code)
+        if not path.exists():
+            return pd.DataFrame()
+
+        try:
+            rows = json.loads(path.read_text(encoding="utf-8"))
+        except Exception as exc:
+            logger.warning("Failed to read local daily cache for %s: %s", code, exc)
+            return pd.DataFrame()
+
+        if not isinstance(rows, list) or not rows:
+            return pd.DataFrame()
+
+        df = pd.DataFrame(rows)
+        if "trade_date" not in df.columns:
+            return pd.DataFrame()
+
+        df = df.rename(
+            columns={
+                "trade_date": "日期",
+                "open": "开盘",
+                "high": "最高",
+                "low": "最低",
+                "close": "收盘",
+                "volume": "成交量",
+            }
+        )
+        df["日期"] = pd.to_datetime(df["日期"])
+        start_dt = pd.to_datetime(start)
+        end_dt = pd.to_datetime(end)
+        df = df[(df["日期"] >= start_dt) & (df["日期"] <= end_dt)].copy()
+        if df.empty:
+            return pd.DataFrame()
+
+        for column in ("开盘", "最高", "最低", "收盘", "成交量"):
+            if column in df.columns:
+                df[column] = pd.to_numeric(df[column], errors="coerce")
+
+        df = df.sort_values("日期").reset_index(drop=True)
+        return df[["日期", "开盘", "最高", "最低", "收盘", "成交量"]]
+
+    @staticmethod
     def _normalize_daily_frame(df: pd.DataFrame, start: str, end: str) -> pd.DataFrame:
         """Normalize vendor-specific daily frames to the common schema."""
         if df is None or df.empty:
@@ -141,6 +202,18 @@ class MarketDataCollector:
         cached = _get_cache(cache_key, ttl=600)
         if cached is not None:
             return cached  # type: ignore[return-value]
+
+        local_path = self._local_daily_path(code)
+        local_df = self._load_local_daily_quotes(code, start, end)
+        if local_path.exists():
+            _set_cache(cache_key, local_df)
+            return local_df
+
+        if os.getenv(LOCAL_ONLY_ENV) == "1":
+            logger.info("Local-only market mode: missing local daily cache for %s", code)
+            empty = pd.DataFrame()
+            _set_cache(cache_key, empty)
+            return empty
 
         # Use Sina API directly (East Money blocked by proxy/TLS issues)
         try:

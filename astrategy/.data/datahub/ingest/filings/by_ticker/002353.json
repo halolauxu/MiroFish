@@ -1,0 +1,53 @@
+[
+  {
+    "ticker": "002353",
+    "company_name": "杰瑞股份",
+    "title": "关于回购股份情况进展的公告",
+    "announcement_type": "股权变动",
+    "publish_date": "2026-03-03",
+    "publish_time": "2026-03-03",
+    "link": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=002353&announcementId=1224990100&orgId=9900010449&announcementTime=2026-03-03",
+    "source": "cninfo.disclosure_report",
+    "raw": {
+      "代码": "002353",
+      "简称": "杰瑞股份",
+      "公告标题": "关于回购股份情况进展的公告",
+      "公告时间": "2026-03-03",
+      "公告链接": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=002353&announcementId=1224990100&orgId=9900010449&announcementTime=2026-03-03"
+    }
+  },
+  {
+    "ticker": "002353",
+    "company_name": "杰瑞股份",
+    "title": "关于“事业合伙人2期”员工持股计划存续期即将届满的提示性公告",
+    "announcement_type": "股权激励",
+    "publish_date": "2026-03-14",
+    "publish_time": "2026-03-14",
+    "link": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=002353&announcementId=1225007715&orgId=9900010449&announcementTime=2026-03-14",
+    "source": "cninfo.disclosure_report",
+    "raw": {
+      "代码": "002353",
+      "简称": "杰瑞股份",
+      "公告标题": "关于“事业合伙人2期”员工持股计划存续期即将届满的提示性公告",
+      "公告时间": "2026-03-14",
+      "公告链接": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=002353&announcementId=1225007715&orgId=9900010449&announcementTime=2026-03-14"
+    }
+  },
+  {
+    "ticker": "002353",
+    "company_name": "杰瑞股份",
+    "title": "关于“奋斗者7号”员工持股计划存续期即将届满的提示性公告",
+    "announcement_type": "股权激励",
+    "publish_date": "2026-03-14",
+    "publish_time": "2026-03-14",
+    "link": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=002353&announcementId=1225007714&orgId=9900010449&announcementTime=2026-03-14",
+    "source": "cninfo.disclosure_report",
+    "raw": {
+      "代码": "002353",
+      "简称": "杰瑞股份",
+      "公告标题": "关于“奋斗者7号”员工持股计划存续期即将届满的提示性公告",
+      "公告时间": "2026-03-14",
+      "公告链接": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=002353&announcementId=1225007714&orgId=9900010449&announcementTime=2026-03-14"
+    }
+  }
+]

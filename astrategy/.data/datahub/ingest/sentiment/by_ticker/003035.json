@@ -1,0 +1,70 @@
+{
+  "ticker": "003035",
+  "company_name": "南网能源",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "filing",
+      "title": "关于三届二次董事会会议决议的公告",
+      "summary": "",
+      "publish_date": "2026-03-03",
+      "available_at": "2026-03-03T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "南网能源003035龙虎榜数据03-09)",
+      "summary": "交易所2026年3月9日公布的交易公开信息显示，南网能源因成为日涨幅偏离值达到7%的前5只证券上榜。南网能源当日收报9.58元，涨跌幅9.99%，偏离值10.66%，换手率6.24%，成交额21.64亿。 免责声明：本文基于AI生产，仅供参考，不构成任何投资建议，据此操作风险自担。",
+      "publish_date": "2026-03-09",
+      "available_at": "2026-03-09T16:27:02",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "南网能源：股东绿色能源混改基金拟减持不超2%公司股份",
+      "summary": "人民财讯3月16日电，南网能源0030353月16日公告，持股16.42%的股东绿色能源混改股权投资基金（广州）合伙企业（有限合伙）（简称“绿色能源混改基金”）计划自本次减持计划预披露公告之日起15个交易日后的三个月内，以集中竞价及大宗交易方式累计减持不超过7575.76万股，",
+      "publish_date": "2026-03-16",
+      "available_at": "2026-03-16T20:10:50",
+      "sentiment_score": -0.78,
+      "category": "股权变动",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "关于持股5%以上股东股份减持计划的预披露公告",
+      "summary": "股权变动",
+      "publish_date": "2026-03-17",
+      "available_at": "2026-03-17T00:00:00",
+      "sentiment_score": -0.78,
+      "category": "股权变动",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "公用事业行业今日净流入资金7.77亿元，广安爱众等8股净流入资金超亿元",
+      "summary": "10.00 6.20 5225.61 601139 深圳燃气 4.85 3.50 4292.89 601778 晶科科技 1.50 9.54 3832.69 000767 晋控电力 0.81 4.94 3691.50 300040 九洲集团 1.28 18.31 3268.14 003035",
+      "publish_date": "2026-03-19",
+      "available_at": "2026-03-19T18:04:26",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 0,
+  "hot_reason": "",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

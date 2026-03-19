@@ -1,0 +1,130 @@
+{
+  "ticker": "600362",
+  "company_name": "江西铜业",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "filing",
+      "title": "江西铜业股份有限公司关于全资子公司正式要约收购SolGold plc全部股份的进展公告",
+      "summary": "",
+      "publish_date": "2026-02-24",
+      "available_at": "2026-02-24T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "资产重组",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "江西铜业股份有限公司2026年第一次临时股东会会议资料",
+      "summary": "",
+      "publish_date": "2026-02-28",
+      "available_at": "2026-02-28T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "江西铜业股份有限公司关于全资子公司正式要约收购SolGold plc全部股份的进展公告",
+      "summary": "",
+      "publish_date": "2026-03-03",
+      "available_at": "2026-03-03T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "资产重组",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "江西铜业股份有限公司关于全资子公司正式要约收购SolGold plc全部股份生效的公告",
+      "summary": "",
+      "publish_date": "2026-03-05",
+      "available_at": "2026-03-05T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "资产重组",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "江西铜业股份有限公司2026年第一次临时股东会决议公告",
+      "summary": "",
+      "publish_date": "2026-03-17",
+      "available_at": "2026-03-17T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "北京德恒律师事务所关于江西铜业股份有限公司2026年第一次临时股东会的法律意见",
+      "summary": "",
+      "publish_date": "2026-03-17",
+      "available_at": "2026-03-17T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "有色金属行业今日净流出资金34.49亿元，赣锋锂业等16股净流出资金超亿元",
+      "summary": "-11956.95 000878 云南铜业 -1.63 2.53 -11545.65 000408 藏格矿业 -3.13 1.19 -11398.18 000807 云铝股份 -3.04 2.16 -8107.49 000688 国城矿业 -6.36 2.48 -8063.99 600362",
+      "publish_date": "2026-03-18",
+      "available_at": "2026-03-18T17:06:48",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "hot_topic",
+      "title": "江西铜业",
+      "summary": "雪球关注#125; 雪球交易#134",
+      "publish_date": "2026-03-19",
+      "available_at": "2026-03-19T00:00:00",
+      "sentiment_score": 0.08,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.25,
+      "hot_rank": 162
+    },
+    {
+      "source_type": "news",
+      "title": "有色金属行业资金流出榜：紫金矿业等41股净流出资金超亿元",
+      "summary": "32642.03 002738 中矿资源 -5.95 3.88 -30627.54 002460 赣锋锂业 -4.82 3.66 -28722.28 600711 盛屯矿业 -6.30 5.13 -26435.04 002155 湖南黄金 -6.00 4.20 -24896.60 600362",
+      "publish_date": "2026-03-19",
+      "available_at": "2026-03-19T18:04:36",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "解密主力资金出逃股 连续5日净流出806股",
+      "summary": "11.23 -9.73 600309 万华化学 9 30.40 7.74 -15.67 002414 高德红外 18 30.26 14.58 -19.42 000630 铜陵有色 14 29.08 7.23 -23.33 600406 国电南瑞 9 29.00 8.11 -7.33 600362",
+      "publish_date": "2026-03-19",
+      "available_at": "2026-03-19T18:05:45",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 162,
+  "hot_reason": "雪球关注#125; 雪球交易#134",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

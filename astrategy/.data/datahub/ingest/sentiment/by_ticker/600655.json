@@ -1,0 +1,106 @@
+{
+  "ticker": "600655",
+  "company_name": "豫园股份",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "filing",
+      "title": "上海豫园旅游商城（集团）股份有限公司关于以集中竞价交易方式回购公司A股股份的进展公告",
+      "summary": "股权变动",
+      "publish_date": "2026-03-03",
+      "available_at": "2026-03-03T00:00:00",
+      "sentiment_score": 0.8,
+      "category": "股权变动",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "上海豫园旅游商城（集团）股份有限公司关于股东部分股份质押的公告",
+      "summary": "",
+      "publish_date": "2026-03-04",
+      "available_at": "2026-03-04T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "豫园股份：股东浙江复星商业补充质押400万股，占总股本的0.1%",
+      "summary": "3月9日，豫园股份（600655）发布公告，控股股东上海复星高科技（集团）有限公司下属浙江复星商业发展有限公司办理400万股股份补充质押，占其所持股份的1.1%及公司总股本的0.1%；截至公告披露日，复星高科技及其一致行动人累计质押股份为18.41亿股，占其所持股份的76.41%及公司总股本的",
+      "publish_date": "2026-03-09",
+      "available_at": "2026-03-09T16:24:10",
+      "sentiment_score": 0.0,
+      "category": "产品进展",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "上海豫园旅游商城（集团）股份有限公司关于股东部分股份补充质押的公告",
+      "summary": "",
+      "publish_date": "2026-03-10",
+      "available_at": "2026-03-10T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "培育钻石概念涨3.68%，主力资金净流入这些股",
+      "summary": "7.41 301071 力量钻石 8.10 11.18 4605.43 4.21 000519 中兵红箭 1.03 3.99 2061.35 1.89 002345 潮宏基 1.98 1.51 608.25 4.35 603661 恒林股份 2.77 0.43 111.37 5.53 600655",
+      "publish_date": "2026-03-10",
+      "available_at": "2026-03-10T17:03:09",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "上海豫园旅游商城（集团）股份有限公司第五期员工持股计划第二次持有人会议决议公告",
+      "summary": "股权激励",
+      "publish_date": "2026-03-11",
+      "available_at": "2026-03-11T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "股权变动",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "商贸零售行业今日净流入资金1854.67万元，供销大集等10股净流入资金超千万元",
+      "summary": "德必集团 1.73 1.53 146.66 600738 丽尚国潮 0.59 0.92 123.35 603682 锦和商管 2.16 2.32 121.38 600128 苏豪弘业 0.62 1.82 115.49 600827 百联股份 -0.23 0.40 105.87 600655",
+      "publish_date": "2026-03-16",
+      "available_at": "2026-03-16T17:12:29",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "上海豫园旅游商城（集团）股份有限公司关于上海证券交易所监管工作函回复的公告",
+      "summary": "",
+      "publish_date": "2026-03-17",
+      "available_at": "2026-03-17T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "政策影响",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 0,
+  "hot_reason": "",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

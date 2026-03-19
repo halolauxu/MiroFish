@@ -1,0 +1,53 @@
+[
+  {
+    "ticker": "601985",
+    "company_name": "中国核电",
+    "title": "中国核电关于股份回购进展公告",
+    "announcement_type": "股权变动",
+    "publish_date": "2026-03-03",
+    "publish_time": "2026-03-03",
+    "link": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=601985&announcementId=1224990585&orgId=9900022188&announcementTime=2026-03-03",
+    "source": "cninfo.disclosure_report",
+    "raw": {
+      "代码": "601985",
+      "简称": "中国核电",
+      "公告标题": "中国核电关于股份回购进展公告",
+      "公告时间": "2026-03-03",
+      "公告链接": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=601985&announcementId=1224990585&orgId=9900022188&announcementTime=2026-03-03"
+    }
+  },
+  {
+    "ticker": "601985",
+    "company_name": "中国核电",
+    "title": "中国核电2026年第一次临时股东会会议资料",
+    "announcement_type": "",
+    "publish_date": "2026-03-06",
+    "publish_time": "2026-03-06",
+    "link": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=601985&announcementId=1224996976&orgId=9900022188&announcementTime=2026-03-06",
+    "source": "cninfo.disclosure_report",
+    "raw": {
+      "代码": "601985",
+      "简称": "中国核电",
+      "公告标题": "中国核电2026年第一次临时股东会会议资料",
+      "公告时间": "2026-03-06",
+      "公告链接": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=601985&announcementId=1224996976&orgId=9900022188&announcementTime=2026-03-06"
+    }
+  },
+  {
+    "ticker": "601985",
+    "company_name": "中国核电",
+    "title": "中国核电2026年第一次临时股东会决议公告",
+    "announcement_type": "",
+    "publish_date": "2026-03-13",
+    "publish_time": "2026-03-13",
+    "link": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=601985&announcementId=1225006560&orgId=9900022188&announcementTime=2026-03-13",
+    "source": "cninfo.disclosure_report",
+    "raw": {
+      "代码": "601985",
+      "简称": "中国核电",
+      "公告标题": "中国核电2026年第一次临时股东会决议公告",
+      "公告时间": "2026-03-13",
+      "公告链接": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=601985&announcementId=1225006560&orgId=9900022188&announcementTime=2026-03-13"
+    }
+  }
+]

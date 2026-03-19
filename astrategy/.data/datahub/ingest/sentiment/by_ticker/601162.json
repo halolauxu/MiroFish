@@ -1,0 +1,106 @@
+{
+  "ticker": "601162",
+  "company_name": "天风证券",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "filing",
+      "title": "天风证券股份有限公司关于2026年度第一期短期融资券发行结果公告",
+      "summary": "增发融资",
+      "publish_date": "2026-03-07",
+      "available_at": "2026-03-07T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "天风证券：因涉嫌信披违规、违法提供融资被罚1500万元",
+      "summary": "3月13日，天风证券（601162.SH）公告称，公司因涉嫌信息披露违法违规、违法提供融资，收到中国证监会湖北监管局下发的《行政处罚决定书》。根据处罚决定，天风证券被警告并处以1500万元罚款。",
+      "publish_date": "2026-03-13",
+      "available_at": "2026-03-13T18:49:33",
+      "sentiment_score": -1.0,
+      "category": "政策影响",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "天风证券：收到湖北证监局行政监管措施决定书 将被暂停开展代销私募金融产品业务2年",
+      "summary": "每经AI快讯，天风证券6011623月13日公告，3月13日，公司收到湖北证监局下发的《湖北证监局关于对天风证券股份有限公司采取暂停相关业务、责令处分有关人员及监管谈话行政监管措施的决定》。",
+      "publish_date": "2026-03-13",
+      "available_at": "2026-03-13T18:52:57",
+      "sentiment_score": 0.0,
+      "category": "政策影响",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "天风证券股份有限公司关于收到中国证券监督管理委员会福建监管局《行政处罚决定书》的公告",
+      "summary": "风险事项",
+      "publish_date": "2026-03-14",
+      "available_at": "2026-03-14T00:00:00",
+      "sentiment_score": -1.0,
+      "category": "政策影响",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "天风证券股份有限公司关于收到中国证券监督管理委员会福建监管局《行政处罚事先告知书》的公告",
+      "summary": "风险事项",
+      "publish_date": "2026-03-14",
+      "available_at": "2026-03-14T00:00:00",
+      "sentiment_score": -1.0,
+      "category": "政策影响",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "天风证券股份有限公司关于收到中国证券监督管理委员会湖北监管局行政监管措施决定书的公告",
+      "summary": "",
+      "publish_date": "2026-03-14",
+      "available_at": "2026-03-14T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "政策影响",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "天风证券股份有限公司关于收到中国证券监督管理委员会湖北监管局《行政处罚决定书》的公告",
+      "summary": "风险事项",
+      "publish_date": "2026-03-14",
+      "available_at": "2026-03-14T00:00:00",
+      "sentiment_score": -1.0,
+      "category": "政策影响",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "601162 处罚落地",
+      "summary": "天风证券（601162）处罚正式落地。3月13日，天风证券集中披露多份公告，涉及多项行政处罚及行政监管措施。公告显示，公司收到湖北证监局《行政处罚决定书》，因信息披露违法违规、违法提供融资，天风证券被警告并处1500万元罚款。",
+      "publish_date": "2026-03-14",
+      "available_at": "2026-03-14T09:21:00",
+      "sentiment_score": -1.0,
+      "category": "政策影响",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 0,
+  "hot_reason": "",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

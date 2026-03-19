@@ -1,0 +1,58 @@
+{
+  "ticker": "603658",
+  "company_name": "安图生物",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "news",
+      "title": "印度尼帕病毒拉响警报，尚无疫苗和有效疗法，检测试剂盒受关注，多家上市公司回应",
+      "summary": "安图生物（603658.SH）也发布消息称，其子公司思昆生物推出的高通量测序平台，可为快速精准识别尼帕病毒及病毒溯源提供高效解决方案，此外公司可针对病毒感染后的抗体、抗原进行精准检测，为尼帕病毒及各类新发突发传染病防控提供重要补充，可减少漏诊风险，为临床诊疗和疫情防控提供更全面的依据",
+      "publish_date": "2026-01-26",
+      "available_at": "2026-01-26T17:20:51",
+      "sentiment_score": 0.0,
+      "category": "产品进展",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "10分钟股价涨超10%！多家上市公司称已具备尼帕病毒检测能力",
+      "summary": "印度尼帕病毒疫情受到关注的同时，除博晖创新，凯普生物（300639.SZ）、安图生物（603658.SH）等多家A股上市公司也在近日表示已掌握尼帕病毒检测技术或研发出相关产品，但尚未形成营收规模。",
+      "publish_date": "2026-01-27",
+      "available_at": "2026-01-27T14:12:10",
+      "sentiment_score": 0.0,
+      "category": "业绩公告",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "安图生物及子公司获多项医疗器械注册证",
+      "summary": "2月12日，安图生物（603658）发布公告，公司及全资子公司安图仪器于近日收到河南省药品监督管理局颁发的医疗器械注册证，涉及产品包括霉酚酸检测试剂盒、皮质醇检测试剂盒、丙戊酸检测试剂盒和流式细胞仪，注册证有效期均为5年。",
+      "publish_date": "2026-02-12",
+      "available_at": "2026-02-12T17:35:35",
+      "sentiment_score": 0.0,
+      "category": "产品进展",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "安图生物关于使用闲置募集资金进行现金管理赎回的公告",
+      "summary": "",
+      "publish_date": "2026-03-03",
+      "available_at": "2026-03-03T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 0,
+  "hot_reason": "",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

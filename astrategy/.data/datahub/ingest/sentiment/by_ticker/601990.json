@@ -1,0 +1,70 @@
+{
+  "ticker": "601990",
+  "company_name": "南京证券",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "news",
+      "title": "南京证券：李剑锋到龄退休，夏宏建接任公司董事长",
+      "summary": "南方财经3月6日电，南京证券（601990.SH）公告称，李剑锋因到龄不再担任公司董事长、董事及董事会专门委员会相关职务。公司董事会召开会议，选举总裁夏宏建为第四届董事会董事长，任期自董事会审议通过之日起至本届董事会届满时止。",
+      "publish_date": "2026-03-06",
+      "available_at": "2026-03-06T20:18:04",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "南京证券：李剑锋到龄退休，夏宏建接任公司董事长",
+      "summary": "每经AI快讯，南京证券（601990.SH）公告称，李剑锋因到龄不再担任公司董事长、董事及董事会专门委员会相关职务。公司董事会召开会议，选举总裁夏宏建为第四届董事会董事长，任期自董事会审议通过之日起至本届董事会届满时止。",
+      "publish_date": "2026-03-06",
+      "available_at": "2026-03-06T20:34:22",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "南京证券股份有限公司第四届董事会第十五次会议决议公告",
+      "summary": "",
+      "publish_date": "2026-03-07",
+      "available_at": "2026-03-07T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "南京证券股份有限公司关于变更公司董事长的公告",
+      "summary": "",
+      "publish_date": "2026-03-07",
+      "available_at": "2026-03-07T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "南京证券董事长李剑锋到龄退休，总裁夏宏建接任",
+      "summary": "3月6日晚间，南京证券（601990.SH）公告，李剑锋因到龄提前离任，不再担任该公司董事长、董事及董事会专门委员会相关职务。南京证券董事会召开会议，选举总裁夏宏建为第四届董事会董事长，任期自董事会审议通过之日起至本届董事会届满时止。",
+      "publish_date": "2026-03-07",
+      "available_at": "2026-03-07T07:14:25",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 0,
+  "hot_reason": "",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

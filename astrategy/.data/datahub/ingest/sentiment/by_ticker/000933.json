@@ -1,0 +1,82 @@
+{
+  "ticker": "000933",
+  "company_name": "神火股份",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "filing",
+      "title": "河南神火煤电股份有限公司董事会第九届二十六次会议决议公告",
+      "summary": "",
+      "publish_date": "2026-02-25",
+      "available_at": "2026-02-25T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "河南神火煤电股份有限公司董事会第九届二十七次会议决议公告",
+      "summary": "",
+      "publish_date": "2026-03-14",
+      "available_at": "2026-03-14T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "河南神火煤电股份有限公司2026年第一次临时股东会决议公告",
+      "summary": "",
+      "publish_date": "2026-03-14",
+      "available_at": "2026-03-14T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "有色金属行业资金流出榜：紫金矿业、华友钴业等净流出资金居前",
+      "summary": "（数据宝） 有色金属行业资金流入榜 代码 简称 今日涨跌幅（%） 今日换手率（%） 主力资金流量（万元） 000408 藏格矿业 1.13 1.57 12808.53 300811 铂科新材 -2.21 5.48 9657.83 000933 神火股份 -2.68 2.80 7453.50",
+      "publish_date": "2026-03-16",
+      "available_at": "2026-03-16T17:12:27",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "神火股份：公司铝箔业务有出口产品，占铝箔产品总量不到20%",
+      "summary": "神火股份（000933.SZ）3月17日在投资者互动平台表示，公司铝箔业务有出口产品，占铝箔产品总量不到20%。",
+      "publish_date": "2026-03-17",
+      "available_at": "2026-03-17T12:17:29",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "俄乌冲突概念涨0.05%，主力资金净流入32股",
+      "summary": "福鞍股份 -0.26 2.81 -90.78 -0.65 603967 中创物流 -1.30 0.69 -97.82 -3.15 002871 伟隆股份 -3.63 1.18 -103.44 -3.23 001233 海安集团 -4.06 4.09 -208.61 -2.13 000933",
+      "publish_date": "2026-03-19",
+      "available_at": "2026-03-19T18:04:23",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 0,
+  "hot_reason": "",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

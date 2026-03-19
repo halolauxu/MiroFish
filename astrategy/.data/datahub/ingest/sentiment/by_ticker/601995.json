@@ -1,0 +1,130 @@
+{
+  "ticker": "601995",
+  "company_name": "中金公司",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "filing",
+      "title": "中金公司第三届董事会第十五次会议决议公告",
+      "summary": "",
+      "publish_date": "2026-02-28",
+      "available_at": "2026-02-28T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "中金公司关于独立非执行董事辞任的公告",
+      "summary": "",
+      "publish_date": "2026-02-28",
+      "available_at": "2026-02-28T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "中金公司H股公告（股份发行人的证券变动月报表）",
+      "summary": "",
+      "publish_date": "2026-03-03",
+      "available_at": "2026-03-03T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "中金公司拟发行20亿元中期票据 年利率1.90厘",
+      "summary": "3月13日，中金公司（601995/03908）发布公告，宣布根据其一百亿美元担保中期票据计划，计划发行本金总额为20亿元的票据，年利率为1.90厘，预计到期日为2028年3月19日。 此次票据的发行将用于偿还担保人及其子公司部分现有债务以及其他一般企业用途。",
+      "publish_date": "2026-03-13",
+      "available_at": "2026-03-13T17:23:19",
+      "sentiment_score": 0.0,
+      "category": "产品进展",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "中金公司关于重大资产重组的进展公告",
+      "summary": "",
+      "publish_date": "2026-03-14",
+      "available_at": "2026-03-14T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "资产重组",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "中金公司H股公告（自愿公告）",
+      "summary": "",
+      "publish_date": "2026-03-14",
+      "available_at": "2026-03-14T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "夯实金融支撑力量 银行资本补充迎来新方向",
+      "summary": "中金公司（601995.SH）研究观点指出，2026年《政府工作报告》体现出政策继续稳增长、扩内需的态度，特别是通过财政注资补充银行资本，通过政策性金融工具和财政贴息等方式拉动信贷需求，体现出维护金融系统稳定、金融机构健康发展的导向，有利于银行维持基本面稳健，利润和分红稳定增长。",
+      "publish_date": "2026-03-14",
+      "available_at": "2026-03-14T04:25:43",
+      "sentiment_score": 0.96,
+      "category": "业绩公告",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "中信证券突遭廉署搜查后 通往“国际一流”的路还有多远？",
+      "summary": "2010年农业银行（601288）H股IPO的丢单成为压垮骆驼的最后一根稻草——中信证券跟进了数年，却在最后的选秀中无缘“A+H”主承销商，只入选A股主承销团，而中金公司（601995）成为了唯一的“双料王”。",
+      "publish_date": "2026-03-18",
+      "available_at": "2026-03-18T14:35:26",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "中金公司H股公告（董事会会议通告）",
+      "summary": "",
+      "publish_date": "2026-03-19",
+      "available_at": "2026-03-19T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "hot_topic",
+      "title": "中金公司",
+      "summary": "雪球讨论#73",
+      "publish_date": "2026-03-19",
+      "available_at": "2026-03-19T00:00:00",
+      "sentiment_score": 0.08,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.25,
+      "hot_rank": 182
+    }
+  ],
+  "hot_rank": 182,
+  "hot_reason": "雪球讨论#73",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

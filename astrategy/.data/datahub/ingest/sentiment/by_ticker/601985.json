@@ -1,0 +1,82 @@
+{
+  "ticker": "601985",
+  "company_name": "中国核电",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "filing",
+      "title": "中国核电关于股份回购进展公告",
+      "summary": "股权变动",
+      "publish_date": "2026-03-03",
+      "available_at": "2026-03-03T00:00:00",
+      "sentiment_score": 0.8,
+      "category": "股权变动",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "中国核电2026年第一次临时股东会会议资料",
+      "summary": "",
+      "publish_date": "2026-03-06",
+      "available_at": "2026-03-06T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "中国核电2026年第一次临时股东会决议公告",
+      "summary": "",
+      "publish_date": "2026-03-13",
+      "available_at": "2026-03-13T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "中国核电：公司目前尚无钠冷快堆相关项目规划",
+      "summary": "中国核电6019853月17日在互动平台回复称，公司目前尚无钠冷快堆相关项目规划。",
+      "publish_date": "2026-03-17",
+      "available_at": "2026-03-17T15:58:29",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "中国核电：公司正积极推动核电纳入绿电体系",
+      "summary": "中国核电（601985.SH）3月17日在投资者互动平台表示，感谢关注。公司正积极推动核电纳入绿电体系，探索核能的绿色低碳属性和价值，具体政策以国家发布为准。",
+      "publish_date": "2026-03-17",
+      "available_at": "2026-03-17T16:19:28",
+      "sentiment_score": 0.0,
+      "category": "产品进展",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "中国核电：公司目前尚无钠冷快堆相关项目规划",
+      "summary": "中国核电（601985.SH）3月17日在投资者互动平台表示，感谢关注。公司目前尚无钠冷快堆相关项目规划。",
+      "publish_date": "2026-03-17",
+      "available_at": "2026-03-17T16:19:36",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 0,
+  "hot_reason": "",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

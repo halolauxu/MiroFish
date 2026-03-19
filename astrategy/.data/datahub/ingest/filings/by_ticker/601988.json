@@ -1,0 +1,36 @@
+[
+  {
+    "ticker": "601988",
+    "company_name": "中国银行",
+    "title": "H股公告-截至二零二六年二月二十八日止之股份发行人的证券变动月报表",
+    "announcement_type": "",
+    "publish_date": "2026-03-03",
+    "publish_time": "2026-03-03",
+    "link": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=601988&announcementId=1224991325&orgId=jjxt0000028&announcementTime=2026-03-03",
+    "source": "cninfo.disclosure_report",
+    "raw": {
+      "代码": "601988",
+      "简称": "中国银行",
+      "公告标题": "H股公告-截至二零二六年二月二十八日止之股份发行人的证券变动月报表",
+      "公告时间": "2026-03-03",
+      "公告链接": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=601988&announcementId=1224991325&orgId=jjxt0000028&announcementTime=2026-03-03"
+    }
+  },
+  {
+    "ticker": "601988",
+    "company_name": "中国银行",
+    "title": "H股公告-董事会召开日期",
+    "announcement_type": "",
+    "publish_date": "2026-03-19",
+    "publish_time": "2026-03-19",
+    "link": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=601988&announcementId=1225016015&orgId=jjxt0000028&announcementTime=2026-03-19",
+    "source": "cninfo.disclosure_report",
+    "raw": {
+      "代码": "601988",
+      "简称": "中国银行",
+      "公告标题": "H股公告-董事会召开日期",
+      "公告时间": "2026-03-19",
+      "公告链接": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=601988&announcementId=1225016015&orgId=jjxt0000028&announcementTime=2026-03-19"
+    }
+  }
+]

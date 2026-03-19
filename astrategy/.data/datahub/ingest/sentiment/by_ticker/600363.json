@@ -1,0 +1,118 @@
+{
+  "ticker": "600363",
+  "company_name": "联创光电",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "news",
+      "title": "联创光电：控股股东解除479万股质押 仍累计质押超七成持股",
+      "summary": "2月9日，联创光电（600363）发布公告，控股股东江西省电子集团有限公司将其持有的479万股股份于2026年2月6日解除质押，占其所持股份的5.06%及公司总股本的1.06%。",
+      "publish_date": "2026-02-09",
+      "available_at": "2026-02-09T17:43:19",
+      "sentiment_score": 0.0,
+      "category": "产品进展",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "关于完成回购股份注销减少注册资本工商登记的公告",
+      "summary": "股权变动",
+      "publish_date": "2026-03-02",
+      "available_at": "2026-03-02T00:00:00",
+      "sentiment_score": 0.8,
+      "category": "股权变动",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "联创光电：控股股东电子集团累计质押74.35%持股",
+      "summary": "3月4日，联创光电（600363）发布公告，控股股东江西省电子集团有限公司解除质押596万股，占其所持股份的6.61%及公司总股本的1.32%；同时再质押207万股，占其所持股份的2.30%及公司总股本的0.46%。",
+      "publish_date": "2026-03-04",
+      "available_at": "2026-03-04T19:38:30",
+      "sentiment_score": 0.0,
+      "category": "产品进展",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "关于控股股东部分股权解除质押并再质押的公告",
+      "summary": "",
+      "publish_date": "2026-03-05",
+      "available_at": "2026-03-05T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "OLED概念上涨3.17%，14股主力资金净流入超亿元",
+      "summary": "1.65 688496 清越科技 9.54 7.72 724.00 5.85 603078 江化微 0.93 3.37 700.54 2.22 300632 光莆股份 7.41 8.16 682.12 2.57 300576 容大感光 1.64 3.63 640.51 2.00 600363",
+      "publish_date": "2026-03-05",
+      "available_at": "2026-03-05T17:13:36",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "关于变更审计项目合伙人的公告",
+      "summary": "",
+      "publish_date": "2026-03-10",
+      "available_at": "2026-03-10T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "第九届董事会第二次临时会议决议公告",
+      "summary": "",
+      "publish_date": "2026-03-17",
+      "available_at": "2026-03-17T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "关于控股子公司回购公司所持其部分股份用于股权激励及公司签署《一致行动协议》的公告",
+      "summary": "股权变动",
+      "publish_date": "2026-03-17",
+      "available_at": "2026-03-17T00:00:00",
+      "sentiment_score": 0.8,
+      "category": "股权变动",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "关于公司增加2025年度银行综合授信额度的公告",
+      "summary": "",
+      "publish_date": "2026-03-17",
+      "available_at": "2026-03-17T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 0,
+  "hot_reason": "",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

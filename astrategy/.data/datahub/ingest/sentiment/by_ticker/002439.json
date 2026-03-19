@@ -1,0 +1,70 @@
+{
+  "ticker": "002439",
+  "company_name": "启明星辰",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "filing",
+      "title": "关于公司股东减持股份计划期限届满的公告",
+      "summary": "股权变动",
+      "publish_date": "2026-02-28",
+      "available_at": "2026-02-28T00:00:00",
+      "sentiment_score": -0.78,
+      "category": "股权变动",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "关于高级管理人员增持公司股份的公告",
+      "summary": "股权变动",
+      "publish_date": "2026-03-04",
+      "available_at": "2026-03-04T00:00:00",
+      "sentiment_score": 0.78,
+      "category": "股权变动",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "计算机行业今日净流出资金123.92亿元，华胜天成等34股净流出资金超亿元",
+      "summary": "0.47 1.02 6972.41 300324 旋极信息 5.66 7.36 6125.63 002405 四维图新 -0.27 5.61 5941.43 300469 信息发展 -0.14 3.81 5341.94 301316 慧博云通 0.53 2.55 4754.18 002439",
+      "publish_date": "2026-03-13",
+      "available_at": "2026-03-13T16:38:40",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "电子身份证概念下跌3.05%，7股主力资金净流出超3000万元",
+      "summary": "信安世纪 -5.78 3.53 205.43 301330 熵基科技 0.45 2.65 289.36 688262 国芯科技 -1.71 2.46 358.27 300479 神思电子 -2.39 2.82 799.03 600271 航天信息 -1.46 0.94 1469.68 002439",
+      "publish_date": "2026-03-13",
+      "available_at": "2026-03-13T17:14:35",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "华为昇腾概念涨3.55%，主力资金净流入49股",
+      "summary": "4.90 002777 久远银海 2.33 1.36 363.77 3.61 688207 格灵深瞳 4.33 2.13 349.00 3.98 300872 天阳科技 2.19 3.06 329.62 1.43 002253 *ST智胜 3.09 7.81 285.01 1.52 002439",
+      "publish_date": "2026-03-18",
+      "available_at": "2026-03-18T17:06:40",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 0,
+  "hot_reason": "",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

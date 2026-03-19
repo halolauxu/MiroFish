@@ -1,0 +1,58 @@
+{
+  "ticker": "600160",
+  "company_name": "巨化股份",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "filing",
+      "title": "巨化股份关于为控股子公司提供担保进展情况的公告",
+      "summary": "",
+      "publish_date": "2026-03-12",
+      "available_at": "2026-03-12T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "基础化工行业资金流入榜：和邦生物等20股净流入资金超亿元",
+      "summary": "主力资金流量（万元） 002001 新和成 1.63 2.46 -34705.66 600309 万华化学 -3.19 1.69 -31908.78 002470 金正大 -2.66 15.71 -14584.07 603688 石英股份 -5.42 5.22 -13831.32 600160",
+      "publish_date": "2026-03-12",
+      "available_at": "2026-03-12T17:18:44",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "磷化工+锂电材料领涨，双重收益下化工ETF涨超2%",
+      "summary": "159867）,科创新能源ETF（588830）,粮食ETF（159698） 关联个股： 万华化学（600309）、盐湖股份（000792）、宝丰能源（600989）、天赐材料（002709）、藏格矿业（000408）、华鲁恒升（600426）、云天化（600096）、巨化股份（600160",
+      "publish_date": "2026-03-13",
+      "available_at": "2026-03-13T10:03:40",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "解密主力资金出逃股 连续5日净流出534股",
+      "summary": "4.09 7.79 -11.68 300427 红相股份 6 4.06 7.05 -14.13 300166 东方国信 6 4.04 5.24 -0.94 688102 斯瑞新材 6 3.97 10.05 -11.86 600765 中航重机 6 3.92 9.23 -11.59 600160",
+      "publish_date": "2026-03-16",
+      "available_at": "2026-03-16T17:13:04",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 0,
+  "hot_reason": "",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

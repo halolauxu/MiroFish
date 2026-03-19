@@ -1,0 +1,53 @@
+[
+  {
+    "ticker": "688009",
+    "company_name": "中国通号",
+    "title": "关于董事、高管变更的公告",
+    "announcement_type": "",
+    "publish_date": "2026-02-27",
+    "publish_time": "2026-02-27",
+    "link": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=688009&announcementId=1224986381&orgId=9900030958&announcementTime=2026-02-27",
+    "source": "cninfo.disclosure_report",
+    "raw": {
+      "代码": "688009",
+      "简称": "中国通号",
+      "公告标题": "关于董事、高管变更的公告",
+      "公告时间": "2026-02-27",
+      "公告链接": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=688009&announcementId=1224986381&orgId=9900030958&announcementTime=2026-02-27"
+    }
+  },
+  {
+    "ticker": "688009",
+    "company_name": "中国通号",
+    "title": "2025年度业绩快报公告",
+    "announcement_type": "业绩预告",
+    "publish_date": "2026-02-28",
+    "publish_time": "2026-02-28",
+    "link": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=688009&announcementId=1224987506&orgId=9900030958&announcementTime=2026-02-28",
+    "source": "cninfo.disclosure_report",
+    "raw": {
+      "代码": "688009",
+      "简称": "中国通号",
+      "公告标题": "2025年度业绩快报公告",
+      "公告时间": "2026-02-28",
+      "公告链接": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=688009&announcementId=1224987506&orgId=9900030958&announcementTime=2026-02-28"
+    }
+  },
+  {
+    "ticker": "688009",
+    "company_name": "中国通号",
+    "title": "2026年第二次临时股东会会议资料",
+    "announcement_type": "",
+    "publish_date": "2026-03-18",
+    "publish_time": "2026-03-18",
+    "link": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=688009&announcementId=1225013272&orgId=9900030958&announcementTime=2026-03-18",
+    "source": "cninfo.disclosure_report",
+    "raw": {
+      "代码": "688009",
+      "简称": "中国通号",
+      "公告标题": "2026年第二次临时股东会会议资料",
+      "公告时间": "2026-03-18",
+      "公告链接": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=688009&announcementId=1225013272&orgId=9900030958&announcementTime=2026-03-18"
+    }
+  }
+]

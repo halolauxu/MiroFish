@@ -1,0 +1,70 @@
+{
+  "ticker": "002673",
+  "company_name": "西部证券",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "news",
+      "title": "西部证券：上市证券做市交易业务资格获批",
+      "summary": "人民财讯2月13日电，西部证券0026732月13日公告，公司于近日收到中国证监会出具的《关于核准西部证券股份有限公司上市证券做市交易业务资格的批复》，中国证监会核准公司上市证券做市交易（限于北京证券交易所股票做市）业务资格。",
+      "publish_date": "2026-02-13",
+      "available_at": "2026-02-13T18:58:06",
+      "sentiment_score": 0.0,
+      "category": "产品进展",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "2026年度第三期短期融资券发行结果公告",
+      "summary": "增发融资",
+      "publish_date": "2026-03-03",
+      "available_at": "2026-03-03T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "2025年面向专业投资者公开发行公司债券（第二期）2026年付息公告",
+      "summary": "债券融资",
+      "publish_date": "2026-03-09",
+      "available_at": "2026-03-09T17:06:09",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "20.19亿主力资金净流入，期货概念涨0.02%",
+      "summary": "002961 瑞达期货 1.15 4.09 1237.60 2.37 601136 首创证券 0.40 0.35 1198.13 7.13 600208 衢州发展 -0.58 0.71 1163.13 5.52 600927 永安期货 0.75 0.87 1111.30 5.89 002673",
+      "publish_date": "2026-03-17",
+      "available_at": "2026-03-17T17:23:25",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "36.33亿元主力资金今日抢筹非银金融板块",
+      "summary": "0.40 0.35 1198.13 002945 华林证券 -0.36 0.85 1135.67 600927 永安期货 0.75 0.87 1111.30 600816 建元信托 0.74 1.15 1067.13 002316 亚联发展 -0.18 7.93 850.60 002673",
+      "publish_date": "2026-03-17",
+      "available_at": "2026-03-17T17:23:34",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 0,
+  "hot_reason": "",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

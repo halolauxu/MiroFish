@@ -1,0 +1,46 @@
+{
+  "ticker": "600348",
+  "company_name": "华阳股份",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "news",
+      "title": "华阳股份：钠电池的大规模应用受限于多种因素，钠电池的规模效应尚未形成",
+      "summary": "华阳股份（600348.SH）3月16日在投资者互动平台表示，钠电池的大规模应用受限于多种因素，钠电池的规模效应尚未形成。",
+      "publish_date": "2026-03-16",
+      "available_at": "2026-03-16T18:16:36",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "华阳股份：泊里煤矿的建设工作正按基建计划有序推进",
+      "summary": "华阳股份（600348.SH）3月16日在投资者互动平台表示，泊里煤矿的建设工作正按基建计划有序推进。",
+      "publish_date": "2026-03-16",
+      "available_at": "2026-03-16T18:16:38",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "华阳股份：公司持续推进与国内电动重卡厂商的战略协同合作，目前处于测试阶段",
+      "summary": "华阳股份（600348.SH）3月16日在投资者互动平台表示，公司钠离子电池已布局工商业储能、煤矿钠离子电池应急电源等多个应用场景。公司持续推进与国内电动重卡厂商的战略协同合作，目前处于测试阶段。",
+      "publish_date": "2026-03-16",
+      "available_at": "2026-03-16T18:16:38",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 0,
+  "hot_reason": "",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

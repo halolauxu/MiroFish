@@ -1,0 +1,58 @@
+{
+  "ticker": "002415",
+  "company_name": "海康威视",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "news",
+      "title": "计算机行业今日净流出资金123.92亿元，华胜天成等34股净流出资金超亿元",
+      "summary": "（数据宝） 计算机行业资金流入榜 代码 简称 今日涨跌幅（%） 今日换手率（%） 主力资金流量（万元） 688568 中科星图 -1.86 3.15 26918.56 600756 浪潮软件 9.98 9.30 20472.65 002415 海康威视 0.06 0.41 10590.11",
+      "publish_date": "2026-03-13",
+      "available_at": "2026-03-13T16:38:40",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "光纤概念下跌4.81%，主力资金净流出72股",
+      "summary": "-12105.28 603688 石英股份 -4.87 3.45 -11483.91 688025 杰普特 -7.12 4.97 -9444.97 002491 通鼎互联 -7.10 10.01 -8733.36 300398 飞凯材料 -4.54 4.70 -8585.87 002415",
+      "publish_date": "2026-03-17",
+      "available_at": "2026-03-17T17:22:58",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "计算机行业今日涨2.46%，主力资金净流入53.26亿元",
+      "summary": "10.46 52987.47 300166 东方国信 16.36 37.21 48871.76 000977 浪潮信息 5.62 3.47 48538.36 000815 美利云 10.03 11.33 41722.97 300302 同有科技 20.01 22.22 40180.03 002415",
+      "publish_date": "2026-03-18",
+      "available_at": "2026-03-18T17:07:04",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "hot_topic",
+      "title": "海康威视",
+      "summary": "雪球关注#18; 雪球讨论#82; 雪球交易#53",
+      "publish_date": "2026-03-19",
+      "available_at": "2026-03-19T00:00:00",
+      "sentiment_score": 0.226,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.25,
+      "hot_rank": 27
+    }
+  ],
+  "hot_rank": 27,
+  "hot_reason": "雪球关注#18; 雪球讨论#82; 雪球交易#53",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

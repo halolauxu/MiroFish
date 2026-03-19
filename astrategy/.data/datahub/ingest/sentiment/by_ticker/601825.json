@@ -1,0 +1,106 @@
+{
+  "ticker": "601825",
+  "company_name": "沪农商行",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "filing",
+      "title": "上海农村商业银行股份有限公司关于董事任职资格获监管机构核准的公告",
+      "summary": "",
+      "publish_date": "2026-03-12",
+      "available_at": "2026-03-12T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "政策影响",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "今日盘中突破年线个股",
+      "summary": "1.54 0.23 9.78 9.90 1.21 603215 比依股份 1.67 0.64 19.24 19.47 1.20 600857 宁波中百 1.43 0.54 12.58 12.73 1.19 000761 本钢板材 2.77 0.54 3.67 3.71 1.13 601825",
+      "publish_date": "2026-03-13",
+      "available_at": "2026-03-13T12:11:21",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "今日38只个股跨越牛熊分界线",
+      "summary": "2.29 1.72 71.28 72.79 2.12 603215 比依股份 2.04 1.30 19.24 19.54 1.56 300121 阳谷华泰 3.38 6.65 13.87 14.08 1.49 002650 ST加加 1.41 0.30 6.40 6.48 1.24 601825",
+      "publish_date": "2026-03-13",
+      "available_at": "2026-03-13T15:26:22",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "上海农村商业银行股份有限公司董事会审计委员会工作规则",
+      "summary": "",
+      "publish_date": "2026-03-14",
+      "available_at": "2026-03-14T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "上海农村商业银行股份有限公司董事会2026年第二次会议决议公告",
+      "summary": "",
+      "publish_date": "2026-03-14",
+      "available_at": "2026-03-14T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "上海农村商业银行股份有限公司关于关联交易事项的公告",
+      "summary": "",
+      "publish_date": "2026-03-14",
+      "available_at": "2026-03-14T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "上海农村商业银行股份有限公司2026年第一次临时股东会会议材料",
+      "summary": "",
+      "publish_date": "2026-03-14",
+      "available_at": "2026-03-14T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "银行行业资金流入榜：农业银行、工商银行等净流入资金居前",
+      "summary": "江苏银行 -0.09 0.47 1924.04 601998 中信银行 3.44 0.23 473.18 601963 重庆银行 -1.47 1.16 182.09 601187 厦门银行 0.26 0.76 89.48 601838 成都银行 1.04 0.64 60.98 601825",
+      "publish_date": "2026-03-17",
+      "available_at": "2026-03-17T17:23:22",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 0,
+  "hot_reason": "",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

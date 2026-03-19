@@ -1,0 +1,82 @@
+{
+  "ticker": "601198",
+  "company_name": "东兴证券",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "news",
+      "title": "增资、发债、新设、担保......开年中金、广发、华泰等多家券商为出海筹措“弹药”",
+      "summary": "2025年以来，选择在国际业务上大踏步向前的券商也已有十余家，除前述券商外，西部证券（002673.SZ）、第一创业（002797.SZ）也宣布将在港设立全资子公司；中信建投（601066.SH）、广发证券、国金证券（600109.SH）、山西证券（002500.SZ）、东兴证券（601198",
+      "publish_date": "2026-02-14",
+      "available_at": "2026-02-14T18:38:52",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "东兴证券股份有限公司2026年度第二期短期融资券发行结果公告",
+      "summary": "增发融资",
+      "publish_date": "2026-03-06",
+      "available_at": "2026-03-06T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "东兴证券股份有限公司关于重大资产重组的进展公告",
+      "summary": "",
+      "publish_date": "2026-03-17",
+      "available_at": "2026-03-17T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "资产重组",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "20.19亿主力资金净流入，期货概念涨0.02%",
+      "summary": "601136 首创证券 0.40 0.35 1198.13 7.13 600208 衢州发展 -0.58 0.71 1163.13 5.52 600927 永安期货 0.75 0.87 1111.30 5.89 002673 西部证券 0.39 0.76 701.94 2.67 601198",
+      "publish_date": "2026-03-17",
+      "available_at": "2026-03-17T17:23:25",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "36.33亿元主力资金今日抢筹非银金融板块",
+      "summary": "华林证券 -0.36 0.85 1135.67 600927 永安期货 0.75 0.87 1111.30 600816 建元信托 0.74 1.15 1067.13 002316 亚联发展 -0.18 7.93 850.60 002673 西部证券 0.39 0.76 701.94 601198",
+      "publish_date": "2026-03-17",
+      "available_at": "2026-03-17T17:23:34",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "东兴证券股份有限公司2025年度第四期短期融资券兑付完成的公告",
+      "summary": "增发融资",
+      "publish_date": "2026-03-19",
+      "available_at": "2026-03-19T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 0,
+  "hot_reason": "",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

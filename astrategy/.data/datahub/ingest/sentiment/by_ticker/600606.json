@@ -1,0 +1,58 @@
+{
+  "ticker": "600606",
+  "company_name": "绿地控股",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "filing",
+      "title": "绿地控股关于公司及控股子公司新增诉讼的公告",
+      "summary": "风险事项",
+      "publish_date": "2026-03-07",
+      "available_at": "2026-03-07T00:00:00",
+      "sentiment_score": -0.32,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "绿地控股：公司在中东地区暂未开展相关基建业务",
+      "summary": "人民财讯3月16日电，绿地控股6006063月16日在互动平台表示，公司在中东地区暂未开展相关基建业务。",
+      "publish_date": "2026-03-16",
+      "available_at": "2026-03-16T15:44:45",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "绿地控股：公司在中东地区暂未开展相关基建业务",
+      "summary": "每经AI快讯，绿地控股6006063月16日在互动平台表示，公司在中东地区暂未开展相关基建业务。",
+      "publish_date": "2026-03-16",
+      "available_at": "2026-03-16T15:51:56",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "低价股一览 33股股价不足2元",
+      "summary": "601005 重庆钢铁 1.53 -1.92 3.03 0.83 钢铁 600221 海航控股 1.54 -1.91 1.12 12.37 交通运输 002146 荣盛发展 1.55 -3.13 4.20 0.57 房地产 600340 华夏幸福 1.57 -5.42 6.28 房地产 600606",
+      "publish_date": "2026-03-18",
+      "available_at": "2026-03-18T17:04:12",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 0,
+  "hot_reason": "",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

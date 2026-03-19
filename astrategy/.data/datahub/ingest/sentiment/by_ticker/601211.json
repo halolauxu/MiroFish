@@ -1,0 +1,82 @@
+{
+  "ticker": "601211",
+  "company_name": "国泰海通",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "filing",
+      "title": "国泰海通证券股份有限公司H股公告（2026年2月证券变动月报表）",
+      "summary": "",
+      "publish_date": "2026-03-03",
+      "available_at": "2026-03-03T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "国泰海通证券股份有限公司第七届董事会第十一次会议（临时会议）决议公告",
+      "summary": "",
+      "publish_date": "2026-03-07",
+      "available_at": "2026-03-07T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "国泰海通子公司被查 公司回应：经营一切正常",
+      "summary": "3月12日，国泰海通（601211/02611）发布公告，近日公司注意到部分媒体有关控股子公司国泰君安国际控股有限公司被香港证券及期货事务监察委员会及廉政公署调查的报道。",
+      "publish_date": "2026-03-12",
+      "available_at": "2026-03-12T20:46:21",
+      "sentiment_score": 0.0,
+      "category": "产品进展",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "国泰海通：一名员工曾被廉署带走配合调查 目前公司经营情况正常",
+      "summary": "人民财讯3月12日电，国泰海通6012113月12日公告，近日，公司注意到部分媒体有关公司控股子公司国泰君安国际被香港证券及期货事务监察委员会(简称“香港证监会”)及廉政公署(简称“廉署”)调查的报道。",
+      "publish_date": "2026-03-12",
+      "available_at": "2026-03-12T21:35:34",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "国泰海通证券股份有限公司关于子公司相关媒体报道事宜的公告",
+      "summary": "",
+      "publish_date": "2026-03-13",
+      "available_at": "2026-03-13T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "国泰海通回应子公司被调查事件：经营状况稳定 业务运转如常",
+      "summary": "3月12日，国泰海通（601211.SH）发布公告，就部分媒体报道其控股子公司国泰君安国际被香港证监会及廉政公署调查一事作出说明。公告指出，经核查，2026年3月10日，香港证监会与廉署人员持搜查令前往国泰君安国际营业场所，带走了部分文件，该公司一名员工曾被廉署带走协助调查。",
+      "publish_date": "2026-03-13",
+      "available_at": "2026-03-13T00:25:24",
+      "sentiment_score": 0.0,
+      "category": "产品进展",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 0,
+  "hot_reason": "",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

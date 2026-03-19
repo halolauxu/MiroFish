@@ -1,0 +1,36 @@
+[
+  {
+    "ticker": "000301",
+    "company_name": "东方盛虹",
+    "title": "可转换公司债券2026年付息公告",
+    "announcement_type": "债券融资",
+    "publish_date": "2026-03-17",
+    "publish_time": "2026-03-17",
+    "link": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=000301&announcementId=1225012302&orgId=gssz0000301&announcementTime=2026-03-17",
+    "source": "cninfo.disclosure_report",
+    "raw": {
+      "代码": "000301",
+      "简称": "东方盛虹",
+      "公告标题": "可转换公司债券2026年付息公告",
+      "公告时间": "2026-03-17",
+      "公告链接": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=000301&announcementId=1225012302&orgId=gssz0000301&announcementTime=2026-03-17"
+    }
+  },
+  {
+    "ticker": "000301",
+    "company_name": "东方盛虹",
+    "title": "关于完成工商变更登记的公告",
+    "announcement_type": "",
+    "publish_date": "2026-03-19",
+    "publish_time": "2026-03-19",
+    "link": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=000301&announcementId=1225016570&orgId=gssz0000301&announcementTime=2026-03-19",
+    "source": "cninfo.disclosure_report",
+    "raw": {
+      "代码": "000301",
+      "简称": "东方盛虹",
+      "公告标题": "关于完成工商变更登记的公告",
+      "公告时间": "2026-03-19",
+      "公告链接": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=000301&announcementId=1225016570&orgId=gssz0000301&announcementTime=2026-03-19"
+    }
+  }
+]

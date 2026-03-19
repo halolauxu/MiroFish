@@ -1,0 +1,58 @@
+{
+  "ticker": "300346",
+  "company_name": "南大光电",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "filing",
+      "title": "关于持股5%以上股东减持股份的预披露公告",
+      "summary": "股权变动",
+      "publish_date": "2026-03-13",
+      "available_at": "2026-03-13T20:24:09",
+      "sentiment_score": -0.78,
+      "category": "股权变动",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "南大光电：股东沈洁拟减持不超1%股份",
+      "summary": "南大光电300346.SZ)公告称，持股5%以上股东、公司第一大股东沈洁计划自公告披露之日起15个交易日后的3个月内（即2026年4月7日至2026年7月6日），以集中竞价或大宗交易方式减持公司股份不超过691.15万股，占公司总股本的1.00%；减持原因为个人资金规划与安排所需",
+      "publish_date": "2026-03-13",
+      "available_at": "2026-03-13T20:28:56",
+      "sentiment_score": -0.78,
+      "category": "股权变动",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "南大光电：股东沈洁拟减持不超1%股份",
+      "summary": "每经AI快讯，3月13日，南大光电300346.SZ)公告称，持股5%以上股东、公司第一大股东沈洁计划自公告披露之日起15个交易日后的3个月内（即2026年4月7日至2026年7月6日），以集中竞价或大宗交易方式减持公司股份不超过691.15万股，占公司总股本的1.00%；减持原因为个人资金规划与安排所需",
+      "publish_date": "2026-03-13",
+      "available_at": "2026-03-13T20:32:20",
+      "sentiment_score": -0.78,
+      "category": "股权变动",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "南大光电：股东沈洁拟减持不超1%公司股份",
+      "summary": "3月13日，南大光电（300346）发布公告，持股5%以上股东沈洁计划自2026年4月7日起至2026年7月6日，通过集中竞价或大宗交易方式减持不超过691万股公司股份，占公司总股本的1.00%。 2025年前三季度，南大光电实现收入18.84亿元，归母净利润3.01亿元。",
+      "publish_date": "2026-03-13",
+      "available_at": "2026-03-13T20:38:26",
+      "sentiment_score": -0.78,
+      "category": "业绩公告",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 0,
+  "hot_reason": "",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

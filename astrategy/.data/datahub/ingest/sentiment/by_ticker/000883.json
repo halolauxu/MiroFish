@@ -1,0 +1,58 @@
+{
+  "ticker": "000883",
+  "company_name": "湖北能源",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "news",
+      "title": "湖北能源：2026年1月发电量42.64亿千瓦时 同比增加26.38%",
+      "summary": "每经AI快讯，2月5日，湖北能源000883.SZ)公告称，2026年1月，公司完成发电量42.64亿千瓦时，同比增加26.38%。其中水电发电量同比增加150.62%，火电发电量同比增加11.01%，新能源发电量同比减少13.12%。",
+      "publish_date": "2026-02-05",
+      "available_at": "2026-02-05T19:09:14",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "湖北能源集团股份有限公司关于2026年2月发电情况的自愿性信息披露公告",
+      "summary": "",
+      "publish_date": "2026-03-07",
+      "available_at": "2026-03-07T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "湖北能源：2月水电发电量10.45亿千瓦时，同比增长109%",
+      "summary": "南方财经3月9日电，湖北能源000883.SZ)公告，2026年2月完成发电量33.54亿千瓦时，同比增长14.20%。",
+      "publish_date": "2026-03-09",
+      "available_at": "2026-03-09T09:40:16",
+      "sentiment_score": 0.2,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "页岩气概念下跌2.14%，12股主力资金净流出超5000万元",
+      "summary": "云南能投 -3.46 3.15 16.41 002221 东华能源 -1.37 2.88 185.68 600739 辽宁成大 -0.58 0.89 201.84 001296 长江材料 3.95 4.54 298.83 300446 航天智造 2.08 3.46 350.45 000883",
+      "publish_date": "2026-03-10",
+      "available_at": "2026-03-10T17:10:19",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 0,
+  "hot_reason": "",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

@@ -1,0 +1,82 @@
+{
+  "ticker": "000768",
+  "company_name": "中航西飞",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "filing",
+      "title": "关于回购注销部分限制性股票减少注册资本暨通知债权人的公告",
+      "summary": "股权变动",
+      "publish_date": "2026-02-28",
+      "available_at": "2026-02-28T00:00:00",
+      "sentiment_score": 0.8,
+      "category": "股权变动",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "公司章程（2026年2月）",
+      "summary": "",
+      "publish_date": "2026-02-28",
+      "available_at": "2026-02-28T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "2026年第一次临时股东会决议公告",
+      "summary": "",
+      "publish_date": "2026-02-28",
+      "available_at": "2026-02-28T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "国防军工行业资金流出榜：航天彩虹等13股净流出资金超亿元",
+      "summary": "35903.79 300065 海兰信 -3.16 19.15 -35676.49 300008 天海防务 -2.63 11.21 -22171.57 002413 雷科防务 1.49 24.63 -20230.46 300762 上海瀚讯 -0.82 6.67 -16631.80 000768",
+      "publish_date": "2026-03-05",
+      "available_at": "2026-03-05T17:13:53",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "国产航母概念下跌1.28%，主力资金净流出27股",
+      "summary": "59831.77 600893 航发动力 -6.06 2.08 -34039.31 600482 中国动力 -2.29 2.79 -27116.19 600118 中国卫星 -1.67 3.04 -25841.75 300065 海兰信 -3.00 13.99 -20598.14 000768",
+      "publish_date": "2026-03-11",
+      "available_at": "2026-03-11T16:44:22",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "国产航母概念下跌2.67%，13股主力资金净流出超亿元",
+      "summary": "30682.50 600150 中国船舶 -1.53 1.04 -25678.16 002151 北斗星通 -3.94 9.13 -23762.77 002465 海格通信 -3.62 4.61 -23389.07 300101 振芯科技 -7.04 8.26 -22594.06 000768",
+      "publish_date": "2026-03-12",
+      "available_at": "2026-03-12T17:19:54",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 0,
+  "hot_reason": "",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

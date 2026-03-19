@@ -1,0 +1,82 @@
+{
+  "ticker": "002131",
+  "company_name": "利欧股份",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "news",
+      "title": "突然涨停，002131封单超450万手！利好不断，港股龙头飙升",
+      "summary": "2月12日午后，AI应用概念股利欧股份（002131）约13:56股价拉升至涨停板，涨停板封单一度超过450万手，封单资金超过40亿元。 午后股价大幅上涨的AI应用概念股还有昆仑万维、万兴科技、普元信息、易点天下、浙文互联、壹网壹创等。",
+      "publish_date": "2026-02-12",
+      "available_at": "2026-02-12T14:26:39",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "002131，002837，封板涨停！主力超70亿元疯抢！",
+      "summary": "个股方面，利欧股份002131获得逾37亿元主力资金净流入，英维克(002837)获得逾34亿元净流入。两股今天均封板涨停，合计获得超70亿元净流入。 其中，利欧股份午后直线拉升涨停，最新报9.08元/股，总市值为615亿元。",
+      "publish_date": "2026-02-12",
+      "available_at": "2026-02-12T18:12:04",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "关于回购股份集中竞价减持进展的公告",
+      "summary": "股权变动",
+      "publish_date": "2026-03-03",
+      "available_at": "2026-03-03T00:00:00",
+      "sentiment_score": 0.02,
+      "category": "股权变动",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "关于公司为全资子公司提供担保的公告",
+      "summary": "",
+      "publish_date": "2026-03-03",
+      "available_at": "2026-03-03T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "解密主力资金出逃股 连续5日净流出736股",
+      "summary": "8.33 -16.40 000630 铜陵有色 12 23.89 6.69 -16.90 600549 厦门钨业 5 22.60 10.26 -18.12 600673 东阳光 7 21.73 7.34 -10.05 000657 中钨高新 5 20.89 8.01 -19.43 002131",
+      "publish_date": "2026-03-17",
+      "available_at": "2026-03-17T17:25:25",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "hot_topic",
+      "title": "利欧股份",
+      "summary": "雪球讨论#110; 雪球交易#72",
+      "publish_date": "2026-03-19",
+      "available_at": "2026-03-19T00:00:00",
+      "sentiment_score": 0.08,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.25,
+      "hot_rank": 108
+    }
+  ],
+  "hot_rank": 108,
+  "hot_reason": "雪球讨论#110; 雪球交易#72",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

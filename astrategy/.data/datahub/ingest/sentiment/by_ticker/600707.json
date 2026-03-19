@@ -1,0 +1,82 @@
+{
+  "ticker": "600707",
+  "company_name": "彩虹股份",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "filing",
+      "title": "彩虹股份关于控股股东之一致行动人部分股份解除质押的公告",
+      "summary": "",
+      "publish_date": "2026-03-03",
+      "available_at": "2026-03-03T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "彩虹股份：控股股东咸阳金控解押3000万股，累计质押68.65%持股",
+      "summary": "3月10日，彩虹股份（600707）发布公告，控股股东咸阳金融控股集团有限公司解除质押股份3000万股，占其所持股份的2.70%及公司总股本的0.84%；截至公告披露日，咸阳金控累计质押股份7.64亿股，占其持股数量的68.65%及公司总股本的21.29%。",
+      "publish_date": "2026-03-10",
+      "available_at": "2026-03-10T16:26:28",
+      "sentiment_score": 0.0,
+      "category": "产品进展",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "彩虹股份关于控股股东部分股份解除质押的公告",
+      "summary": "",
+      "publish_date": "2026-03-11",
+      "available_at": "2026-03-11T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "【盘中播报】69只个股跨越牛熊分界线",
+      "summary": "2.55 0.77 12.25 12.46 1.68 300641 正丹股份 9.54 6.69 22.14 22.50 1.63 603908 牧高笛 1.46 0.60 24.74 25.08 1.36 300121 阳谷华泰 3.01 3.20 13.87 14.03 1.13 600707",
+      "publish_date": "2026-03-13",
+      "available_at": "2026-03-13T11:13:43",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "彩虹股份：贺颖辞任董事 冯坤辞任副总 何国望当选职工董事",
+      "summary": "3月13日，彩虹股份（600707）发布公告，贺颖因工作变动，辞去公司董事及战略委员会委员职务；冯坤因工作变动，辞去公司副总经理职务，辞职后继续担任公司董事。 同时，公司职工代表大会选举何国望为职工董事，任期至本届董事会任期届满之日止。",
+      "publish_date": "2026-03-13",
+      "available_at": "2026-03-13T16:15:44",
+      "sentiment_score": 0.0,
+      "category": "产品进展",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "彩虹股份关于董事、高级管理人员离任及选举职工董事的公告",
+      "summary": "",
+      "publish_date": "2026-03-14",
+      "available_at": "2026-03-14T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 0,
+  "hot_reason": "",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

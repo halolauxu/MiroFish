@@ -1,0 +1,58 @@
+{
+  "ticker": "600161",
+  "company_name": "天坛生物",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "news",
+      "title": "天坛生物：董事长杨汇川因工作调整离任",
+      "summary": "人民财讯1月16日电，天坛生物6001611月16日公告，由于工作调整，公司原董事长杨汇川向董事会提出辞去董事长、董事会战略与投资委员会主任委员、董事会业绩考核与薪酬委员会委员、董事会提名委员会委员等职务。辞去上述职务后，杨汇川将继续担任公司第九届董事会董事、总经理等职务。",
+      "publish_date": "2026-01-16",
+      "available_at": "2026-01-16T21:24:11",
+      "sentiment_score": 0.0,
+      "category": "业绩公告",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "天坛生物：杨汇川辞任董事长 梁红军接任",
+      "summary": "天坛生物（600161）发布公告，董事长杨汇川于2026年1月16日递交辞职报告，因工作调整原因提前离任，原定任期到期日为2026年5月24日。辞职后，杨汇川将继续担任公司董事和总经理等职务。",
+      "publish_date": "2026-01-18",
+      "available_at": "2026-01-18T16:08:20",
+      "sentiment_score": 0.0,
+      "category": "产品进展",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "天坛生物关于控股股东权益变动暨股份完成过户登记的公告",
+      "summary": "",
+      "publish_date": "2026-03-07",
+      "available_at": "2026-03-07T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "天坛生物：公司在加速推进云南项目主要品种的生产场地转移相关工作，预计2026年投产",
+      "summary": "天坛生物（600161.SH）3月10日在投资者互动平台表示，天坛上海云南项目属于跨省异地搬迁，原有《药品生产许可证》、《药品注册批件》等转移工作须取得云南省和国家药品监督管理部门批准。公司积极与政府部门沟通，努力加速云南项目主要品种的生产场地转移相关工作，预计2026年投产。",
+      "publish_date": "2026-03-10",
+      "available_at": "2026-03-10T18:24:30",
+      "sentiment_score": 0.24,
+      "category": "产品进展",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 0,
+  "hot_reason": "",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

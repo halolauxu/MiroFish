@@ -1,0 +1,58 @@
+{
+  "ticker": "000792",
+  "company_name": "盐湖股份",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "news",
+      "title": "杠杆资金大手笔加仓股名单",
+      "summary": "2.16 汽车 002602 世纪华通 1.49 11111.13 313346.33 2.70 传媒 002463 沪电股份 1.95 10626.52 402849.50 2.45 电子 601555 东吴证券 -0.81 10479.28 313637.69 7.37 非银金融 000792",
+      "publish_date": "2026-03-18",
+      "available_at": "2026-03-18T09:52:40",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "盐湖股份：公司所产工业盐已实现区域性市场供应，但海西地区盐资源富集，销售规模尚处于区域市场培育阶段",
+      "summary": "盐湖股份（000792.SZ）3月18日在投资者互动平台表示，公司所产工业盐已实现区域性市场供应，但因海西地区盐资源富集，市场相对供大于求，销售规模尚处于区域市场培育阶段；面对市场竞争，公司通过技术优化，不断提高工业盐产品品质，增强产品市场竞争力，为拓展市场奠定基础。",
+      "publish_date": "2026-03-18",
+      "available_at": "2026-03-18T12:36:52",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "hot_topic",
+      "title": "盐湖股份",
+      "summary": "雪球关注#99; 雪球讨论#90",
+      "publish_date": "2026-03-19",
+      "available_at": "2026-03-19T00:00:00",
+      "sentiment_score": 0.082,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.25,
+      "hot_rank": 99
+    },
+    {
+      "source_type": "news",
+      "title": "57.58亿元资金今日流出基础化工股",
+      "summary": "000731 四川美丰 -1.71 8.92 2419.57 002246 北化股份 -4.05 3.73 2369.23 600063 皖维高新 -4.92 4.76 2283.99 基础化工行业资金流出榜 代码 简称 今日涨跌幅（%） 今日换手率（%） 主力资金流量（万元） 000792",
+      "publish_date": "2026-03-19",
+      "available_at": "2026-03-19T18:05:40",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 99,
+  "hot_reason": "雪球关注#99; 雪球讨论#90",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

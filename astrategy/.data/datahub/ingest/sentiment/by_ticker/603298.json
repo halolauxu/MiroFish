@@ -1,0 +1,46 @@
+{
+  "ticker": "603298",
+  "company_name": "杭叉集团",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "news",
+      "title": "382股获杠杆资金大手笔加仓",
+      "summary": "301281 科源制药 17292.98 27.69 6.49 医药生物 600507 方大特钢 10408.02 26.86 4.08 钢铁 301567 贝隆精密 9682.89 25.94 7.47 电子 001328 登康口腔 4102.78 25.67 -3.40 美容护理 603298",
+      "publish_date": "2026-02-26",
+      "available_at": "2026-02-26T09:41:26",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "两融余额增加21.57亿元 杠杆资金大幅加仓316股",
+      "summary": "崇德科技 8375.25 -17.83 -1.96 机械设备 920403 康农种业 923.96 -17.77 3.67 农林牧渔 300910 瑞丰新材 9507.91 -17.51 -0.75 基础化工 603381 永臻股份 13742.88 -15.73 9.99 电力设备 603298",
+      "publish_date": "2026-03-02",
+      "available_at": "2026-03-02T09:39:50",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "【数据揭秘】融资客看好个股一览",
+      "summary": "崇德科技 8375.25 -17.83 3.40 -1.96 920403 康农种业 923.96 -17.77 0.64 3.67 300910 瑞丰新材 9507.91 -17.51 0.77 -0.75 603381 永臻股份 13742.88 -15.73 3.28 9.99 603298",
+      "publish_date": "2026-03-02",
+      "available_at": "2026-03-02T10:59:29",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 0,
+  "hot_reason": "",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

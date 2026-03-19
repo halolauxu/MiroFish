@@ -1,0 +1,130 @@
+{
+  "ticker": "601997",
+  "company_name": "贵阳银行",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "filing",
+      "title": "贵阳银行股份有限公司关于股东权益变动的进展公告",
+      "summary": "",
+      "publish_date": "2026-02-25",
+      "available_at": "2026-02-25T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "贵阳银行股份有限公司第六届董事会2026年度第一次临时会议决议公告",
+      "summary": "",
+      "publish_date": "2026-03-03",
+      "available_at": "2026-03-03T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "贵阳银行股份有限公司关于股东权益变动的进展公告",
+      "summary": "",
+      "publish_date": "2026-03-10",
+      "available_at": "2026-03-10T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "银行行业今日净流入资金8.65亿元，招商银行等8股净流入资金超5000万元",
+      "summary": "0.00 1.26 -982.70 603323 苏农银行 0.00 1.51 -1069.99 601939 建设银行 0.55 0.98 -1113.90 601166 兴业银行 0.11 0.32 -1179.98 600908 无锡银行 0.34 1.12 -1435.35 601997",
+      "publish_date": "2026-03-13",
+      "available_at": "2026-03-13T16:39:01",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "贵阳银行股份有限公司关于选举产生第六届董事会职工董事的公告",
+      "summary": "",
+      "publish_date": "2026-03-14",
+      "available_at": "2026-03-14T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "贵阳银行股份有限公司关于董事任职资格获得核准的公告",
+      "summary": "",
+      "publish_date": "2026-03-14",
+      "available_at": "2026-03-14T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "贵阳银行股份有限公司关于股东股份质押展期的公告",
+      "summary": "",
+      "publish_date": "2026-03-14",
+      "available_at": "2026-03-14T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "第一大股东贵阳国资累计近半数持股被质押！贵阳银行经营承压、屡受处罚",
+      "summary": "贵阳银行（601997）3月13日晚间发布公告称，截至本公告日，贵阳市国有资产投资管理公司（以下简称贵阳国资）累计质押股数约为2.33亿股，占其所持股份比例约为49.77%。贵阳市投资控股集团有限公司累计质押股数为4634万股，占其所持股份比例约为49.99%。",
+      "publish_date": "2026-03-14",
+      "available_at": "2026-03-14T15:19:12",
+      "sentiment_score": -1.0,
+      "category": "产品进展",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "银行行业资金流入榜：农业银行、工商银行等净流入资金居前",
+      "summary": "1.06 1.78 -520.57 600928 西安银行 0.53 0.56 -556.51 600926 杭州银行 -0.92 0.40 -567.55 002948 青岛银行 -0.19 1.37 -735.35 603323 苏农银行 0.39 1.45 -755.52 601997",
+      "publish_date": "2026-03-17",
+      "available_at": "2026-03-17T17:23:22",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "贵阳银行股份有限公司第六届董事会2026年度第一次会议决议公告",
+      "summary": "",
+      "publish_date": "2026-03-19",
+      "available_at": "2026-03-19T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 0,
+  "hot_reason": "",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

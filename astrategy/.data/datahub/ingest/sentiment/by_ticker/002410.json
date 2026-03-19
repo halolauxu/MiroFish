@@ -1,0 +1,58 @@
+{
+  "ticker": "002410",
+  "company_name": "广联达",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "news",
+      "title": "广联达：2025年净利同比预增50.15%—70.11%",
+      "summary": "广联达0024101月26日发布业绩预告，预计2025年净利润为3.76亿元—4.26亿元，同比增长50.15%—70.11%。",
+      "publish_date": "2026-01-26",
+      "available_at": "2026-01-26T17:33:12",
+      "sentiment_score": 0.2,
+      "category": "业绩公告",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "广联达预计2025归母净利润增50.15%-70.11%",
+      "summary": "1月26日，广联达（002410）发布公告，预计2025年度归母净利润为3.76亿元至4.26亿元，比上年同期增长50.15%至70.11%。扣除非经常性损益后的净利润预计为3.18亿元至3.68亿元，增幅为82.62%至111.34%。",
+      "publish_date": "2026-01-26",
+      "available_at": "2026-01-26T17:37:47",
+      "sentiment_score": 0.2,
+      "category": "业绩公告",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "广联达：控股股东刁志中阵营累计质押15.75%持股",
+      "summary": "3月9日，广联达（002410）发布公告，控股股东刁志中将其持有的2350万股股份办理质押，占其所持股份的9.21%及公司总股本的1.42%；同时解除质押股份3465万股，占其所持股份的13.58%及公司总股本的2.10%。",
+      "publish_date": "2026-03-09",
+      "available_at": "2026-03-09T17:28:53",
+      "sentiment_score": 0.0,
+      "category": "产品进展",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "关于控股股东部分股份质押及解除质押的公告",
+      "summary": "",
+      "publish_date": "2026-03-10",
+      "available_at": "2026-03-10T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 0,
+  "hot_reason": "",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

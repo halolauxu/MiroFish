@@ -1,0 +1,53 @@
+[
+  {
+    "ticker": "002311",
+    "company_name": "海大集团",
+    "title": "关于以集中竞价交易方式回购公司股份的进展公告",
+    "announcement_type": "股权变动",
+    "publish_date": "2026-03-03",
+    "publish_time": "2026-03-03",
+    "link": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=002311&announcementId=1224991611&orgId=9900009032&announcementTime=2026-03-03",
+    "source": "cninfo.disclosure_report",
+    "raw": {
+      "代码": "002311",
+      "简称": "海大集团",
+      "公告标题": "关于以集中竞价交易方式回购公司股份的进展公告",
+      "公告时间": "2026-03-03",
+      "公告链接": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=002311&announcementId=1224991611&orgId=9900009032&announcementTime=2026-03-03"
+    }
+  },
+  {
+    "ticker": "002311",
+    "company_name": "海大集团",
+    "title": "关于控股股东部分股份质押的公告",
+    "announcement_type": "",
+    "publish_date": "2026-03-07",
+    "publish_time": "2026-03-07",
+    "link": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=002311&announcementId=1224998856&orgId=9900009032&announcementTime=2026-03-07",
+    "source": "cninfo.disclosure_report",
+    "raw": {
+      "代码": "002311",
+      "简称": "海大集团",
+      "公告标题": "关于控股股东部分股份质押的公告",
+      "公告时间": "2026-03-07",
+      "公告链接": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=002311&announcementId=1224998856&orgId=9900009032&announcementTime=2026-03-07"
+    }
+  },
+  {
+    "ticker": "002311",
+    "company_name": "海大集团",
+    "title": "关于回购公司股份比例达到1%的进展公告",
+    "announcement_type": "股权变动",
+    "publish_date": "2026-03-12",
+    "publish_time": "2026-03-12",
+    "link": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=002311&announcementId=1225004692&orgId=9900009032&announcementTime=2026-03-12",
+    "source": "cninfo.disclosure_report",
+    "raw": {
+      "代码": "002311",
+      "简称": "海大集团",
+      "公告标题": "关于回购公司股份比例达到1%的进展公告",
+      "公告时间": "2026-03-12",
+      "公告链接": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=002311&announcementId=1225004692&orgId=9900009032&announcementTime=2026-03-12"
+    }
+  }
+]

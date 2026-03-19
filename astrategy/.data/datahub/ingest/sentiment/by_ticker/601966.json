@@ -1,0 +1,70 @@
+{
+  "ticker": "601966",
+  "company_name": "玲珑轮胎",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "filing",
+      "title": "山东玲珑轮胎股份有限公司关于股东回馈活动的自愿性信息披露公告",
+      "summary": "",
+      "publish_date": "2026-03-13",
+      "available_at": "2026-03-13T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "玲珑轮胎：董事长王锋卸任总裁一职，周令坤接任",
+      "summary": "3月16日，玲珑轮胎（601966）发布公告，王锋申请辞去公司总裁职务。 辞职后，王锋仍将在公司担任董事长及董事会相关委员会职务，并任公司研究总院院长、全球营销委员会主任及全球营销中心总经理。",
+      "publish_date": "2026-03-16",
+      "available_at": "2026-03-16T15:55:33",
+      "sentiment_score": 0.0,
+      "category": "产品进展",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "山东玲珑轮胎股份有限公司关于高级管理人员变更的公告",
+      "summary": "",
+      "publish_date": "2026-03-17",
+      "available_at": "2026-03-17T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "玲珑轮胎：塞尔维亚玲珑的产能爬坡正在按计划推进",
+      "summary": "玲珑轮胎（601966.SH）3月18日在投资者互动平台表示，1、塞尔维亚玲珑的产能爬坡正在按计划推进，截至2月末，半钢和全钢分别达到实际规划产能的76%和56%，综合产销率超过105%（包含之前的库存消化）。",
+      "publish_date": "2026-03-18",
+      "available_at": "2026-03-18T17:45:49",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "玲珑轮胎：控股股东3800万质押股展期，占总股本2.60%",
+      "summary": "3月19日，玲珑轮胎（601966）发布公告，控股股东玲珑集团将其持有的3800万股股份办理质押展期，占其所持股份的6.37%及公司总股本的2.60%；截至公告披露日，玲珑集团累计质押股份为1.38亿股，占其所持股份的23.11%及公司总股本的9.42%。",
+      "publish_date": "2026-03-19",
+      "available_at": "2026-03-19T17:55:36",
+      "sentiment_score": 0.0,
+      "category": "产品进展",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 0,
+  "hot_reason": "",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

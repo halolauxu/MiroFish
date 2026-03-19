@@ -1,0 +1,46 @@
+{
+  "ticker": "002195",
+  "company_name": "岩山科技",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "news",
+      "title": "岩山科技002195龙虎榜数据03-05",
+      "summary": "交易所2026年3月5日公布的交易公开信息显示，岩山科技因成为日涨幅偏离值达到7%的前5只证券上榜。岩山科技当日收报10.69元，涨跌幅9.98%，偏离值8.82%，换手率13.81%，成交额80.93亿。 免责声明：本文基于AI生产，仅供参考，不构成任何投资建议，据此操作风险自担",
+      "publish_date": "2026-03-05",
+      "available_at": "2026-03-05T16:29:30",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "3月5日龙虎榜净买入额前10个股",
+      "summary": "南财智讯3月5日电，盘后数据显示，因当日异动登上龙虎榜的个股中，资金净买入最多的前三位分别是岩山科技002195.SZ)、三安光电(600703.SH)与中超控股(002471.SZ)。其中排名第一的岩山科技净买额达10.53亿元，占总成交金额的13.01%。",
+      "publish_date": "2026-03-05",
+      "available_at": "2026-03-05T17:16:57",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "3月5日龙虎榜机构席位买卖详情",
+      "summary": "其中，机构净买入前三分别为中远海能(600026.SH)、岩山科技002195.SZ)与积成电子(002339.SZ)，详情见下图：机构净卖出的个股中，前三分别为圣晖集成(603163.SH)、翔鹭钨业(002842.SZ)与洲际油气(600759.SH)。",
+      "publish_date": "2026-03-05",
+      "available_at": "2026-03-05T17:23:35",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 0,
+  "hot_reason": "",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

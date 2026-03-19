@@ -1,0 +1,142 @@
+{
+  "ticker": "002821",
+  "company_name": "凯莱英",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "filing",
+      "title": "H股公告：证券变动月报表",
+      "summary": "",
+      "publish_date": "2026-03-04",
+      "available_at": "2026-03-04T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "凯莱英：拟使用不超过45亿元闲置自有资金购买理财产品",
+      "summary": "人民财讯3月13日电，凯莱英0028213月13日公告，公司拟使用暂时闲置自有资金购买安全性高、流动性好的理财产品，以提升整体资产运营效益。",
+      "publish_date": "2026-03-13",
+      "available_at": "2026-03-13T18:50:21",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "凯莱英：拟使用不超过45亿元闲置自有资金购买理财产品",
+      "summary": "每经AI快讯，3月13日，凯莱英002821.SZ)公告称，公司及合并报表范围内子公司拟使用不超过45亿元闲置自有资金购买安全性高、流动性好的理财产品，使用期限自董事会审议通过之日起不超过12个月。资金来源为闲置自有资金，不涉及使用募集资金或银行信贷资金。",
+      "publish_date": "2026-03-13",
+      "available_at": "2026-03-13T18:52:57",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "凯莱英拟以不超45亿元自有资金购买短期金融机构理财产品",
+      "summary": "北京商报讯3月13日晚间，凯莱英（002821）发布公告称，公司3月13日召开第五届董事会第七次会议，审议通过了《关于使用闲置自有资金购买理财产品的议案》，同意公司及合并报表范围内子公司使用额度不超过45亿元（或等额外币，含本数）的自有资金购买短期金融机构理财产品，使用期限自本次董事会审议通过之日起",
+      "publish_date": "2026-03-13",
+      "available_at": "2026-03-13T21:02:28",
+      "sentiment_score": 0.0,
+      "category": "产品进展",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "董事会薪酬与考核委员会关于公司2025年A股限制性股票激励计划相关事项的核查意见",
+      "summary": "股权激励",
+      "publish_date": "2026-03-14",
+      "available_at": "2026-03-14T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "股权变动",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "第五届董事会第七次会议决议公告",
+      "summary": "",
+      "publish_date": "2026-03-14",
+      "available_at": "2026-03-14T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "北京德恒律师事务所关于凯莱英医药集团（天津）股份有限公司2025年A股限制性股票激励计划回购注销部分限制性股票事项的法律意见",
+      "summary": "股权变动",
+      "publish_date": "2026-03-14",
+      "available_at": "2026-03-14T00:00:00",
+      "sentiment_score": 0.8,
+      "category": "股权变动",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "关于回购注销2025年A股限制性股票激励计划部分限制性股票的公告",
+      "summary": "股权变动",
+      "publish_date": "2026-03-14",
+      "available_at": "2026-03-14T00:00:00",
+      "sentiment_score": 0.8,
+      "category": "股权变动",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "关于使用闲置自有资金购买理财产品的公告",
+      "summary": "",
+      "publish_date": "2026-03-14",
+      "available_at": "2026-03-14T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "供应商ESG管理政策",
+      "summary": "",
+      "publish_date": "2026-03-14",
+      "available_at": "2026-03-14T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "政策影响",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "H股公告：董事会会议日期",
+      "summary": "",
+      "publish_date": "2026-03-17",
+      "available_at": "2026-03-17T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 0,
+  "hot_reason": "",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

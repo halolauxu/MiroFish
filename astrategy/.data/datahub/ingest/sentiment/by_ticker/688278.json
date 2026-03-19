@@ -1,0 +1,58 @@
+{
+  "ticker": "688278",
+  "company_name": "特宝生物",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "filing",
+      "title": "特宝生物：关于董事长提议公司回购股份的公告",
+      "summary": "股权变动",
+      "publish_date": "2026-03-13",
+      "available_at": "2026-03-13T00:00:00",
+      "sentiment_score": 0.8,
+      "category": "股权变动",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "9只个股大宗交易超5000万元",
+      "summary": "0.05 76.60 52.00 3983.20 2 76.60 0.00 301275 汉朔科技 -0.50 45.72 85.00 3834.55 2 45.11 -1.33 301606 绿联科技 -5.82 71.00 55.70 3638.31 10 65.32 -8.00 688278",
+      "publish_date": "2026-03-17",
+      "available_at": "2026-03-17T19:43:02",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "6只个股大宗交易超5000万元",
+      "summary": "13.88 374.80 4527.58 11 12.08 -12.97 000007 全新好 2.33 14.92 338.84 4445.52 1 13.12 -12.07 603466 风语筑 1.96 9.90 491.00 4291.34 15 8.74 -11.72 688278",
+      "publish_date": "2026-03-18",
+      "available_at": "2026-03-18T20:30:18",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "6只科创板股今日大宗交易平台发生交易",
+      "summary": "日大宗交易概况 代码 简称 成交笔数 大宗交易数量（万股） 平均成交价格（元） 相对收盘价折溢价（%） 大宗交易金额（万元） 688559 海目星 2 200.00 51.62 -9.99 10324.00 688411 海博思创 2 30.00 253.43 -1.73 7602.90 688278",
+      "publish_date": "2026-03-18",
+      "available_at": "2026-03-18T20:33:40",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 0,
+  "hot_reason": "",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

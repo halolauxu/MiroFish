@@ -1,0 +1,70 @@
+{
+  "ticker": "600968",
+  "company_name": "海油发展",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "filing",
+      "title": "关于变更签字项目合伙人及签字注册会计师的公告",
+      "summary": "",
+      "publish_date": "2026-02-28",
+      "available_at": "2026-02-28T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "海油发展600968龙虎榜数据03-03)",
+      "summary": "交易所2026年3月3日公布的交易公开信息显示，海油发展因成为非ST、*ST和S证券连续三个交易日内收盘价格涨幅偏离值累计达到20%的证券上榜。海油发展当日收报5.54元，涨跌幅9.92%，换手率2.57%，成交额14.28亿。异常期间3月2日至3月3日，期间涨幅20.96%，累计偏离值",
+      "publish_date": "2026-03-03",
+      "available_at": "2026-03-03T16:57:46",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "关于公司股票交易异常波动公告",
+      "summary": "",
+      "publish_date": "2026-03-04",
+      "available_at": "2026-03-04T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "石油石化行业今日跌1.47%，主力资金净流出24.54亿元",
+      "summary": "0.13 -3824.96 000554 泰山石油 -2.82 10.62 -3754.60 000968 蓝焰控股 -2.73 5.18 -3532.49 600688 上海石化 -2.20 1.05 -3384.60 002554 惠博普 -2.29 4.45 -3061.70 600968",
+      "publish_date": "2026-03-18",
+      "available_at": "2026-03-18T17:07:21",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "18.58亿元资金今日流入石油石化股",
+      "summary": "博汇股份 0.75 5.64 1848.92 600339 中油工程 1.45 2.51 1187.07 601808 中海油服 1.70 1.51 1060.93 603727 博迈科 -0.45 4.15 661.23 000985 大庆华科 -0.25 4.54 587.14 600968",
+      "publish_date": "2026-03-19",
+      "available_at": "2026-03-19T18:05:26",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 0,
+  "hot_reason": "",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

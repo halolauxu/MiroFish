@@ -10,7 +10,7 @@ from typing import Any, Dict, List
 
 from astrategy.data_collector.news import NewsCollector
 
-from ..common import ensure_dir, ingest_root
+from ..common import ensure_dir, ingest_root, news_manifest_path, repo_relative_path, resolve_repo_path
 
 logger = logging.getLogger("astrategy.datahub.ingest.news")
 
@@ -28,7 +28,7 @@ def _daily_dir() -> Path:
 
 
 def _manifest_path() -> Path:
-    return _news_root() / "news_manifest.json"
+    return news_manifest_path()
 
 
 def _normalize_date(value: str | None) -> str:
@@ -52,6 +52,11 @@ def _load_existing_rows() -> Dict[str, Dict[str, Any]]:
         for row in payload.get("rows", [])
         if str(row.get("ticker", "")).strip()
     }
+
+
+def _relocate_news_file(path_value: str, ticker: str) -> Path:
+    fallback = _ticker_dir() / f"{ticker}.json"
+    return resolve_repo_path(path_value, fallback=fallback)
 
 
 def _extract_publish_date(item: Dict[str, Any], fallback_date: str) -> str:
@@ -91,7 +96,24 @@ def build_news_layer(
     for ticker in tickers:
         cached = existing.get(ticker)
         if cached and not refresh_news:
-            rows.append({**cached, "from_cache": True})
+            news_path = _relocate_news_file(str(cached.get("news_file", "")).strip(), ticker)
+            row = {**cached, "news_file": repo_relative_path(news_path), "from_cache": True}
+            if news_path.exists():
+                try:
+                    items = json.loads(news_path.read_text(encoding="utf-8"))
+                except Exception:
+                    items = []
+                publish_dates = [_extract_publish_date(item, as_of_date) for item in items]
+                row.update(
+                    {
+                        "status": "fetched" if items else row.get("status", "fetched"),
+                        "news_count": len(items),
+                        "target_date_news_count": sum(1 for value in publish_dates if value == as_of_date),
+                        "latest_publish_date": max(publish_dates) if publish_dates else "",
+                        "error": "",
+                    }
+                )
+            rows.append(row)
             continue
 
         row = {
@@ -99,7 +121,7 @@ def build_news_layer(
             "news_count": 0,
             "target_date_news_count": 0,
             "latest_publish_date": "",
-            "news_file": str(_ticker_dir() / f"{ticker}.json"),
+            "news_file": repo_relative_path(_ticker_dir() / f"{ticker}.json"),
             "status": "not_requested",
             "last_attempt_at": datetime.utcnow().replace(microsecond=0).isoformat() + "Z",
             "error": "",

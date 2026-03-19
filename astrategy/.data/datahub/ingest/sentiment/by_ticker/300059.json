@@ -1,0 +1,130 @@
+{
+  "ticker": "300059",
+  "company_name": "东方财富",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "filing",
+      "title": "东方财富信息股份有限公司关于子公司东方财富证券股份有限公司2024年面向专业投资者公开发行公司债券（第一期）（品种一）本息兑付暨摘牌的公告",
+      "summary": "债券融资",
+      "publish_date": "2026-02-25",
+      "available_at": "2026-02-25T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "东方财富：控股股东无偿捐赠2000万股公司股份",
+      "summary": "人民财讯2月26日电，东方财富3000592月26日公告，控股股东、实际控制人其实计划向上海交通大学教育发展基金会捐赠其持有的公司2000万股无限售流通股，占公司总股本的0.13%。",
+      "publish_date": "2026-02-26",
+      "available_at": "2026-02-26T18:25:54",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "东方财富：控股股东计划向上海交通大学教育发展基金会捐赠2000万股公司股份",
+      "summary": "2月26日，东方财富300059.SZ)公告称，接到公司控股股东、实际控制人其实通知，为支持教育事业发展，促进人才培养及科技创新，其实计划向上海交通大学教育发展基金会捐赠其持有的公司2000万股无限售流通股，占公司总股本的0.13%。",
+      "publish_date": "2026-02-26",
+      "available_at": "2026-02-26T18:26:01",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "东方财富实控人其实向母校赠股2000万股 市值达4.5亿",
+      "summary": "2月26日盘后，东方财富信息股份有限公司（东方财富，300059.SH）发布公告称，公司接到控股股东、实际控制人其实先生通知，为支持教育事业发展，促进人才培养及科技创新，其实先生计划向上海交通大学教育发展基金会捐赠其持有的公司2000万股无限售流通股，占公司总股本的0.13%。",
+      "publish_date": "2026-02-26",
+      "available_at": "2026-02-26T23:22:11",
+      "sentiment_score": 0.0,
+      "category": "产品进展",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "东方财富信息股份有限公司关于控股股东无偿捐赠部分公司股份的公告",
+      "summary": "",
+      "publish_date": "2026-02-27",
+      "available_at": "2026-02-27T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "东方财富信息股份有限公司关于公司高级管理人员股份减持计划实施完毕的公告",
+      "summary": "股权变动",
+      "publish_date": "2026-03-04",
+      "available_at": "2026-03-04T20:28:10",
+      "sentiment_score": -0.78,
+      "category": "股权变动",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "东方财富信息股份有限公司关于子公司东方财富证券股份有限公司2026年面向专业投资者公开发行次级债券（第一期）发行结果的公告",
+      "summary": "",
+      "publish_date": "2026-03-10",
+      "available_at": "2026-03-10T20:06:11",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "东方财富信息股份有限公司关于子公司东方财富证券股份有限公司2025年度第一期短期融资券兑付完成的公告",
+      "summary": "增发融资",
+      "publish_date": "2026-03-10",
+      "available_at": "2026-03-10T20:06:12",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "东方财富信息股份有限公司关于子公司东方财富证券股份有限公司2026年度第二期短期融资券发行情况的公告",
+      "summary": "增发融资",
+      "publish_date": "2026-03-17",
+      "available_at": "2026-03-17T19:13:21",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "hot_topic",
+      "title": "东方财富",
+      "summary": "雪球关注#12; 雪球讨论#23; 雪球交易#25",
+      "publish_date": "2026-03-19",
+      "available_at": "2026-03-19T00:00:00",
+      "sentiment_score": 0.258,
+      "category": "其他",
+      "urgency": "high",
+      "weight": 1.25,
+      "hot_rank": 11
+    }
+  ],
+  "hot_rank": 11,
+  "hot_reason": "雪球关注#12; 雪球讨论#23; 雪球交易#25",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

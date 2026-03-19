@@ -1,0 +1,36 @@
+[
+  {
+    "ticker": "300115",
+    "company_name": "长盈精密",
+    "title": "2025年度业绩快报",
+    "announcement_type": "业绩预告",
+    "publish_date": "2026-02-27",
+    "publish_time": "2026-02-27 17:16:28",
+    "link": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=300115&announcementId=1224987477&orgId=9900013488&announcementTime=2026-02-27 17:16:28",
+    "source": "cninfo.disclosure_report",
+    "raw": {
+      "代码": "300115",
+      "简称": "长盈精密",
+      "公告标题": "2025年度业绩快报",
+      "公告时间": "2026-02-27 17:16:28",
+      "公告链接": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=300115&announcementId=1224987477&orgId=9900013488&announcementTime=2026-02-27 17:16:28"
+    }
+  },
+  {
+    "ticker": "300115",
+    "company_name": "长盈精密",
+    "title": "关于筹划发行H股股票并在香港联合交易所有限公司上市的提示性公告",
+    "announcement_type": "",
+    "publish_date": "2026-03-10",
+    "publish_time": "2026-03-10 16:02:12",
+    "link": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=300115&announcementId=1225002801&orgId=9900013488&announcementTime=2026-03-10 16:02:12",
+    "source": "cninfo.disclosure_report",
+    "raw": {
+      "代码": "300115",
+      "简称": "长盈精密",
+      "公告标题": "关于筹划发行H股股票并在香港联合交易所有限公司上市的提示性公告",
+      "公告时间": "2026-03-10 16:02:12",
+      "公告链接": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=300115&announcementId=1225002801&orgId=9900013488&announcementTime=2026-03-10 16:02:12"
+    }
+  }
+]

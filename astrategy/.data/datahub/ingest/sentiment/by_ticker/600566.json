@@ -1,0 +1,106 @@
+{
+  "ticker": "600566",
+  "company_name": "济川药业",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "news",
+      "title": "济川药业：全资子公司签署独占性商业化权益协议",
+      "summary": "济川药业6005662月26日公告，全资子公司济川有限与泽德曼签署独占性商业化权益协议，泽德曼授权济川有限在合作期限内独家负责其拥有的泽立美®本维莫德乳膏在中国大陆地区（不包含香港、澳门和台湾地区）的商业化。济川有限支付的首付款及里程碑付款将不超过1.9亿元（含税）。",
+      "publish_date": "2026-02-26",
+      "available_at": "2026-02-26T17:18:17",
+      "sentiment_score": 0.0,
+      "category": "重大合同",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "济川药业：全资子公司签署独占性商业化权益协议",
+      "summary": "每经AI快讯，济川药业6005662月26日公告，全资子公司济川有限与泽德曼签署独占性商业化权益协议，泽德曼授权济川有限在合作期限内独家负责其拥有的泽立美®本维莫德乳膏在中国大陆地区（不包含香港、澳门和台湾地区）的商业化。",
+      "publish_date": "2026-02-26",
+      "available_at": "2026-02-26T17:22:35",
+      "sentiment_score": 0.0,
+      "category": "重大合同",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "湖北济川药业股份有限公司关于自愿披露全资子公司签署独占性商业化权益协议的公告",
+      "summary": "",
+      "publish_date": "2026-02-27",
+      "available_at": "2026-02-27T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "重大合同",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "湖北济川药业股份有限公司关于部分独立董事任期届满的提示性公告",
+      "summary": "",
+      "publish_date": "2026-02-28",
+      "available_at": "2026-02-28T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "济川药业累计回购93万股 总支付2500万元",
+      "summary": "3月3日，济川药业（600566）发布公告，截至2026年2月28日已回购93万股，占总股本的0.10%，回购价格区间为25.94元/股至27.49元/股，已支付回购资金总额为2500万元。 2025年前三季度，济川药业实现收入39.32亿元，归母净利润10.22亿元。",
+      "publish_date": "2026-03-03",
+      "available_at": "2026-03-03T16:58:15",
+      "sentiment_score": 0.8,
+      "category": "业绩公告",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "湖北济川药业股份有限公司关于以集中竞价交易方式回购股份的进展公告",
+      "summary": "股权变动",
+      "publish_date": "2026-03-04",
+      "available_at": "2026-03-04T00:00:00",
+      "sentiment_score": 0.8,
+      "category": "股权变动",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "湖北济川药业股份有限公司关于全资子公司利用闲置募集资金进行现金管理的进展公告",
+      "summary": "",
+      "publish_date": "2026-03-07",
+      "available_at": "2026-03-07T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "hot_topic",
+      "title": "济川药业",
+      "summary": "雪球关注#83",
+      "publish_date": "2026-03-19",
+      "available_at": "2026-03-19T00:00:00",
+      "sentiment_score": 0.08,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.25,
+      "hot_rank": 184
+    }
+  ],
+  "hot_rank": 184,
+  "hot_reason": "雪球关注#83",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

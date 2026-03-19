@@ -1,0 +1,58 @@
+{
+  "ticker": "603605",
+  "company_name": "珀莱雅",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "news",
+      "title": "美妆公司投资短剧 还是一门好生意吗？",
+      "summary": "事实上，看重短剧庞大的用户基数和流量，珀莱雅（603605.SH）、上美股份（02145.HK）、丸美生物（603983.SH）、贝泰妮（300957.SZ）等美妆公司已纷纷下场，在霸总、甜宠、复仇等各类型短剧中，悄然植入自家产品。",
+      "publish_date": "2026-02-28",
+      "available_at": "2026-02-28T07:03:42",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "珀莱雅已回购43万股 金额3036万元",
+      "summary": "3月2日，珀莱雅（603605）发布公告，截至2026年2月28日已回购43万股，占总股本的0.11%，回购资金总额为3036万元，回购价格区间为69.76元/股至73元/股。 2025年前三季度，珀莱雅实现收入70.98亿元，归母净利润10.26亿元。",
+      "publish_date": "2026-03-02",
+      "available_at": "2026-03-02T16:19:33",
+      "sentiment_score": 0.8,
+      "category": "业绩公告",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "珀莱雅化妆品股份有限公司关于股份回购进展公告",
+      "summary": "股权变动",
+      "publish_date": "2026-03-03",
+      "available_at": "2026-03-03T00:00:00",
+      "sentiment_score": 0.8,
+      "category": "股权变动",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "1.03亿元资金今日流出美容护理股",
+      "summary": "2.20 3.85 -344.77 003006 百亚股份 -5.65 1.65 -260.76 001206 依依股份 -1.37 1.92 -227.77 300658 延江股份 -8.56 18.33 -191.55 300849 锦盛新材 2.07 2.97 -188.19 603605",
+      "publish_date": "2026-03-09",
+      "available_at": "2026-03-09T17:10:12",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 0,
+  "hot_reason": "",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

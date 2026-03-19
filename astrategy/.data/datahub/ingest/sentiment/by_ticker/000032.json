@@ -1,0 +1,58 @@
+{
+  "ticker": "000032",
+  "company_name": "深桑达A",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "filing",
+      "title": "关于累计诉讼的公告",
+      "summary": "风险事项",
+      "publish_date": "2026-03-12",
+      "available_at": "2026-03-12T00:00:00",
+      "sentiment_score": -0.32,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "年内定增募资排行榜：5家公司募资超50亿元",
+      "summary": "亿元） 行业 代码 简称 募资金额（亿元） 行业 002379 宏桥控股 635.18 有色金属 603196 日播时尚 13.17 纺织服饰 000958 电投产融 402.85 非银金融 002967 广电计量 13.00 社会服务 600733 北汽蓝谷 60.00 汽车 000032",
+      "publish_date": "2026-03-16",
+      "available_at": "2026-03-16T10:54:52",
+      "sentiment_score": 0.24,
+      "category": "产品进展",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "32只股上午收盘涨停(附股)",
+      "summary": "两市涨停股一览 代码 简称 收盘价（元） 换手率（%） 涨停板封单（万股） 封单资金（万元） 行业 000032 深桑达Ａ 19.90 4.21 6437.21 128100.52 建筑装饰 000815 美利云 19.32 9.72 3276.48 63301.68 计算机 000020",
+      "publish_date": "2026-03-19",
+      "available_at": "2026-03-19T12:00:54",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "国资云概念上涨0.32%，5股主力资金净流入超亿元",
+      "summary": "%） 主力资金流量（万元） 主力资金净流入比率（%） 000815 美利云 10.02 10.31 50195.40 36.73 000938 紫光股份 1.79 6.50 38189.72 7.69 300895 铜牛信息 19.99 20.59 27584.58 13.41 000032",
+      "publish_date": "2026-03-19",
+      "available_at": "2026-03-19T18:04:30",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 0,
+  "hot_reason": "",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

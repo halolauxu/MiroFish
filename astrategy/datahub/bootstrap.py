@@ -9,6 +9,7 @@ from pathlib import Path
 from typing import Any, Dict
 
 from .audit import build_coverage_audit, save_coverage_audit
+from .common import repo_relative_path
 from .graph import build_graph_layer, save_graph_layer
 from .ingest import (
     build_filings_layer,
@@ -47,6 +48,9 @@ def run_data_foundation(
     refresh_prices: bool = False,
     ingest_date: str | None = None,
     collect_filings: bool = False,
+    filing_lookback_days: int = 30,
+    refresh_filings: bool = False,
+    filing_worker_count: int = 2,
     collect_news: bool = False,
     news_sample_limit: int | None = None,
     max_news_per_stock: int = 5,
@@ -69,18 +73,6 @@ def run_data_foundation(
     snapshots = build_universe_snapshots(security_master, universe_membership)
     snapshot_paths = save_universe_snapshots(snapshots)
 
-    graph_layer = build_graph_layer(
-        security_master,
-        universe_membership,
-        universe_id=universe_id,
-        as_of_date=as_of_date,
-        collect_graph=collect_graph,
-        top_concepts=graph_top_concepts,
-        peer_limit=graph_peer_limit,
-        refresh_graph=refresh_graph,
-    )
-    graph_paths = save_graph_layer(graph_layer)
-
     price_layer = build_price_layer(
         universe_membership,
         universe_id=universe_id,
@@ -96,6 +88,9 @@ def run_data_foundation(
         universe_id=universe_id,
         ingest_date=as_of_date,
         collect_filings=collect_filings,
+        filing_lookback_days=filing_lookback_days,
+        refresh_filings=refresh_filings,
+        cninfo_worker_count=filing_worker_count,
     )
     filings_paths = save_filings_layer(filings_layer)
 
@@ -131,6 +126,20 @@ def run_data_foundation(
     )
     event_paths = save_incremental_event_layer(incremental_events)
 
+    graph_layer = build_graph_layer(
+        security_master,
+        universe_membership,
+        universe_id=universe_id,
+        as_of_date=as_of_date,
+        collect_graph=collect_graph,
+        top_concepts=graph_top_concepts,
+        peer_limit=graph_peer_limit,
+        refresh_graph=refresh_graph,
+        event_payload=incremental_events,
+        sentiment_payload=sentiment_layer,
+    )
+    graph_paths = save_graph_layer(graph_layer)
+
     coverage_audit = build_coverage_audit(
         security_master,
         universe_membership,
@@ -138,20 +147,27 @@ def run_data_foundation(
         as_of_date=as_of_date,
     )
     audit_paths = save_coverage_audit(coverage_audit)
+    if coverage_audit["summary"].get("data_quality_status") == "degraded":
+        logger.warning(
+            "Data foundation degraded: graph=%s, sentiment=%s, strict_ready=%d",
+            coverage_audit["summary"].get("graph_layer_quality"),
+            coverage_audit["summary"].get("sentiment_layer_quality"),
+            coverage_audit["summary"].get("research_ready_strict", 0),
+        )
 
     return {
-        "security_master_path": str(security_path),
-        "universe_membership_path": str(universe_path),
-        "universe_snapshot_paths": {k: str(v) for k, v in snapshot_paths.items()},
-        "graph_paths": {k: str(v) for k, v in graph_paths.items()},
-        "price_manifest_path": str(price_path),
-        "filings_paths": {k: str(v) for k, v in filings_paths.items()},
-        "news_paths": {k: str(v) for k, v in news_paths.items()},
-        "sentiment_paths": {k: str(v) for k, v in sentiment_paths.items()},
-        "incremental_event_paths": {k: str(v) for k, v in event_paths.items()},
-        "coverage_audit_json": str(audit_paths["json"]),
-        "coverage_audit_markdown": str(audit_paths["markdown"]),
-        "coverage_audit_daily_json": str(audit_paths["daily_json"]),
+        "security_master_path": repo_relative_path(security_path),
+        "universe_membership_path": repo_relative_path(universe_path),
+        "universe_snapshot_paths": {k: repo_relative_path(v) for k, v in snapshot_paths.items()},
+        "graph_paths": {k: repo_relative_path(v) for k, v in graph_paths.items()},
+        "price_manifest_path": repo_relative_path(price_path),
+        "filings_paths": {k: repo_relative_path(v) for k, v in filings_paths.items()},
+        "news_paths": {k: repo_relative_path(v) for k, v in news_paths.items()},
+        "sentiment_paths": {k: repo_relative_path(v) for k, v in sentiment_paths.items()},
+        "incremental_event_paths": {k: repo_relative_path(v) for k, v in event_paths.items()},
+        "coverage_audit_json": repo_relative_path(audit_paths["json"]),
+        "coverage_audit_markdown": repo_relative_path(audit_paths["markdown"]),
+        "coverage_audit_daily_json": repo_relative_path(audit_paths["daily_json"]),
         "graph_summary": graph_layer["summary"],
         "price_summary": price_layer["summary"],
         "filings_summary": filings_layer["summary"],
@@ -197,6 +213,23 @@ def main() -> None:
         "--collect-filings",
         action="store_true",
         help="Collect and filter daily filings for the target universe",
+    )
+    parser.add_argument(
+        "--filing-lookback-days",
+        type=int,
+        default=30,
+        help="Rolling lookback window for authoritative CNInfo filings collection",
+    )
+    parser.add_argument(
+        "--refresh-filings",
+        action="store_true",
+        help="Refresh filings files even when cached files already exist",
+    )
+    parser.add_argument(
+        "--filing-worker-count",
+        type=int,
+        default=2,
+        help="Maximum concurrent CNInfo filings requests",
     )
     parser.add_argument(
         "--collect-news",
@@ -268,6 +301,9 @@ def main() -> None:
         refresh_prices=args.refresh_prices,
         ingest_date=args.ingest_date,
         collect_filings=args.collect_filings,
+        filing_lookback_days=args.filing_lookback_days,
+        refresh_filings=args.refresh_filings,
+        filing_worker_count=args.filing_worker_count,
         collect_news=args.collect_news,
         news_sample_limit=args.news_sample_limit,
         max_news_per_stock=args.max_news_per_stock,

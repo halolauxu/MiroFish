@@ -1,0 +1,82 @@
+{
+  "ticker": "600642",
+  "company_name": "申能股份",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "news",
+      "title": "抽水蓄能概念上涨1.72%，10股主力资金净流入超亿元",
+      "summary": "-0.80 2.03 -4939.74 -9.97 002342 巨力索具 2.96 10.92 -5220.03 -3.52 000543 皖能电力 -1.04 2.79 -5322.92 -9.83 301018 申菱环境 1.90 5.35 -5475.50 -5.11 600642",
+      "publish_date": "2026-03-04",
+      "available_at": "2026-03-04T16:43:10",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "10.25亿主力资金净流入，虚拟电厂概念涨2.00%",
+      "summary": "-1.21 3.46 -2345.29 -4.84 600021 上海电力 0.28 2.54 -2346.66 -1.50 300365 恒华科技 0.73 13.94 -2384.67 -4.81 300166 东方国信 4.17 14.18 -2460.85 -1.49 600642",
+      "publish_date": "2026-03-09",
+      "available_at": "2026-03-09T17:09:44",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "申能股份有限公司关于完成2026年面向专业投资者公开发行可续期公司债券（第一期）的公告",
+      "summary": "债券融资",
+      "publish_date": "2026-03-18",
+      "available_at": "2026-03-18T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "申能股份有限公司关于向不特定对象发行可转换公司债券申请获得中国证券监督管理委员会同意注册批复的公告",
+      "summary": "债券融资",
+      "publish_date": "2026-03-18",
+      "available_at": "2026-03-18T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "中国证券监督管理委员会关于同意申能股份有限公司向不特定对象发行可转换公司债券注册的批复",
+      "summary": "债券融资",
+      "publish_date": "2026-03-18",
+      "available_at": "2026-03-18T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "申能股份公开发行可转债申请获证监会同意注册批复",
+      "summary": "申能股份600642公开发行可转债申请审核状态变更为注册生效。 申能股份本次拟向不特定对象发行可转债，预计募集资金20.00亿元。本次发行保荐机构为华泰联合证券有限责任公司。（数据宝）",
+      "publish_date": "2026-03-18",
+      "available_at": "2026-03-18T09:52:43",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 0,
+  "hot_reason": "",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

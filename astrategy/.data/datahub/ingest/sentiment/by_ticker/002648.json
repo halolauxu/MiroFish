@@ -1,0 +1,46 @@
+{
+  "ticker": "002648",
+  "company_name": "卫星化学",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "news",
+      "title": "卫星化学：各产品已随行就市上调价格",
+      "summary": "针对“中东地区的化工产品出口受限，公司产品售价是否会上涨”的问题，卫星化学0026483月10日在互动平台表示，目前公司受到行业变化的影响，各产品已随行就市上调价格。",
+      "publish_date": "2026-03-10",
+      "available_at": "2026-03-10T08:42:01",
+      "sentiment_score": 0.18,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "基础化工行业资金流出榜：多氟多、吉林化纤等净流出资金居前",
+      "summary": "2.05 4.67 17228.13 601208 东材科技 2.25 4.16 7475.24 002361 神剑股份 3.08 10.57 6799.56 600989 宝丰能源 -3.03 2.45 5508.11 301090 华润材料 2.16 3.38 4920.57 002648",
+      "publish_date": "2026-03-18",
+      "available_at": "2026-03-18T17:06:31",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "57.58亿元资金今日流出基础化工股",
+      "summary": "（数据宝） 基础化工行业资金流入榜 代码 简称 今日涨跌幅（%） 今日换手率（%） 主力资金流量（万元） 600989 宝丰能源 2.41 3.16 64568.63 688295 中复神鹰 -0.05 3.76 10866.06 002648 卫星化学 1.50 2.29 10023.55",
+      "publish_date": "2026-03-19",
+      "available_at": "2026-03-19T18:05:40",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 0,
+  "hot_reason": "",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

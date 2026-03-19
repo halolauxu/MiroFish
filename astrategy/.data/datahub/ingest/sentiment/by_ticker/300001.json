@@ -1,0 +1,82 @@
+{
+  "ticker": "300001",
+  "company_name": "特锐德",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "filing",
+      "title": "关于向香港联合交易所有限公司递交H股发行上市的申请并刊发申请资料的公告",
+      "summary": "",
+      "publish_date": "2026-02-27",
+      "available_at": "2026-02-27T07:47:28",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "关于中标青海油田风电项目的提示性公告",
+      "summary": "重大合同",
+      "publish_date": "2026-03-16",
+      "available_at": "2026-03-16T00:00:00",
+      "sentiment_score": 1.0,
+      "category": "重大合同",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "特锐德：中标一风电项目预装式变电站带量采购 金额约1.5亿元",
+      "summary": "特锐德3000013月16日公告，近日，中国石油招标投标网发布了青海油田海西200万千瓦风电项目预装式变电站带量采购中标结果公告，公司为该项目中标人，中标金额约1.5亿元。目前，公司尚未收到招标人或相关代理机构发给公司的中标通知书，项目金额需根据后续实际执行情况确定。",
+      "publish_date": "2026-03-16",
+      "available_at": "2026-03-16T19:08:27",
+      "sentiment_score": 1.0,
+      "category": "重大合同",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "关于预中标新能源项目的提示性公告",
+      "summary": "重大合同",
+      "publish_date": "2026-03-17",
+      "available_at": "2026-03-17T17:29:25",
+      "sentiment_score": 1.0,
+      "category": "重大合同",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "特锐德：预中标两个新能源项目 合计金额约1.21亿元",
+      "summary": "每经AI快讯，3月17日，特锐德300001.SZ)公告称，公司预中标三峡能源2026-2027年35kV箱式变压器框架采购项目和吐哈油田吐鲁番鄯善100万千瓦风电项目预装式变电站带量采购项目，均为中标候选人第二名，预计中标金额分别约7142.78万元和4996万元，合计约1.21",
+      "publish_date": "2026-03-17",
+      "available_at": "2026-03-17T17:46:47",
+      "sentiment_score": 1.0,
+      "category": "重大合同",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "特锐德：合计预中标1.21亿元新能源项目",
+      "summary": "人民财讯3月17日电，特锐德3000013月17日公告，近日，中国三峡集团电子采购平台发布了《三峡能源2026-2027年35kV箱式变压器框架采购中标候选人公示》、中国石油招标投标网发布了《吐哈油田吐鲁番鄯善100万千瓦风电项目预装式变电站带量采购中标候选人公示》，公司为上述项目中标候选人",
+      "publish_date": "2026-03-17",
+      "available_at": "2026-03-17T17:49:17",
+      "sentiment_score": 1.0,
+      "category": "重大合同",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 0,
+  "hot_reason": "",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

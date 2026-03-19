@@ -1,0 +1,70 @@
+{
+  "ticker": "688361",
+  "company_name": "中科飞测",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "filing",
+      "title": "深圳中科飞测科技股份有限公司股东减持计划时间届满暨减持股份结果公告",
+      "summary": "股权变动",
+      "publish_date": "2026-02-25",
+      "available_at": "2026-02-25T00:00:00",
+      "sentiment_score": -0.78,
+      "category": "股权变动",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "深圳中科飞测科技股份有限公司2025年度业绩快报公告",
+      "summary": "业绩预告",
+      "publish_date": "2026-02-28",
+      "available_at": "2026-02-28T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "业绩公告",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "8只个股大宗交易超5000万元",
+      "summary": "-0.36 2.76 2264.78 6273.45 1 2.77 0.36 601398 工商银行 0.56 7.20 700.00 5012.00 1 7.16 -0.56 002366 融发核电 2.90 8.88 500.00 4375.00 1 8.75 -1.46 688361",
+      "publish_date": "2026-03-13",
+      "available_at": "2026-03-13T22:15:05",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "【数据揭秘】融资客看好个股一览",
+      "summary": "欧科亿 134989.74 26.91 9.10 6.05 002543 万和电气 11099.84 26.08 1.71 10.00 600569 安阳钢铁 8733.95 24.52 1.12 5.04 688257 新锐股份 92770.82 23.71 4.84 -6.53 688361",
+      "publish_date": "2026-03-16",
+      "available_at": "2026-03-16T10:29:15",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "17.94亿主力资金净流入，国家大基金持股概念涨2.28%",
+      "summary": "002185 华天科技 2.93 4.30 6093.90 3.14 300024 机器人 1.21 1.38 4702.56 13.46 002916 深南电路 2.31 1.62 4368.89 1.62 600460 士兰微 1.54 1.69 3774.81 4.69 688361",
+      "publish_date": "2026-03-16",
+      "available_at": "2026-03-16T17:12:45",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 0,
+  "hot_reason": "",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

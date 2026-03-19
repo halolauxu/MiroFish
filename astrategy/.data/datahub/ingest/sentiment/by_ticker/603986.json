@@ -1,0 +1,70 @@
+{
+  "ticker": "603986",
+  "company_name": "兆易创新",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "filing",
+      "title": "兆易创新关于参与投资私募股权投资基金的公告",
+      "summary": "",
+      "publish_date": "2026-03-04",
+      "available_at": "2026-03-04T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "今日680只个股突破五日均线",
+      "summary": "5.37 2.32 2.50 7.76 688347 华虹公司 12.20 9.32 124.32 133.65 7.51 300964 本川智能 12.65 20.57 66.06 70.99 7.47 601975 招商南油 10.07 11.82 4.48 4.81 7.41 603986",
+      "publish_date": "2026-03-16",
+      "available_at": "2026-03-16T15:22:42",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "午后爆发！603986涨停",
+      "summary": "A股市场超2800股飘红，钢铁、煤炭、电力、有色等板块走低；风电概念回落，中国电建午后跌停，中国能建跌逾8%；半导体板块午后强势拉升，佰维存储（688525）涨超13%，续创历史新高，市值超1100亿元；华虹公司、国科微等涨超10%，市值超2000亿元的兆易创新（603986）涨停",
+      "publish_date": "2026-03-16",
+      "available_at": "2026-03-16T17:46:06",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "hot_topic",
+      "title": "兆易创新",
+      "summary": "雪球关注#113; 雪球讨论#45; 雪球交易#199",
+      "publish_date": "2026-03-19",
+      "available_at": "2026-03-19T00:00:00",
+      "sentiment_score": 0.132,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.25,
+      "hot_rank": 74
+    },
+    {
+      "source_type": "news",
+      "title": "28股获融资客大手笔净买入",
+      "summary": "300476 胜宏科技 3.45 54392.03 1754456.16 7.07 电子 600989 宝丰能源 -3.03 41514.46 441301.22 1.88 基础化工 300274 阳光电源 0.07 36326.79 1287384.93 4.86 电力设备 603986",
+      "publish_date": "2026-03-19",
+      "available_at": "2026-03-19T09:44:49",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 74,
+  "hot_reason": "雪球关注#113; 雪球讨论#45; 雪球交易#199",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

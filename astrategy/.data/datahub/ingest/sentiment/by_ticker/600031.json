@@ -1,0 +1,82 @@
+{
+  "ticker": "600031",
+  "company_name": "三一重工",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "news",
+      "title": "三一重工：累计回购7267.92万股股份",
+      "summary": "每经AI快讯，3月1日，三一重工600031.SH)公告称，2026年2月，公司未实施股份回购。",
+      "publish_date": "2026-03-01",
+      "available_at": "2026-03-01T17:11:19",
+      "sentiment_score": 0.8,
+      "category": "股权变动",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "三一重工股份有限公司关于回购公司A股股份的进展公告",
+      "summary": "股权变动",
+      "publish_date": "2026-03-02",
+      "available_at": "2026-03-02T00:00:00",
+      "sentiment_score": 0.8,
+      "category": "股权变动",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "三一重工股份有限公司H股公告-证券变动月报表",
+      "summary": "",
+      "publish_date": "2026-03-06",
+      "available_at": "2026-03-06T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "机械设备行业今日净流入资金15.82亿元，黄河旋风等9股净流入资金超亿元",
+      "summary": "6.28 15227.82 300499 高澜股份 11.74 27.35 14266.05 000157 中联重科 4.49 1.29 10624.08 002931 锋龙股份 7.11 10.12 10442.98 300179 四方达 7.50 16.06 10335.79 600031",
+      "publish_date": "2026-03-10",
+      "available_at": "2026-03-10T17:03:55",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "机械设备行业3月12日资金流向日报",
+      "summary": "19915.97 002353 杰瑞股份 -3.16 3.32 -18806.57 301468 博盈特焊 -9.79 18.65 -17848.68 002843 泰嘉股份 -5.60 16.17 -17112.28 300757 罗博特科 -1.04 5.68 -16806.23 600031",
+      "publish_date": "2026-03-12",
+      "available_at": "2026-03-12T17:19:37",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "hot_topic",
+      "title": "三一重工",
+      "summary": "雪球关注#51; 雪球交易#87",
+      "publish_date": "2026-03-19",
+      "available_at": "2026-03-19T00:00:00",
+      "sentiment_score": 0.146,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.25,
+      "hot_rank": 67
+    }
+  ],
+  "hot_rank": 67,
+  "hot_reason": "雪球关注#51; 雪球交易#87",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

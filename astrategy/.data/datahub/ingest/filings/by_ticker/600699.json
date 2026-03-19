@@ -1,0 +1,36 @@
+[
+  {
+    "ticker": "600699",
+    "company_name": "均胜电子",
+    "title": "H股公告（截至2026年2月28日止之股份发行人的证券变动月报表）",
+    "announcement_type": "",
+    "publish_date": "2026-03-06",
+    "publish_time": "2026-03-06",
+    "link": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=600699&announcementId=1224997530&orgId=gssh0600699&announcementTime=2026-03-06",
+    "source": "cninfo.disclosure_report",
+    "raw": {
+      "代码": "600699",
+      "简称": "均胜电子",
+      "公告标题": "H股公告（截至2026年2月28日止之股份发行人的证券变动月报表）",
+      "公告时间": "2026-03-06",
+      "公告链接": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=600699&announcementId=1224997530&orgId=gssh0600699&announcementTime=2026-03-06"
+    }
+  },
+  {
+    "ticker": "600699",
+    "company_name": "均胜电子",
+    "title": "H股公告（董事会会议日期）",
+    "announcement_type": "",
+    "publish_date": "2026-03-19",
+    "publish_time": "2026-03-19",
+    "link": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=600699&announcementId=1225016433&orgId=gssh0600699&announcementTime=2026-03-19",
+    "source": "cninfo.disclosure_report",
+    "raw": {
+      "代码": "600699",
+      "简称": "均胜电子",
+      "公告标题": "H股公告（董事会会议日期）",
+      "公告时间": "2026-03-19",
+      "公告链接": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=600699&announcementId=1225016433&orgId=gssh0600699&announcementTime=2026-03-19"
+    }
+  }
+]

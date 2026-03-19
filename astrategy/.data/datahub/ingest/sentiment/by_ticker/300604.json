@@ -1,0 +1,82 @@
+{
+  "ticker": "300604",
+  "company_name": "长川科技",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "filing",
+      "title": "杭州长川科技股份有限公司2025年度向特定对象发行股票并在创业板上市募集说明书（注册稿）",
+      "summary": "增发融资",
+      "publish_date": "2026-03-10",
+      "available_at": "2026-03-10T18:52:11",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "杭州长川科技股份有限公司关于向特定对象发行股票申请获得中国证券监督管理委员会同意注册批复的公告",
+      "summary": "增发融资",
+      "publish_date": "2026-03-10",
+      "available_at": "2026-03-10T18:52:12",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "17.94亿主力资金净流入，国家大基金持股概念涨2.28%",
+      "summary": "通富微电 2.05 4.79 -2844.14 -0.85 300672 国科微 11.19 11.87 -5472.10 -1.27 300456 赛微电子 1.15 4.55 -8311.60 -6.39 002371 北方华创 -0.69 1.02 -9545.20 -2.89 300604",
+      "publish_date": "2026-03-16",
+      "available_at": "2026-03-16T17:12:45",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "65.10亿元主力资金今日抢筹电子板块",
+      "summary": "14502.39 300136 信维通信 1.42 6.50 -14003.93 688270 臻镭科技 0.99 3.88 -13000.11 300433 蓝思科技 -1.02 0.80 -11416.53 300708 聚灿光电 -2.12 10.01 -10981.58 300604",
+      "publish_date": "2026-03-16",
+      "available_at": "2026-03-16T17:13:16",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "84.28亿元主力资金今日抢筹电子板块",
+      "summary": "4.75 5.81 40867.42 000021 深科技 4.25 10.97 40855.04 600666 奥瑞德 9.90 9.99 40188.67 688498 源杰科技 7.08 3.99 38348.57 001287 中电港 10.00 9.77 34140.36 300604",
+      "publish_date": "2026-03-18",
+      "available_at": "2026-03-18T17:07:02",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "hot_topic",
+      "title": "长川科技",
+      "summary": "雪球讨论#167; 雪球交易#40",
+      "publish_date": "2026-03-19",
+      "available_at": "2026-03-19T00:00:00",
+      "sentiment_score": 0.08,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.25,
+      "hot_rank": 128
+    }
+  ],
+  "hot_rank": 128,
+  "hot_reason": "雪球讨论#167; 雪球交易#40",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

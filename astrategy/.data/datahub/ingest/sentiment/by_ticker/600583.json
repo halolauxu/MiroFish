@@ -1,0 +1,58 @@
+{
+  "ticker": "600583",
+  "company_name": "海油工程",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "news",
+      "title": "600583 再获大单",
+      "summary": "海油工程（600583）2月13日晚公告称，公司与意大利Saipem公司组成的联合体，成功中标卡塔尔能源液化天然气公司（QatarEnergy LNG）的“NFPS COMP5”项目，总合同金额约40亿美元，其中海油工程的份额超过8亿美元。",
+      "publish_date": "2026-02-14",
+      "available_at": "2026-02-14T08:43:25",
+      "sentiment_score": 1.0,
+      "category": "重大合同",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "海油工程600583龙虎榜数据03-03",
+      "summary": "交易所2026年3月3日公布的交易公开信息显示，海油工程因成为非ST、*ST和S证券连续三个交易日内收盘价格涨幅偏离值累计达到20%的证券上榜。海油工程当日收报8.72元，涨跌幅9.96%，换手率8.80%，成交额33.49亿。异常期间3月2日至3月3日，期间涨幅20.94%，累计偏离值",
+      "publish_date": "2026-03-03",
+      "available_at": "2026-03-03T16:57:50",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "海油工程股票交易异常波动的公告",
+      "summary": "",
+      "publish_date": "2026-03-04",
+      "available_at": "2026-03-04T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "海油工程：公司在卡塔尔地区的项目执行总体平稳",
+      "summary": "海油工程（600583.SH）3月17日在投资者互动平台表示，增持计划尚在实施期限内，公司将及时披露进展公告，请以上交所披露的正式公告为准。 公司在卡塔尔地区的项目执行总体平稳。公司将持续密切跟踪局势变化，切实维护项目安全与股东利益。",
+      "publish_date": "2026-03-17",
+      "available_at": "2026-03-17T18:33:58",
+      "sentiment_score": 0.78,
+      "category": "股权变动",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 0,
+  "hot_reason": "",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

@@ -1,0 +1,36 @@
+[
+  {
+    "ticker": "003816",
+    "company_name": "中国广核",
+    "title": "境内同步披露公告-截至二零二六年二月二十八日止股份发行人的证券变动月报表",
+    "announcement_type": "",
+    "publish_date": "2026-03-04",
+    "publish_time": "2026-03-04",
+    "link": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=003816&announcementId=1224993507&orgId=9900027002&announcementTime=2026-03-04",
+    "source": "cninfo.disclosure_report",
+    "raw": {
+      "代码": "003816",
+      "简称": "中国广核",
+      "公告标题": "境内同步披露公告-截至二零二六年二月二十八日止股份发行人的证券变动月报表",
+      "公告时间": "2026-03-04",
+      "公告链接": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=003816&announcementId=1224993507&orgId=9900027002&announcementTime=2026-03-04"
+    }
+  },
+  {
+    "ticker": "003816",
+    "company_name": "中国广核",
+    "title": "关于公司2026年度第三期及第四期超短期融资券发行完成的公告",
+    "announcement_type": "增发融资",
+    "publish_date": "2026-03-19",
+    "publish_time": "2026-03-19",
+    "link": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=003816&announcementId=1225016390&orgId=9900027002&announcementTime=2026-03-19",
+    "source": "cninfo.disclosure_report",
+    "raw": {
+      "代码": "003816",
+      "简称": "中国广核",
+      "公告标题": "关于公司2026年度第三期及第四期超短期融资券发行完成的公告",
+      "公告时间": "2026-03-19",
+      "公告链接": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=003816&announcementId=1225016390&orgId=9900027002&announcementTime=2026-03-19"
+    }
+  }
+]

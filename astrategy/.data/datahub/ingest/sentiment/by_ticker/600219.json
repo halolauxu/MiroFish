@@ -1,0 +1,70 @@
+{
+  "ticker": "600219",
+  "company_name": "南山铝业",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "filing",
+      "title": "山东南山铝业股份有限公司关于以集中竞价交易方式回购股份的进展公告",
+      "summary": "股权变动",
+      "publish_date": "2026-03-03",
+      "available_at": "2026-03-03T00:00:00",
+      "sentiment_score": 0.8,
+      "category": "股权变动",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "11只个股大宗交易超5000万元",
+      "summary": "（数据宝） 3月16日大宗交易成交额居前股票 证券代码 证券简称 涨幅（%） 收盘价（元） 成交量（万股） 成交额（万元） 笔数 成交价（元） 折溢价（%） 600219 南山铝业 -2.99 7.15 8038.59 53456.62 1 6.65 -6.99 601899",
+      "publish_date": "2026-03-16",
+      "available_at": "2026-03-16T21:15:07",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "9只个股大宗交易超5000万元",
+      "summary": "（数据宝） 3月17日大宗交易成交额居前股票 证券代码 证券简称 涨幅（%） 收盘价（元） 成交量（万股） 成交额（万元） 笔数 成交价（元） 折溢价（%） 600693 东百集团 -1.32 11.98 2300.00 26450.00 3 11.50 -4.01 600219",
+      "publish_date": "2026-03-17",
+      "available_at": "2026-03-17T19:43:02",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "山东南山铝业股份有限公司关于持股5%以上股东权益变动触及1%刻度的提示性公告",
+      "summary": "",
+      "publish_date": "2026-03-18",
+      "available_at": "2026-03-18T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "解密主力资金出逃股 连续5日净流出806股",
+      "summary": "-15.26 688122 西部超导 10 12.90 10.78 -17.92 002716 湖南白银 7 12.28 8.44 -19.04 000060 中金岭南 14 12.17 6.91 -24.09 000737 北方铜业 14 12.08 7.70 -24.28 600219",
+      "publish_date": "2026-03-19",
+      "available_at": "2026-03-19T18:05:45",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 0,
+  "hot_reason": "",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

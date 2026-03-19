@@ -1,0 +1,118 @@
+{
+  "ticker": "603019",
+  "company_name": "中科曙光",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "filing",
+      "title": "中科曙光关于计提2025年度资产减值准备的公告",
+      "summary": "",
+      "publish_date": "2026-02-25",
+      "available_at": "2026-02-25T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "中科曙光2025年度业绩快报公告",
+      "summary": "业绩预告",
+      "publish_date": "2026-02-25",
+      "available_at": "2026-02-25T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "业绩公告",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "中科曙光董事、高管减持股份计划公告",
+      "summary": "股权变动",
+      "publish_date": "2026-03-03",
+      "available_at": "2026-03-03T00:00:00",
+      "sentiment_score": -0.78,
+      "category": "股权变动",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "中科曙光第五届董事会第二十八次会议决议公告",
+      "summary": "",
+      "publish_date": "2026-03-10",
+      "available_at": "2026-03-10T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "中科曙光关于聘任公司证券事务代表的公告",
+      "summary": "",
+      "publish_date": "2026-03-10",
+      "available_at": "2026-03-10T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "Web3.0概念涨1.96%，主力资金净流入这些股",
+      "summary": "格尔软件 -0.30 4.74 -1520.60 -6.02 300624 万兴科技 1.23 3.75 -2178.18 -4.61 300364 中文在线 2.52 6.02 -5151.68 -4.76 300418 昆仑万维 0.10 2.93 -9576.78 -5.21 603019",
+      "publish_date": "2026-03-16",
+      "available_at": "2026-03-16T17:13:13",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "计算机行业今日涨2.46%，主力资金净流入53.26亿元",
+      "summary": "25.35 21451.69 300846 首都在线 10.26 19.02 19875.47 300170 汉得信息 4.91 8.97 17103.45 000066 中国长城 2.41 2.38 13993.42 300454 深信服 4.08 4.73 12738.02 603019",
+      "publish_date": "2026-03-18",
+      "available_at": "2026-03-18T17:07:04",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "hot_topic",
+      "title": "中科曙光",
+      "summary": "雪球关注#80",
+      "publish_date": "2026-03-19",
+      "available_at": "2026-03-19T00:00:00",
+      "sentiment_score": 0.08,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.25,
+      "hot_rank": 179
+    },
+    {
+      "source_type": "news",
+      "title": "28股特大单净流入资金超2亿元",
+      "summary": "电子 600111 北方稀土 46.62 -4.88 -4.54 有色金属 601179 中国西电 17.11 -4.15 -4.37 电力设备 600010 包钢股份 2.61 -5.09 -4.33 钢铁 603799 华友钴业 56.51 -6.81 -4.30 有色金属 603019",
+      "publish_date": "2026-03-19",
+      "available_at": "2026-03-19T18:05:08",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 179,
+  "hot_reason": "雪球关注#80",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

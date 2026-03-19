@@ -1,0 +1,70 @@
+{
+  "ticker": "000651",
+  "company_name": "格力电器",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "filing",
+      "title": "关于大股东减持股份的预披露公告",
+      "summary": "股权变动",
+      "publish_date": "2026-02-26",
+      "available_at": "2026-02-26T00:00:00",
+      "sentiment_score": -0.78,
+      "category": "股权变动",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "方祥建任格力智能装备公司法定代表人",
+      "summary": "珠海格力智能装备有限公司成立于2015年9月，注册资本1亿人民币，经营范围包括工业机器人制造、智能基础制造装备制造、数控机床制造、软件开发、储能技术服务等。股东信息显示，该公司由格力电器（000651）全资持股。",
+      "publish_date": "2026-03-10",
+      "available_at": "2026-03-10T12:38:55",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "方祥建任格力智能装备公司法定代表人",
+      "summary": "珠海格力智能装备有限公司成立于2015年9月，注册资本1亿元人民币，经营范围包括工业机器人制造、智能基础制造装备制造、数控机床制造、软件开发、储能技术服务等。股东信息显示，该公司由格力电器（000651）全资持股。",
+      "publish_date": "2026-03-10",
+      "available_at": "2026-03-10T12:51:27",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "格力电器：公司暂时没有铝代铜技术的应用计划",
+      "summary": "格力电器（000651.SZ）3月16日在投资者互动平台表示，公司多年前已开展铝代铜相关技术研究，并持续关注行业动态与技术进展，在铝材的性能、质量和可靠性不能完全保证的情况下，公司暂时没有铝代铜技术的应用计划。",
+      "publish_date": "2026-03-16",
+      "available_at": "2026-03-16T09:40:02",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "hot_topic",
+      "title": "格力电器",
+      "summary": "雪球关注#4; 雪球讨论#4; 雪球交易#9",
+      "publish_date": "2026-03-19",
+      "available_at": "2026-03-19T00:00:00",
+      "sentiment_score": 0.27,
+      "category": "其他",
+      "urgency": "high",
+      "weight": 1.25,
+      "hot_rank": 5
+    }
+  ],
+  "hot_rank": 5,
+  "hot_reason": "雪球关注#4; 雪球讨论#4; 雪球交易#9",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

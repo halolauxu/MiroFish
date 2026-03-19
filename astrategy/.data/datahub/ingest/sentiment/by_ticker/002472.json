@@ -1,0 +1,46 @@
+{
+  "ticker": "002472",
+  "company_name": "双环传动",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "news",
+      "title": "强势股追踪 主力资金连续5日净流入89股",
+      "summary": "1.68 9.88 24.51 688702 盛科通信-U 5 1.67 4.68 -1.87 301636 泽润新能 5 1.64 4.38 73.64 603301 振德医疗 9 1.52 10.51 15.93 688131 皓元医药 7 1.49 7.00 -3.17 002472",
+      "publish_date": "2026-02-09",
+      "available_at": "2026-02-09T17:15:18",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "强势股追踪 主力资金连续5日净流入75股",
+      "summary": "三祥新材 6 1.98 6.00 15.62 301636 泽润新能 6 1.68 3.78 68.36 688131 皓元医药 8 1.65 7.06 -2.94 688548 广钢气体 6 1.62 5.21 12.62 002947 恒铭达 5 1.58 8.58 7.79 002472",
+      "publish_date": "2026-02-10",
+      "available_at": "2026-02-10T16:59:30",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "7.38亿元主力资金今日抢筹汽车板块",
+      "summary": "7.19 4.91 3520.39 600960 渤海汽车 3.17 14.23 3488.39 603119 浙江荣泰 0.16 3.05 2743.75 300707 威唐工业 3.98 19.72 2702.99 600699 均胜电子 -0.11 1.75 2681.97 002472",
+      "publish_date": "2026-02-13",
+      "available_at": "2026-02-13T21:16:29",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 0,
+  "hot_reason": "",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

@@ -1,0 +1,19 @@
+[
+  {
+    "ticker": "601628",
+    "company_name": "中国人寿",
+    "title": "中国人寿H股公告",
+    "announcement_type": "",
+    "publish_date": "2026-03-07",
+    "publish_time": "2026-03-07",
+    "link": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=601628&announcementId=1224999304&orgId=9900001881&announcementTime=2026-03-07",
+    "source": "cninfo.disclosure_report",
+    "raw": {
+      "代码": "601628",
+      "简称": "中国人寿",
+      "公告标题": "中国人寿H股公告",
+      "公告时间": "2026-03-07",
+      "公告链接": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=601628&announcementId=1224999304&orgId=9900001881&announcementTime=2026-03-07"
+    }
+  }
+]

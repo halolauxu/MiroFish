@@ -1,0 +1,46 @@
+{
+  "ticker": "600848",
+  "company_name": "上海临港",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "news",
+      "title": "短线防风险 55只个股短期均线现死叉",
+      "summary": "4.85 2.67 3.96 3.97 -0.33 3.73 -6.02 603197 保隆科技 -2.28 1.03 38.21 38.32 -0.31 36.93 -3.63 600115 中国东航 -0.34 0.26 5.95 5.97 -0.30 5.79 -3.05 600848",
+      "publish_date": "2026-01-27",
+      "available_at": "2026-01-27T10:50:25",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "短线防风险 49只个股短期均线现死叉",
+      "summary": "3.68 13.18 13.22 -0.33 12.60 -4.69 688620 安凯微 0.08 2.86 12.59 12.63 -0.28 12.23 -3.16 603197 保隆科技 -1.91 1.30 38.23 38.34 -0.27 37.07 -3.30 600848",
+      "publish_date": "2026-01-27",
+      "available_at": "2026-01-27T11:46:53",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "房地产行业资金流出榜：保利发展、万科A等净流出资金居前",
+      "summary": "0.67 -1229.27 000797 中国武夷 -2.64 3.33 -1211.23 000965 天保基建 -1.24 2.18 -1101.88 000838 财信发展 -2.94 4.13 -1076.73 000656 *ST金科 -0.72 0.92 -1047.14 600848",
+      "publish_date": "2026-03-18",
+      "available_at": "2026-03-18T17:06:26",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 0,
+  "hot_reason": "",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

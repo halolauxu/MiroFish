@@ -1,0 +1,82 @@
+{
+  "ticker": "600926",
+  "company_name": "杭州银行",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "filing",
+      "title": "杭州银行关于副行长任职资格获监管机构核准的公告",
+      "summary": "",
+      "publish_date": "2026-02-27",
+      "available_at": "2026-02-27T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "政策影响",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "杭州银行关于行长任职资格获监管机构核准的公告",
+      "summary": "",
+      "publish_date": "2026-03-02",
+      "available_at": "2026-03-02T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "政策影响",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "杭州银行关于独立董事任职资格获监管机构核准的公告",
+      "summary": "",
+      "publish_date": "2026-03-11",
+      "available_at": "2026-03-11T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "政策影响",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "银行板块表现亮眼",
+      "summary": "东莞证券在《信贷平稳扩张，财政货币共振》中提到，银行行业维持“超配”评级，建议关注三条主线，一是建议关注受益于经济高景气区域、业绩确定性较强的区域性银行宁波银行（002142）、杭州银行（600926）、常熟银行（601128）。",
+      "publish_date": "2026-03-12",
+      "available_at": "2026-03-12T16:47:54",
+      "sentiment_score": 0.0,
+      "category": "业绩公告",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "30只股收盘价创历史新高",
+      "summary": "基础化工 000833 粤桂股份 28.02 1.63 综合 301109 军信股份 17.99 1.58 环保 301252 同星科技 41.61 1.49 家用电器 002384 东山精密 110.93 1.49 电子 002831 裕同科技 34.56 1.20 轻工制造 600926",
+      "publish_date": "2026-03-13",
+      "available_at": "2026-03-13T20:42:05",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "华谊兄弟及王忠军再收限消令，亏超82亿面临退市风险，押注《逐玉》是否能解“近渴”？",
+      "summary": "2025年12月10日，华谊兄弟发布公告显示，截至当日，公司在银行等金融机构逾期债务合计为5250万元，主要债权人为杭州银行（600926.SH）。 为缓解资金压力，华谊兄弟实控人王忠军、王忠磊的股份已被轮候冻结并进行司法拍卖。",
+      "publish_date": "2026-03-19",
+      "available_at": "2026-03-19T16:58:09",
+      "sentiment_score": -1.0,
+      "category": "产品进展",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 0,
+  "hot_reason": "",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

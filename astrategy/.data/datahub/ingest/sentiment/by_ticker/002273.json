@@ -1,0 +1,70 @@
+{
+  "ticker": "002273",
+  "company_name": "水晶光电",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "news",
+      "title": "水晶光电：涂布滤光片业务今年起将进入份额爬坡期",
+      "summary": "水晶光电002273在机构调研时表示，涂布滤光片是2025年公司消费电子光学领域的核心增量业务，2025年下半年已顺利实现稳定量产，各项产能爬坡、客户交付工作有序推进，业务发展态势符合预期。今年起，该业务将正式进入份额爬坡期，中长期公司目标实现较高市场份额。",
+      "publish_date": "2026-03-12",
+      "available_at": "2026-03-12T14:28:00",
+      "sentiment_score": 0.22,
+      "category": "产品进展",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "556只股短线走稳 站上五日均线",
+      "summary": "9.96 16.91 2.37 2.54 7.35 603558 健盛集团 9.99 2.79 12.12 12.99 7.14 002692 远程股份 10.05 11.57 6.03 6.46 7.13 603607 京华激光 9.99 5.02 22.94 24.55 7.04 002273",
+      "publish_date": "2026-03-13",
+      "available_at": "2026-03-13T14:26:44",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "第九期员工持股计划第一次持有人会议决议公告",
+      "summary": "股权激励",
+      "publish_date": "2026-03-19",
+      "available_at": "2026-03-19T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "股权变动",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "关于第九期员工持股计划完成非交易过户的公告",
+      "summary": "股权激励",
+      "publish_date": "2026-03-19",
+      "available_at": "2026-03-19T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "股权变动",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "30只股中线走稳 站上半年线",
+      "summary": "5.88 13.06 21.14 21.26 0.57 603689 皖天然气 1.54 1.62 8.52 8.56 0.50 600538 国发股份 1.96 2.92 6.22 6.25 0.44 002267 陕天然气 1.52 1.29 8.00 8.03 0.43 002273",
+      "publish_date": "2026-03-19",
+      "available_at": "2026-03-19T12:00:48",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 0,
+  "hot_reason": "",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

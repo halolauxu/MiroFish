@@ -1,0 +1,70 @@
+{
+  "ticker": "600763",
+  "company_name": "通策医疗",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "filing",
+      "title": "通策医疗股份有限公司关于公司董事、高管、其他管理人员增持股份及后续增持计划的公告",
+      "summary": "股权变动",
+      "publish_date": "2026-02-24",
+      "available_at": "2026-02-24T00:00:00",
+      "sentiment_score": 0.78,
+      "category": "股权变动",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "解密主力资金出逃股 连续5日净流出534股",
+      "summary": "4.06 7.05 -14.13 300166 东方国信 6 4.04 5.24 -0.94 688102 斯瑞新材 6 3.97 10.05 -11.86 600765 中航重机 6 3.92 9.23 -11.59 600160 巨化股份 6 3.83 6.00 -11.13 600763",
+      "publish_date": "2026-03-16",
+      "available_at": "2026-03-16T17:13:04",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "解密主力资金出逃股 连续5日净流出675股",
+      "summary": "4.40 7.22 -12.03 600268 国电南自 5 4.36 9.22 -15.15 600452 涪陵电力 8 4.16 3.99 -11.32 000603 盛达资源 6 4.13 7.96 -10.73 600580 卧龙电驱 6 4.08 6.91 -6.26 600763",
+      "publish_date": "2026-03-18",
+      "available_at": "2026-03-18T17:07:22",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "hot_topic",
+      "title": "通策医疗",
+      "summary": "雪球关注#39",
+      "publish_date": "2026-03-19",
+      "available_at": "2026-03-19T00:00:00",
+      "sentiment_score": 0.08,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.25,
+      "hot_rank": 124
+    },
+    {
+      "source_type": "news",
+      "title": "解密主力资金出逃股 连续5日净流出806股",
+      "summary": "4.63 8.48 -12.11 600143 金发科技 5 4.59 11.89 -10.61 601006 大秦铁路 6 4.45 7.89 -1.68 600452 涪陵电力 9 4.41 3.94 -11.45 000758 中色股份 14 4.40 5.20 -25.88 600763",
+      "publish_date": "2026-03-19",
+      "available_at": "2026-03-19T18:05:45",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 124,
+  "hot_reason": "雪球关注#39",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

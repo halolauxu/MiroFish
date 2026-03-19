@@ -10,7 +10,7 @@ from typing import Any, Dict, Iterable, List
 
 from astrategy.data_collector.market_data import MarketDataCollector
 
-from ..common import ensure_dir, market_root
+from ..common import ensure_dir, market_root, repo_relative_path, resolve_repo_path
 
 logger = logging.getLogger("astrategy.datahub.prices")
 
@@ -53,35 +53,52 @@ def _records_from_frame(df: Any) -> List[Dict[str, Any]]:
 
 def _load_existing_price_meta() -> Dict[str, Dict[str, Any]]:
     manifest = _manifest_path()
+    rows: Dict[str, Dict[str, Any]] = {}
     if manifest.exists():
         data = json.loads(manifest.read_text(encoding="utf-8"))
-        return {
-            str(item.get("ticker", "")).zfill(6): item
-            for item in data.get("rows", [])
-            if str(item.get("ticker", "")).strip()
-        }
+        for item in data.get("rows", []):
+            ticker = str(item.get("ticker", "")).strip().zfill(6)
+            if not ticker or ticker == "000000":
+                continue
+            rows[ticker] = dict(item)
 
-    rows: Dict[str, Dict[str, Any]] = {}
+    file_meta: Dict[str, Dict[str, Any]] = {}
     for path in _price_dir().glob("*.json"):
         ticker = path.stem.strip()
         if not (ticker.isdigit() and len(ticker) == 6):
             continue
         records = json.loads(path.read_text(encoding="utf-8"))
-        rows[ticker] = {
+        file_meta[ticker] = {
             "ticker": ticker,
             "status": "existing_file",
             "row_count": len(records) if isinstance(records, list) else 0,
-            "price_file": str(path),
+            "price_file": repo_relative_path(path),
             "price_start": records[0]["trade_date"] if records else "",
             "price_end": records[-1]["trade_date"] if records else "",
             "last_attempt_at": "",
             "error": "",
         }
+    for ticker, meta in file_meta.items():
+        current = rows.get(ticker, {})
+        current_path = (
+            resolve_repo_path(str(current.get("price_file", "")).strip(), fallback=_price_dir() / f"{ticker}.json")
+            if str(current.get("price_file", "")).strip()
+            else None
+        )
+        should_override = (
+            not current
+            or int(current.get("row_count", 0) or 0) <= 0
+            or current_path is None
+            or not current_path.exists()
+        )
+        if should_override:
+            rows[ticker] = meta
     return rows
 
 
 def _has_usable_cache(row: Dict[str, Any]) -> bool:
-    price_file = Path(str(row.get("price_file", "")).strip())
+    ticker = str(row.get("ticker", "")).strip().zfill(6)
+    price_file = resolve_repo_path(str(row.get("price_file", "")).strip(), fallback=_price_dir() / f"{ticker}.json")
     return int(row.get("row_count", 0) or 0) > 0 and price_file.exists()
 
 
@@ -120,6 +137,9 @@ def build_price_layer(
             rows.append(
                 {
                     **cached,
+                    "price_file": repo_relative_path(
+                        resolve_repo_path(str(cached.get("price_file", "")).strip(), fallback=_price_dir() / f"{ticker}.json")
+                    ),
                     "from_cache": True,
                 }
             )
@@ -129,7 +149,7 @@ def build_price_layer(
             "ticker": ticker,
             "status": "not_requested",
             "row_count": 0,
-            "price_file": str(_price_dir() / f"{ticker}.json"),
+            "price_file": repo_relative_path(_price_dir() / f"{ticker}.json"),
             "price_start": "",
             "price_end": "",
             "last_attempt_at": datetime.utcnow().replace(microsecond=0).isoformat() + "Z",

@@ -1,0 +1,70 @@
+{
+  "ticker": "002797",
+  "company_name": "第一创业",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "news",
+      "title": "A股三大股指涨跌互现：房地产、保险板块跌幅靠前，两市成交2.5万亿元",
+      "summary": "保险股走低，非银金融表现不佳，中国太保（601601）、新华保险（601336）等跌超2%，中国平安（601318）、第一创业（002797）、湘财股份（600095）、锦龙股份（000712）等跌超1%。",
+      "publish_date": "2026-02-26",
+      "available_at": "2026-02-26T15:29:07",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "超200万手封板！002445 复牌一字涨停！",
+      "summary": "东方财富Choice数据显示，除了华熙生物外，华熙昕宇（曾）投资了金隅集团(601992)、第一创业002797等股票。截至2025年9月末，华熙昕宇持有第一创业股票1.62亿股，为公司第四大股东。",
+      "publish_date": "2026-03-09",
+      "available_at": "2026-03-09T12:37:18",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "20.19亿主力资金净流入，期货概念涨0.02%",
+      "summary": "603093 南华期货 6.54 5.83 12942.58 16.71 601211 国泰海通 0.84 0.83 10868.41 5.34 601162 天风证券 0.76 2.11 8650.27 11.82 601108 财通证券 0.24 0.97 6314.56 16.79 002797",
+      "publish_date": "2026-03-17",
+      "available_at": "2026-03-17T17:23:25",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "第一创业证券股份有限公司2025年面向专业投资者公开发行公司债券（第二期）（品种二）2026年付息公告",
+      "summary": "债券融资",
+      "publish_date": "2026-03-17",
+      "available_at": "2026-03-17T17:29:10",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "hot_topic",
+      "title": "第一创业",
+      "summary": "雪球交易#21",
+      "publish_date": "2026-03-19",
+      "available_at": "2026-03-19T00:00:00",
+      "sentiment_score": 0.08,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.25,
+      "hot_rank": 140
+    }
+  ],
+  "hot_rank": 140,
+  "hot_reason": "雪球交易#21",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

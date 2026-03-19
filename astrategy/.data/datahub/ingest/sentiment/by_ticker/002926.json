@@ -1,0 +1,46 @@
+{
+  "ticker": "002926",
+  "company_name": "华西证券",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "news",
+      "title": "融资客看好5股 买入占成交比例超三成",
+      "summary": "10670.70 29.08 -2.31 688075 安旭生物 668.48 2304.97 29.00 -2.11 688517 金冠电气 2888.69 10151.77 28.46 -1.46 920121 江天科技 562.11 2009.37 27.97 -1.10 002926",
+      "publish_date": "2026-03-03",
+      "available_at": "2026-03-03T10:34:44",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "20.19亿主力资金净流入，期货概念涨0.02%",
+      "summary": "600927 永安期货 0.75 0.87 1111.30 5.89 002673 西部证券 0.39 0.76 701.94 2.67 601198 东兴证券 -0.15 0.72 611.48 1.96 600390 五矿资本 -0.35 1.16 553.86 1.88 002926",
+      "publish_date": "2026-03-17",
+      "available_at": "2026-03-17T17:23:25",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "36.33亿元主力资金今日抢筹非银金融板块",
+      "summary": "建元信托 0.74 1.15 1067.13 002316 亚联发展 -0.18 7.93 850.60 002673 西部证券 0.39 0.76 701.94 601198 东兴证券 -0.15 0.72 611.48 600390 五矿资本 -0.35 1.16 553.86 002926",
+      "publish_date": "2026-03-17",
+      "available_at": "2026-03-17T17:23:34",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 0,
+  "hot_reason": "",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

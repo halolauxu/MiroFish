@@ -1,0 +1,82 @@
+{
+  "ticker": "600377",
+  "company_name": "宁沪高速",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "news",
+      "title": "宁沪高速：董事长陈云江因工作变动离任",
+      "summary": "人民财讯3月3日电，宁沪高速6003773月3日公告，公司董事会3月3日收到董事长陈云江的辞任函。陈云江因工作变动申请辞去公司董事长、董事会战略委员会召集人、董事职务。辞职后，陈云江将不担任公司任何职务。",
+      "publish_date": "2026-03-03",
+      "available_at": "2026-03-03T16:32:29",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "关于董事长离任的公告",
+      "summary": "",
+      "publish_date": "2026-03-04",
+      "available_at": "2026-03-04T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "宁沪高速：选举汪锋担任董事长",
+      "summary": "人民财讯3月4日电，宁沪高速6003773月4日公告，公司执行董事、总经理汪锋因工作变动原因申请辞去公司总经理职务。公司召开董事会会议，选举汪锋担任第十一届董事会董事长、战略委员会召集人，任期与本届董事会一致。",
+      "publish_date": "2026-03-04",
+      "available_at": "2026-03-04T17:18:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "宁沪高速：汪锋辞任总经理 留任董事长",
+      "summary": "宁沪高速（600377/00177）发布公告，汪锋因工作变动申请辞去总经理职务，离任时间为2026年3月4日，原定任期到期日为2027年6月26日。汪锋在辞任后仍将担任董事长及战略委员会召集人，并未履行完毕的公开承诺。",
+      "publish_date": "2026-03-04",
+      "available_at": "2026-03-04T17:23:11",
+      "sentiment_score": 0.0,
+      "category": "产品进展",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "第十一届董事会第十九次会议决议公告",
+      "summary": "",
+      "publish_date": "2026-03-05",
+      "available_at": "2026-03-05T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "关于高级管理人员辞任及选举董事长、战略委员会召集人的公告",
+      "summary": "",
+      "publish_date": "2026-03-05",
+      "available_at": "2026-03-05T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 0,
+  "hot_reason": "",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

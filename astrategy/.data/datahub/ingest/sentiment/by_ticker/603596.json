@@ -1,0 +1,130 @@
+{
+  "ticker": "603596",
+  "company_name": "伯特利",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "filing",
+      "title": "伯特利第四届董事会第十四次会议决议公告",
+      "summary": "",
+      "publish_date": "2026-02-26",
+      "available_at": "2026-02-26T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "伯特利关于收购豫北转向系统（新乡）股份有限公司控股权的公告",
+      "summary": "",
+      "publish_date": "2026-02-26",
+      "available_at": "2026-02-26T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "资产重组",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "伯特利对外投资暨设立德国全资子公司的公告",
+      "summary": "",
+      "publish_date": "2026-02-27",
+      "available_at": "2026-02-27T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "伯特利关于使用部分闲置募集资金进行现金管理及部分现金管理产品到期赎回的公告",
+      "summary": "",
+      "publish_date": "2026-02-27",
+      "available_at": "2026-02-27T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "中证鹏元关于关注芜湖伯特利汽车安全系统股份有限公司拟收购豫北转向系统（新乡）股份有限公司控股权的公告",
+      "summary": "",
+      "publish_date": "2026-03-10",
+      "available_at": "2026-03-10T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "资产重组",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "伯特利关于使用部分闲置募集资金进行现金管理到期赎回的公告",
+      "summary": "",
+      "publish_date": "2026-03-13",
+      "available_at": "2026-03-13T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "伯特利：公司的WCBS产品已获得海外客户的定点项目",
+      "summary": "伯特利（603596.SH）3月17日在投资者互动平台表示，您好！公司的WCBS产品已获得海外客户的定点项目。感谢关注！",
+      "publish_date": "2026-03-17",
+      "available_at": "2026-03-17T16:27:13",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "伯特利：收购豫北转向约50.97%股份已完成股权转让协议的签署",
+      "summary": "伯特利（603596.SH）3月17日在投资者互动平台表示，您好！公司于2026年2月26日发布公告，拟收购豫北转向约50.97%的股份，目前已完成股权转让协议的签署，后续相关流程按计划推进中，具体请关注公司后续披露的信息。感谢关注！",
+      "publish_date": "2026-03-17",
+      "available_at": "2026-03-17T16:27:14",
+      "sentiment_score": 0.0,
+      "category": "资产重组",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "6.27亿元主力资金今日抢筹汽车板块",
+      "summary": "0.61 2.48 23868.25 301667 纳百川 20.00 54.22 10513.16 002703 浙江世宝 4.94 14.26 5761.72 301550 斯菱智驱 0.13 3.56 4435.15 601127 赛力斯 -0.33 1.55 4045.03 603596",
+      "publish_date": "2026-03-17",
+      "available_at": "2026-03-17T17:25:14",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "伯特利关于使用部分闲置募集资金进行现金管理到期赎回的公告",
+      "summary": "",
+      "publish_date": "2026-03-18",
+      "available_at": "2026-03-18T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 0,
+  "hot_reason": "",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

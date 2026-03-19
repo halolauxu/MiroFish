@@ -1,0 +1,130 @@
+{
+  "ticker": "600309",
+  "company_name": "万华化学",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "filing",
+      "title": "万华化学关于持股5%以上股东部分股份质押公告",
+      "summary": "",
+      "publish_date": "2026-03-03",
+      "available_at": "2026-03-03T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "万华化学2026年度第二期科技创新债券发行结果公告",
+      "summary": "",
+      "publish_date": "2026-03-03",
+      "available_at": "2026-03-03T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "万华化学关于持股5%以上股东部分股份解除质押公告",
+      "summary": "",
+      "publish_date": "2026-03-10",
+      "available_at": "2026-03-10T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "万华化学：2025年净利润125.27亿元 同比下降3.88%",
+      "summary": "万华化学600309.SH)发布业绩快报，2025年实现营业收入2032.35亿元，同比增长11.62%；归属于上市公司股东的净利润125.27亿元，同比下降3.88%。",
+      "publish_date": "2026-03-16",
+      "available_at": "2026-03-16T16:12:16",
+      "sentiment_score": -0.5,
+      "category": "业绩公告",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "万华化学2025年度业绩快报公告",
+      "summary": "业绩预告",
+      "publish_date": "2026-03-17",
+      "available_at": "2026-03-17T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "业绩公告",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "万华化学：烟台产业园75万吨/年PDH装置将停产检修",
+      "summary": "万华化学600309.SH)公告称，公司烟台产业园75万吨/年PDH装置将于2026年3月22日开始停产检修，预计30天左右。同期，下游PO/AE一体化装置将进行负荷调整，公司将尽力保证下游客户的稳定供应。本次检修为年度计划例行检修，对公司生产经营不会产生重大影响。",
+      "publish_date": "2026-03-18",
+      "available_at": "2026-03-18T17:23:44",
+      "sentiment_score": -0.42,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "万华化学：烟台产业园PDH装置停产检修",
+      "summary": "人民财讯3月18日电，万华化学6003093月18日公告，根据化工企业生产工艺特点，为确保生产装置安全有效运行，按照年度检修计划，公司烟台产业园75万吨/年PDH装置将于2026年3月22日开始停产检修，预计检修30天左右。",
+      "publish_date": "2026-03-18",
+      "available_at": "2026-03-18T17:39:37",
+      "sentiment_score": -0.42,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "万华化学烟台产业园PDH装置停产检修公告",
+      "summary": "",
+      "publish_date": "2026-03-19",
+      "available_at": "2026-03-19T00:00:00",
+      "sentiment_score": -0.42,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "万华化学2026年度第三期科技创新债券发行结果公告",
+      "summary": "",
+      "publish_date": "2026-03-19",
+      "available_at": "2026-03-19T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "hot_topic",
+      "title": "万华化学",
+      "summary": "雪球关注#30",
+      "publish_date": "2026-03-19",
+      "available_at": "2026-03-19T00:00:00",
+      "sentiment_score": 0.08,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.25,
+      "hot_rank": 115
+    }
+  ],
+  "hot_rank": 115,
+  "hot_reason": "雪球关注#30",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

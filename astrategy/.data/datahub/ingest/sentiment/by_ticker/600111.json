@@ -1,0 +1,106 @@
+{
+  "ticker": "600111",
+  "company_name": "北方稀土",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "news",
+      "title": "北方稀土：拟合资成立新公司 建设年产10000吨含铈钕铁硼磁性材料项目",
+      "summary": "北方稀土6001113月13日公告，公司拟以自有资金出资1.16亿元与宁波铄腾新材料有限公司合资成立北方铄腾磁业（内蒙古）有限公司（简称“新公司”），并以新公司为主体建设年产10000吨含铈钕铁硼磁性材料项目。",
+      "publish_date": "2026-03-13",
+      "available_at": "2026-03-13T20:49:37",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "北方稀土第九届董事会第十一次会议决议公告",
+      "summary": "",
+      "publish_date": "2026-03-14",
+      "available_at": "2026-03-14T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "北方稀土关于与宁波铄腾新材料有限公司合资成立新公司建设含铈钕铁硼磁性材料项目的公告",
+      "summary": "",
+      "publish_date": "2026-03-14",
+      "available_at": "2026-03-14T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "北方稀土关于与宁波复能稀土新材料股份有限公司合资成立新公司建设稀土金属合金生产线项目的公告",
+      "summary": "",
+      "publish_date": "2026-03-14",
+      "available_at": "2026-03-14T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "北方稀土关于2026年度第一期超短期融资券发行结果的公告",
+      "summary": "增发融资",
+      "publish_date": "2026-03-14",
+      "available_at": "2026-03-14T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "600111，稀土龙头大动作！逾50亿港元爆买油气龙头股",
+      "summary": "3月13日晚间，北方稀土（600111）接连发布合资建设新项目公告。公司拟以自有资金出资1.156亿元人民币与宁波铄腾新材料有限公司合资成立北方铄腾磁业（内蒙古）有限公司（暂定名），并以新公司为主体建设年产10000吨含铈钕铁硼磁性材料项目。",
+      "publish_date": "2026-03-15",
+      "available_at": "2026-03-15T12:31:29",
+      "sentiment_score": 0.0,
+      "category": "产品进展",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "hot_topic",
+      "title": "北方稀土",
+      "summary": "雪球关注#68",
+      "publish_date": "2026-03-19",
+      "available_at": "2026-03-19T00:00:00",
+      "sentiment_score": 0.08,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.25,
+      "hot_rank": 166
+    },
+    {
+      "source_type": "news",
+      "title": "有色金属行业资金流出榜：紫金矿业等41股净流出资金超亿元",
+      "summary": "有色金属行业资金流出榜 代码 简称 今日涨跌幅（%） 今日换手率（%） 主力资金流量（万元） 601899 紫金矿业 -7.45 2.56 -293559.68 603993 洛阳钼业 -8.04 2.83 -126967.83 603799 华友钴业 -6.81 4.29 -73716.27 600111",
+      "publish_date": "2026-03-19",
+      "available_at": "2026-03-19T18:04:36",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 166,
+  "hot_reason": "雪球关注#68",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

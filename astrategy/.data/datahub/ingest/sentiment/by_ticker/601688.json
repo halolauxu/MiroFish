@@ -1,0 +1,130 @@
+{
+  "ticker": "601688",
+  "company_name": "华泰证券",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "news",
+      "title": "华泰证券聘任张大宇负责境外资管业务，旗下货币基金获标普基金评级",
+      "summary": "南方财经2月26日电，近日，国际评级机构标普全球评级宣布，华泰证券（601688.SH）旗下华泰金融控股（香港）有限公司（HTFH HK）管理的华泰港元货币市场基金（HKD MMF）和华泰美元货币市场基金（USD MMF）分别获得AA-f/S1+和AAf/S1+评级。",
+      "publish_date": "2026-02-26",
+      "available_at": "2026-02-26T12:42:41",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "华泰证券股份有限公司关于间接全资子公司根据中期票据计划进行发行并由全资子公司提供担保的公告",
+      "summary": "债券融资",
+      "publish_date": "2026-03-03",
+      "available_at": "2026-03-03T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "华泰证券股份有限公司关于间接全资子公司根据中期票据计划进行发行并由全资子公司提供担保的公告",
+      "summary": "债券融资",
+      "publish_date": "2026-03-06",
+      "available_at": "2026-03-06T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "华泰证券H股公告（截至2026年2月28日股份发行人的证券变动月报表）",
+      "summary": "",
+      "publish_date": "2026-03-06",
+      "available_at": "2026-03-06T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "抢占人民币升值“窗口期” 内企巨头纷纷赴港发行无息可转债",
+      "summary": "截至今年2月末，包括中国平安（601318.SH）、中国太保（601601.SH）、广发证券（000776.SZ）、华泰证券（601688.SH）、赣锋锂业（002460.SZ）、洛阳钼业（603993.SH）、紫金矿业（601899.SH）、中联重科（000157.SZ）等多家两地上市企业已发行或公告发行规模从数十亿到百亿港元级别的可转债",
+      "publish_date": "2026-03-06",
+      "available_at": "2026-03-06T14:03:32",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "华泰证券股份有限公司关于间接全资子公司根据中期票据计划进行发行并由全资子公司提供担保的公告",
+      "summary": "债券融资",
+      "publish_date": "2026-03-14",
+      "available_at": "2026-03-14T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "今日突破年线个股",
+      "summary": "1.29 1.18 1.56 1.57 0.39 688062 迈威生物 1.34 4.41 34.69 34.80 0.31 603990 麦迪科技 0.59 5.65 15.18 15.22 0.24 601838 成都银行 1.04 0.64 17.38 17.41 0.14 601688",
+      "publish_date": "2026-03-17",
+      "available_at": "2026-03-17T15:42:37",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "华泰证券股份有限公司关于间接全资子公司根据中期票据计划进行发行并由全资子公司提供担保的公告",
+      "summary": "债券融资",
+      "publish_date": "2026-03-19",
+      "available_at": "2026-03-19T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "华泰证券H股公告（董事会召开日期）",
+      "summary": "",
+      "publish_date": "2026-03-19",
+      "available_at": "2026-03-19T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "hot_topic",
+      "title": "华泰证券",
+      "summary": "雪球关注#84; 雪球讨论#89; 雪球交易#52",
+      "publish_date": "2026-03-19",
+      "available_at": "2026-03-19T00:00:00",
+      "sentiment_score": 0.194,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.25,
+      "hot_rank": 43
+    }
+  ],
+  "hot_rank": 43,
+  "hot_reason": "雪球关注#84; 雪球讨论#89; 雪球交易#52",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

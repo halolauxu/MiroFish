@@ -1,0 +1,94 @@
+{
+  "ticker": "600754",
+  "company_name": "锦江酒店",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "filing",
+      "title": "锦江酒店第十一届董事会第九次会议决议公告",
+      "summary": "",
+      "publish_date": "2026-03-04",
+      "available_at": "2026-03-04T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "锦江酒店对外担保管理制度",
+      "summary": "",
+      "publish_date": "2026-03-04",
+      "available_at": "2026-03-04T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "短线防风险 27只个股短期均线现死叉",
+      "summary": "157.30 160.34 -1.89 145.31 -9.37 000561 烽火电子 -3.41 1.79 11.10 11.30 -1.69 10.77 -4.65 300757 罗博特科 -10.18 5.76 398.40 405.03 -1.64 352.00 -13.09 600754",
+      "publish_date": "2026-03-09",
+      "available_at": "2026-03-09T12:00:03",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "短线防风险 23只个股短期均线现死叉",
+      "summary": "157.64 160.51 -1.79 147.01 -8.41 002465 海格通信 0.29 3.74 17.08 17.39 -1.75 17.12 -1.53 300757 罗博特科 -8.04 6.80 400.07 405.87 -1.43 360.39 -11.20 600754",
+      "publish_date": "2026-03-09",
+      "available_at": "2026-03-09T14:30:58",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "锦江酒店第十一届董事会第十次会议决议公告",
+      "summary": "",
+      "publish_date": "2026-03-10",
+      "available_at": "2026-03-10T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "锦江酒店：锦江香港已斥资1498万美元增持1%公司股份",
+      "summary": "3月16日，锦江酒店（600754）发布公告，控股股东的一致行动人锦江国际酒店集团（香港）投资管理有限公司累计增持1062万股公司B股股份，占公司总股本的1.00%，增持金额为1498万美元。 当前，锦江香港持有2133万股公司股份，占公司总股本的2.00%。",
+      "publish_date": "2026-03-16",
+      "available_at": "2026-03-16T18:09:18",
+      "sentiment_score": 0.78,
+      "category": "股权变动",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "锦江酒店关于控股股东及其一致行动人权益变动触及1%刻度的提示性公告",
+      "summary": "",
+      "publish_date": "2026-03-17",
+      "available_at": "2026-03-17T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 0,
+  "hot_reason": "",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

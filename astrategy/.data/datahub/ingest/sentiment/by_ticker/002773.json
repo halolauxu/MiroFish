@@ -1,0 +1,106 @@
+{
+  "ticker": "002773",
+  "company_name": "康弘药业",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "filing",
+      "title": "关于公司收到药物临床试验批准通知书的公告",
+      "summary": "",
+      "publish_date": "2026-02-26",
+      "available_at": "2026-02-26T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "康弘药业：八个产品在国家集采接续中选 采购周期至2028年底",
+      "summary": "每经AI快讯，3月1日，康弘药业002773.SZ)公告称，公司枸橼酸莫沙必利片、右佐匹克隆片、盐酸文拉法辛缓释片、阿立哌唑口崩片、草酸艾司西酞普兰片、盐酸普拉克索缓释片、富马酸喹硫平片、玻璃酸钠滴眼液八个产品被列入国家组织集采药品协议期满品种接续采购中选结果。",
+      "publish_date": "2026-03-01",
+      "available_at": "2026-03-01T17:26:42",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "关于公司参与国家组织集采药品协议期满品种接续采购中选结果的公告",
+      "summary": "",
+      "publish_date": "2026-03-02",
+      "available_at": "2026-03-02T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "康弘药业：八个产品中选国家集采接续采购",
+      "summary": "南方财经3月2日电，康弘药业（002773.SZ）公告，公司枸橼酸莫沙必利片、右佐匹克隆片、盐酸文拉法辛缓释片、阿立哌唑口崩片（5mg、10mg）、草酸艾司西酞普兰片、盐酸普拉克索缓释片、富马酸喹硫平片、玻璃酸钠滴眼液共八个产品中选国家组织集采药品协议期满接续采购。",
+      "publish_date": "2026-03-02",
+      "available_at": "2026-03-02T09:53:11",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "康弘药业：聘任王婷为证券事务代表",
+      "summary": "康弘药业（002773）发布公告，公司于2026年3月5日召开第八届董事会第十六次会议，审议并通过了《关于聘任公司证券事务代表的议案》，同意聘任王婷为公司证券事务代表。 2025年前三季度，康弘药业实现收入36.24亿元，归母净利润10.33亿元。",
+      "publish_date": "2026-03-05",
+      "available_at": "2026-03-05T18:10:13",
+      "sentiment_score": 0.0,
+      "category": "业绩公告",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "第八届董事会第十六次会议决议公告",
+      "summary": "",
+      "publish_date": "2026-03-06",
+      "available_at": "2026-03-06T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "关于聘任公司证券事务代表的公告",
+      "summary": "",
+      "publish_date": "2026-03-06",
+      "available_at": "2026-03-06T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "关于使用自有资金购买理财产品的公告",
+      "summary": "",
+      "publish_date": "2026-03-07",
+      "available_at": "2026-03-07T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 0,
+  "hot_reason": "",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

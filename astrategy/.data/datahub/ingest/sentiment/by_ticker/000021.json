@@ -1,0 +1,106 @@
+{
+  "ticker": "000021",
+  "company_name": "深科技",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "news",
+      "title": "2月13日龙虎榜机构席位买卖详情",
+      "summary": "其中，机构净买入前三分别为特发信息(000070.SZ)、建设机械(600984.SH)与深科技000021.SZ)，详情见下图：机构净卖出的个股中，前三分别为百川股份(002455.SZ)、科瑞技术(002957.SZ)与捷成股份(300182.SZ)。",
+      "publish_date": "2026-02-13",
+      "available_at": "2026-02-13T17:23:34",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "关于控股子公司开发科技披露2025年度业绩快报的公告",
+      "summary": "业绩预告",
+      "publish_date": "2026-02-27",
+      "available_at": "2026-02-27T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "业绩公告",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "第十届董事会第十八次会议决议公告",
+      "summary": "",
+      "publish_date": "2026-02-28",
+      "available_at": "2026-02-28T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "关于2026年度日常关联交易预计的公告",
+      "summary": "",
+      "publish_date": "2026-02-28",
+      "available_at": "2026-02-28T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "2026年第一次独立董事专门会议决议",
+      "summary": "",
+      "publish_date": "2026-02-28",
+      "available_at": "2026-02-28T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "2026年度（第一次）临时股东会决议公告",
+      "summary": "",
+      "publish_date": "2026-03-18",
+      "available_at": "2026-03-18T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "28股获融资客大手笔净买入",
+      "summary": "5.56 银行 688041 海光信息 1.90 14216.41 638297.87 1.19 电子 002837 英维克 5.33 14115.91 355236.69 3.92 机械设备 300475 香农芯创 10.63 13264.40 529854.68 7.00 电子 000021",
+      "publish_date": "2026-03-19",
+      "available_at": "2026-03-19T09:44:49",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "电子行业3月19日资金流向日报",
+      "summary": "-84099.34 603986 兆易创新 -2.43 4.67 -82795.12 001309 德明利 -7.75 12.13 -56195.61 688256 寒武纪 -2.72 1.17 -54693.95 002384 东山精密 4.04 5.97 -49846.98 000021",
+      "publish_date": "2026-03-19",
+      "available_at": "2026-03-19T18:06:06",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 0,
+  "hot_reason": "",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

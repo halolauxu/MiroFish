@@ -1,0 +1,46 @@
+{
+  "ticker": "300373",
+  "company_name": "扬杰科技",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "news",
+      "title": "扬杰科技：公司近期有接待机构调研",
+      "summary": "扬杰科技（300373.SZ）3月5日在投资者互动平台表示，公司近期有接待机构调研，具体见公司于2026 年3 月3日在巨潮资讯网披露的2月投资者关系活动记录表。",
+      "publish_date": "2026-03-05",
+      "available_at": "2026-03-05T19:59:23",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "扬杰科技：2026年开年以来，公司订单饱满，各工厂稼动率处于较高水平",
+      "summary": "扬杰科技（300373.SZ）3月5日在投资者互动平台表示，2026年开年以来，公司订单饱满，各工厂稼动率处于较高水平，目前正根据订单需求合理排班、有序组织生产，全力保障客户订单按时交付。",
+      "publish_date": "2026-03-05",
+      "available_at": "2026-03-05T19:59:24",
+      "sentiment_score": 0.35,
+      "category": "重大合同",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "扬杰科技：2026年开年，公司各产线均处于满负荷运转状态",
+      "summary": "扬杰科技（300373.SZ）3月5日在投资者互动平台表示，2026年开年，公司各产线均处于满负荷运转状态，生产经营有序高效。",
+      "publish_date": "2026-03-05",
+      "available_at": "2026-03-05T19:59:26",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 0,
+  "hot_reason": "",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

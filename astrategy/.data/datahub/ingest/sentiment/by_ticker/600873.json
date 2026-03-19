@@ -1,0 +1,70 @@
+{
+  "ticker": "600873",
+  "company_name": "梅花生物",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "filing",
+      "title": "梅花生物关于以集中竞价交易方式回购公司股份的进展公告",
+      "summary": "股权变动",
+      "publish_date": "2026-03-04",
+      "available_at": "2026-03-04T00:00:00",
+      "sentiment_score": 0.8,
+      "category": "股权变动",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "梅花生物关于2026年员工持股计划实施进展的公告",
+      "summary": "股权激励",
+      "publish_date": "2026-03-04",
+      "available_at": "2026-03-04T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "股权变动",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "梅花生物600873龙虎榜数据03-11)",
+      "summary": "交易所2026年3月11日公布的交易公开信息显示，梅花生物因成为有价格涨跌幅限制的日收盘价格涨幅偏离值达到7%的前五只证券上榜。梅花生物当日收报12.62元，涨跌幅10.03%，偏离值9.78%，换手率4.25%，成交额14.54亿。 免责声明：本文基于AI生产，仅供参考，不构成任何投资建议",
+      "publish_date": "2026-03-11",
+      "available_at": "2026-03-11T16:58:13",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "强势股追踪 主力资金连续5日净流入73股",
+      "summary": "银之杰 8 11.12 10.65 18.04 600036 招商银行 6 9.33 6.09 3.43 600919 江苏银行 11 9.04 7.52 4.50 601398 工商银行 5 8.25 7.81 4.97 688099 晶晨股份 10 6.59 6.41 4.17 600873",
+      "publish_date": "2026-03-17",
+      "available_at": "2026-03-17T17:25:19",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "韩国股民热买“HALO”资产！有色金属ETF天弘（159157）盘中溢价，连续22日“吸金”累超43亿元",
+      "summary": "韩国预托结算院（KSD）旗下SEIbro数据显示，最近一个月，韩国投资者净买入A股证券主要有三一重工（HK6031）、中国电建（601669）、长电科技（600584）、光迅科技（002281）、梅花生物（600873）、赣锋锂业（002460）、许继电气（000400）等，净买入金额均不低于",
+      "publish_date": "2026-03-18",
+      "available_at": "2026-03-18T10:19:32",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 0,
+  "hot_reason": "",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

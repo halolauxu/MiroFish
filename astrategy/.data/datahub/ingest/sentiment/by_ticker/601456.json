@@ -1,0 +1,70 @@
+{
+  "ticker": "601456",
+  "company_name": "国联民生",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "news",
+      "title": "国联民生：拟向民生证券增资2亿元",
+      "summary": "国联民生601456.SH)公告称，公司拟向民生证券增资2亿元，增资后持股比例不变。",
+      "publish_date": "2026-02-08",
+      "available_at": "2026-02-08T16:02:26",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "国联民生证券股份有限公司关于控股子公司完成注册资本工商变更登记的公告",
+      "summary": "",
+      "publish_date": "2026-03-06",
+      "available_at": "2026-03-06T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "H股公告（2026年2月证券变动月报表）",
+      "summary": "",
+      "publish_date": "2026-03-06",
+      "available_at": "2026-03-06T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "6只个股大宗交易超5000万元",
+      "summary": "21.53 140.00 2833.60 10 20.24 -5.99 688411 海博思创 2.26 275.00 10.00 2714.50 1 271.45 -1.29 301125 腾亚精工 2.18 24.42 141.76 2710.45 1 19.12 -21.70 601456",
+      "publish_date": "2026-03-12",
+      "available_at": "2026-03-12T22:11:49",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "36.33亿元主力资金今日抢筹非银金融板块",
+      "summary": "中国人保 1.42 0.21 5242.65 601099 太平洋 0.50 2.03 4584.08 002939 长城证券 0.64 0.94 4555.49 601696 中银证券 -0.60 1.93 3869.35 600864 哈投股份 1.56 1.97 3816.55 601456",
+      "publish_date": "2026-03-17",
+      "available_at": "2026-03-17T17:23:34",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 0,
+  "hot_reason": "",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

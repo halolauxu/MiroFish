@@ -1,0 +1,70 @@
+{
+  "ticker": "600699",
+  "company_name": "均胜电子",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "news",
+      "title": "Robotaxi落地加速 均胜电子首个L3与L4智驾域控即将量产",
+      "summary": "近日，全球智能汽车科技解决方案提供商均胜电子（600699.SH/0699.HK）在高阶智能驾驶领域取得重大突破,公司首个L3级智驾域控产品计划于2027年年中量产上车，并搭载在某知名头部车企相关车型上；同时，公司打造的L4智驾域控即将搭载在低速无人物流车上,有望成为首个量产的基于国产芯片平台的",
+      "publish_date": "2026-03-02",
+      "available_at": "2026-03-02T12:19:17",
+      "sentiment_score": 0.22,
+      "category": "产品进展",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "H股公告（截至2026年2月28日止之股份发行人的证券变动月报表）",
+      "summary": "",
+      "publish_date": "2026-03-06",
+      "available_at": "2026-03-06T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "前次募投项目延期、部分场地出租 均普智能回应再抛10亿元定增入局机器人",
+      "summary": "对此，均普智能表示，随着智能机器人研发及产业化项目投产，公司可能新增两类关键关联交易：一是向关联方均胜电子（SH600699，股价26.44元，市值390.64亿元）及其子公司采购传感器、关节模组等核心零部件；二是向其销售机器人本体以满足其工厂自动化需求，交易性质分别为原材料采购及商品销售",
+      "publish_date": "2026-03-07",
+      "available_at": "2026-03-07T00:29:13",
+      "sentiment_score": 0.24,
+      "category": "产品进展",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "【中证快报】3月17日中证投资资讯 | 国家级具身智能开源数据集社区成立",
+      "summary": "A股相关概念股有均胜电子（600699）、上海钢联（300226）等。 【要闻精选】 ○3月17日，国家能源局发布1至2月份全社会用电量等数据，1至2月，全社会用电量累计16546亿千瓦时，同比增长6.1%。",
+      "publish_date": "2026-03-17",
+      "available_at": "2026-03-17T22:54:30",
+      "sentiment_score": 0.2,
+      "category": "业绩公告",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "H股公告（董事会会议日期）",
+      "summary": "",
+      "publish_date": "2026-03-19",
+      "available_at": "2026-03-19T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 0,
+  "hot_reason": "",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

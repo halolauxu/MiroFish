@@ -1,0 +1,58 @@
+{
+  "ticker": "600535",
+  "company_name": "天士力",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "filing",
+      "title": "天士力关于公司高级管理人员辞职的公告",
+      "summary": "",
+      "publish_date": "2026-03-07",
+      "available_at": "2026-03-07T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "天士力：2025年净利润同比增长15.63% 拟10派1元",
+      "summary": "人民财讯3月19日电，天士力6005353月19日披露年度报告，2025年实现营业收入82.36亿元，同比下降3.08%；归母净利润11.05亿元，同比增长15.63%；基本每股收益0.74元。公司拟向全体股东每10股派发现金红利1元（含税）。",
+      "publish_date": "2026-03-19",
+      "available_at": "2026-03-19T18:04:56",
+      "sentiment_score": -0.5,
+      "category": "业绩公告",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "天士力拟每股派发现金红利0.1元",
+      "summary": "3月19日，天士力（600535）发布公告，公司拟向全体股东每股派发现金红利0.1元（含税），预计总派发金额为1.49亿元。 2025年，天士力实现收入82.36亿元，归母净利润11.05亿元。",
+      "publish_date": "2026-03-19",
+      "available_at": "2026-03-19T18:06:53",
+      "sentiment_score": 0.0,
+      "category": "业绩公告",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "天士力2025年净利11.05亿元，同比增长15.63%",
+      "summary": "北京商报讯3月19日晚间，天士力（600535）发布2025年年报显示，公司2025年实现营业收入82.36亿元，同比下降3.08%；归属净利润11.05亿元，同比增长15.63%。 天士力在年报中表示，根据董事会提议，拟向全体股东每10股派发现金红利1元（含税）。",
+      "publish_date": "2026-03-19",
+      "available_at": "2026-03-19T18:22:02",
+      "sentiment_score": -0.5,
+      "category": "业绩公告",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 0,
+  "hot_reason": "",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

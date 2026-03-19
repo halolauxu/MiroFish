@@ -1,0 +1,94 @@
+{
+  "ticker": "000002",
+  "company_name": "万科A",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "filing",
+      "title": "关于按照《香港上市规则》公布2026年2月证券变动月报表的公告",
+      "summary": "",
+      "publish_date": "2026-03-03",
+      "available_at": "2026-03-03T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "关于担保进展情况的公告",
+      "summary": "",
+      "publish_date": "2026-03-03",
+      "available_at": "2026-03-03T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "解密主力资金出逃股 连续5日净流出997股",
+      "summary": "万科A 5 8.04 20.54 -7.60 000625 长安汽车 6 7.99 17.15 -3.13 300520 科大国创 8 7.86 7.01 -20.06 603601 再升科技 5 7.63 5.98 -11.67 300459 汤姆猫 10 7.51 10.83",
+      "publish_date": "2026-03-04",
+      "available_at": "2026-03-04T17:10:53",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "富时中国A50指数季度调整：纳入中国船舶、天孚通信、万华化学",
+      "summary": "A（000002）、光大证券（601788）、方正证券（601901）、广汽集团（601238）、海航控股（600221）、合盛硅业（603260）、华东医药（000963）、华利集团（300979）、中国中冶（601618）、复星医药（600196）、传音控股（688036）、",
+      "publish_date": "2026-03-04",
+      "available_at": "2026-03-04T19:50:14",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "关于董事会会议召开日期的公告",
+      "summary": "",
+      "publish_date": "2026-03-18",
+      "available_at": "2026-03-18T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "房地产行业资金流出榜：保利发展、万科A等净流出资金居前",
+      "summary": "（数据宝） 房地产行业资金流向排名 代码 简称 今日涨跌幅（%） 今日换手率（%） 主力资金流量（万元） 600048 保利发展 -2.15 1.16 -19316.93 000002 万科A -1.49 1.12 -8321.60 600683 京投发展 0.38 13.67",
+      "publish_date": "2026-03-18",
+      "available_at": "2026-03-18T17:06:26",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "hot_topic",
+      "title": "万科A",
+      "summary": "雪球关注#6; 雪球讨论#15; 雪球交易#65",
+      "publish_date": "2026-03-19",
+      "available_at": "2026-03-19T00:00:00",
+      "sentiment_score": 0.252,
+      "category": "其他",
+      "urgency": "high",
+      "weight": 1.25,
+      "hot_rank": 14
+    }
+  ],
+  "hot_rank": 14,
+  "hot_reason": "雪球关注#6; 雪球讨论#15; 雪球交易#65",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

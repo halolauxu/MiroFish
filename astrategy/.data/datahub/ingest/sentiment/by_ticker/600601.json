@@ -1,0 +1,58 @@
+{
+  "ticker": "600601",
+  "company_name": "方正科技",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "filing",
+      "title": "方正科技股东减持股份计划公告",
+      "summary": "股权变动",
+      "publish_date": "2026-02-27",
+      "available_at": "2026-02-27T00:00:00",
+      "sentiment_score": -0.78,
+      "category": "股权变动",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "季度业绩低于预期后，PCB龙头胜宏科技拟一年投资200亿元",
+      "summary": "公司去年买入方正科技（600601.SH），投资成本3.66亿元，期末账面价值已升至26.83亿元，账面浮盈约23亿元，收益率超过600%。 不过，方正科技2026年以来股价已回撤超10%。 胜宏科技2025年证券投资情况 胜宏科技十大流通股东出现调整。",
+      "publish_date": "2026-03-15",
+      "available_at": "2026-03-15T17:01:55",
+      "sentiment_score": 0.0,
+      "category": "业绩公告",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "共封装光学(CPO)概念下跌5.27%，53股主力资金净流出超亿元",
+      "summary": "13731.90 003031 中瓷电子 -9.94 4.44 -13402.19 301486 致尚科技 -8.71 10.37 -13360.65 002938 鹏鼎控股 -4.36 1.27 -12632.63 300814 中富电路 -11.90 6.18 -12562.89 600601",
+      "publish_date": "2026-03-17",
+      "available_at": "2026-03-17T17:23:07",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "共封装光学(CPO)概念涨3.69%，主力资金净流入这些股",
+      "summary": "克来机电 1.21 2.73 -1593.77 -10.34 603203 快克智能 2.93 1.52 -1633.17 -11.44 301029 怡合达 -0.80 1.99 -1671.11 -7.02 300814 中富电路 1.19 4.39 -1681.49 -2.30 600601",
+      "publish_date": "2026-03-18",
+      "available_at": "2026-03-18T17:06:38",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 0,
+  "hot_reason": "",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

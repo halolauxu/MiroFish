@@ -1,0 +1,70 @@
+{
+  "ticker": "300896",
+  "company_name": "爱美客",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "news",
+      "title": "1.03亿元资金今日流出美容护理股",
+      "summary": "（数据宝） 美容护理行业资金流向排名 代码 简称 今日涨跌幅（%） 今日换手率（%） 主力资金流量（万元） 300896 爱美客 -1.38 0.95 -2366.42 300740 水羊股份 -5.01 5.30 -2234.84 600315 上海家化 -4.90 2.13",
+      "publish_date": "2026-03-09",
+      "available_at": "2026-03-09T17:10:12",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "第四届董事会第三次会议决议公告",
+      "summary": "",
+      "publish_date": "2026-03-09",
+      "available_at": "2026-03-09T18:24:09",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "关于公司全资子公司拟与关联方签订《采购框架协议》暨日常关联交易预计的公告",
+      "summary": "重大合同",
+      "publish_date": "2026-03-09",
+      "available_at": "2026-03-09T18:26:09",
+      "sentiment_score": 1.0,
+      "category": "重大合同",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "爱美客子公司拟向关联方采购A型肉毒毒素产品，预计2026年金额不超6000万元",
+      "summary": "3月9日，爱美客（300896）发布公告，公司的全资子公司江苏爱美客医药科技发展有限公司拟向Huons BioPharma Co., Ltd.采购注射用A型肉毒毒素产品，预计2026年度交易金额不超过6000万元。",
+      "publish_date": "2026-03-09",
+      "available_at": "2026-03-09T18:53:19",
+      "sentiment_score": 0.0,
+      "category": "产品进展",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "创业板最新筹码集中股名单（附股）",
+      "summary": "美容护理 301181 标榜股份 7944 -0.28 -4.35 汽车 301083 百胜智能 11220 -0.28 -4.76 机械设备 301370 国科恒泰 17348 -0.27 -4.61 医药生物 300238 冠昊生物 29435 -0.24 3.61 医药生物 300896",
+      "publish_date": "2026-03-19",
+      "available_at": "2026-03-19T11:03:24",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 0,
+  "hot_reason": "",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

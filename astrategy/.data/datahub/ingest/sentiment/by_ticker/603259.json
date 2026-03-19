@@ -1,0 +1,82 @@
+{
+  "ticker": "603259",
+  "company_name": "药明康德",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "filing",
+      "title": "H股公告",
+      "summary": "",
+      "publish_date": "2026-03-05",
+      "available_at": "2026-03-05T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "医药生物行业今日净流入资金20.11亿元，中源协和等5股净流入资金超亿元",
+      "summary": "9.25 21301.32 603716 塞力医疗 10.01 10.01 21128.04 000516 国际医学 10.11 3.06 15618.71 000534 万泽股份 10.00 4.10 14168.67 688331 荣昌生物 13.87 6.22 10093.37 603259",
+      "publish_date": "2026-03-06",
+      "available_at": "2026-03-06T17:42:26",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "H股公告",
+      "summary": "",
+      "publish_date": "2026-03-10",
+      "available_at": "2026-03-10T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "杠杆资金大手笔加仓股名单",
+      "summary": "国防军工 600905 三峡能源 2.98 11005.10 137651.98 1.07 公用事业 688008 澜起科技 -2.08 10973.11 678426.80 3.95 电子 601208 东材科技 2.04 10967.53 172564.01 5.33 基础化工 603259",
+      "publish_date": "2026-03-12",
+      "available_at": "2026-03-12T09:28:41",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "八年老股东“清仓式”减持，“猴茅”昭衍新药跌停！一个多月前实控人套现5.68亿元",
+      "summary": "当时，受新药研发快节奏和疫情影响，实验猴价格由2017年的1.38万元左右暴涨至超15万元一只，昭衍新药、药明康德（603259.SH；02359.HK）、康龙化成（300759.SZ；03759.HK）等CRO（药物研发服务外包）企业先后下场抢猴。",
+      "publish_date": "2026-03-17",
+      "available_at": "2026-03-17T20:26:21",
+      "sentiment_score": -0.78,
+      "category": "股权变动",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "hot_topic",
+      "title": "药明康德",
+      "summary": "雪球关注#31; 雪球讨论#8; 雪球交易#23",
+      "publish_date": "2026-03-19",
+      "available_at": "2026-03-19T00:00:00",
+      "sentiment_score": 0.256,
+      "category": "其他",
+      "urgency": "high",
+      "weight": 1.25,
+      "hot_rank": 12
+    }
+  ],
+  "hot_rank": 12,
+  "hot_reason": "雪球关注#31; 雪球讨论#8; 雪球交易#23",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

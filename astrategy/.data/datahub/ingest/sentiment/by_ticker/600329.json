@@ -1,0 +1,46 @@
+{
+  "ticker": "600329",
+  "company_name": "达仁堂",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "news",
+      "title": "69只股中线走稳 站上半年线",
+      "summary": "2.32 1.49 49.32 50.36 2.12 600496 精工钢构 2.61 0.89 4.25 4.33 1.91 601012 隆基绿能 2.46 2.36 18.78 19.14 1.91 300370 安控科技 2.10 2.55 2.87 2.92 1.72 600329",
+      "publish_date": "2026-03-17",
+      "available_at": "2026-03-17T12:14:59",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "【盘中播报】44只个股突破半年线",
+      "summary": "1.40 2.84 2.87 2.90 1.03 688768 容知日新 1.18 1.70 49.31 49.80 0.99 002946 新乳业 1.17 0.98 17.95 18.12 0.97 002422 科伦药业 2.39 1.23 33.13 33.43 0.92 600329",
+      "publish_date": "2026-03-17",
+      "available_at": "2026-03-17T14:20:04",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "28只股中线走稳 站上半年线",
+      "summary": "2.86 3.06 19.83 20.11 1.40 603580 *ST艾艾 5.02 0.69 15.53 15.70 1.11 600136 ST明诚 1.12 0.86 1.80 1.81 0.76 688428 诺诚健华 1.27 3.62 23.68 23.84 0.69 600329",
+      "publish_date": "2026-03-17",
+      "available_at": "2026-03-17T15:42:36",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 0,
+  "hot_reason": "",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

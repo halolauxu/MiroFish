@@ -1,0 +1,58 @@
+{
+  "ticker": "603290",
+  "company_name": "斯达半导",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "news",
+      "title": "今日302只个股突破半年线",
+      "summary": "4.97 119.06 124.38 4.47 301160 翔楼新材 5.60 4.45 64.24 66.93 4.18 002393 力生制药 4.56 3.70 21.79 22.69 4.15 600365 ST通葡 4.31 2.57 3.26 3.39 4.08 603290",
+      "publish_date": "2026-03-10",
+      "available_at": "2026-03-10T15:40:23",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "斯达半导：向特定对象发行可转换公司债券申请获中国证监会同意注册批复",
+      "summary": "斯达半导6032903月11日公告，公司于近日收到中国证券监督管理委员会出具的《关于同意斯达半导体股份有限公司向不特定对象发行可转换公司债券注册的批复》，同意公司向不特定对象发行可转换公司债券的注册申请。",
+      "publish_date": "2026-03-11",
+      "available_at": "2026-03-11T16:44:06",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "斯达半导：可转债获证监会同意注册批复 15亿元投向新能源汽车及变频白色家电行业",
+      "summary": "中证智能财讯斯达半导（603290）3月11日晚间公告，近日，公司收到收到中国证券监督管理委员会出具的批复，同意公司向不特定对象发行可转换公司债券的注册申请。",
+      "publish_date": "2026-03-11",
+      "available_at": "2026-03-11T20:17:57",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "关于向不特定对象发行可转换公司债券申请获得中国证券监督管理委员会同意注册批复的公告",
+      "summary": "债券融资",
+      "publish_date": "2026-03-12",
+      "available_at": "2026-03-12T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 0,
+  "hot_reason": "",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

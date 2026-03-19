@@ -1,0 +1,70 @@
+{
+  "ticker": "603766",
+  "company_name": "隆鑫通用",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "news",
+      "title": "隆鑫通用：第三期员工持股计划已回购1312万股 总金额2亿元",
+      "summary": "3月6日，隆鑫通用（603766）发布公告，公司第三期员工持股计划已通过二级市场以集中竞价交易方式累计买入公司股票1312万股，占公司总股本比例0.64%。成交总金额为2亿元，成交均价为15.25元/股。",
+      "publish_date": "2026-03-06",
+      "available_at": "2026-03-06T16:33:18",
+      "sentiment_score": 0.8,
+      "category": "股权变动",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "隆鑫通用动力股份有限公司关于第三期员工持股计划的进展公告",
+      "summary": "股权激励",
+      "publish_date": "2026-03-07",
+      "available_at": "2026-03-07T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "股权变动",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "隆鑫通用、智元机器人等成立具身智能科技公司",
+      "summary": "股东信息显示，该公司由隆鑫通用（603766）、智元机器人关联公司智元创新（上海）科技股份有限公司、重庆博翼机智科技服务合伙企业、重庆永川高新技术产业投资发展集团有限公司共同持股。",
+      "publish_date": "2026-03-10",
+      "available_at": "2026-03-10T14:40:53",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "航空发动机概念下跌2.24%，11股主力资金净流出超亿元",
+      "summary": "国睿科技 0.44 0.65 532.09 688750 金天钛业 -0.10 2.63 561.78 300424 航新科技 -1.71 5.98 588.47 300161 华中数控 -1.69 6.68 657.28 002438 江苏神通 -1.68 2.77 778.87 603766",
+      "publish_date": "2026-03-12",
+      "available_at": "2026-03-12T17:18:31",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "隆鑫通用动力股份有限公司关于筹划资产置换暨关联交易的进展公告",
+      "summary": "",
+      "publish_date": "2026-03-14",
+      "available_at": "2026-03-14T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 0,
+  "hot_reason": "",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

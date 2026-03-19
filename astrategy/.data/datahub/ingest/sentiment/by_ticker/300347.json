@@ -1,0 +1,106 @@
+{
+  "ticker": "300347",
+  "company_name": "泰格医药",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "news",
+      "title": "泰格医药：2025年净利同比预增105%~204%",
+      "summary": "每经AI快讯，1月29日，泰格医药300347.SZ)公告称，预计2025年归属于上市公司股东的净利润为8.30亿元~12.30亿元，比上年同期增长105%~204%。",
+      "publish_date": "2026-01-29",
+      "available_at": "2026-01-29T16:54:43",
+      "sentiment_score": 0.2,
+      "category": "业绩公告",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "泰格医药2025年净利同比预增105%至204%",
+      "summary": "北京商报讯1月29日晚间，泰格医药（300347）发布2025年业绩预告显示，预计2025年实现归属净利润为8.3亿元至12.3亿元，比上年同期增长105%–204%。",
+      "publish_date": "2026-01-29",
+      "available_at": "2026-01-29T18:37:19",
+      "sentiment_score": 0.2,
+      "category": "业绩公告",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "强势股追踪 主力资金连续5日净流入45股",
+      "summary": "主力资金净流入比例（%） 累计涨跌幅（%） 000333 美的集团 5 18.19 10.44 5.93 600919 江苏银行 12 15.04 8.49 4.84 601799 星宇股份 6 4.61 4.81 25.28 600151 航天机电 5 3.64 4.48 9.72 300347",
+      "publish_date": "2026-02-04",
+      "available_at": "2026-02-04T16:48:56",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "H股公告-自愿性公告",
+      "summary": "",
+      "publish_date": "2026-03-03",
+      "available_at": "2026-03-03T19:26:11",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "章程修订对照表（2026年3月）",
+      "summary": "",
+      "publish_date": "2026-03-05",
+      "available_at": "2026-03-05T18:40:10",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "H股公告-证券变动月报表",
+      "summary": "",
+      "publish_date": "2026-03-05",
+      "available_at": "2026-03-05T18:40:11",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "2026年第一次临时股东会决议的公告",
+      "summary": "",
+      "publish_date": "2026-03-05",
+      "available_at": "2026-03-05T18:40:11",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "H股公告-董事会会议召开日期",
+      "summary": "",
+      "publish_date": "2026-03-18",
+      "available_at": "2026-03-18T18:14:10",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 0,
+  "hot_reason": "",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

@@ -1,0 +1,118 @@
+{
+  "ticker": "601398",
+  "company_name": "工商银行",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "filing",
+      "title": "工商银行关于高级业务总监离任的公告",
+      "summary": "",
+      "publish_date": "2026-02-26",
+      "available_at": "2026-02-26T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "工商银行H股公告",
+      "summary": "",
+      "publish_date": "2026-03-03",
+      "available_at": "2026-03-03T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "银行板块表现亮眼",
+      "summary": "三是建议关注有望受益于特别国债资本补充，且兼具低估值、高股息、经营稳健的农业银行（601288）、工商银行（601398）、中国银行（601988）和建设银行（601939）。",
+      "publish_date": "2026-03-12",
+      "available_at": "2026-03-12T16:47:54",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "工商银行三地分行发行多币种票据，预计3月17日登录港交所",
+      "summary": "3月16日，工商银行（601398/01398）发布公告，工商银行香港分行发布于2029年到期的10亿美元浮动利率票据，卢森堡分行发布于2029年到期的5亿欧元2.75厘票据；伦敦分行发行于2029年到期的2.5亿英镑4.5厘利率票据。",
+      "publish_date": "2026-03-16",
+      "available_at": "2026-03-16T18:42:17",
+      "sentiment_score": 0.0,
+      "category": "产品进展",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "工商银行H股公告",
+      "summary": "",
+      "publish_date": "2026-03-17",
+      "available_at": "2026-03-17T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "工商银行关于在200亿美元全球中期票据发行计划下发行多系列中期票据刊发发售通函及定价补充文件的公告",
+      "summary": "债券融资",
+      "publish_date": "2026-03-18",
+      "available_at": "2026-03-18T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "工商银行H股公告",
+      "summary": "",
+      "publish_date": "2026-03-18",
+      "available_at": "2026-03-18T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "hot_topic",
+      "title": "工商银行",
+      "summary": "百度热搜#1; 雪球关注#56; 雪球讨论#74; 雪球交易#60",
+      "publish_date": "2026-03-19",
+      "available_at": "2026-03-19T00:00:00",
+      "sentiment_score": 0.276,
+      "category": "其他",
+      "urgency": "high",
+      "weight": 1.25,
+      "hot_rank": 2
+    },
+    {
+      "source_type": "news",
+      "title": "不清仓将被强制处理？金价波动加剧，银行收紧个人“炒金”业务，多家保证金提至100%",
+      "summary": "早在2025年12月，工商银行（601398.SH）、建设银行（601939.SH）等便开启空户清理工作，对无持仓、无库存、无欠款但有保证金余额的客户，批量转出资金并关闭交易功能，仅为有持仓客户保留平仓权限，力求实现业务规模的压降。",
+      "publish_date": "2026-03-19",
+      "available_at": "2026-03-19T17:35:57",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 2,
+  "hot_reason": "百度热搜#1; 雪球关注#56; 雪球讨论#74; 雪球交易#60",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

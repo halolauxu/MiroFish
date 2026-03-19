@@ -1,0 +1,142 @@
+{
+  "ticker": "600030",
+  "company_name": "中信证券",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "filing",
+      "title": "中信证券股份有限公司关于向专业投资者公开发行公司债券获得中国证监会注册批复的公告",
+      "summary": "债券融资",
+      "publish_date": "2026-02-27",
+      "available_at": "2026-02-27T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "中信证券2026年2月证券变动月报表",
+      "summary": "",
+      "publish_date": "2026-03-03",
+      "available_at": "2026-03-03T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "中信证券股份有限公司关于间接子公司发行中期票据并由全资子公司提供担保的公告",
+      "summary": "债券融资",
+      "publish_date": "2026-03-07",
+      "available_at": "2026-03-07T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "中信证券股份有限公司关于间接子公司发行中期票据并由全资子公司提供担保的公告",
+      "summary": "债券融资",
+      "publish_date": "2026-03-11",
+      "available_at": "2026-03-11T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "中信证券：子公司被香港证监会及廉署调查 经营情况正常",
+      "summary": "每经AI快讯，3月12日，中信证券600030.SH)公告称，公司注意到近日部分媒体报道本公司一家香港子公司被香港证监会及廉政公署调查。经核实，2026年3月10日，香港证监会及廉署持搜查令到访香港子公司的营业地点，带走部分文件。香港子公司一名员工曾被廉署问话。",
+      "publish_date": "2026-03-12",
+      "available_at": "2026-03-12T20:13:26",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "一名员工被问话，中信证券核实香港子公司遭监管调查",
+      "summary": "3月12日，中信证券（600030/06030）发布公告，近期部分媒体报道其香港子公司被香港证券及期货事务监察委员会及廉政公署调查。经核实，2026年3月10日，相关机构持搜查令到访香港子公司的营业地点，带走部分文件，并对一名员工进行了问话。",
+      "publish_date": "2026-03-12",
+      "available_at": "2026-03-12T20:46:23",
+      "sentiment_score": 0.0,
+      "category": "产品进展",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "中信证券股份有限公司关于子公司相关媒体报道事宜的公告",
+      "summary": "",
+      "publish_date": "2026-03-13",
+      "available_at": "2026-03-13T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "中信证券回应子公司被查事件：经营状况未受影响",
+      "summary": "3月12日，中信证券600030.SH)发布公告，就近日部分媒体报道其一家香港子公司被香港证监会及廉政公署调查一事作出回应。公告指出，经核查，2026年3月10日，香港证监会及廉署人员持搜查令前往该香港子公司办公场所，并带走了部分文件。期间，子公司一名员工曾接受廉署问话。",
+      "publish_date": "2026-03-13",
+      "available_at": "2026-03-13T00:33:49",
+      "sentiment_score": 0.0,
+      "category": "产品进展",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "中信证券股份有限公司关于间接子公司发行中期票据并由全资子公司提供担保的公告",
+      "summary": "债券融资",
+      "publish_date": "2026-03-14",
+      "available_at": "2026-03-14T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "中信证券股份有限公司2026年第一次临时股东会决议公告",
+      "summary": "",
+      "publish_date": "2026-03-14",
+      "available_at": "2026-03-14T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "hot_topic",
+      "title": "中信证券",
+      "summary": "雪球关注#46; 雪球讨论#42; 雪球交易#17",
+      "publish_date": "2026-03-19",
+      "available_at": "2026-03-19T00:00:00",
+      "sentiment_score": 0.238,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.25,
+      "hot_rank": 21
+    }
+  ],
+  "hot_rank": 21,
+  "hot_reason": "雪球关注#46; 雪球讨论#42; 雪球交易#17",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

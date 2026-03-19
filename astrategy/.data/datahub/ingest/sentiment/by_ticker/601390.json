@@ -1,0 +1,82 @@
+{
+  "ticker": "601390",
+  "company_name": "中国中铁",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "filing",
+      "title": "中国中铁关于股份回购进展公告",
+      "summary": "股权变动",
+      "publish_date": "2026-03-03",
+      "available_at": "2026-03-03T00:00:00",
+      "sentiment_score": 0.8,
+      "category": "股权变动",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "中国中铁关于执行董事辞职的公告",
+      "summary": "",
+      "publish_date": "2026-03-03",
+      "available_at": "2026-03-03T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "中国中铁H股公告",
+      "summary": "",
+      "publish_date": "2026-03-19",
+      "available_at": "2026-03-19T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "金属铅概念下跌5.71%，18股主力资金净流出超亿元",
+      "summary": "16429.43 000603 盛达资源 -7.90 4.56 -15923.22 601212 白银有色 -6.47 1.96 -15802.88 601020 华钰矿业 -6.58 4.45 -15366.37 600531 豫光金铅 -6.27 5.22 -15266.70 601390",
+      "publish_date": "2026-03-19",
+      "available_at": "2026-03-19T18:04:24",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "金属锌概念下跌5.54%，18股主力资金净流出超亿元",
+      "summary": "16429.43 000603 盛达资源 -7.90 4.56 -15923.22 601212 白银有色 -6.47 1.96 -15802.88 601020 华钰矿业 -6.58 4.45 -15366.37 600531 豫光金铅 -6.27 5.22 -15266.70 601390",
+      "publish_date": "2026-03-19",
+      "available_at": "2026-03-19T18:04:26",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "金属钴概念下跌4.85%，主力资金净流出31股",
+      "summary": "49758.15 601669 中国电建 -1.96 4.26 -32156.71 002460 赣锋锂业 -4.82 3.66 -28722.28 600711 盛屯矿业 -6.30 5.13 -26435.04 300409 道氏技术 -8.87 8.40 -17383.04 601390",
+      "publish_date": "2026-03-19",
+      "available_at": "2026-03-19T18:04:39",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 0,
+  "hot_reason": "",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

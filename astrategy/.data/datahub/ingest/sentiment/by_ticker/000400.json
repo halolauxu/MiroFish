@@ -1,0 +1,46 @@
+{
+  "ticker": "000400",
+  "company_name": "许继电气",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "news",
+      "title": "许继电气：公司暂未在北美开展业务",
+      "summary": "许继电气（000400.SZ）3月13日在投资者互动平台表示，您好！公司暂未在北美开展业务。感谢您的关注！",
+      "publish_date": "2026-03-13",
+      "available_at": "2026-03-13T17:00:51",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "解密主力资金出逃股 连续5日净流出736股",
+      "summary": "5.76 7.58 -11.70 600490 鹏欣资源 11 5.69 8.28 -22.81 600459 贵研铂业 12 5.55 5.78 -20.00 300102 乾照光电 5 5.49 7.66 -11.61 002897 意华股份 5 5.48 9.32 -18.21 000400",
+      "publish_date": "2026-03-17",
+      "available_at": "2026-03-17T17:25:25",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "韩国股民热买“HALO”资产！有色金属ETF天弘（159157）盘中溢价，连续22日“吸金”累超43亿元",
+      "summary": "韩国预托结算院（KSD）旗下SEIbro数据显示，最近一个月，韩国投资者净买入A股证券主要有三一重工（HK6031）、中国电建（601669）、长电科技（600584）、光迅科技（002281）、梅花生物（600873）、赣锋锂业（002460）、许继电气（000400）等，净买入金额均不低于",
+      "publish_date": "2026-03-18",
+      "available_at": "2026-03-18T10:19:32",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 0,
+  "hot_reason": "",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

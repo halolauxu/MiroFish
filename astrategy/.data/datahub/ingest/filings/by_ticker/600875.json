@@ -1,0 +1,36 @@
+[
+  {
+    "ticker": "600875",
+    "company_name": "东方电气",
+    "title": "关于公司副总裁退休离任的公告",
+    "announcement_type": "",
+    "publish_date": "2026-03-03",
+    "publish_time": "2026-03-03",
+    "link": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=600875&announcementId=1224990654&orgId=gssh0600875&announcementTime=2026-03-03",
+    "source": "cninfo.disclosure_report",
+    "raw": {
+      "代码": "600875",
+      "简称": "东方电气",
+      "公告标题": "关于公司副总裁退休离任的公告",
+      "公告时间": "2026-03-03",
+      "公告链接": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=600875&announcementId=1224990654&orgId=gssh0600875&announcementTime=2026-03-03"
+    }
+  },
+  {
+    "ticker": "600875",
+    "company_name": "东方电气",
+    "title": "关于股票交易异常波动的公告",
+    "announcement_type": "",
+    "publish_date": "2026-03-06",
+    "publish_time": "2026-03-06",
+    "link": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=600875&announcementId=1224998272&orgId=gssh0600875&announcementTime=2026-03-06",
+    "source": "cninfo.disclosure_report",
+    "raw": {
+      "代码": "600875",
+      "简称": "东方电气",
+      "公告标题": "关于股票交易异常波动的公告",
+      "公告时间": "2026-03-06",
+      "公告链接": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=600875&announcementId=1224998272&orgId=gssh0600875&announcementTime=2026-03-06"
+    }
+  }
+]

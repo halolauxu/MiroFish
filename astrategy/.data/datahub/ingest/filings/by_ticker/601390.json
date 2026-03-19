@@ -1,0 +1,53 @@
+[
+  {
+    "ticker": "601390",
+    "company_name": "中国中铁",
+    "title": "中国中铁关于执行董事辞职的公告",
+    "announcement_type": "",
+    "publish_date": "2026-03-03",
+    "publish_time": "2026-03-03",
+    "link": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=601390&announcementId=1224992867&orgId=9900003904&announcementTime=2026-03-03",
+    "source": "cninfo.disclosure_report",
+    "raw": {
+      "代码": "601390",
+      "简称": "中国中铁",
+      "公告标题": "中国中铁关于执行董事辞职的公告",
+      "公告时间": "2026-03-03",
+      "公告链接": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=601390&announcementId=1224992867&orgId=9900003904&announcementTime=2026-03-03"
+    }
+  },
+  {
+    "ticker": "601390",
+    "company_name": "中国中铁",
+    "title": "中国中铁关于股份回购进展公告",
+    "announcement_type": "股权变动",
+    "publish_date": "2026-03-03",
+    "publish_time": "2026-03-03",
+    "link": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=601390&announcementId=1224992866&orgId=9900003904&announcementTime=2026-03-03",
+    "source": "cninfo.disclosure_report",
+    "raw": {
+      "代码": "601390",
+      "简称": "中国中铁",
+      "公告标题": "中国中铁关于股份回购进展公告",
+      "公告时间": "2026-03-03",
+      "公告链接": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=601390&announcementId=1224992866&orgId=9900003904&announcementTime=2026-03-03"
+    }
+  },
+  {
+    "ticker": "601390",
+    "company_name": "中国中铁",
+    "title": "中国中铁H股公告",
+    "announcement_type": "",
+    "publish_date": "2026-03-19",
+    "publish_time": "2026-03-19",
+    "link": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=601390&announcementId=1225015868&orgId=9900003904&announcementTime=2026-03-19",
+    "source": "cninfo.disclosure_report",
+    "raw": {
+      "代码": "601390",
+      "简称": "中国中铁",
+      "公告标题": "中国中铁H股公告",
+      "公告时间": "2026-03-19",
+      "公告链接": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=601390&announcementId=1225015868&orgId=9900003904&announcementTime=2026-03-19"
+    }
+  }
+]

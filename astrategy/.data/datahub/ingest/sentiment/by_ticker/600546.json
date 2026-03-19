@@ -1,0 +1,46 @@
+{
+  "ticker": "600546",
+  "company_name": "山煤国际",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "news",
+      "title": "今日165只个股突破五日均线",
+      "summary": "15.06 18.70 49.81 52.55 5.50 601118 海南橡胶 6.59 2.90 7.51 7.92 5.46 688023 安恒信息 5.27 4.26 53.66 56.51 5.30 600617 国新能源 9.88 3.48 3.59 3.78 5.29 600546",
+      "publish_date": "2026-03-09",
+      "available_at": "2026-03-09T12:00:03",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "20.90亿元主力资金今日抢筹煤炭板块",
+      "summary": "9.97 23757.50 600121 郑州煤电 10.06 11.30 20269.64 601225 陕西煤业 5.04 0.84 11247.80 601011 宝泰隆 6.11 11.43 10366.91 601918 新集能源 4.13 3.98 6991.77 600546",
+      "publish_date": "2026-03-12",
+      "available_at": "2026-03-12T17:19:34",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "煤炭行业今日涨1.82%，主力资金净流入3.61亿元",
+      "summary": "000983 山西焦煤 0.00 1.45 889.21 600508 上海能源 0.23 1.38 801.08 600408 安泰集团 4.22 24.05 743.98 000937 冀中能源 1.21 0.91 742.12 600971 恒源煤电 0.00 1.62 48.92 600546",
+      "publish_date": "2026-03-19",
+      "available_at": "2026-03-19T18:05:43",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 0,
+  "hot_reason": "",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

@@ -1,0 +1,118 @@
+{
+  "ticker": "603979",
+  "company_name": "金诚信",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "filing",
+      "title": "金诚信关于公司高级管理人员离任的公告",
+      "summary": "",
+      "publish_date": "2026-02-27",
+      "available_at": "2026-02-27T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "金诚信2026年第二次临时股东会决议公告",
+      "summary": "",
+      "publish_date": "2026-02-27",
+      "available_at": "2026-02-27T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "金诚信关于签署日常经营合同的公告",
+      "summary": "重大合同",
+      "publish_date": "2026-03-03",
+      "available_at": "2026-03-03T00:00:00",
+      "sentiment_score": 1.0,
+      "category": "重大合同",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "金诚信关于签署日常经营合同的公告",
+      "summary": "重大合同",
+      "publish_date": "2026-03-06",
+      "available_at": "2026-03-06T00:00:00",
+      "sentiment_score": 1.0,
+      "category": "重大合同",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "金诚信关于收购哥伦比亚CMH公司股权的进展公告",
+      "summary": "",
+      "publish_date": "2026-03-07",
+      "available_at": "2026-03-07T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "资产重组",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "金诚信关于使用闲置募集资金进行现金管理到期赎回并继续进行现金管理的公告",
+      "summary": "",
+      "publish_date": "2026-03-18",
+      "available_at": "2026-03-18T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "金诚信：公司现有的矿山服务项目中也有磷矿项目",
+      "summary": "金诚信（603979.SH）3月18日在投资者互动平台表示，金属矿山和非金属矿山在开采技术方面基本上是相通的，公司现有的矿山服务项目中也有磷矿项目，有关公司矿山服务业务竞争优势的具体介绍，请查阅《2024年年度报告》“第三节二、报告期内公司所处行业情况”及“第三节四、报告期内核心竞争力分析",
+      "publish_date": "2026-03-18",
+      "available_at": "2026-03-18T18:30:49",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "金属铜概念下跌4.91%，主力资金净流出77股",
+      "summary": "4.87 2.01 -313.09 603257 中国瑞林 -7.64 10.19 -253.17 600361 创新新材 -5.02 2.60 -242.53 600173 卧龙新能 -1.55 1.10 -102.64 002672 东江环保 -1.22 0.87 8.19 603979",
+      "publish_date": "2026-03-19",
+      "available_at": "2026-03-19T18:04:10",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "有色金属行业资金流出榜：紫金矿业等41股净流出资金超亿元",
+      "summary": "江南新材 2.69 11.20 340.41 000633 合金投资 -3.92 2.58 238.24 003038 鑫铂股份 -4.43 3.65 192.90 002978 安宁股份 -4.44 1.55 54.42 002295 精艺股份 -3.73 1.59 50.19 603979",
+      "publish_date": "2026-03-19",
+      "available_at": "2026-03-19T18:04:36",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 0,
+  "hot_reason": "",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

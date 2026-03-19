@@ -1,0 +1,58 @@
+{
+  "ticker": "601901",
+  "company_name": "方正证券",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "news",
+      "title": "方正证券：减持计划实施期限届满 中国信达未减持公司股份",
+      "summary": "2月25日，方正证券601901.SH)公告称，公司股东中国信达于2025年11月26日至2026年2月25日期间未减持公司股份，原计划减持不超过8232万股，约占公司总股本的1.00%。截至2026年2月25日，减持计划实施期限届满，中国信达未减持公司股份。",
+      "publish_date": "2026-02-25",
+      "available_at": "2026-02-25T17:03:32",
+      "sentiment_score": -0.78,
+      "category": "股权变动",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "关于股东集中竞价减持计划实施期限届满暨实施结果公告",
+      "summary": "股权变动",
+      "publish_date": "2026-02-26",
+      "available_at": "2026-02-26T00:00:00",
+      "sentiment_score": -0.78,
+      "category": "股权变动",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "又是“喊减未减”，中国信达减持方正证券计划为何屡次落空？",
+      "summary": "方正证券（601901.SH）大股东减持计划再度“落空”。 近日，方正证券发布公告称，股东中国信达此前披露的减持计划实施期限已届满，期间未减持公司任何股份。",
+      "publish_date": "2026-02-28",
+      "available_at": "2026-02-28T11:23:49",
+      "sentiment_score": -0.78,
+      "category": "股权变动",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "融资客看好4股 买入占成交比例超三成",
+      "summary": "6312.58 23.35 2.44 000415 渤海租赁 10861.61 46659.94 23.28 -2.16 688435 英方软件 2546.96 11004.23 23.15 1.44 688325 赛微微电 9539.94 42042.53 22.69 7.26 601901",
+      "publish_date": "2026-03-17",
+      "available_at": "2026-03-17T10:18:10",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 0,
+  "hot_reason": "",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

@@ -1,0 +1,19 @@
+[
+  {
+    "ticker": "601318",
+    "company_name": "中国平安",
+    "title": "中国平安H股公告",
+    "announcement_type": "",
+    "publish_date": "2026-03-03",
+    "publish_time": "2026-03-03",
+    "link": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=601318&announcementId=1224991741&orgId=9900002221&announcementTime=2026-03-03",
+    "source": "cninfo.disclosure_report",
+    "raw": {
+      "代码": "601318",
+      "简称": "中国平安",
+      "公告标题": "中国平安H股公告",
+      "公告时间": "2026-03-03",
+      "公告链接": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=601318&announcementId=1224991741&orgId=9900002221&announcementTime=2026-03-03"
+    }
+  }
+]

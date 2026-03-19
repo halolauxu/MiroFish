@@ -1,0 +1,58 @@
+{
+  "ticker": "688568",
+  "company_name": "中科星图",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "filing",
+      "title": "中科星图股份有限公司2025年度业绩快报公告",
+      "summary": "业绩预告",
+      "publish_date": "2026-02-28",
+      "available_at": "2026-02-28T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "业绩公告",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "中科星图（688568）将被调入科创50指数",
+      "summary": "2月27日，上海证券交易所与中证指数有限公司发布公告，决定调整科创50指数样本，中科星图（688568）将被调入指数，调整将于3月13日收市后实施。 科创50指数由上海证券交易所科创板中市值大、流动性好的50只证券组成，反映最具市场代表性科创企业的整体表现。",
+      "publish_date": "2026-02-28",
+      "available_at": "2026-02-28T19:43:20",
+      "sentiment_score": 0.0,
+      "category": "产品进展",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "8只个股大宗交易超5000万元",
+      "summary": "0.37 49.03 66.27 2978.17 9 44.94 -8.34 601139 深圳燃气 -2.30 7.65 400.00 2920.00 1 7.30 -4.58 301580 爱迪特 -3.92 86.28 34.00 2904.28 1 85.42 -1.00 688568",
+      "publish_date": "2026-03-13",
+      "available_at": "2026-03-13T22:15:05",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "16只科创板个股主力资金净流入超亿元",
+      "summary": "688403 汇成股份 5681.36 10.53 3.76 3.99 688802 沐曦股份-U 5515.04 4.55 1.77 11.89 688047 龙芯中科 5322.91 6.87 1.81 1.31 688519 南亚新材 5239.07 5.71 2.20 2.98 688568",
+      "publish_date": "2026-03-18",
+      "available_at": "2026-03-18T17:57:31",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 0,
+  "hot_reason": "",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

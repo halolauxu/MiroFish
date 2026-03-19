@@ -1,0 +1,70 @@
+{
+  "ticker": "688012",
+  "company_name": "中微公司",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "filing",
+      "title": "关于发行股份及支付现金购买资产并募集配套资金事项的进展公告",
+      "summary": "",
+      "publish_date": "2026-02-28",
+      "available_at": "2026-02-28T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "2025年度业绩快报公告",
+      "summary": "业绩预告",
+      "publish_date": "2026-02-28",
+      "available_at": "2026-02-28T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "业绩公告",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "17.94亿主力资金净流入，国家大基金持股概念涨2.28%",
+      "summary": "精测电子 -0.10 4.30 -1988.71 -1.56 688508 芯朋微 2.03 2.64 -2036.25 -9.34 688146 中船特气 -2.81 7.14 -2444.69 -5.24 002409 雅克科技 1.04 3.52 -2488.64 -2.50 688012",
+      "publish_date": "2026-03-16",
+      "available_at": "2026-03-16T17:12:45",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "3只科创板个股主力资金净流入超亿元",
+      "summary": "688627 精智达 6415.38 7.45 -1.08 4.97 688158 优刻得-W 6240.05 2.65 -1.95 13.60 688166 博瑞医药 6223.35 7.28 0.00 4.19 688795 摩尔线程-U 5451.03 4.69 0.81 7.02 688012",
+      "publish_date": "2026-03-17",
+      "available_at": "2026-03-17T17:22:54",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "94只科创板股票跻身百元股阵营",
+      "summary": "11.89 电子 688795 摩尔线程-U 562.50 0.58 5.28 电子 688809 强一股份 358.88 7.26 10.27 电子 688072 拓荆科技 345.20 3.33 1.20 电子 688502 茂莱光学 324.36 3.25 1.53 电子 688012",
+      "publish_date": "2026-03-18",
+      "available_at": "2026-03-18T17:56:17",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 0,
+  "hot_reason": "",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

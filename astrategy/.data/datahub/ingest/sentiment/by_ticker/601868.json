@@ -1,0 +1,94 @@
+{
+  "ticker": "601868",
+  "company_name": "中国能建",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "filing",
+      "title": "中国能源建设股份有限公司2023年度向特定对象发行A股股票募集说明书(注册稿）",
+      "summary": "增发融资",
+      "publish_date": "2026-02-27",
+      "available_at": "2026-02-27T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "中国能建601868龙虎榜数据03-12)",
+      "summary": "交易所2026年3月12日公布的交易公开信息显示，中国能建因成为有价格涨跌幅限制的日收盘价格涨幅偏离值达到7%的前五只证券、非ST、*ST和S证券连续三个交易日内收盘价格涨幅偏离值累计达到20%的证券上榜。中国能建当日收报3.8元，涨跌幅10.14%，偏离值10.25%，换手率14.75%",
+      "publish_date": "2026-03-12",
+      "available_at": "2026-03-12T16:57:32",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "5天3板中国能建：向特定对象发行A股股票相关事宜尚在推进中",
+      "summary": "中国能建601868.SH)公告称，公司A股股票于2026年3月10日、3月11日、3月12日连续三个交易日内收盘价格涨幅偏离值累计超过20%，属于股票交易异常波动情况。公司向特定对象发行A股股票相关事宜尚在推进中，后续将根据进展情况及时履行信息披露义务。",
+      "publish_date": "2026-03-12",
+      "available_at": "2026-03-12T19:44:13",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "中国能建A股连续3个交易日收盘价格涨幅偏离值累计超20%",
+      "summary": "3月12日，中国能建（601868/03996）发布公告，公司A股股票在2026年3月10日、11日和12日连续3个交易日，收盘价格涨幅偏离值累计超过20%。 2025年前三季度，中国能建实现收入3235.44亿元，归母净利润31.56亿元。",
+      "publish_date": "2026-03-12",
+      "available_at": "2026-03-12T20:09:26",
+      "sentiment_score": 0.0,
+      "category": "业绩公告",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "中国能源建设股份有限公司股票交易异常波动公告",
+      "summary": "",
+      "publish_date": "2026-03-13",
+      "available_at": "2026-03-13T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "中国能源建设股份有限公司H股公告",
+      "summary": "",
+      "publish_date": "2026-03-17",
+      "available_at": "2026-03-17T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "hot_topic",
+      "title": "中国能建",
+      "summary": "百度热搜#2",
+      "publish_date": "2026-03-19",
+      "available_at": "2026-03-19T00:00:00",
+      "sentiment_score": 0.138,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.25,
+      "hot_rank": 71
+    }
+  ],
+  "hot_rank": 71,
+  "hot_reason": "百度热搜#2",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

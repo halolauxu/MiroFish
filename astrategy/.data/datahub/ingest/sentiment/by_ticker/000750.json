@@ -1,0 +1,70 @@
+{
+  "ticker": "000750",
+  "company_name": "国海证券",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "filing",
+      "title": "国海证券股份有限公司关于实际控制人的一致行动人将所持公司股份在同一控制下进行转让事项完成股份过户的公告",
+      "summary": "",
+      "publish_date": "2026-03-05",
+      "available_at": "2026-03-05T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "国海证券：广西能源集团受让2.06亿股完成过户，成第五大股东",
+      "summary": "国海证券股份有限公司（下称“国海证券”，000750）2.06亿股股份转让完成。",
+      "publish_date": "2026-03-05",
+      "available_at": "2026-03-05T09:19:56",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "国海证券股份有限公司关于参与碳排放权交易获得中国证监会复函的公告",
+      "summary": "",
+      "publish_date": "2026-03-07",
+      "available_at": "2026-03-07T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "20.19亿主力资金净流入，期货概念涨0.02%",
+      "summary": "002939 长城证券 0.64 0.94 4555.49 14.25 601696 中银证券 -0.60 1.93 3869.35 5.38 600864 哈投股份 1.56 1.97 3816.55 14.17 600109 国金证券 0.57 0.96 3193.37 10.03 000750",
+      "publish_date": "2026-03-17",
+      "available_at": "2026-03-17T17:23:25",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "36.33亿元主力资金今日抢筹非银金融板块",
+      "summary": "0.64 0.94 4555.49 601696 中银证券 -0.60 1.93 3869.35 600864 哈投股份 1.56 1.97 3816.55 601456 国联民生 0.53 0.75 3355.80 600109 国金证券 0.57 0.96 3193.37 000750",
+      "publish_date": "2026-03-17",
+      "available_at": "2026-03-17T17:23:34",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 0,
+  "hot_reason": "",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

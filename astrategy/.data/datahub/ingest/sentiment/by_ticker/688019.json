@@ -1,0 +1,142 @@
+{
+  "ticker": "688019",
+  "company_name": "安集科技",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "filing",
+      "title": "2025年度业绩快报公告",
+      "summary": "业绩预告",
+      "publish_date": "2026-02-28",
+      "available_at": "2026-02-28T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "业绩公告",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "申万宏源证券承销保荐有限责任公司关于安集微电子科技（上海）股份有限公司提前赎回“安集转债”的核查意见",
+      "summary": "",
+      "publish_date": "2026-03-03",
+      "available_at": "2026-03-03T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "关于提前赎回“安集转债”的公告",
+      "summary": "",
+      "publish_date": "2026-03-03",
+      "available_at": "2026-03-03T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "关于实施“安集转债”赎回暨摘牌的公告",
+      "summary": "",
+      "publish_date": "2026-03-13",
+      "available_at": "2026-03-13T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "关于实施“安集转债”赎回暨摘牌的第一次提示性公告",
+      "summary": "",
+      "publish_date": "2026-03-14",
+      "available_at": "2026-03-14T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "277只科创板股融资余额环比增加",
+      "summary": "203.31 16.05 4.05 688296 和达科技 3569.04 4.72 0.00 -0.13 688448 磁谷科技 22875.25 4.68 9.55 42.60 -2.25 688778 厦钨新能 34687.14 4.57 815.17 -5.20 -2.98 688019",
+      "publish_date": "2026-03-16",
+      "available_at": "2026-03-16T09:35:57",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "关于实施“安集转债”赎回暨摘牌的第二次提示性公告",
+      "summary": "",
+      "publish_date": "2026-03-17",
+      "available_at": "2026-03-17T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "科创板高价股排行榜",
+      "summary": "电力设备 688125 安达智能 249.10 -8.05 1.28 机械设备 688617 惠泰医疗 239.34 0.38 0.72 医药生物 688235 百济神州-U 236.74 2.35 3.35 医药生物 688525 佰维存储 235.78 -0.81 8.06 电子 688019",
+      "publish_date": "2026-03-17",
+      "available_at": "2026-03-17T17:49:51",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "关于实施“安集转债”赎回暨摘牌的第三次提示性公告",
+      "summary": "",
+      "publish_date": "2026-03-18",
+      "available_at": "2026-03-18T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "94只科创板股票跻身百元股阵营",
+      "summary": "1.02 计算机 688525 佰维存储 258.09 9.46 10.14 电子 688411 海博思创 257.90 1.93 4.00 电力设备 688125 安达智能 251.00 0.76 1.01 机械设备 688627 精智达 245.60 4.76 5.72 机械设备 688019",
+      "publish_date": "2026-03-18",
+      "available_at": "2026-03-18T17:56:17",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "关于实施“安集转债”赎回暨摘牌的第四次提示性公告",
+      "summary": "",
+      "publish_date": "2026-03-19",
+      "available_at": "2026-03-19T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 0,
+  "hot_reason": "",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

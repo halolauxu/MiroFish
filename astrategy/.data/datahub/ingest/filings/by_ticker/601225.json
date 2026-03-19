@@ -1,0 +1,36 @@
+[
+  {
+    "ticker": "601225",
+    "company_name": "陕西煤业",
+    "title": "陕西煤业股份有限公司2026年2月主要运营数据公告",
+    "announcement_type": "",
+    "publish_date": "2026-03-07",
+    "publish_time": "2026-03-07",
+    "link": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=601225&announcementId=1224998760&orgId=9900023204&announcementTime=2026-03-07",
+    "source": "cninfo.disclosure_report",
+    "raw": {
+      "代码": "601225",
+      "简称": "陕西煤业",
+      "公告标题": "陕西煤业股份有限公司2026年2月主要运营数据公告",
+      "公告时间": "2026-03-07",
+      "公告链接": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=601225&announcementId=1224998760&orgId=9900023204&announcementTime=2026-03-07"
+    }
+  },
+  {
+    "ticker": "601225",
+    "company_name": "陕西煤业",
+    "title": "陕西煤业股份有限公司2025年度业绩快报公告",
+    "announcement_type": "业绩预告",
+    "publish_date": "2026-03-11",
+    "publish_time": "2026-03-11",
+    "link": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=601225&announcementId=1225002878&orgId=9900023204&announcementTime=2026-03-11",
+    "source": "cninfo.disclosure_report",
+    "raw": {
+      "代码": "601225",
+      "简称": "陕西煤业",
+      "公告标题": "陕西煤业股份有限公司2025年度业绩快报公告",
+      "公告时间": "2026-03-11",
+      "公告链接": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=601225&announcementId=1225002878&orgId=9900023204&announcementTime=2026-03-11"
+    }
+  }
+]

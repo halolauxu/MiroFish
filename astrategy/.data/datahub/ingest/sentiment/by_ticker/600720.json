@@ -1,0 +1,46 @@
+{
+  "ticker": "600720",
+  "company_name": "中交设计",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "news",
+      "title": "中交设计：公司空气储能业务尚在研发推进中",
+      "summary": "中交设计（600720.SH）2月11日在投资者互动平台表示，关于公司空气储能业务的具体技术细节及项目进展，公司尚在研发推进中，涉及披露时公司会根据相关规定对外公告。",
+      "publish_date": "2026-02-11",
+      "available_at": "2026-02-11T19:23:30",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "筹码连续集中股名单（附股）",
+      "summary": "新时达 62330 -1.32 4 -6.03 -8.88 000970 中科三环 108754 -1.26 6 8.24 3.59 300180 华峰超纤 82000 -1.20 4 -5.92 -8.77 600935 华塑股份 51016 -1.19 3 1.50 2.43 600720",
+      "publish_date": "2026-02-13",
+      "available_at": "2026-02-13T21:14:49",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "筹码新动向：310股筹码趋向集中",
+      "summary": "医药生物 000926 福星股份 41500 -1.19 -1.74 房地产 001380 华纬科技 20400 -1.13 -5.89 汽车 002333 罗普斯金 17585 -1.12 -5.07 建筑材料 300149 睿智医药 35974 -1.09 -6.20 医药生物 600720",
+      "publish_date": "2026-03-13",
+      "available_at": "2026-03-13T17:40:11",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 0,
+  "hot_reason": "",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

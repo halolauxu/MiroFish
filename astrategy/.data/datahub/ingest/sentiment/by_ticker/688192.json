@@ -1,0 +1,82 @@
+{
+  "ticker": "688192",
+  "company_name": "迪哲医药",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "news",
+      "title": "迪哲医药2025年度业绩快报：营收增122.60% 亏损减少至7.63亿元",
+      "summary": "2月27日，迪哲医药（688192）发布公告，2025年度业绩快报显示，公司营业总收入为8.01亿元，同比增加122.60%。归母净利润约亏损7.63亿元，较上年度减少亏损8265万元。",
+      "publish_date": "2026-02-27",
+      "available_at": "2026-02-27T18:04:48",
+      "sentiment_score": -0.84,
+      "category": "业绩公告",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "迪哲医药：关于变更持续督导保荐代表人的公告",
+      "summary": "",
+      "publish_date": "2026-02-28",
+      "available_at": "2026-02-28T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "迪哲医药：2025年度业绩快报公告",
+      "summary": "业绩预告",
+      "publish_date": "2026-02-28",
+      "available_at": "2026-02-28T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "业绩公告",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "迪哲医药：关于提前归还临时补充流动资金的闲置募集资金的公告",
+      "summary": "",
+      "publish_date": "2026-03-07",
+      "available_at": "2026-03-07T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "科创成长层迎首批“毕业生” 寒武纪等6家企业将摘“U”出层",
+      "summary": "自标准发布后，寒武纪、迪哲医药（688192.SH）等14家科创板上市公司按照该认定标准申请再融资，合计拟融资金额超350亿元，推动一系列芯片、创新药研发项目陆续启动。",
+      "publish_date": "2026-03-13",
+      "available_at": "2026-03-13T07:59:43",
+      "sentiment_score": 0.0,
+      "category": "产品进展",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "递表港交所一个多月，迪哲医药被要求补充董事高管关联关系等事项，8年累亏超47亿元",
+      "summary": "1月23日，迪哲(江苏)医药股份有限公司(简称：迪哲医药688192.SH))向港交所主板递交上市申请书，高盛和华泰国际为其联席保荐人。 据招股书，迪哲医药是一家处于商业化阶段的生物制药公司，公司的核心治疗领域是肿瘤及血液系统疾病。",
+      "publish_date": "2026-03-16",
+      "available_at": "2026-03-16T15:58:48",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 0,
+  "hot_reason": "",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

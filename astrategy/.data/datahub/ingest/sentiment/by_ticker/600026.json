@@ -1,0 +1,70 @@
+{
+  "ticker": "600026",
+  "company_name": "中远海能",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "filing",
+      "title": "中远海能二〇二六年第三次董事会会议决议公告",
+      "summary": "",
+      "publish_date": "2026-03-03",
+      "available_at": "2026-03-03T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "中远海能A股股票交易异常波动公告",
+      "summary": "",
+      "publish_date": "2026-03-04",
+      "available_at": "2026-03-04T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "中远海能600026龙虎榜数据03-05)",
+      "summary": "交易所2026年3月5日公布的交易公开信息显示，中远海能因成为有价格涨跌幅限制的日价格振幅达到15%的前五只证券上榜。中远海能当日收报24.98元，涨跌幅5.00%，偏离值16.20%，换手率6.36%，成交额53.81亿。",
+      "publish_date": "2026-03-05",
+      "available_at": "2026-03-05T16:58:42",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "中远海能600026龙虎榜数据03-09)",
+      "summary": "交易所2026年3月9日公布的交易公开信息显示，中远海能因成为有价格涨跌幅限制的日收盘价格跌幅偏离值达到7%的前五只证券、有价格涨跌幅限制的日价格振幅达到15%的前五只证券上榜。",
+      "publish_date": "2026-03-09",
+      "available_at": "2026-03-09T16:57:56",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "中远海能600026龙虎榜数据03-10",
+      "summary": "交易所2026年3月10日公布的交易公开信息显示，中远海能因成为有价格涨跌幅限制的日价格振幅达到15%的前五只证券上榜。中远海能当日收报23.26元，涨跌幅2.38%，偏离值15.69%，换手率5.67%，成交额46.95亿。",
+      "publish_date": "2026-03-10",
+      "available_at": "2026-03-10T16:58:27",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 0,
+  "hot_reason": "",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

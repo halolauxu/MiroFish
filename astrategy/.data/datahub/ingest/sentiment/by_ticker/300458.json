@@ -1,0 +1,58 @@
+{
+  "ticker": "300458",
+  "company_name": "全志科技",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "filing",
+      "title": "2025年度业绩快报",
+      "summary": "业绩预告",
+      "publish_date": "2026-02-26",
+      "available_at": "2026-02-26T17:14:12",
+      "sentiment_score": 0.0,
+      "category": "业绩公告",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "MCU芯片概念涨2.07%，主力资金净流入这些股",
+      "summary": "688352 颀中科技 1.92 3.02 -373.68 -2.48 688368 晶丰明源 1.18 1.65 -377.11 -2.07 688045 必易微 0.89 3.71 -435.87 -3.70 688807 优迅股份 0.74 10.88 -459.48 -1.20 300458",
+      "publish_date": "2026-03-16",
+      "available_at": "2026-03-16T17:12:57",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "存储芯片概念涨3.50%，主力资金净流入95股",
+      "summary": "300666 江丰电子 0.96 3.02 2031.65 2.23 603283 赛腾股份 3.21 4.91 1993.08 3.18 002436 兴森科技 2.70 4.56 1950.35 1.23 688082 盛美上海 1.58 0.45 1939.51 6.41 300458",
+      "publish_date": "2026-03-18",
+      "available_at": "2026-03-18T17:06:43",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "全志科技：目前，公司经营运作一切正常",
+      "summary": "全志科技（300458.SZ）3月19日在投资者互动平台表示，目前，公司经营运作一切正常。",
+      "publish_date": "2026-03-19",
+      "available_at": "2026-03-19T17:23:49",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 0,
+  "hot_reason": "",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

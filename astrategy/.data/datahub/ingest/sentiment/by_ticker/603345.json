@@ -1,0 +1,82 @@
+{
+  "ticker": "603345",
+  "company_name": "安井食品",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "filing",
+      "title": "H股公告（截至2026年2月28日止之股份发行人的证券变动月报表）",
+      "summary": "",
+      "publish_date": "2026-03-06",
+      "available_at": "2026-03-06T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "安井食品关于全资子公司增加注册资本并换发营业执照的公告",
+      "summary": "",
+      "publish_date": "2026-03-07",
+      "available_at": "2026-03-07T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "安井食品旗下河南公司增资至10.5亿",
+      "summary": "股东信息显示，该公司由安井食品（603345）全资持股。",
+      "publish_date": "2026-03-10",
+      "available_at": "2026-03-10T09:48:55",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "食品饮料行业今日净流入资金4.54亿元，贵州茅台等5股净流入资金超3000万元",
+      "summary": "0.23 1.84 -837.81 603866 桃李面包 -0.19 2.27 -677.75 600199 金种子酒 -0.89 2.19 -662.04 002495 佳隆股份 0.36 3.12 -645.43 002946 新乳业 -0.78 1.61 -596.50 603345",
+      "publish_date": "2026-03-13",
+      "available_at": "2026-03-13T16:38:38",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "H股公告（董事会会议召开日期）",
+      "summary": "",
+      "publish_date": "2026-03-18",
+      "available_at": "2026-03-18T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "食品饮料行业今日净流出资金9.13亿元，贵州茅台等5股净流出资金超5000万元",
+      "summary": "（数据宝） 食品饮料行业资金流入榜 代码 简称 今日涨跌幅（%） 今日换手率（%） 主力资金流量（万元） 603345 安井食品 -1.41 1.02 1337.39 000596 古井贡酒 -1.40 0.47 1306.63 603156 养元饮品 2.22 0.68 1041.26",
+      "publish_date": "2026-03-18",
+      "available_at": "2026-03-18T17:06:45",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 0,
+  "hot_reason": "",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

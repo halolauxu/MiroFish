@@ -1,0 +1,58 @@
+{
+  "ticker": "002683",
+  "company_name": "广东宏大",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "news",
+      "title": "短线防风险 23只个股短期均线现死叉",
+      "summary": "） 5日较10日均线距离（%） 最新价（元） 较10日均线乖离率（%） 600316 洪都航空 -1.64 0.43 40.78 41.29 -1.24 39.10 -5.29 002922 伊戈尔 0.66 3.58 44.93 45.33 -0.87 41.49 -8.47 002683",
+      "publish_date": "2026-03-13",
+      "available_at": "2026-03-13T11:13:26",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "短线防风险 25只个股短期均线现死叉",
+      "summary": "5日较10日均线距离（%） 最新价（元） 较10日均线乖离率（%） 600316 洪都航空 -1.84 0.87 40.76 41.28 -1.25 39.02 -5.47 002922 伊戈尔 -0.15 4.81 44.87 45.30 -0.95 41.16 -9.13 002683",
+      "publish_date": "2026-03-13",
+      "available_at": "2026-03-13T14:26:47",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "关于部分股权激励限制性股票回购注销完成公告",
+      "summary": "股权变动",
+      "publish_date": "2026-03-16",
+      "available_at": "2026-03-16T00:00:00",
+      "sentiment_score": 0.8,
+      "category": "股权变动",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "广东宏大：完成部分限制性股票回购注销 涉及金额约164万元",
+      "summary": "中证智能财讯广东宏大（002683）3月15日晚间公告，公司已完成对2023年限制性股票激励计划中部分激励对象已获授但未解除限售的限制性股票的回购注销手续。本次回购注销共涉及5名激励对象，合计回购股份11.72万股，回购金额约163.82万元。",
+      "publish_date": "2026-03-16",
+      "available_at": "2026-03-16T08:44:29",
+      "sentiment_score": 0.8,
+      "category": "股权变动",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 0,
+  "hot_reason": "",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

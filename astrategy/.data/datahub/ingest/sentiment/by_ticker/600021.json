@@ -1,0 +1,142 @@
+{
+  "ticker": "600021",
+  "company_name": "上海电力",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "filing",
+      "title": "上海电力股份有限公司关于江苏滨海南区H5#、东台H7#海上风电项目获得核准的公告",
+      "summary": "",
+      "publish_date": "2026-03-05",
+      "available_at": "2026-03-05T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "上海电力股份有限公司关于首期股票期权激励计划限制行权期间的提示性公告",
+      "summary": "股权激励",
+      "publish_date": "2026-03-06",
+      "available_at": "2026-03-06T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "股权变动",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "上海电力股份有限公司2026年度第四、五期超短期融资券发行结果公告",
+      "summary": "增发融资",
+      "publish_date": "2026-03-06",
+      "available_at": "2026-03-06T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "上海电力股份有限公司第九届董事会第七次会议决议公告",
+      "summary": "",
+      "publish_date": "2026-03-14",
+      "available_at": "2026-03-14T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "上海电力股份有限公司关于计提应收款项信用减值损失的公告",
+      "summary": "",
+      "publish_date": "2026-03-14",
+      "available_at": "2026-03-14T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "上海电力股份有限公司关于终止重大资产购买的进展公告",
+      "summary": "",
+      "publish_date": "2026-03-14",
+      "available_at": "2026-03-14T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "2026014上海电力股份有限公司关于为黄河公司境外资产提供管理服务暨关联交易的公告",
+      "summary": "",
+      "publish_date": "2026-03-14",
+      "available_at": "2026-03-14T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "上海电力绿色能源公司增资至6.8亿",
+      "summary": "股东信息显示，该公司由上海电力（600021）全资持股。",
+      "publish_date": "2026-03-17",
+      "available_at": "2026-03-17T12:07:31",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "上海电力绿色能源公司增资至6.8亿元",
+      "summary": "股东信息显示，该公司由上海电力（600021）全资持股。",
+      "publish_date": "2026-03-17",
+      "available_at": "2026-03-17T12:45:02",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "上海电力绿色能源公司增资至6.8亿 增幅约32%",
+      "summary": "股东信息显示，该公司由上海电力（600021）全资持股。",
+      "publish_date": "2026-03-17",
+      "available_at": "2026-03-17T13:43:52",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "hot_topic",
+      "title": "上海电力",
+      "summary": "雪球讨论#18; 雪球交易#44",
+      "publish_date": "2026-03-19",
+      "available_at": "2026-03-19T00:00:00",
+      "sentiment_score": 0.172,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.25,
+      "hot_rank": 54
+    }
+  ],
+  "hot_rank": 54,
+  "hot_reason": "雪球讨论#18; 雪球交易#44",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

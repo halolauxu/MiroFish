@@ -1,0 +1,58 @@
+{
+  "ticker": "601229",
+  "company_name": "上海银行",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "news",
+      "title": "A股高开高走：周期股延续强势，银行股午后回落",
+      "summary": "午后银行股转跌，上海银行（601229）、厦门银行（601187）、华夏银行（600015）、南京银行（601009）、青岛银行（002948）等跌超1%。",
+      "publish_date": "2026-02-25",
+      "available_at": "2026-02-25T15:22:20",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "险资开年已“摸底”调研上市公司超1300次 聚焦电子元件、工业机械等 万亿增量资金候场中",
+      "summary": "值得注意的是，银行板块依旧延续了去年以来的高股息配置逻辑，上海银行（601229.SH）在前两月吸引14家保险机构调研，成为新华资管、人保资管、国寿资管、长江养老等多家险资机构关注度最高的个股之一，反映出险资在稳健收益与防御属性资产上的持续配置需求。",
+      "publish_date": "2026-02-28",
+      "available_at": "2026-02-28T16:21:40",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "工行发布超1200条招聘信息！2026银行春招开启抢人模式，AI和大数据岗位升温",
+      "summary": "城商行与农商行的2026年春招集中在2～3月启动，其中上海银行（601229.SH）于2月13日便开启招聘，数字化人才成为这类银行的核心储备目标。",
+      "publish_date": "2026-03-16",
+      "available_at": "2026-03-16T18:30:23",
+      "sentiment_score": 0.0,
+      "category": "产品进展",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "上海银行关于高级管理人员任职资格获监管机构核准的公告",
+      "summary": "",
+      "publish_date": "2026-03-17",
+      "available_at": "2026-03-17T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "政策影响",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 0,
+  "hot_reason": "",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

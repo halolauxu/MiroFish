@@ -1,0 +1,36 @@
+[
+  {
+    "ticker": "002532",
+    "company_name": "天山铝业",
+    "title": "关于实际控制人减持股份的预披露公告",
+    "announcement_type": "股权变动",
+    "publish_date": "2026-02-26",
+    "publish_time": "2026-02-26",
+    "link": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=002532&announcementId=1224984644&orgId=9900016749&announcementTime=2026-02-26",
+    "source": "cninfo.disclosure_report",
+    "raw": {
+      "代码": "002532",
+      "简称": "天山铝业",
+      "公告标题": "关于实际控制人减持股份的预披露公告",
+      "公告时间": "2026-02-26",
+      "公告链接": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=002532&announcementId=1224984644&orgId=9900016749&announcementTime=2026-02-26"
+    }
+  },
+  {
+    "ticker": "002532",
+    "company_name": "天山铝业",
+    "title": "关于控股股东部分股份质押的公告",
+    "announcement_type": "",
+    "publish_date": "2026-03-05",
+    "publish_time": "2026-03-05",
+    "link": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=002532&announcementId=1224995741&orgId=9900016749&announcementTime=2026-03-05",
+    "source": "cninfo.disclosure_report",
+    "raw": {
+      "代码": "002532",
+      "简称": "天山铝业",
+      "公告标题": "关于控股股东部分股份质押的公告",
+      "公告时间": "2026-03-05",
+      "公告链接": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=002532&announcementId=1224995741&orgId=9900016749&announcementTime=2026-03-05"
+    }
+  }
+]

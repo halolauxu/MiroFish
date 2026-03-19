@@ -1,0 +1,94 @@
+{
+  "ticker": "000661",
+  "company_name": "长春高新",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "filing",
+      "title": "关于子公司GenSci141软膏境内生产药品注册临床试验申请获得批准的公告",
+      "summary": "",
+      "publish_date": "2026-02-25",
+      "available_at": "2026-02-25T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "关于子公司GenSci161注射液境内生产药品注册临床试验申请获得受理的公告",
+      "summary": "",
+      "publish_date": "2026-03-03",
+      "available_at": "2026-03-03T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "长春高新：子公司GenSci128片获美FDA孤儿药资格认定",
+      "summary": "3月10日，长春高新（000661）发布公告，子公司获得美国食品药品监督管理局（FDA）授予的GenSci128片孤儿药资格认定，适应症为胰腺癌的治疗，此前GenSci128片已获批在中国和美国开展相关临床试验。",
+      "publish_date": "2026-03-10",
+      "available_at": "2026-03-10T18:24:35",
+      "sentiment_score": 0.0,
+      "category": "产品进展",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "长春高新：子公司GenSci128片获得美国FDA孤儿药资格认定",
+      "summary": "长春高新0006613月10日公告，近日，公司子公司金赛药业收到美国食品药品监督管理局（简称“FDA”）通知，授予GenSci128片孤儿药资格认定，用于胰腺癌的治疗。",
+      "publish_date": "2026-03-10",
+      "available_at": "2026-03-10T18:24:36",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "长春高新GenSci128片获得FDA孤儿药资格认定",
+      "summary": "北京商报讯3月10日晚间，长春高新（000661）发布公告称，公司子公司长春金赛药业有限责任公司（以下简称“金赛药业”）收到美国食品药品监督管理局（FDA）通知，授予GenSci128片孤儿药资格认定（OrphanDrug Designation,ODD），用于胰腺癌的治疗。",
+      "publish_date": "2026-03-10",
+      "available_at": "2026-03-10T20:48:22",
+      "sentiment_score": 0.0,
+      "category": "产品进展",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "关于子公司GenSci128片获得美国食品药品监督管理局孤儿药资格认定的公告",
+      "summary": "",
+      "publish_date": "2026-03-11",
+      "available_at": "2026-03-11T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "hot_topic",
+      "title": "长春高新",
+      "summary": "雪球关注#34",
+      "publish_date": "2026-03-19",
+      "available_at": "2026-03-19T00:00:00",
+      "sentiment_score": 0.08,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.25,
+      "hot_rank": 117
+    }
+  ],
+  "hot_rank": 117,
+  "hot_reason": "雪球关注#34",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

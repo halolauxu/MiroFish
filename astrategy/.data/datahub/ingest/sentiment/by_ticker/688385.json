@@ -1,0 +1,94 @@
+{
+  "ticker": "688385",
+  "company_name": "复旦微电",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "filing",
+      "title": "H股通函",
+      "summary": "",
+      "publish_date": "2026-02-28",
+      "available_at": "2026-02-28T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "董事会薪酬与考核委员会关于公司2026年限制性股票激励计划首次授予激励对象名单的核查意见及公示情况说明",
+      "summary": "股权激励",
+      "publish_date": "2026-03-05",
+      "available_at": "2026-03-05T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "股权变动",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "关于2026年限制性股票激励计划内幕信息知情人买卖公司股票情况的自查报告",
+      "summary": "股权激励",
+      "publish_date": "2026-03-17",
+      "available_at": "2026-03-17T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "股权变动",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "2026年第一次临时股东会、2026年第一次A股类别股东会及2026年第一次H股类别股东会决议公告",
+      "summary": "",
+      "publish_date": "2026-03-17",
+      "available_at": "2026-03-17T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "677只股短线走稳 站上五日均线",
+      "summary": "29.78 32.51 9.15 603311 金海高科 9.97 4.61 16.12 17.42 8.09 301369 联动科技 12.24 6.04 138.68 149.50 7.80 300475 香农芯创 10.71 9.58 157.98 170.10 7.67 688385",
+      "publish_date": "2026-03-18",
+      "available_at": "2026-03-18T14:14:22",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "A股午后单边上行，三大股指收涨：算力硬件产业链爆发",
+      "summary": "半导体大幅拉升，石油石化领跌两市 在板块方面，半导体大幅拉升，联动科技（301369）、国科微（300672）、安路科技（688107）、复旦微电（688385）等涨超10%，矽电股份（301629）、中微半导（688380）、意华股份（002897）等涨超7%。",
+      "publish_date": "2026-03-18",
+      "available_at": "2026-03-18T15:38:40",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "今日1220只个股突破五日均线",
+      "summary": "29.84 32.81 9.94 300317 珈伟新能 14.26 30.03 5.47 6.01 9.91 688757 胜科纳米 12.86 17.81 27.86 30.20 8.41 301369 联动科技 12.81 7.07 138.84 150.26 8.23 688385",
+      "publish_date": "2026-03-18",
+      "available_at": "2026-03-18T15:39:18",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 0,
+  "hot_reason": "",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

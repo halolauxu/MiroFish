@@ -1,0 +1,130 @@
+{
+  "ticker": "688981",
+  "company_name": "中芯国际",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "filing",
+      "title": "中芯国际关于发行股份购买资产暨关联交易的申请文件获得上海证券交易所受理的公告",
+      "summary": "",
+      "publish_date": "2026-02-26",
+      "available_at": "2026-02-26T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "港股公告：证券变动月报表",
+      "summary": "",
+      "publish_date": "2026-03-04",
+      "available_at": "2026-03-04T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "港股公告：翌日披露报表",
+      "summary": "",
+      "publish_date": "2026-03-04",
+      "available_at": "2026-03-04T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "港股公告：翌日披露报表",
+      "summary": "",
+      "publish_date": "2026-03-07",
+      "available_at": "2026-03-07T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "港股公告：翌日披露报表",
+      "summary": "",
+      "publish_date": "2026-03-11",
+      "available_at": "2026-03-11T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "3月16日科创板主力资金净流入7498.83万元",
+      "summary": "万元） 主力资金流入率（%） 涨跌幅（%） 换手率（%） 688525 佰维存储 84902.43 7.14 13.35 11.30 688008 澜起科技 53565.04 8.72 4.10 3.57 688347 华虹公司 29227.39 5.96 12.20 9.32 688981",
+      "publish_date": "2026-03-16",
+      "available_at": "2026-03-16T17:55:36",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "港股公告：董事会批准发布2025年度业绩通知",
+      "summary": "产品进展",
+      "publish_date": "2026-03-17",
+      "available_at": "2026-03-17T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "业绩公告",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "电子行业资金流出榜：兆易创新、工业富联等净流出资金居前",
+      "summary": "39297.73 300136 信维通信 -3.72 4.87 -38130.23 300456 赛微电子 -7.00 6.98 -36649.08 600584 长电科技 -4.37 3.47 -35956.69 601231 环旭电子 -9.31 2.75 -35657.98 688981",
+      "publish_date": "2026-03-17",
+      "available_at": "2026-03-17T17:23:05",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "hot_topic",
+      "title": "中芯国际",
+      "summary": "雪球关注#82; 雪球讨论#20; 雪球交易#14",
+      "publish_date": "2026-03-19",
+      "available_at": "2026-03-19T00:00:00",
+      "sentiment_score": 0.228,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.25,
+      "hot_rank": 26
+    },
+    {
+      "source_type": "news",
+      "title": "28股获融资客大手笔净买入",
+      "summary": "3.92 机械设备 300475 香农芯创 10.63 13264.40 529854.68 7.00 电子 000021 深科技 4.25 12885.86 274435.57 5.19 电子 600498 烽火通信 1.88 12865.76 189136.24 3.12 通信 688981",
+      "publish_date": "2026-03-19",
+      "available_at": "2026-03-19T09:44:49",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 26,
+  "hot_reason": "雪球关注#82; 雪球讨论#20; 雪球交易#14",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

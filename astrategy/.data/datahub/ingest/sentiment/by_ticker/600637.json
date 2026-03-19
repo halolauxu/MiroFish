@@ -1,0 +1,46 @@
+{
+  "ticker": "600637",
+  "company_name": "东方明珠",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "news",
+      "title": "58.96亿元主力资金今日撤离传媒板块",
+      "summary": "电魂网络 -1.31 1.32 119.96 600358 ST联合 -0.32 0.90 107.48 603096 新经典 -0.47 1.55 77.06 603825 ST华扬 -0.31 0.94 45.18 600757 长江传媒 -0.54 0.66 19.52 600637",
+      "publish_date": "2026-02-26",
+      "available_at": "2026-02-26T17:00:35",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "75.91亿元资金今日流出传媒股",
+      "summary": "13694.76 000681 视觉中国 -4.95 9.32 -13491.07 002400 省广集团 -5.72 10.28 -13214.92 600986 浙文互联 -5.09 12.14 -13164.98 600556 天下秀 -6.63 6.15 -11537.39 600637",
+      "publish_date": "2026-03-02",
+      "available_at": "2026-03-02T17:23:39",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "6.20亿主力资金净流入 云游戏概念涨1.85%",
+      "summary": "冠捷科技 0.37 4.13 -1817.59 -3.61 300459 汤姆猫 -0.22 2.67 -1825.44 -4.55 002555 三七互娱 0.17 2.86 -1898.85 -1.82 600037 歌华有线 1.57 1.52 -2192.72 -13.53 600637",
+      "publish_date": "2026-03-09",
+      "available_at": "2026-03-09T17:09:44",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 0,
+  "hot_reason": "",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

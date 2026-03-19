@@ -1,0 +1,82 @@
+{
+  "ticker": "603707",
+  "company_name": "健友股份",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "filing",
+      "title": "健友股份关于子公司获得美国FDA来法莫林注射液药品转移生产场地注册批件的公告",
+      "summary": "",
+      "publish_date": "2026-02-27",
+      "available_at": "2026-02-27T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "健友股份关于股份回购进展的公告",
+      "summary": "股权变动",
+      "publish_date": "2026-03-03",
+      "available_at": "2026-03-03T00:00:00",
+      "sentiment_score": 0.8,
+      "category": "股权变动",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "健友股份：来法莫林注射液已获得美国FDA生产场地转移批准",
+      "summary": "健友股份（603707.SH）3月13日在投资者互动平台表示，来法莫林注射液已获得美国FDA生产场地转移批准，目前美国尚无仿制药获批。该产品将进一步丰富公司国际化产品管线，强化国际市场布局。后续如顺利上市销售，有望对公司经营业绩产生积极影响。相关进展请以公司公告为准。",
+      "publish_date": "2026-03-13",
+      "available_at": "2026-03-13T17:10:03",
+      "sentiment_score": 0.0,
+      "category": "业绩公告",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "健友股份：XTMAB-16为全球首个针对肺结节病的TNF-α单克隆抗体，目前完成二期临床，正推进三期",
+      "summary": "健友股份（603707.SH）3月13日在投资者互动平台表示，公司坚持“生物类似药 + 创新药” 双轮驱动战略，稳步推进从仿制向创新升级。",
+      "publish_date": "2026-03-13",
+      "available_at": "2026-03-13T17:10:07",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "82只股中线走稳 站上半年线",
+      "summary": "0.82 15.22 15.62 2.60 600605 汇通能源 5.51 2.90 30.07 30.84 2.57 600250 南京商旅 2.82 2.39 11.39 11.68 2.53 002244 滨江集团 2.77 0.92 10.88 11.14 2.43 603707",
+      "publish_date": "2026-03-16",
+      "available_at": "2026-03-16T10:45:59",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "健友股份关于“健友转债”到期兑付暨摘牌的第一次提示性公告",
+      "summary": "",
+      "publish_date": "2026-03-18",
+      "available_at": "2026-03-18T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 0,
+  "hot_reason": "",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

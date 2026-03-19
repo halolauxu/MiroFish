@@ -1,0 +1,58 @@
+{
+  "ticker": "688213",
+  "company_name": "思特威",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "filing",
+      "title": "2025年年度业绩快报",
+      "summary": "业绩预告",
+      "publish_date": "2026-02-27",
+      "available_at": "2026-02-27T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "业绩公告",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "近日海外机构调研股名单",
+      "summary": "深南电路 4 254.40 -6.11 电子 000050 深天马A 1 8.74 -6.92 电子 300870 欧陆通 1 247.51 -7.83 电力设备 300109 新开源 1 18.02 -8.48 基础化工 002340 格林美 1 8.35 -8.54 电力设备 688213",
+      "publish_date": "2026-03-17",
+      "available_at": "2026-03-17T17:22:58",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "48家公司获海外机构调研",
+      "summary": "中密控股 2 37.53 -4.38 机械设备 688698 伟创电气 2 70.62 -5.64 机械设备 000636 风华高科 7 22.50 -5.86 电子 002138 顺络电子 16 38.56 -6.23 电子 300277 海联讯 3 20.75 -6.45 计算机 688213",
+      "publish_date": "2026-03-18",
+      "available_at": "2026-03-18T17:06:15",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "近日海外机构调研股名单",
+      "summary": "长盛轴承 1 69.70 -5.94 机械设备 600166 福田汽车 1 2.86 -6.23 汽车 688082 盛美上海 8 150.47 -6.72 电子 002916 深南电路 4 249.99 -6.78 电子 002138 顺络电子 16 37.45 -8.48 电子 688213",
+      "publish_date": "2026-03-19",
+      "available_at": "2026-03-19T18:04:54",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 0,
+  "hot_reason": "",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

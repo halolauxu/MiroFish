@@ -1,0 +1,36 @@
+[
+  {
+    "ticker": "601231",
+    "company_name": "环旭电子",
+    "title": "关于2026年2月股份回购进展的公告",
+    "announcement_type": "股权变动",
+    "publish_date": "2026-03-03",
+    "publish_time": "2026-03-03",
+    "link": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=601231&announcementId=1224990239&orgId=9900022058&announcementTime=2026-03-03",
+    "source": "cninfo.disclosure_report",
+    "raw": {
+      "代码": "601231",
+      "简称": "环旭电子",
+      "公告标题": "关于2026年2月股份回购进展的公告",
+      "公告时间": "2026-03-03",
+      "公告链接": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=601231&announcementId=1224990239&orgId=9900022058&announcementTime=2026-03-03"
+    }
+  },
+  {
+    "ticker": "601231",
+    "company_name": "环旭电子",
+    "title": "2026年2月营业收入简报",
+    "announcement_type": "",
+    "publish_date": "2026-03-10",
+    "publish_time": "2026-03-10",
+    "link": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=601231&announcementId=1225000848&orgId=9900022058&announcementTime=2026-03-10",
+    "source": "cninfo.disclosure_report",
+    "raw": {
+      "代码": "601231",
+      "简称": "环旭电子",
+      "公告标题": "2026年2月营业收入简报",
+      "公告时间": "2026-03-10",
+      "公告链接": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=601231&announcementId=1225000848&orgId=9900022058&announcementTime=2026-03-10"
+    }
+  }
+]

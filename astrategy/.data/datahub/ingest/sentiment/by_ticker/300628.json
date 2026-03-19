@@ -1,0 +1,58 @@
+{
+  "ticker": "300628",
+  "company_name": "亿联网络",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "filing",
+      "title": "2025年度业绩快报",
+      "summary": "业绩预告",
+      "publish_date": "2026-02-27",
+      "available_at": "2026-02-27T16:44:28",
+      "sentiment_score": 0.0,
+      "category": "业绩公告",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "创业板公司业绩快报抢先看",
+      "summary": "125137.40 4.51 11313.35 5.60 2026.04.15 301339 通行宝 106777.79 19.24 22125.68 5.51 2026.03.28 300112 万讯自控 103162.25 0.07 -6718.95 -0.86 2026.04.21 300628",
+      "publish_date": "2026-03-10",
+      "available_at": "2026-03-10T09:38:36",
+      "sentiment_score": 0.0,
+      "category": "业绩公告",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "134.03亿元资金今日流出通信股",
+      "summary": "-4.83 4.20 387.41 688100 威胜信息 -3.41 0.85 339.58 688418 震有科技 -3.06 2.28 330.36 301139 元道通信 -3.05 4.00 264.05 300205 *ST天喻 -1.50 0.95 189.06 300628",
+      "publish_date": "2026-03-17",
+      "available_at": "2026-03-17T17:23:43",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "云办公概念涨3.51%，主力资金净流入30股",
+      "summary": "4.02 603000 人民网 1.98 1.89 3411.82 8.04 300352 北信源 4.12 6.27 3327.38 5.93 300047 天源迪科 3.30 3.36 1922.93 8.04 300730 科创信息 8.21 9.90 1763.32 6.93 300628",
+      "publish_date": "2026-03-18",
+      "available_at": "2026-03-18T17:06:29",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 0,
+  "hot_reason": "",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

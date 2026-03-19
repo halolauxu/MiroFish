@@ -1,0 +1,36 @@
+[
+  {
+    "ticker": "600803",
+    "company_name": "新奥股份",
+    "title": "新奥股份关于股票交易异常波动的公告",
+    "announcement_type": "",
+    "publish_date": "2026-03-04",
+    "publish_time": "2026-03-04",
+    "link": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=600803&announcementId=1224994506&orgId=gssh0600803&announcementTime=2026-03-04",
+    "source": "cninfo.disclosure_report",
+    "raw": {
+      "代码": "600803",
+      "简称": "新奥股份",
+      "公告标题": "新奥股份关于股票交易异常波动的公告",
+      "公告时间": "2026-03-04",
+      "公告链接": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=600803&announcementId=1224994506&orgId=gssh0600803&announcementTime=2026-03-04"
+    }
+  },
+  {
+    "ticker": "600803",
+    "company_name": "新奥股份",
+    "title": "新奥股份关于签订日常经营重大合同的进展公告",
+    "announcement_type": "重大合同",
+    "publish_date": "2026-03-06",
+    "publish_time": "2026-03-06",
+    "link": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=600803&announcementId=1224997105&orgId=gssh0600803&announcementTime=2026-03-06",
+    "source": "cninfo.disclosure_report",
+    "raw": {
+      "代码": "600803",
+      "简称": "新奥股份",
+      "公告标题": "新奥股份关于签订日常经营重大合同的进展公告",
+      "公告时间": "2026-03-06",
+      "公告链接": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=600803&announcementId=1224997105&orgId=gssh0600803&announcementTime=2026-03-06"
+    }
+  }
+]

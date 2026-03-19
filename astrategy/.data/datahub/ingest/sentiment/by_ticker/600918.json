@@ -1,0 +1,70 @@
+{
+  "ticker": "600918",
+  "company_name": "中泰证券",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "news",
+      "title": "增资、发债、新设、担保......开年中金、广发、华泰等多家券商为出海筹措“弹药”",
+      "summary": "2月13日，中信证券（600030.SH）、中金公司（601995.SH）、中泰证券（600918.SH）密集发布为海外子公司提供担保的公告。",
+      "publish_date": "2026-02-14",
+      "available_at": "2026-02-14T18:38:52",
+      "sentiment_score": 0.0,
+      "category": "产品进展",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "中泰证券股份有限公司关于参与碳排放权交易获得中国证监会复函的公告",
+      "summary": "",
+      "publish_date": "2026-03-06",
+      "available_at": "2026-03-06T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "中泰证券股份有限公司2025年度第五期短期融资券兑付完成公告",
+      "summary": "增发融资",
+      "publish_date": "2026-03-14",
+      "available_at": "2026-03-14T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "20.19亿主力资金净流入，期货概念涨0.02%",
+      "summary": "3.61 601059 信达证券 0.00 0.47 328.34 1.24 600288 大恒科技 -2.00 1.25 306.54 3.78 000488 ST晨鸣 5.17 7.20 303.72 0.83 000828 东莞控股 0.27 0.59 297.94 4.44 600918",
+      "publish_date": "2026-03-17",
+      "available_at": "2026-03-17T17:23:25",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "36.33亿元主力资金今日抢筹非银金融板块",
+      "summary": "五矿资本 -0.35 1.16 553.86 002926 华西证券 0.11 0.86 499.85 600095 湘财股份 0.60 1.00 414.01 000563 陕国投A 0.56 1.75 402.84 601059 信达证券 0.00 0.47 328.34 600918",
+      "publish_date": "2026-03-17",
+      "available_at": "2026-03-17T17:23:34",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 0,
+  "hot_reason": "",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

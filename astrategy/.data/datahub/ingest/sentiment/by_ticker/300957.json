@@ -1,0 +1,94 @@
+{
+  "ticker": "300957",
+  "company_name": "贝泰妮",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "filing",
+      "title": "关于2024年员工持股计划股票出售完毕暨终止的公告",
+      "summary": "股权激励",
+      "publish_date": "2026-02-25",
+      "available_at": "2026-02-25T16:28:10",
+      "sentiment_score": 0.0,
+      "category": "股权变动",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "5股今日获机构买入评级",
+      "summary": "机构今日买入型评级记录 代码 简称 机构名称 最新评级 上次评级 预测目标价（元） 最新收盘价（元） 002008 大族激光 中金公司 跑赢行业 跑赢行业 70.00 63.38 601233 桐昆股份 申万宏源 买入 买入 24.24 300957 贝泰妮 东方财富 增持 未评级",
+      "publish_date": "2026-02-25",
+      "available_at": "2026-02-25T17:29:42",
+      "sentiment_score": 0.78,
+      "category": "股权变动",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "2026年第一次临时股东会决议公告",
+      "summary": "",
+      "publish_date": "2026-02-27",
+      "available_at": "2026-02-27T17:02:28",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "美妆公司投资短剧 还是一门好生意吗？",
+      "summary": "事实上，看重短剧庞大的用户基数和流量，珀莱雅（603605.SH）、上美股份（02145.HK）、丸美生物（603983.SH）、贝泰妮（300957.SZ）等美妆公司已纷纷下场，在霸总、甜宠、复仇等各类型短剧中，悄然植入自家产品。",
+      "publish_date": "2026-02-28",
+      "available_at": "2026-02-28T07:03:42",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "2025年度前三季度权益分派实施公告",
+      "summary": "权益分派",
+      "publish_date": "2026-03-04",
+      "available_at": "2026-03-04T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "1.03亿元资金今日流出美容护理股",
+      "summary": "敷尔佳 -0.92 1.87 96.04 001328 登康口腔 -2.41 3.66 119.46 603059 倍加洁 -1.36 1.77 122.34 301009 可靠股份 -2.15 2.07 189.87 300888 稳健医疗 -0.76 0.71 276.59 300957",
+      "publish_date": "2026-03-09",
+      "available_at": "2026-03-09T17:10:12",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "关于控股子公司为其全资子公司提供担保的公告",
+      "summary": "",
+      "publish_date": "2026-03-17",
+      "available_at": "2026-03-17T17:15:14",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 0,
+  "hot_reason": "",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

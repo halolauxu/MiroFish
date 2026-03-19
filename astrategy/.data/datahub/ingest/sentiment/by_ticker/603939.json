@@ -1,0 +1,94 @@
+{
+  "ticker": "603939",
+  "company_name": "益丰药房",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "filing",
+      "title": "益丰药房关于可转换公司债券付息的公告",
+      "summary": "债券融资",
+      "publish_date": "2026-02-25",
+      "available_at": "2026-02-25T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "益丰药房关于使用闲置募集资金进行现金管理的公告",
+      "summary": "",
+      "publish_date": "2026-03-04",
+      "available_at": "2026-03-04T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "益丰药房副总裁、财务负责人王永辉辞职",
+      "summary": "3月6日，益丰药房（603939）发布公告，公司副总裁、财务负责人王永辉因个人原因于2026年3月5日辞职，辞职后不再担任公司其他任何职务。 王永辉的原定任期到期日为2027年6月24日，离任不会影响公司的正常经营。",
+      "publish_date": "2026-03-06",
+      "available_at": "2026-03-06T16:47:18",
+      "sentiment_score": 0.0,
+      "category": "产品进展",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "益丰药房关于高级管理人员离任的公告",
+      "summary": "",
+      "publish_date": "2026-03-07",
+      "available_at": "2026-03-07T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "益丰药房关于高级管理人员减持计划实施期限届满暨实施结果公告",
+      "summary": "股权变动",
+      "publish_date": "2026-03-07",
+      "available_at": "2026-03-07T00:00:00",
+      "sentiment_score": -0.78,
+      "category": "股权变动",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "益丰药房财务负责人辞职，此前已两位副总裁离职，公司曾被MSCI“剔除”",
+      "summary": "3月6日，益丰药房（603939）发布公告，公司董事会于近日收到公司副总裁、财务负责人王永辉的书面辞职报告。王永辉因个人原因申请辞去公司副总裁、财务负责人职务，辞职后不再担任公司其他任何职务。王永辉的原定任期到期日为2027年6月24日。",
+      "publish_date": "2026-03-07",
+      "available_at": "2026-03-07T19:31:43",
+      "sentiment_score": 0.0,
+      "category": "产品进展",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "今日突破年线个股",
+      "summary": "雅本化学 1.40 3.18 7.21 7.26 0.65 001227 兰州银行 1.29 2.79 2.34 2.35 0.63 600903 贵州燃气 1.76 2.82 6.91 6.95 0.62 601158 重庆水务 0.64 0.31 4.66 4.69 0.57 603939",
+      "publish_date": "2026-03-12",
+      "available_at": "2026-03-12T16:26:53",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 0,
+  "hot_reason": "",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

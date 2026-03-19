@@ -1,0 +1,58 @@
+{
+  "ticker": "002120",
+  "company_name": "韵达股份",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "filing",
+      "title": "关于超短期融资券获准注册的公告",
+      "summary": "增发融资",
+      "publish_date": "2026-03-06",
+      "available_at": "2026-03-06T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "韵达股份：获准注册发行20亿元超短期融资券",
+      "summary": "中证智能财讯韵达股份（002120）3月6日公告，近日公司收到中国银行间市场交易商协会下发的《接受注册通知书》，同意接受公司超短期融资券注册。根据通知书，公司此次超短期融资券注册金额为20亿元。",
+      "publish_date": "2026-03-06",
+      "available_at": "2026-03-06T09:09:33",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "韵达股份：2月快递服务业务收入同比下降15.07%",
+      "summary": "人民财讯3月19日电，韵达股份0021203月19日披露2026年2月快递服务主要经营指标，2月完成业务量13.37亿票，同比下降26.13%；快递服务单票收入2.25元，同比上升15.38%；快递服务业务收入30.04亿元，同比下降15.07%。",
+      "publish_date": "2026-03-19",
+      "available_at": "2026-03-19T20:34:59",
+      "sentiment_score": -0.7,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "韵达股份：2月快递服务业务收入同比下降15.07%",
+      "summary": "南方财经3月19日电，韵达股份0021203月19日披露2026年2月快递服务主要经营指标，2月完成业务量13.37亿票，同比下降26.13%；快递服务单票收入2.25元，同比上升15.38%；快递服务业务收入30.04亿元，同比下降15.07%。",
+      "publish_date": "2026-03-19",
+      "available_at": "2026-03-19T20:46:14",
+      "sentiment_score": -0.7,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 0,
+  "hot_reason": "",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

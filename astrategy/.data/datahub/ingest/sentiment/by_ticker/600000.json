@@ -1,0 +1,70 @@
+{
+  "ticker": "600000",
+  "company_name": "浦发银行",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "filing",
+      "title": "上海浦东发展银行股份有限公司优先股二期股息发放实施公告",
+      "summary": "",
+      "publish_date": "2026-02-27",
+      "available_at": "2026-02-27T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "高质量支持文旅产业发展 银行创新产品密集落地",
+      "summary": "在金融服务方面，近日，浦发银行（600000.SH）太原分行成功落地全国首单资金监管系统分账“浦掌柜2.0”集团查询业务。",
+      "publish_date": "2026-03-07",
+      "available_at": "2026-03-07T02:33:26",
+      "sentiment_score": 0.0,
+      "category": "产品进展",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "立昂技术：持股5%以上股东葛良娣减持600000股",
+      "summary": "证券日报网讯 3月12日，立昂技术发布公告称，公司持股5%以上股东、董事葛良娣于2026年3月11日通过集中竞价减持600000股，占公司总股本0.1304%，减持后持股比例由6.0632%降至5.9328%，触及1%整数倍变动。",
+      "publish_date": "2026-03-12",
+      "available_at": "2026-03-12T22:08:13",
+      "sentiment_score": -0.78,
+      "category": "股权变动",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "工行发布超1200条招聘信息！2026银行春招开启抢人模式，AI和大数据岗位升温",
+      "summary": "股份制银行的春招启动节奏整体快于国有大行，华夏银行、浦发银行（600000.SH）、平安银行（000001.SZ）、中信银行（601998.SH）等均于3月上旬完成春招公告发布。岗位布局贴合行业发展趋势与自身业务布局，金融科技、绿色金融成为核心需求方向。",
+      "publish_date": "2026-03-16",
+      "available_at": "2026-03-16T18:30:23",
+      "sentiment_score": 0.0,
+      "category": "产品进展",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "hot_topic",
+      "title": "浦发银行",
+      "summary": "雪球关注#53; 雪球交易#125",
+      "publish_date": "2026-03-19",
+      "available_at": "2026-03-19T00:00:00",
+      "sentiment_score": 0.096,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.25,
+      "hot_rank": 92
+    }
+  ],
+  "hot_rank": 92,
+  "hot_reason": "雪球关注#53; 雪球交易#125",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

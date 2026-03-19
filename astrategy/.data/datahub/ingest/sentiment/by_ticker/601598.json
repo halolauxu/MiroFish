@@ -1,0 +1,58 @@
+{
+  "ticker": "601598",
+  "company_name": "中国外运",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "news",
+      "title": "强势股追踪 主力资金连续5日净流入35股",
+      "summary": "飞沃科技 5 4.06 4.52 2.21 600452 涪陵电力 8 3.54 5.01 18.56 601825 沪农商行 10 2.91 9.28 -3.69 601939 建设银行 7 2.40 3.20 1.15 688365 光云科技 5 2.39 4.38 8.85 601598",
+      "publish_date": "2026-02-02",
+      "available_at": "2026-02-02T17:17:19",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "【数据揭秘】融资客看好个股一览",
+      "summary": "毕得医药 4101.99 -14.45 1.53 6.26 301273 瑞晨环保 1921.26 -14.34 1.15 4.70 920014 特瑞斯 889.48 -13.68 1.05 0.40 688556 高测股份 58085.36 -13.54 4.57 10.79 601598",
+      "publish_date": "2026-02-04",
+      "available_at": "2026-02-04T10:28:08",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "航运概念涨2.34%，主力资金净流入44股",
+      "summary": "603967 中创物流 2.83 3.64 1545.37 9.08 000507 珠海港 4.83 9.08 1518.90 3.22 600546 山煤国际 2.74 5.40 1417.83 1.09 603162 海通发展 -6.06 15.87 1233.07 1.78 601598",
+      "publish_date": "2026-03-03",
+      "available_at": "2026-03-03T16:40:43",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "H股公告-月报表",
+      "summary": "",
+      "publish_date": "2026-03-06",
+      "available_at": "2026-03-06T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 0,
+  "hot_reason": "",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

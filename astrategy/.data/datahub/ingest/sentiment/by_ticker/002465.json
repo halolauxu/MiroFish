@@ -1,0 +1,70 @@
+{
+  "ticker": "002465",
+  "company_name": "海格通信",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "filing",
+      "title": "关于发行中期票据获准注册的公告",
+      "summary": "债券融资",
+      "publish_date": "2026-02-26",
+      "available_at": "2026-02-26T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "太赫兹概念下跌2.62%，主力资金净流出17股",
+      "summary": "太赫兹概念资金流出榜 代码 简称 今日涨跌幅（%） 今日换手率（%） 主力资金流量（万元） 600879 航天电子 -3.48 3.86 -47214.23 601869 长飞光纤 -2.00 4.83 -28836.69 002413 雷科防务 -5.50 13.77 -28211.69 002465",
+      "publish_date": "2026-03-12",
+      "available_at": "2026-03-12T17:18:51",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "国产航母概念下跌2.67%，13股主力资金净流出超亿元",
+      "summary": "39707.01 300065 海兰信 -4.22 11.89 -36645.29 600482 中国动力 -5.73 2.94 -30682.50 600150 中国船舶 -1.53 1.04 -25678.16 002151 北斗星通 -3.94 9.13 -23762.77 002465",
+      "publish_date": "2026-03-12",
+      "available_at": "2026-03-12T17:19:54",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "解密主力资金出逃股 连续5日净流出534股",
+      "summary": "5.93 -4.18 001696 宗申动力 6 12.27 10.02 -13.23 300139 晓程科技 5 12.22 9.42 -14.51 002602 世纪华通 7 12.07 9.45 -7.23 002625 光启技术 10 11.84 12.13 -12.38 002465",
+      "publish_date": "2026-03-16",
+      "available_at": "2026-03-16T17:13:04",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "关于2026年度第一期中期票据发行情况的公告",
+      "summary": "债券融资",
+      "publish_date": "2026-03-19",
+      "available_at": "2026-03-19T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 0,
+  "hot_reason": "",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

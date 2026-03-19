@@ -1,0 +1,58 @@
+{
+  "ticker": "000563",
+  "company_name": "陕国投A",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "filing",
+      "title": "2025年度股东会决议公告",
+      "summary": "",
+      "publish_date": "2026-03-07",
+      "available_at": "2026-03-07T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "上市公司2025年度分红方案一览",
+      "summary": "2026.02.28 2.20 -2.14 -13.32 603005 晶方科技 2026.02.28 1.20 -2.99 -7.10 688082 盛美上海 2026.02.27 6.23 -8.11 -15.00 002270 华明装备 2026.02.27 2.10 -5.17 6.41 000563",
+      "publish_date": "2026-03-11",
+      "available_at": "2026-03-11T09:39:03",
+      "sentiment_score": 0.76,
+      "category": "分红送转",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "信托概念涨0.85%，主力资金净流入这些股",
+      "summary": "今日换手率（%） 主力资金流量（万元） 主力资金净流入比率（%） 000593 德龙汇能 9.98 8.24 12968.08 28.79 000617 中油资本 1.57 0.77 7039.52 7.99 002608 江苏国信 2.44 1.23 4270.56 10.54 000563",
+      "publish_date": "2026-03-12",
+      "available_at": "2026-03-12T17:18:38",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "36.33亿元主力资金今日抢筹非银金融板块",
+      "summary": "西部证券 0.39 0.76 701.94 601198 东兴证券 -0.15 0.72 611.48 600390 五矿资本 -0.35 1.16 553.86 002926 华西证券 0.11 0.86 499.85 600095 湘财股份 0.60 1.00 414.01 000563",
+      "publish_date": "2026-03-17",
+      "available_at": "2026-03-17T17:23:34",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 0,
+  "hot_reason": "",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

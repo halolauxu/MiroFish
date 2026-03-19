@@ -1,0 +1,46 @@
+{
+  "ticker": "000825",
+  "company_name": "太钢不锈",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "news",
+      "title": "解密主力资金出逃股 连续5日净流出502股",
+      "summary": "2.42 11.63 -11.38 000801 四川九洲 10 2.41 6.39 -7.59 600868 梅雁吉祥 7 2.34 7.77 -8.57 600803 新奥股份 6 2.33 4.53 -3.48 688213 思特威-W 7 2.33 4.64 -9.75 000825",
+      "publish_date": "2026-03-10",
+      "available_at": "2026-03-10T17:42:01",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "特钢概念下跌3.14%，主力资金净流出37股",
+      "summary": "4.96 -8845.24 600307 酒钢宏兴 -9.91 8.34 -8588.91 600808 马钢股份 -4.96 1.95 -8241.96 002756 永兴材料 -3.18 4.77 -5586.68 603191 望变电气 -5.21 7.08 -5082.08 000825",
+      "publish_date": "2026-03-16",
+      "available_at": "2026-03-16T17:13:05",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "20.13亿元资金今日流出钢铁股",
+      "summary": "3.68 -10302.26 600126 杭钢股份 -2.92 4.96 -8845.24 600307 酒钢宏兴 -9.91 8.34 -8588.91 600808 马钢股份 -4.96 1.95 -8241.96 600782 新钢股份 -2.68 2.89 -4004.42 000825",
+      "publish_date": "2026-03-16",
+      "available_at": "2026-03-16T17:13:22",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 0,
+  "hot_reason": "",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

@@ -1,0 +1,46 @@
+{
+  "ticker": "002430",
+  "company_name": "杭氧股份",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "news",
+      "title": "举牌概念涨0.50%，主力资金净流入这些股",
+      "summary": "（数据宝） 举牌概念资金流入榜 代码 简称 今日涨跌幅（%） 今日换手率（%） 主力资金流量（万元） 主力资金净流入比率（%） 000009 中国宝安 3.05 2.47 4475.03 7.40 002430 杭氧股份 1.96 2.48 2276.70 2.96 300201",
+      "publish_date": "2026-03-13",
+      "available_at": "2026-03-13T17:10:18",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "高压氧舱概念涨2.31%，主力资金净流入5股",
+      "summary": "今日换手率（%） 主力资金流量（万元） 主力资金净流入比率（%） 002173 创新医疗 6.59 23.07 14692.95 4.94 300143 盈康生命 12.53 9.53 2884.34 3.70 688425 铁建重工 2.03 1.54 2373.58 5.19 002430",
+      "publish_date": "2026-03-13",
+      "available_at": "2026-03-13T17:14:39",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "27只股中线走稳 站上半年线",
+      "summary": "1.39 0.43 5.79 5.85 1.11 002902 铭普光磁 2.62 6.44 22.13 22.35 0.99 300789 唐源电气 9.14 7.60 24.37 24.59 0.89 002267 陕天然气 1.90 1.01 8.00 8.06 0.80 002430",
+      "publish_date": "2026-03-19",
+      "available_at": "2026-03-19T11:00:09",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 0,
+  "hot_reason": "",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

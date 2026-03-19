@@ -1,0 +1,106 @@
+{
+  "ticker": "601066",
+  "company_name": "中信建投",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "news",
+      "title": "增资、发债、新设、担保......开年中金、广发、华泰等多家券商为出海筹措“弹药”",
+      "summary": "自2025年以来，选择在国际业务上大踏步向前的券商也已有十余家，除前述券商外，西部证券（002673.SZ）、第一创业（002797.SZ）也宣布将在港设立全资子公司；中信建投（601066.SH）、广发证券、国金证券（600109.SH）、山西证券（002500.SZ）、东兴证券",
+      "publish_date": "2026-02-14",
+      "available_at": "2026-02-14T18:38:52",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "关于间接全资附属公司根据中期票据计划进行发行并由全资子公司提供担保的公告",
+      "summary": "债券融资",
+      "publish_date": "2026-02-26",
+      "available_at": "2026-02-26T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "第三届董事会第二十一次会议决议公告",
+      "summary": "",
+      "publish_date": "2026-03-07",
+      "available_at": "2026-03-07T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "H股市场公告：截至2026年2月28日止月份之股份發行人的證券變動月報表",
+      "summary": "",
+      "publish_date": "2026-03-07",
+      "available_at": "2026-03-07T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "中信建投证券股份有限公司2026年第一次临时股东会会议资料",
+      "summary": "",
+      "publish_date": "2026-03-12",
+      "available_at": "2026-03-12T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "H股市场公告：董事會會議通告",
+      "summary": "",
+      "publish_date": "2026-03-12",
+      "available_at": "2026-03-12T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "57家券商登上公募代销百强榜，指数基金成突破口，中信、华泰、国泰海通居前三",
+      "summary": "中国银河（601881.SH）指数基金规模从563亿元增至726亿元，招商证券（600999.SH）从659亿元增至732亿元，中信建投证券（601066.SH）从455亿元增至564亿元。",
+      "publish_date": "2026-03-17",
+      "available_at": "2026-03-17T15:00:48",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "36.33亿元主力资金今日抢筹非银金融板块",
+      "summary": "国金证券 0.57 0.96 3193.37 000750 国海证券 0.25 1.28 3129.51 601788 光大证券 0.56 0.68 2997.06 600999 招商证券 1.01 0.81 2953.56 001236 弘业期货 2.86 5.53 2854.27 601066",
+      "publish_date": "2026-03-17",
+      "available_at": "2026-03-17T17:23:34",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 0,
+  "hot_reason": "",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

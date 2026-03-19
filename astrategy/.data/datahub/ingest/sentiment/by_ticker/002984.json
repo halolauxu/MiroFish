@@ -1,0 +1,58 @@
+{
+  "ticker": "002984",
+  "company_name": "森麒麟",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "news",
+      "title": "225只股中线走稳 站上半年线",
+      "summary": "4.95 0.93 4.06 4.24 4.33 603939 益丰药房 4.96 1.49 23.74 24.76 4.30 002459 晶澳科技 6.81 6.20 12.52 13.02 4.02 000709 河钢股份 4.12 1.67 2.44 2.53 3.89 002984",
+      "publish_date": "2026-02-04",
+      "available_at": "2026-02-04T16:46:03",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "今日126只股长线走稳 站上年线",
+      "summary": "3.87 2.43 17.07 17.72 3.80 603429 集友股份 8.32 5.15 9.55 9.90 3.69 600162 香江控股 3.80 1.98 1.84 1.91 3.60 600566 济川药业 4.20 0.72 25.92 26.77 3.28 002984",
+      "publish_date": "2026-02-04",
+      "available_at": "2026-02-04T16:46:06",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "关于公司高级管理人员退休离任的公告",
+      "summary": "",
+      "publish_date": "2026-02-28",
+      "available_at": "2026-02-28T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "森麒麟：公司摩洛哥工厂目前正有序爬坡放量",
+      "summary": "森麒麟（002984.SZ）3月3日在投资者互动平台表示，公司积极搭建畅通的投资者交流渠道，与全体投资者保持良好沟通。公司摩洛哥工厂目前正有序爬坡放量，2026年有望成为助推公司发展的强劲引擎。",
+      "publish_date": "2026-03-03",
+      "available_at": "2026-03-03T15:20:14",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 0,
+  "hot_reason": "",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

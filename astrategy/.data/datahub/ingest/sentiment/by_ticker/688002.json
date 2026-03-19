@@ -1,0 +1,58 @@
+{
+  "ticker": "688002",
+  "company_name": "睿创微纳",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "filing",
+      "title": "2025年度业绩快报公告",
+      "summary": "业绩预告",
+      "publish_date": "2026-02-28",
+      "available_at": "2026-02-28T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "业绩公告",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "科创板高价股排行榜",
+      "summary": "国防军工 688275 万润新能 105.95 -8.62 9.14 电力设备 688691 灿芯股份 104.25 -4.37 5.88 电子 688356 键凯科技 102.60 -0.05 1.28 医药生物 688629 华丰科技 102.10 -4.62 7.31 国防军工 688002",
+      "publish_date": "2026-03-17",
+      "available_at": "2026-03-17T17:49:51",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "融资客大幅净买入的科创板股（附股）",
+      "summary": "44749.20 1216.70 2.79 -6.47 688566 吉贝尔 19060.70 1210.08 6.78 -1.64 688627 精智达 81301.15 1195.64 1.49 -1.08 688280 精进电动 22373.94 1166.40 5.50 -6.49 688002",
+      "publish_date": "2026-03-18",
+      "available_at": "2026-03-18T09:52:44",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "94只科创板股票跻身百元股阵营",
+      "summary": "1.14 电力设备 688353 华盛锂电 108.31 -1.96 3.58 电力设备 688652 京仪装备 108.16 1.71 1.68 电子 688981 中芯国际 106.60 0.55 1.32 电子 688691 灿芯股份 106.38 2.04 5.20 电子 688002",
+      "publish_date": "2026-03-18",
+      "available_at": "2026-03-18T17:56:17",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 0,
+  "hot_reason": "",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

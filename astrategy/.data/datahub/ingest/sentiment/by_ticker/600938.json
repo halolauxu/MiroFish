@@ -1,0 +1,94 @@
+{
+  "ticker": "600938",
+  "company_name": "中国海油",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "news",
+      "title": "历史首次！600028、601857、600938，集体涨停",
+      "summary": "石油板块全线爆发，市值超2万亿的中国石油（601857）罕见涨停，中国海油（600938）、中国石化（600028）均涨停，这是也“三桶油”历史首次集体报收涨停；银行板块上扬，农业银行、建设银行、工商银行、中国银行等齐拉升；有色板块再度活跃，黄金概念等表现亮眼，四川黄金、湖南黄金等午后涨停",
+      "publish_date": "2026-03-02",
+      "available_at": "2026-03-02T16:20:48",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "中国海洋石油有限公司关于2025年度“提质增效重回报”行动方案的半年度评估报告",
+      "summary": "",
+      "publish_date": "2026-03-03",
+      "available_at": "2026-03-03T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "中国海油600938龙虎榜数据03-03",
+      "summary": "交易所2026年3月3日公布的交易公开信息显示，中国海油因成为非ST、*ST和S证券连续三个交易日内收盘价格涨幅偏离值累计达到20%的证券上榜。中国海油当日收报43.41元，涨跌幅10.01%，换手率8.47%，成交额108.37亿。异常期间3月2日至3月3日，期间涨幅21.02%",
+      "publish_date": "2026-03-03",
+      "available_at": "2026-03-03T16:58:03",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "中国海洋石油有限公司股票交易异常波动公告",
+      "summary": "",
+      "publish_date": "2026-03-04",
+      "available_at": "2026-03-04T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "中国海洋石油有限公司关于实际控制人增持公司股份进展的公告",
+      "summary": "股权变动",
+      "publish_date": "2026-03-05",
+      "available_at": "2026-03-05T00:00:00",
+      "sentiment_score": 0.78,
+      "category": "股权变动",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "hot_topic",
+      "title": "中国海油",
+      "summary": "雪球讨论#121; 雪球交易#22",
+      "publish_date": "2026-03-19",
+      "available_at": "2026-03-19T00:00:00",
+      "sentiment_score": 0.12,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.25,
+      "hot_rank": 80
+    },
+    {
+      "source_type": "news",
+      "title": "1月5日以来首次！沪指盘中一度失守4000点，后市将会怎么走？",
+      "summary": "其中，首华燃气（300483.SZ）涨超10%，通源石油（300164.SZ）、洲际油气（600759.SH）、中国海油（600938.SH）等多股上涨。",
+      "publish_date": "2026-03-19",
+      "available_at": "2026-03-19T16:07:30",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 80,
+  "hot_reason": "雪球讨论#121; 雪球交易#22",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

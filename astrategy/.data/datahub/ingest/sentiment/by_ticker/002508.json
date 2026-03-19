@@ -1,0 +1,58 @@
+{
+  "ticker": "002508",
+  "company_name": "老板电器",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "news",
+      "title": "老板电器在AWE2026上发布全球首款AI烹饪眼镜",
+      "summary": "人民财讯3月12日电，3月12日，老板电器002508在2026年中国家电及消费电子博览会（简称“AWE2026”）上正式发布全球首款AI烹饪眼镜。",
+      "publish_date": "2026-03-12",
+      "available_at": "2026-03-12T16:35:43",
+      "sentiment_score": 0.0,
+      "category": "产品进展",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "老板电器多款AI新产品首发亮相AWE",
+      "summary": "3月12日，2026年中国家电及消费电子博览会（简称“AWE2026”）正式开幕，国内厨电领域龙头企业老板电器002508在本届AWE上携多款AI新产品首发亮相，包括全球首款AI烹饪眼镜和全球首创AI全自动蒸烤一体机等。",
+      "publish_date": "2026-03-13",
+      "available_at": "2026-03-13T18:47:10",
+      "sentiment_score": 0.18,
+      "category": "产品进展",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "老板电器联合中国房地产业协会等共同发布《高品质住宅厨房工程技术标准》",
+      "summary": "3月13日，在2026年中国家电及消费电子博览会（AWE）现场，老板电器002508在“高品质厨房生态共建”高峰论坛上，与中国房地产业协会、中国建筑标准设计研究院共同发布《高品质住宅厨房工程技术标准》。",
+      "publish_date": "2026-03-14",
+      "available_at": "2026-03-14T16:47:49",
+      "sentiment_score": 0.0,
+      "category": "产品进展",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "hot_topic",
+      "title": "老板电器",
+      "summary": "雪球关注#67",
+      "publish_date": "2026-03-19",
+      "available_at": "2026-03-19T00:00:00",
+      "sentiment_score": 0.08,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.25,
+      "hot_rank": 164
+    }
+  ],
+  "hot_rank": 164,
+  "hot_reason": "雪球关注#67",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

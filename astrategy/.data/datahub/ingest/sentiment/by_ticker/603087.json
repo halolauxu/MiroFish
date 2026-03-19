@@ -1,0 +1,118 @@
+{
+  "ticker": "603087",
+  "company_name": "甘李药业",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "filing",
+      "title": "关于变更保荐代表人的公告",
+      "summary": "",
+      "publish_date": "2026-02-25",
+      "available_at": "2026-02-25T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "关于赖脯胰岛素注射液（Bysumlog?）及门冬胰岛素注射液（Dazparda?）上市许可申请（MAA）获得欧盟CHMP积极意见的公告",
+      "summary": "",
+      "publish_date": "2026-02-27",
+      "available_at": "2026-02-27T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "甘李药业：获批开展GLR2037片临床试验 治疗晚期前列腺癌",
+      "summary": "3月2日，甘李药业（603087）发布公告，近日收到国家药品监督管理局下发的关于在研药品GLR2037片的《药物临床试验批准通知书》，受理号为CXHL2600098、CXHL2600099，通知书编号为2026LP00526、2026LP00527。",
+      "publish_date": "2026-03-02",
+      "available_at": "2026-03-02T18:00:35",
+      "sentiment_score": 0.0,
+      "category": "产品进展",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "关于获得《药物临床试验批准通知书》的公告",
+      "summary": "",
+      "publish_date": "2026-03-03",
+      "available_at": "2026-03-03T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "甘李药业：在研药品GLR2037片获临床试验批准 拟用于治疗晚期前列腺癌",
+      "summary": "中证智能财讯甘李药业（603087）3月3日公告，公司近日收到国家药品监督管理局下发的关于在研药品GLR2037片的《药物临床试验批准通知书》。GLR2037片是公司自主研发的蛋白降解靶向嵌合体（AR PROTAC）1类化学新药，拟用于治疗晚期前列腺癌。",
+      "publish_date": "2026-03-03",
+      "available_at": "2026-03-03T15:53:10",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "甘李药业聘王琦为财务负责人兼副总",
+      "summary": "甘李药业（603087）发布公告，公司于2026年3月6日召开董事会，决定聘任王琦为公司财务负责人兼副总经理，任期自董事会决议通过之日起至第五届董事会任期届满。 王琦具备担任高级管理人员的资格，符合相关法律法规及公司章程的要求。",
+      "publish_date": "2026-03-06",
+      "available_at": "2026-03-06T19:15:27",
+      "sentiment_score": 0.0,
+      "category": "产品进展",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "第五届董事会第七次会议决议公告",
+      "summary": "",
+      "publish_date": "2026-03-07",
+      "available_at": "2026-03-07T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "关于聘任高级管理人员的公告",
+      "summary": "",
+      "publish_date": "2026-03-07",
+      "available_at": "2026-03-07T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "关于使用闲置自有资金进行现金管理的公告",
+      "summary": "",
+      "publish_date": "2026-03-07",
+      "available_at": "2026-03-07T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 0,
+  "hot_reason": "",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

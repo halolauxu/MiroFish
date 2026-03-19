@@ -1,0 +1,94 @@
+{
+  "ticker": "600369",
+  "company_name": "西南证券",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "news",
+      "title": "西南证券：拟定增募资不超过60亿元 全部用于补充资本金",
+      "summary": "每经AI快讯，2月13日，西南证券600369.SH)公告称，公司拟向包括重庆渝富控股集团及其一致行动人重庆水务环境控股集团在内的特定对象发行A股股票，募集资金总额不超过60亿元，扣除发行费用后拟全部用于补充公司资本金，具体用于财富管理业务、投资银行业务、资产管理业务、证券投资业务",
+      "publish_date": "2026-02-13",
+      "available_at": "2026-02-13T18:04:32",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "西南证券：拟定增募资不超60亿元 用于补充公司资本金",
+      "summary": "人民财讯2月13日电，西南证券6003692月13日公告，公司拟向特定对象发行A股股票募集资金总额不超过60亿元。前述资金将全部用于补充公司资本金，优化资本结构，加快相关业务发展。",
+      "publish_date": "2026-02-13",
+      "available_at": "2026-02-13T18:06:39",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "西南证券股份有限公司2026年第一次临时股东会会议材料",
+      "summary": "",
+      "publish_date": "2026-02-28",
+      "available_at": "2026-02-28T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "西南证券股份有限公司关于控股股东变更进展情况的公告",
+      "summary": "",
+      "publish_date": "2026-03-07",
+      "available_at": "2026-03-07T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "西南证券股份有限公司关于向特定对象发行A股股票相关事项获得重庆市国有资产监督管理委员会批复的公告",
+      "summary": "增发融资",
+      "publish_date": "2026-03-07",
+      "available_at": "2026-03-07T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "西南证券股份有限公司2026年第一次临时股东会决议公告",
+      "summary": "",
+      "publish_date": "2026-03-10",
+      "available_at": "2026-03-10T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "上游直击股东会｜西南证券通过定增方案 渝股筹划定增已超183亿元",
+      "summary": "2026年3月9日，西南证券（600369）在重庆召开2026年第一次临时股东会，高票通过了各项议案，拟向包括公司间接控股股东渝富控股及其一致行动人重庆水务环境集团在内的不超过35名（含）特定对象发行不超过19.94亿股股票，募集资金不超过60亿元。",
+      "publish_date": "2026-03-10",
+      "available_at": "2026-03-10T22:15:20",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 0,
+  "hot_reason": "",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

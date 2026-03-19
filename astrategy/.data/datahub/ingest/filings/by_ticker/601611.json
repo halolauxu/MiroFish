@@ -1,0 +1,53 @@
+[
+  {
+    "ticker": "601611",
+    "company_name": "中国核建",
+    "title": "中国核建股东减持股份结果公告",
+    "announcement_type": "股权变动",
+    "publish_date": "2026-02-25",
+    "publish_time": "2026-02-25",
+    "link": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=601611&announcementId=1224983614&orgId=9900028774&announcementTime=2026-02-25",
+    "source": "cninfo.disclosure_report",
+    "raw": {
+      "代码": "601611",
+      "简称": "中国核建",
+      "公告标题": "中国核建股东减持股份结果公告",
+      "公告时间": "2026-02-25",
+      "公告链接": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=601611&announcementId=1224983614&orgId=9900028774&announcementTime=2026-02-25"
+    }
+  },
+  {
+    "ticker": "601611",
+    "company_name": "中国核建",
+    "title": "中国核建关于经营情况简报的公告",
+    "announcement_type": "",
+    "publish_date": "2026-03-14",
+    "publish_time": "2026-03-14",
+    "link": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=601611&announcementId=1225009029&orgId=9900028774&announcementTime=2026-03-14",
+    "source": "cninfo.disclosure_report",
+    "raw": {
+      "代码": "601611",
+      "简称": "中国核建",
+      "公告标题": "中国核建关于经营情况简报的公告",
+      "公告时间": "2026-03-14",
+      "公告链接": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=601611&announcementId=1225009029&orgId=9900028774&announcementTime=2026-03-14"
+    }
+  },
+  {
+    "ticker": "601611",
+    "company_name": "中国核建",
+    "title": "中国核建关于非公开发行股票募投项目结项并将节余募集资金永久补充流动资金的公告",
+    "announcement_type": "增发融资",
+    "publish_date": "2026-03-14",
+    "publish_time": "2026-03-14",
+    "link": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=601611&announcementId=1225009032&orgId=9900028774&announcementTime=2026-03-14",
+    "source": "cninfo.disclosure_report",
+    "raw": {
+      "代码": "601611",
+      "简称": "中国核建",
+      "公告标题": "中国核建关于非公开发行股票募投项目结项并将节余募集资金永久补充流动资金的公告",
+      "公告时间": "2026-03-14",
+      "公告链接": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=601611&announcementId=1225009032&orgId=9900028774&announcementTime=2026-03-14"
+    }
+  }
+]

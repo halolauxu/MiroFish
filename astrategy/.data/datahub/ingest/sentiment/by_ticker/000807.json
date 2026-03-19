@@ -1,0 +1,58 @@
+{
+  "ticker": "000807",
+  "company_name": "云铝股份",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "filing",
+      "title": "云南铝业股份有限公司关于公司副总经理离任的公告",
+      "summary": "",
+      "publish_date": "2026-02-28",
+      "available_at": "2026-02-28T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "云铝股份：公司氧化铝根据公司生产需要按市场价格正常采购，维持合理安全库存",
+      "summary": "每经AI快讯，云铝股份（000807.SZ）3月11日在投资者互动平台表示，公司氧化铝根据公司生产需要按市场价格正常采购，维持合理安全库存。",
+      "publish_date": "2026-03-11",
+      "available_at": "2026-03-11T09:44:50",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "有色金属行业今日净流出资金34.49亿元，赣锋锂业等16股净流出资金超亿元",
+      "summary": "12704.78 002716 湖南白银 -1.13 4.80 -12687.82 000630 铜陵有色 -1.37 2.58 -11956.95 000878 云南铜业 -1.63 2.53 -11545.65 000408 藏格矿业 -3.13 1.19 -11398.18 000807",
+      "publish_date": "2026-03-18",
+      "available_at": "2026-03-18T17:06:48",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "解密主力资金出逃股 连续5日净流出806股",
+      "summary": "6.15 7.02 -21.16 301291 明阳电气 6 6.04 9.16 -17.56 603588 高能环境 5 6.03 8.05 -11.42 600021 上海电力 5 5.72 12.88 -8.28 000603 盛达资源 7 5.72 8.91 -17.78 000807",
+      "publish_date": "2026-03-19",
+      "available_at": "2026-03-19T18:05:45",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 0,
+  "hot_reason": "",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

@@ -1,0 +1,118 @@
+{
+  "ticker": "002938",
+  "company_name": "鹏鼎控股",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "filing",
+      "title": "鹏鼎控股（深圳）股份有限公司2026年2月营业收入简报",
+      "summary": "",
+      "publish_date": "2026-03-07",
+      "available_at": "2026-03-07T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "鹏鼎控股（深圳）股份有限公司第三届董事会第二十四次会议决议公告",
+      "summary": "",
+      "publish_date": "2026-03-13",
+      "available_at": "2026-03-13T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "鹏鼎控股（深圳）股份有限公司关于申请银行授信额度的公告",
+      "summary": "",
+      "publish_date": "2026-03-13",
+      "available_at": "2026-03-13T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "鹏鼎控股（深圳）股份有限公司2025年度业绩快报",
+      "summary": "业绩预告",
+      "publish_date": "2026-03-13",
+      "available_at": "2026-03-13T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "业绩公告",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "鹏鼎控股：全资子公司拟110亿元投建高端PCB项目生产基地",
+      "summary": "鹏鼎控股002938.SZ)公告称，公司全资子公司庆鼎精密与淮安经济技术开发区管理委员会签署投资协议，计划投资110亿元建设高端PCB项目生产基地。",
+      "publish_date": "2026-03-17",
+      "available_at": "2026-03-17T19:43:31",
+      "sentiment_score": 0.0,
+      "category": "重大合同",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "002938 110亿元投建PCB项目",
+      "summary": "继沪电股份3月初公告拟出资55亿元新建PCB项目后，行业龙头鹏鼎控股（002938）再抛出超百亿元扩产计划。",
+      "publish_date": "2026-03-17",
+      "available_at": "2026-03-17T23:30:47",
+      "sentiment_score": 0.24,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "鹏鼎控股（深圳）股份有限公司第三届董事会第二十五次会议决议公告",
+      "summary": "",
+      "publish_date": "2026-03-18",
+      "available_at": "2026-03-18T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "鹏鼎控股（深圳）股份有限公司关于全资子公司庆鼎精密与淮安经济技术开发区签署投资协议的公告",
+      "summary": "",
+      "publish_date": "2026-03-18",
+      "available_at": "2026-03-18T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "重大合同",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "早新闻｜002938，拟110亿元投建高端PCB项目生产基地",
+      "summary": "公司新闻 鹏鼎控股（002938）：全资子公司拟110亿元投建高端PCB项目生产基地。 豪能股份：拟4亿元投建汽车差速器总成生产基地建设项目二期工程。 中复神鹰：碳纤维新品预计不会对公司2026年经营业绩产生影响。",
+      "publish_date": "2026-03-18",
+      "available_at": "2026-03-18T07:47:57",
+      "sentiment_score": 0.22,
+      "category": "业绩公告",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 0,
+  "hot_reason": "",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

@@ -1,0 +1,58 @@
+{
+  "ticker": "603728",
+  "company_name": "鸣志电器",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "news",
+      "title": "解密主力资金出逃股 连续5日净流出543股",
+      "summary": "光大银行 6 3.37 6.98 -3.15 600755 厦门国贸 7 3.36 7.08 -2.52 601319 中国人保 5 3.35 6.76 -3.06 600730 中国高科 6 3.30 9.55 -7.52 600619 海立股份 6 3.24 6.53 -3.63 603728",
+      "publish_date": "2026-01-15",
+      "available_at": "2026-01-15T17:05:35",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "减速器概念上涨2.63%，11股主力资金净流入超亿元",
+      "summary": "603638 艾迪精密 9.98 1.95 7764.82 23.33 688556 高测股份 5.40 9.03 7027.65 6.58 301368 丰立智能 4.78 17.63 6852.56 8.60 002472 双环传动 3.65 4.30 6815.27 4.56 603728",
+      "publish_date": "2026-01-16",
+      "available_at": "2026-01-16T16:37:23",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "电力设备行业资金流出榜：宁德时代等36股净流出资金超亿元",
+      "summary": "0.37 4.73 5939.81 002951 金时科技 9.99 8.99 5057.92 600580 卧龙电驱 1.20 3.09 4519.94 300438 鹏辉能源 -1.14 4.09 4230.21 688660 电气风电 0.86 1.47 3713.49 603728",
+      "publish_date": "2026-02-13",
+      "available_at": "2026-02-13T17:16:58",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "鸣志电器2026年第一次临时股东会决议公告",
+      "summary": "",
+      "publish_date": "2026-02-28",
+      "available_at": "2026-02-28T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 0,
+  "hot_reason": "",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

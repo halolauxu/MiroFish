@@ -1,0 +1,53 @@
+[
+  {
+    "ticker": "300999",
+    "company_name": "金龙鱼",
+    "title": "2025年度业绩快报",
+    "announcement_type": "业绩预告",
+    "publish_date": "2026-02-26",
+    "publish_time": "2026-02-26 18:14:12",
+    "link": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=300999&announcementId=1224985822&orgId=9900039967&announcementTime=2026-02-26 18:14:12",
+    "source": "cninfo.disclosure_report",
+    "raw": {
+      "代码": "300999",
+      "简称": "金龙鱼",
+      "公告标题": "2025年度业绩快报",
+      "公告时间": "2026-02-26 18:14:12",
+      "公告链接": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=300999&announcementId=1224985822&orgId=9900039967&announcementTime=2026-02-26 18:14:12"
+    }
+  },
+  {
+    "ticker": "300999",
+    "company_name": "金龙鱼",
+    "title": "关于会计政策变更的公告",
+    "announcement_type": "",
+    "publish_date": "2026-02-26",
+    "publish_time": "2026-02-26 18:14:12",
+    "link": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=300999&announcementId=1224985824&orgId=9900039967&announcementTime=2026-02-26 18:14:12",
+    "source": "cninfo.disclosure_report",
+    "raw": {
+      "代码": "300999",
+      "简称": "金龙鱼",
+      "公告标题": "关于会计政策变更的公告",
+      "公告时间": "2026-02-26 18:14:12",
+      "公告链接": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=300999&announcementId=1224985824&orgId=9900039967&announcementTime=2026-02-26 18:14:12"
+    }
+  },
+  {
+    "ticker": "300999",
+    "company_name": "金龙鱼",
+    "title": "第三届董事会第十一次会议决议公告",
+    "announcement_type": "",
+    "publish_date": "2026-02-26",
+    "publish_time": "2026-02-26 18:14:12",
+    "link": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=300999&announcementId=1224985823&orgId=9900039967&announcementTime=2026-02-26 18:14:12",
+    "source": "cninfo.disclosure_report",
+    "raw": {
+      "代码": "300999",
+      "简称": "金龙鱼",
+      "公告标题": "第三届董事会第十一次会议决议公告",
+      "公告时间": "2026-02-26 18:14:12",
+      "公告链接": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=300999&announcementId=1224985823&orgId=9900039967&announcementTime=2026-02-26 18:14:12"
+    }
+  }
+]

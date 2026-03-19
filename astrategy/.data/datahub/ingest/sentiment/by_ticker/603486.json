@@ -1,0 +1,46 @@
+{
+  "ticker": "603486",
+  "company_name": "科沃斯",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "news",
+      "title": "科沃斯首款AI仿生陪伴宠物“毛团儿”亮相AWE",
+      "summary": "3月12日，科沃斯（603486.SH）在中国家电及消费电子博览会（AWE 2026）上正式推出旗下首款AI仿生陪伴宠物机器人“毛团儿”，并同步在天猫旗舰店开启销售。 这只“毛团儿”究竟陪伴效果如何？",
+      "publish_date": "2026-03-12",
+      "available_at": "2026-03-12T19:09:30",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "直击AWE2026：AI改变家庭，家电正在变成机器人",
+      "summary": "时代财经注意到，多家企业的“一把手”都亲自来到AWE现场，创维集团（00751.HK）创始人黄宏生、科沃斯集团（603486.SH）董事长钱东奇、追觅科技创始人兼CEO俞浩、MOVA全球总裁李飞等都亲临现场，或亲自下场宣传，或组织探展活动。",
+      "publish_date": "2026-03-13",
+      "available_at": "2026-03-13T23:49:26",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "滴滴美团等下注：地瓜机器人“甜”在哪",
+      "summary": "商业上，其旭日系列芯片已应用于科沃斯（603486.SH）、云鲸等品牌的扫地机器人中，累计出货量超过500万片，并助力云鲸、影石创新（688775.SH）Insta360等打造了多款产品。",
+      "publish_date": "2026-03-16",
+      "available_at": "2026-03-16T15:42:34",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 0,
+  "hot_reason": "",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

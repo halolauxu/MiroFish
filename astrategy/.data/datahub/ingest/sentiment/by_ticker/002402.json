@@ -1,0 +1,70 @@
+{
+  "ticker": "002402",
+  "company_name": "和而泰",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "filing",
+      "title": "关于实际控制人部分股份解除质押的公告",
+      "summary": "",
+      "publish_date": "2026-03-07",
+      "available_at": "2026-03-07T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "关于为控股子公司提供担保的进展公告",
+      "summary": "",
+      "publish_date": "2026-03-12",
+      "available_at": "2026-03-12T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "解密主力资金出逃股 连续5日净流出736股",
+      "summary": "8.16 3.87 -7.23 603501 豪威集团 5 8.11 14.44 -4.52 000592 平潭发展 5 8.04 8.00 -9.90 600392 盛和资源 7 8.03 7.03 -14.00 301526 国际复材 5 7.99 8.95 -12.55 002402",
+      "publish_date": "2026-03-17",
+      "available_at": "2026-03-17T17:25:25",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "解密主力资金出逃股 连续5日净流出675股",
+      "summary": "9.42 5.89 -20.08 600346 恒力石化 13 9.40 4.68 -10.89 002230 科大讯飞 7 9.31 7.72 -3.59 603501 豪威集团 6 9.29 13.34 -5.08 600108 亚盛集团 5 8.66 7.74 -14.61 002402",
+      "publish_date": "2026-03-18",
+      "available_at": "2026-03-18T17:07:22",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "解密主力资金出逃股 连续5日净流出806股",
+      "summary": "9.94 10.29 -19.33 600346 恒力石化 14 9.66 4.46 -17.20 600108 亚盛集团 6 9.43 7.72 -19.48 603077 和邦生物 5 9.34 9.80 -15.02 002179 中航光电 5 9.14 13.10 -8.52 002402",
+      "publish_date": "2026-03-19",
+      "available_at": "2026-03-19T18:05:45",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 0,
+  "hot_reason": "",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

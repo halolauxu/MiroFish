@@ -1,0 +1,70 @@
+{
+  "ticker": "600415",
+  "company_name": "小商品城",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "filing",
+      "title": "第十届董事会第二次会议决议公告",
+      "summary": "",
+      "publish_date": "2026-03-02",
+      "available_at": "2026-03-02T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "关于聘任公司副总经理的公告",
+      "summary": "",
+      "publish_date": "2026-03-02",
+      "available_at": "2026-03-02T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "小商品城：目前市场商户出口至中东地区的物流渠道正逐步恢复",
+      "summary": "每经AI快讯，小商品城6004153月13日在互动平台表示，目前市场商户出口至中东地区的物流渠道正逐步恢复。",
+      "publish_date": "2026-03-13",
+      "available_at": "2026-03-13T16:35:12",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "小商品城：目前市场商户出口至中东地区的物流渠道正逐步恢复",
+      "summary": "人民财讯3月13日电，小商品城6004153月13日在互动平台表示，目前市场商户出口至中东地区的物流渠道正逐步恢复。",
+      "publish_date": "2026-03-13",
+      "available_at": "2026-03-13T16:38:28",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "小商品城：全球数贸中心T3T7写字楼已于2025年底完成交付",
+      "summary": "小商品城（600415.SH）3月13日在投资者互动平台表示，全球数贸中心T3T7写字楼已于2025年底完成交付。",
+      "publish_date": "2026-03-13",
+      "available_at": "2026-03-13T17:39:54",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 0,
+  "hot_reason": "",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

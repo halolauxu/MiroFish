@@ -1,0 +1,53 @@
+[
+  {
+    "ticker": "601127",
+    "company_name": "赛力斯",
+    "title": "2026年2月份产销快报",
+    "announcement_type": "",
+    "publish_date": "2026-03-03",
+    "publish_time": "2026-03-03",
+    "link": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=601127&announcementId=1224992451&orgId=9900024265&announcementTime=2026-03-03",
+    "source": "cninfo.disclosure_report",
+    "raw": {
+      "代码": "601127",
+      "简称": "赛力斯",
+      "公告标题": "2026年2月份产销快报",
+      "公告时间": "2026-03-03",
+      "公告链接": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=601127&announcementId=1224992451&orgId=9900024265&announcementTime=2026-03-03"
+    }
+  },
+  {
+    "ticker": "601127",
+    "company_name": "赛力斯",
+    "title": "H股公告（股份发行人及根据《上市规则》第十九B章上市的香港预托证券发行人的证券变动月报表）",
+    "announcement_type": "",
+    "publish_date": "2026-03-03",
+    "publish_time": "2026-03-03",
+    "link": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=601127&announcementId=1224992455&orgId=9900024265&announcementTime=2026-03-03",
+    "source": "cninfo.disclosure_report",
+    "raw": {
+      "代码": "601127",
+      "简称": "赛力斯",
+      "公告标题": "H股公告（股份发行人及根据《上市规则》第十九B章上市的香港预托证券发行人的证券变动月报表）",
+      "公告时间": "2026-03-03",
+      "公告链接": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=601127&announcementId=1224992455&orgId=9900024265&announcementTime=2026-03-03"
+    }
+  },
+  {
+    "ticker": "601127",
+    "company_name": "赛力斯",
+    "title": "H股公告（董事会会议召开日期）",
+    "announcement_type": "",
+    "publish_date": "2026-03-19",
+    "publish_time": "2026-03-19",
+    "link": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=601127&announcementId=1225016396&orgId=9900024265&announcementTime=2026-03-19",
+    "source": "cninfo.disclosure_report",
+    "raw": {
+      "代码": "601127",
+      "简称": "赛力斯",
+      "公告标题": "H股公告（董事会会议召开日期）",
+      "公告时间": "2026-03-19",
+      "公告链接": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=601127&announcementId=1225016396&orgId=9900024265&announcementTime=2026-03-19"
+    }
+  }
+]

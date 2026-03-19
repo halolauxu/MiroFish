@@ -1,0 +1,46 @@
+{
+  "ticker": "600809",
+  "company_name": "山西汾酒",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "news",
+      "title": "食品饮料行业今日涨1.99%，主力资金净流入15.49亿元",
+      "summary": "山西汾酒 0.94 0.45 1673.30 600600 青岛啤酒 0.65 1.03 1648.71 600702 舍得酒业 2.13 2.53 1505.50 603919 金徽酒 3.35 3.96 1445.29 600298 安琪酵母 -2.71 1.06 1406.07",
+      "publish_date": "2026-03-16",
+      "available_at": "2026-03-16T17:13:27",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "食品饮料行业3月17日资金流向日报",
+      "summary": "山西汾酒 0.00 0.41 -944.57",
+      "publish_date": "2026-03-17",
+      "available_at": "2026-03-17T17:23:55",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "食品饮料行业今日净流出资金9.13亿元，贵州茅台等5股净流出资金超5000万元",
+      "summary": "山西汾酒 -1.60 0.28 -4538.76 603027 千禾味业 -5.71 2.91 -4095.88 000568 泸州老窖 -1.18 0.39 -3796.22 000995 皇台酒业 -4.11 16.49 -3000.02 600073 光明肉业 -5.67",
+      "publish_date": "2026-03-18",
+      "available_at": "2026-03-18T17:06:45",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 0,
+  "hot_reason": "",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

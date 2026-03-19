@@ -1,0 +1,58 @@
+{
+  "ticker": "601117",
+  "company_name": "中国化学",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "filing",
+      "title": "中国化学关于高级管理人员退休离任的公告",
+      "summary": "",
+      "publish_date": "2026-02-27",
+      "available_at": "2026-02-27T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "56.01亿元资金今日流出建筑装饰股",
+      "summary": "（万元） 601669 中国电建 -10.01 14.62 -368341.85 601868 中国能建 -8.29 9.65 -95543.88 601611 中国核建 -6.82 9.64 -87097.53 601668 中国建筑 -1.17 0.75 -22483.03 601117",
+      "publish_date": "2026-03-16",
+      "available_at": "2026-03-16T17:13:34",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "解密主力资金出逃股 连续5日净流出675股",
+      "summary": "5.57 3.03 -15.60 301291 明阳电气 5 5.50 9.08 -14.19 300115 长盈精密 6 5.50 7.85 -7.33 601212 白银有色 6 5.44 6.97 -12.86 300346 南大光电 6 5.34 7.33 -6.19 601117",
+      "publish_date": "2026-03-18",
+      "available_at": "2026-03-18T17:07:22",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "解密主力资金出逃股 连续5日净流出806股",
+      "summary": "6.92 7.46 -14.71 002126 银轮股份 9 6.76 5.69 -18.98 300118 东方日升 7 6.63 6.77 -11.81 002276 万马股份 15 6.62 8.29 -17.52 002639 雪人集团 12 6.52 3.36 -20.62 601117",
+      "publish_date": "2026-03-19",
+      "available_at": "2026-03-19T18:05:45",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 0,
+  "hot_reason": "",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

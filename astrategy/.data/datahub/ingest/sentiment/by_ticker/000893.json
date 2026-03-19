@@ -1,0 +1,58 @@
+{
+  "ticker": "000893",
+  "company_name": "亚钾国际",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "filing",
+      "title": "关于持股5%以上股东股份减持计划实施完成的公告",
+      "summary": "股权变动",
+      "publish_date": "2026-02-27",
+      "available_at": "2026-02-27T00:00:00",
+      "sentiment_score": -0.78,
+      "category": "股权变动",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "基础化工行业资金流入榜：红宝丽等15股净流入资金超亿元",
+      "summary": "主力资金流量（万元） 600309 万华化学 -2.42 1.57 -43859.04 603077 和邦生物 -1.50 12.59 -34896.69 000420 吉林化纤 -3.98 23.08 -22004.11 000510 新金路 -7.93 11.29 -17700.31 000893",
+      "publish_date": "2026-03-13",
+      "available_at": "2026-03-13T16:38:43",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "基础化工行业资金流出榜：万华化学等17股净流出资金超亿元",
+      "summary": "16508.91 601208 东材科技 -1.30 6.33 -15800.21 600141 兴发集团 -8.51 4.33 -14505.22 002440 闰土股份 -4.03 7.97 -13766.89 002455 百川股份 -3.27 37.67 -13031.36 000893",
+      "publish_date": "2026-03-16",
+      "available_at": "2026-03-16T17:12:19",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "57.58亿元资金今日流出基础化工股",
+      "summary": "1.50 2.29 10023.55 002109 兴化股份 10.00 6.10 9842.35 002001 新和成 -2.17 1.66 7617.01 600299 安迪苏 1.21 1.54 6396.99 000990 诚志股份 -8.25 14.14 6162.42 000893",
+      "publish_date": "2026-03-19",
+      "available_at": "2026-03-19T18:05:40",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 0,
+  "hot_reason": "",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

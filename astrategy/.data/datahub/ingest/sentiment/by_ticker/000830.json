@@ -1,0 +1,58 @@
+{
+  "ticker": "000830",
+  "company_name": "鲁西化工",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "news",
+      "title": "鲁西化工：近期部分化工产品价格上涨明显 公司根据行情变化及时联动调整",
+      "summary": "人民财讯3月12日电，鲁西化工0008303月12日与机构现场交流时表示，受国际局势变化、石油价格剧烈波动、同行企业及下游企业开工率、上下游需求变化等因素影响，公司第一季度化工产品价格变化涨跌不一，近期部分化工产品价格上涨明显，公司根据市场行情变化，及时联动调整，把握市场机会，",
+      "publish_date": "2026-03-12",
+      "available_at": "2026-03-12T19:25:07",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "关于公司高级管理人员离任的公告",
+      "summary": "",
+      "publish_date": "2026-03-14",
+      "available_at": "2026-03-14T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "117家公司获机构调研（附名单）",
+      "summary": "13.99 -0.43 基础化工 002046 国机精工 1 3 47.71 -9.30 机械设备 601089 福元医药 1 3 23.58 -2.96 医药生物 000524 岭南控股 1 2 13.25 - 社会服务 000531 穗恒运A 1 2 6.98 -1.69 公用事业 000830",
+      "publish_date": "2026-03-18",
+      "available_at": "2026-03-18T09:15:33",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "113家公司获机构调研（附名单）",
+      "summary": "39.04 -0.79 汽车 688785 恒运昌 1 3 309.50 -6.55 电子 301103 何氏眼科 1 2 21.28 -0.37 医药生物 300515 三德科技 1 2 19.16 -4.30 机械设备 002753 永东股份 1 2 7.87 -1.38 基础化工 000830",
+      "publish_date": "2026-03-19",
+      "available_at": "2026-03-19T09:15:59",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 0,
+  "hot_reason": "",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

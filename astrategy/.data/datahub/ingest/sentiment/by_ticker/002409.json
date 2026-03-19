@@ -1,0 +1,58 @@
+{
+  "ticker": "002409",
+  "company_name": "雅克科技",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "news",
+      "title": "磷化工概念涨0.67%，主力资金净流入这些股",
+      "summary": "2.37 002136 安纳达 2.61 12.48 1923.65 4.94 002538 司尔特 0.38 4.12 1887.96 6.69 002588 史丹利 2.96 5.47 1633.08 2.91 000902 新洋丰 -0.05 2.56 1182.71 2.17 002409",
+      "publish_date": "2026-03-13",
+      "available_at": "2026-03-13T17:14:29",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "17.94亿主力资金净流入，国家大基金持股概念涨2.28%",
+      "summary": "燕东微 8.48 3.40 -1619.91 -1.44 300567 精测电子 -0.10 4.30 -1988.71 -1.56 688508 芯朋微 2.03 2.64 -2036.25 -9.34 688146 中船特气 -2.81 7.14 -2444.69 -5.24 002409",
+      "publish_date": "2026-03-16",
+      "available_at": "2026-03-16T17:12:45",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "关于变更签字注册会计师及质量控制复核人的公告",
+      "summary": "",
+      "publish_date": "2026-03-17",
+      "available_at": "2026-03-17T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "存储芯片概念涨3.50%，主力资金净流入95股",
+      "summary": "-3.91 13.57 -1651.77 -5.12 688300 联瑞新材 -0.36 2.79 -2058.27 -3.47 002430 杭氧股份 -1.28 1.10 -2134.34 -7.01 605589 圣泉集团 3.57 2.23 -2149.84 -3.56 002409",
+      "publish_date": "2026-03-18",
+      "available_at": "2026-03-18T17:06:43",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 0,
+  "hot_reason": "",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

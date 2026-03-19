@@ -1,0 +1,70 @@
+{
+  "ticker": "601898",
+  "company_name": "中煤能源",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "news",
+      "title": "中煤能源601898龙虎榜数据03-03)",
+      "summary": "交易所2026年3月3日公布的交易公开信息显示，中煤能源因成为非ST、*ST和S证券连续三个交易日内收盘价格涨幅偏离值累计达到20%的证券上榜。中煤能源当日收报17.5元，涨跌幅5.74%，换手率1.63%，成交额25.58亿。异常期间2月27日至3月3日，期间涨幅20.03%，累计偏离值",
+      "publish_date": "2026-03-03",
+      "available_at": "2026-03-03T16:57:46",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "中国中煤能源股份有限公司股票交易异常波动公告",
+      "summary": "",
+      "publish_date": "2026-03-04",
+      "available_at": "2026-03-04T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "18年来新高！601898，触及涨停",
+      "summary": "3月12日早盘，煤炭板块持续走高，中煤能源（601898）盘中一度触及涨停，股价创2008年2月以来新高。此外，兖矿能源、郑州煤电涨停，潞安环能、晋控煤业、上海能源均涨超5%。",
+      "publish_date": "2026-03-12",
+      "available_at": "2026-03-12T11:44:26",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "中煤能源：2月商品煤销量1651万吨 同比下降5.5%",
+      "summary": "人民财讯3月18日电，中煤能源6018983月18日公告，2026年2月商品煤销量1651万吨，同比下降5.5%。",
+      "publish_date": "2026-03-18",
+      "available_at": "2026-03-18T16:53:59",
+      "sentiment_score": -0.7,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "中国中煤能源股份有限公司2026年2月份主要生产经营数据公告",
+      "summary": "",
+      "publish_date": "2026-03-19",
+      "available_at": "2026-03-19T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 0,
+  "hot_reason": "",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

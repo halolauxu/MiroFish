@@ -6,6 +6,8 @@ keyword-based importance filtering to separate material disclosures from
 routine filings.
 """
 
+import contextlib
+import io
 import logging
 import time
 from datetime import datetime
@@ -207,6 +209,69 @@ class AnnouncementCollector:
                 code, start, end, exc,
             )
             return []
+
+    # ------------------------------------------------------------------
+    # Company announcements via CNInfo (官方公告查询)
+    # ------------------------------------------------------------------
+    def get_company_announcements_cninfo(
+        self,
+        code: str,
+        start: str,
+        end: str,
+        market: str = "沪深京",
+    ) -> list[dict]:
+        """Return authoritative CNInfo announcements for one company.
+
+        The upstream akshare helper is backed by CNInfo's official
+        disclosure search endpoint.  It occasionally raises ``KeyError``
+        when the query returns no rows, so we normalize that to an empty
+        list instead of treating it as a hard failure.
+        """
+
+        start_norm = start.replace("-", "")
+        end_norm = end.replace("-", "")
+        code_norm = str(code).strip().zfill(6)
+        cache_key = f"company_ann_cninfo_{code_norm}_{start_norm}_{end_norm}_{market}"
+        cached = _get_cache(cache_key, ttl=3600)
+        if cached is not None:
+            return cached  # type: ignore[return-value]
+
+        last_exc: Optional[Exception] = None
+        for attempt in range(1, 3):
+            try:
+                # CNInfo becomes unstable under bursty request patterns.
+                time.sleep(0.12)
+                with contextlib.redirect_stdout(io.StringIO()), contextlib.redirect_stderr(io.StringIO()):
+                    df = ak.stock_zh_a_disclosure_report_cninfo(
+                        symbol=code_norm,
+                        market=market,
+                        start_date=start_norm,
+                        end_date=end_norm,
+                    )
+                result = _df_to_dicts(df)
+                _set_cache(cache_key, result)
+                return result
+            except KeyError as exc:
+                logger.info(
+                    "get_company_announcements_cninfo(%s, %s, %s) empty result: %s",
+                    code_norm, start_norm, end_norm, exc,
+                )
+                _set_cache(cache_key, [])
+                return []
+            except Exception as exc:
+                last_exc = exc
+                logger.warning(
+                    "CNInfo disclosure fetch attempt %d/2 failed for %s: %s",
+                    attempt, code_norm, exc,
+                )
+                if attempt < 2:
+                    time.sleep(0.8 * attempt)
+
+        logger.error(
+            "get_company_announcements_cninfo(%s, %s, %s) failed: %s",
+            code_norm, start_norm, end_norm, last_exc,
+        )
+        raise last_exc  # type: ignore[misc]
 
     # ------------------------------------------------------------------
     # Importance filtering (过滤例行公告)

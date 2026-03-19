@@ -1,0 +1,36 @@
+[
+  {
+    "ticker": "300759",
+    "company_name": "康龙化成",
+    "title": "H股公告",
+    "announcement_type": "",
+    "publish_date": "2026-03-04",
+    "publish_time": "2026-03-04 18:44:50",
+    "link": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=300759&announcementId=1224995560&orgId=9900035581&announcementTime=2026-03-04 18:44:50",
+    "source": "cninfo.disclosure_report",
+    "raw": {
+      "代码": "300759",
+      "简称": "康龙化成",
+      "公告标题": "H股公告",
+      "公告时间": "2026-03-04 18:44:50",
+      "公告链接": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=300759&announcementId=1224995560&orgId=9900035581&announcementTime=2026-03-04 18:44:50"
+    }
+  },
+  {
+    "ticker": "300759",
+    "company_name": "康龙化成",
+    "title": "H股公告",
+    "announcement_type": "",
+    "publish_date": "2026-03-16",
+    "publish_time": "2026-03-16 18:11:49",
+    "link": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=300759&announcementId=1225011305&orgId=9900035581&announcementTime=2026-03-16 18:11:49",
+    "source": "cninfo.disclosure_report",
+    "raw": {
+      "代码": "300759",
+      "简称": "康龙化成",
+      "公告标题": "H股公告",
+      "公告时间": "2026-03-16 18:11:49",
+      "公告链接": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=300759&announcementId=1225011305&orgId=9900035581&announcementTime=2026-03-16 18:11:49"
+    }
+  }
+]

@@ -1,0 +1,36 @@
+[
+  {
+    "ticker": "688347",
+    "company_name": "华虹公司",
+    "title": "港股公告：证券变动月报表",
+    "announcement_type": "",
+    "publish_date": "2026-03-06",
+    "publish_time": "2026-03-06",
+    "link": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=688347&announcementId=1224997755&orgId=9900029531&announcementTime=2026-03-06",
+    "source": "cninfo.disclosure_report",
+    "raw": {
+      "代码": "688347",
+      "简称": "华虹公司",
+      "公告标题": "港股公告：证券变动月报表",
+      "公告时间": "2026-03-06",
+      "公告链接": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=688347&announcementId=1224997755&orgId=9900029531&announcementTime=2026-03-06"
+    }
+  },
+  {
+    "ticker": "688347",
+    "company_name": "华虹公司",
+    "title": "港股公告：董事会日期公告",
+    "announcement_type": "",
+    "publish_date": "2026-03-13",
+    "publish_time": "2026-03-13",
+    "link": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=688347&announcementId=1225006313&orgId=9900029531&announcementTime=2026-03-13",
+    "source": "cninfo.disclosure_report",
+    "raw": {
+      "代码": "688347",
+      "简称": "华虹公司",
+      "公告标题": "港股公告：董事会日期公告",
+      "公告时间": "2026-03-13",
+      "公告链接": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=688347&announcementId=1225006313&orgId=9900029531&announcementTime=2026-03-13"
+    }
+  }
+]

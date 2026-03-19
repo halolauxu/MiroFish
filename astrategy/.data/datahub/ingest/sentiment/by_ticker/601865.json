@@ -1,0 +1,106 @@
+{
+  "ticker": "601865",
+  "company_name": "福莱特",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "news",
+      "title": "福莱特：赵长海辞任副总裁",
+      "summary": "2月13日，福莱特（601865/06865）发布公告，近日公司董事会收到副总裁赵长海的辞职报告。赵长海因个人原因辞去副总裁职务，离任时间为2026年2月11日，原定任期到期日为2027年11月17日。辞职后，赵长海仍将负责子公司光伏玻璃的生产管理工作。",
+      "publish_date": "2026-02-13",
+      "available_at": "2026-02-13T18:15:45",
+      "sentiment_score": 0.0,
+      "category": "产品进展",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "今日盘中突破年线个股",
+      "summary": "罗欣药业 3.09 1.32 4.89 5.01 2.54 000731 四川美丰 2.64 1.01 6.84 7.00 2.40 600575 淮河能源 2.85 0.83 3.53 3.61 2.38 600610 中毅达 3.73 3.34 11.42 11.69 2.37 601865",
+      "publish_date": "2026-02-24",
+      "available_at": "2026-02-24T10:58:51",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "福莱特玻璃集团股份有限公司关于公司及控股子公司提供担保的进展公告",
+      "summary": "",
+      "publish_date": "2026-02-28",
+      "available_at": "2026-02-28T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "74股每笔成交量增长超50%",
+      "summary": "杭钢股份 9.96 2410 134.10 600177 雅戈尔 0.83 2235 120.33 603950 长源东谷 10.01 1020 119.14 000731 四川美丰 10.04 2401 116.81 002633 申科股份 10.01 800 113.72 601865",
+      "publish_date": "2026-03-02",
+      "available_at": "2026-03-02T08:56:09",
+      "sentiment_score": 0.2,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "福莱特H股公告（月報表-截至二零二六年二月二十八日止月份之股份發行人的證券變動月報表）",
+      "summary": "",
+      "publish_date": "2026-03-05",
+      "available_at": "2026-03-05T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "福莱特H股公告（變更香港主要營業地址）",
+      "summary": "",
+      "publish_date": "2026-03-10",
+      "available_at": "2026-03-10T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "福莱特玻璃集团股份有限公司关于“福莱转债”预计满足转股价格修正条件的提示性公告",
+      "summary": "",
+      "publish_date": "2026-03-14",
+      "available_at": "2026-03-14T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "福莱特H股公告（董事會會議日期）",
+      "summary": "",
+      "publish_date": "2026-03-17",
+      "available_at": "2026-03-17T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 0,
+  "hot_reason": "",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

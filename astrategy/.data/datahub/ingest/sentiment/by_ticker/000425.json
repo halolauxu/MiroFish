@@ -1,0 +1,70 @@
+{
+  "ticker": "000425",
+  "company_name": "徐工机械",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "filing",
+      "title": "关于回购公司股份用于股权激励或员工持股的进展公告",
+      "summary": "股权变动",
+      "publish_date": "2026-03-03",
+      "available_at": "2026-03-03T00:00:00",
+      "sentiment_score": 0.8,
+      "category": "股权变动",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "关于回购公司股份并用于注销的进展公告",
+      "summary": "股权变动",
+      "publish_date": "2026-03-03",
+      "available_at": "2026-03-03T00:00:00",
+      "sentiment_score": 0.8,
+      "category": "股权变动",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "短线防风险 10只个股短期均线现死叉",
+      "summary": "3.58 42.67 42.89 -0.52 41.18 -3.98 603303 得邦照明 -0.54 0.16 15.14 15.21 -0.45 14.87 -2.20 603960 克来机电 -8.48 6.79 25.78 25.85 -0.26 23.41 -9.45 000425",
+      "publish_date": "2026-03-12",
+      "available_at": "2026-03-12T12:07:36",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "短线防风险 9只个股短期均线现死叉",
+      "summary": "4.22 34.70 34.95 -0.70 33.49 -4.18 300520 科大国创 -2.57 4.66 42.70 42.91 -0.47 41.37 -3.58 603303 得邦照明 -0.40 0.20 15.14 15.21 -0.44 14.89 -2.08 000425",
+      "publish_date": "2026-03-12",
+      "available_at": "2026-03-12T14:19:44",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "强势股追踪 主力资金连续5日净流入91股",
+      "summary": "宁德时代 6 52.49 6.35 16.70 300274 阳光电源 6 31.26 4.15 16.40 601012 隆基绿能 5 10.03 5.48 6.64 601016 节能风电 6 9.33 9.09 36.73 300033 同花顺 6 8.95 6.19 4.42 000425",
+      "publish_date": "2026-03-12",
+      "available_at": "2026-03-12T17:19:33",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 0,
+  "hot_reason": "",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

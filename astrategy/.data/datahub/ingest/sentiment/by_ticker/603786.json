@@ -1,0 +1,94 @@
+{
+  "ticker": "603786",
+  "company_name": "科博达",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "news",
+      "title": "科博达：子公司科博达智能科技已获得若干智能驾驶相关项目定点，预计生命周期销售额超过200亿元",
+      "summary": "科博达（603786.SH）3月2日在投资者互动平台表示，投资者您好，1、自动驾驶领域，公司已完成核心技术布局，同时子公司科博达智能科技已获得若干智能驾驶相关项目定点，预计生命周期销售额超过200亿元。",
+      "publish_date": "2026-03-02",
+      "available_at": "2026-03-02T16:23:18",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "近日海外机构调研股名单",
+      "summary": "1 14.22 -5.01 建筑装饰 300188 国投智能 1 13.36 -6.38 计算机 300718 长盛轴承 1 74.27 -7.05 机械设备 301005 超捷股份 1 156.99 -8.07 汽车 688088 虹软科技 1 44.75 -8.11 计算机 603786",
+      "publish_date": "2026-03-03",
+      "available_at": "2026-03-03T17:51:31",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "科博达技术股份有限公司向不特定对象发行可转换公司债券证券募集说明书（申报稿）",
+      "summary": "债券融资",
+      "publish_date": "2026-03-17",
+      "available_at": "2026-03-17T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "科博达技术股份有限公司关于向不特定对象发行可转换公司债券审核问询函回复的提示性公告",
+      "summary": "债券融资",
+      "publish_date": "2026-03-17",
+      "available_at": "2026-03-17T00:00:00",
+      "sentiment_score": -0.3,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "关于科博达技术股份有限公司向不特定对象发行可转换公司债券申请文件的审核问询函的回复",
+      "summary": "债券融资",
+      "publish_date": "2026-03-17",
+      "available_at": "2026-03-17T00:00:00",
+      "sentiment_score": -0.3,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "众华会计师事务所（特殊普通合伙）关于科博达技术股份有限公司向不特定对象发行可转换公司债券申请文件的审核问询函的回复",
+      "summary": "债券融资",
+      "publish_date": "2026-03-17",
+      "available_at": "2026-03-17T00:00:00",
+      "sentiment_score": -0.3,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "科博达：子公司获高新技术企业认证 享三年15%税率优惠",
+      "summary": "3月19日，科博达（603786）发布公告，控股子公司上海科博达智能科技有限公司近日获得《高新技术企业证书》，自认定起连续三年（2025~2027年）可享受按15%的税率缴纳企业所得税的优惠政策。 2025年前三季度，科博达实现收入49.97亿元，归母净利润6.46亿元。",
+      "publish_date": "2026-03-19",
+      "available_at": "2026-03-19T15:46:54",
+      "sentiment_score": 0.0,
+      "category": "业绩公告",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 0,
+  "hot_reason": "",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

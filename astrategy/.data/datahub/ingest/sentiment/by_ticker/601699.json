@@ -1,0 +1,58 @@
+{
+  "ticker": "601699",
+  "company_name": "潞安环能",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "news",
+      "title": "潞安环能：2月商品煤销量同比下降10.42%",
+      "summary": "每经AI快讯，潞安环能6016993月13日发布2026年2月主要运营数据，2月原煤产量420万吨，同比下降8.7%；2月商品煤销量361万吨，同比下降10.42%。",
+      "publish_date": "2026-03-13",
+      "available_at": "2026-03-13T16:51:10",
+      "sentiment_score": -0.7,
+      "category": "产品进展",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "潞安环能：2月商品煤销量同比下降10.42%",
+      "summary": "人民财讯3月13日电，潞安环能6016993月13日发布2026年2月主要运营数据，2月原煤产量420万吨，同比下降8.7%；2月商品煤销量361万吨，同比下降10.42%。",
+      "publish_date": "2026-03-13",
+      "available_at": "2026-03-13T16:55:37",
+      "sentiment_score": -0.7,
+      "category": "产品进展",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "潞安环能2026年2月主要运营数据公告",
+      "summary": "",
+      "publish_date": "2026-03-14",
+      "available_at": "2026-03-14T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "煤炭行业今日涨1.82%，主力资金净流入3.61亿元",
+      "summary": "煤炭行业资金流向排名 代码 简称 今日涨跌幅（%） 今日换手率（%） 主力资金流量（万元） 601015 陕西黑猫 10.06 9.59 36175.64 601088 中国神华 4.19 0.34 19157.26 600157 永泰能源 0.00 5.32 3826.96 601699",
+      "publish_date": "2026-03-19",
+      "available_at": "2026-03-19T18:05:43",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 0,
+  "hot_reason": "",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

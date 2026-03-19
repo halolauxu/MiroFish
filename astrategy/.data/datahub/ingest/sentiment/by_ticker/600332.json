@@ -1,0 +1,142 @@
+{
+  "ticker": "600332",
+  "company_name": "白云山",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "filing",
+      "title": "广州白云山医药集团股份有限公司关于广州广药二期基金股权投资合伙企业（有限合伙）收购南京医药集团股份有限公司11.04%股份的进展公告",
+      "summary": "",
+      "publish_date": "2026-02-28",
+      "available_at": "2026-02-28T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "资产重组",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "广州白云山医药集团股份有限公司关于子公司收购浙江省医药工业有限公司100%股权的进展公告",
+      "summary": "",
+      "publish_date": "2026-03-04",
+      "available_at": "2026-03-04T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "资产重组",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "H股公告（证券变动月报表）",
+      "summary": "",
+      "publish_date": "2026-03-04",
+      "available_at": "2026-03-04T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "白云山：副董事长程宁退休辞职",
+      "summary": "白云山（600332/00874）发布公告，副董事长程宁因已达到法定退休年龄，于2026年3月6日申请辞去公司第九届董事会副董事长、执行董事、董事会预算委员会委员及香港联合交易所证券上市规则第3.05条规定的授权代表职务，程宁离职后不在上市公司及其控股子公司继续任职。",
+      "publish_date": "2026-03-06",
+      "available_at": "2026-03-06T16:57:40",
+      "sentiment_score": 0.0,
+      "category": "产品进展",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "广州白云山医药集团股份有限公司关于公司副董事长离任的公告",
+      "summary": "",
+      "publish_date": "2026-03-07",
+      "available_at": "2026-03-07T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "H股公告（董事名单及彼等角色及职能）",
+      "summary": "",
+      "publish_date": "2026-03-07",
+      "available_at": "2026-03-07T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "H股公告（董事会召开日期）",
+      "summary": "",
+      "publish_date": "2026-03-11",
+      "available_at": "2026-03-11T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "白云山：子公司虚汗停颗粒新增儿童反复呼吸道感染临床试验获批",
+      "summary": "3月16日，白云山（600332/00874）发布公告，公司的子公司广州白云山奇星药业有限公司收到虚汗停颗粒新增功能主治的药物临床试验批准通知书。 虚汗停颗粒具有益气养阴、固表敛汗的功效。用于气阴不足之自汗、盗汗及小儿盗汗。",
+      "publish_date": "2026-03-16",
+      "available_at": "2026-03-16T18:16:33",
+      "sentiment_score": 0.0,
+      "category": "产品进展",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "广州白云山医药集团股份有限公司关于控股子公司应收账款资产支持专项计划资产支持证券挂牌转让获得上海证券交易所无异议函的公告",
+      "summary": "",
+      "publish_date": "2026-03-17",
+      "available_at": "2026-03-17T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "广州白云山医药集团股份有限公司关于子公司获得药物临床试验批准通知书的公告",
+      "summary": "",
+      "publish_date": "2026-03-17",
+      "available_at": "2026-03-17T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "南京医药解聘副总裁，当事人投了弃权票 新增董事候选人为广州医药董事长",
+      "summary": "直到2025年9月，Alliance Healthcare与白云山（600332.SH；00874.HK）旗下广药二期基金签署协议，将南京医药11.04%的股份转让给广药二期基金，总金额7.49亿元。",
+      "publish_date": "2026-03-18",
+      "available_at": "2026-03-18T20:45:32",
+      "sentiment_score": 0.0,
+      "category": "重大合同",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 0,
+  "hot_reason": "",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

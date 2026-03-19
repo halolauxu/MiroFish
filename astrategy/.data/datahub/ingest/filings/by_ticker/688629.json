@@ -1,0 +1,36 @@
+[
+  {
+    "ticker": "688629",
+    "company_name": "华丰科技",
+    "title": "2025年度业绩快报公告",
+    "announcement_type": "业绩预告",
+    "publish_date": "2026-02-28",
+    "publish_time": "2026-02-28",
+    "link": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=688629&announcementId=1224986863&orgId=9900048587&announcementTime=2026-02-28",
+    "source": "cninfo.disclosure_report",
+    "raw": {
+      "代码": "688629",
+      "简称": "华丰科技",
+      "公告标题": "2025年度业绩快报公告",
+      "公告时间": "2026-02-28",
+      "公告链接": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=688629&announcementId=1224986863&orgId=9900048587&announcementTime=2026-02-28"
+    }
+  },
+  {
+    "ticker": "688629",
+    "company_name": "华丰科技",
+    "title": "关于2025年度向特定对象发行A股股票申请收到中国证券监督管理委员会同意注册批复的公告",
+    "announcement_type": "增发融资",
+    "publish_date": "2026-03-12",
+    "publish_time": "2026-03-12",
+    "link": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=688629&announcementId=1225004803&orgId=9900048587&announcementTime=2026-03-12",
+    "source": "cninfo.disclosure_report",
+    "raw": {
+      "代码": "688629",
+      "简称": "华丰科技",
+      "公告标题": "关于2025年度向特定对象发行A股股票申请收到中国证券监督管理委员会同意注册批复的公告",
+      "公告时间": "2026-03-12",
+      "公告链接": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=688629&announcementId=1225004803&orgId=9900048587&announcementTime=2026-03-12"
+    }
+  }
+]

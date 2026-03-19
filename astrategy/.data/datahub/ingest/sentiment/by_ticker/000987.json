@@ -1,0 +1,94 @@
+{
+  "ticker": "000987",
+  "company_name": "越秀资本",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "filing",
+      "title": "第十届董事会第三十六次会议决议公告",
+      "summary": "",
+      "publish_date": "2026-03-05",
+      "available_at": "2026-03-05T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "关于变更董事会秘书的公告",
+      "summary": "",
+      "publish_date": "2026-03-05",
+      "available_at": "2026-03-05T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "越秀资本总经理吴勇高不再兼任董秘，CFO林颖接任",
+      "summary": "3月5日，广州越秀资本控股集团股份有限公司（简称越秀资本，000987.SZ）发布公告显示，因工作调整，越秀资本董事会同意聘任林颖为公司董事会秘书，吴勇高不再担任该职务。",
+      "publish_date": "2026-03-05",
+      "available_at": "2026-03-05T12:45:52",
+      "sentiment_score": 0.0,
+      "category": "产品进展",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "华福证券股份有限公司关于广州越秀资本控股集团股份有限公司信息披露事务负责人变动的受托管理事务临时报告",
+      "summary": "",
+      "publish_date": "2026-03-11",
+      "available_at": "2026-03-11T18:48:47",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "兴业证券股份有限公司关于广州越秀资本控股集团股份有限公司信息披露事务负责人变动的受托管理事务临时报告",
+      "summary": "",
+      "publish_date": "2026-03-11",
+      "available_at": "2026-03-11T18:50:28",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "20.19亿主力资金净流入，期货概念涨0.02%",
+      "summary": "0.37 0.48 -1371.73 -7.53 301299 卓创资讯 -5.49 5.90 -1424.40 -7.97 600517 国网英大 -2.39 0.69 -1436.38 -5.15 002657 中科金财 -2.44 2.15 -1585.08 -8.85 000987",
+      "publish_date": "2026-03-17",
+      "available_at": "2026-03-17T17:23:25",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "36.33亿元主力资金今日抢筹非银金融板块",
+      "summary": "0.72 -743.40 002670 国盛证券 -0.39 1.21 -819.03 000712 锦龙股份 -0.62 2.77 -1018.46 601236 红塔证券 0.37 0.48 -1371.72 600517 国网英大 -2.39 0.69 -1436.38 000987",
+      "publish_date": "2026-03-17",
+      "available_at": "2026-03-17T17:23:34",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 0,
+  "hot_reason": "",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

@@ -1,0 +1,58 @@
+{
+  "ticker": "002850",
+  "company_name": "科达利",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "news",
+      "title": "海外机构调研股名单 厦门钨业最受关注",
+      "summary": "54 64.13 14.15 有色金属 000899 赣能股份 1 12.07 14.08 公用事业 603338 浙江鼎力 1 61.11 8.08 机械设备 603638 艾迪精密 1 24.80 8.06 机械设备 002158 汉钟精机 6 27.15 7.02 机械设备 002850",
+      "publish_date": "2026-02-25",
+      "available_at": "2026-02-25T16:38:29",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "解密主力资金出逃股 连续5日净流出494股",
+      "summary": "8 2.34 8.52 -4.42 002985 北摩高科 5 2.34 6.60 -5.35 000997 新大陆 5 2.33 12.40 -5.34 300612 宣亚国际 7 2.31 9.63 -17.84 600919 江苏银行 5 2.18 4.99 -0.77 002850",
+      "publish_date": "2026-02-27",
+      "available_at": "2026-02-27T17:52:11",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "关于实际控制人续签一致行动协议的公告",
+      "summary": "",
+      "publish_date": "2026-03-03",
+      "available_at": "2026-03-03T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "今日105只个股突破半年线",
+      "summary": "2.44 2.32 13.15 13.46 2.32 002444 巨星科技 4.81 1.85 33.49 34.22 2.19 000677 恒天海龙 3.34 7.52 4.55 4.64 1.92 600011 华能国际 2.53 1.26 7.57 7.71 1.87 002850",
+      "publish_date": "2026-03-11",
+      "available_at": "2026-03-11T15:41:50",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 0,
+  "hot_reason": "",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

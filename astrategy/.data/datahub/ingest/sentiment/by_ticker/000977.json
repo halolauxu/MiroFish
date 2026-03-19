@@ -1,0 +1,70 @@
+{
+  "ticker": "000977",
+  "company_name": "浪潮信息",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "filing",
+      "title": "关于完成注册资本工商变更登记及章程备案的公告",
+      "summary": "",
+      "publish_date": "2026-03-07",
+      "available_at": "2026-03-07T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "计算机行业今日净流出资金123.92亿元，华胜天成等34股净流出资金超亿元",
+      "summary": "34077.09 300846 首都在线 -8.27 17.56 -30745.36 000815 美利云 -9.98 15.73 -28437.67 301638 南网数字 -5.04 32.55 -25542.56 300803 指南针 -3.11 2.31 -23833.92 000977",
+      "publish_date": "2026-03-13",
+      "available_at": "2026-03-13T16:38:40",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "计算机行业今日涨2.46%，主力资金净流入53.26亿元",
+      "summary": "主力资金流量（万元） 300017 网宿科技 9.23 12.81 67165.90 000938 紫光股份 7.57 4.77 60299.74 600602 云赛智联 10.02 10.46 52987.47 300166 东方国信 16.36 37.21 48871.76 000977",
+      "publish_date": "2026-03-18",
+      "available_at": "2026-03-18T17:07:04",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "hot_topic",
+      "title": "浪潮信息",
+      "summary": "雪球关注#91",
+      "publish_date": "2026-03-19",
+      "available_at": "2026-03-19T00:00:00",
+      "sentiment_score": 0.08,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.25,
+      "hot_rank": 194
+    },
+    {
+      "source_type": "news",
+      "title": "国资云概念上涨0.32%，5股主力资金净流入超亿元",
+      "summary": "1.09 22.77 -3683.27 -2.29 000158 常山北明 -1.63 1.40 -4182.69 -9.43 002400 省广集团 -2.06 3.18 -6851.24 -13.75 601728 中国电信 0.66 0.22 -7257.56 -6.82 000977",
+      "publish_date": "2026-03-19",
+      "available_at": "2026-03-19T18:04:30",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 194,
+  "hot_reason": "雪球关注#91",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

@@ -1,0 +1,58 @@
+{
+  "ticker": "688425",
+  "company_name": "铁建重工",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "filing",
+      "title": "中国铁建重工集团股份有限公司2025年度业绩快报公告",
+      "summary": "业绩预告",
+      "publish_date": "2026-02-26",
+      "available_at": "2026-02-26T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "业绩公告",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "高压氧舱概念涨2.31%，主力资金净流入5股",
+      "summary": "数据宝） 高压氧舱概念资金流入榜 代码 简称 今日涨跌幅（%） 今日换手率（%） 主力资金流量（万元） 主力资金净流入比率（%） 002173 创新医疗 6.59 23.07 14692.95 4.94 300143 盈康生命 12.53 9.53 2884.34 3.70 688425",
+      "publish_date": "2026-03-13",
+      "available_at": "2026-03-13T17:14:39",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "77只科创板股融资余额增加超1000万元",
+      "summary": "79821.99 5133.63 6.87 6.81 688297 中无人机 81940.42 4683.41 6.06 4.44 688353 华盛锂电 82124.55 4494.16 5.79 4.24 688535 华海诚科 62761.42 4451.35 7.63 4.35 688425",
+      "publish_date": "2026-03-17",
+      "available_at": "2026-03-17T09:51:01",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "322只科创板股融资余额环比增加",
+      "summary": "5077.07 10.30 0.00 6.55 688638 誉辰智能 1869.08 10.25 0.00 -0.37 688662 富信科技 28861.77 9.27 30.42 -2.05 -0.11 688411 海博思创 133607.07 9.23 0.00 0.74 688425",
+      "publish_date": "2026-03-17",
+      "available_at": "2026-03-17T09:51:52",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 0,
+  "hot_reason": "",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

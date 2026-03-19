@@ -1,0 +1,70 @@
+{
+  "ticker": "688169",
+  "company_name": "石头科技",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "filing",
+      "title": "北京石头世纪科技股份有限公司2025年度业绩快报公告",
+      "summary": "业绩预告",
+      "publish_date": "2026-02-28",
+      "available_at": "2026-02-28T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "业绩公告",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "北京石头世纪科技股份有限公司关于以集中竞价交易方式回购公司股份的进展公告",
+      "summary": "股权变动",
+      "publish_date": "2026-03-04",
+      "available_at": "2026-03-04T00:00:00",
+      "sentiment_score": 0.8,
+      "category": "股权变动",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "强势股追踪 主力资金连续5日净流入81股",
+      "summary": "裕同科技 10 4.03 7.66 19.37 301087 可孚医疗 16 3.40 10.06 8.56 600660 福耀玻璃 5 3.10 8.73 1.90 601328 交通银行 8 2.49 3.07 3.15 601009 南京银行 5 2.36 10.30 2.26 688169",
+      "publish_date": "2026-03-16",
+      "available_at": "2026-03-16T17:13:11",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "强势股追踪 主力资金连续5日净流入73股",
+      "summary": "博瑞医药 5 4.10 11.49 13.47 600104 上汽集团 5 3.54 6.97 4.13 600660 福耀玻璃 6 3.48 7.54 2.21 600048 保利发展 5 2.85 6.09 2.36 601009 南京银行 6 2.64 8.74 4.06 688169",
+      "publish_date": "2026-03-17",
+      "available_at": "2026-03-17T17:25:19",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "近日海外机构调研股名单",
+      "summary": "1 32.51 -2.66 机械设备 300109 新开源 1 18.28 -3.02 基础化工 301172 君逸数码 1 26.17 -3.11 计算机 301087 可孚医疗 3 55.73 -4.39 医药生物 000636 风华高科 7 22.53 -5.14 电子 688169",
+      "publish_date": "2026-03-19",
+      "available_at": "2026-03-19T18:04:54",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 0,
+  "hot_reason": "",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

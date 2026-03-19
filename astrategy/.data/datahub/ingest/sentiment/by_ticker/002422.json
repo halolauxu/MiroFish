@@ -1,0 +1,106 @@
+{
+  "ticker": "002422",
+  "company_name": "科伦药业",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "filing",
+      "title": "关于首次回购公司股份的公告",
+      "summary": "股权变动",
+      "publish_date": "2026-03-03",
+      "available_at": "2026-03-03T00:00:00",
+      "sentiment_score": 0.8,
+      "category": "股权变动",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "关于回购公司股份进展的公告",
+      "summary": "股权变动",
+      "publish_date": "2026-03-03",
+      "available_at": "2026-03-03T00:00:00",
+      "sentiment_score": 0.8,
+      "category": "股权变动",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "2026年度第二期科技创新债券发行结果的公告",
+      "summary": "",
+      "publish_date": "2026-03-05",
+      "available_at": "2026-03-05T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "关于子公司SKB575新药临床试验申请获国家药品监督管理局批准的公告",
+      "summary": "",
+      "publish_date": "2026-03-10",
+      "available_at": "2026-03-10T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "28只股中线走稳 站上半年线",
+      "summary": "0.84 1.23 17.94 18.06 0.64 000957 中通客车 2.66 5.22 11.50 11.57 0.61 688768 容知日新 0.59 2.06 49.31 49.51 0.41 601988 中国银行 1.85 0.17 5.49 5.50 0.25 002422",
+      "publish_date": "2026-03-17",
+      "available_at": "2026-03-17T15:42:36",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "社保基金去年四季度新建仓股票（附名单）",
+      "summary": "（数据宝） 社保基金新进股一览 证券代码 证券简称 社保基金家数 社保基金持股量（万股） 占流通股比例（%） 行业 603588 高能环境 1 2729.99 1.79 环保 600605 汇通能源 1 276.10 1.34 商贸零售 002422 科伦药业 1 1394.45",
+      "publish_date": "2026-03-18",
+      "available_at": "2026-03-18T09:52:36",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "科伦药业：控股子公司芦康沙妥珠单抗研究成果将于欧洲肺癌大会上公布",
+      "summary": "人民财讯3月18日电，科伦药业0024223月18日公告，公司近日获悉，控股子公司科伦博泰靶向人滋养细胞表面抗原2(TROP2)抗体偶联药物(ADC)芦康沙妥珠单抗(sac-TMT)(佳泰莱®)关键临床研究(OptiTROP-Lung03)的总生存期(OS)最终分析结果将于当地时间",
+      "publish_date": "2026-03-18",
+      "available_at": "2026-03-18T21:37:42",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "关于子公司核心产品芦康沙妥珠单抗(sac-TMT)于2025年欧洲肺癌大会上公布的研究成果的公告",
+      "summary": "",
+      "publish_date": "2026-03-19",
+      "available_at": "2026-03-19T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 0,
+  "hot_reason": "",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

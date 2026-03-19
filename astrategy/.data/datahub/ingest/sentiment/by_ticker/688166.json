@@ -1,0 +1,94 @@
+{
+  "ticker": "688166",
+  "company_name": "博瑞医药",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "filing",
+      "title": "2025年度业绩快报公告",
+      "summary": "业绩预告",
+      "publish_date": "2026-02-28",
+      "available_at": "2026-02-28T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "业绩公告",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "报备2第四届董事会独立董事第九次专门会议决议",
+      "summary": "",
+      "publish_date": "2026-03-11",
+      "available_at": "2026-03-11T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "国联民生证券承销保荐有限公司关于博瑞生物医药（苏州）股份有限公司对外投资暨关联交易的核查意见",
+      "summary": "",
+      "publish_date": "2026-03-11",
+      "available_at": "2026-03-11T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "关于对外投资暨关联交易的公告",
+      "summary": "",
+      "publish_date": "2026-03-11",
+      "available_at": "2026-03-11T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "博瑞医药拟每10股派发现金红利0.16元",
+      "summary": "3月19日，博瑞医药（688166）发布有关2025年年度利润分配方案的公告，公司拟向全体股东每10股派发现金红利0.16元（含税），预计总派发金额为676万元。",
+      "publish_date": "2026-03-19",
+      "available_at": "2026-03-19T20:27:53",
+      "sentiment_score": 0.0,
+      "category": "业绩公告",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "博瑞医药实现净利润5451万元 ，同比下滑71％",
+      "summary": "【大河财立方消息】3月19日，博瑞医药（688166.SH）发布2025年年报，报告期内实现营业收入12.24亿元，同比减少4.59%；归属于母公司所有者的净利润5451.47万元，同比减少71.18%；基本每股收益0.13元，同比减少71.11%。",
+      "publish_date": "2026-03-19",
+      "available_at": "2026-03-19T20:35:05",
+      "sentiment_score": -0.5,
+      "category": "业绩公告",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "博瑞医药2025年归母净利润5451万元",
+      "summary": "3月19日，博瑞医药688166公布2025年年报，公司营业收入为12.2亿元，同比下降4.6%；归母净利润为5451万元，同比下降71.2%；扣非归母净利润为2609万元，同比下降85.5%；经营现金流净额为3.25亿元，同比增长32.4%；EPS(全面摊薄)为0.1288元",
+      "publish_date": "2026-03-19",
+      "available_at": "2026-03-19T20:46:39",
+      "sentiment_score": -0.5,
+      "category": "业绩公告",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 0,
+  "hot_reason": "",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

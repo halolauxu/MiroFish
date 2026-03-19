@@ -1,0 +1,94 @@
+{
+  "ticker": "688295",
+  "company_name": "中复神鹰",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "filing",
+      "title": "中复神鹰碳纤维股份有限公司2025年度业绩快报公告",
+      "summary": "业绩预告",
+      "publish_date": "2026-02-28",
+      "available_at": "2026-02-28T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "业绩公告",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "中复神鹰碳纤维股份有限公司关于自愿披露公司发布新产品的公告",
+      "summary": "产品进展",
+      "publish_date": "2026-03-12",
+      "available_at": "2026-03-12T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "产品进展",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "中复神鹰碳纤维股份有限公司股票交易异常波动公告",
+      "summary": "",
+      "publish_date": "2026-03-13",
+      "available_at": "2026-03-13T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "午后“20cm”涨停！688295股价创新高",
+      "summary": "3月17日午后，A股化纤板块快速拉升，中复神鹰（688295）涨停，报59.40元/股，创下历史新高。吉林碳谷、吉林化纤、汇隆新材等冲高。",
+      "publish_date": "2026-03-17",
+      "available_at": "2026-03-17T13:51:59",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "中复神鹰688295龙虎榜数据(03-17)",
+      "summary": "交易所2026年3月17日公布的交易公开信息显示，中复神鹰因成为有价格涨跌幅限制的日收盘价格涨幅达到15%的前五只证券、有价格涨跌幅限制的连续3个交易日内收盘价格涨幅偏离值累计达到30%的证券、有价格涨跌幅限制的连续10个交易日内收盘价格涨幅偏离值累计达到100%的证券上榜。中复神鹰当日收报",
+      "publish_date": "2026-03-17",
+      "available_at": "2026-03-17T16:55:54",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "688295、002470、600227，尾盘拉升涨停！化工板块，大爆发！",
+      "summary": "中复神鹰688295午后强势20%涨停，连续第6日上涨，累计涨幅高达逾97%；金正大(002470)临近收盘放量直线涨停，创近6年半新高，今年以来累计大涨逾102%；赤天化(600227)同样尾盘涨停，创近8年新高，年内涨幅高达122%。",
+      "publish_date": "2026-03-17",
+      "available_at": "2026-03-17T17:07:37",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "中复神鹰碳纤维股份有限公司股票交易异常波动暨严重异常波动公告",
+      "summary": "",
+      "publish_date": "2026-03-18",
+      "available_at": "2026-03-18T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 0,
+  "hot_reason": "",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

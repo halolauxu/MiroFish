@@ -1,0 +1,94 @@
+{
+  "ticker": "601919",
+  "company_name": "中远海控",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "filing",
+      "title": "中远海控关于控股股东无偿划转股份完成过户登记的公告",
+      "summary": "",
+      "publish_date": "2026-03-04",
+      "available_at": "2026-03-04T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "中远海控H股公告—2026年2月证券变动月报表",
+      "summary": "",
+      "publish_date": "2026-03-04",
+      "available_at": "2026-03-04T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "中远海控关于股票期权激励计划限制行权期间延长的提示性公告",
+      "summary": "股权激励",
+      "publish_date": "2026-03-07",
+      "available_at": "2026-03-07T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "股权变动",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "8只个股大宗交易超5000万元",
+      "summary": "中远海控 2.27 15.75 117.00 1842.75 1 15.75 0.00 300750 宁德时代 5.45 396.80 4.48 1777.66 2 396.80 0.00",
+      "publish_date": "2026-03-11",
+      "available_at": "2026-03-11T22:14:14",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "高股息精选概念涨0.10%，主力资金净流入这些股",
+      "summary": "中远海控 0.37 0.89 -12644.87 -7.02 600219 南山铝业 -4.76 2.67 -48799.12 -22.62",
+      "publish_date": "2026-03-17",
+      "available_at": "2026-03-17T17:22:49",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "hot_topic",
+      "title": "中远海控",
+      "summary": "雪球关注#11; 雪球讨论#24; 雪球交易#6",
+      "publish_date": "2026-03-19",
+      "available_at": "2026-03-19T00:00:00",
+      "sentiment_score": 0.264,
+      "category": "其他",
+      "urgency": "high",
+      "weight": 1.25,
+      "hot_rank": 8
+    },
+    {
+      "source_type": "news",
+      "title": "俄乌冲突概念涨0.05%，主力资金净流入32股",
+      "summary": "1.39 0.58 -9018.15 -17.64 300164 通源石油 8.72 38.16 -9071.94 -2.02 002532 天山铝业 -4.42 2.19 -9443.38 -6.45 600490 鹏欣资源 -6.89 3.88 -13230.81 -21.89 601919",
+      "publish_date": "2026-03-19",
+      "available_at": "2026-03-19T18:04:23",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 8,
+  "hot_reason": "雪球关注#11; 雪球讨论#24; 雪球交易#6",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

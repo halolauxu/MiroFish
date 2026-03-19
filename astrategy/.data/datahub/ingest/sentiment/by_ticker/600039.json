@@ -1,0 +1,58 @@
+{
+  "ticker": "600039",
+  "company_name": "四川路桥",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "filing",
+      "title": "四川路桥关于以集中竞价交易方式回购股份进展的公告",
+      "summary": "股权变动",
+      "publish_date": "2026-03-03",
+      "available_at": "2026-03-03T00:00:00",
+      "sentiment_score": 0.8,
+      "category": "股权变动",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "【数据揭秘】融资客看好个股一览",
+      "summary": "1623.52 -13.85 0.93 2.19 603393 新天然气 52777.79 -13.64 3.23 -1.15 600470 六国化工 18273.66 -13.59 4.25 -4.74 688426 康为世纪 5983.06 -13.58 6.61 2.48 600039",
+      "publish_date": "2026-03-11",
+      "available_at": "2026-03-11T10:28:01",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "举牌概念涨0.50%，主力资金净流入这些股",
+      "summary": "688511 *ST天微 -0.10 0.77 108.87 4.72 601326 秦港股份 0.28 0.77 -12.21 -0.09 300326 ST凯利 -0.80 1.05 -61.71 -1.33 002731 ST萃华 0.51 7.97 -67.19 -0.46 600039",
+      "publish_date": "2026-03-13",
+      "available_at": "2026-03-13T17:10:18",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "金属铜概念下跌4.91%，主力资金净流出77股",
+      "summary": "金诚信 -5.38 2.25 47.14 002295 精艺股份 -3.73 1.59 50.19 601121 宝地矿业 -5.01 3.01 91.68 600119 长江投资 -3.22 1.20 140.48 002203 海亮股份 -4.26 0.93 422.14 600039",
+      "publish_date": "2026-03-19",
+      "available_at": "2026-03-19T18:04:10",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 0,
+  "hot_reason": "",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

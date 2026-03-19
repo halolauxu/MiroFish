@@ -1,0 +1,58 @@
+{
+  "ticker": "603179",
+  "company_name": "新泉股份",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "filing",
+      "title": "江苏新泉汽车饰件股份有限公司关于在开封投资设立全资子公司的进展公告",
+      "summary": "",
+      "publish_date": "2026-03-03",
+      "available_at": "2026-03-03T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "新泉股份拟每10股派发现金股利3元 并转增4股",
+      "summary": "3月19日，新泉股份（603179）发布公告，公司拟向全体股东每10股派发现金股利3元（含税），预计总派发金额为1.53亿元，占归母净利润的18.78%；同时以资本公积金转增股本每10股转增4股。",
+      "publish_date": "2026-03-19",
+      "available_at": "2026-03-19T17:04:44",
+      "sentiment_score": 0.0,
+      "category": "业绩公告",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "新泉股份：2025年净利润同比下降16.54% 拟每10股派3元并转增4股",
+      "summary": "新泉股份6031793月19日披露2025年年报，公司2025年实现营业收入155.24亿元，同比增长17.04%；归属于上市公司股东的净利润8.15亿元，同比下降16.54%；基本每股收益1.66元。",
+      "publish_date": "2026-03-19",
+      "available_at": "2026-03-19T17:11:27",
+      "sentiment_score": -0.5,
+      "category": "业绩公告",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "新泉股份2025年归母净利润降16.5%至8.15亿元",
+      "summary": "3月19日，新泉股份603179公布2025年年报，公司营业收入为155.2亿元，同比上升17.0%；归母净利润为8.15亿元，同比下降16.5%；扣非归母净利润为8.09亿元，同比下降16.5%；经营现金流净额为7.68亿元，同比下降40.6%；EPS(全面摊薄)为1.5977",
+      "publish_date": "2026-03-19",
+      "available_at": "2026-03-19T17:12:47",
+      "sentiment_score": -0.7,
+      "category": "业绩公告",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 0,
+  "hot_reason": "",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

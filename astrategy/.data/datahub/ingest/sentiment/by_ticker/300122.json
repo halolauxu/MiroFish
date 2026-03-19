@@ -1,0 +1,106 @@
+{
+  "ticker": "300122",
+  "company_name": "智飞生物",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "filing",
+      "title": "关于取得发明专利证书的公告",
+      "summary": "",
+      "publish_date": "2026-02-26",
+      "available_at": "2026-02-26T15:42:12",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "关于HK.3-JN.1新型冠状病毒mRNA疫苗获得临床试验批准通知书的公告",
+      "summary": "",
+      "publish_date": "2026-02-26",
+      "available_at": "2026-02-26T15:42:12",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "关于德谷胰岛素注射液申请生产注册获得受理的公告",
+      "summary": "",
+      "publish_date": "2026-03-03",
+      "available_at": "2026-03-03T16:08:11",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "关于改良型安卡拉痘苗病毒（MVA）猴痘减毒活疫苗获得临床试验批准通知书的公告",
+      "summary": "",
+      "publish_date": "2026-03-16",
+      "available_at": "2026-03-16T16:29:49",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "智飞生物：“改良型安卡拉痘苗病毒（MVA）猴痘减毒活疫苗”临床试验获批",
+      "summary": "3月16日，智飞生物（300122）发布公告，公司的全资子公司智飞龙科马自主研发的改良型安卡拉痘苗病毒（MVA）猴痘减毒活疫苗获得国家药品监督管理局药物临床试验批准通知书，标志着该疫苗在18周岁及以上人群中开展预防猴痘病毒引起的猴痘疾病的临床试验。",
+      "publish_date": "2026-03-16",
+      "available_at": "2026-03-16T16:39:28",
+      "sentiment_score": 0.0,
+      "category": "产品进展",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "智飞生物：改良型安卡拉痘苗病毒（MVA）猴痘减毒活疫苗获得临床试验批准通知书",
+      "summary": "每经AI快讯，3月16日，智飞生物300122.SZ)公告称，公司全资子公司智飞龙科马自主研发的改良型安卡拉痘苗病毒（MVA）猴痘减毒活疫苗获得国家药品监督管理局药物临床试验批准通知书，同意本品在18周岁及以上人群中开展预防猴痘病毒引起的猴痘疾病的临床试验。",
+      "publish_date": "2026-03-16",
+      "available_at": "2026-03-16T16:44:11",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "关于公司控股股东部分股份质押的公告",
+      "summary": "",
+      "publish_date": "2026-03-17",
+      "available_at": "2026-03-17T17:01:10",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "智飞生物：控股股东质押2010万股，占总股本的0.84%",
+      "summary": "3月17日，智飞生物（300122）发布公告，控股股东蒋仁生将其持有的2010万股股份办理质押，占其所持股份的1.73%及公司总股本的0.84%。 截至公告披露日，蒋仁生及其一致行动人累计质押股份为1.39亿股，占其所持股份的10.67%及公司总股本的5.82%。",
+      "publish_date": "2026-03-17",
+      "available_at": "2026-03-17T17:41:22",
+      "sentiment_score": 0.0,
+      "category": "产品进展",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 0,
+  "hot_reason": "",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

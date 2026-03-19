@@ -1,0 +1,36 @@
+[
+  {
+    "ticker": "601898",
+    "company_name": "中煤能源",
+    "title": "中国中煤能源股份有限公司股票交易异常波动公告",
+    "announcement_type": "",
+    "publish_date": "2026-03-04",
+    "publish_time": "2026-03-04",
+    "link": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=601898&announcementId=1224994436&orgId=9900004221&announcementTime=2026-03-04",
+    "source": "cninfo.disclosure_report",
+    "raw": {
+      "代码": "601898",
+      "简称": "中煤能源",
+      "公告标题": "中国中煤能源股份有限公司股票交易异常波动公告",
+      "公告时间": "2026-03-04",
+      "公告链接": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=601898&announcementId=1224994436&orgId=9900004221&announcementTime=2026-03-04"
+    }
+  },
+  {
+    "ticker": "601898",
+    "company_name": "中煤能源",
+    "title": "中国中煤能源股份有限公司2026年2月份主要生产经营数据公告",
+    "announcement_type": "",
+    "publish_date": "2026-03-19",
+    "publish_time": "2026-03-19",
+    "link": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=601898&announcementId=1225015832&orgId=9900004221&announcementTime=2026-03-19",
+    "source": "cninfo.disclosure_report",
+    "raw": {
+      "代码": "601898",
+      "简称": "中煤能源",
+      "公告标题": "中国中煤能源股份有限公司2026年2月份主要生产经营数据公告",
+      "公告时间": "2026-03-19",
+      "公告链接": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=601898&announcementId=1225015832&orgId=9900004221&announcementTime=2026-03-19"
+    }
+  }
+]

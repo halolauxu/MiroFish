@@ -1,0 +1,58 @@
+{
+  "ticker": "002085",
+  "company_name": "万丰奥威",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "filing",
+      "title": "关于控股股东部分股份解除质押及质押的公告",
+      "summary": "",
+      "publish_date": "2026-03-05",
+      "available_at": "2026-03-05T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "万丰奥威：公司eVTOL部分机型仍在型号合格证（TC）适航取证中，并争取尽快商业化落地",
+      "summary": "万丰奥威（002085.SZ）3月19日在投资者互动平台表示，公司eVTOL部分机型仍在型号合格证（TC）适航取证中，并争取尽快商业化落地。",
+      "publish_date": "2026-03-19",
+      "available_at": "2026-03-19T10:10:19",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "万丰奥威：公司铝镁合金轻量化业务与大多数客户签订了产品售价随原材料市场价格波动而调整的价格联动机制",
+      "summary": "万丰奥威（002085.SZ）3月19日在投资者互动平台表示，公司铝镁合金轻量化业务与大多数客户签订了产品售价随原材料市场价格波动而调整的价格联动机制，公司持续优化价格联动机制，减少结算滞后影响，并加强大宗物资集中采购管理，优化供应商管理，提升产品竞争力。",
+      "publish_date": "2026-03-19",
+      "available_at": "2026-03-19T10:10:19",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "万丰奥威：万丰飞机完成“通用飞机、eVTOL”等多场景航空飞行器产品布局，目前在有序开拓国内低空市场",
+      "summary": "万丰奥威（002085.SZ）3月19日在投资者互动平台表示，万丰飞机完成“通用飞机、eVTOL、无人机”多场景航空飞行器产品布局，目前在有序开拓国内低空市场，继续在国内选址生产基地，逐步打造航空飞行器生产和制造的生态圈。",
+      "publish_date": "2026-03-19",
+      "available_at": "2026-03-19T10:10:22",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 0,
+  "hot_reason": "",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

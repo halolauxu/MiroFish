@@ -1,0 +1,36 @@
+[
+  {
+    "ticker": "000937",
+    "company_name": "冀中能源",
+    "title": "关于公司股东部分股份解除质押的公告",
+    "announcement_type": "",
+    "publish_date": "2026-03-03",
+    "publish_time": "2026-03-03",
+    "link": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=000937&announcementId=1224990630&orgId=gssz0000937&announcementTime=2026-03-03",
+    "source": "cninfo.disclosure_report",
+    "raw": {
+      "代码": "000937",
+      "简称": "冀中能源",
+      "公告标题": "关于公司股东部分股份解除质押的公告",
+      "公告时间": "2026-03-03",
+      "公告链接": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=000937&announcementId=1224990630&orgId=gssz0000937&announcementTime=2026-03-03"
+    }
+  },
+  {
+    "ticker": "000937",
+    "company_name": "冀中能源",
+    "title": "关于白涧铁矿项目的进展公告",
+    "announcement_type": "",
+    "publish_date": "2026-03-17",
+    "publish_time": "2026-03-17",
+    "link": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=000937&announcementId=1225011202&orgId=gssz0000937&announcementTime=2026-03-17",
+    "source": "cninfo.disclosure_report",
+    "raw": {
+      "代码": "000937",
+      "简称": "冀中能源",
+      "公告标题": "关于白涧铁矿项目的进展公告",
+      "公告时间": "2026-03-17",
+      "公告链接": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=000937&announcementId=1225011202&orgId=gssz0000937&announcementTime=2026-03-17"
+    }
+  }
+]

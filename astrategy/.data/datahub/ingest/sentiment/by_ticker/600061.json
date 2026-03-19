@@ -1,0 +1,94 @@
+{
+  "ticker": "600061",
+  "company_name": "国投资本",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "news",
+      "title": "国投资本：国投瑞银白银期货证券投资基金估值调整预计对2026年度归母净利润产生一定负面影响",
+      "summary": "国投资本600061.SH)公告称，近期，公司下属三级控股投资企业国投瑞银基金管理有限公司（简称“国投瑞银基金”）旗下国投瑞银白银期货证券投资基金（LOF）估值调整事项受到市场关注，国投瑞银基金已于2026年2月15日发布相关事项的专项工作方案。",
+      "publish_date": "2026-02-23",
+      "available_at": "2026-02-23T16:30:33",
+      "sentiment_score": 0.0,
+      "category": "业绩公告",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "国投资本：国投瑞银白银期货证券投资基金估值调整预计对2026年度归母净利润产生一定负面影响",
+      "summary": "每经AI快讯，2月23日，国投资本600061.SH)公告称，公司下属三级控股投资企业国投瑞银基金旗下国投瑞银白银期货证券投资基金（LOF）估值调整事项预计将对公司2026年度归母净利润产生一定负面影响，影响金额低于公司2024年度经审计归母净利润的5%，不会对公司整体业务发展产生实质性影响",
+      "publish_date": "2026-02-23",
+      "available_at": "2026-02-23T16:35:59",
+      "sentiment_score": 0.0,
+      "category": "业绩公告",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "600061公告：白银基金估值调整事项，对净利润产生一定负面影响",
+      "summary": "【导读】国投资本：白银基金估值调整预计影响2026年度归母净利润 中国基金报记者忆山 2月23日，国投资本发布公告称，公司下属三级控股投资企业国投瑞银基金旗下国投瑞银白银期货证券投资基金（LOF）估值调整事项，预计将对公司2026年度归母净利润产生一定负面影响，影响金额低于公司",
+      "publish_date": "2026-02-23",
+      "available_at": "2026-02-23T18:47:54",
+      "sentiment_score": 0.0,
+      "category": "业绩公告",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "国投资本股份有限公司关于子公司国投瑞银基金有关事项的公告",
+      "summary": "",
+      "publish_date": "2026-02-24",
+      "available_at": "2026-02-24T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "国投资本股份有限公司2026年第一次临时股东会决议公告",
+      "summary": "",
+      "publish_date": "2026-02-28",
+      "available_at": "2026-02-28T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "国投资本股份有限公司关于以集中竞价交易方式回购公司股份的进展公告",
+      "summary": "股权变动",
+      "publish_date": "2026-03-04",
+      "available_at": "2026-03-04T00:00:00",
+      "sentiment_score": 0.8,
+      "category": "股权变动",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "国投资本股份有限公司关于股份回购实施结果暨股份变动的公告",
+      "summary": "股权变动",
+      "publish_date": "2026-03-17",
+      "available_at": "2026-03-17T00:00:00",
+      "sentiment_score": 0.8,
+      "category": "股权变动",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 0,
+  "hot_reason": "",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

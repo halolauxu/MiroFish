@@ -1,0 +1,53 @@
+[
+  {
+    "ticker": "000009",
+    "company_name": "中国宝安",
+    "title": "第十五届董事局第八次会议决议公告",
+    "announcement_type": "",
+    "publish_date": "2026-02-24",
+    "publish_time": "2026-02-24",
+    "link": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=000009&announcementId=1224982592&orgId=gssz0000009&announcementTime=2026-02-24",
+    "source": "cninfo.disclosure_report",
+    "raw": {
+      "代码": "000009",
+      "简称": "中国宝安",
+      "公告标题": "第十五届董事局第八次会议决议公告",
+      "公告时间": "2026-02-24",
+      "公告链接": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=000009&announcementId=1224982592&orgId=gssz0000009&announcementTime=2026-02-24"
+    }
+  },
+  {
+    "ticker": "000009",
+    "company_name": "中国宝安",
+    "title": "第十五届董事局第九次会议决议公告",
+    "announcement_type": "",
+    "publish_date": "2026-03-04",
+    "publish_time": "2026-03-04",
+    "link": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=000009&announcementId=1224993712&orgId=gssz0000009&announcementTime=2026-03-04",
+    "source": "cninfo.disclosure_report",
+    "raw": {
+      "代码": "000009",
+      "简称": "中国宝安",
+      "公告标题": "第十五届董事局第九次会议决议公告",
+      "公告时间": "2026-03-04",
+      "公告链接": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=000009&announcementId=1224993712&orgId=gssz0000009&announcementTime=2026-03-04"
+    }
+  },
+  {
+    "ticker": "000009",
+    "company_name": "中国宝安",
+    "title": "关于持股5%以上股东增持计划实施结果的公告",
+    "announcement_type": "股权变动",
+    "publish_date": "2026-03-10",
+    "publish_time": "2026-03-10",
+    "link": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=000009&announcementId=1225001447&orgId=gssz0000009&announcementTime=2026-03-10",
+    "source": "cninfo.disclosure_report",
+    "raw": {
+      "代码": "000009",
+      "简称": "中国宝安",
+      "公告标题": "关于持股5%以上股东增持计划实施结果的公告",
+      "公告时间": "2026-03-10",
+      "公告链接": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=000009&announcementId=1225001447&orgId=gssz0000009&announcementTime=2026-03-10"
+    }
+  }
+]

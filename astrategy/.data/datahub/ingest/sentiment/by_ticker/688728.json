@@ -1,0 +1,130 @@
+{
+  "ticker": "688728",
+  "company_name": "格科微",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "news",
+      "title": "格科微2025年业绩快报：归母净利润5037万元，下降73.03%",
+      "summary": "2月27日，格科微（688728）发布公告，2025年度业绩快报显示，公司实现营业总收入77.82亿元，同比增长21.91%；归母净利润5037万元，同比下降73.03%。",
+      "publish_date": "2026-02-27",
+      "available_at": "2026-02-27T17:38:44",
+      "sentiment_score": -0.5,
+      "category": "业绩公告",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "格科微有限公司2025年年度业绩快报公告",
+      "summary": "业绩预告",
+      "publish_date": "2026-02-28",
+      "available_at": "2026-02-28T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "业绩公告",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "独立董事提名人声明与承诺（曾晓洋）",
+      "summary": "",
+      "publish_date": "2026-03-13",
+      "available_at": "2026-03-13T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "独立董事提名人声明与承诺（FENGYUTAO）",
+      "summary": "",
+      "publish_date": "2026-03-13",
+      "available_at": "2026-03-13T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "独立董事候选人声明与承诺（曾晓洋）",
+      "summary": "",
+      "publish_date": "2026-03-13",
+      "available_at": "2026-03-13T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "独立董事候选人声明与承诺（FENGYUTAO）",
+      "summary": "",
+      "publish_date": "2026-03-13",
+      "available_at": "2026-03-13T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "格科微有限公司董事会提名委员会关于第二届董事会独立董事候选人的审核意见",
+      "summary": "",
+      "publish_date": "2026-03-13",
+      "available_at": "2026-03-13T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "格科微有限公司关于独立董事任期即将届满辞任暨提名独立董事候选人的公告",
+      "summary": "",
+      "publish_date": "2026-03-13",
+      "available_at": "2026-03-13T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "科创板股今日大宗交易成交明细",
+      "summary": "1350.00 2.49 -0.80 3361.50 688180 君实生物 3 105.53 31.00 0.00 3271.43 688568 中科星图 1 41.86 68.58 0.00 2870.65 688188 柏楚电子 3 17.08 149.14 0.00 2547.31 688728",
+      "publish_date": "2026-03-13",
+      "available_at": "2026-03-13T22:15:12",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "17.94亿主力资金净流入，国家大基金持股概念涨2.28%",
+      "summary": "301269 华大九天 1.40 0.55 1926.32 6.88 300474 景嘉微 1.72 1.86 1741.25 3.55 688720 艾森股份 7.92 6.87 1476.81 5.48 688545 兴福电子 3.02 3.14 1180.15 4.10 688728",
+      "publish_date": "2026-03-16",
+      "available_at": "2026-03-16T17:12:45",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 0,
+  "hot_reason": "",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

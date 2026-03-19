@@ -1,0 +1,36 @@
+[
+  {
+    "ticker": "600170",
+    "company_name": "上海建工",
+    "title": "上海建工关于提供担保的进展公告",
+    "announcement_type": "",
+    "publish_date": "2026-03-10",
+    "publish_time": "2026-03-10",
+    "link": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=600170&announcementId=1225000845&orgId=gssh0600170&announcementTime=2026-03-10",
+    "source": "cninfo.disclosure_report",
+    "raw": {
+      "代码": "600170",
+      "简称": "上海建工",
+      "公告标题": "上海建工关于提供担保的进展公告",
+      "公告时间": "2026-03-10",
+      "公告链接": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=600170&announcementId=1225000845&orgId=gssh0600170&announcementTime=2026-03-10"
+    }
+  },
+  {
+    "ticker": "600170",
+    "company_name": "上海建工",
+    "title": "上海建工关于取得土地使用权的公告",
+    "announcement_type": "",
+    "publish_date": "2026-03-11",
+    "publish_time": "2026-03-11",
+    "link": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=600170&announcementId=1225002831&orgId=gssh0600170&announcementTime=2026-03-11",
+    "source": "cninfo.disclosure_report",
+    "raw": {
+      "代码": "600170",
+      "简称": "上海建工",
+      "公告标题": "上海建工关于取得土地使用权的公告",
+      "公告时间": "2026-03-11",
+      "公告链接": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=600170&announcementId=1225002831&orgId=gssh0600170&announcementTime=2026-03-11"
+    }
+  }
+]

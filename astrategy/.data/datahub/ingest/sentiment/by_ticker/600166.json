@@ -1,0 +1,82 @@
+{
+  "ticker": "600166",
+  "company_name": "福田汽车",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "filing",
+      "title": "2026年2月份各产品产销数据快报",
+      "summary": "",
+      "publish_date": "2026-03-05",
+      "available_at": "2026-03-05T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "业绩公告",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "关于年度担保计划范围内担保进展的公告",
+      "summary": "",
+      "publish_date": "2026-03-14",
+      "available_at": "2026-03-14T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "福田汽车：调整董事、总经理",
+      "summary": "人民财讯3月15日电，福田汽车6001663月15日公告，公司于3月14日收到控股股东北京汽车集团有限公司（简称“北汽集团”）相关函件。根据北汽集团来函，推荐鹿政华为公司董事、总经理人选，武锡斌不再担任公司董事、总经理职务，鹿政华不再担任公司常务副总经理职务。",
+      "publish_date": "2026-03-15",
+      "available_at": "2026-03-15T15:41:54",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "福田汽车人事调整：鹿政华获控股股东提名接任董事、总经理",
+      "summary": "3月15日，福田汽车（600166）发布公告，控股股东北汽集团推荐鹿政华为公司董事、总经理人选，武锡斌不再担任公司董事、总经理职务，鹿政华也不再担任公司常务副总经理职务。 2025年前三季度，福田汽车实现收入454.49亿元，归母净利润11.13亿元。",
+      "publish_date": "2026-03-15",
+      "available_at": "2026-03-15T16:16:35",
+      "sentiment_score": 0.0,
+      "category": "业绩公告",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "关于调整董事、总经理的提示性公告",
+      "summary": "",
+      "publish_date": "2026-03-16",
+      "available_at": "2026-03-16T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "近日海外机构调研股名单",
+      "summary": "55.73 -4.39 医药生物 000636 风华高科 7 22.53 -5.14 电子 688169 石头科技 16 126.05 -5.81 家用电器 688720 艾森股份 1 65.92 -5.83 电子 300718 长盛轴承 1 69.70 -5.94 机械设备 600166",
+      "publish_date": "2026-03-19",
+      "available_at": "2026-03-19T18:04:54",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 0,
+  "hot_reason": "",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

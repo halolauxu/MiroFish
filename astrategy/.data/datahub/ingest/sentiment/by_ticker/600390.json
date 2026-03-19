@@ -1,0 +1,46 @@
+{
+  "ticker": "600390",
+  "company_name": "五矿资本",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "news",
+      "title": "信托概念涨0.85%，主力资金净流入这些股",
+      "summary": "建元信托 0.74 0.84 -810.67 -6.43 600643 爱建集团 -0.21 0.78 -838.16 -14.25 600020 中原高速 1.69 1.14 -978.49 -9.14 600120 浙江东方 0.32 1.48 -1589.77 -4.99 600390",
+      "publish_date": "2026-03-12",
+      "available_at": "2026-03-12T17:18:38",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "20.19亿主力资金净流入，期货概念涨0.02%",
+      "summary": "600208 衢州发展 -0.58 0.71 1163.13 5.52 600927 永安期货 0.75 0.87 1111.30 5.89 002673 西部证券 0.39 0.76 701.94 2.67 601198 东兴证券 -0.15 0.72 611.48 1.96 600390",
+      "publish_date": "2026-03-17",
+      "available_at": "2026-03-17T17:23:25",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "36.33亿元主力资金今日抢筹非银金融板块",
+      "summary": "永安期货 0.75 0.87 1111.30 600816 建元信托 0.74 1.15 1067.13 002316 亚联发展 -0.18 7.93 850.60 002673 西部证券 0.39 0.76 701.94 601198 东兴证券 -0.15 0.72 611.48 600390",
+      "publish_date": "2026-03-17",
+      "available_at": "2026-03-17T17:23:34",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 0,
+  "hot_reason": "",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

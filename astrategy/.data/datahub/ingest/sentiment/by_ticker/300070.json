@@ -1,0 +1,70 @@
+{
+  "ticker": "300070",
+  "company_name": "碧水源",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "filing",
+      "title": "2026年第一次临时股东会决议公告",
+      "summary": "",
+      "publish_date": "2026-03-02",
+      "available_at": "2026-03-02T18:20:12",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "碧水源：公司膜年产量为微滤/超滤膜2000万平方米，纳滤/反渗透膜1900万平方米",
+      "summary": "碧水源（300070.SZ）3月6日在投资者互动平台表示，您好，公司膜年产量为微滤 / 超滤膜2000 万m²，纳滤 / 反渗透膜1900 万m²，产能充足，可满足在手订单需求，感谢您的关注。",
+      "publish_date": "2026-03-06",
+      "available_at": "2026-03-06T16:44:32",
+      "sentiment_score": 0.35,
+      "category": "重大合同",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "【盘中播报】84只个股突破半年线",
+      "summary": "1.47 3.75 4.09 4.15 1.41 600839 四川长虹 1.51 2.91 9.94 10.07 1.36 605296 神农集团 2.00 0.55 29.27 29.64 1.27 688501 青达环保 1.39 1.72 27.30 27.63 1.20 300070",
+      "publish_date": "2026-03-11",
+      "available_at": "2026-03-11T14:11:14",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "今日105只个股突破半年线",
+      "summary": "2.22 0.54 14.50 14.74 1.66 601908 京运通 1.71 4.36 4.09 4.16 1.65 920879 基康技术 3.72 2.33 23.02 23.40 1.64 688501 青达环保 1.83 2.10 27.30 27.75 1.64 300070",
+      "publish_date": "2026-03-11",
+      "available_at": "2026-03-11T15:41:50",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "2026年度第三期绿色科技创新债券发行结果公告",
+      "summary": "",
+      "publish_date": "2026-03-18",
+      "available_at": "2026-03-18T17:46:10",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 0,
+  "hot_reason": "",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

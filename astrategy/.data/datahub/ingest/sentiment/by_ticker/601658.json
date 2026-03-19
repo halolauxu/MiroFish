@@ -1,0 +1,70 @@
+{
+  "ticker": "601658",
+  "company_name": "邮储银行",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "news",
+      "title": "银行行业资金流入榜：农业银行、工商银行等净流入资金居前",
+      "summary": "今日换手率（%） 主力资金流量（万元） 601288 农业银行 1.65 0.13 35384.05 601398 工商银行 1.93 0.14 33620.24 601988 中国银行 1.85 0.17 24167.04 600000 浦发银行 0.87 0.23 14592.19 601658",
+      "publish_date": "2026-03-17",
+      "available_at": "2026-03-17T17:23:22",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "邮储银行：控股股东所持4.5%公司股份将于3月25日解禁",
+      "summary": "3月18日，邮储银行（601658/01658）发布公告，控股股东中国邮政集团有限公司所持54亿股非公开发行股份将于2026年3月25日上市流通，占本行总股本的4.50%。股本变动具体情况如下：",
+      "publish_date": "2026-03-18",
+      "available_at": "2026-03-18T18:41:54",
+      "sentiment_score": -0.5,
+      "category": "产品进展",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "中国邮政储蓄银行股份有限公司非公开发行A股股票限售股上市流通公告",
+      "summary": "增发融资",
+      "publish_date": "2026-03-19",
+      "available_at": "2026-03-19T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "中国国际金融股份有限公司、中信证券股份有限公司关于中国邮政储蓄银行股份有限公司非公开发行A股股票限售股上市流通的核查意见",
+      "summary": "增发融资",
+      "publish_date": "2026-03-19",
+      "available_at": "2026-03-19T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "不清仓将被强制处理？金价波动加剧，银行收紧个人“炒金”业务，多家保证金提至100%",
+      "summary": "3月17日，邮储银行（601658.SH）、民生银行（600016.SH）同步发布公告，进一步收紧个人贵金属业务。",
+      "publish_date": "2026-03-19",
+      "available_at": "2026-03-19T17:35:57",
+      "sentiment_score": 0.0,
+      "category": "产品进展",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 0,
+  "hot_reason": "",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

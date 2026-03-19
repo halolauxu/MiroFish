@@ -1,0 +1,70 @@
+{
+  "ticker": "600298",
+  "company_name": "安琪酵母",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "news",
+      "title": "安琪酵母：拟7.97亿元实施宜昌高新区公司白洋生物科技园项目二期",
+      "summary": "人民财讯3月18日电，安琪酵母6002983月18日公告，为提升公司的酵母蛋白产能，满足日益增长的市场需求，安琪酵母（宜昌高新区）有限公司拟实施白洋生物科技园项目二期，投资金额为7.97亿元。",
+      "publish_date": "2026-03-18",
+      "available_at": "2026-03-18T18:37:38",
+      "sentiment_score": 0.2,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "最快明年上半年可投产：安琪酵母拟投7.97亿元加码酵母蛋白产能，收益率12.12%",
+      "summary": "3月18日，安琪酵母（600298）发布公告，安琪酵母（宜昌高新区）有限公司计划实施白洋生物科技园项目二期，投资金额为7.97亿元。 该项目旨在提升公司的酵母蛋白产能，以满足市场日益增长的需求。",
+      "publish_date": "2026-03-18",
+      "available_at": "2026-03-18T18:41:43",
+      "sentiment_score": 0.44,
+      "category": "产品进展",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "安琪酵母股份有限公司第十届董事会第十一次会议决议公告",
+      "summary": "",
+      "publish_date": "2026-03-19",
+      "available_at": "2026-03-19T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "安琪酵母股份有限公司关于宜昌高新区公司实施白洋生物科技园项目二期的公告",
+      "summary": "",
+      "publish_date": "2026-03-19",
+      "available_at": "2026-03-19T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "持续扩张！安琪酵母拟7.97亿元提升酵母蛋白产能，最快明年上半年投产",
+      "summary": "3月19日，安琪酵母600298公告，为提升公司的酵母蛋白产能，满足日益增长的市场需求，安琪酵母（宜昌高新区）有限公司拟实施白洋生物科技园项目二期，投资金额为7.97亿元。",
+      "publish_date": "2026-03-19",
+      "available_at": "2026-03-19T16:18:33",
+      "sentiment_score": 0.44,
+      "category": "产品进展",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 0,
+  "hot_reason": "",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

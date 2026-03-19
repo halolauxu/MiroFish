@@ -1,0 +1,53 @@
+[
+  {
+    "ticker": "600036",
+    "company_name": "招商银行",
+    "title": "招商银行股份有限公司关于拟赎回优先股的公告",
+    "announcement_type": "",
+    "publish_date": "2026-03-14",
+    "publish_time": "2026-03-14",
+    "link": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=600036&announcementId=1225008567&orgId=gssh0600036&announcementTime=2026-03-14",
+    "source": "cninfo.disclosure_report",
+    "raw": {
+      "代码": "600036",
+      "简称": "招商银行",
+      "公告标题": "招商银行股份有限公司关于拟赎回优先股的公告",
+      "公告时间": "2026-03-14",
+      "公告链接": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=600036&announcementId=1225008567&orgId=gssh0600036&announcementTime=2026-03-14"
+    }
+  },
+  {
+    "ticker": "600036",
+    "company_name": "招商银行",
+    "title": "招商银行股份有限公司关于赎回优先股的第一次提示性公告",
+    "announcement_type": "",
+    "publish_date": "2026-03-14",
+    "publish_time": "2026-03-14",
+    "link": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=600036&announcementId=1225008538&orgId=gssh0600036&announcementTime=2026-03-14",
+    "source": "cninfo.disclosure_report",
+    "raw": {
+      "代码": "600036",
+      "简称": "招商银行",
+      "公告标题": "招商银行股份有限公司关于赎回优先股的第一次提示性公告",
+      "公告时间": "2026-03-14",
+      "公告链接": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=600036&announcementId=1225008538&orgId=gssh0600036&announcementTime=2026-03-14"
+    }
+  },
+  {
+    "ticker": "600036",
+    "company_name": "招商银行",
+    "title": "[H股公告]招商银行股份有限公司董事会会议召开日期",
+    "announcement_type": "",
+    "publish_date": "2026-03-18",
+    "publish_time": "2026-03-18",
+    "link": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=600036&announcementId=1225013931&orgId=gssh0600036&announcementTime=2026-03-18",
+    "source": "cninfo.disclosure_report",
+    "raw": {
+      "代码": "600036",
+      "简称": "招商银行",
+      "公告标题": "[H股公告]招商银行股份有限公司董事会会议召开日期",
+      "公告时间": "2026-03-18",
+      "公告链接": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=600036&announcementId=1225013931&orgId=gssh0600036&announcementTime=2026-03-18"
+    }
+  }
+]

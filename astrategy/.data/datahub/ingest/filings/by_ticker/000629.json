@@ -1,0 +1,36 @@
+[
+  {
+    "ticker": "000629",
+    "company_name": "钒钛股份",
+    "title": "关于回购公司股份进展的公告",
+    "announcement_type": "股权变动",
+    "publish_date": "2026-03-05",
+    "publish_time": "2026-03-05",
+    "link": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=000629&announcementId=1224995165&orgId=gssz0000629&announcementTime=2026-03-05",
+    "source": "cninfo.disclosure_report",
+    "raw": {
+      "代码": "000629",
+      "简称": "钒钛股份",
+      "公告标题": "关于回购公司股份进展的公告",
+      "公告时间": "2026-03-05",
+      "公告链接": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=000629&announcementId=1224995165&orgId=gssz0000629&announcementTime=2026-03-05"
+    }
+  },
+  {
+    "ticker": "000629",
+    "company_name": "钒钛股份",
+    "title": "关于持股5%以上股东股份减持计划预披露的公告",
+    "announcement_type": "股权变动",
+    "publish_date": "2026-03-13",
+    "publish_time": "2026-03-13",
+    "link": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=000629&announcementId=1225006911&orgId=gssz0000629&announcementTime=2026-03-13",
+    "source": "cninfo.disclosure_report",
+    "raw": {
+      "代码": "000629",
+      "简称": "钒钛股份",
+      "公告标题": "关于持股5%以上股东股份减持计划预披露的公告",
+      "公告时间": "2026-03-13",
+      "公告链接": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=000629&announcementId=1225006911&orgId=gssz0000629&announcementTime=2026-03-13"
+    }
+  }
+]

@@ -1,0 +1,70 @@
+{
+  "ticker": "601838",
+  "company_name": "成都银行",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "filing",
+      "title": "成都银行股份有限公司关于变更注册资本获得核准的公告",
+      "summary": "",
+      "publish_date": "2026-03-07",
+      "available_at": "2026-03-07T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "成都银行董事长任职资格获批，黄建军正式履新",
+      "summary": "每经成都3月11日电（记者张祎）3月11日，成都银行（SH601838，股价17.28元，市值732.4亿元）发布公告称，该行近日收到《四川金融监管局关于黄建军成都银行股份有限公司董事、董事长任职资格的批复》，国家金融监督管理总局四川监管局已核准黄建军担任成都银行董事、董事长的任职资格",
+      "publish_date": "2026-03-11",
+      "available_at": "2026-03-11T21:26:16",
+      "sentiment_score": 0.0,
+      "category": "产品进展",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "成都银行股份有限公司关于董事、董事长任职资格获监管机构核准的公告",
+      "summary": "",
+      "publish_date": "2026-03-12",
+      "available_at": "2026-03-12T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "政策影响",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "“75后”老将正式回归，黄建军获核准出任成都银行董事长",
+      "summary": "微成都报道3月11日，成都银行（601838.SH）公告称，国家金融监督管理总局四川监管局已核准黄建军公司董事、董事长的任职资格。",
+      "publish_date": "2026-03-12",
+      "available_at": "2026-03-12T16:57:26",
+      "sentiment_score": 0.0,
+      "category": "政策影响",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "2025年业绩增速承压 成都银行董事长黄建军任职资格获批",
+      "summary": "继通过可转债转股增加注册资本获批后，成都银行股份有限公司（简称“成都银行”，601838.SH）又收到了一项重要监管批复。近日，成都银行发布公告称，国家金融监督管理总局四川监管局已核准黄建军该行董事、董事长的任职资格。这意味着，黄建军正式成为成都银行董事长。",
+      "publish_date": "2026-03-19",
+      "available_at": "2026-03-19T04:25:35",
+      "sentiment_score": -0.5,
+      "category": "业绩公告",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 0,
+  "hot_reason": "",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

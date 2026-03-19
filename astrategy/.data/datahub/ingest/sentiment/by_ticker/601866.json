@@ -1,0 +1,70 @@
+{
+  "ticker": "601866",
+  "company_name": "中远海发",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "news",
+      "title": "中远海发601866龙虎榜数据03-03)",
+      "summary": "交易所2026年3月3日公布的交易公开信息显示，中远海发因成为有价格涨跌幅限制的日收盘价格涨幅偏离值达到7%的前五只证券上榜。中远海发当日收报3.25元，涨跌幅10.17%，偏离值11.60%，换手率7.94%，成交额24.51亿。 免责声明：本文基于AI生产，仅供参考，不构成任何投资建议",
+      "publish_date": "2026-03-03",
+      "available_at": "2026-03-03T16:57:46",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "3月3日龙虎榜机构席位买卖详情",
+      "summary": "其中，机构净买入前三分别为法尔胜(000890.SZ)、通源石油(300164.SZ)与中国瑞林(603257.SH)，详情见下图：机构净卖出的个股中，前三分别为航亚科技(688510.SH)、星环科技(688031.SH)与中远海发601866.SH)。",
+      "publish_date": "2026-03-03",
+      "available_at": "2026-03-03T17:26:52",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "中远海发关于以集中竞价交易方式回购公司A股股份的进展公告",
+      "summary": "股权变动",
+      "publish_date": "2026-03-04",
+      "available_at": "2026-03-04T00:00:00",
+      "sentiment_score": 0.8,
+      "category": "股权变动",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "H股公告：证券变动月报表",
+      "summary": "",
+      "publish_date": "2026-03-05",
+      "available_at": "2026-03-05T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "25.26亿元主力资金今日撤离交通运输板块",
+      "summary": "-14095.78 600221 海航控股 -2.55 1.17 -10126.77 600428 中远海特 -4.59 4.22 -8094.95 601919 中远海控 -1.71 1.52 -6797.23 600009 上海机场 -1.89 0.61 -6201.84 601866",
+      "publish_date": "2026-03-09",
+      "available_at": "2026-03-09T17:10:12",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 0,
+  "hot_reason": "",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

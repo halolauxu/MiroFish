@@ -1,0 +1,82 @@
+{
+  "ticker": "300679",
+  "company_name": "电连技术",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "filing",
+      "title": "关于回购公司股份的进展公告",
+      "summary": "股权变动",
+      "publish_date": "2026-03-03",
+      "available_at": "2026-03-03T16:26:11",
+      "sentiment_score": 0.8,
+      "category": "股权变动",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "关于持股5%以上股东股份减持计划的预披露公告",
+      "summary": "股权变动",
+      "publish_date": "2026-03-05",
+      "available_at": "2026-03-05T19:56:11",
+      "sentiment_score": -0.78,
+      "category": "股权变动",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "关于首次回购公司股份的公告",
+      "summary": "股权变动",
+      "publish_date": "2026-03-09",
+      "available_at": "2026-03-09T16:04:09",
+      "sentiment_score": 0.8,
+      "category": "股权变动",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "电连技术：公司专注射频主业，目前未涉及光连接器产品",
+      "summary": "电连技术（300679.SZ）3月10日在投资者互动平台表示，公司专注射频主业，目前未涉及光连接器产品，公司将持续跟进连接器技术演进，结合自身战略与市场需求积极布局。",
+      "publish_date": "2026-03-10",
+      "available_at": "2026-03-10T16:36:10",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "电连技术：公司用于激光雷达的系列产品可满足新一代高规格激光雷达的信号传输与可靠性要求",
+      "summary": "电连技术（300679.SZ）3月10日在投资者互动平台表示，公司用于激光雷达的系列产品具备高速率、高可靠性、车规级技术能力，可满足新一代高规格激光雷达的信号传输与可靠性要求，同时公司拥有快速响应与定制能力。",
+      "publish_date": "2026-03-10",
+      "available_at": "2026-03-10T18:39:34",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "电连技术：公司相关产品可应用于AI手机",
+      "summary": "电连技术（300679.SZ）3月13日在投资者互动平台表示，您好，公司相关产品可应用于AI手机，客户相关情况请以公司后续披露的定期报告为准，感谢您的关注。",
+      "publish_date": "2026-03-13",
+      "available_at": "2026-03-13T16:00:05",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 0,
+  "hot_reason": "",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

@@ -1,0 +1,106 @@
+{
+  "ticker": "600549",
+  "company_name": "厦门钨业",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "filing",
+      "title": "厦门钨业关于使用闲置募集资金进行现金管理部分到期赎回的公告",
+      "summary": "",
+      "publish_date": "2026-03-03",
+      "available_at": "2026-03-03T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "厦门钨业2026年第二次临时股东会会议资料",
+      "summary": "",
+      "publish_date": "2026-03-03",
+      "available_at": "2026-03-03T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "厦门钨业关于使用闲置募集资金进行现金管理部分到期赎回的公告",
+      "summary": "",
+      "publish_date": "2026-03-05",
+      "available_at": "2026-03-05T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "厦门钨业2026年第二次临时股东会决议公告",
+      "summary": "",
+      "publish_date": "2026-03-11",
+      "available_at": "2026-03-11T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "厦门钨业关于使用闲置募集资金进行现金管理部分到期赎回的公告",
+      "summary": "",
+      "publish_date": "2026-03-12",
+      "available_at": "2026-03-12T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "有色金属行业今日净流出资金34.49亿元，赣锋锂业等16股净流出资金超亿元",
+      "summary": "有色金属行业资金流入榜 代码 简称 今日涨跌幅（%） 今日换手率（%） 主力资金流量（万元） 600988 赤峰黄金 2.02 3.02 18248.57 002149 西部材料 2.93 9.26 14181.81 600549 厦门钨业 1.05 2.36 10994.55 002378",
+      "publish_date": "2026-03-18",
+      "available_at": "2026-03-18T17:06:48",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "有色金属行业资金流出榜：紫金矿业等41股净流出资金超亿元",
+      "summary": "126967.83 603799 华友钴业 -6.81 4.29 -73716.27 600111 北方稀土 -4.88 2.65 -67398.99 000426 兴业银锡 -8.59 5.63 -62333.47 601600 中国铝业 -6.41 2.88 -58688.43 600549",
+      "publish_date": "2026-03-19",
+      "available_at": "2026-03-19T18:04:36",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "金属钴概念下跌4.85%，主力资金净流出31股",
+      "summary": "主力资金流量（万元） 601899 紫金矿业 -7.45 2.56 -293559.68 603993 洛阳钼业 -8.04 2.83 -126967.83 603799 华友钴业 -6.81 4.29 -73716.27 000426 兴业银锡 -8.59 5.63 -62333.47 600549",
+      "publish_date": "2026-03-19",
+      "available_at": "2026-03-19T18:04:39",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 0,
+  "hot_reason": "",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

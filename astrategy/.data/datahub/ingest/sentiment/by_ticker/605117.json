@@ -1,0 +1,58 @@
+{
+  "ticker": "605117",
+  "company_name": "德业股份",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "news",
+      "title": "德业股份605117龙虎榜数据03-03)",
+      "summary": "交易所2026年3月3日公布的交易公开信息显示，德业股份因成为非ST、*ST和S证券连续三个交易日内收盘价格涨幅偏离值累计达到20%的证券上榜。德业股份当日收报121.96元，涨跌幅6.10%，换手率2.93%，成交额33.22亿。",
+      "publish_date": "2026-03-03",
+      "available_at": "2026-03-03T16:58:14",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "股票交易异常波动公告",
+      "summary": "",
+      "publish_date": "2026-03-04",
+      "available_at": "2026-03-04T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "德业股份股价创历史新高",
+      "summary": "3月11日早盘，储能概念股大幅上涨，其中德业股份605117触及涨停板，报价131.88元/股，创下历史新高，最新A股市值逼近1200亿元。",
+      "publish_date": "2026-03-11",
+      "available_at": "2026-03-11T10:24:09",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "电力设备行业今日跌2.10%，主力资金净流出124.96亿元",
+      "summary": "德业股份 0.10 1.44 11619.51 688390 固德威 4.44 5.39 10798.82 603806 福斯特 0.61 2.65 9339.68 688063 派能科技 4.58 8.63 8015.95 300569 天能重工 0.52 16.15 7477.59",
+      "publish_date": "2026-03-19",
+      "available_at": "2026-03-19T18:05:29",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 0,
+  "hot_reason": "",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

@@ -1,0 +1,46 @@
+{
+  "ticker": "600930",
+  "company_name": "华电新能",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "news",
+      "title": "华电新能：公司已投产运营的项目中，有项目涉及算电协同领域",
+      "summary": "华电新能（600930.SH）3月16日在投资者互动平台表示，公司已投产运营的项目中，有项目涉及算电协同领域。",
+      "publish_date": "2026-03-16",
+      "available_at": "2026-03-16T19:49:55",
+      "sentiment_score": 0.24,
+      "category": "产品进展",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "今日570只个股突破五日均线",
+      "summary": "2.72 27.94 29.65 6.12 920592 华信永道 9.24 8.50 34.09 36.16 6.07 000981 山子高科 9.09 9.22 4.43 4.68 5.64 603105 芯能科技 10.04 11.16 10.90 11.51 5.56 600930",
+      "publish_date": "2026-03-17",
+      "available_at": "2026-03-17T12:14:57",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "公用事业行业今日净流入资金7.77亿元，广安爱众等8股净流入资金超亿元",
+      "summary": "001286 陕西能源 3.32 4.76 2594.71 600795 国电电力 -0.60 0.91 2562.77 600803 新奥股份 4.50 0.87 2452.02 公用事业行业资金流出榜 代码 简称 今日涨跌幅（%） 今日换手率（%） 主力资金流量（万元） 600930",
+      "publish_date": "2026-03-19",
+      "available_at": "2026-03-19T18:04:26",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 0,
+  "hot_reason": "",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

@@ -1,0 +1,36 @@
+[
+  {
+    "ticker": "689009",
+    "company_name": "九号公司",
+    "title": "九号有限公司2025年年度业绩快报公告",
+    "announcement_type": "业绩预告",
+    "publish_date": "2026-02-28",
+    "publish_time": "2026-02-28",
+    "link": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=689009&announcementId=1224988139&orgId=9900039199&announcementTime=2026-02-28",
+    "source": "cninfo.disclosure_report",
+    "raw": {
+      "代码": "689009",
+      "简称": "九号公司",
+      "公告标题": "九号有限公司2025年年度业绩快报公告",
+      "公告时间": "2026-02-28",
+      "公告链接": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=689009&announcementId=1224988139&orgId=9900039199&announcementTime=2026-02-28"
+    }
+  },
+  {
+    "ticker": "689009",
+    "company_name": "九号公司",
+    "title": "九号有限公司员工认股期权计划第十七次行权结果暨股份变动公告",
+    "announcement_type": "股权变动",
+    "publish_date": "2026-03-05",
+    "publish_time": "2026-03-05",
+    "link": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=689009&announcementId=1224996052&orgId=9900039199&announcementTime=2026-03-05",
+    "source": "cninfo.disclosure_report",
+    "raw": {
+      "代码": "689009",
+      "简称": "九号公司",
+      "公告标题": "九号有限公司员工认股期权计划第十七次行权结果暨股份变动公告",
+      "公告时间": "2026-03-05",
+      "公告链接": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=689009&announcementId=1224996052&orgId=9900039199&announcementTime=2026-03-05"
+    }
+  }
+]

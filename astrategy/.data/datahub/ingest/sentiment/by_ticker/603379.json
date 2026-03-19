@@ -1,0 +1,58 @@
+{
+  "ticker": "603379",
+  "company_name": "三美股份",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "news",
+      "title": "18只个股大宗交易超5000万元",
+      "summary": "（数据宝） 2月27日大宗交易成交额居前股票 证券代码 证券简称 涨幅（%） 收盘价（元） 成交量（万股） 成交额（万元） 笔数 成交价（元） 折溢价（%） 603379 三美股份 1.02 73.17 459.50 30951.94 48 67.36 -7.94 688361",
+      "publish_date": "2026-03-02",
+      "available_at": "2026-03-02T08:56:06",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "7只个股大宗交易超5000万元",
+      "summary": "710.85 21375.21 24 30.07 -13.82 300394 天孚通信 -5.07 350.00 40.00 14000.00 1 350.00 0.00 300814 中富电路 10.11 109.78 132.20 12771.83 19 96.61 -12.00 603379",
+      "publish_date": "2026-03-02",
+      "available_at": "2026-03-02T21:57:34",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "浙江三美化工股份有限公司关于控股股东及其一致行动人权益变动触及1%刻度暨减持结果公告",
+      "summary": "股权变动",
+      "publish_date": "2026-03-03",
+      "available_at": "2026-03-03T00:00:00",
+      "sentiment_score": -0.78,
+      "category": "股权变动",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "基础化工行业资金流入榜：多氟多、宝丰能源等净流入资金居前",
+      "summary": "0.85 -5973.88 002545 东方铁塔 -0.04 1.71 -4537.01 000949 新乡化纤 1.32 10.05 -4404.47 002246 北化股份 2.38 8.42 -4398.14 000525 红太阳 0.42 6.02 -4382.64 603379",
+      "publish_date": "2026-03-11",
+      "available_at": "2026-03-11T16:48:32",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 0,
+  "hot_reason": "",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

@@ -1,0 +1,4253 @@
+{
+  "000001": {
+    "industry": "货币金融服务",
+    "total_market_cap": "211136389994.24002",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "000002": {
+    "industry": "房地产业",
+    "total_market_cap": "53688192619.5",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "000009": {
+    "industry": "电气部件与设备",
+    "total_market_cap": "23006588567.8",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "000021": {
+    "industry": "计算机、通信和其他电子设备制造业",
+    "total_market_cap": "50969599198.74",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "000027": {
+    "industry": "电力、热力生产和供应业",
+    "total_market_cap": "34062911798.56",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "000032": {
+    "industry": "建筑安装业",
+    "total_market_cap": "23039799736.56",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "000034": {
+    "industry": "批发业",
+    "total_market_cap": "27064052572.35",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "000039": {
+    "industry": "金属制品业",
+    "total_market_cap": "59317724235.0",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "000050": {
+    "industry": "计算机、通信和其他电子设备制造业",
+    "total_market_cap": "21185784837.82",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "000060": {
+    "industry": "工业金属",
+    "total_market_cap": "27846151311.66",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "000062": {
+    "industry": "批发业",
+    "total_market_cap": "27810728871.98",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "000063": {
+    "industry": "计算机、通信和其他电子设备制造业",
+    "total_market_cap": "169097958255.45",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "000088": {
+    "industry": "水上运输业",
+    "total_market_cap": "23761638891.22",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "000100": {
+    "industry": "计算机、通信和其他电子设备制造业",
+    "total_market_cap": "92979855138.09",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "000155": {
+    "industry": "电力及电网",
+    "total_market_cap": "25532508169.86",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "000157": {
+    "industry": "专用设备制造业",
+    "total_market_cap": "73944976267.8",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "000166": {
+    "industry": "资本市场服务",
+    "total_market_cap": "123446926680.79999",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "000301": {
+    "industry": "化学原料和化学制品制造业",
+    "total_market_cap": "71467399726.77",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "000333": {
+    "industry": "电气机械和器材制造业",
+    "total_market_cap": "577848990136.0",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "000338": {
+    "industry": "汽车制造业",
+    "total_market_cap": "207355050884.80002",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "000400": {
+    "industry": "电气机械和器材制造业",
+    "total_market_cap": "29183527433.85",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "000408": {
+    "industry": "农用化工",
+    "total_market_cap": "113747152967.8",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "000415": {
+    "industry": "商业服务与用品",
+    "total_market_cap": "25294692043.379997",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "000423": {
+    "industry": "医药制造业",
+    "total_market_cap": "33989096770.72",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "000425": {
+    "industry": "专用设备制造业",
+    "total_market_cap": "120423311458.0",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "000426": {
+    "industry": "其他有色金属及合金",
+    "total_market_cap": "71611389353.87",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "000429": {
+    "industry": "道路运输业",
+    "total_market_cap": "26427789432.64",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "000513": {
+    "industry": "医药制造业",
+    "total_market_cap": "30659434614.63",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "000519": {
+    "industry": "专用设备制造业",
+    "total_market_cap": "23784907412.559998",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "000528": {
+    "industry": "专用设备制造业",
+    "total_market_cap": "19633085562.120003",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "000537": {
+    "industry": "电力、热力生产和供应业",
+    "total_market_cap": "24034585353.760002",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "000538": {
+    "industry": "医药制造业",
+    "total_market_cap": "101221217468.18999",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "000539": {
+    "industry": "电力、热力生产和供应业",
+    "total_market_cap": "32394252193.62",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "000559": {
+    "industry": "汽车制造业",
+    "total_market_cap": "52780506428.48",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "000563": {
+    "industry": "其他金融业",
+    "total_market_cap": "18103455067.32",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "000568": {
+    "industry": "酒、饮料和精制茶制造业",
+    "total_market_cap": "155142682900.2",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "000582": {
+    "industry": "水上运输业",
+    "total_market_cap": "27108999849.6",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "000591": {
+    "industry": "电力、热力生产和供应业",
+    "total_market_cap": "23703632657.72",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "000596": {
+    "industry": "酒、饮料和精制茶制造业",
+    "total_market_cap": "57300240000.0",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "000598": {
+    "industry": "水的生产和供应业",
+    "total_market_cap": "20679180436.53",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "000617": {
+    "industry": "货币金融服务",
+    "total_market_cap": "135396666936.09001",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "000623": {
+    "industry": "医药制造业",
+    "total_market_cap": "21741378135.66",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "000625": {
+    "industry": "汽车制造业",
+    "total_market_cap": "105275254069.43999",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "000629": {
+    "industry": "有色金属冶炼和压延加工业",
+    "total_market_cap": "32332498500.6",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "000630": {
+    "industry": "有色金属冶炼和压延加工业",
+    "total_market_cap": "81529586780.8",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "000651": {
+    "industry": "电气机械和器材制造业",
+    "total_market_cap": "215990205372.96002",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "000657": {
+    "industry": "有色金属",
+    "total_market_cap": "117097480116.0",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "000661": {
+    "industry": "医药制造业",
+    "total_market_cap": "36294201955.13",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "000683": {
+    "industry": "化学原料和化学制品制造业",
+    "total_market_cap": "31518731628.800003",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "000703": {
+    "industry": "化学纤维",
+    "total_market_cap": "38007659156.55",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "000708": {
+    "industry": "黑色金属冶炼和压延加工业",
+    "total_market_cap": "81057359680.21999",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "000709": {
+    "industry": "黑色金属冶炼和压延加工业",
+    "total_market_cap": "25015833042.64",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "000723": {
+    "industry": "石油、煤炭及其他燃料加工业",
+    "total_market_cap": "23206411361.589996",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "000725": {
+    "industry": "计算机、通信和其他电子设备制造业",
+    "total_market_cap": "151511301781.76",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "000728": {
+    "industry": "资本市场服务",
+    "total_market_cap": "34168380886.53",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "000729": {
+    "industry": "酒、饮料和精制茶制造业",
+    "total_market_cap": "36218230531.85",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "000733": {
+    "industry": "国防装备",
+    "total_market_cap": "26644466242.48",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "000738": {
+    "industry": "铁路、船舶、航空航天和其他运输设备制造业",
+    "total_market_cap": "29710006582.59",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "000739": {
+    "industry": "医药制造业",
+    "total_market_cap": "20678217831.600002",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "000750": {
+    "industry": "资本市场服务",
+    "total_market_cap": "25672421397.539997",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "000768": {
+    "industry": "铁路、船舶、航空航天和其他运输设备制造业",
+    "total_market_cap": "71642400068.96",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "000776": {
+    "industry": "资本市场服务",
+    "total_market_cap": "149532797715.21",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "000783": {
+    "industry": "资本市场服务",
+    "total_market_cap": "40093028873.0",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "000785": {
+    "industry": "商务服务业",
+    "total_market_cap": "17435736679.2",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "000786": {
+    "industry": "非金属矿物制品业",
+    "total_market_cap": "43917689883.6",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "000792": {
+    "industry": "化学原料和化学制品制造业",
+    "total_market_cap": "178590573258.75",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "000807": {
+    "industry": "有色金属冶炼和压延加工业",
+    "total_market_cap": "100917560485.5",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "000825": {
+    "industry": "黑色金属冶炼和压延加工业",
+    "total_market_cap": "25804002515.88",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "000830": {
+    "industry": "化学原料和化学制品制造业",
+    "total_market_cap": "31154659019.96",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "000831": {
+    "industry": "有色金属冶炼和压延加工业",
+    "total_market_cap": "50800640031.09",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "000858": {
+    "industry": "酒、饮料和精制茶制造业",
+    "total_market_cap": "397981268752.65",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "000876": {
+    "industry": "农副食品加工业",
+    "total_market_cap": "38903970003.840004",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "000878": {
+    "industry": "有色金属冶炼和压延加工业",
+    "total_market_cap": "46151252281.200005",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "000883": {
+    "industry": "电力、热力生产和供应业",
+    "total_market_cap": "34547411634.4",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "000887": {
+    "industry": "橡胶和塑料制品业",
+    "total_market_cap": "24315565627.09",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "000893": {
+    "industry": "化学原料和化学制品制造业",
+    "total_market_cap": "54768513853.490005",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "000895": {
+    "industry": "农副食品加工业",
+    "total_market_cap": "98500318285.59",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "000898": {
+    "industry": "黑色金属冶炼和压延加工业",
+    "total_market_cap": "23048284294.68",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "000921": {
+    "industry": "电气机械和器材制造业",
+    "total_market_cap": "31173224959.210003",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "000932": {
+    "industry": "黑色金属冶炼和压延加工业",
+    "total_market_cap": "36867037280.8",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "000933": {
+    "industry": "有色金属冶炼和压延加工业",
+    "total_market_cap": "71405889668.25",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "000937": {
+    "industry": "煤炭开采和洗选业",
+    "total_market_cap": "20635913604.0",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "000938": {
+    "industry": "计算机、通信和其他电子设备制造业",
+    "total_market_cap": "76564338226.98",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "000951": {
+    "industry": "汽车制造业",
+    "total_market_cap": "24907230432.0",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "000958": {
+    "industry": "电力及电网",
+    "total_market_cap": "116052499896.36",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "000959": {
+    "industry": "黑色金属冶炼和压延加工业",
+    "total_market_cap": "37999340113.0",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "000960": {
+    "industry": "有色金属冶炼和压延加工业",
+    "total_market_cap": "53937259386.560005",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "000963": {
+    "industry": "零售业",
+    "total_market_cap": "62503181262.72",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "000967": {
+    "industry": "专用设备制造业",
+    "total_market_cap": "27520742517.07",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "000975": {
+    "industry": "有色金属矿采选业",
+    "total_market_cap": "81080290138.0",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "000977": {
+    "industry": "计算机、通信和其他电子设备制造业",
+    "total_market_cap": "90164466617.0",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "000983": {
+    "industry": "煤炭开采和洗选业",
+    "total_market_cap": "39285539328.28",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "000987": {
+    "industry": "其他金融业",
+    "total_market_cap": "43649052419.399994",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "000997": {
+    "industry": "软件和信息技术服务业",
+    "total_market_cap": "21963962797.2",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "000999": {
+    "industry": "医药制造业",
+    "total_market_cap": "48478666203.54",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "001213": {
+    "industry": "铁路运输业",
+    "total_market_cap": "18622222220.36",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "001221": {
+    "industry": "家居",
+    "total_market_cap": "27020675500.0",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "001286": {
+    "industry": "电力、热力生产和供应业",
+    "total_market_cap": "43200000000.0",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "001389": {
+    "industry": "电子元件",
+    "total_market_cap": "49352651361.86",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "001391": {
+    "industry": "运输业",
+    "total_market_cap": "67881379610.99999",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "001696": {
+    "industry": "通用设备制造业",
+    "total_market_cap": "23965413435.6",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "001965": {
+    "industry": "道路运输业",
+    "total_market_cap": "70329233167.2",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "001979": {
+    "industry": "房地产业",
+    "total_market_cap": "82677015008.06999",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "002001": {
+    "industry": "化学制品",
+    "total_market_cap": "105418363623.99998",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "002007": {
+    "industry": "医药制造业",
+    "total_market_cap": "27338751723.36",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "002008": {
+    "industry": "专用设备制造业",
+    "total_market_cap": "64865014704.0",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "002025": {
+    "industry": "计算机、通信和其他电子设备制造业",
+    "total_market_cap": "27685345810.52",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "002027": {
+    "industry": "商务服务业",
+    "total_market_cap": "97629270147.76",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "002028": {
+    "industry": "电气部件与设备",
+    "total_market_cap": "164887426013.19998",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "002032": {
+    "industry": "电气机械和器材制造业",
+    "total_market_cap": "35891636363.11",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "002044": {
+    "industry": "卫生",
+    "total_market_cap": "23172383224.16",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "002049": {
+    "industry": "计算机、通信和其他电子设备制造业",
+    "total_market_cap": "61597787632.5",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "002050": {
+    "industry": "通用设备制造业",
+    "total_market_cap": "189276466796.3",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "002056": {
+    "industry": "电气机械和器材制造业",
+    "total_market_cap": "35348453368.020004",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "002064": {
+    "industry": "化学纤维制造业",
+    "total_market_cap": "49029933702.36",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "002065": {
+    "industry": "软件和信息技术服务业",
+    "total_market_cap": "27599203248.75",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "002074": {
+    "industry": "电气机械和器材制造业",
+    "total_market_cap": "67085928471.91999",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "002078": {
+    "industry": "造纸和纸制品业",
+    "total_market_cap": "43035840832.6",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "002080": {
+    "industry": "非金属矿物制品业",
+    "total_market_cap": "70380503112.95999",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "002085": {
+    "industry": "汽车制造业",
+    "total_market_cap": "32486452056.0",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "002120": {
+    "industry": "邮政业",
+    "total_market_cap": "19685575272.09",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "002126": {
+    "industry": "汽车制造业",
+    "total_market_cap": "37211214656.0",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "002128": {
+    "industry": "煤炭开采和洗选业",
+    "total_market_cap": "66260912453.079994",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "002130": {
+    "industry": "电子设备及服务",
+    "total_market_cap": "35277161522.4",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "002131": {
+    "industry": "商务服务业",
+    "total_market_cap": "52074978226.07",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "002138": {
+    "industry": "计算机、通信和其他电子设备制造业",
+    "total_market_cap": "30196622357.300003",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "002142": {
+    "industry": "货币金融服务",
+    "total_market_cap": "199428441918.4",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "002152": {
+    "industry": "计算机、通信和其他电子设备制造业",
+    "total_market_cap": "32134974700.12",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "002153": {
+    "industry": "软件和信息技术服务业",
+    "total_market_cap": "29448001544.39",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "002155": {
+    "industry": "有色金属矿采选业",
+    "total_market_cap": "46254478953.6",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "002156": {
+    "industry": "计算机、通信和其他电子设备制造业",
+    "total_market_cap": "69733578106.40001",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "002157": {
+    "industry": "畜牧业",
+    "total_market_cap": "30340533291.92",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "002179": {
+    "industry": "计算机、通信和其他电子设备制造业",
+    "total_market_cap": "73178296508.16",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "002185": {
+    "industry": "计算机、通信和其他电子设备制造业",
+    "total_market_cap": "44225943661.92",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "002195": {
+    "industry": "互联网和相关服务",
+    "total_market_cap": "55571436020.8",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "002202": {
+    "industry": "通用设备制造业",
+    "total_market_cap": "125911139567.06999",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "002203": {
+    "industry": "有色金属冶炼和压延加工业",
+    "total_market_cap": "30388674933.239998",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "002223": {
+    "industry": "专用设备制造业",
+    "total_market_cap": "35527782363.759995",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "002230": {
+    "industry": "软件和信息技术服务业",
+    "total_market_cap": "116424639747.48",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "002236": {
+    "industry": "计算机、通信和其他电子设备制造业",
+    "total_market_cap": "57551090100.740005",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "002241": {
+    "industry": "计算机、通信和其他电子设备制造业",
+    "total_market_cap": "85627325107.79999",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "002244": {
+    "industry": "房地产业",
+    "total_market_cap": "31892299872.5",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "002252": {
+    "industry": "医药制造业",
+    "total_market_cap": "40624467202.44",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "002261": {
+    "industry": "电脑与外围设备",
+    "total_market_cap": "48037374103.62",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "002262": {
+    "industry": "医药制造业",
+    "total_market_cap": "22702830130.050003",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "002265": {
+    "industry": "汽车零部件与轮胎",
+    "total_market_cap": "22158716730.149998",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "002266": {
+    "industry": "生态保护和环境治理业",
+    "total_market_cap": "22756023312.72",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "002271": {
+    "industry": "非金属矿物制品业",
+    "total_market_cap": "35472193010.1",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "002273": {
+    "industry": "计算机、通信和其他电子设备制造业",
+    "total_market_cap": "35308152091.19",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "002281": {
+    "industry": "计算机、通信和其他电子设备制造业",
+    "total_market_cap": "68099566983.840004",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "002294": {
+    "industry": "医药制造业",
+    "total_market_cap": "64224580581.35",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "002299": {
+    "industry": "农副食品加工业",
+    "total_market_cap": "22127388633.8",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "002304": {
+    "industry": "酒、饮料和精制茶制造业",
+    "total_market_cap": "76467151956.23999",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "002311": {
+    "industry": "农副食品加工业",
+    "total_market_cap": "91406423351.8",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "002312": {
+    "industry": "化学原料和化学制品制造业",
+    "total_market_cap": "22369354541.399998",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "002318": {
+    "industry": "金属制品业",
+    "total_market_cap": "29950282568.0",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "002335": {
+    "industry": "储能设备",
+    "total_market_cap": "33759619685.5",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "002340": {
+    "industry": "废弃资源综合利用业",
+    "total_market_cap": "40265301370.229996",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "002352": {
+    "industry": "邮政业",
+    "total_market_cap": "184291970057.13",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "002353": {
+    "industry": "专用设备制造业",
+    "total_market_cap": "100327633075.67",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "002371": {
+    "industry": "专用设备制造业",
+    "total_market_cap": "334604480524.08",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "002372": {
+    "industry": "橡胶和塑料制品业",
+    "total_market_cap": "17878586605.24",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "002384": {
+    "industry": "计算机、通信和其他电子设备制造业",
+    "total_market_cap": "204627193475.04",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "002385": {
+    "industry": "农副食品加工业",
+    "total_market_cap": "17759324473.45",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "002402": {
+    "industry": "消费电子零部件及组装",
+    "total_market_cap": "28247699606.75",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "002409": {
+    "industry": "半导体",
+    "total_market_cap": "40525241781.700005",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "002410": {
+    "industry": "软件和信息技术服务业",
+    "total_market_cap": "20153720972.399998",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "002414": {
+    "industry": "计算机、通信和其他电子设备制造业",
+    "total_market_cap": "57953888985.56",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "002415": {
+    "industry": "计算机、通信和其他电子设备制造业",
+    "total_market_cap": "286402235937.5",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "002422": {
+    "industry": "医药制造业",
+    "total_market_cap": "53502826894.56",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "002423": {
+    "industry": "保险业",
+    "total_market_cap": "26566337279.75",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "002429": {
+    "industry": "计算机、通信和其他电子设备制造业",
+    "total_market_cap": "45676830724.63",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "002430": {
+    "industry": "其他化学制品",
+    "total_market_cap": "28068987936.83",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "002432": {
+    "industry": "专用设备制造业",
+    "total_market_cap": "30665153350.5",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "002436": {
+    "industry": "计算机、通信和其他电子设备制造业",
+    "total_market_cap": "38089684546.83",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "002439": {
+    "industry": "软件和信息技术服务业",
+    "total_market_cap": "17104970894.599998",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "002444": {
+    "industry": "金属制品业",
+    "total_market_cap": "36144909787.32",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "002459": {
+    "industry": "电气机械和器材制造业",
+    "total_market_cap": "41371095025.0",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "002460": {
+    "industry": "有色金属冶炼和压延加工业",
+    "total_market_cap": "133014292989.76",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "002461": {
+    "industry": "酒、饮料和精制茶制造业",
+    "total_market_cap": "21557819395.2",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "002463": {
+    "industry": "计算机、通信和其他电子设备制造业",
+    "total_market_cap": "166130304149.21",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "002465": {
+    "industry": "计算机、通信和其他电子设备制造业",
+    "total_market_cap": "38418789515.04",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "002466": {
+    "industry": "有色金属冶炼和压延加工业",
+    "total_market_cap": "83486567018.19",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "002472": {
+    "industry": "汽车零部件与轮胎",
+    "total_market_cap": "32683244193.739998",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "002475": {
+    "industry": "计算机、通信和其他电子设备制造业",
+    "total_market_cap": "350018698262.39996",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "002493": {
+    "industry": "化学原料和化学制品制造业",
+    "total_market_cap": "115078374766.08",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "002500": {
+    "industry": "资本市场服务",
+    "total_market_cap": "20748879541.66",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "002508": {
+    "industry": "电气机械和器材制造业",
+    "total_market_cap": "19437393502.12",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "002517": {
+    "industry": "互联网和相关服务",
+    "total_market_cap": "40357412690.26",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "002532": {
+    "industry": "有色金属冶炼和压延加工业",
+    "total_market_cap": "75031833497.15001",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "002558": {
+    "industry": "互联网和相关服务",
+    "total_market_cap": "62566500085.32",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "002568": {
+    "industry": "酒、饮料和精制茶制造业",
+    "total_market_cap": "18853388988.100002",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "002583": {
+    "industry": "计算机、通信和其他电子设备制造业",
+    "total_market_cap": "19513785958.13",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "002594": {
+    "industry": "汽车制造业",
+    "total_market_cap": "932780482875.15",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "002595": {
+    "industry": "专用设备制造业",
+    "total_market_cap": "69344000000.0",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "002600": {
+    "industry": "电子设备及服务",
+    "total_market_cap": "101206769523.0",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "002601": {
+    "industry": "化学原料和化学制品制造业",
+    "total_market_cap": "43321787177.520004",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "002603": {
+    "industry": "医药制造业",
+    "total_market_cap": "27717002187.84",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "002607": {
+    "industry": "教育",
+    "total_market_cap": "16960348319.75",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "002608": {
+    "industry": "电力、热力生产和供应业",
+    "total_market_cap": "31320280746.159996",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "002624": {
+    "industry": "互联网和相关服务",
+    "total_market_cap": "36005813578.24",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "002625": {
+    "industry": "铁路、船舶、航空航天和其他运输设备制造业",
+    "total_market_cap": "90643511354.34",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "002648": {
+    "industry": "化学原料和化学制品制造业",
+    "total_market_cap": "89100678500.5",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "002670": {
+    "industry": "资本市场服务",
+    "total_market_cap": "28910164715.82",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "002673": {
+    "industry": "资本市场服务",
+    "total_market_cap": "33968820958.0",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "002683": {
+    "industry": "开采专业及辅助性活动",
+    "total_market_cap": "31010909421.030003",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "002709": {
+    "industry": "计算机、通信和其他电子设备制造业",
+    "total_market_cap": "84121756038.31999",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "002714": {
+    "industry": "畜牧业",
+    "total_market_cap": "281722138236.8",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "002736": {
+    "industry": "资本市场服务",
+    "total_market_cap": "125461352485.0",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "002738": {
+    "industry": "有色金属冶炼和压延加工业",
+    "total_market_cap": "49645856056.37",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "002739": {
+    "industry": "广播、电视、电影和录音制作业",
+    "total_market_cap": "20674313551.32",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "002756": {
+    "industry": "黑色金属",
+    "total_market_cap": "31386491658.8",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "002773": {
+    "industry": "生物药品",
+    "total_market_cap": "24553203424.1",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "002797": {
+    "industry": "资本市场服务",
+    "total_market_cap": "32316456000.0",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "002821": {
+    "industry": "医药制造业",
+    "total_market_cap": "34665649618.200005",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "002831": {
+    "industry": "造纸和纸制品业",
+    "total_market_cap": "32632203575.000004",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "002837": {
+    "industry": "专用设备制造业",
+    "total_market_cap": "101630169078.68999",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "002841": {
+    "industry": "计算机、通信和其他电子设备制造业",
+    "total_market_cap": "24144813946.05",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "002850": {
+    "industry": "金属制品业",
+    "total_market_cap": "41104018566.0",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "002851": {
+    "industry": "电气机械和器材制造业",
+    "total_market_cap": "60510412572.72",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "002916": {
+    "industry": "计算机、通信和其他电子设备制造业",
+    "total_market_cap": "170284837084.05002",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "002920": {
+    "industry": "计算机、通信和其他电子设备制造业",
+    "total_market_cap": "67887057192.5",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "002926": {
+    "industry": "资本市场服务",
+    "total_market_cap": "22732500000.0",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "002938": {
+    "industry": "计算机、通信和其他电子设备制造业",
+    "total_market_cap": "123436216602.0",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "002939": {
+    "industry": "资本市场服务",
+    "total_market_cap": "37237760803.880005",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "002945": {
+    "industry": "资本市场服务",
+    "total_market_cap": "43740000000.0",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "002958": {
+    "industry": "货币金融服务",
+    "total_market_cap": "17389098318.579998",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "002966": {
+    "industry": "货币金融服务",
+    "total_market_cap": "36748841730.420006",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "002984": {
+    "industry": "橡胶和塑料制品业",
+    "total_market_cap": "19062131875.199997",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "003021": {
+    "industry": "通用机械",
+    "total_market_cap": "27727256682.0",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "003022": {
+    "industry": "化学原料和化学制品制造业",
+    "total_market_cap": "26083643040.0",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "003031": {
+    "industry": "计算机、通信和其他电子设备制造业",
+    "total_market_cap": "34270996226.820004",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "003035": {
+    "industry": "科技推广和应用服务业",
+    "total_market_cap": "32234848477.37",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "003816": {
+    "industry": "电力、热力生产和供应业",
+    "total_market_cap": "208559800990.8",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "300001": {
+    "industry": "电气机械和器材制造业",
+    "total_market_cap": "30473373774.31",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "300002": {
+    "industry": "互联网和相关服务",
+    "total_market_cap": "20163532126.5",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "300003": {
+    "industry": "专用设备制造业",
+    "total_market_cap": "31890760211.2",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "300012": {
+    "industry": "专业技术服务业",
+    "total_market_cap": "25696786827.78",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "300014": {
+    "industry": "电气机械和器材制造业",
+    "total_market_cap": "139090563111.92",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "300015": {
+    "industry": "卫生",
+    "total_market_cap": "94279760333.7",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "300017": {
+    "industry": "软件和信息技术服务业",
+    "total_market_cap": "45819549345.509995",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "300024": {
+    "industry": "通用设备制造业",
+    "total_market_cap": "25253449793.5",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "300033": {
+    "industry": "其他金融业",
+    "total_market_cap": "173284608000.0",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "300037": {
+    "industry": "计算机、通信和其他电子设备制造业",
+    "total_market_cap": "40897460374.4",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "300054": {
+    "industry": "计算机、通信和其他电子设备制造业",
+    "total_market_cap": "43563695973.15",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "300058": {
+    "industry": "商务服务业",
+    "total_market_cap": "53745611768.19",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "300059": {
+    "industry": "资本市场服务",
+    "total_market_cap": "337100123607.75",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "300070": {
+    "industry": "生态保护和环境治理业",
+    "total_market_cap": "14678047920.15",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "300073": {
+    "industry": "计算机、通信和其他电子设备制造业",
+    "total_market_cap": "28379471849.52",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "300100": {
+    "industry": "汽车制造业",
+    "total_market_cap": "17531277111.0",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "300115": {
+    "industry": "计算机、通信和其他电子设备制造业",
+    "total_market_cap": "44228793375.0",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "300623": {
+    "industry": "计算机、通信和其他电子设备制造业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "300782": {
+    "industry": "计算机、通信和其他电子设备制造业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "301308": {
+    "industry": "计算机、通信和其他电子设备制造业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "600171": {
+    "industry": "计算机、通信和其他电子设备制造业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "600460": {
+    "industry": "计算机、通信和其他电子设备制造业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "603160": {
+    "industry": "计算机、通信和其他电子设备制造业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "603501": {
+    "industry": "半导体",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "603986": {
+    "industry": "半导体",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "688008": {
+    "industry": "计算机、通信和其他电子设备制造业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "688012": {
+    "industry": "专用设备制造业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "688047": {
+    "industry": "计算机、通信和其他电子设备制造业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "688052": {
+    "industry": "软件和信息技术服务业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "688126": {
+    "industry": "计算机、通信和其他电子设备制造业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "688172": {
+    "industry": "计算机、通信和其他电子设备制造业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "688234": {
+    "industry": "计算机、通信和其他电子设备制造业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "688256": {
+    "industry": "软件和信息技术服务业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "688361": {
+    "industry": "专用设备制造业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "688396": {
+    "industry": "计算机、通信和其他电子设备制造业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "688469": {
+    "industry": "计算机、通信和其他电子设备制造业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "688582": {
+    "industry": "计算机、通信和其他电子设备制造业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "688608": {
+    "industry": "计算机、通信和其他电子设备制造业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "688728": {
+    "industry": "计算机、通信和其他电子设备制造业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "688981": {
+    "industry": "计算机、通信和其他电子设备制造业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "600519": {
+    "industry": "酒、饮料和精制茶制造业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "600809": {
+    "industry": "酒、饮料和精制茶制造业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "603369": {
+    "industry": "酒、饮料和精制茶制造业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "603589": {
+    "industry": "酒、饮料和精制茶制造业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "600690": {
+    "industry": "电气机械和器材制造业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "601318": {
+    "industry": "保险业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "601319": {
+    "industry": "保险业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "601336": {
+    "industry": "保险业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "601601": {
+    "industry": "保险业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "601628": {
+    "industry": "保险业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "300207": {
+    "industry": "电气机械和器材制造业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "300750": {
+    "industry": "电气机械和器材制造业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "603728": {
+    "industry": "电气机械和器材制造业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "600032": {
+    "industry": "电力、热力生产和供应业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "601016": {
+    "industry": "电力、热力生产和供应业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "600406": {
+    "industry": "软件和信息技术服务业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "603606": {
+    "industry": "电气机械和器材制造业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "600390": {
+    "industry": "其他金融服务",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "600816": {
+    "industry": "其他金融业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "600901": {
+    "industry": "投资信托",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "600927": {
+    "industry": "资本市场服务",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "300346": {
+    "industry": "计算机、通信和其他电子设备制造业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "600007": {
+    "industry": "房地产业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "600048": {
+    "industry": "房地产业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "600606": {
+    "industry": "土木工程建筑业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "600663": {
+    "industry": "房地产业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "688349": {
+    "industry": "电气机械和器材制造业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "603688": {
+    "industry": "非金属矿物制品业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "600177": {
+    "industry": "纺织服装、服饰业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "600398": {
+    "industry": "纺织服装、服饰业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "300979": {
+    "industry": "皮革、毛皮、羽毛及其制品和制鞋业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "601100": {
+    "industry": "通用设备制造业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "603338": {
+    "industry": "专用设备制造业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "688425": {
+    "industry": "专用设备制造业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "300763": {
+    "industry": "电气机械和器材制造业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "603806": {
+    "industry": "橡胶和塑料制品业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "605117": {
+    "industry": "发电设备",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "688223": {
+    "industry": "电气机械和器材制造业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "688599": {
+    "industry": "电气机械和器材制造业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "600489": {
+    "industry": "有色金属矿采选业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "600547": {
+    "industry": "有色金属矿采选业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "600988": {
+    "industry": "有色金属矿采选业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "600528": {
+    "industry": "专用设备制造业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "601766": {
+    "industry": "铁路、船舶、航空航天和其他运输设备制造业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "688009": {
+    "industry": "铁路、船舶、航空航天和其他运输设备制造业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "600018": {
+    "industry": "水上运输业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "601000": {
+    "industry": "水上运输业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "601018": {
+    "industry": "水上运输业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "601228": {
+    "industry": "水上运输业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "601298": {
+    "industry": "水上运输业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "601872": {
+    "industry": "水上运输业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "601880": {
+    "industry": "水上运输业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "601919": {
+    "industry": "水上运输业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "603565": {
+    "industry": "水上运输业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "600377": {
+    "industry": "道路运输业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "601006": {
+    "industry": "铁路运输业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "601333": {
+    "industry": "铁路运输业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "601816": {
+    "industry": "铁路运输业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "600019": {
+    "industry": "黑色金属冶炼和压延加工业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "600126": {
+    "industry": "黑色金属冶炼和压延加工业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "600295": {
+    "industry": "黑色金属冶炼和压延加工业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "600516": {
+    "industry": "非金属矿物制品业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "600602": {
+    "industry": "软件和信息技术服务业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "300122": {
+    "industry": "医药制造业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "300124": {
+    "industry": "电气机械和器材制造业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "300251": {
+    "industry": "广播、电视、电影和录音制作业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "300274": {
+    "industry": "电气机械和器材制造业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "300308": {
+    "industry": "计算机、通信和其他电子设备制造业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "300316": {
+    "industry": "电气部件与设备",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "300347": {
+    "industry": "研究和试验发展",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "300394": {
+    "industry": "计算机、通信和其他电子设备制造业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "300408": {
+    "industry": "计算机、通信和其他电子设备制造业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "300413": {
+    "industry": "互联网和相关服务",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "300418": {
+    "industry": "互联网和相关服务",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "300433": {
+    "industry": "电子设备及服务",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "300442": {
+    "industry": "软件和信息技术服务业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "300476": {
+    "industry": "计算机、通信和其他电子设备制造业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "300498": {
+    "industry": "畜牧业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "300502": {
+    "industry": "计算机、通信和其他电子设备制造业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "300628": {
+    "industry": "计算机、通信和其他电子设备制造业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "300661": {
+    "industry": "计算机、通信和其他电子设备制造业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "300759": {
+    "industry": "研究和试验发展",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "300760": {
+    "industry": "专用设备制造业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "300803": {
+    "industry": "其他金融业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "300832": {
+    "industry": "医药制造业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "300866": {
+    "industry": "计算机、通信和其他电子设备制造业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "300896": {
+    "industry": "专用设备制造业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "300999": {
+    "industry": "农副食品加工业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "301236": {
+    "industry": "软件和信息技术服务业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "301269": {
+    "industry": "软件和信息技术服务业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "302132": {
+    "industry": "航天航空",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "600000": {
+    "industry": "货币金融服务",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "600009": {
+    "industry": "航空运输业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "600010": {
+    "industry": "黑色金属冶炼和压延加工业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "600011": {
+    "industry": "电力、热力生产和供应业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "600015": {
+    "industry": "货币金融服务",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "600016": {
+    "industry": "货币金融服务",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "600023": {
+    "industry": "电力、热力生产和供应业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "600025": {
+    "industry": "电力、热力生产和供应业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "600026": {
+    "industry": "水上运输业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "600027": {
+    "industry": "电力、热力生产和供应业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "600028": {
+    "industry": "石油和天然气开采业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "600029": {
+    "industry": "航空运输业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "600030": {
+    "industry": "资本市场服务",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "600031": {
+    "industry": "专用设备制造业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "600036": {
+    "industry": "货币金融服务",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "600039": {
+    "industry": "土木工程建筑业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "600050": {
+    "industry": "电信、广播电视和卫星传输服务",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "600061": {
+    "industry": "证券Ⅲ",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "600066": {
+    "industry": "汽车制造业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "600085": {
+    "industry": "医药制造业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "600089": {
+    "industry": "电气机械和器材制造业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "600104": {
+    "industry": "汽车制造业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "600111": {
+    "industry": "有色金属冶炼和压延加工业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "600115": {
+    "industry": "航空运输业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "600150": {
+    "industry": "铁路、船舶、航空航天和其他运输设备制造业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "600160": {
+    "industry": "化学原料和化学制品制造业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "600161": {
+    "industry": "医药制造业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "600176": {
+    "industry": "非金属矿物制品业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "600183": {
+    "industry": "计算机、通信和其他电子设备制造业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "600188": {
+    "industry": "煤炭开采和洗选业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "600196": {
+    "industry": "医药制造业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "600219": {
+    "industry": "有色金属冶炼和压延加工业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "600233": {
+    "industry": "邮政业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "600276": {
+    "industry": "医药制造业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "600309": {
+    "industry": "化学原料和化学制品制造业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "600346": {
+    "industry": "化学原料和化学制品制造业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "600362": {
+    "industry": "有色金属冶炼和压延加工业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "600372": {
+    "industry": "铁路、船舶、航空航天和其他运输设备制造业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "600415": {
+    "industry": "商务服务业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "600426": {
+    "industry": "化学原料和化学制品制造业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "600436": {
+    "industry": "医药制造业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "600438": {
+    "industry": "电气机械和器材制造业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "600482": {
+    "industry": "铁路、船舶、航空航天和其他运输设备制造业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "600515": {
+    "industry": "房地产开发与园区",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "600522": {
+    "industry": "电气机械和器材制造业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "600570": {
+    "industry": "软件和信息技术服务业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "600584": {
+    "industry": "计算机、通信和其他电子设备制造业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "600585": {
+    "industry": "非金属矿物制品业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "600588": {
+    "industry": "软件和信息技术服务业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "600600": {
+    "industry": "酒、饮料和精制茶制造业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "600660": {
+    "industry": "非金属矿物制品业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "600674": {
+    "industry": "电力、热力生产和供应业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "600741": {
+    "industry": "汽车制造业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "600760": {
+    "industry": "铁路、船舶、航空航天和其他运输设备制造业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "600795": {
+    "industry": "电力、热力生产和供应业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "600803": {
+    "industry": "燃气生产和供应业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "600845": {
+    "industry": "软件和信息技术服务业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "600875": {
+    "industry": "通用设备制造业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "600886": {
+    "industry": "电力、热力生产和供应业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "600887": {
+    "industry": "食品制造业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "600893": {
+    "industry": "铁路、船舶、航空航天和其他运输设备制造业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "600900": {
+    "industry": "电力、热力生产和供应业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "600905": {
+    "industry": "电力、热力生产和供应业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "600918": {
+    "industry": "资本市场服务",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "600919": {
+    "industry": "货币金融服务",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "600926": {
+    "industry": "货币金融服务",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "600930": {
+    "industry": "电力及电网",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "600938": {
+    "industry": "石油和天然气开采业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "600941": {
+    "industry": "电信、广播电视和卫星传输服务",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "600958": {
+    "industry": "资本市场服务",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "600989": {
+    "industry": "化学原料和化学制品制造业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "600999": {
+    "industry": "资本市场服务",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "601009": {
+    "industry": "货币金融服务",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "601012": {
+    "industry": "电气机械和器材制造业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "601021": {
+    "industry": "航空运输业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "601058": {
+    "industry": "橡胶和塑料制品业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "601059": {
+    "industry": "资本市场服务",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "601066": {
+    "industry": "资本市场服务",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "601077": {
+    "industry": "货币金融服务",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "601088": {
+    "industry": "煤炭开采和洗选业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "601111": {
+    "industry": "航空运输业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "601117": {
+    "industry": "土木工程建筑业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "601127": {
+    "industry": "电动乘用车",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "601136": {
+    "industry": "资本市场服务",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "601138": {
+    "industry": "计算机、通信和其他电子设备制造业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "601166": {
+    "industry": "货币金融服务",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "601169": {
+    "industry": "货币金融服务",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "601186": {
+    "industry": "土木工程建筑业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "601211": {
+    "industry": "资本市场服务",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "601225": {
+    "industry": "煤炭开采和洗选业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "601229": {
+    "industry": "货币金融服务",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "601236": {
+    "industry": "资本市场服务",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "601238": {
+    "industry": "汽车制造业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "601288": {
+    "industry": "货币金融服务",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "601328": {
+    "industry": "货币金融服务",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "601360": {
+    "industry": "互联网和相关服务",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "601377": {
+    "industry": "资本市场服务",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "601390": {
+    "industry": "土木工程建筑业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "601398": {
+    "industry": "货币金融服务",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "601456": {
+    "industry": "资本市场服务",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "601600": {
+    "industry": "有色金属冶炼和压延加工业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "601607": {
+    "industry": "零售业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "601618": {
+    "industry": "土木工程建筑业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "601633": {
+    "industry": "汽车制造业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "601658": {
+    "industry": "货币金融服务",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "601668": {
+    "industry": "土木工程建筑业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "601669": {
+    "industry": "土木工程建筑业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "601688": {
+    "industry": "资本市场服务",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "601689": {
+    "industry": "汽车制造业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "601698": {
+    "industry": "电信、广播电视和卫星传输服务",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "601728": {
+    "industry": "电信、广播电视和卫星传输服务",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "601788": {
+    "industry": "资本市场服务",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "601800": {
+    "industry": "土木工程建筑业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "601808": {
+    "industry": "开采专业及辅助性活动",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "601818": {
+    "industry": "货币金融服务",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "601825": {
+    "industry": "货币金融服务",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "601838": {
+    "industry": "货币金融服务",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "601857": {
+    "industry": "石油和天然气开采业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "601868": {
+    "industry": "土木工程建筑业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "601877": {
+    "industry": "电气机械和器材制造业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "601878": {
+    "industry": "资本市场服务",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "601881": {
+    "industry": "资本市场服务",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "601888": {
+    "industry": "商务服务业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "601898": {
+    "industry": "煤炭开采和洗选业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "601899": {
+    "industry": "有色金属矿采选业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "601901": {
+    "industry": "资本市场服务",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "601916": {
+    "industry": "银行",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "601939": {
+    "industry": "货币金融服务",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "601985": {
+    "industry": "电力、热力生产和供应业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "601988": {
+    "industry": "货币金融服务",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "601995": {
+    "industry": "资本市场服务",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "601998": {
+    "industry": "货币金融服务",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "603019": {
+    "industry": "计算机、通信和其他电子设备制造业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "603195": {
+    "industry": "电气机械和器材制造业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "603259": {
+    "industry": "研究和试验发展",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "603260": {
+    "industry": "其他非金属材料",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "603288": {
+    "industry": "食品制造业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "603296": {
+    "industry": "电子终端及组件",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "603392": {
+    "industry": "医药制造业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "603799": {
+    "industry": "有色金属冶炼和压延加工业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "603893": {
+    "industry": "计算机、通信和其他电子设备制造业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "603993": {
+    "industry": "工业金属",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "605499": {
+    "industry": "酒、饮料和精制茶制造业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "688036": {
+    "industry": "计算机、通信和其他电子设备制造业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "688041": {
+    "industry": "计算机、通信和其他电子设备制造业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "688082": {
+    "industry": "专用设备制造业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "688111": {
+    "industry": "软件和信息技术服务业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "688169": {
+    "industry": "计算机、通信和其他电子设备制造业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "688187": {
+    "industry": "铁路、船舶、航空航天和其他运输设备制造业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "688271": {
+    "industry": "专用设备制造业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "688303": {
+    "industry": "电气机械和器材制造业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "688472": {
+    "industry": "电气机械和器材制造业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "688506": {
+    "industry": "生物科技",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "300136": {
+    "industry": "计算机、通信和其他电子设备制造业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "300140": {
+    "industry": "生态保护和环境治理业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "300142": {
+    "industry": "医药制造业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "300144": {
+    "industry": "文化艺术业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "300146": {
+    "industry": "食品制造业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "300223": {
+    "industry": "计算机、通信和其他电子设备制造业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "300285": {
+    "industry": "化学原料和化学制品制造业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "300339": {
+    "industry": "软件和信息技术服务业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "300373": {
+    "industry": "计算机、通信和其他电子设备制造业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "300383": {
+    "industry": "软件和信息技术服务业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "300390": {
+    "industry": "计算机、通信和其他电子设备制造业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "300395": {
+    "industry": "非金属矿物制品业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "300432": {
+    "industry": "汽车零配件与设备",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "300450": {
+    "industry": "专用设备制造业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "300454": {
+    "industry": "软件和信息技术服务业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "300458": {
+    "industry": "计算机、通信和其他电子设备制造业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "300474": {
+    "industry": "半导体",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "300487": {
+    "industry": "化学原料和化学制品制造业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "300496": {
+    "industry": "软件和信息技术服务业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "300529": {
+    "industry": "专用设备制造业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "300558": {
+    "industry": "医药制造业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "300567": {
+    "industry": "仪器仪表制造业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "300570": {
+    "industry": "计算机、通信和其他电子设备制造业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "300601": {
+    "industry": "医药制造业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "300604": {
+    "industry": "专用设备制造业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "300627": {
+    "industry": "计算机、通信和其他电子设备制造业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "300676": {
+    "industry": "专业技术服务业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "300677": {
+    "industry": "橡胶和塑料制品业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "300679": {
+    "industry": "计算机、通信和其他电子设备制造业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "300699": {
+    "industry": "化学纤维制造业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "300718": {
+    "industry": "金属制品",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "300724": {
+    "industry": "专用设备制造业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "300735": {
+    "industry": "计算机、通信和其他电子设备制造业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "300748": {
+    "industry": "非金属矿物制品业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "300751": {
+    "industry": "专用设备制造业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "300757": {
+    "industry": "专用设备制造业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "300857": {
+    "industry": "电子终端及组件",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "300888": {
+    "industry": "医疗器械",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "300919": {
+    "industry": "电气部件与设备",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "300957": {
+    "industry": "化学原料和化学制品制造业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "300972": {
+    "industry": "一般零售",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "301200": {
+    "industry": "专用设备制造业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "301301": {
+    "industry": "原料药",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "301358": {
+    "industry": "计算机、通信和其他电子设备制造业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "301498": {
+    "industry": "农副食品加工业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "301536": {
+    "industry": "集成电路",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "301611": {
+    "industry": "半导体材料与设备",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "600004": {
+    "industry": "航空运输业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "600008": {
+    "industry": "水的生产和供应业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "600021": {
+    "industry": "电力、热力生产和供应业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "600038": {
+    "industry": "铁路、船舶、航空航天和其他运输设备制造业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "600060": {
+    "industry": "计算机、通信和其他电子设备制造业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "600062": {
+    "industry": "医药制造业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "600095": {
+    "industry": "资本市场服务",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "600096": {
+    "industry": "化学原料和化学制品制造业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "600098": {
+    "industry": "电力、热力生产和供应业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "600109": {
+    "industry": "资本市场服务",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "600118": {
+    "industry": "计算机、通信和其他电子设备制造业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "600131": {
+    "industry": "软件和信息技术服务业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "600132": {
+    "industry": "酒、饮料和精制茶制造业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "600141": {
+    "industry": "化学原料和化学制品制造业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "600143": {
+    "industry": "橡胶和塑料制品业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "600153": {
+    "industry": "商务服务业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "600157": {
+    "industry": "电力及电网",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "600166": {
+    "industry": "汽车制造业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "600170": {
+    "industry": "土木工程建筑业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "600208": {
+    "industry": "房地产业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "600282": {
+    "industry": "黑色金属冶炼和压延加工业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "600298": {
+    "industry": "食品制造业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "600299": {
+    "industry": "食品制造业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "600312": {
+    "industry": "电气机械和器材制造业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "600316": {
+    "industry": "铁路、船舶、航空航天和其他运输设备制造业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "600329": {
+    "industry": "医药制造业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "600332": {
+    "industry": "药品流通",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "600339": {
+    "industry": "开采专业及辅助性活动",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "600348": {
+    "industry": "煤炭开采和洗选业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "600352": {
+    "industry": "化学原料和化学制品制造业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "600363": {
+    "industry": "计算机、通信和其他电子设备制造业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "600369": {
+    "industry": "资本市场服务",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "600378": {
+    "industry": "化学制品",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "600380": {
+    "industry": "医药制造业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "600392": {
+    "industry": "有色金属冶炼和压延加工业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "600435": {
+    "industry": "计算机、通信和其他电子设备制造业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "600483": {
+    "industry": "电力、热力生产和供应业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "600486": {
+    "industry": "化学原料和化学制品制造业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "600487": {
+    "industry": "电气机械和器材制造业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "600497": {
+    "industry": "有色金属冶炼和压延加工业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "600498": {
+    "industry": "计算机、通信和其他电子设备制造业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "600499": {
+    "industry": "专用设备制造业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "600511": {
+    "industry": "批发业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "600517": {
+    "industry": "其他金融业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "600521": {
+    "industry": "医药制造业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "600535": {
+    "industry": "医药制造业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "600536": {
+    "industry": "软件和信息技术服务业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "600546": {
+    "industry": "煤炭开采和洗选业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "600549": {
+    "industry": "有色金属",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "600562": {
+    "industry": "计算机、通信和其他电子设备制造业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "600563": {
+    "industry": "计算机、通信和其他电子设备制造业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "600566": {
+    "industry": "医药制造业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "600578": {
+    "industry": "电力、热力生产和供应业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "600580": {
+    "industry": "电气机械和器材制造业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "600582": {
+    "industry": "专用设备制造业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "600583": {
+    "industry": "开采专业及辅助性活动",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "600598": {
+    "industry": "农业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "600601": {
+    "industry": "计算机、通信和其他电子设备制造业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "600637": {
+    "industry": "电信、广播电视和卫星传输服务",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "600642": {
+    "industry": "电力、热力生产和供应业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "600655": {
+    "industry": "零售业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "600673": {
+    "industry": "综合",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "600685": {
+    "industry": "铁路、船舶、航空航天和其他运输设备制造业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "600688": {
+    "industry": "石油、煤炭及其他燃料加工业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "600699": {
+    "industry": "计算机、通信和其他电子设备制造业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "600704": {
+    "industry": "批发业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "600707": {
+    "industry": "计算机、通信和其他电子设备制造业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "600720": {
+    "industry": "专业技术服务业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "600737": {
+    "industry": "农副食品加工业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "600739": {
+    "industry": "批发业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "600754": {
+    "industry": "住宿业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "600763": {
+    "industry": "卫生",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "600764": {
+    "industry": "航天航空",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "600765": {
+    "industry": "铁路、船舶、航空航天和其他运输设备制造业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "600801": {
+    "industry": "非金属矿物制品业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "600808": {
+    "industry": "黑色金属冶炼和压延加工业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "600820": {
+    "industry": "土木工程建筑业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "600848": {
+    "industry": "房地产业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "600862": {
+    "industry": "铁路、船舶、航空航天和其他运输设备制造业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "600863": {
+    "industry": "电力、热力生产和供应业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "600871": {
+    "industry": "开采专业及辅助性活动",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "600873": {
+    "industry": "食品制造业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "600879": {
+    "industry": "铁路、船舶、航空航天和其他运输设备制造业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "600884": {
+    "industry": "光学光电子",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "600885": {
+    "industry": "电气机械和器材制造业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "600906": {
+    "industry": "资本市场服务",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "600909": {
+    "industry": "资本市场服务",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "600959": {
+    "industry": "电信、广播电视和卫星传输服务",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "600967": {
+    "industry": "航天航空",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "600968": {
+    "industry": "开采专业及辅助性活动",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "600970": {
+    "industry": "土木工程建筑业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "600977": {
+    "industry": "广播、电视、电影和录音制作业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "600985": {
+    "industry": "煤炭开采和洗选业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "600995": {
+    "industry": "电力、热力生产和供应业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "600998": {
+    "industry": "批发业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "601001": {
+    "industry": "煤炭开采和洗选业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "601019": {
+    "industry": "新闻和出版业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "601061": {
+    "industry": "批发业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "601098": {
+    "industry": "新闻和出版业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "601099": {
+    "industry": "资本市场服务",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "601106": {
+    "industry": "专用设备制造业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "601108": {
+    "industry": "资本市场服务",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "601118": {
+    "industry": "农业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "601128": {
+    "industry": "货币金融服务",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "601139": {
+    "industry": "燃气生产和供应业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "601155": {
+    "industry": "房地产业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "601156": {
+    "industry": "航空运输业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "601162": {
+    "industry": "资本市场服务",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "601168": {
+    "industry": "有色金属矿采选业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "601179": {
+    "industry": "电气机械和器材制造业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "601198": {
+    "industry": "资本市场服务",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "601212": {
+    "industry": "有色金属冶炼和压延加工业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "601216": {
+    "industry": "化学原料和化学制品制造业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "601231": {
+    "industry": "计算机、通信和其他电子设备制造业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "601233": {
+    "industry": "化学纤维制造业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "601399": {
+    "industry": "专用机械",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "601555": {
+    "industry": "资本市场服务",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "601567": {
+    "industry": "仪器仪表制造业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "601577": {
+    "industry": "货币金融服务",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "601598": {
+    "industry": "多式联运和运输代理业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "601608": {
+    "industry": "专用设备制造业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "601611": {
+    "industry": "建筑与工程",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "601615": {
+    "industry": "通用设备制造业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "601665": {
+    "industry": "货币金融服务",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "601666": {
+    "industry": "煤炭开采和洗选业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "601696": {
+    "industry": "资本市场服务",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "601699": {
+    "industry": "煤炭开采和洗选业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "601717": {
+    "industry": "专用机械",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "601799": {
+    "industry": "汽车制造业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "601865": {
+    "industry": "非金属矿物制品业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "601866": {
+    "industry": "水上运输业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "601918": {
+    "industry": "煤炭开采和洗选业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "601921": {
+    "industry": "新闻和出版业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "601928": {
+    "industry": "新闻和出版业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "601958": {
+    "industry": "有色金属矿采选业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "601965": {
+    "industry": "专业技术服务业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "601966": {
+    "industry": "橡胶和塑料制品业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "601990": {
+    "industry": "资本市场服务",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "601991": {
+    "industry": "电力、热力生产和供应业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "601997": {
+    "industry": "货币金融服务",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "603000": {
+    "industry": "互联网和相关服务",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "603049": {
+    "industry": "汽车零部件与轮胎",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "603077": {
+    "industry": "农用化工",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "603087": {
+    "industry": "医药制造业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "603129": {
+    "industry": "铁路、船舶、航空航天和其他运输设备制造业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "603156": {
+    "industry": "酒、饮料和精制茶制造业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "603179": {
+    "industry": "汽车制造业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "603225": {
+    "industry": "化学纤维制造业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "603228": {
+    "industry": "计算机、通信和其他电子设备制造业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "603233": {
+    "industry": "零售业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "603290": {
+    "industry": "计算机、通信和其他电子设备制造业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "603298": {
+    "industry": "通用设备制造业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "603341": {
+    "industry": "电子终端及组件",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "603345": {
+    "industry": "农副食品加工业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "603379": {
+    "industry": "化学原料和化学制品制造业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "603444": {
+    "industry": "互联网和相关服务",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "603486": {
+    "industry": "计算机、通信和其他电子设备制造业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "603529": {
+    "industry": "铁路、船舶、航空航天和其他运输设备制造业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "603568": {
+    "industry": "生态保护和环境治理业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "603596": {
+    "industry": "汽车制造业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "603605": {
+    "industry": "化学原料和化学制品制造业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "603650": {
+    "industry": "化学原料和化学制品制造业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "603658": {
+    "industry": "生物科技",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "603659": {
+    "industry": "计算机、通信和其他电子设备制造业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "603699": {
+    "industry": "通用设备制造业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "603707": {
+    "industry": "医药制造业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "603737": {
+    "industry": "化学原料和化学制品制造业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "603766": {
+    "industry": "铁路、船舶、航空航天和其他运输设备制造业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "603786": {
+    "industry": "汽车制造业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "603816": {
+    "industry": "家具制造业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "603833": {
+    "industry": "家具制造业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "603858": {
+    "industry": "医药制造业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "603885": {
+    "industry": "航空运输业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "603899": {
+    "industry": "文教、工美、体育和娱乐用品制造业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "603920": {
+    "industry": "计算机、通信和其他电子设备制造业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "603927": {
+    "industry": "软件和信息技术服务业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "603939": {
+    "industry": "零售业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "603979": {
+    "industry": "开采专业及辅助性活动",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "605358": {
+    "industry": "计算机、通信和其他电子设备制造业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "605589": {
+    "industry": "化学原料和化学制品制造业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "688002": {
+    "industry": "计算机、通信和其他电子设备制造业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "688017": {
+    "industry": "通用设备制造业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "688018": {
+    "industry": "软件和信息技术服务业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "688019": {
+    "industry": "计算机、通信和其他电子设备制造业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "688027": {
+    "industry": "计算机、通信和其他电子设备制造业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "688037": {
+    "industry": "专用设备制造业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "688065": {
+    "industry": "化学纤维制造业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "688099": {
+    "industry": "软件和信息技术服务业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "688100": {
+    "industry": "计算机、通信和其他电子设备制造业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "688114": {
+    "industry": "专用设备制造业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "688120": {
+    "industry": "专用设备制造业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "688122": {
+    "industry": "有色金属冶炼和压延加工业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "688166": {
+    "industry": "医药制造业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "688180": {
+    "industry": "医药制造业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "688183": {
+    "industry": "计算机、通信和其他电子设备制造业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "688188": {
+    "industry": "软件和信息技术服务业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "688192": {
+    "industry": "化学药",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "688213": {
+    "industry": "软件和信息技术服务业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "688220": {
+    "industry": "计算机、通信和其他电子设备制造业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "688235": {
+    "industry": "化学药",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "688248": {
+    "industry": "专业技术服务业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "688266": {
+    "industry": "医药制造业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "688278": {
+    "industry": "医药制造业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "688281": {
+    "industry": "航空航天",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "688295": {
+    "industry": "化学纤维制造业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "688297": {
+    "industry": "铁路、船舶、航空航天和其他运输设备制造业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "688301": {
+    "industry": "专用设备制造业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "688318": {
+    "industry": "计算机软件",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "688322": {
+    "industry": "计算机、通信和其他电子设备制造业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "688336": {
+    "industry": "医药制造业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "688347": {
+    "industry": "计算机、通信和其他电子设备制造业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "688363": {
+    "industry": "化学原料和化学制品制造业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "688375": {
+    "industry": "计算机、通信和其他电子设备制造业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "688385": {
+    "industry": "计算机、通信和其他电子设备制造业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "688387": {
+    "industry": "通信设备",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "688475": {
+    "industry": "计算机、通信和其他电子设备制造业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "688520": {
+    "industry": "医药制造业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "688525": {
+    "industry": "集成电路",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "688538": {
+    "industry": "计算机、通信和其他电子设备制造业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "688561": {
+    "industry": "软件和信息技术服务业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "688563": {
+    "industry": "铁路、船舶、航空航天和其他运输设备制造业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "688568": {
+    "industry": "软件和信息技术服务业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "688578": {
+    "industry": "医药制造业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "688615": {
+    "industry": "软件开发",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "688617": {
+    "industry": "专用设备制造业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "688629": {
+    "industry": "计算机、通信和其他电子设备制造业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "688676": {
+    "industry": "电气机械和器材制造业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "688692": {
+    "industry": "软件开发",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "688702": {
+    "industry": "软件和信息技术服务业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "688709": {
+    "industry": "计算机、通信和其他电子设备制造业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "688772": {
+    "industry": "电气机械和器材制造业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "688777": {
+    "industry": "软件和信息技术服务业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "688778": {
+    "industry": "计算机、通信和其他电子设备制造业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "688819": {
+    "industry": "电气机械和器材制造业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  },
+  "689009": {
+    "industry": "计算机、通信和其他电子设备制造业",
+    "fetched_at": "2026-03-20",
+    "source": "cninfo_live"
+  }
+}

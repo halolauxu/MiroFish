@@ -1,0 +1,106 @@
+{
+  "ticker": "000034",
+  "company_name": "神州数码",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "filing",
+      "title": "关于为子公司担保的进展公告",
+      "summary": "",
+      "publish_date": "2026-02-27",
+      "available_at": "2026-02-27T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "关于与专业投资机构共同投资的公告",
+      "summary": "",
+      "publish_date": "2026-03-06",
+      "available_at": "2026-03-06T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "神州数码多名高管拟减持公司股份",
+      "summary": "北京商报讯3月12日晚间，神州数码（000034）披露公告称，公司董事、高级管理人员陈振坤、高级管理人员吴昊、陆明、潘春雷拟自减持计划披露之日起15个交易日后的三个月内（即4月7日至7月6日）以集中竞价交易方式减持公司股份合计不超过53.73万股（合计不超过公司总股本比例0.0741%",
+      "publish_date": "2026-03-12",
+      "available_at": "2026-03-12T21:50:19",
+      "sentiment_score": -0.78,
+      "category": "股权变动",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "关于公司部分董事、高级管理人员减持股份的预披露公告",
+      "summary": "股权变动",
+      "publish_date": "2026-03-13",
+      "available_at": "2026-03-13T00:00:00",
+      "sentiment_score": -0.78,
+      "category": "股权变动",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "关于为子公司担保的进展公告",
+      "summary": "",
+      "publish_date": "2026-03-13",
+      "available_at": "2026-03-13T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "解密主力资金出逃股 连续5日净流出534股",
+      "summary": "3.39 4.23 -13.58 301236 软通动力 5 3.36 8.11 -6.35 600312 平高电气 5 3.33 6.23 -11.26 002945 华林证券 8 3.30 9.75 -10.49 000801 四川九洲 14 3.14 6.40 -12.29 000034",
+      "publish_date": "2026-03-16",
+      "available_at": "2026-03-16T17:13:04",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "华为昇腾概念涨3.55%，主力资金净流入49股",
+      "summary": "平治信息 19.99 18.03 10277.81 14.95 000555 神州信息 6.21 4.99 9879.86 11.28 002173 创新医疗 2.42 15.08 8633.21 4.52 300231 银信科技 7.54 11.70 6594.37 10.70 000034",
+      "publish_date": "2026-03-18",
+      "available_at": "2026-03-18T17:06:40",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "关于为子公司担保的进展公告",
+      "summary": "",
+      "publish_date": "2026-03-19",
+      "available_at": "2026-03-19T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 0,
+  "hot_reason": "",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

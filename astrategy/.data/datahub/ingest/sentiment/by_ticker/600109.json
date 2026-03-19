@@ -1,0 +1,94 @@
+{
+  "ticker": "600109",
+  "company_name": "国金证券",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "filing",
+      "title": "国金证券股份有限公司2025年面向专业投资者公开发行公司债券(第一期)2026年付息公告",
+      "summary": "债券融资",
+      "publish_date": "2026-02-27",
+      "available_at": "2026-02-27T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "国金证券股份有限公司关于参与碳排放权交易获得中国证监会复函的公告",
+      "summary": "",
+      "publish_date": "2026-03-06",
+      "available_at": "2026-03-06T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "国金证券：获准参与碳排放权交易",
+      "summary": "中证智能财讯国金证券（600109）3月6日公告，公司近日收到中国证监会《关于国金证券股份有限公司参与碳排放权交易有关意见的复函》，同意公司自营业务在境内合法交易场所参与碳排放权交易。",
+      "publish_date": "2026-03-06",
+      "available_at": "2026-03-06T09:26:25",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "国金证券股份有限公司关于“25国金01” 公司债券付息完成的公告",
+      "summary": "债券融资",
+      "publish_date": "2026-03-09",
+      "available_at": "2026-03-09T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "国金证券股份有限公司2026年面向专业投资者公开发行公司债券（第二期）发行结果公告",
+      "summary": "债券融资",
+      "publish_date": "2026-03-09",
+      "available_at": "2026-03-09T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "国金证券：完成&ldquo;25国金01&rdquo;公司债券年度付息 总额2140万元",
+      "summary": "中证智能财讯国金证券（600109）3月8日晚间公告，公司于2026年3月6日完成“25国金01”公司债券的付息工作，付息总额为2140万元。",
+      "publish_date": "2026-03-09",
+      "available_at": "2026-03-09T09:25:38",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "国金证券：公司2025年度报告披露时间为2026年4月24日",
+      "summary": "每经AI快讯，国金证券（600109.SH）3月19日在投资者互动平台表示，公司2025年度报告披露时间为2026年4月24日。",
+      "publish_date": "2026-03-19",
+      "available_at": "2026-03-19T19:41:30",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 0,
+  "hot_reason": "",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

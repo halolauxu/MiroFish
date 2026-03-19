@@ -1,0 +1,58 @@
+{
+  "ticker": "603699",
+  "company_name": "纽威股份",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "filing",
+      "title": "纽威股份关于股东减持股份结果公告",
+      "summary": "股权变动",
+      "publish_date": "2026-03-05",
+      "available_at": "2026-03-05T00:00:00",
+      "sentiment_score": -0.78,
+      "category": "股权变动",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "短线防风险 27只个股短期均线现死叉",
+      "summary": "0.80 16.52 16.63 -0.69 16.03 -3.62 301181 标榜股份 -4.25 1.65 42.60 42.86 -0.61 42.17 -1.62 002831 裕同科技 -5.96 1.39 31.08 31.26 -0.57 29.64 -5.19 603699",
+      "publish_date": "2026-03-09",
+      "available_at": "2026-03-09T12:00:03",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "短线防风险 23只个股短期均线现死叉",
+      "summary": "0.96 16.53 16.64 -0.64 16.11 -3.19 605398 新炬网络 -0.51 2.86 31.08 31.28 -0.64 31.23 -0.14 603036 如通股份 -2.22 2.16 20.46 20.57 -0.54 20.27 -1.46 603699",
+      "publish_date": "2026-03-09",
+      "available_at": "2026-03-09T14:30:58",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "机械设备行业3月12日资金流向日报",
+      "summary": "3.72 7.22 4344.36 002903 宇环数控 -3.22 29.53 3840.85 002445 中南文化 9.97 0.49 2845.82 301268 铭利达 6.54 3.60 2726.44 603757 大元泵业 4.11 20.05 2672.63 603699",
+      "publish_date": "2026-03-12",
+      "available_at": "2026-03-12T17:19:37",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 0,
+  "hot_reason": "",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

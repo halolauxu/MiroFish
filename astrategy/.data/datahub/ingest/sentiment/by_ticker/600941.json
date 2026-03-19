@@ -1,0 +1,82 @@
+{
+  "ticker": "600941",
+  "company_name": "中国移动",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "news",
+      "title": "AI硬件唱主角、上游供应商秀“肌肉” 中国品牌在MWC2026有哪些亮点？",
+      "summary": "中国移动（600941.SH）也展出了搭载“灵犀智能体”的AI手机，一句“帮我预订下周五去上海的机票、酒店和景点门票”，即可自动完成界面解析、跨App操作识别、信息填写与全流程下单。在短信入口，灵犀消息智能体支持“一语智办”、“一语智答”等五大模块、超70项功能。",
+      "publish_date": "2026-03-03",
+      "available_at": "2026-03-03T22:34:29",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "中国移动：月报表",
+      "summary": "",
+      "publish_date": "2026-03-05",
+      "available_at": "2026-03-05T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "强势股追踪 主力资金连续5日净流入81股",
+      "summary": "招商银行 5 9.05 7.14 2.89 600919 江苏银行 10 8.85 7.98 4.60 300085 银之杰 7 8.08 10.60 13.92 688308 欧科亿 5 8.08 13.35 14.29 688099 晶晨股份 9 6.34 6.82 7.10 600941",
+      "publish_date": "2026-03-16",
+      "available_at": "2026-03-16T17:13:11",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "港股公告：董事会会议召开日期",
+      "summary": "",
+      "publish_date": "2026-03-17",
+      "available_at": "2026-03-17T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "hot_topic",
+      "title": "中国移动",
+      "summary": "雪球讨论#79; 雪球交易#57",
+      "publish_date": "2026-03-19",
+      "available_at": "2026-03-19T00:00:00",
+      "sentiment_score": 0.128,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.25,
+      "hot_rank": 76
+    },
+    {
+      "source_type": "news",
+      "title": "国资云概念上涨0.32%，5股主力资金净流入超亿元",
+      "summary": "300212 易华录 9.48 9.89 10048.60 12.08 600131 国网信通 7.40 5.74 8231.94 5.66 002063 远光软件 2.71 9.30 7177.01 6.08 002368 太极股份 3.59 3.28 6392.51 15.00 600941",
+      "publish_date": "2026-03-19",
+      "available_at": "2026-03-19T18:04:30",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 76,
+  "hot_reason": "雪球讨论#79; 雪球交易#57",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

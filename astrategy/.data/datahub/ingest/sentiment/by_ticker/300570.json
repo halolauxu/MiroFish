@@ -1,0 +1,58 @@
+{
+  "ticker": "300570",
+  "company_name": "太辰光",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "news",
+      "title": "太辰光：公司的产品优势主要体现在光无源产品（特别是无源密集连接产品）",
+      "summary": "太辰光（300570.SZ）3月13日在投资者互动平台表示，公司的产品优势主要体现在光无源产品（特别是无源密集连接产品）。",
+      "publish_date": "2026-03-13",
+      "available_at": "2026-03-13T16:35:17",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "关于2024年员工持股计划第二个锁定期届满的提示性公告",
+      "summary": "股权激励",
+      "publish_date": "2026-03-16",
+      "available_at": "2026-03-16T17:35:56",
+      "sentiment_score": 0.0,
+      "category": "股权变动",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "太辰光：公司在光通信行业占据重要地位，尤其在光器件领域优势突出",
+      "summary": "太辰光（300570.SZ）3月19日在投资者互动平台表示，公司在光通信行业占据重要地位，尤其在光器件领域优势突出。公司是全球最大的光密集连接产品制造商之一，部分无源光器件产品的技术水平在细分行业中处于领先地位。",
+      "publish_date": "2026-03-19",
+      "available_at": "2026-03-19T16:14:51",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "太辰光：公司产品广泛应用于全球范围内的电信网络、数据中心、政企专网等建设",
+      "summary": "太辰光（300570.SZ）3月19日在投资者互动平台表示，公司主营业务包括各种光通信器件及其集成功能模块、光传感产品及解决方案。公司产品广泛应用于全球范围内的电信网络、数据中心、政企专网等建设。",
+      "publish_date": "2026-03-19",
+      "available_at": "2026-03-19T16:14:52",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 0,
+  "hot_reason": "",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

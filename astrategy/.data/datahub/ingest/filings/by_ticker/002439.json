@@ -1,0 +1,36 @@
+[
+  {
+    "ticker": "002439",
+    "company_name": "启明星辰",
+    "title": "关于公司股东减持股份计划期限届满的公告",
+    "announcement_type": "股权变动",
+    "publish_date": "2026-02-28",
+    "publish_time": "2026-02-28",
+    "link": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=002439&announcementId=1224988643&orgId=9900012989&announcementTime=2026-02-28",
+    "source": "cninfo.disclosure_report",
+    "raw": {
+      "代码": "002439",
+      "简称": "启明星辰",
+      "公告标题": "关于公司股东减持股份计划期限届满的公告",
+      "公告时间": "2026-02-28",
+      "公告链接": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=002439&announcementId=1224988643&orgId=9900012989&announcementTime=2026-02-28"
+    }
+  },
+  {
+    "ticker": "002439",
+    "company_name": "启明星辰",
+    "title": "关于高级管理人员增持公司股份的公告",
+    "announcement_type": "股权变动",
+    "publish_date": "2026-03-04",
+    "publish_time": "2026-03-04",
+    "link": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=002439&announcementId=1224994589&orgId=9900012989&announcementTime=2026-03-04",
+    "source": "cninfo.disclosure_report",
+    "raw": {
+      "代码": "002439",
+      "简称": "启明星辰",
+      "公告标题": "关于高级管理人员增持公司股份的公告",
+      "公告时间": "2026-03-04",
+      "公告链接": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=002439&announcementId=1224994589&orgId=9900012989&announcementTime=2026-03-04"
+    }
+  }
+]

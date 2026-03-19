@@ -1,0 +1,36 @@
+[
+  {
+    "ticker": "600918",
+    "company_name": "中泰证券",
+    "title": "中泰证券股份有限公司关于参与碳排放权交易获得中国证监会复函的公告",
+    "announcement_type": "",
+    "publish_date": "2026-03-06",
+    "publish_time": "2026-03-06",
+    "link": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=600918&announcementId=1224997337&orgId=qsgn0000702&announcementTime=2026-03-06",
+    "source": "cninfo.disclosure_report",
+    "raw": {
+      "代码": "600918",
+      "简称": "中泰证券",
+      "公告标题": "中泰证券股份有限公司关于参与碳排放权交易获得中国证监会复函的公告",
+      "公告时间": "2026-03-06",
+      "公告链接": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=600918&announcementId=1224997337&orgId=qsgn0000702&announcementTime=2026-03-06"
+    }
+  },
+  {
+    "ticker": "600918",
+    "company_name": "中泰证券",
+    "title": "中泰证券股份有限公司2025年度第五期短期融资券兑付完成公告",
+    "announcement_type": "增发融资",
+    "publish_date": "2026-03-14",
+    "publish_time": "2026-03-14",
+    "link": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=600918&announcementId=1225007873&orgId=qsgn0000702&announcementTime=2026-03-14",
+    "source": "cninfo.disclosure_report",
+    "raw": {
+      "代码": "600918",
+      "简称": "中泰证券",
+      "公告标题": "中泰证券股份有限公司2025年度第五期短期融资券兑付完成公告",
+      "公告时间": "2026-03-14",
+      "公告链接": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=600918&announcementId=1225007873&orgId=qsgn0000702&announcementTime=2026-03-14"
+    }
+  }
+]

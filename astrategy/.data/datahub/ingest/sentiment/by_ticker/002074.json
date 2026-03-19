@@ -1,0 +1,94 @@
+{
+  "ticker": "002074",
+  "company_name": "国轩高科",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "filing",
+      "title": "关于公司对外担保进展的公告",
+      "summary": "",
+      "publish_date": "2026-02-28",
+      "available_at": "2026-02-28T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "关于第三期员工持股计划股票出售完毕的公告",
+      "summary": "股权激励",
+      "publish_date": "2026-03-03",
+      "available_at": "2026-03-03T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "股权变动",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "2026年第一次临时股东会会议决议公告",
+      "summary": "",
+      "publish_date": "2026-03-06",
+      "available_at": "2026-03-06T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "磷化工概念涨0.67%，主力资金净流入这些股",
+      "summary": "南大光电 -0.24 3.67 -665.40 -0.54 002386 天原股份 0.31 3.61 -917.64 -3.00 600389 江山股份 -1.10 4.53 -1178.45 -1.91 002805 丰元股份 0.28 10.19 -1323.49 -2.56 002074",
+      "publish_date": "2026-03-13",
+      "available_at": "2026-03-13T17:14:29",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "33股今日获机构买入评级",
+      "summary": "万华化学 中金公司 跑赢行业 跑赢行业 105.00 80.15 300014 亿纬锂能 交银国际 买入 未评级 94.74 68.62 301162 国能日新 国泰海通 增持 增持 89.48 68.99 689009 九号公司-WD 交银国际 买入 未评级 75.02 49.80 002074",
+      "publish_date": "2026-03-17",
+      "available_at": "2026-03-17T17:49:38",
+      "sentiment_score": 0.78,
+      "category": "股权变动",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "32.12亿元资金今日流出电力设备股",
+      "summary": "17461.99 688717 艾罗能源 -2.78 9.10 -17089.57 002759 天际股份 -3.78 7.64 -16943.28 300432 富临精工 1.50 5.08 -16419.81 300569 天能重工 -5.09 15.33 -16116.94 002074",
+      "publish_date": "2026-03-18",
+      "available_at": "2026-03-18T17:06:58",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "hot_topic",
+      "title": "国轩高科",
+      "summary": "雪球关注#168; 雪球讨论#102; 雪球交易#169",
+      "publish_date": "2026-03-19",
+      "available_at": "2026-03-19T00:00:00",
+      "sentiment_score": 0.08,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.25,
+      "hot_rank": 142
+    }
+  ],
+  "hot_rank": 142,
+  "hot_reason": "雪球关注#168; 雪球讨论#102; 雪球交易#169",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

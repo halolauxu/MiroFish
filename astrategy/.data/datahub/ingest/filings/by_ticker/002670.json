@@ -1,0 +1,36 @@
+[
+  {
+    "ticker": "002670",
+    "company_name": "国盛证券",
+    "title": "2026年第一次临时股东会决议公告",
+    "announcement_type": "",
+    "publish_date": "2026-02-28",
+    "publish_time": "2026-02-28",
+    "link": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=002670&announcementId=1224987740&orgId=9900022401&announcementTime=2026-02-28",
+    "source": "cninfo.disclosure_report",
+    "raw": {
+      "代码": "002670",
+      "简称": "国盛证券",
+      "公告标题": "2026年第一次临时股东会决议公告",
+      "公告时间": "2026-02-28",
+      "公告链接": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=002670&announcementId=1224987740&orgId=9900022401&announcementTime=2026-02-28"
+    }
+  },
+  {
+    "ticker": "002670",
+    "company_name": "国盛证券",
+    "title": "关于持股5%以上股东减持股份比例触及1%整数倍暨减持计划期限届满实施情况的公告",
+    "announcement_type": "股权变动",
+    "publish_date": "2026-03-10",
+    "publish_time": "2026-03-10",
+    "link": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=002670&announcementId=1225001747&orgId=9900022401&announcementTime=2026-03-10",
+    "source": "cninfo.disclosure_report",
+    "raw": {
+      "代码": "002670",
+      "简称": "国盛证券",
+      "公告标题": "关于持股5%以上股东减持股份比例触及1%整数倍暨减持计划期限届满实施情况的公告",
+      "公告时间": "2026-03-10",
+      "公告链接": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=002670&announcementId=1225001747&orgId=9900022401&announcementTime=2026-03-10"
+    }
+  }
+]

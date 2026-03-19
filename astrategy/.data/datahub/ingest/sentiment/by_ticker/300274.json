@@ -1,0 +1,142 @@
+{
+  "ticker": "300274",
+  "company_name": "阳光电源",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "filing",
+      "title": "2025年限制性股票激励计划预留授予激励对象名单",
+      "summary": "股权激励",
+      "publish_date": "2026-03-06",
+      "available_at": "2026-03-06T18:24:11",
+      "sentiment_score": 0.0,
+      "category": "股权变动",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "董事会薪酬和考核委员会关于公司2025年限制性股票激励计划预留授予激励对象名单的核查意见",
+      "summary": "股权激励",
+      "publish_date": "2026-03-06",
+      "available_at": "2026-03-06T18:24:29",
+      "sentiment_score": 0.0,
+      "category": "股权变动",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "第五届董事会第二十二次会议决议公告",
+      "summary": "",
+      "publish_date": "2026-03-06",
+      "available_at": "2026-03-06T18:24:29",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "关于向2025年限制性股票激励计划激励对象授予预留限制性股票的公告",
+      "summary": "股权激励",
+      "publish_date": "2026-03-06",
+      "available_at": "2026-03-06T18:24:29",
+      "sentiment_score": 0.0,
+      "category": "股权变动",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "300274，成交额A股第一",
+      "summary": "盘面上，光伏、锂电两大方向成为市场焦点，宁德时代A股股价盘中突破400元，阳光电源（300274）盘中涨超12%，成交额188.89亿元，位居A股第一。化工板块震荡反弹，百川股份开盘瞬间拉升涨停；绿电概念拉升，绿发电力2连板，节能风电、协鑫能科等多只个股涨停。",
+      "publish_date": "2026-03-11",
+      "available_at": "2026-03-11T12:34:05",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "商品期货套期保值业务管理制度",
+      "summary": "",
+      "publish_date": "2026-03-13",
+      "available_at": "2026-03-13T18:00:10",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "第五届董事会第二十三次会议决议公告",
+      "summary": "",
+      "publish_date": "2026-03-13",
+      "available_at": "2026-03-13T18:02:10",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "关于开展商品期货和衍生品套期保值业务及可行性分析的公告",
+      "summary": "",
+      "publish_date": "2026-03-13",
+      "available_at": "2026-03-13T18:02:10",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "阳光电源等入股格见半导体",
+      "summary": "南方财经3月18日电，天眼查工商信息显示，近日，深圳格见半导体有限公司发生工商变更，新增阳光电源（300274）、深圳市稳正长智创业投资企业（有限合伙）、深圳市稳正长富创业投资企业（有限合伙）为股东，同时注册资本由约161.19万人民币增至约165.56万人民币。",
+      "publish_date": "2026-03-18",
+      "available_at": "2026-03-18T14:51:06",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "hot_topic",
+      "title": "阳光电源",
+      "summary": "雪球关注#35; 雪球讨论#19; 雪球交易#45",
+      "publish_date": "2026-03-19",
+      "available_at": "2026-03-19T00:00:00",
+      "sentiment_score": 0.244,
+      "category": "其他",
+      "urgency": "high",
+      "weight": 1.25,
+      "hot_rank": 18
+    },
+    {
+      "source_type": "news",
+      "title": "28股获融资客大手笔净买入",
+      "summary": "18日涨跌幅（%） 融资净买入额（万元） 最新融资余额（万元） 占流通市值比例（%） 所属行业 300476 胜宏科技 3.45 54392.03 1754456.16 7.07 电子 600989 宝丰能源 -3.03 41514.46 441301.22 1.88 基础化工 300274",
+      "publish_date": "2026-03-19",
+      "available_at": "2026-03-19T09:44:49",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 18,
+  "hot_reason": "雪球关注#35; 雪球讨论#19; 雪球交易#45",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

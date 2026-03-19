@@ -1,0 +1,106 @@
+{
+  "ticker": "002429",
+  "company_name": "兆驰股份",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "filing",
+      "title": "第七届董事会第一次会议决议的公告",
+      "summary": "",
+      "publish_date": "2026-03-06",
+      "available_at": "2026-03-06T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "2026年第一次临时股东会决议公告",
+      "summary": "",
+      "publish_date": "2026-03-06",
+      "available_at": "2026-03-06T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "关于为下属子公司申请综合授信提供担保的进展公告",
+      "summary": "",
+      "publish_date": "2026-03-07",
+      "available_at": "2026-03-07T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "兆驰股份002429龙虎榜数据03-09",
+      "summary": "交易所2026年3月9日公布的交易公开信息显示，兆驰股份因成为日跌幅偏离值达到7%的前5只证券上榜。兆驰股份当日收报9.71元，涨跌幅-8.40%，偏离值-7.74%，换手率5.69%，成交额24.80亿。 免责声明：本文基于AI生产，仅供参考，不构成任何投资建议，据此操作风险自担",
+      "publish_date": "2026-03-09",
+      "available_at": "2026-03-09T16:26:43",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "关于对外投资建设光通信半导体激光芯片及高速光模块项目的进展公告",
+      "summary": "",
+      "publish_date": "2026-03-13",
+      "available_at": "2026-03-13T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "兆驰股份002429龙虎榜数据03-13)",
+      "summary": "交易所2026年3月13日公布的交易公开信息显示，兆驰股份因成为日涨幅偏离值达到7%的前5只证券、连续三个交易日内，涨幅偏离值累计达到20%的证券上榜。兆驰股份当日收报11.94元，涨跌幅10.05%，偏离值10.88%，换手率8.68%，成交额46.22亿。异常期间3月11日至3",
+      "publish_date": "2026-03-13",
+      "available_at": "2026-03-13T16:26:40",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "兆驰股份：针对MicroLED在光通信等扩展领域的应用 目前处于样品验证测试阶段",
+      "summary": "兆驰股份0024293月15日发布股票交易异常波动的公告称，公司股票连续3个交易日收盘价格涨幅偏离值累计超过20%。公司注意到市场对MicroLED相关概念关注度较高。",
+      "publish_date": "2026-03-15",
+      "available_at": "2026-03-15T15:52:58",
+      "sentiment_score": 0.0,
+      "category": "产品进展",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "关于股票交易异常波动的公告",
+      "summary": "",
+      "publish_date": "2026-03-16",
+      "available_at": "2026-03-16T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 0,
+  "hot_reason": "",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

@@ -1,0 +1,46 @@
+{
+  "ticker": "600171",
+  "company_name": "上海贝岭",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "news",
+      "title": "MCU芯片概念涨2.07%，主力资金净流入这些股",
+      "summary": "002960 青鸟消防 6.19 5.69 3789.67 7.09 600460 士兰微 1.54 1.69 3774.81 4.69 603290 斯达半导 2.80 2.80 3700.64 5.09 300975 商络电子 5.79 13.34 3320.35 2.90 600171",
+      "publish_date": "2026-03-16",
+      "available_at": "2026-03-16T17:12:57",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "共封装光学(CPO)概念涨3.69%，主力资金净流入这些股",
+      "summary": "2.88 603267 鸿远电子 1.74 1.97 605.86 2.45 301095 广立微 1.33 1.83 488.65 2.13 002906 华阳集团 -0.50 0.98 304.64 2.00 300287 飞利信 1.93 1.43 254.06 2.86 600171",
+      "publish_date": "2026-03-18",
+      "available_at": "2026-03-18T17:06:38",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "存储芯片概念涨3.50%，主力资金净流入95股",
+      "summary": "1.03 688478 晶升股份 1.60 1.44 234.18 4.79 603933 睿能科技 2.39 1.08 225.07 4.65 002055 ST得润 3.42 3.69 221.78 1.70 688110 东芯股份 2.18 2.86 221.11 0.13 600171",
+      "publish_date": "2026-03-18",
+      "available_at": "2026-03-18T17:06:43",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 0,
+  "hot_reason": "",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

@@ -1,0 +1,58 @@
+{
+  "ticker": "000895",
+  "company_name": "双汇发展",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "news",
+      "title": "猪肉概念上涨0.91%，7股主力资金净流入超千万元",
+      "summary": "002982 湘佳股份 -0.59 7.26 -54.50 -0.38 001201 东瑞股份 0.13 1.83 -73.70 -1.31 603717 天域生物 -2.73 2.79 -105.41 -1.72 603609 禾丰股份 0.94 0.66 -116.94 -2.62 000895",
+      "publish_date": "2026-03-12",
+      "available_at": "2026-03-12T17:18:44",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "养鸡概念涨0.65%，主力资金净流入13股",
+      "summary": "605567 春雪食品 -0.17 1.41 38.97 1.19 002982 湘佳股份 -0.59 7.26 -54.50 -0.38 603609 禾丰股份 0.94 0.66 -116.94 -2.62 603668 天马科技 -1.58 0.98 -361.38 -5.28 000895",
+      "publish_date": "2026-03-12",
+      "available_at": "2026-03-12T17:18:51",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "食品饮料行业今日涨1.99%，主力资金净流入15.49亿元",
+      "summary": "2.93 0.82 -794.86 002840 华统股份 2.11 2.03 -681.11 603719 良品铺子 0.75 0.71 -616.07 002847 盐津铺子 -0.45 0.45 -596.81 603198 迎驾贡酒 1.04 0.40 -589.55 000895",
+      "publish_date": "2026-03-16",
+      "available_at": "2026-03-16T17:13:27",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "hot_topic",
+      "title": "双汇发展",
+      "summary": "雪球关注#19",
+      "publish_date": "2026-03-19",
+      "available_at": "2026-03-19T00:00:00",
+      "sentiment_score": 0.08,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.25,
+      "hot_rank": 101
+    }
+  ],
+  "hot_rank": 101,
+  "hot_reason": "雪球关注#19",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

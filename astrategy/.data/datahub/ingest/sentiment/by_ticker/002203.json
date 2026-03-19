@@ -1,0 +1,58 @@
+{
+  "ticker": "002203",
+  "company_name": "海亮股份",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "filing",
+      "title": "2026年第二次临时股东会会议决议公告",
+      "summary": "",
+      "publish_date": "2026-03-04",
+      "available_at": "2026-03-04T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "PET铜箔概念下跌4.30%，8股主力资金净流出超亿元",
+      "summary": "11.74 -1543.02 603124 江南新材 -4.08 5.98 -1298.91 002263 大东南 -2.18 2.59 -1103.46 601515 衢州东峰 -2.37 1.39 -1083.38 002846 英联股份 -2.41 3.27 -1050.51 002203",
+      "publish_date": "2026-03-17",
+      "available_at": "2026-03-17T17:22:51",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "有色金属行业今日净流出资金34.49亿元，赣锋锂业等16股净流出资金超亿元",
+      "summary": "0.84 2.67 7085.73 002428 云南锗业 1.52 4.42 4980.70 603115 海星股份 10.00 4.22 4307.46 300337 银邦股份 3.53 3.68 3875.72 605376 博迁新材 3.89 4.08 3841.02 002203",
+      "publish_date": "2026-03-18",
+      "available_at": "2026-03-18T17:06:48",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "有色金属行业资金流出榜：紫金矿业等41股净流出资金超亿元",
+      "summary": "永杉锂业 -4.44 3.36 555.44 002988 豪美新材 -5.87 1.56 545.06 600459 贵研铂业 -3.78 3.68 528.03 605376 博迁新材 -4.01 2.57 506.10 002824 和胜股份 -3.49 5.67 423.52 002203",
+      "publish_date": "2026-03-19",
+      "available_at": "2026-03-19T18:04:36",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 0,
+  "hot_reason": "",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

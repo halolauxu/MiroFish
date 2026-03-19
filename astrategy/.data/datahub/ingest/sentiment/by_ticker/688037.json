@@ -1,0 +1,58 @@
+{
+  "ticker": "688037",
+  "company_name": "芯源微",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "filing",
+      "title": "芯源微2025年度业绩快报公告",
+      "summary": "业绩预告",
+      "publish_date": "2026-02-28",
+      "available_at": "2026-02-28T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "业绩公告",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "77只科创板股融资余额增加超1000万元",
+      "summary": "65083.90 2028.29 3.22 8.54 688097 博众精工 52260.30 2001.46 3.98 -4.39 688325 赛微微电 45110.71 1892.51 4.38 7.26 688396 华润微 120667.03 1788.38 1.50 0.38 688037",
+      "publish_date": "2026-03-17",
+      "available_at": "2026-03-17T09:51:01",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "科创板高价股排行榜",
+      "summary": "电子 688702 盛科通信-U 175.60 -5.08 2.89 电子 688608 恒玄科技 175.00 -2.58 1.14 电子 688120 华海清科 171.19 -1.10 1.46 电子 688630 芯碁微装 170.54 -4.45 3.17 机械设备 688037",
+      "publish_date": "2026-03-17",
+      "available_at": "2026-03-17T17:49:51",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "94只科创板股票跻身百元股阵营",
+      "summary": "0.97 2.17 电子 688630 芯碁微装 177.40 4.02 3.44 机械设备 688608 恒玄科技 175.50 0.29 1.48 电子 688120 华海清科 175.12 2.30 1.03 电子 688205 德科立 173.85 7.34 7.63 通信 688037",
+      "publish_date": "2026-03-18",
+      "available_at": "2026-03-18T17:56:17",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 0,
+  "hot_reason": "",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

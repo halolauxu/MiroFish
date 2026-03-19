@@ -1,0 +1,118 @@
+{
+  "ticker": "603341",
+  "company_name": "龙旗科技",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "filing",
+      "title": "关于稳定价格行动、稳定价格期结束及超额配售权失效的公告",
+      "summary": "",
+      "publish_date": "2026-02-24",
+      "available_at": "2026-02-24T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "关于以集中竞价交易方式回购股份的进展公告",
+      "summary": "股权变动",
+      "publish_date": "2026-03-03",
+      "available_at": "2026-03-03T00:00:00",
+      "sentiment_score": 0.8,
+      "category": "股权变动",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "H股公告-截至2026年2月28日止之股份发行人的证券变动月报表",
+      "summary": "",
+      "publish_date": "2026-03-05",
+      "available_at": "2026-03-05T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "2026年第一次临时股东会决议公告",
+      "summary": "",
+      "publish_date": "2026-03-05",
+      "available_at": "2026-03-05T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "龙旗科技：预计2026年AI PC业务将实现规模化出货",
+      "summary": "龙旗科技（603341.SH）3月9日在投资者互动平台表示，客户端，公司在全球头部客户首个合作项目正式落地的同时，公司获得了另一家全球头部客户的量产订单；制造端，公司南昌制造基地的PC产线，已经根据PC业务全价值链和全流程的要求，进行了设计和建设，能有效满足大规模柔性制造的要求。",
+      "publish_date": "2026-03-09",
+      "available_at": "2026-03-09T19:31:04",
+      "sentiment_score": 0.57,
+      "category": "重大合同",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "PCB概念上涨4.20%，15股主力资金净流入超亿元",
+      "summary": "亨通股份 -0.53 1.85 -2215.49 -7.05 600525 ST长园 0.52 3.04 -2281.56 -9.68 002975 博杰股份 4.62 4.03 -2621.28 -7.97 000737 北方铜业 0.43 2.60 -3289.84 -4.07 603341",
+      "publish_date": "2026-03-10",
+      "available_at": "2026-03-10T17:03:45",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "龙旗科技：公司的汽车电子业务目前处于发展起步阶段，整体进展符合公司规划",
+      "summary": "龙旗科技（603341.SH）3月11日在投资者互动平台表示，公司的汽车电子业务目前处于发展起步阶段，项目落地到形成销售周期较长，销售规模的突破需要时间积累，整体进展符合公司规划。公司车载移动智控平板持续量产发货，出货量行业领先；车载无线充项目也进入大规模量产阶段。",
+      "publish_date": "2026-03-11",
+      "available_at": "2026-03-11T18:27:46",
+      "sentiment_score": 0.22,
+      "category": "产品进展",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "关于控股股东变更名称及其他工商信息并完成工商变更登记的公告",
+      "summary": "",
+      "publish_date": "2026-03-19",
+      "available_at": "2026-03-19T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "H股公告-董事会会议召开日期",
+      "summary": "",
+      "publish_date": "2026-03-19",
+      "available_at": "2026-03-19T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 0,
+  "hot_reason": "",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

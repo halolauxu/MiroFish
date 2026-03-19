@@ -1,0 +1,58 @@
+{
+  "ticker": "300487",
+  "company_name": "蓝晓科技",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "news",
+      "title": "金属钴概念下跌2.42% 15股主力资金净流出超亿元",
+      "summary": "4.63 -2128.65 000758 中色股份 -2.27 3.20 -1660.64 000009 中国宝安 -0.95 1.33 -1209.84 300477 ST合纵 -0.70 2.27 -489.27 603257 中国瑞林 -3.23 8.86 -466.45 300487",
+      "publish_date": "2026-03-16",
+      "available_at": "2026-03-16T17:12:44",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "关于盐湖提锂日常经营合同的终止公告",
+      "summary": "重大合同",
+      "publish_date": "2026-03-16",
+      "available_at": "2026-03-16T17:33:57",
+      "sentiment_score": 1.0,
+      "category": "重大合同",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "蓝晓科技：终止盐湖提锂日常经营合同",
+      "summary": "人民财讯3月16日电，蓝晓科技3004873月16日公告，公司此前与HANACOLLAS.A.（简称“HANACOLLA”）签订《3000吨电池级碳酸锂提锂装置销售合同》，公司拟向HANACOLLA销售盐湖提锂系统装置，合同金额2500万美元。",
+      "publish_date": "2026-03-16",
+      "available_at": "2026-03-16T17:54:10",
+      "sentiment_score": 0.0,
+      "category": "重大合同",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "金属钴概念下跌4.85%，主力资金净流出31股",
+      "summary": "2.05 -3933.47 000758 中色股份 -5.63 2.88 -3390.19 301219 腾远钴业 -4.71 2.87 -2570.75 000009 中国宝安 -1.55 1.09 -1984.47 300477 ST合纵 -3.87 3.06 -1600.59 300487",
+      "publish_date": "2026-03-19",
+      "available_at": "2026-03-19T18:04:39",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 0,
+  "hot_reason": "",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

@@ -1,0 +1,70 @@
+{
+  "ticker": "000088",
+  "company_name": "盐田港",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "filing",
+      "title": "深圳市盐田港股份有限公司2025年业绩快报",
+      "summary": "业绩预告",
+      "publish_date": "2026-02-28",
+      "available_at": "2026-02-28T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "业绩公告",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "盐田港：2025年净利14.43亿元 同比增长6.92%",
+      "summary": "中证智能财讯盐田港（000088）2月27日晚间披露2025年业绩快报，公司实现营业收入8.58亿元，同比增长8.16%；归母净利润14.43亿元，同比增长6.92%；扣非净利润14.32亿元，同比增长22.71%；基本每股收益0.28元，加权平均净资产收益率为7.98%。",
+      "publish_date": "2026-02-28",
+      "available_at": "2026-02-28T09:37:53",
+      "sentiment_score": 0.2,
+      "category": "业绩公告",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "航运概念涨2.34%，主力资金净流入44股",
+      "summary": "盐田港 -0.85 2.65 591.86 1.51 000685 中山公用 -0.08 2.24 530.89 1.56 300240 飞力达 2.65 9.19 348.49 1.28 002889 东方嘉盛 -0.96 1.26 215.01 4.66 001228 永泰运",
+      "publish_date": "2026-03-03",
+      "available_at": "2026-03-03T16:40:43",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "航运概念下跌3.62%，主力资金净流出61股",
+      "summary": "盐田港 -2.16 1.88 -2383.81 000905 厦门港务 -5.80 6.80 -2160.89 601326 秦港股份 -3.28 1.02 -2009.04 600794 保税科技 -2.92 4.48 -1985.80 601022 宁波远洋 -8.81 5.69",
+      "publish_date": "2026-03-04",
+      "available_at": "2026-03-04T16:33:35",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "关于注销向原股东配售股份募集资金账户的公告",
+      "summary": "",
+      "publish_date": "2026-03-12",
+      "available_at": "2026-03-12T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 0,
+  "hot_reason": "",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

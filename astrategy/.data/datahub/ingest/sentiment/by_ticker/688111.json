@@ -1,0 +1,58 @@
+{
+  "ticker": "688111",
+  "company_name": "金山办公",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "filing",
+      "title": "金山办公2025年度业绩快报公告",
+      "summary": "业绩预告",
+      "publish_date": "2026-02-28",
+      "available_at": "2026-02-28T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "业绩公告",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "3只科创板个股主力资金净流入超亿元",
+      "summary": "金山办公 2184.92 1.61 -0.10 1.09 688235 百济神州-U 2052.16 2.23 2.35 3.35 688376 美埃科技 1900.58 7.05 3.19 3.21",
+      "publish_date": "2026-03-17",
+      "available_at": "2026-03-17T17:22:54",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "云办公概念涨3.51%，主力资金净流入30股",
+      "summary": "（数据宝） 云办公概念资金流入榜 代码 简称 今日涨跌幅（%） 今日换手率（%） 主力资金流量（万元） 主力资金净流入比率（%） 300454 深信服 4.08 4.73 12738.02 8.12 301382 蜂助手 10.52 16.29 10406.74 9.71 688111",
+      "publish_date": "2026-03-18",
+      "available_at": "2026-03-18T17:06:29",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "16只科创板个股主力资金净流入超亿元",
+      "summary": "金山办公 9535.62 7.53 0.07 1.02 688048 长光华芯 9020.30 5.80 2.49 5.46 688627 精智达 8438.06 8.47 4.76 5.72 688041 海光信息 7516.98 2.20 1.90 0.64 688072 拓荆科技",
+      "publish_date": "2026-03-18",
+      "available_at": "2026-03-18T17:57:31",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 0,
+  "hot_reason": "",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

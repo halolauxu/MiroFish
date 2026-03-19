@@ -1,0 +1,58 @@
+{
+  "ticker": "300012",
+  "company_name": "华测检测",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "filing",
+      "title": "关于公司第四期员工持股计划完成非交易过户的公告",
+      "summary": "股权激励",
+      "publish_date": "2026-02-26",
+      "available_at": "2026-02-26T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "股权变动",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "6.48亿元资金今日流出社会服务股",
+      "summary": "大连圣亚 0.76 5.05 624.29 300962 中金辐照 1.14 4.67 665.78 301169 零点有数 -2.39 2.26 716.61 000524 岭南控股 0.40 3.16 1293.77 002306 *ST云网 3.31 5.86 1823.93 300012",
+      "publish_date": "2026-03-02",
+      "available_at": "2026-03-02T17:23:36",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "航运概念涨2.34%，主力资金净流入44股",
+      "summary": "002320 海峡股份 0.69 2.01 -434.17 -0.93 601298 青岛港 0.43 0.33 -436.49 -2.57 600751 海航科技 -2.12 3.92 -437.24 -1.03 001217 华尔泰 -5.43 4.28 -455.20 -2.42 300012",
+      "publish_date": "2026-03-03",
+      "available_at": "2026-03-03T16:40:43",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "PCB概念上涨4.20%，15股主力资金净流入超亿元",
+      "summary": "603386 骏亚科技 4.90 3.30 -231.40 -1.45 301282 金禄电子 11.36 18.08 -243.80 -0.34 301135 瑞德智能 4.23 2.85 -270.41 -4.07 002376 新北洋 2.11 1.74 -278.86 -2.66 300012",
+      "publish_date": "2026-03-10",
+      "available_at": "2026-03-10T17:03:45",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 0,
+  "hot_reason": "",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

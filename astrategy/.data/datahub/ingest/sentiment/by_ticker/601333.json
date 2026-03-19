@@ -1,0 +1,82 @@
+{
+  "ticker": "601333",
+  "company_name": "广深铁路",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "filing",
+      "title": "广深铁路第十届董事会第十九次会议决议公告",
+      "summary": "",
+      "publish_date": "2026-02-28",
+      "available_at": "2026-02-28T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "广深铁路关于聘任公司证券事务代表的公告",
+      "summary": "",
+      "publish_date": "2026-02-28",
+      "available_at": "2026-02-28T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "广深铁路关于《公司估值提升计划》的公告",
+      "summary": "",
+      "publish_date": "2026-02-28",
+      "available_at": "2026-02-28T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "短线防风险 27只个股短期均线现死叉",
+      "summary": "-0.95 0.40 4.22 4.23 -0.21 4.19 -0.88 000061 农产品 -1.08 0.64 9.13 9.15 -0.20 9.19 0.42 603112 华翔股份 -3.98 1.38 17.41 17.43 -0.13 17.15 -1.62 601333",
+      "publish_date": "2026-03-09",
+      "available_at": "2026-03-09T12:00:03",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "短线防风险 23只个股短期均线现死叉",
+      "summary": "标榜股份 -2.70 1.89 42.74 42.93 -0.45 42.85 -0.19 601000 唐山港 -1.18 0.50 4.22 4.23 -0.24 4.18 -1.09 000061 农产品 -0.86 0.75 9.14 9.15 -0.17 9.21 0.61 601333",
+      "publish_date": "2026-03-09",
+      "available_at": "2026-03-09T14:30:58",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "【盘中播报】78只个股突破半年线",
+      "summary": "6.06 5.17 26.34 26.76 1.60 000421 南京公用 1.72 1.33 6.97 7.08 1.56 600228 *ST返利 1.69 0.72 5.91 6.00 1.49 603079 圣达生物 5.36 1.71 18.60 18.88 1.49 601333",
+      "publish_date": "2026-03-12",
+      "available_at": "2026-03-12T11:18:20",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 0,
+  "hot_reason": "",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

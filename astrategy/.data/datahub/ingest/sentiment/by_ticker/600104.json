@@ -1,0 +1,58 @@
+{
+  "ticker": "600104",
+  "company_name": "上汽集团",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "filing",
+      "title": "上汽集团2026年2月份产销快报",
+      "summary": "",
+      "publish_date": "2026-03-02",
+      "available_at": "2026-03-02T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "业绩公告",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "上汽集团：刘涛在智己汽车的职务无变动",
+      "summary": "上汽集团（600104.SH）3月9日在投资者互动平台表示，刘涛在智己汽车的职务无变动。",
+      "publish_date": "2026-03-09",
+      "available_at": "2026-03-09T17:09:13",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "上汽集团：公司L3准入试点车型的申报工作已在推进过程中",
+      "summary": "上汽集团（600104.SH）3月9日在投资者互动平台表示，您好，公司L3准入试点车型的申报工作已在推进过程中。感谢您的关注！",
+      "publish_date": "2026-03-09",
+      "available_at": "2026-03-09T17:18:37",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "强势股追踪 主力资金连续5日净流入73股",
+      "summary": "江苏银行 11 9.04 7.52 4.50 601398 工商银行 5 8.25 7.81 4.97 688099 晶晨股份 10 6.59 6.41 4.17 600873 梅花生物 6 4.59 6.06 5.66 688166 博瑞医药 5 4.10 11.49 13.47 600104",
+      "publish_date": "2026-03-17",
+      "available_at": "2026-03-17T17:25:19",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 0,
+  "hot_reason": "",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

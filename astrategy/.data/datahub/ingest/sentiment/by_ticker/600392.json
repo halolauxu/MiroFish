@@ -1,0 +1,70 @@
+{
+  "ticker": "600392",
+  "company_name": "盛和资源",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "filing",
+      "title": "盛和资源控股股份有限公司股东减持股份计划公告",
+      "summary": "股权变动",
+      "publish_date": "2026-03-03",
+      "available_at": "2026-03-03T00:00:00",
+      "sentiment_score": -0.78,
+      "category": "股权变动",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "盛和资源600392龙虎榜数据03-03",
+      "summary": "交易所2026年3月3日公布的交易公开信息显示，盛和资源因成为有价格涨跌幅限制的日收盘价格跌幅偏离值达到7%的前五只证券上榜。盛和资源当日收报28.95元，涨跌幅-10.01%，偏离值-8.58%，换手率9.21%，成交额47.85亿。 免责声明：本文基于AI生产，仅供参考，不构成任何投资建议",
+      "publish_date": "2026-03-03",
+      "available_at": "2026-03-03T16:57:34",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "盛和资源控股股份有限公司关于为控股子公司提供担保的进展公告",
+      "summary": "",
+      "publish_date": "2026-03-11",
+      "available_at": "2026-03-11T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "有色金属行业资金流出榜：紫金矿业、华友钴业等净流出资金居前",
+      "summary": "20643.55 300139 晓程科技 -1.43 13.25 -19584.00 000657 中钨高新 -1.57 6.26 -19434.40 002378 章源钨业 -0.70 7.87 -17905.96 002466 天齐锂业 -1.05 1.90 -16399.15 600392",
+      "publish_date": "2026-03-16",
+      "available_at": "2026-03-16T17:12:27",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "有色金属行业今日净流出资金34.49亿元，赣锋锂业等16股净流出资金超亿元",
+      "summary": "2.02 3.02 18248.57 002149 西部材料 2.93 9.26 14181.81 600549 厦门钨业 1.05 2.36 10994.55 002378 章源钨业 2.16 5.55 8789.70 300811 铂科新材 4.13 4.84 8364.27 600392",
+      "publish_date": "2026-03-18",
+      "available_at": "2026-03-18T17:06:48",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 0,
+  "hot_reason": "",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

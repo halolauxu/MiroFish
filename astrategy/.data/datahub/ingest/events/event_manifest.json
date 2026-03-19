@@ -1,5 +1,15 @@
 {
   "ingest_date": "2026-03-19",
-  "incremental_event_count": 238,
-  "total_event_count": 438
+  "incremental_event_count": 2559,
+  "total_event_count": 2855,
+  "created_event_count": 323,
+  "updated_event_count": 2236,
+  "filing_event_count": 315,
+  "filing_event_update_count": 1230,
+  "news_event_count": 8,
+  "news_event_update_count": 837,
+  "sentiment_event_count": 0,
+  "sentiment_event_update_count": 169,
+  "skipped_filing_other": 2130,
+  "skipped_news_other": 1555
 }

@@ -1,0 +1,142 @@
+{
+  "ticker": "603858",
+  "company_name": "步长制药",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "filing",
+      "title": "山东步长制药股份有限公司关于公司参与重整投资人资格竞拍及其结果的公告",
+      "summary": "",
+      "publish_date": "2026-02-26",
+      "available_at": "2026-02-26T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "山东步长制药股份有限公司关于控股子公司完成医疗器械经营许可证变更登记的公告",
+      "summary": "",
+      "publish_date": "2026-03-11",
+      "available_at": "2026-03-11T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "步长制药：全资子公司山东丹红拟与鸿育医药签署技术转让与科研合作合同",
+      "summary": "每经AI快讯，3月12日，步长制药603858.SH)公告称，公司全资子公司山东丹红拟与杭州鸿育医药科技有限公司就益气活血解郁颗粒临床前研究技术转让及其新药开发事宜签署《技术转让与科研合作合同》。",
+      "publish_date": "2026-03-12",
+      "available_at": "2026-03-12T19:08:13",
+      "sentiment_score": 0.0,
+      "category": "重大合同",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "步长制药：全资子公司拟与鸿育医药签署《技术转让与科研合作合同》",
+      "summary": "人民财讯3月12日电，步长制药6038583月12日公告，全资子公司山东丹红制药有限公司（简称“山东丹红”）拟与杭州鸿育医药科技有限公司（简称“鸿育医药”）就益气活血解郁颗粒临床前研究技术转让及其新药开发事宜签署《技术转让与科研合作合同》。",
+      "publish_date": "2026-03-12",
+      "available_at": "2026-03-12T19:09:40",
+      "sentiment_score": 0.0,
+      "category": "重大合同",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "步长(广州)医学诊断技术有限公司拟股权转让涉及的湖南众测生物科技有限公司股东全部权益价值资产评估报告",
+      "summary": "",
+      "publish_date": "2026-03-13",
+      "available_at": "2026-03-13T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "山东步长制药股份有限公司第五届董事会第四十四次会议决议公告",
+      "summary": "",
+      "publish_date": "2026-03-13",
+      "available_at": "2026-03-13T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "山东步长制药股份有限公司关于控股子公司股权转让的公告",
+      "summary": "",
+      "publish_date": "2026-03-13",
+      "available_at": "2026-03-13T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "山东步长制药股份有限公司关于控股子公司拟转让股权的公告",
+      "summary": "",
+      "publish_date": "2026-03-13",
+      "available_at": "2026-03-13T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "资产重组",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "山东步长制药股份有限公司关于全资子公司山东丹红拟与杭州鸿育医药科技有限公司签署《技术转让与科研合作合同》的公告",
+      "summary": "重大合同",
+      "publish_date": "2026-03-13",
+      "available_at": "2026-03-13T00:00:00",
+      "sentiment_score": 1.0,
+      "category": "重大合同",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "步长制药：拟受让鸿育医药益气活血解郁颗粒临床前研究技术",
+      "summary": "中证智能财讯步长制药（603858）3月13日公告，为丰富公司产品研发管线，公司全资子公司山东丹红制药有限公司拟与杭州鸿育医药科技有限公司签署《技术转让与科研合作合同》，受让益气活血解郁颗粒临床前研究技术及相关知识产权。",
+      "publish_date": "2026-03-13",
+      "available_at": "2026-03-13T09:29:55",
+      "sentiment_score": 0.0,
+      "category": "重大合同",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "山东步长制药股份有限公司关于控股子公司拟转让股权的进展公告",
+      "summary": "",
+      "publish_date": "2026-03-18",
+      "available_at": "2026-03-18T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "资产重组",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 0,
+  "hot_reason": "",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

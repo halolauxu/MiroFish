@@ -1,0 +1,58 @@
+{
+  "ticker": "601019",
+  "company_name": "山东出版",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "filing",
+      "title": "山东出版关于全资子公司2026年开展纸浆套期保值业务的公告",
+      "summary": "",
+      "publish_date": "2026-03-07",
+      "available_at": "2026-03-07T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "【盘中播报】22只个股跨越牛熊分界线",
+      "summary": "0.39 12.47 12.59 0.96 300498 温氏股份 1.30 0.57 17.01 17.16 0.87 603800 洪田股份 1.63 2.22 38.92 39.25 0.85 300585 奥联电子 1.88 4.10 16.67 16.78 0.64 601019",
+      "publish_date": "2026-03-11",
+      "available_at": "2026-03-11T14:11:12",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "【盘中播报】45只个股突破年线",
+      "summary": "0.29 1441.49 1450.56 0.63 300149 睿智医药 0.89 0.65 10.17 10.23 0.62 002178 延华智能 1.99 2.15 6.63 6.67 0.58 600927 永安期货 0.76 0.34 14.60 14.67 0.49 601019",
+      "publish_date": "2026-03-16",
+      "available_at": "2026-03-16T10:46:01",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "【盘中播报】15只个股突破年线",
+      "summary": "1.01 1.07 12.90 12.99 0.68 000937 冀中能源 1.39 0.71 5.82 5.85 0.51 300199 翰宇药业 1.46 5.18 18.77 18.80 0.15 600903 贵州燃气 2.98 2.73 6.91 6.92 0.10 601019",
+      "publish_date": "2026-03-19",
+      "available_at": "2026-03-19T14:12:33",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 0,
+  "hot_reason": "",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

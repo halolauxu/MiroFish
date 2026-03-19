@@ -1,0 +1,46 @@
+{
+  "ticker": "300413",
+  "company_name": "芒果超媒",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "news",
+      "title": "MR(混合现实)概念涨2.93%，主力资金净流入37股",
+      "summary": "华如科技 -9.95 21.98 -513.27 -0.49 001314 亿道信息 1.71 3.17 -585.50 -7.85 300115 长盈精密 1.05 2.30 -698.99 -0.63 300036 超图软件 1.23 2.14 -744.52 -4.58 300413",
+      "publish_date": "2026-03-05",
+      "available_at": "2026-03-05T17:13:26",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "芒果超媒：目前公司旗下小芒电商已实现与芒果综艺、影视剧的“边看边买”",
+      "summary": "每经AI快讯，芒果超媒（300413.SZ）3月6日在投资者互动平台表示，目前公司旗下小芒电商已实现与芒果综艺、影视剧的“边看边买”，节目中艺人同款服饰、周边商品同步上架，用户在追剧时即可下单“同款”。",
+      "publish_date": "2026-03-06",
+      "available_at": "2026-03-06T18:20:29",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "智谱AI概念涨2.07%，主力资金净流入28股",
+      "summary": "阿尔特 -1.16 1.61 -574.67 -7.93 601801 皖新传媒 -1.20 0.72 -712.35 -7.71 300047 天源迪科 0.84 3.65 -730.98 -2.83 002659 凯文教育 -1.37 2.49 -734.40 -8.61 300413",
+      "publish_date": "2026-03-09",
+      "available_at": "2026-03-09T17:04:55",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 0,
+  "hot_reason": "",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

@@ -1,0 +1,36 @@
+[
+  {
+    "ticker": "601179",
+    "company_name": "中国西电",
+    "title": "中国西电关于控股子公司发布年度业绩快报的公告",
+    "announcement_type": "业绩预告",
+    "publish_date": "2026-02-28",
+    "publish_time": "2026-02-28",
+    "link": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=601179&announcementId=1224986901&orgId=9900010350&announcementTime=2026-02-28",
+    "source": "cninfo.disclosure_report",
+    "raw": {
+      "代码": "601179",
+      "简称": "中国西电",
+      "公告标题": "中国西电关于控股子公司发布年度业绩快报的公告",
+      "公告时间": "2026-02-28",
+      "公告链接": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=601179&announcementId=1224986901&orgId=9900010350&announcementTime=2026-02-28"
+    }
+  },
+  {
+    "ticker": "601179",
+    "company_name": "中国西电",
+    "title": "中国西电股票交易异常波动公告",
+    "announcement_type": "",
+    "publish_date": "2026-03-07",
+    "publish_time": "2026-03-07",
+    "link": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=601179&announcementId=1225000108&orgId=9900010350&announcementTime=2026-03-07",
+    "source": "cninfo.disclosure_report",
+    "raw": {
+      "代码": "601179",
+      "简称": "中国西电",
+      "公告标题": "中国西电股票交易异常波动公告",
+      "公告时间": "2026-03-07",
+      "公告链接": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=601179&announcementId=1225000108&orgId=9900010350&announcementTime=2026-03-07"
+    }
+  }
+]

@@ -1,0 +1,106 @@
+{
+  "ticker": "002475",
+  "company_name": "立讯精密",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "filing",
+      "title": "关于首次回购公司股份的公告",
+      "summary": "股权变动",
+      "publish_date": "2026-02-24",
+      "available_at": "2026-02-24T00:00:00",
+      "sentiment_score": 0.8,
+      "category": "股权变动",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "关于控股股东部分股权解除质押及质押的公告",
+      "summary": "",
+      "publish_date": "2026-02-28",
+      "available_at": "2026-02-28T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "关于股份回购进展情况的公告",
+      "summary": "股权变动",
+      "publish_date": "2026-03-03",
+      "available_at": "2026-03-03T00:00:00",
+      "sentiment_score": 0.8,
+      "category": "股权变动",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "关于申请发行境外上市外资股（H 股）并上市的进展公告",
+      "summary": "",
+      "publish_date": "2026-03-03",
+      "available_at": "2026-03-03T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "立讯精密：公司目前生产经营活动一切正常",
+      "summary": "立讯精密（002475.SZ）3月17日在投资者互动平台表示，公司目前生产经营活动一切正常。",
+      "publish_date": "2026-03-17",
+      "available_at": "2026-03-17T17:42:51",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "84.28亿元主力资金今日抢筹电子板块",
+      "summary": "主力资金流量（万元） 002384 东山精密 -2.12 9.90 -152732.46 002130 沃尔核材 -3.67 11.80 -34958.59 001309 德明利 5.65 11.96 -25784.10 688167 炬光科技 4.31 7.58 -23652.43 002475",
+      "publish_date": "2026-03-18",
+      "available_at": "2026-03-18T17:07:02",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "hot_topic",
+      "title": "立讯精密",
+      "summary": "雪球关注#62; 雪球讨论#41; 雪球交易#38",
+      "publish_date": "2026-03-19",
+      "available_at": "2026-03-19T00:00:00",
+      "sentiment_score": 0.222,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.25,
+      "hot_rank": 29
+    },
+    {
+      "source_type": "news",
+      "title": "电子行业3月19日资金流向日报",
+      "summary": "42311.44 300475 香农芯创 -4.89 7.38 -41301.99 600183 生益科技 -4.57 1.74 -39716.00 000725 京东方A -2.62 1.43 -39510.81 002130 沃尔核材 -4.91 6.60 -36900.21 002475",
+      "publish_date": "2026-03-19",
+      "available_at": "2026-03-19T18:06:06",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 29,
+  "hot_reason": "雪球关注#62; 雪球讨论#41; 雪球交易#38",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

@@ -1,0 +1,82 @@
+{
+  "ticker": "600519",
+  "company_name": "贵州茅台",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "filing",
+      "title": "贵州茅台关于回购股份实施进展的公告",
+      "summary": "股权变动",
+      "publish_date": "2026-03-04",
+      "available_at": "2026-03-04T00:00:00",
+      "sentiment_score": 0.8,
+      "category": "股权变动",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "贵州茅台：公司副总经理蒋焰被实施留置",
+      "summary": "南方财经3月13日电，贵州茅台600519.SH)公告称，公司于2026年3月13日收到遵义市监察委员会关于对公司副总经理蒋焰实施留置的通知。公司生产经营正常有序，公告事项不会对公司生产经营管理产生重大影响。目前，由公司董事长陈华代行董事会秘书职责。",
+      "publish_date": "2026-03-13",
+      "available_at": "2026-03-13T19:15:26",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "贵州茅台：董事长陈华代行董秘职责",
+      "summary": "【大河财立方消息】3月13日，贵州茅台（600519.SH）公告称，公司于2026年3月13日收到遵义市监察委员会关于对公司党委委员、副总经理、财务总监、董事会秘书蒋焰实施留置的通知。公司生产经营正常有序，公告事项不会对公司生产经营管理产生重大影响。",
+      "publish_date": "2026-03-13",
+      "available_at": "2026-03-13T19:20:20",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "贵州茅台：副总经理蒋焰被实施留置",
+      "summary": "人民财讯3月13日电，贵州茅台6005193月13日公告，公司于今日收到遵义市监察委员会关于对公司党委委员、副总经理、财务总监、董事会秘书蒋焰实施留置的通知。目前，由公司董事长陈华代行董事会秘书职责。",
+      "publish_date": "2026-03-13",
+      "available_at": "2026-03-13T19:22:39",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "贵州茅台关于高级管理人员被实施留置的公告",
+      "summary": "",
+      "publish_date": "2026-03-14",
+      "available_at": "2026-03-14T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "hot_topic",
+      "title": "贵州茅台",
+      "summary": "雪球关注#1; 雪球讨论#1; 雪球交易#1",
+      "publish_date": "2026-03-19",
+      "available_at": "2026-03-19T00:00:00",
+      "sentiment_score": 0.278,
+      "category": "其他",
+      "urgency": "high",
+      "weight": 1.25,
+      "hot_rank": 1
+    }
+  ],
+  "hot_rank": 1,
+  "hot_reason": "雪球关注#1; 雪球讨论#1; 雪球交易#1",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

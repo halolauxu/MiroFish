@@ -1,0 +1,82 @@
+{
+  "ticker": "601006",
+  "company_name": "大秦铁路",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "filing",
+      "title": "大秦铁路股份有限公司关于以集中竞价方式回购公司股份的进展公告",
+      "summary": "股权变动",
+      "publish_date": "2026-03-03",
+      "available_at": "2026-03-03T00:00:00",
+      "sentiment_score": 0.8,
+      "category": "股权变动",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "大秦铁路股份有限公司2026年2月大秦线生产经营数据简报",
+      "summary": "",
+      "publish_date": "2026-03-07",
+      "available_at": "2026-03-07T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "大秦铁路投资者关系活动记录表",
+      "summary": "",
+      "publish_date": "2026-03-07",
+      "available_at": "2026-03-07T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "举牌概念涨0.50%，主力资金净流入这些股",
+      "summary": "1.36 0.48 -1032.11 -9.40 600908 无锡银行 0.34 1.12 -1435.35 -10.74 601199 江南水务 -1.47 1.19 -1606.52 -23.71 000932 华菱钢铁 -2.37 1.08 -2292.82 -4.95 601006",
+      "publish_date": "2026-03-13",
+      "available_at": "2026-03-13T17:10:18",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "解密主力资金出逃股 连续5日净流出675股",
+      "summary": "4.76 8.70 -5.00 600839 四川长虹 5 4.58 12.52 -4.66 003035 南网能源 5 4.53 4.92 -15.86 300427 红相股份 8 4.49 6.67 -15.27 300903 科翔股份 5 4.48 5.92 -9.71 601006",
+      "publish_date": "2026-03-18",
+      "available_at": "2026-03-18T17:07:22",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "解密主力资金出逃股 连续5日净流出806股",
+      "summary": "4.72 11.61 -15.77 300903 科翔股份 6 4.69 5.64 -12.67 002546 新联电子 9 4.64 7.22 -14.57 603667 五洲新春 5 4.63 8.48 -12.11 600143 金发科技 5 4.59 11.89 -10.61 601006",
+      "publish_date": "2026-03-19",
+      "available_at": "2026-03-19T18:05:45",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 0,
+  "hot_reason": "",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

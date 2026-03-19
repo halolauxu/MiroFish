@@ -1,0 +1,82 @@
+{
+  "ticker": "002958",
+  "company_name": "青农商行",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "filing",
+      "title": "第五届董事会第十八次临时会议决议公告",
+      "summary": "",
+      "publish_date": "2026-02-28",
+      "available_at": "2026-02-28T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "第五届董事会第八次会议决议公告",
+      "summary": "",
+      "publish_date": "2026-03-13",
+      "available_at": "2026-03-13T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "2026年第二次临时股东会会议材料",
+      "summary": "",
+      "publish_date": "2026-03-13",
+      "available_at": "2026-03-13T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "今日盘中突破半年线个股",
+      "summary": "1.85 1.04 20.66 20.94 1.35 002578 闽发铝业 1.43 2.34 4.20 4.25 1.19 000913 钱江摩托 1.06 0.56 16.03 16.19 0.99 300489 光智科技 3.04 1.63 44.39 44.80 0.93 002958",
+      "publish_date": "2026-03-17",
+      "available_at": "2026-03-17T10:53:15",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "银行行业资金流入榜：农业银行、工商银行等净流入资金居前",
+      "summary": "1.83 -1268.31 001227 兰州银行 0.43 1.89 -1499.96 601077 渝农商行 0.57 0.55 -1632.66 600908 无锡银行 0.67 0.88 -1975.79 002142 宁波银行 -0.58 0.28 -2450.09 002958",
+      "publish_date": "2026-03-17",
+      "available_at": "2026-03-17T17:23:22",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "融资客看好6股 买入占成交比例超三成",
+      "summary": "1008.01 4452.06 22.64 1.49 300864 南大环境 687.27 3052.26 22.52 2.64 603867 新化股份 3675.51 16327.72 22.51 1.43 000607 华媒控股 946.47 4247.41 22.28 1.18 002958",
+      "publish_date": "2026-03-19",
+      "available_at": "2026-03-19T11:02:47",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 0,
+  "hot_reason": "",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

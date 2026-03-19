@@ -1,0 +1,70 @@
+{
+  "ticker": "600016",
+  "company_name": "民生银行",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "news",
+      "title": "杠杆资金持续回流 两融余额四连升",
+      "summary": "融资净买入居前个股 代码 简称 最新融资余额（亿元） 其间增加（亿元） 增幅（%） 其间涨跌幅（%） 300274 阳光电源 133.27 10.70 8.73 15.55 000988 华工科技 89.31 9.78 12.30 11.43 600016 民生银行 73.45 9.42",
+      "publish_date": "2026-03-13",
+      "available_at": "2026-03-13T09:48:17",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "“香饽饽”不再 票据“失宠”：中小行扎堆压降 四大行逆势加仓",
+      "summary": "再如民生银行（600016.SH）票据贴现余额由2023年末的2776亿元降至2025年6月末的1191亿元，期间压降了近六成。此外，长沙银行（601577.SH）等三家银行票据贴现余额降幅超过了50%，其他多家上市银行票据余额也出现不同程度的下降。",
+      "publish_date": "2026-03-17",
+      "available_at": "2026-03-17T19:14:58",
+      "sentiment_score": -0.7,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "H股公告-董事会会议召开日期的公告",
+      "summary": "",
+      "publish_date": "2026-03-19",
+      "available_at": "2026-03-19T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "hot_topic",
+      "title": "民生银行",
+      "summary": "雪球关注#47",
+      "publish_date": "2026-03-19",
+      "available_at": "2026-03-19T00:00:00",
+      "sentiment_score": 0.08,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.25,
+      "hot_rank": 141
+    },
+    {
+      "source_type": "news",
+      "title": "不清仓将被强制处理？金价波动加剧，银行收紧个人“炒金”业务，多家保证金提至100%",
+      "summary": "3月17日，邮储银行（601658.SH）、民生银行（600016.SH）同步发布公告，进一步收紧个人贵金属业务。",
+      "publish_date": "2026-03-19",
+      "available_at": "2026-03-19T17:35:57",
+      "sentiment_score": 0.0,
+      "category": "产品进展",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 141,
+  "hot_reason": "雪球关注#47",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

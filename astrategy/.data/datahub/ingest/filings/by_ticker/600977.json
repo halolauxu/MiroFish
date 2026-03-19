@@ -1,0 +1,36 @@
+[
+  {
+    "ticker": "600977",
+    "company_name": "中国电影",
+    "title": "中国电影股票交易异常波动公告",
+    "announcement_type": "",
+    "publish_date": "2026-02-27",
+    "publish_time": "2026-02-27",
+    "link": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=600977&announcementId=1224985428&orgId=9900024673&announcementTime=2026-02-27",
+    "source": "cninfo.disclosure_report",
+    "raw": {
+      "代码": "600977",
+      "简称": "中国电影",
+      "公告标题": "中国电影股票交易异常波动公告",
+      "公告时间": "2026-02-27",
+      "公告链接": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=600977&announcementId=1224985428&orgId=9900024673&announcementTime=2026-02-27"
+    }
+  },
+  {
+    "ticker": "600977",
+    "company_name": "中国电影",
+    "title": "中国电影关于使用暂时闲置自有资金进行现金管理的公告",
+    "announcement_type": "",
+    "publish_date": "2026-03-04",
+    "publish_time": "2026-03-04",
+    "link": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=600977&announcementId=1224994618&orgId=9900024673&announcementTime=2026-03-04",
+    "source": "cninfo.disclosure_report",
+    "raw": {
+      "代码": "600977",
+      "简称": "中国电影",
+      "公告标题": "中国电影关于使用暂时闲置自有资金进行现金管理的公告",
+      "公告时间": "2026-03-04",
+      "公告链接": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=600977&announcementId=1224994618&orgId=9900024673&announcementTime=2026-03-04"
+    }
+  }
+]

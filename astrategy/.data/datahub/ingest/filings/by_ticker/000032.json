@@ -1,0 +1,19 @@
+[
+  {
+    "ticker": "000032",
+    "company_name": "深桑达Ａ",
+    "title": "关于累计诉讼的公告",
+    "announcement_type": "风险事项",
+    "publish_date": "2026-03-12",
+    "publish_time": "2026-03-12",
+    "link": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=000032&announcementId=1225005024&orgId=gssz0000032&announcementTime=2026-03-12",
+    "source": "cninfo.disclosure_report",
+    "raw": {
+      "代码": "000032",
+      "简称": "深桑达Ａ",
+      "公告标题": "关于累计诉讼的公告",
+      "公告时间": "2026-03-12",
+      "公告链接": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=000032&announcementId=1225005024&orgId=gssz0000032&announcementTime=2026-03-12"
+    }
+  }
+]

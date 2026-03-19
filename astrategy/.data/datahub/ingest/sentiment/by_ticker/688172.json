@@ -1,0 +1,106 @@
+{
+  "ticker": "688172",
+  "company_name": "燕东微",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "filing",
+      "title": "2025年度业绩快报公告",
+      "summary": "业绩预告",
+      "publish_date": "2026-02-28",
+      "available_at": "2026-02-28T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "业绩公告",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "关于聘任公司执行副总裁的公告",
+      "summary": "",
+      "publish_date": "2026-03-07",
+      "available_at": "2026-03-07T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "燕东微：国家集成电路基金累计减持1.33%公司股份",
+      "summary": "3月11日，燕东微（688172）发布公告，股东国家集成电路基金通过集中竞价方式累计减持公司股份1891万股，占公司总股本的1.33%。 2025年前三季度，燕东微实现收入11.67亿元，归母净利润-1340万元。",
+      "publish_date": "2026-03-11",
+      "available_at": "2026-03-11T19:30:51",
+      "sentiment_score": -0.78,
+      "category": "业绩公告",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "股东减持股份结果公告",
+      "summary": "股权变动",
+      "publish_date": "2026-03-12",
+      "available_at": "2026-03-12T00:00:00",
+      "sentiment_score": -0.78,
+      "category": "股权变动",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "关于股份性质变更暨2025年限制性股票激励计划首次授予的进展公告",
+      "summary": "股权激励",
+      "publish_date": "2026-03-12",
+      "available_at": "2026-03-12T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "股权变动",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "17.94亿主力资金净流入，国家大基金持股概念涨2.28%",
+      "summary": "时代电气 -0.50 0.45 -786.50 -3.59 002151 北斗星通 5.01 16.36 -1401.41 -0.41 600206 有研新材 0.50 3.60 -1569.85 -2.36 300655 晶瑞电材 0.99 3.12 -1584.59 -2.98 688172",
+      "publish_date": "2026-03-16",
+      "available_at": "2026-03-16T17:12:45",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "2025年限制性股票激励计划第一类限制性股票授予结果公告",
+      "summary": "股权激励",
+      "publish_date": "2026-03-17",
+      "available_at": "2026-03-17T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "股权变动",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "燕东微：亦庄国投减持1187万股 持股比例降至10.00%",
+      "summary": "3月19日，燕东微（688172）发布公告，股东北京亦庄国际投资发展有限公司于2026年3月4日至2026年3月18日期间，通过集中竞价方式减持公司无限售流通股1187万股，占公司总股本的0.83%。此次减持后，其持有公司股份比例由10.83%减少至10.00%。",
+      "publish_date": "2026-03-19",
+      "available_at": "2026-03-19T19:45:21",
+      "sentiment_score": -0.78,
+      "category": "股权变动",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 0,
+  "hot_reason": "",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

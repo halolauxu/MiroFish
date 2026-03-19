@@ -1,0 +1,58 @@
+{
+  "ticker": "601108",
+  "company_name": "财通证券",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "filing",
+      "title": "关于向专业投资者公开发行次级债券获得中国证监会注册批复的公告",
+      "summary": "",
+      "publish_date": "2026-03-13",
+      "available_at": "2026-03-13T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "因执业过程不规范，财通证券员工杨玉被约谈",
+      "summary": "根据浙江证监局在2026年3月13日发布的公告，杨玉因在财通证券（601108）从业期间未严格遵守执业规范，违反了相关规定，受到监管谈话措施。",
+      "publish_date": "2026-03-13",
+      "available_at": "2026-03-13T17:48:58",
+      "sentiment_score": 0.0,
+      "category": "产品进展",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "财通证券从业人员彭瑜违反执业规范被约谈",
+      "summary": "3月13日，根据浙江证监局在2026年3月13日发布的公告，彭瑜因在财通证券（601108）从业期间未严格遵守执业规范，违反了相关规定，受到监管谈话措施。",
+      "publish_date": "2026-03-13",
+      "available_at": "2026-03-13T17:59:16",
+      "sentiment_score": 0.0,
+      "category": "产品进展",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "财通证券又领罚单，两名员工未遵守执业规范被约谈，公司去年曾多次被罚",
+      "summary": "深圳商报·读创客户端记者李薇 根据浙江证监局在2026年3月13日发布的公告，原财通证券（601108）员工彭瑜、杨玉因在财通证券从业期间未严格遵守执业规范，双双被采取监管谈话措施，并记入证券期货市场诚信档案。",
+      "publish_date": "2026-03-15",
+      "available_at": "2026-03-15T08:43:29",
+      "sentiment_score": 0.0,
+      "category": "产品进展",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 0,
+  "hot_reason": "",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

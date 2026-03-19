@@ -1,0 +1,46 @@
+{
+  "ticker": "003031",
+  "company_name": "中瓷电子",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "news",
+      "title": "中瓷电子003031龙虎榜数据03-17)",
+      "summary": "交易所2026年3月17日公布的交易公开信息显示，中瓷电子因成为日跌幅偏离值达到7%的前5只证券上榜。中瓷电子当日收报77.48元，涨跌幅-9.94%，偏离值-8.07%，换手率4.44%，成交额12.15亿。 免责声明：本文基于AI生产，仅供参考，不构成任何投资建议，据此操作风险自担",
+      "publish_date": "2026-03-17",
+      "available_at": "2026-03-17T16:28:06",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "3月17日龙虎榜机构席位买卖详情",
+      "summary": "其中，机构净买入前三分别为星环科技(688031.SH)、祥明智能(301226.SZ)与顺钠股份(000533.SZ)，详情见下图：机构净卖出的个股中，前三分别为昭衍新药(603127.SH)、中瓷电子003031.SZ)与中复神鹰(688295.SH)。",
+      "publish_date": "2026-03-17",
+      "available_at": "2026-03-17T17:25:04",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "3月17日龙虎榜净卖出额前10个股",
+      "summary": "南财智讯3月17日电，盘后数据显示，因当日异动登上龙虎榜的个股中，龙虎榜中资金净流出最多的前三位分别是星环科技(688031.SH)、昭衍新药(603127.SH)与中瓷电子003031.SZ)。其中排名第一的星环科技被净卖出2.69亿元，占总成交金额的9.42%。",
+      "publish_date": "2026-03-17",
+      "available_at": "2026-03-17T17:25:15",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 0,
+  "hot_reason": "",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

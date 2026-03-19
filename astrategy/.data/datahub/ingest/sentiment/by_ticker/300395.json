@@ -1,0 +1,94 @@
+{
+  "ticker": "300395",
+  "company_name": "菲利华",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "filing",
+      "title": "关于公司股票交易异常波动的公告",
+      "summary": "",
+      "publish_date": "2026-02-26",
+      "available_at": "2026-02-26T17:22:08",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "关于公司实际控制人权益变动触及1%整数倍的公告",
+      "summary": "",
+      "publish_date": "2026-03-02",
+      "available_at": "2026-03-02T18:26:09",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "关于董事、高级管理人员股份减持计划期限届满暨实施情况的公告",
+      "summary": "股权变动",
+      "publish_date": "2026-03-02",
+      "available_at": "2026-03-02T18:26:12",
+      "sentiment_score": -0.78,
+      "category": "股权变动",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "关于实际控制人部分股份解除质押的公告",
+      "summary": "",
+      "publish_date": "2026-03-03",
+      "available_at": "2026-03-03T15:42:11",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "29股获杠杆资金净买入超亿元",
+      "summary": "13日涨跌幅（%） 融资净买入额（万元） 最新融资余额（万元） 占流通市值比例（%） 所属行业 601669 中国电建 9.94 48667.83 448154.56 4.77 建筑装饰 600989 宝丰能源 2.88 40547.45 304096.26 1.20 基础化工 300395",
+      "publish_date": "2026-03-16",
+      "available_at": "2026-03-16T09:35:56",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "创业板公司融资余额减少41.95亿元 19股遭减仓超10%",
+      "summary": "-1.28 医药生物 300811 铂科新材 106906.04 11.50 84.66 -3.53 有色金属 301629 矽电股份 23487.21 11.47 281.78 6.53 电子 301030 仕净科技 11114.52 11.01 12.88 2.71 环保 300395",
+      "publish_date": "2026-03-16",
+      "available_at": "2026-03-16T09:36:03",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "杠杆资金大手笔加仓股名单",
+      "summary": "电子 603659 璞泰来 -0.46 11304.42 94135.90 1.37 电力设备 688411 海博思创 0.74 11291.19 133607.07 3.85 电力设备 002445 中南文化 -10.02 11233.19 43161.09 4.51 机械设备 300395",
+      "publish_date": "2026-03-17",
+      "available_at": "2026-03-17T09:52:10",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 0,
+  "hot_reason": "",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

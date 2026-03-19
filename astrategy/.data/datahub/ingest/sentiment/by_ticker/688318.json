@@ -1,0 +1,58 @@
+{
+  "ticker": "688318",
+  "company_name": "财富趋势",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "filing",
+      "title": "2025年度业绩快报公告",
+      "summary": "业绩预告",
+      "publish_date": "2026-02-27",
+      "available_at": "2026-02-27T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "业绩公告",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "3只科创板个股主力资金净流入超亿元",
+      "summary": "688331 荣昌生物 4468.24 4.76 2.66 4.95 688506 百利天恒 4463.12 7.69 2.59 0.53 688131 皓元医药 4150.98 10.68 1.85 2.68 688593 新相微 3945.28 10.63 -1.38 3.36 688318",
+      "publish_date": "2026-03-17",
+      "available_at": "2026-03-17T17:22:54",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "融资客大幅净买入的科创板股（附股）",
+      "summary": "1083.67 4.42 -4.72 688176 亚虹医药 32466.84 1083.60 3.45 -1.63 688795 摩尔线程 126354.59 1073.27 0.86 0.81 688301 奕瑞科技 57048.12 1043.61 1.86 -1.18 688318",
+      "publish_date": "2026-03-18",
+      "available_at": "2026-03-18T09:52:44",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "94只科创板股票跻身百元股阵营",
+      "summary": "医药生物 688585 上纬新材 123.04 1.60 0.57 基础化工 688258 卓易信息 118.00 2.08 2.39 计算机 688271 联影医疗 117.90 -1.02 0.46 医药生物 688301 奕瑞科技 117.88 2.76 0.82 医药生物 688318",
+      "publish_date": "2026-03-18",
+      "available_at": "2026-03-18T17:56:17",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 0,
+  "hot_reason": "",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

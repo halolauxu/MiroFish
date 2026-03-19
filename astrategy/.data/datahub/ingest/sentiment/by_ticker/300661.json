@@ -1,0 +1,46 @@
+{
+  "ticker": "300661",
+  "company_name": "圣邦股份",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "news",
+      "title": "【盘中播报】45只个股突破年线",
+      "summary": "10.01 3.27 7.16 7.69 7.40 301220 亚香股份 10.28 11.51 44.89 47.95 6.81 603887 城地香江 5.33 4.99 16.88 17.59 4.24 603919 金徽酒 4.63 2.72 19.58 20.32 3.80 300661",
+      "publish_date": "2026-03-16",
+      "available_at": "2026-03-16T10:46:01",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "【盘中播报】60只个股跨越牛熊分界线",
+      "summary": "月16日突破年线个股乖离率排名 证券代码 证券简称 今日涨跌幅（%） 今日换手率（%） 年线（元） 最新价（元） 乖离率（%） 002427 尤夫股份 10.01 3.55 7.16 7.69 7.40 002537 海联金汇 7.71 17.34 8.59 9.22 7.29 300661",
+      "publish_date": "2026-03-16",
+      "available_at": "2026-03-16T14:22:24",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "今日91只个股突破年线",
+      "summary": "%） 年线（元） 最新价（元） 乖离率（%） 301220 亚香股份 11.27 18.05 44.90 48.38 7.76 002427 尤夫股份 10.01 3.82 7.16 7.69 7.40 002537 海联金汇 7.36 19.32 8.59 9.19 6.95 300661",
+      "publish_date": "2026-03-16",
+      "available_at": "2026-03-16T15:22:44",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 0,
+  "hot_reason": "",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

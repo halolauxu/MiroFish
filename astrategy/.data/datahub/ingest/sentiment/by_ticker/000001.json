@@ -1,0 +1,130 @@
+{
+  "ticker": "000001",
+  "company_name": "平安银行",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "filing",
+      "title": "关于赎回优先股的第三次提示性公告",
+      "summary": "",
+      "publish_date": "2026-02-26",
+      "available_at": "2026-02-26T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "关于首席合规官任职资格核准的公告",
+      "summary": "",
+      "publish_date": "2026-03-06",
+      "available_at": "2026-03-06T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "关于赎回优先股的公告",
+      "summary": "",
+      "publish_date": "2026-03-06",
+      "available_at": "2026-03-06T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "关于优先股停止交易的公告",
+      "summary": "",
+      "publish_date": "2026-03-09",
+      "available_at": "2026-03-09T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "2026-011 平安银行股份有限公司关于优先股赎回结果暨摘牌的公告 2026-03-10",
+      "summary": "",
+      "publish_date": "2026-03-10",
+      "available_at": "2026-03-10T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "超半数深市公司披露年度业绩，AI算力、半导体、机器人领跑",
+      "summary": "近年来，宁德时代增速可观，2020年，该公司在深市的净利润排名中仅位居34，2021年追进前10，2022年至2023年升至第二名，2024年，宁德时代净利润规模首次超越平安银行（000001.SZ），晋升为深市“一哥”，目前，平安银行尚未披露业绩情况，但以宁德时代的净利润水平，大概率将蝉联首位",
+      "publish_date": "2026-03-10",
+      "available_at": "2026-03-10T15:22:39",
+      "sentiment_score": 0.0,
+      "category": "业绩公告",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "工行发布超1200条招聘信息！2026银行春招开启抢人模式，AI和大数据岗位升温",
+      "summary": "股份制银行的春招启动节奏整体快于国有大行，华夏银行、浦发银行（600000.SH）、平安银行（000001.SZ）、中信银行（601998.SH）等均于3月上旬完成春招公告发布。岗位布局贴合行业发展趋势与自身业务布局，金融科技、绿色金融成为核心需求方向。",
+      "publish_date": "2026-03-16",
+      "available_at": "2026-03-16T18:30:23",
+      "sentiment_score": 0.0,
+      "category": "产品进展",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "关于独立董事任职资格核准的公告",
+      "summary": "",
+      "publish_date": "2026-03-18",
+      "available_at": "2026-03-18T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "hot_topic",
+      "title": "平安银行",
+      "summary": "雪球关注#23; 雪球讨论#127; 雪球交易#37",
+      "publish_date": "2026-03-19",
+      "available_at": "2026-03-19T00:00:00",
+      "sentiment_score": 0.216,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.25,
+      "hot_rank": 32
+    },
+    {
+      "source_type": "news",
+      "title": "不清仓将被强制处理？金价波动加剧，银行收紧个人“炒金”业务，多家保证金提至100%",
+      "summary": "在最严格的业务关停层面，邮储银行、平安银行（000001.SZ）、民生银行等多家全国性银行，近期宣布退出代理上金所个人贵金属业务 邮储银行于2026年2月率先发布公告，拟停止代理上金所个人贵金属业务，要求客户限期完成持仓平仓或库存卖出操作，3月17日该行再次发布公告，将操作期限延至",
+      "publish_date": "2026-03-19",
+      "available_at": "2026-03-19T17:35:57",
+      "sentiment_score": 0.0,
+      "category": "产品进展",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 32,
+  "hot_reason": "雪球关注#23; 雪球讨论#127; 雪球交易#37",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

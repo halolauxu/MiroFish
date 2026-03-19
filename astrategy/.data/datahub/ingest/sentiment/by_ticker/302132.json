@@ -1,0 +1,94 @@
+{
+  "ticker": "302132",
+  "company_name": "中航成飞",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "filing",
+      "title": "第八届董事会第九次会议决议公告",
+      "summary": "",
+      "publish_date": "2026-03-03",
+      "available_at": "2026-03-03T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "关于更换公司董事的公告",
+      "summary": "",
+      "publish_date": "2026-03-03",
+      "available_at": "2026-03-03T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "今日38只个股突破年线",
+      "summary": "10.05 7.00 6.65 6.68 0.51 300847 中船汉光 0.85 2.16 17.82 17.90 0.46 600674 川投能源 1.47 1.35 15.15 15.22 0.45 002613 北玻股份 0.51 2.16 3.96 3.98 0.40 302132",
+      "publish_date": "2026-03-04",
+      "available_at": "2026-03-04T15:59:04",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "中航成飞旗下西安仪器公司增资至10亿",
+      "summary": "中航电测仪器（西安）有限公司成立于2011年7月，法定代表人为周豫，经营范围包括衡器制造、电子元器件制造、仪器仪表制造、工业机器人制造等。股东信息显示，该公司由中航成飞（302132）全资持股。",
+      "publish_date": "2026-03-11",
+      "available_at": "2026-03-11T16:44:13",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "融资客看好9股 买入占成交比例超三成",
+      "summary": "1316.18 4492.79 29.30 -2.25 688247 宣泰医药 460.95 1583.48 29.11 0.51 300915 海融科技 1421.44 5054.45 28.12 0.53 002250 联化科技 7044.91 26003.55 27.09 -2.76 302132",
+      "publish_date": "2026-03-13",
+      "available_at": "2026-03-13T10:21:37",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "2026年第二次临时股东会决议公告",
+      "summary": "",
+      "publish_date": "2026-03-18",
+      "available_at": "2026-03-18T18:34:10",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "hot_topic",
+      "title": "中航成飞",
+      "summary": "雪球讨论#72",
+      "publish_date": "2026-03-19",
+      "available_at": "2026-03-19T00:00:00",
+      "sentiment_score": 0.08,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.25,
+      "hot_rank": 181
+    }
+  ],
+  "hot_rank": 181,
+  "hot_reason": "雪球讨论#72",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

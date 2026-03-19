@@ -1,0 +1,94 @@
+{
+  "ticker": "300627",
+  "company_name": "华测导航",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "filing",
+      "title": "2025年年度业绩快报",
+      "summary": "业绩预告",
+      "publish_date": "2026-02-27",
+      "available_at": "2026-02-27T18:18:28",
+      "sentiment_score": 0.0,
+      "category": "业绩公告",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "关于高级管理人员减持公司股份的预披露公告",
+      "summary": "股权变动",
+      "publish_date": "2026-03-02",
+      "available_at": "2026-03-02T19:26:11",
+      "sentiment_score": -0.78,
+      "category": "股权变动",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "关于全资主体与专业投资机构共同投资设立产业基金的公告",
+      "summary": "",
+      "publish_date": "2026-03-09",
+      "available_at": "2026-03-09T18:22:09",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "华测导航：拟与专业投资机构共同设立产业基金",
+      "summary": "人民财讯3月9日电，华测导航3006273月9日公告，公司全资主体宁波熙禾投资管理合伙企业(有限合伙)（简称“宁波熙禾”）于近日与苏州方广三期创业投资管理合伙企业(有限合伙)、杭州高新创业投资有限公司、湖北省高速公路发展基金合伙企业(有限合伙)、洪天峰、朱琳签署了《杭州方广熙禾创业投资合伙企业",
+      "publish_date": "2026-03-09",
+      "available_at": "2026-03-09T18:43:58",
+      "sentiment_score": 0.0,
+      "category": "重大合同",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "华测导航：拟与专业投资机构共同设立产业基金",
+      "summary": "南方财经3月9日电，华测导航3006273月9日公告，公司全资主体宁波熙禾投资管理合伙企业(有限合伙)（简称“宁波熙禾”）于近日与苏州方广三期创业投资管理合伙企业(有限合伙)、杭州高新创业投资有限公司、湖北省高速公路发展基金合伙企业(有限合伙)、洪天峰、朱琳签署了《杭州方广熙禾创业投资合伙企业",
+      "publish_date": "2026-03-09",
+      "available_at": "2026-03-09T18:53:12",
+      "sentiment_score": 0.0,
+      "category": "重大合同",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "关于控股股东、实际控制人部分股份解除质押及质押的公告",
+      "summary": "",
+      "publish_date": "2026-03-19",
+      "available_at": "2026-03-19T16:26:29",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "华测导航：控股股东赵延平解押17.6%持股 并质押10.32%持股",
+      "summary": "3月19日，华测导航（300627）发布公告，控股股东赵延平解除质押2730万股，占其所持股份的17.60%及公司总股本的3.47%；同时质押1600万股，占其所持股份的10.32%及公司总股本的2.03%。",
+      "publish_date": "2026-03-19",
+      "available_at": "2026-03-19T16:43:16",
+      "sentiment_score": 0.0,
+      "category": "产品进展",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 0,
+  "hot_reason": "",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

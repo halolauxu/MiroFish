@@ -1,0 +1,70 @@
+{
+  "ticker": "601318",
+  "company_name": "中国平安",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "filing",
+      "title": "中国平安H股公告",
+      "summary": "",
+      "publish_date": "2026-03-03",
+      "available_at": "2026-03-03T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "中国平安发布行业首个商业航天综合金融解决方案",
+      "summary": "近日，《中国经营报》记者从中国平安（601318.SH）方面获悉，其推出了行业首个“保险保障+资金供血+资本助推”的综合金融解决方案，为商业航天发展提供全方位支持。",
+      "publish_date": "2026-03-16",
+      "available_at": "2026-03-16T20:31:42",
+      "sentiment_score": 0.0,
+      "category": "产品进展",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "hot_topic",
+      "title": "中国平安",
+      "summary": "雪球关注#2; 雪球讨论#26; 雪球交易#7",
+      "publish_date": "2026-03-19",
+      "available_at": "2026-03-19T00:00:00",
+      "sentiment_score": 0.268,
+      "category": "其他",
+      "urgency": "high",
+      "weight": 1.25,
+      "hot_rank": 6
+    },
+    {
+      "source_type": "news",
+      "title": "金融为民、科技向善，平安集团织密金融消保防护网",
+      "summary": "中国消费者协会最新数据显示，2025年，全国消协组织受理的金融服务类投诉从上年的6778件激增至14791件，增幅高达118%。",
+      "publish_date": "2026-03-19",
+      "available_at": "2026-03-19T15:35:53",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "“女将”张剑颖出任平安资管总经理",
+      "summary": "平安资管作为中国平安（601318.SH）投资板块的重要成员，受托管理集团保险资金的投资资产，并为境内外机构客户提供多元化一站式投资管理解决方案。",
+      "publish_date": "2026-03-19",
+      "available_at": "2026-03-19T16:12:38",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 6,
+  "hot_reason": "雪球关注#2; 雪球讨论#26; 雪球交易#7",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

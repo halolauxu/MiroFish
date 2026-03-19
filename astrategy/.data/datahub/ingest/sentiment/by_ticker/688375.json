@@ -1,0 +1,58 @@
+{
+  "ticker": "688375",
+  "company_name": "国博电子",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "filing",
+      "title": "南京国博电子股份有限公司股东减持股份结果公告",
+      "summary": "股权变动",
+      "publish_date": "2026-02-26",
+      "available_at": "2026-02-26T00:00:00",
+      "sentiment_score": -0.78,
+      "category": "股权变动",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "科创板高价股排行榜",
+      "summary": "机械设备 688016 心脉医疗 107.62 -2.48 1.53 医药生物 688392 骄成超声 107.07 -4.41 1.33 电力设备 688652 京仪装备 106.34 -4.63 2.76 电子 688981 中芯国际 106.02 -2.38 1.48 电子 688375",
+      "publish_date": "2026-03-17",
+      "available_at": "2026-03-17T17:49:51",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "94只科创板股票跻身百元股阵营",
+      "summary": "计算机 688228 开普云 116.27 2.93 2.60 计算机 688059 华锐精密 115.90 5.26 2.77 机械设备 688032 禾迈股份 115.10 -0.09 1.55 电力设备 688160 步科股份 112.99 1.67 0.97 机械设备 688375",
+      "publish_date": "2026-03-18",
+      "available_at": "2026-03-18T17:56:17",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "16只科创板个股主力资金净流入超亿元",
+      "summary": "688041 海光信息 7516.98 2.20 1.90 0.64 688072 拓荆科技 7280.53 6.25 3.33 1.20 688331 荣昌生物 6874.60 5.92 7.20 5.91 688380 中微半导 6698.37 5.81 7.96 5.71 688375",
+      "publish_date": "2026-03-18",
+      "available_at": "2026-03-18T17:57:31",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 0,
+  "hot_reason": "",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

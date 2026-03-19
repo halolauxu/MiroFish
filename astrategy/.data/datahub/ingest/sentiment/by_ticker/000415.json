@@ -1,0 +1,130 @@
+{
+  "ticker": "000415",
+  "company_name": "渤海租赁",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "filing",
+      "title": "关于控股子公司Avolon Holdings Limited融资及对外担保的进展公告",
+      "summary": "增发融资",
+      "publish_date": "2026-02-25",
+      "available_at": "2026-02-25T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "关于控股子公司Avolon Holdings Limited之下属子公司出售飞机租赁资产的公告",
+      "summary": "",
+      "publish_date": "2026-02-25",
+      "available_at": "2026-02-25T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "关于控股子公司Avolon Holdings Limited购买飞机资产的公告",
+      "summary": "",
+      "publish_date": "2026-02-28",
+      "available_at": "2026-02-28T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "关于控股子公司Avolon Holdings Limited对外担保的进展公告",
+      "summary": "",
+      "publish_date": "2026-03-03",
+      "available_at": "2026-03-03T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "长城证券股份有限公司关于渤海租赁股份有限公司面向合格投资者公开发行公司债券临时受托管理事务报告",
+      "summary": "债券融资",
+      "publish_date": "2026-03-03",
+      "available_at": "2026-03-03T17:06:11",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "关于控股子公司Avolon Holdings Limited对外担保的进展公告",
+      "summary": "",
+      "publish_date": "2026-03-07",
+      "available_at": "2026-03-07T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "长城证券股份有限公司关于渤海租赁股份有限公司面向合格投资者公开发行公司债券临时受托管理事务报告",
+      "summary": "债券融资",
+      "publish_date": "2026-03-10",
+      "available_at": "2026-03-10T17:56:13",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "融资客看好4股 买入占成交比例超三成",
+      "summary": "5157.12 21560.03 23.92 2.82 688133 泰坦科技 1041.65 4355.77 23.91 0.17 600448 华纺股份 2443.05 10452.60 23.37 0.00 688010 福光股份 1473.77 6312.58 23.35 2.44 000415",
+      "publish_date": "2026-03-17",
+      "available_at": "2026-03-17T10:18:10",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "36.33亿元主力资金今日抢筹非银金融板块",
+      "summary": "东北证券 0.12 1.16 44.98 000532 华金资本 -1.43 1.75 19.14 600599 *ST熊猫 5.06 1.04 -72.93 002500 山西证券 0.34 0.84 -110.68 600901 江苏金租 0.61 0.49 -251.05 000415",
+      "publish_date": "2026-03-17",
+      "available_at": "2026-03-17T17:23:34",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "33股今日获机构买入评级",
+      "summary": "000338 潍柴动力 交银国际 买入 未评级 21.50 24.70 600054 黄山旅游 广发证券 买入 买入 16.88 13.80 603558 健盛集团 中金公司 跑赢行业 跑赢行业 15.79 14.11 001979 招商蛇口 华泰证券 买入 买入 12.08 9.74 000415",
+      "publish_date": "2026-03-17",
+      "available_at": "2026-03-17T17:49:38",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 0,
+  "hot_reason": "",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

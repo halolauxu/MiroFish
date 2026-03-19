@@ -1,0 +1,58 @@
+{
+  "ticker": "002837",
+  "company_name": "英维克",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "news",
+      "title": "002131，002837，封板涨停！主力超70亿元疯抢！",
+      "summary": "个股方面，利欧股份(002131)获得逾37亿元主力资金净流入，英维克002837获得逾34亿元净流入。两股今天均封板涨停，合计获得超70亿元净流入。 其中，利欧股份午后直线拉升涨停，最新报9.08元/股，总市值为615亿元。",
+      "publish_date": "2026-02-12",
+      "available_at": "2026-02-12T18:12:04",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "英维克：公司已开始在东南亚、北美等地布局海外供应链",
+      "summary": "英维克（002837.SZ）3月12日在投资者互动平台表示，为了更有效拓展海外市场，公司已开始在东南亚、北美等地布局海外供应链，具体细节公司暂不计划披露。",
+      "publish_date": "2026-03-12",
+      "available_at": "2026-03-12T16:41:31",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "hot_topic",
+      "title": "英维克",
+      "summary": "雪球讨论#81; 雪球交易#70",
+      "publish_date": "2026-03-19",
+      "available_at": "2026-03-19T00:00:00",
+      "sentiment_score": 0.108,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.25,
+      "hot_rank": 86
+    },
+    {
+      "source_type": "news",
+      "title": "28股获融资客大手笔净买入",
+      "summary": "电力设备 601179 中国西电 2.47 15012.61 169824.90 1.86 电力设备 600016 民生银行 -0.26 14913.54 770245.20 5.56 银行 688041 海光信息 1.90 14216.41 638297.87 1.19 电子 002837",
+      "publish_date": "2026-03-19",
+      "available_at": "2026-03-19T09:44:49",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 86,
+  "hot_reason": "雪球讨论#81; 雪球交易#70",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

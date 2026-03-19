@@ -1,0 +1,82 @@
+{
+  "ticker": "300015",
+  "company_name": "爱尔眼科",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "news",
+      "title": "计划赴港上市？爱尔眼科回应：具体以公告为准",
+      "summary": "南方财经3月9日电，据财联社当天报道，爱尔眼科（300015.SZ）据悉计划赴港上市。对此，21快讯记者以投资者身份致电爱尔眼科，公司接线工作人员表示，相关事项以公告为准，“我这边现在没办法给你任何回复”。",
+      "publish_date": "2026-03-09",
+      "available_at": "2026-03-09T18:17:39",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "关于公司控股股东部分股份解除质押的公告",
+      "summary": "",
+      "publish_date": "2026-03-16",
+      "available_at": "2026-03-16T15:47:49",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "爱尔眼科：控股股东解除1.09亿股质押 占总股本的1.17%",
+      "summary": "3月16日，爱尔眼科（300015）发布公告，控股股东爱尔医疗投资将其持有的1.09亿股股份于2026年3月13日解除质押，占其所持股份的3.42%及公司总股本的1.17%；截至公告披露日，爱尔医疗投资累计质押股份为6.11亿股，占其持股总数的19.09%及公司总股本的6.55%。",
+      "publish_date": "2026-03-16",
+      "available_at": "2026-03-16T16:14:08",
+      "sentiment_score": 0.0,
+      "category": "产品进展",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "关于2021年限制性股票激励计划暂缓授予部分第四个解除限售期解除限售股份上市流通的提示性公告",
+      "summary": "股权激励",
+      "publish_date": "2026-03-18",
+      "available_at": "2026-03-18T17:56:10",
+      "sentiment_score": 0.0,
+      "category": "股权变动",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "hot_topic",
+      "title": "爱尔眼科",
+      "summary": "雪球关注#26",
+      "publish_date": "2026-03-19",
+      "available_at": "2026-03-19T00:00:00",
+      "sentiment_score": 0.08,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.25,
+      "hot_rank": 113
+    },
+    {
+      "source_type": "news",
+      "title": "爱尔眼科：公司经营现金流稳定，资金周转正常",
+      "summary": "爱尔眼科（300015.SZ）3月19日在投资者互动平台表示，公司经营现金流稳定，资金周转正常。重大信息以公司公告为准。",
+      "publish_date": "2026-03-19",
+      "available_at": "2026-03-19T16:49:18",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 113,
+  "hot_reason": "雪球关注#26",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

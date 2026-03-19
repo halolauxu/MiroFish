@@ -1,0 +1,58 @@
+{
+  "ticker": "300124",
+  "company_name": "汇川技术",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "filing",
+      "title": "关于投资设立产业投资基金的进展公告（二）",
+      "summary": "",
+      "publish_date": "2026-03-11",
+      "available_at": "2026-03-11T18:00:10",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "汇川技术：公司未参与湛江钢铁该特厚板坯连铸机项目",
+      "summary": "汇川技术（300124.SZ）3月12日在投资者互动平台表示，公司未参与湛江钢铁该特厚板坯连铸机项目，目前相关零部件仍以外资为主。公司高压变频器等产品可满足此类大型连铸机需求，目前在宽厚板等冶金场景已有大量成熟应用案例，公司未来将持续推进产品在高端冶金装备的应用。",
+      "publish_date": "2026-03-12",
+      "available_at": "2026-03-12T20:56:22",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "今日38只个股跨越牛熊分界线",
+      "summary": "5.60 6.51 26.53 27.36 3.13 300999 金龙鱼 3.40 7.96 30.82 31.60 2.52 002743 富煌钢构 5.48 11.96 6.02 6.16 2.36 002215 诺普信 3.50 3.79 11.00 11.24 2.19 300124",
+      "publish_date": "2026-03-13",
+      "available_at": "2026-03-13T15:26:22",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "美的入主五年：合康新能营收高增、合计盈利为负",
+      "summary": "同期，汇川技术（300124）市占率升至18.4%-18.6%，稳居国产品牌首位。而合康新能的高压变频器业务收入2024年为5.47亿元，2025年上半年降至2.81亿元。 研发投入占比方面，除2023年外，合康新能近五年均低于汇川技术水平。",
+      "publish_date": "2026-03-18",
+      "available_at": "2026-03-18T09:56:10",
+      "sentiment_score": 0.0,
+      "category": "业绩公告",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 0,
+  "hot_reason": "",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

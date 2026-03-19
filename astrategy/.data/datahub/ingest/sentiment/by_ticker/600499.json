@@ -1,0 +1,70 @@
+{
+  "ticker": "600499",
+  "company_name": "科达制造",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "news",
+      "title": "拟重大资产重组！600499，复牌涨停",
+      "summary": "科达制造（600499）复牌后强势涨停。 科达制造拟通过发行股份及支付现金的方式购买特福国际51.55%股权，发行价格为10.80元，同时拟向不超过35名特定投资者发行股份募集配套资金。本次交易预计构成重大资产重组。",
+      "publish_date": "2026-01-29",
+      "available_at": "2026-01-29T10:43:27",
+      "sentiment_score": 0.0,
+      "category": "资产重组",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "科达制造股份有限公司关于发行股份及支付现金购买资产并募集配套资金暨关联交易事项的进展公告",
+      "summary": "",
+      "publish_date": "2026-02-28",
+      "available_at": "2026-02-28T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "短线防风险 88只个股短期均线现死叉",
+      "summary": "1.85 1.83 8.98 9.09 -1.20 8.79 -3.31 688281 华秦科技 -1.76 0.67 94.40 95.49 -1.14 89.16 -6.62 603078 江化微 1.35 2.63 24.43 24.70 -1.09 24.07 -2.55 600499",
+      "publish_date": "2026-03-05",
+      "available_at": "2026-03-05T14:24:41",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "133家公司获机构调研（附名单）",
+      "summary": "-8.96 基础化工 000811 冰轮环境 3 5 20.68 0.39 机械设备 001322 箭牌家居 1 4 8.81 -3.08 轻工制造 301498 乖宝宠物 1 4 58.20 -5.27 农林牧渔 002463 沪电股份 1 4 76.45 -10.44 电子 600499",
+      "publish_date": "2026-03-06",
+      "available_at": "2026-03-06T09:39:25",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "科达制造股份有限公司关于第一大股东股份质押的公告",
+      "summary": "",
+      "publish_date": "2026-03-13",
+      "available_at": "2026-03-13T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 0,
+  "hot_reason": "",
+  "hot_topic_source": "baidu_xueqiu_live"
+}

@@ -1,0 +1,58 @@
+{
+  "ticker": "000921",
+  "company_name": "海信家电",
+  "ingest_date": "2026-03-19",
+  "items": [
+    {
+      "source_type": "news",
+      "title": "家用电器行业今日净流入资金6556.01万元，三花智控等5股净流入资金超3000万元",
+      "summary": "5.31 4.97 -558.59 603219 富佳股份 -1.23 0.72 -627.67 600060 海信视像 -0.25 0.52 -643.25 603486 科沃斯 0.22 0.67 -674.65 301280 珠城科技 -1.74 3.22 -702.31 000921",
+      "publish_date": "2026-02-10",
+      "available_at": "2026-02-10T16:58:59",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "海信家电：公司旗下日立和约克品牌暂无出口业务",
+      "summary": "海信家电（000921.SZ）3月6日在投资者互动平台表示，投资者您好，公司旗下日立和约克品牌暂无出口业务，海信牌家用空调、冰箱、洗衣机、中央空调在海外欧美、亚太、中东非、东盟区、拉美等区域均有销售，其中海信系冰箱在全球11个国家占有率第一。",
+      "publish_date": "2026-03-06",
+      "available_at": "2026-03-06T18:12:50",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "news",
+      "title": "9.56亿元主力资金今日抢筹家用电器板块",
+      "summary": "1.03 1.96 -163.03 002676 顺威股份 -0.83 1.10 -178.91 603486 科沃斯 -0.75 0.64 -180.46 688609 九联科技 -0.46 1.19 -185.30 001387 雪祺电气 0.43 3.02 -190.20 000921",
+      "publish_date": "2026-03-13",
+      "available_at": "2026-03-13T16:39:11",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.0,
+      "hot_rank": 0
+    },
+    {
+      "source_type": "filing",
+      "title": "H股公告-认购理财产品",
+      "summary": "",
+      "publish_date": "2026-03-18",
+      "available_at": "2026-03-18T00:00:00",
+      "sentiment_score": 0.0,
+      "category": "其他",
+      "urgency": "medium",
+      "weight": 1.15,
+      "hot_rank": 0
+    }
+  ],
+  "hot_rank": 0,
+  "hot_reason": "",
+  "hot_topic_source": "baidu_xueqiu_live"
+}
