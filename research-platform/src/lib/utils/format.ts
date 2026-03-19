@@ -44,6 +44,7 @@ export const EVENT_TYPE_LABELS: Record<string, string> = {
   technology_breakthrough: "技术突破",
   management_change: "管理层变动",
   supply_shortage: "供应短缺",
+  ma: "并购重组",
 };
 
 /** Event type color */
@@ -59,4 +60,5 @@ export const EVENT_TYPE_COLORS: Record<string, string> = {
   earnings_surprise: "bg-teal-100 text-teal-700",
   supply_shortage: "bg-rose-100 text-rose-700",
   order_win: "bg-cyan-100 text-cyan-700",
+  ma: "bg-sky-100 text-sky-700",
 };

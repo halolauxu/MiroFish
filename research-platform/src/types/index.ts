@@ -10,13 +10,12 @@ export type EventType =
   | "order_win"
   | "technology_breakthrough"
   | "management_change"
-  | "supply_shortage";
+  | "supply_shortage"
+  | "ma";
 
 export type SignalDirection = "avoid" | "long";
-export type SplitType = "is" | "oos" | "all";
-export type OutlierMode = "include" | "exclude";
 
-// ─── Event ────────────────────────────────────────────
+// ─── Event (匹配 historical_events.json) ─────────────
 export interface EventRecord {
   event_id: string;
   title: string;
@@ -27,159 +26,108 @@ export interface EventRecord {
   summary: string;
   key_data: string;
   impact_level: "high" | "medium" | "low";
-  signal_count: number;
-  win_rate: number;
-  avg_adj_return: number;
-  split: "is" | "oos";
 }
 
-// ─── Signal ───────────────────────────────────────────
+// ─── Signal (匹配 shock_wf_signals 37字段) ───────────
 export interface SignalRecord {
-  idx: number;
-  event_id: string;
+  idx: number; // 运行时注入的数组索引
   source_event: string;
   source_code: string;
   source_name: string;
-  event_type: EventType;
-  event_date: string;
+  event_type: string;
   target_code: string;
   target_name: string;
-  hop: number;
-  relation_chain: string;
-  signal_direction: SignalDirection;
-  confidence: number;
-  fwd_return_5d: number | null;
-  fwd_return_10d: number | null;
-  adj_return_5d: number | null;
-  excess_5d: number | null;
-  reacted: boolean;
-  correct: boolean;
-  split: "is" | "oos";
-}
-
-// ─── Signal Detail ────────────────────────────────────
-export interface PathSegment {
-  from_code: string;
-  from_name: string;
-  to_code: string;
-  to_name: string;
-  relation: string;
-  shock_weight_at_hop: number;
-  is_suspicious: boolean;
-  suspicion_reason?: string;
-}
-
-export interface RuleExplanation {
-  event_type: EventType;
-  matched_rule_set: string;
-  inferred_direction: SignalDirection;
-  rule_label: string;
-}
-
-export interface ConfidenceTerm {
-  name: string;
-  raw_value: number;
-  weight: number;
-  contribution: number;
-}
-
-export interface SignalDetailPayload extends SignalRecord {
-  propagation_path: string;
-  path_segments: PathSegment[];
   shock_weight: number;
+  hop: number;
+  propagation_path: string;
+  relation_chain: string;
   consensus_direction: string;
-  conviction: number;
+  consensus_sentiment: number;
   divergence: number;
+  conviction: number;
   debate_summary: string;
-  rule_explanation: RuleExplanation;
-  confidence_terms: ConfidenceTerm[];
+  reacted: boolean;
+  return_5d: number;
+  volume_change_5d: number;
+  signal_direction: string;
+  confidence: number;
+  alpha_type: string;
+  position_hint: string;
+  graph_context_used: boolean;
+  event_date: string;
+  event_id: string;
   entry_price: number;
   fwd_return_1d: number | null;
   fwd_return_3d: number | null;
+  fwd_return_5d: number | null;
+  fwd_return_10d: number | null;
   fwd_return_20d: number | null;
   benchmark_5d: number | null;
+  excess_5d: number | null;
   benchmark_10d: number | null;
   excess_10d: number | null;
-  volume_change_5d: number | null;
-  context_signals: SignalRecord[];
+  benchmark_20d: number | null;
+  excess_20d: number | null;
 }
 
-// ─── Analysis ─────────────────────────────────────────
-export interface PerformanceSlice {
-  slice_key: string;
-  n: number;
-  sharpe: number;
-  win_rate: number;
-  avg_adj_return: number;
-  avg_excess_return: number;
-  ic: number;
-  max_dd: number;
-  profit_factor: number;
-}
-
-export type AnalysisDimension = "hop" | "event_type" | "reacted" | "direction";
-
-// ─── Graph Health ─────────────────────────────────────
-export interface GraphAuditIssue {
-  issue_type: "dirty_name" | "suspicious_path" | "low_win_edge";
-  node_code?: string;
-  node_name?: string;
-  path?: string;
-  relation_chain?: string;
-  detail: string;
-  affected_signal_count: number;
-  related_event_id?: string;
-}
-
-export interface RelationTypeDistribution {
-  relation: string;
-  count: number;
-  percentage: number;
-}
-
-// ─── Propagation ──────────────────────────────────────
-export interface PropagationNodeRecord {
-  code: string;
+// ─── Graph (匹配 supply_chain.json) ──────────────────
+export interface GraphNode {
   name: string;
-  hop: number;
-  is_source: boolean;
-  signal_direction: SignalDirection | null;
-  fwd_return_5d: number | null;
-  correct: boolean | null;
-  shock_weight: number;
+  labels: string[];
+  summary: string;
+  attributes: {
+    display_name: string;
+    industry: string | null;
+  };
+  display_name: string;
 }
 
-export interface PropagationEdgeRecord {
-  from_code: string;
-  to_code: string;
+export interface GraphEdge {
+  source: string;
+  target: string;
+  source_name: string;
+  target_name: string;
+  source_display: string;
+  target_display: string;
   relation: string;
-  shock_weight: number;
-  is_suspicious: boolean;
-  suspicion_reason?: string;
+  fact: string;
+  weight: number;
 }
 
-// ─── Outlier ──────────────────────────────────────────
-export interface OutlierImpactSnapshot {
-  original_sharpe: number;
-  winsorized_sharpe_1pct: number;
-  original_profit_factor: number;
-  winsorized_profit_factor_1pct: number;
+export interface GraphStats {
+  nodeCount: number;
+  edgeCount: number;
+  propagationEdgeCount: number;
+  relationDistribution: { relation: string; count: number; percentage: number }[];
+  dirtyNames: { code: string; displayName: string; issue: string }[];
 }
 
-// ─── Dashboard Metrics ────────────────────────────────
-export interface SplitMetrics {
-  sharpe: number;
-  win_rate: number;
-  avg_adj_return: number;
-  ic: number;
-  max_dd: number;
-  profit_factor: number;
-  n: number;
+export interface SubgraphData {
+  nodes: Record<string, GraphNode>;
+  edges: GraphEdge[];
+  signals: SignalRecord[];
 }
 
-export interface HoldingPeriodMetrics {
-  period: string;
-  sharpe: number;
-  win_rate: number;
-  ic: number;
+// ─── Report Metrics (从 WF 报告解析) ─────────────────
+export interface SplitMetricsRow {
+  sharpe_5d: number;
+  win_rate_5d: number;
+  adj_return_5d: number;
+  ic_5d: number;
+  max_dd_5d: number;
+  pf_5d: number;
+  n_5d: number;
+  sharpe_10d: number;
+  win_rate_10d: number;
+  adj_return_10d: number;
+  ic_10d: number;
+  max_dd_10d: number;
+  pf_10d: number;
+  n_10d: number;
+}
+
+export interface ReportMetrics {
+  is: SplitMetricsRow;
+  oos: SplitMetricsRow;
+  all: SplitMetricsRow;
 }

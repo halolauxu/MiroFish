@@ -1,7 +1,5 @@
 import { EVENT_TYPE_LABELS, EVENT_TYPE_COLORS } from "@/lib/utils/format";
-import type { EventType } from "@/types";
-
-export function EventTypeBadge({ type }: { type: EventType }) {
+export function EventTypeBadge({ type }: { type: string }) {
   const label = EVENT_TYPE_LABELS[type] ?? type;
   const color = EVENT_TYPE_COLORS[type] ?? "bg-gray-100 text-gray-600";
   return (

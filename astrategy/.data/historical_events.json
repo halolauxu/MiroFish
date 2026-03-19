@@ -8,7 +8,8 @@
     "event_date": "2026-02-28",
     "summary": "五粮液集团董事长曾从钦因涉嫌严重违纪违法被立案调查，引发白酒板块震动。",
     "key_data": "涉嫌受贿，纪委公告",
-    "impact_level": "high"
+    "impact_level": "high",
+    "clean_status": "reviewed"
   },
   {
     "event_id": "EVT002",
@@ -19,7 +20,8 @@
     "event_date": "2026-02-15",
     "summary": "宁德时代宣布2026年内实现全固态电池量产，能量密度超500Wh/kg，将大幅提升电动车续航里程。",
     "key_data": "全固态电池量产，能量密度500Wh/kg",
-    "impact_level": "high"
+    "impact_level": "high",
+    "clean_status": "reviewed"
   },
   {
     "event_id": "EVT003",
@@ -30,7 +32,8 @@
     "event_date": "2026-01-20",
     "summary": "万科地产公布债务重组方案，涉及多笔境内外债券展期，引发房地产板块关注。",
     "key_data": "债务重组，境内外债券展期",
-    "impact_level": "high"
+    "impact_level": "high",
+    "clean_status": "reviewed"
   },
   {
     "event_id": "EVT004",
@@ -41,7 +44,8 @@
     "event_date": "2026-01-10",
     "summary": "比亚迪发布第五代DM-i超级混动技术，亏电油耗降至2.9L/100km，综合续航突破2100km，预计搭载于多款新车型。",
     "key_data": "第五代DMi技术，油耗2.9L，续航2100km",
-    "impact_level": "high"
+    "impact_level": "high",
+    "clean_status": "reviewed"
   },
   {
     "event_id": "EVT005",
@@ -52,7 +56,8 @@
     "event_date": "2025-12-20",
     "summary": "贵州茅台宣布自2026年1月1日起上调飞天茅台出厂价约20%，为近年来最大幅度调价。",
     "key_data": "飞天茅台出厂价上调约20%",
-    "impact_level": "high"
+    "impact_level": "high",
+    "clean_status": "reviewed"
   },
   {
     "event_id": "EVT006",
@@ -63,7 +68,8 @@
     "event_date": "2026-02-05",
     "summary": "美国商务部将中兴通讯新增至出口管制实体清单，限制其获取先进芯片和设备。",
     "key_data": "出口管制实体清单，芯片限制",
-    "impact_level": "high"
+    "impact_level": "high",
+    "clean_status": "reviewed"
   },
   {
     "event_id": "EVT007",
@@ -74,7 +80,8 @@
     "event_date": "2026-01-15",
     "summary": "长安汽车与华为正式成立智能汽车合资公司，华为以智能驾驶技术入股，占股40%。",
     "key_data": "华为智能驾驶技术入股，占股40%",
-    "impact_level": "high"
+    "impact_level": "high",
+    "clean_status": "reviewed"
   },
   {
     "event_id": "EVT008",
@@ -85,7 +92,8 @@
     "event_date": "2026-02-20",
     "summary": "格力电器公告拟以不超过150亿元回购公司股份，回购价格不超过55元/股，创A股家电行业回购记录。",
     "key_data": "回购金额150亿元，回购价55元/股",
-    "impact_level": "medium"
+    "impact_level": "medium",
+    "clean_status": "reviewed"
   },
   {
     "event_id": "EVT009",
@@ -96,7 +104,8 @@
     "event_date": "2026-01-25",
     "summary": "科大讯飞发布星火认知大模型4.0版本，在多项基准测试中全面对标GPT-4o，宣布开放API商用。",
     "key_data": "星火大模型4.0，对标GPT-4o，API商用",
-    "impact_level": "medium"
+    "impact_level": "medium",
+    "clean_status": "reviewed"
   },
   {
     "event_id": "EVT010",
@@ -107,7 +116,8 @@
     "event_date": "2026-02-10",
     "summary": "京东方正式成为苹果iPhone 17系列OLED面板主要供应商，预计订单金额超过200亿元人民币。",
     "key_data": "苹果iPhone17 OLED供应商，订单超200亿元",
-    "impact_level": "high"
+    "impact_level": "high",
+    "clean_status": "reviewed"
   },
   {
     "event_id": "EVT011",
@@ -118,7 +128,8 @@
     "event_date": "2026-01-30",
     "summary": "中国平安发布年报业绩预增公告，2025年归母净利润同比增长30%-40%，超出市场预期。",
     "key_data": "归母净利润同比增长30%-40%",
-    "impact_level": "medium"
+    "impact_level": "medium",
+    "clean_status": "reviewed"
   },
   {
     "event_id": "EVT012",
@@ -129,7 +140,8 @@
     "event_date": "2026-03-01",
     "summary": "潍柴动力宣布其自主研发的大功率氢燃料电池系统通过国家级验收，单堆功率达300kW。",
     "key_data": "氢燃料电池300kW，国家级验收",
-    "impact_level": "medium"
+    "impact_level": "medium",
+    "clean_status": "reviewed"
   },
   {
     "event_id": "EVT013",
@@ -140,7 +152,8 @@
     "event_date": "2026-02-25",
     "summary": "欧盟竞争委员会宣布对美的集团在欧洲的家电业务启动反垄断调查，涉及空调和洗衣机市场定价。",
     "key_data": "欧盟反垄断调查，空调洗衣机定价",
-    "impact_level": "medium"
+    "impact_level": "medium",
+    "clean_status": "reviewed"
   },
   {
     "event_id": "EVT014",
@@ -151,7 +164,8 @@
     "event_date": "2026-01-05",
     "summary": "招商银行行长因个人原因辞职，引发市场对招行管理层稳定性的担忧。",
     "key_data": "行长辞职，管理层变动",
-    "impact_level": "medium"
+    "impact_level": "medium",
+    "clean_status": "reviewed"
   },
   {
     "event_id": "EVT015",
@@ -162,7 +176,8 @@
     "event_date": "2026-03-05",
     "summary": "新希望部分养殖基地报告非洲猪瘟疫情，导致生猪存栏量大幅下降，预计Q1出栏量减少15%。",
     "key_data": "非洲猪瘟，Q1出栏减少15%",
-    "impact_level": "high"
+    "impact_level": "high",
+    "clean_status": "reviewed"
   },
   {
     "event_id": "EVT_AK102",
@@ -173,7 +188,8 @@
     "event_date": "2026-03-09",
     "summary": "《预案》中明确，可调价期间内，发生这些情形可触发信达证券A股异议股东现金选择权的价格调整机制：上证指数000001.SH)或证监会资本市场服务行业指数(883171.WI)在任一交易日前的连续 20个交易日中有至少10个交易日收盘点数较信达证券A股停牌前一个交易日的收盘点数跌幅超过",
     "impact_level": "high",
-    "source": "东方财富新闻(akshare)"
+    "source": "东方财富新闻(akshare)",
+    "clean_status": "reviewed"
   },
   {
     "event_id": "EVT_AK103",
@@ -184,7 +200,8 @@
     "event_date": "2026-02-02",
     "summary": "美的集团000333曾公告，拟以集中竞价交易方式回购公司部分已发行的A股股份，用于实施股权激励计划及/或员工持股计划，回购价格为不超过100元/股，回购金额为不超过30亿元且不低于15亿元，实施期限为自董事会审议通过回购股份方案之日起12个月内。",
     "impact_level": "high",
-    "source": "东方财富新闻(akshare)"
+    "source": "东方财富新闻(akshare)",
+    "clean_status": "reviewed"
   },
   {
     "event_id": "EVT_AK104",
@@ -195,29 +212,8 @@
     "event_date": "2026-03-16",
     "summary": "格力电器CMO朱磊在发布会上表示，格力电器深耕空调行业三十余载，以“掌握核心科技”为根基，始终坚守消费者需求与产品品质。此次与京东达成深度战略合作，源于双方对智能家电行业发展趋势的共识，以及推动空调产业向节能、智能、健康升级的共同愿景。",
     "impact_level": "high",
-    "source": "东方财富新闻(akshare)"
-  },
-  {
-    "event_id": "EVT_AK105",
-    "title": "格力与京东签署战略合作，目标三年销AI空调1000万台",
-    "type": "cooperation",
-    "stock_code": "000651",
-    "stock_name": "格力电器",
-    "event_date": "2026-03-14",
-    "summary": "京东将充分发挥平台流量、全链路物流、专业安装及售后服务等一体化优势，为格力AI系列空调提供全流程保障，与格力共同释放市场潜力，实现品牌、平台、消费者三方共赢。 针对部分产品用材减配、制冷制热效率易衰减等问题，格力表示，坚持真铜实料造产品。",
-    "impact_level": "high",
-    "source": "东方财富新闻(akshare)"
-  },
-  {
-    "event_id": "EVT_AK106",
-    "title": "格力与京东战略合作 目标三年销售1000万台AI空调",
-    "type": "cooperation",
-    "stock_code": "000651",
-    "stock_name": "格力电器",
-    "event_date": "2026-03-13",
-    "summary": "格力作为行业标杆，研发实力与创新能力突出，此次合作成为京东智能家电生态布局的关键一步。京东将充分发挥平台流量、全链路物流、专业安装及售后服务等一体化优势，为格力AI系列空调提供全流程保障，与格力共同释放市场潜力。",
-    "impact_level": "high",
-    "source": "东方财富新闻(akshare)"
+    "source": "东方财富新闻(akshare)",
+    "clean_status": "reviewed"
   },
   {
     "event_id": "EVT_AK107",
@@ -228,95 +224,68 @@
     "event_date": "2026-03-09",
     "summary": "据新紫光集团消息，3月7日，新紫光集团有限公司（下称“新紫光集团”）与兴业银行股份有限公司（下称“兴业银行”）在京签署全面战略合作协议。",
     "impact_level": "high",
-    "source": "东方财富新闻(akshare)"
-  },
-  {
-    "event_id": "EVT_AK109",
-    "title": "【盘中播报】34只个股突破半年线",
-    "type": "technology_breakthrough",
-    "stock_code": "600900",
-    "stock_name": "长江电力",
-    "event_date": "2026-03-09",
-    "summary": "球冠电缆 1.63 2.69 9.87 9.98 1.11 600628 新世界 1.15 1.29 7.84 7.92 1.06 002852 道道全 2.49 3.03 10.99 11.10 0.98 920703 广厦环能 2.58 3.02 15.39 15.52 0.83 600900",
-    "impact_level": "high",
-    "source": "东方财富新闻(akshare)"
+    "source": "东方财富新闻(akshare)",
+    "clean_status": "reviewed"
   },
   {
     "event_id": "EVT_AK110",
     "title": "万科业主爆料楼板有洞直通楼下 要求万科换房、回购遭拒",
-    "type": "buyback",
+    "type": "scandal",
     "stock_code": "000002",
     "stock_name": "万科A",
     "event_date": "2026-03-15",
     "summary": "涉事业主称万科回应存在不实内容 然而，对于万科的回复内容黄女士及楼下邻居提出了异议，两人均表示未看到万科方面展示设计单位说明、设计图纸、房屋质检报告等文件。",
     "impact_level": "high",
-    "source": "东方财富新闻(akshare)"
+    "source": "东方财富新闻(akshare)",
+    "clean_status": "reviewed"
   },
   {
     "event_id": "EVT_AK111",
     "title": "南玻Ａ：公司在超薄柔性玻璃方面持续进行研发与技术储备，具备相关工艺路径的研究基础",
     "type": "technology_breakthrough",
-    "stock_code": "000002",
-    "stock_name": "万科A",
+    "stock_code": "000012",
+    "stock_name": "南玻A",
     "event_date": "2026-03-17",
     "summary": "每经AI快讯，有投资者在投资者互动平台提问：南玻集团近年来在电子玻璃领域取得多项技术突破，尤其是超薄柔性玻璃（UTG）的研发进展备受市场关注。请问公司在UTG方面是否具备相关工艺路径的研究基础？未来是否有计划将这一技术应用于太空光伏等前沿领域？ 南玻Ａ（000012.SZ）3月",
     "impact_level": "high",
-    "source": "东方财富新闻(akshare)"
+    "source": "东方财富新闻(akshare)",
+    "clean_status": "reviewed"
   },
   {
     "event_id": "EVT_AK112",
     "title": "000625，拟最高回购14亿元公司A股股份",
-    "type": "product_launch",
+    "type": "buyback",
     "stock_code": "000625",
     "stock_name": "长安汽车",
     "event_date": "2026-03-02",
     "summary": "3月2日，长安汽车（000625）发布公告称，拟10亿元—20亿元回购公司股份。其中，回购A股不低于人民币7亿元（含）且不超过人民币14亿元（含）；回购B股不低于人民币3亿元（含）且不超过人民币6亿元（含）。",
     "impact_level": "high",
-    "source": "东方财富新闻(akshare)"
+    "source": "东方财富新闻(akshare)",
+    "clean_status": "reviewed"
   },
   {
     "event_id": "EVT_AK113",
     "title": "时隔近14年，000625拟回购股份",
-    "type": "product_launch",
+    "type": "buyback",
     "stock_code": "000625",
     "stock_name": "长安汽车",
     "event_date": "2026-02-04",
     "summary": "【导读】长安汽车间隔近14年，拟出资10亿元至20亿元回购股份 2月4日晚间，长安汽车发布公告称，公司正在筹划回购股份事项，拟回购股份金额不低于10亿元（含）且不超过20亿元（含）。 这是长安汽车时隔近14年，再次筹划回购股份事项。 长安汽车的间接控股股东中国长安汽车集团有限公司",
     "impact_level": "high",
-    "source": "东方财富新闻(akshare)"
-  },
-  {
-    "event_id": "EVT_AK114",
-    "title": "33股今日获机构买入评级",
-    "type": "buyback",
-    "stock_code": "000338",
-    "stock_name": "潍柴动力",
-    "event_date": "2026-03-17",
-    "summary": "亿纬锂能 交银国际 买入 未评级 94.74 68.62 301162 国能日新 国泰海通 增持 增持 89.48 68.99 689009 九号公司-WD 交银国际 买入 未评级 75.02 49.80 002074 国轩高科 交银国际 买入 未评级 54.84 37.73 000338",
-    "impact_level": "high",
-    "source": "东方财富新闻(akshare)"
+    "source": "东方财富新闻(akshare)",
+    "clean_status": "reviewed"
   },
   {
     "event_id": "EVT_AK115",
     "title": "潍柴动力已回购5025万股 金额7.61亿元",
-    "type": "product_launch",
+    "type": "buyback",
     "stock_code": "000338",
     "stock_name": "潍柴动力",
     "event_date": "2026-03-02",
     "summary": "3月2日，潍柴动力（000338/02338）发布公告，截至2026年2月28日，公司累计回购5025万股，占总股本的0.58%，回购资金总额为7.61亿元，回购价格区间为14.57元/股至15.43元/股。",
     "impact_level": "high",
-    "source": "东方财富新闻(akshare)"
-  },
-  {
-    "event_id": "EVT_AK116",
-    "title": "9股今日获机构买入评级",
-    "type": "buyback",
-    "stock_code": "000338",
-    "stock_name": "潍柴动力",
-    "event_date": "2026-03-04",
-    "summary": "国泰海通 增持 未评级 21.25 15.92 000657 中钨高新 渤海证券 增持 未评级 66.48 002859 洁美科技 国盛证券 买入 买入 42.62 603091 众鑫股份 国金证券 买入 买入 78.19 002594 比亚迪 长江证券 买入 买入 95.99 000338",
-    "impact_level": "high",
-    "source": "东方财富新闻(akshare)"
+    "source": "东方财富新闻(akshare)",
+    "clean_status": "reviewed"
   },
   {
     "event_id": "EVT_M001",
@@ -327,7 +296,8 @@
     "event_date": "2024-03-22",
     "summary": "恒大系许家印因欺诈发行等罪被逮捕，房地产板块信心再受打击，绿地等同业股票受波及。",
     "impact_level": "high",
-    "source": "公开新闻"
+    "source": "公开新闻",
+    "clean_status": "reviewed"
   },
   {
     "event_id": "EVT_M002",
@@ -338,7 +308,8 @@
     "event_date": "2024-01-15",
     "summary": "康美药业300亿财务造假案作出最终判决，董事长获刑12年，投资者赔偿基金启动分配。",
     "impact_level": "high",
-    "source": "公开新闻"
+    "source": "公开新闻",
+    "clean_status": "reviewed"
   },
   {
     "event_id": "EVT_M003",
@@ -349,7 +320,8 @@
     "event_date": "2024-05-10",
     "summary": "中国人寿原董事长王滨因受贿罪被判处死刑缓期执行，涉案金额超4亿元。",
     "impact_level": "high",
-    "source": "公开新闻"
+    "source": "公开新闻",
+    "clean_status": "reviewed"
   },
   {
     "event_id": "EVT_M004",
@@ -360,7 +332,8 @@
     "event_date": "2024-06-20",
     "summary": "恒大物业134亿存款担保案曝光，房地产行业信用危机蔓延，万科等优质房企也受市场情绪波及。",
     "impact_level": "high",
-    "source": "公开新闻"
+    "source": "公开新闻",
+    "clean_status": "reviewed"
   },
   {
     "event_id": "EVT_M005",
@@ -371,7 +344,8 @@
     "event_date": "2024-07-05",
     "summary": "紫光集团原董事长赵伟国涉嫌贪污、背信损害上市公司利益罪被提起公诉。",
     "impact_level": "high",
-    "source": "公开新闻"
+    "source": "公开新闻",
+    "clean_status": "reviewed"
   },
   {
     "event_id": "EVT_M006",
@@ -382,7 +356,8 @@
     "event_date": "2024-06-07",
     "summary": "海航控股因连续亏损被终止上市，正式从上交所摘牌，成为航空业最大退市案例。",
     "impact_level": "high",
-    "source": "公开新闻"
+    "source": "公开新闻",
+    "clean_status": "reviewed"
   },
   {
     "event_id": "EVT_M007",
@@ -393,7 +368,8 @@
     "event_date": "2024-08-15",
     "summary": "锦州银行因重大风险被监管机构接管，中小银行板块承压，大型国有银行受避险资金流入提振。",
     "impact_level": "medium",
-    "source": "公开新闻"
+    "source": "公开新闻",
+    "clean_status": "reviewed"
   },
   {
     "event_id": "EVT_M008",
@@ -404,7 +380,8 @@
     "event_date": "2024-03-06",
     "summary": "美国众议院推进《生物安全法案》，药明康德和药明生物被提名列入限制清单，CXO板块大跌。",
     "impact_level": "high",
-    "source": "公开新闻"
+    "source": "公开新闻",
+    "clean_status": "reviewed"
   },
   {
     "event_id": "EVT_M009",
@@ -415,7 +392,8 @@
     "event_date": "2024-05-14",
     "summary": "美国宣布将中国电动汽车进口关税从25%提高至100%，新能源汽车出口板块承压。",
     "impact_level": "high",
-    "source": "公开新闻"
+    "source": "公开新闻",
+    "clean_status": "reviewed"
   },
   {
     "event_id": "EVT_M010",
@@ -426,7 +404,8 @@
     "event_date": "2024-06-12",
     "summary": "欧盟委员会初步决定对中国光伏组件征收临时反补贴税，税率17.1%-37.6%，光伏出口链受冲击。",
     "impact_level": "high",
-    "source": "公开新闻"
+    "source": "公开新闻",
+    "clean_status": "reviewed"
   },
   {
     "event_id": "EVT_M011",
@@ -437,7 +416,8 @@
     "event_date": "2024-04-04",
     "summary": "美国商务部AI芯片出口管制新规正式生效，限制英伟达等向中国出口先进AI芯片，国内AI产业链承压。",
     "impact_level": "high",
-    "source": "公开新闻"
+    "source": "公开新闻",
+    "clean_status": "reviewed"
   },
   {
     "event_id": "EVT_M012",
@@ -448,7 +428,8 @@
     "event_date": "2024-10-01",
     "summary": "住建部等部门调整房企融资三条红线标准，放宽优质房企融资限制，但市场担忧政策反复。",
     "impact_level": "medium",
-    "source": "公开新闻"
+    "source": "公开新闻",
+    "clean_status": "reviewed"
   },
   {
     "event_id": "EVT_M013",
@@ -459,7 +440,8 @@
     "event_date": "2025-04-15",
     "summary": "欧盟对中国风电企业在欧投标项目启动外国补贴调查，风电出海概念承压。",
     "impact_level": "medium",
-    "source": "公开新闻"
+    "source": "公开新闻",
+    "clean_status": "reviewed"
   },
   {
     "event_id": "EVT_M014",
@@ -470,7 +452,8 @@
     "event_date": "2025-03-28",
     "summary": "宁德时代发布2024年报，归母净利润507亿元同比增长45%，海外业务收入占比突破35%。",
     "impact_level": "high",
-    "source": "公开新闻"
+    "source": "公开新闻",
+    "clean_status": "reviewed"
   },
   {
     "event_id": "EVT_M015",
@@ -481,7 +464,8 @@
     "event_date": "2024-10-29",
     "summary": "比亚迪2024年Q3单季净利润116亿元，同比增长82%，创历史新高，汽车销量突破单月50万辆。",
     "impact_level": "high",
-    "source": "公开新闻"
+    "source": "公开新闻",
+    "clean_status": "reviewed"
   },
   {
     "event_id": "EVT_M016",
@@ -492,7 +476,8 @@
     "event_date": "2025-03-30",
     "summary": "贵州茅台2024年报营收1738亿元同比增15.7%，归母净利润862亿元同比增15.4%。",
     "impact_level": "high",
-    "source": "公开新闻"
+    "source": "公开新闻",
+    "clean_status": "reviewed"
   },
   {
     "event_id": "EVT_M017",
@@ -503,7 +488,8 @@
     "event_date": "2025-03-29",
     "summary": "中信证券2024年报归母净利润同比下降8.2%至197亿元，投行业务收入大幅缩减，低于市场预期。",
     "impact_level": "medium",
-    "source": "公开新闻"
+    "source": "公开新闻",
+    "clean_status": "reviewed"
   },
   {
     "event_id": "EVT_M018",
@@ -514,7 +500,8 @@
     "event_date": "2025-03-28",
     "summary": "万科2024年报计提资产减值损失超200亿元，归母净利润转亏，房地产去库存压力凸显。",
     "impact_level": "high",
-    "source": "公开新闻"
+    "source": "公开新闻",
+    "clean_status": "reviewed"
   },
   {
     "event_id": "EVT_M019",
@@ -525,7 +512,8 @@
     "event_date": "2024-10-18",
     "summary": "海康威视Q3营收248亿元同比增6.2%，创新业务收入占比突破20%，AI赋能效果显现。",
     "impact_level": "medium",
-    "source": "公开新闻"
+    "source": "公开新闻",
+    "clean_status": "reviewed"
   },
   {
     "event_id": "EVT_M020",
@@ -536,7 +524,8 @@
     "event_date": "2025-03-15",
     "summary": "立讯精密2024年报归母净利润同比增30%至120亿元，MR头显和汽车电子业务高速增长。",
     "impact_level": "medium",
-    "source": "公开新闻"
+    "source": "公开新闻",
+    "clean_status": "reviewed"
   },
   {
     "event_id": "EVT_M021",
@@ -547,7 +536,8 @@
     "event_date": "2025-03-31",
     "summary": "伊利股份2024年报营收1261亿元增长2.2%，归母净利润104亿元增长12.2%，分红率提升至70%。",
     "impact_level": "medium",
-    "source": "公开新闻"
+    "source": "公开新闻",
+    "clean_status": "reviewed"
   },
   {
     "event_id": "EVT_M022",
@@ -558,7 +548,8 @@
     "event_date": "2024-02-20",
     "summary": "小米汽车与宁德时代签署长期电池供应战略合作协议，宁德时代将为小米SU7供应麒麟电池。",
     "impact_level": "high",
-    "source": "公开新闻"
+    "source": "公开新闻",
+    "clean_status": "reviewed"
   },
   {
     "event_id": "EVT_M023",
@@ -569,7 +560,8 @@
     "event_date": "2024-08-06",
     "summary": "赛力斯与华为进一步深化智选车业务合作，华为增持鸿蒙智行股份，问界品牌持续热销。",
     "impact_level": "high",
-    "source": "公开新闻"
+    "source": "公开新闻",
+    "clean_status": "reviewed"
   },
   {
     "event_id": "EVT_M024",
@@ -580,7 +572,8 @@
     "event_date": "2024-09-15",
     "summary": "中国移动与科大讯飞签署AI大模型战略合作框架协议，共同推进通信+AI融合应用。",
     "impact_level": "medium",
-    "source": "公开新闻"
+    "source": "公开新闻",
+    "clean_status": "reviewed"
   },
   {
     "event_id": "EVT_M025",
@@ -591,7 +584,8 @@
     "event_date": "2024-11-20",
     "summary": "吉利汽车宣布加入蔚来换电联盟，推动换电模式标准化，新能源基础设施概念受关注。",
     "impact_level": "medium",
-    "source": "公开新闻"
+    "source": "公开新闻",
+    "clean_status": "reviewed"
   },
   {
     "event_id": "EVT_M026",
@@ -602,7 +596,8 @@
     "event_date": "2025-01-10",
     "summary": "腾讯与美团签署深度战略合作协议，微信生态全面接入美团服务，互联网平台协作概念走强。",
     "impact_level": "medium",
-    "source": "公开新闻"
+    "source": "公开新闻",
+    "clean_status": "reviewed"
   },
   {
     "event_id": "EVT_M027",
@@ -613,7 +608,8 @@
     "event_date": "2024-03-28",
     "summary": "小米SU7正式发布上市，售价21.59万起，首日大定突破5万台，小米汽车供应链概念股受关注。",
     "impact_level": "high",
-    "source": "公开新闻"
+    "source": "公开新闻",
+    "clean_status": "reviewed"
   },
   {
     "event_id": "EVT_M028",
@@ -624,7 +620,8 @@
     "event_date": "2024-11-26",
     "summary": "华为正式发布Mate 70系列旗舰手机，搭载麒麟9100芯片，预约量突破500万台。",
     "impact_level": "high",
-    "source": "公开新闻"
+    "source": "公开新闻",
+    "clean_status": "reviewed"
   },
   {
     "event_id": "EVT_M029",
@@ -635,7 +632,8 @@
     "event_date": "2024-04-16",
     "summary": "百度发布文心大模型4.0，性能全面对标GPT-4，AI大模型概念热度再起，科大讯飞等同行受关注。",
     "impact_level": "medium",
-    "source": "公开新闻"
+    "source": "公开新闻",
+    "clean_status": "reviewed"
   },
   {
     "event_id": "EVT_M030",
@@ -646,7 +644,8 @@
     "event_date": "2024-04-28",
     "summary": "特斯拉FSD V12端到端自动驾驶获准在中国进行道路测试，智能驾驶竞争格局加剧。",
     "impact_level": "medium",
-    "source": "公开新闻"
+    "source": "公开新闻",
+    "clean_status": "reviewed"
   },
   {
     "event_id": "EVT_M031",
@@ -657,7 +656,8 @@
     "event_date": "2025-12-25",
     "summary": "DeepSeek发布V3开源大模型，性能逼近GPT-4o且训练成本仅557万美元，引发AI行业震动。",
     "impact_level": "high",
-    "source": "公开新闻"
+    "source": "公开新闻",
+    "clean_status": "reviewed"
   },
   {
     "event_id": "EVT_M032",
@@ -668,7 +668,8 @@
     "event_date": "2024-07-15",
     "summary": "中芯国际N+2工艺（对应7nm级别）良率突破85%，国产芯片自主化进程加速。",
     "impact_level": "high",
-    "source": "公开新闻"
+    "source": "公开新闻",
+    "clean_status": "reviewed"
   },
   {
     "event_id": "EVT_M033",
@@ -679,7 +680,8 @@
     "event_date": "2024-03-10",
     "summary": "长江存储宣布232层3D NAND闪存实现规模量产，追平国际先进水平，存储芯片国产替代加速。",
     "impact_level": "high",
-    "source": "公开新闻"
+    "source": "公开新闻",
+    "clean_status": "reviewed"
   },
   {
     "event_id": "EVT_M034",
@@ -690,7 +692,8 @@
     "event_date": "2024-11-08",
     "summary": "隆基绿能HJT异质结太阳能电池转换效率达27.3%，刷新世界纪录，下一代光伏技术竞争力提升。",
     "impact_level": "medium",
-    "source": "公开新闻"
+    "source": "公开新闻",
+    "clean_status": "reviewed"
   },
   {
     "event_id": "EVT_M035",
@@ -701,7 +704,8 @@
     "event_date": "2025-06-15",
     "summary": "中国商飞C919累计交付突破100架，国产大飞机产业链进入快速放量阶段。",
     "impact_level": "high",
-    "source": "公开新闻"
+    "source": "公开新闻",
+    "clean_status": "reviewed"
   },
   {
     "event_id": "EVT_M036",
@@ -712,7 +716,8 @@
     "event_date": "2024-09-20",
     "summary": "华大智造发布新一代基因测序仪DNBSEQ-T20x2，通量和成本全面超越Illumina，打破国际垄断。",
     "impact_level": "medium",
-    "source": "公开新闻"
+    "source": "公开新闻",
+    "clean_status": "reviewed"
   },
   {
     "event_id": "EVT_M037",
@@ -723,7 +728,8 @@
     "event_date": "2025-09-01",
     "summary": "智利锂矿产量受限叠加澳洲矿企减产，碳酸锂价格从8万/吨反弹至12万/吨，锂电材料板块走强。",
     "impact_level": "high",
-    "source": "公开新闻"
+    "source": "公开新闻",
+    "clean_status": "reviewed"
   },
   {
     "event_id": "EVT_M038",
@@ -734,7 +740,8 @@
     "event_date": "2024-09-20",
     "summary": "超强台风袭击东南亚橡胶主产区，天然橡胶价格暴涨30%，轮胎企业成本压力加大但橡胶概念走强。",
     "impact_level": "medium",
-    "source": "公开新闻"
+    "source": "公开新闻",
+    "clean_status": "reviewed"
   },
   {
     "event_id": "EVT_M039",
@@ -745,7 +752,8 @@
     "event_date": "2024-12-10",
     "summary": "三星和SK海力士减产效果显现，DRAM芯片库存降至历史低位，存储芯片价格连续三个月上涨。",
     "impact_level": "medium",
-    "source": "公开新闻"
+    "source": "公开新闻",
+    "clean_status": "reviewed"
   },
   {
     "event_id": "EVT_M040",
@@ -756,7 +764,8 @@
     "event_date": "2024-02-07",
     "summary": "阿里巴巴集团CEO吴泳铭主导组织架构大调整，关停部分业务线，互联网板块管理层变动频繁。",
     "impact_level": "medium",
-    "source": "公开新闻"
+    "source": "公开新闻",
+    "clean_status": "reviewed"
   },
   {
     "event_id": "EVT_M041",
@@ -767,7 +776,8 @@
     "event_date": "2024-07-01",
     "summary": "中国平安联席CEO任汇川因个人原因离任，市场担忧保险业务管理层稳定性。",
     "impact_level": "medium",
-    "source": "公开新闻"
+    "source": "公开新闻",
+    "clean_status": "reviewed"
   },
   {
     "event_id": "EVT_M042",
@@ -778,7 +788,8 @@
     "event_date": "2025-05-20",
     "summary": "万科董事会主席郁亮辞任，深铁系全面接管管理层，房地产行业国资介入趋势明显。",
     "impact_level": "high",
-    "source": "公开新闻"
+    "source": "公开新闻",
+    "clean_status": "reviewed"
   },
   {
     "event_id": "EVT_M043",
@@ -789,7 +800,8 @@
     "event_date": "2024-08-26",
     "summary": "美的集团公告拟以不超过100亿元回购公司股份用于注销减少注册资本，彰显公司对未来发展信心。",
     "impact_level": "medium",
-    "source": "公开新闻"
+    "source": "公开新闻",
+    "clean_status": "reviewed"
   },
   {
     "event_id": "EVT_M044",
@@ -800,7 +812,8 @@
     "event_date": "2024-12-30",
     "summary": "腾讯控股2024年全年回购金额超1120亿港元创历史纪录，互联网巨头回购潮带动板块估值修复。",
     "impact_level": "high",
-    "source": "公开新闻"
+    "source": "公开新闻",
+    "clean_status": "reviewed"
   },
   {
     "event_id": "EVT_M045",
@@ -811,7 +824,8 @@
     "event_date": "2024-05-20",
     "summary": "海康威视公告启动不超过20亿元股份回购计划，用于员工持股计划和股权激励。",
     "impact_level": "medium",
-    "source": "公开新闻"
+    "source": "公开新闻",
+    "clean_status": "reviewed"
   },
   {
     "event_id": "EVT_M046",
@@ -822,7 +836,8 @@
     "event_date": "2025-01-15",
     "summary": "海天味业宣布上调酱油、蚝油等主要产品出厂价3%-7%，为近三年来首次提价。",
     "impact_level": "medium",
-    "source": "公开新闻"
+    "source": "公开新闻",
+    "clean_status": "reviewed"
   },
   {
     "event_id": "EVT_M047",
@@ -833,7 +848,8 @@
     "event_date": "2024-04-01",
     "summary": "华润啤酒对旗下雪花系列产品全线提价5%-10%，啤酒行业进入新一轮提价周期。",
     "impact_level": "medium",
-    "source": "公开新闻"
+    "source": "公开新闻",
+    "clean_status": "reviewed"
   },
   {
     "event_id": "EVT_M048",
@@ -844,7 +860,8 @@
     "event_date": "2025-11-15",
     "summary": "泸州老窖上调国窖1573经典装出厂价至1080元/瓶，高端白酒提价预期再升温。",
     "impact_level": "medium",
-    "source": "公开新闻"
+    "source": "公开新闻",
+    "clean_status": "reviewed"
   },
   {
     "event_id": "EVT_M049",
@@ -855,7 +872,8 @@
     "event_date": "2024-09-02",
     "summary": "中国船舶集团启动中国船舶吸收合并中国重工方案，打造全球最大造船上市公司。",
     "impact_level": "high",
-    "source": "公开新闻"
+    "source": "公开新闻",
+    "clean_status": "reviewed"
   },
   {
     "event_id": "EVT_M050",
@@ -866,7 +884,8 @@
     "event_date": "2024-09-05",
     "summary": "国泰君安拟吸收合并海通证券，交易完成后将成为中国最大证券公司，券商板块整合预期升温。",
     "impact_level": "high",
-    "source": "公开新闻"
+    "source": "公开新闻",
+    "clean_status": "reviewed"
   },
   {
     "event_id": "EVT_M051",
@@ -877,7 +896,8 @@
     "event_date": "2024-11-10",
     "summary": "盐湖股份启动与青海钾肥的重组方案，整合青海盐湖资源，打造世界级钾肥和锂资源企业。",
     "impact_level": "medium",
-    "source": "公开新闻"
+    "source": "公开新闻",
+    "clean_status": "reviewed"
   },
   {
     "event_id": "EVT_M052",
@@ -888,7 +908,8 @@
     "event_date": "2025-03-01",
     "summary": "中国五矿集团与中国中冶启动实质性重组，矿业央企整合进入深水区。",
     "impact_level": "medium",
-    "source": "公开新闻"
+    "source": "公开新闻",
+    "clean_status": "reviewed"
   },
   {
     "event_id": "EVT_M053",
@@ -899,7 +920,8 @@
     "event_date": "2024-05-12",
     "summary": "美的集团完成对荷兰工业机器人公司Marel的收购，交易金额约120亿元，加速智能制造转型。",
     "impact_level": "medium",
-    "source": "公开新闻"
+    "source": "公开新闻",
+    "clean_status": "reviewed"
   },
   {
     "event_id": "EVT_M054",
@@ -910,7 +932,8 @@
     "event_date": "2025-01-20",
     "summary": "中国中车旗下中车株洲获得沙特高铁项目120亿元大单，中国高铁出海再获突破。",
     "impact_level": "high",
-    "source": "公开新闻"
+    "source": "公开新闻",
+    "clean_status": "reviewed"
   },
   {
     "event_id": "EVT_M055",
@@ -921,6 +944,7 @@
     "event_date": "2024-08-10",
     "summary": "中国建筑中标雄安新区启动区核心片区建设工程，合同金额约280亿元。",
     "impact_level": "high",
-    "source": "公开新闻"
+    "source": "公开新闻",
+    "clean_status": "reviewed"
   }
 ]

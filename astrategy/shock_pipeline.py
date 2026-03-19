@@ -532,6 +532,9 @@ class ShockPipeline:
             return self._empty_price_result()
 
         close_col = "收盘" if "收盘" in df.columns else "close"
+        open_col = "开盘" if "开盘" in df.columns else "open"
+        high_col = "最高" if "最高" in df.columns else "high"
+        low_col = "最低" if "最低" in df.columns else "low"
         vol_col = "成交量" if "成交量" in df.columns else None
         date_col = "日期" if "日期" in df.columns else "date"
 
@@ -550,17 +553,45 @@ class ShockPipeline:
             # Fallback: use middle of data
             event_idx = len(df) // 3
 
-        # Entry price = close on event day (or closest trading day)
-        entry_price = float(df.loc[event_idx, close_col])
-        if entry_price == 0:
+        # ═══ T+1 入场逻辑 ═══
+        # event_idx = 事件日(T+0)行。我们需要 T+1 开盘价入场。
+        event_pos = df.index.get_loc(event_idx)
+        t1_pos = event_pos + 1  # T+1 在 DataFrame 中的位置
+        if t1_pos >= len(df):
+            return self._empty_price_result()
+        t1_idx = df.index[t1_pos]
+
+        # 入场价 = T+1 开盘价 (可执行价格)
+        if open_col in df.columns:
+            entry_price = float(df.loc[t1_idx, open_col])
+        else:
+            entry_price = float(df.loc[t1_idx, close_col])
+        if entry_price <= 0:
             return self._empty_price_result()
 
-        # Calculate returns at multiple horizons
-        after_event_data = df.loc[event_idx:]
+        # ═══ 涨跌停过滤 ═══
+        # A股涨跌停: 普通股±10%, ST股±5%, 科创板/创业板±20%
+        # 简化处理: 如果T+1开盘价=T+0收盘价*(1±limit)附近, 视为涨跌停
+        t0_close = float(df.loc[event_idx, close_col])
+        limit_pct = 0.10  # 默认10%
+        if t0_close > 0:
+            t1_open_chg = (entry_price / t0_close) - 1.0
+            # 涨停: long方向买不进去
+            # 跌停: avoid方向卖不出去
+            # 标记但不过滤 — 留给上层决策
+            hit_limit_up = t1_open_chg >= limit_pct * 0.98
+            hit_limit_down = t1_open_chg <= -limit_pct * 0.98
+        else:
+            hit_limit_up = False
+            hit_limit_down = False
+
+        # ═══ Forward returns: 从 T+1 开盘入场后计算 ═══
+        # return_Nd = T+N 收盘价 / T+1 开盘价 - 1
+        after_t1_data = df.iloc[t1_pos:]  # 从 T+1 开始
         returns = {}
         for horizon in [1, 3, 5, 10, 20]:
-            if len(after_event_data) > horizon:
-                exit_price = float(after_event_data.iloc[horizon][close_col])
+            if len(after_t1_data) > horizon:
+                exit_price = float(after_t1_data.iloc[horizon][close_col])
                 returns[f"return_{horizon}d"] = round(
                     exit_price / entry_price - 1.0, 4
                 )
@@ -571,13 +602,13 @@ class ShockPipeline:
 
         # Volume change
         volume_change = 0.0
-        if vol_col and vol_col in df.columns and len(after_event_data) > 1:
+        if vol_col and vol_col in df.columns and len(after_t1_data) > 1:
             try:
-                vol_event = float(df.loc[event_idx, vol_col])
+                vol_t1 = float(df.loc[t1_idx, vol_col])
                 # Average volume in forward window
-                fwd_vols = after_event_data[vol_col].iloc[1:min(forward_days+1, len(after_event_data))]
-                if not fwd_vols.empty and vol_event > 0:
-                    volume_change = float(fwd_vols.mean()) / vol_event - 1.0
+                fwd_vols = after_t1_data[vol_col].iloc[1:min(forward_days+1, len(after_t1_data))]
+                if not fwd_vols.empty and vol_t1 > 0:
+                    volume_change = float(fwd_vols.mean()) / vol_t1 - 1.0
             except (ValueError, TypeError):
                 pass
 
@@ -587,6 +618,9 @@ class ShockPipeline:
             "return_pct": round(main_return, 4),
             "volume_change_pct": round(volume_change, 4),
             "entry_price": entry_price,
+            "t0_close": t0_close,
+            "hit_limit_up": hit_limit_up,
+            "hit_limit_down": hit_limit_down,
         }
         result.update(returns)
         return result
@@ -598,6 +632,9 @@ class ShockPipeline:
             "return_pct": 0.0,
             "volume_change_pct": 0.0,
             "entry_price": 0.0,
+            "t0_close": 0.0,
+            "hit_limit_up": False,
+            "hit_limit_down": False,
             "return_1d": None,
             "return_3d": None,
             "return_5d": None,
@@ -940,6 +977,9 @@ class ShockPipeline:
             "reacted": reacted,
             "return_5d": reaction.get("return_pct", 0.0),
             "volume_change_5d": reaction.get("volume_change_pct", 0.0),
+            # 涨跌停标志 (T+1开盘触及涨跌停)
+            "hit_limit_up": reaction.get("hit_limit_up", False),
+            "hit_limit_down": reaction.get("hit_limit_down", False),
             # Signal
             "signal_direction": direction,
             "confidence": round(confidence, 4),

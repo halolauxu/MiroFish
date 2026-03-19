@@ -1,15 +1,11 @@
 "use client";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { LayoutDashboard, Calendar, Target, BarChart3, Network, Wrench, X } from "lucide-react";
+import { LayoutDashboard, Network, X } from "lucide-react";
 
 const NAV_ITEMS = [
-  { href: "/dashboard", label: "仪表盘", icon: LayoutDashboard },
-  { href: "/events", label: "事件列表", icon: Calendar },
-  { href: "/signals", label: "信号列表", icon: Target },
-  { href: "/analysis", label: "维度分析", icon: BarChart3 },
-  { href: "/propagation", label: "传播图谱", icon: Network },
-  { href: "/graph-health", label: "图谱健康", icon: Wrench },
+  { href: "/", label: "研究总览", icon: LayoutDashboard },
+  { href: "/graph", label: "图谱总览", icon: Network },
 ];
 
 export function SideNav({ open, onClose }: { open?: boolean; onClose?: () => void }) {
@@ -44,7 +40,9 @@ export function SideNav({ open, onClose }: { open?: boolean; onClose?: () => voi
         </div>
         <nav className="flex-1 py-2 overflow-y-auto">
           {NAV_ITEMS.map((item) => {
-            const isActive = pathname === item.href || pathname.startsWith(item.href + "/");
+            const isActive = item.href === "/"
+              ? pathname === "/"
+              : pathname === item.href || pathname.startsWith(item.href + "/");
             const Icon = item.icon;
             return (
               <Link
@@ -64,7 +62,7 @@ export function SideNav({ open, onClose }: { open?: boolean; onClose?: () => voi
           })}
         </nav>
         <div className="px-4 py-3 border-t border-gray-700 text-[10px] text-gray-600">
-          v0.1.0 · Shock Pipeline
+          v0.2.0 · Shock Pipeline
         </div>
       </aside>
     </>

@@ -102,6 +102,16 @@ class ShockBacktestEngine:
             if direction == "neutral":
                 continue
 
+            # ═══ 涨跌停过滤 ═══
+            # long方向: T+1涨停开盘→买不进去→跳过
+            # avoid方向: T+1跌停开盘→卖不出去→跳过
+            hit_up = sig.get("hit_limit_up", False)
+            hit_down = sig.get("hit_limit_down", False)
+            if direction == "long" and hit_up:
+                continue  # 涨停买不进
+            if direction == "avoid" and hit_down:
+                continue  # 跌停卖不出
+
             # 方向调整收益
             if direction == "avoid":
                 adj_return = -raw_return - self.cost
@@ -134,8 +144,11 @@ class ShockBacktestEngine:
                 "direction_adjusted_return": round(adj_return, 6),
                 "confidence": sig.get("confidence", 0.0),
                 "alpha_type": sig.get("alpha_type", ""),
+                "relation_chain": sig.get("relation_chain", ""),
                 "consensus_direction": sig.get("consensus_direction", ""),
                 "divergence": sig.get("divergence", 0.0),
+                "hit_limit_up": sig.get("hit_limit_up", False),
+                "hit_limit_down": sig.get("hit_limit_down", False),
                 # 多周期收益（供分析用）
                 "fwd_return_1d": sig.get("fwd_return_1d"),
                 "fwd_return_3d": sig.get("fwd_return_3d"),
