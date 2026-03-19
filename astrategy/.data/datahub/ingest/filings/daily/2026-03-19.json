@@ -1,0 +1,2546 @@
+{
+  "summary": {
+    "universe_id": "csi800",
+    "ingest_date": "2026-03-19",
+    "collect_filings": true,
+    "raw_announcements": 1102,
+    "important_announcements": 989,
+    "matched_universe_announcements": 149,
+    "matched_universe_tickers": 89
+  },
+  "rows": [
+    {
+      "ticker": "300832",
+      "company_name": "新产业",
+      "title": "新产业:关于获得医疗器械注册证的公告",
+      "announcement_type": "获得认证",
+      "publish_date": "2026-03-19",
+      "link": "",
+      "source": "akshare.stock_notice_report",
+      "raw": {
+        "代码": "300832",
+        "名称": "新产业",
+        "公告标题": "新产业:关于获得医疗器械注册证的公告",
+        "公告类型": "获得认证",
+        "公告日期": "2026-03-19",
+        "网址": "https://data.eastmoney.com/notices/detail/300832/AN202603191820649292.html"
+      }
+    },
+    {
+      "ticker": "301358",
+      "company_name": "湖南裕能",
+      "title": "湖南裕能:中信建投证券股份有限公司、中信证券股份有限公司和财信证券股份有限公司关于湖南裕能新能源电池材料股份有限公司向特定对象发行股票发行过程和认购对象合规性的报告",
+      "announcement_type": "保荐/核查意见",
+      "publish_date": "2026-03-19",
+      "link": "",
+      "source": "akshare.stock_notice_report",
+      "raw": {
+        "代码": "301358",
+        "名称": "湖南裕能",
+        "公告标题": "湖南裕能:中信建投证券股份有限公司、中信证券股份有限公司和财信证券股份有限公司关于湖南裕能新能源电池材料股份有限公司向特定对象发行股票发行过程和认购对象合规性的报告",
+        "公告类型": "保荐/核查意见",
+        "公告日期": "2026-03-19",
+        "网址": "https://data.eastmoney.com/notices/detail/301358/AN202603191820651755.html"
+      }
+    },
+    {
+      "ticker": "301358",
+      "company_name": "湖南裕能",
+      "title": "湖南裕能:关于签订募集资金三方监管协议的公告",
+      "announcement_type": "签订协议",
+      "publish_date": "2026-03-19",
+      "link": "",
+      "source": "akshare.stock_notice_report",
+      "raw": {
+        "代码": "301358",
+        "名称": "湖南裕能",
+        "公告标题": "湖南裕能:关于签订募集资金三方监管协议的公告",
+        "公告类型": "签订协议",
+        "公告日期": "2026-03-19",
+        "网址": "https://data.eastmoney.com/notices/detail/301358/AN202603191820651776.html"
+      }
+    },
+    {
+      "ticker": "301358",
+      "company_name": "湖南裕能",
+      "title": "湖南裕能:湖南裕能新能源电池材料股份有限公司向特定对象发行股票发行情况报告书",
+      "announcement_type": "其他增发事项公告",
+      "publish_date": "2026-03-19",
+      "link": "",
+      "source": "akshare.stock_notice_report",
+      "raw": {
+        "代码": "301358",
+        "名称": "湖南裕能",
+        "公告标题": "湖南裕能:湖南裕能新能源电池材料股份有限公司向特定对象发行股票发行情况报告书",
+        "公告类型": "其他增发事项公告",
+        "公告日期": "2026-03-19",
+        "网址": "https://data.eastmoney.com/notices/detail/301358/AN202603191820651768.html"
+      }
+    },
+    {
+      "ticker": "301358",
+      "company_name": "湖南裕能",
+      "title": "湖南裕能:关于向特定对象发行股票发行情况报告书披露的提示性公告",
+      "announcement_type": "增发提示性公告",
+      "publish_date": "2026-03-19",
+      "link": "",
+      "source": "akshare.stock_notice_report",
+      "raw": {
+        "代码": "301358",
+        "名称": "湖南裕能",
+        "公告标题": "湖南裕能:关于向特定对象发行股票发行情况报告书披露的提示性公告",
+        "公告类型": "增发提示性公告",
+        "公告日期": "2026-03-19",
+        "网址": "https://data.eastmoney.com/notices/detail/301358/AN202603191820651733.html"
+      }
+    },
+    {
+      "ticker": "301308",
+      "company_name": "江波龙",
+      "title": "江波龙:关于为子公司提供担保的进展公告",
+      "announcement_type": "提供/对外担保公告",
+      "publish_date": "2026-03-19",
+      "link": "",
+      "source": "akshare.stock_notice_report",
+      "raw": {
+        "代码": "301308",
+        "名称": "江波龙",
+        "公告标题": "江波龙:关于为子公司提供担保的进展公告",
+        "公告类型": "提供/对外担保公告",
+        "公告日期": "2026-03-19",
+        "网址": "https://data.eastmoney.com/notices/detail/301308/AN202603191820651537.html"
+      }
+    },
+    {
+      "ticker": "301308",
+      "company_name": "江波龙",
+      "title": "江波龙:2026年第一次临时股东会决议公告",
+      "announcement_type": "股东大会决议公告",
+      "publish_date": "2026-03-19",
+      "link": "",
+      "source": "akshare.stock_notice_report",
+      "raw": {
+        "代码": "301308",
+        "名称": "江波龙",
+        "公告标题": "江波龙:2026年第一次临时股东会决议公告",
+        "公告类型": "股东大会决议公告",
+        "公告日期": "2026-03-19",
+        "网址": "https://data.eastmoney.com/notices/detail/301308/AN202603191820651539.html"
+      }
+    },
+    {
+      "ticker": "000598",
+      "company_name": "兴蓉环境",
+      "title": "兴蓉环境:成都市兴蓉环境股份有限公司2026年面向专业投资者公开发行科技创新公司债券(第一期)票面利率公告",
+      "announcement_type": "其他",
+      "publish_date": "2026-03-19",
+      "link": "",
+      "source": "akshare.stock_notice_report",
+      "raw": {
+        "代码": "000598",
+        "名称": "兴蓉环境",
+        "公告标题": "兴蓉环境:成都市兴蓉环境股份有限公司2026年面向专业投资者公开发行科技创新公司债券(第一期)票面利率公告",
+        "公告类型": "其他",
+        "公告日期": "2026-03-19",
+        "网址": "https://data.eastmoney.com/notices/detail/000598/AN202603191820651333.html"
+      }
+    },
+    {
+      "ticker": "301308",
+      "company_name": "江波龙",
+      "title": "江波龙:关于董事、高级管理人员减持股份预披露公告",
+      "announcement_type": "高管人员持股变动",
+      "publish_date": "2026-03-19",
+      "link": "",
+      "source": "akshare.stock_notice_report",
+      "raw": {
+        "代码": "301308",
+        "名称": "江波龙",
+        "公告标题": "江波龙:关于董事、高级管理人员减持股份预披露公告",
+        "公告类型": "高管人员持股变动",
+        "公告日期": "2026-03-19",
+        "网址": "https://data.eastmoney.com/notices/detail/301308/AN202603191820651028.html"
+      }
+    },
+    {
+      "ticker": "301536",
+      "company_name": "星宸科技",
+      "title": "星宸科技:301536星宸科技投资者关系管理信息20260319",
+      "announcement_type": "调研活动",
+      "publish_date": "2026-03-19",
+      "link": "",
+      "source": "akshare.stock_notice_report",
+      "raw": {
+        "代码": "301536",
+        "名称": "星宸科技",
+        "公告标题": "星宸科技:301536星宸科技投资者关系管理信息20260319",
+        "公告类型": "调研活动",
+        "公告日期": "2026-03-19",
+        "网址": "https://data.eastmoney.com/notices/detail/301536/AN202603191820649083.html"
+      }
+    },
+    {
+      "ticker": "002423",
+      "company_name": "中粮资本",
+      "title": "中粮资本:2025年3月19日投资者关系活动记录表",
+      "announcement_type": "调研活动",
+      "publish_date": "2026-03-19",
+      "link": "",
+      "source": "akshare.stock_notice_report",
+      "raw": {
+        "代码": "002423",
+        "名称": "中粮资本",
+        "公告标题": "中粮资本:2025年3月19日投资者关系活动记录表",
+        "公告类型": "调研活动",
+        "公告日期": "2026-03-19",
+        "网址": "https://data.eastmoney.com/notices/detail/002423/AN202603191820648631.html"
+      }
+    },
+    {
+      "ticker": "300223",
+      "company_name": "北京君正",
+      "title": "北京君正:关于持股5%以上股东减持股份触及1%整数倍的公告",
+      "announcement_type": "股东/实际控制人股份减持",
+      "publish_date": "2026-03-19",
+      "link": "",
+      "source": "akshare.stock_notice_report",
+      "raw": {
+        "代码": "300223",
+        "名称": "北京君正",
+        "公告标题": "北京君正:关于持股5%以上股东减持股份触及1%整数倍的公告",
+        "公告类型": "股东/实际控制人股份减持",
+        "公告日期": "2026-03-19",
+        "网址": "https://data.eastmoney.com/notices/detail/300223/AN202603191820648157.html"
+      }
+    },
+    {
+      "ticker": "000598",
+      "company_name": "兴蓉环境",
+      "title": "兴蓉环境:关于延长成都市兴蓉环境股份有限公司2026年面向专业投资者公开发行科技创新公司债券(第一期)簿记建档时间的公告",
+      "announcement_type": "其他",
+      "publish_date": "2026-03-19",
+      "link": "",
+      "source": "akshare.stock_notice_report",
+      "raw": {
+        "代码": "000598",
+        "名称": "兴蓉环境",
+        "公告标题": "兴蓉环境:关于延长成都市兴蓉环境股份有限公司2026年面向专业投资者公开发行科技创新公司债券(第一期)簿记建档时间的公告",
+        "公告类型": "其他",
+        "公告日期": "2026-03-19",
+        "网址": "https://data.eastmoney.com/notices/detail/000598/AN202603191820647901.html"
+      }
+    },
+    {
+      "ticker": "000776",
+      "company_name": "广发证券",
+      "title": "广发证券:关于延长广发证券股份有限公司2026年面向专业投资者公开发行永续次级债券(第二期)簿记建档时间的公告",
+      "announcement_type": "其他",
+      "publish_date": "2026-03-19",
+      "link": "",
+      "source": "akshare.stock_notice_report",
+      "raw": {
+        "代码": "000776",
+        "名称": "广发证券",
+        "公告标题": "广发证券:关于延长广发证券股份有限公司2026年面向专业投资者公开发行永续次级债券(第二期)簿记建档时间的公告",
+        "公告类型": "其他",
+        "公告日期": "2026-03-19",
+        "网址": "https://data.eastmoney.com/notices/detail/000776/AN202603191820647900.html"
+      }
+    },
+    {
+      "ticker": "300285",
+      "company_name": "国瓷材料",
+      "title": "国瓷材料:董事会薪酬与考核委员会关于公司2026年限制性股票激励计划首次授予相关事项的核查意见",
+      "announcement_type": "专项说明/独立意见",
+      "publish_date": "2026-03-19",
+      "link": "",
+      "source": "akshare.stock_notice_report",
+      "raw": {
+        "代码": "300285",
+        "名称": "国瓷材料",
+        "公告标题": "国瓷材料:董事会薪酬与考核委员会关于公司2026年限制性股票激励计划首次授予相关事项的核查意见",
+        "公告类型": "专项说明/独立意见",
+        "公告日期": "2026-03-19",
+        "网址": "https://data.eastmoney.com/notices/detail/300285/AN202603191820646903.html"
+      }
+    },
+    {
+      "ticker": "300285",
+      "company_name": "国瓷材料",
+      "title": "国瓷材料:第六届董事会第九次会议决议公告",
+      "announcement_type": "董事会决议公告",
+      "publish_date": "2026-03-19",
+      "link": "",
+      "source": "akshare.stock_notice_report",
+      "raw": {
+        "代码": "300285",
+        "名称": "国瓷材料",
+        "公告标题": "国瓷材料:第六届董事会第九次会议决议公告",
+        "公告类型": "董事会决议公告",
+        "公告日期": "2026-03-19",
+        "网址": "https://data.eastmoney.com/notices/detail/300285/AN202603191820646901.html"
+      }
+    },
+    {
+      "ticker": "300285",
+      "company_name": "国瓷材料",
+      "title": "国瓷材料:关于向2026年限制性股票激励计划激励对象首次授予限制性股票的公告",
+      "announcement_type": "股权激励进展公告",
+      "publish_date": "2026-03-19",
+      "link": "",
+      "source": "akshare.stock_notice_report",
+      "raw": {
+        "代码": "300285",
+        "名称": "国瓷材料",
+        "公告标题": "国瓷材料:关于向2026年限制性股票激励计划激励对象首次授予限制性股票的公告",
+        "公告类型": "股权激励进展公告",
+        "公告日期": "2026-03-19",
+        "网址": "https://data.eastmoney.com/notices/detail/300285/AN202603191820646900.html"
+      }
+    },
+    {
+      "ticker": "000725",
+      "company_name": "京东方A",
+      "title": "京东方Ａ:京东方科技集团股份有限公司2026年面向专业投资者公开发行科技创新公司债券(第二期)发行结果公告",
+      "announcement_type": "其他",
+      "publish_date": "2026-03-19",
+      "link": "",
+      "source": "akshare.stock_notice_report",
+      "raw": {
+        "代码": "000725",
+        "名称": "京东方A",
+        "公告标题": "京东方Ａ:京东方科技集团股份有限公司2026年面向专业投资者公开发行科技创新公司债券(第二期)发行结果公告",
+        "公告类型": "其他",
+        "公告日期": "2026-03-19",
+        "网址": "https://data.eastmoney.com/notices/detail/000725/AN202603191820646352.html"
+      }
+    },
+    {
+      "ticker": "000728",
+      "company_name": "国元证券",
+      "title": "国元证券:国元证券股份有限公司2023年面向专业投资者公开发行公司债券(第一期)兑付暨摘牌公告",
+      "announcement_type": "其他",
+      "publish_date": "2026-03-19",
+      "link": "",
+      "source": "akshare.stock_notice_report",
+      "raw": {
+        "代码": "000728",
+        "名称": "国元证券",
+        "公告标题": "国元证券:国元证券股份有限公司2023年面向专业投资者公开发行公司债券(第一期)兑付暨摘牌公告",
+        "公告类型": "其他",
+        "公告日期": "2026-03-19",
+        "网址": "https://data.eastmoney.com/notices/detail/000728/AN202603191820645749.html"
+      }
+    },
+    {
+      "ticker": "300627",
+      "company_name": "华测导航",
+      "title": "华测导航:关于控股股东、实际控制人部分股份解除质押及质押的公告",
+      "announcement_type": "股份质押、冻结",
+      "publish_date": "2026-03-19",
+      "link": "",
+      "source": "akshare.stock_notice_report",
+      "raw": {
+        "代码": "300627",
+        "名称": "华测导航",
+        "公告标题": "华测导航:关于控股股东、实际控制人部分股份解除质押及质押的公告",
+        "公告类型": "股份质押、冻结",
+        "公告日期": "2026-03-19",
+        "网址": "https://data.eastmoney.com/notices/detail/300627/AN202603191820645547.html"
+      }
+    },
+    {
+      "ticker": "600010",
+      "company_name": "包钢股份",
+      "title": "包钢股份:投资者关系活动记录表",
+      "announcement_type": "调研活动",
+      "publish_date": "2026-03-19",
+      "link": "",
+      "source": "akshare.stock_notice_report",
+      "raw": {
+        "代码": "600010",
+        "名称": "包钢股份",
+        "公告标题": "包钢股份:投资者关系活动记录表",
+        "公告类型": "调研活动",
+        "公告日期": "2026-03-19",
+        "网址": "https://data.eastmoney.com/notices/detail/600010/AN202603191820643661.html"
+      }
+    },
+    {
+      "ticker": "600995",
+      "company_name": "南网储能",
+      "title": "南网储能:南方电网储能股份有限公司2026年3月11日-13日投资者关系活动记录表",
+      "announcement_type": "调研活动",
+      "publish_date": "2026-03-19",
+      "link": "",
+      "source": "akshare.stock_notice_report",
+      "raw": {
+        "代码": "600995",
+        "名称": "南网储能",
+        "公告标题": "南网储能:南方电网储能股份有限公司2026年3月11日-13日投资者关系活动记录表",
+        "公告类型": "调研活动",
+        "公告日期": "2026-03-19",
+        "网址": "https://data.eastmoney.com/notices/detail/600995/AN202603191820643664.html"
+      }
+    },
+    {
+      "ticker": "688385",
+      "company_name": "复旦微电",
+      "title": "复旦微电:投资者关系记录表-2026年3月13日",
+      "announcement_type": "调研活动",
+      "publish_date": "2026-03-19",
+      "link": "",
+      "source": "akshare.stock_notice_report",
+      "raw": {
+        "代码": "688385",
+        "名称": "复旦微电",
+        "公告标题": "复旦微电:投资者关系记录表-2026年3月13日",
+        "公告类型": "调研活动",
+        "公告日期": "2026-03-19",
+        "网址": "https://data.eastmoney.com/notices/detail/688385/AN202603191820643663.html"
+      }
+    },
+    {
+      "ticker": "688169",
+      "company_name": "石头科技",
+      "title": "石头科技:2026年1月至3月投资者关系管理活动记录表",
+      "announcement_type": "调研活动",
+      "publish_date": "2026-03-19",
+      "link": "",
+      "source": "akshare.stock_notice_report",
+      "raw": {
+        "代码": "688169",
+        "名称": "石头科技",
+        "公告标题": "石头科技:2026年1月至3月投资者关系管理活动记录表",
+        "公告类型": "调研活动",
+        "公告日期": "2026-03-19",
+        "网址": "https://data.eastmoney.com/notices/detail/688169/AN202603191820643657.html"
+      }
+    },
+    {
+      "ticker": "300383",
+      "company_name": "光环新网",
+      "title": "光环新网:300383光环新网投资者关系管理信息20260318",
+      "announcement_type": "调研活动",
+      "publish_date": "2026-03-19",
+      "link": "",
+      "source": "akshare.stock_notice_report",
+      "raw": {
+        "代码": "300383",
+        "名称": "光环新网",
+        "公告标题": "光环新网:300383光环新网投资者关系管理信息20260318",
+        "公告类型": "调研活动",
+        "公告日期": "2026-03-19",
+        "网址": "https://data.eastmoney.com/notices/detail/300383/AN202603191820640987.html"
+      }
+    },
+    {
+      "ticker": "600988",
+      "company_name": "赤峰黄金",
+      "title": "赤峰黄金:赤峰黄金关于筹划公司控制权变更事项的停牌公告",
+      "announcement_type": "停牌公告",
+      "publish_date": "2026-03-19",
+      "link": "",
+      "source": "akshare.stock_notice_report",
+      "raw": {
+        "代码": "600988",
+        "名称": "赤峰黄金",
+        "公告标题": "赤峰黄金:赤峰黄金关于筹划公司控制权变更事项的停牌公告",
+        "公告类型": "停牌公告",
+        "公告日期": "2026-03-19",
+        "网址": "https://data.eastmoney.com/notices/detail/600988/AN202603191820636592.html"
+      }
+    },
+    {
+      "ticker": "600233",
+      "company_name": "圆通速递",
+      "title": "圆通速递:圆通速递股份有限公司关于5%以上股东大宗交易减持股份计划的公告",
+      "announcement_type": "股东/实际控制人股份减持",
+      "publish_date": "2026-03-19",
+      "link": "",
+      "source": "akshare.stock_notice_report",
+      "raw": {
+        "代码": "600233",
+        "名称": "圆通速递",
+        "公告标题": "圆通速递:圆通速递股份有限公司关于5%以上股东大宗交易减持股份计划的公告",
+        "公告类型": "股东/实际控制人股份减持",
+        "公告日期": "2026-03-19",
+        "网址": "https://data.eastmoney.com/notices/detail/600233/AN202603181820629599.html"
+      }
+    },
+    {
+      "ticker": "601156",
+      "company_name": "东航物流",
+      "title": "东航物流:东航物流关于5%以上股东减持股份计划公告",
+      "announcement_type": "股东/实际控制人股份减持",
+      "publish_date": "2026-03-19",
+      "link": "",
+      "source": "akshare.stock_notice_report",
+      "raw": {
+        "代码": "601156",
+        "名称": "东航物流",
+        "公告标题": "东航物流:东航物流关于5%以上股东减持股份计划公告",
+        "公告类型": "股东/实际控制人股份减持",
+        "公告日期": "2026-03-19",
+        "网址": "https://data.eastmoney.com/notices/detail/601156/AN202603181820629598.html"
+      }
+    },
+    {
+      "ticker": "002422",
+      "company_name": "科伦药业",
+      "title": "科伦药业:关于子公司核心产品芦康沙妥珠单抗(sac-TMT)于2025年欧洲肺癌大会上公布的研究成果的公告",
+      "announcement_type": "其他",
+      "publish_date": "2026-03-19",
+      "link": "",
+      "source": "akshare.stock_notice_report",
+      "raw": {
+        "代码": "002422",
+        "名称": "科伦药业",
+        "公告标题": "科伦药业:关于子公司核心产品芦康沙妥珠单抗(sac-TMT)于2025年欧洲肺癌大会上公布的研究成果的公告",
+        "公告类型": "其他",
+        "公告日期": "2026-03-19",
+        "网址": "https://data.eastmoney.com/notices/detail/002422/AN202603181820626857.html"
+      }
+    },
+    {
+      "ticker": "002130",
+      "company_name": "沃尔核材",
+      "title": "沃尔核材:H股公告:关于按照《香港上市规则》公布董事会会议召开日期的公告",
+      "announcement_type": "其他",
+      "publish_date": "2026-03-19",
+      "link": "",
+      "source": "akshare.stock_notice_report",
+      "raw": {
+        "代码": "002130",
+        "名称": "沃尔核材",
+        "公告标题": "沃尔核材:H股公告:关于按照《香港上市规则》公布董事会会议召开日期的公告",
+        "公告类型": "其他",
+        "公告日期": "2026-03-19",
+        "网址": "https://data.eastmoney.com/notices/detail/002130/AN202603181820626646.html"
+      }
+    },
+    {
+      "ticker": "002130",
+      "company_name": "沃尔核材",
+      "title": "沃尔核材:H股公告:关于按照《香港上市规则》公布以电子方式发布公司通讯之安排的公告",
+      "announcement_type": "其他",
+      "publish_date": "2026-03-19",
+      "link": "",
+      "source": "akshare.stock_notice_report",
+      "raw": {
+        "代码": "002130",
+        "名称": "沃尔核材",
+        "公告标题": "沃尔核材:H股公告:关于按照《香港上市规则》公布以电子方式发布公司通讯之安排的公告",
+        "公告类型": "其他",
+        "公告日期": "2026-03-19",
+        "网址": "https://data.eastmoney.com/notices/detail/002130/AN202603181820626650.html"
+      }
+    },
+    {
+      "ticker": "600688",
+      "company_name": "上海石化",
+      "title": "上海石化:上海石化2025年度独立董事述职报告-陈海峰",
+      "announcement_type": "独立董事述职报告",
+      "publish_date": "2026-03-19",
+      "link": "",
+      "source": "akshare.stock_notice_report",
+      "raw": {
+        "代码": "600688",
+        "名称": "上海石化",
+        "公告标题": "上海石化:上海石化2025年度独立董事述职报告-陈海峰",
+        "公告类型": "独立董事述职报告",
+        "公告日期": "2026-03-19",
+        "网址": "https://data.eastmoney.com/notices/detail/600688/AN202603181820626477.html"
+      }
+    },
+    {
+      "ticker": "600688",
+      "company_name": "上海石化",
+      "title": "上海石化:上海石化审计与合规管理委员会2025年履职情况报告",
+      "announcement_type": "专项说明/独立意见",
+      "publish_date": "2026-03-19",
+      "link": "",
+      "source": "akshare.stock_notice_report",
+      "raw": {
+        "代码": "600688",
+        "名称": "上海石化",
+        "公告标题": "上海石化:上海石化审计与合规管理委员会2025年履职情况报告",
+        "公告类型": "专项说明/独立意见",
+        "公告日期": "2026-03-19",
+        "网址": "https://data.eastmoney.com/notices/detail/600688/AN202603181820626482.html"
+      }
+    },
+    {
+      "ticker": "600688",
+      "company_name": "上海石化",
+      "title": "上海石化:上海石化2025年度独立董事述职报告-唐松",
+      "announcement_type": "独立董事述职报告",
+      "publish_date": "2026-03-19",
+      "link": "",
+      "source": "akshare.stock_notice_report",
+      "raw": {
+        "代码": "600688",
+        "名称": "上海石化",
+        "公告标题": "上海石化:上海石化2025年度独立董事述职报告-唐松",
+        "公告类型": "独立董事述职报告",
+        "公告日期": "2026-03-19",
+        "网址": "https://data.eastmoney.com/notices/detail/600688/AN202603181820626465.html"
+      }
+    },
+    {
+      "ticker": "600688",
+      "company_name": "上海石化",
+      "title": "上海石化:上海石化2025年度独立董事述职报告-周颖",
+      "announcement_type": "独立董事述职报告",
+      "publish_date": "2026-03-19",
+      "link": "",
+      "source": "akshare.stock_notice_report",
+      "raw": {
+        "代码": "600688",
+        "名称": "上海石化",
+        "公告标题": "上海石化:上海石化2025年度独立董事述职报告-周颖",
+        "公告类型": "独立董事述职报告",
+        "公告日期": "2026-03-19",
+        "网址": "https://data.eastmoney.com/notices/detail/600688/AN202603181820626472.html"
+      }
+    },
+    {
+      "ticker": "600688",
+      "company_name": "上海石化",
+      "title": "上海石化:上海石化第十一届董事会第二十六次会议决议公告",
+      "announcement_type": "董事会决议公告",
+      "publish_date": "2026-03-19",
+      "link": "",
+      "source": "akshare.stock_notice_report",
+      "raw": {
+        "代码": "600688",
+        "名称": "上海石化",
+        "公告标题": "上海石化:上海石化第十一届董事会第二十六次会议决议公告",
+        "公告类型": "董事会决议公告",
+        "公告日期": "2026-03-19",
+        "网址": "https://data.eastmoney.com/notices/detail/600688/AN202603181820626480.html"
+      }
+    },
+    {
+      "ticker": "600688",
+      "company_name": "上海石化",
+      "title": "上海石化:上海石化2025年度A股利润分配预案公告",
+      "announcement_type": "分配预案",
+      "publish_date": "2026-03-19",
+      "link": "",
+      "source": "akshare.stock_notice_report",
+      "raw": {
+        "代码": "600688",
+        "名称": "上海石化",
+        "公告标题": "上海石化:上海石化2025年度A股利润分配预案公告",
+        "公告类型": "分配预案",
+        "公告日期": "2026-03-19",
+        "网址": "https://data.eastmoney.com/notices/detail/600688/AN202603181820626473.html"
+      }
+    },
+    {
+      "ticker": "600688",
+      "company_name": "上海石化",
+      "title": "上海石化:上海石化关于计提资产减值准备的公告",
+      "announcement_type": "其他",
+      "publish_date": "2026-03-19",
+      "link": "",
+      "source": "akshare.stock_notice_report",
+      "raw": {
+        "代码": "600688",
+        "名称": "上海石化",
+        "公告标题": "上海石化:上海石化关于计提资产减值准备的公告",
+        "公告类型": "其他",
+        "公告日期": "2026-03-19",
+        "网址": "https://data.eastmoney.com/notices/detail/600688/AN202603181820626476.html"
+      }
+    },
+    {
+      "ticker": "600688",
+      "company_name": "上海石化",
+      "title": "上海石化:上海石化关于2026年度开展金融衍生品业务的公告",
+      "announcement_type": "其他",
+      "publish_date": "2026-03-19",
+      "link": "",
+      "source": "akshare.stock_notice_report",
+      "raw": {
+        "代码": "600688",
+        "名称": "上海石化",
+        "公告标题": "上海石化:上海石化关于2026年度开展金融衍生品业务的公告",
+        "公告类型": "其他",
+        "公告日期": "2026-03-19",
+        "网址": "https://data.eastmoney.com/notices/detail/600688/AN202603181820626479.html"
+      }
+    },
+    {
+      "ticker": "600688",
+      "company_name": "上海石化",
+      "title": "上海石化:上海石化2025年度独立董事述职报告-杨钧",
+      "announcement_type": "独立董事述职报告",
+      "publish_date": "2026-03-19",
+      "link": "",
+      "source": "akshare.stock_notice_report",
+      "raw": {
+        "代码": "600688",
+        "名称": "上海石化",
+        "公告标题": "上海石化:上海石化2025年度独立董事述职报告-杨钧",
+        "公告类型": "独立董事述职报告",
+        "公告日期": "2026-03-19",
+        "网址": "https://data.eastmoney.com/notices/detail/600688/AN202603181820626486.html"
+      }
+    },
+    {
+      "ticker": "600688",
+      "company_name": "上海石化",
+      "title": "上海石化:上海石化2025年度营业收入扣除情况的专项报告",
+      "announcement_type": "其他",
+      "publish_date": "2026-03-19",
+      "link": "",
+      "source": "akshare.stock_notice_report",
+      "raw": {
+        "代码": "600688",
+        "名称": "上海石化",
+        "公告标题": "上海石化:上海石化2025年度营业收入扣除情况的专项报告",
+        "公告类型": "其他",
+        "公告日期": "2026-03-19",
+        "网址": "https://data.eastmoney.com/notices/detail/600688/AN202603181820626489.html"
+      }
+    },
+    {
+      "ticker": "600688",
+      "company_name": "上海石化",
+      "title": "上海石化:上海石化关于2025年度“提质增效重回报”行动方案的评估报告",
+      "announcement_type": "其他",
+      "publish_date": "2026-03-19",
+      "link": "",
+      "source": "akshare.stock_notice_report",
+      "raw": {
+        "代码": "600688",
+        "名称": "上海石化",
+        "公告标题": "上海石化:上海石化关于2025年度“提质增效重回报”行动方案的评估报告",
+        "公告类型": "其他",
+        "公告日期": "2026-03-19",
+        "网址": "https://data.eastmoney.com/notices/detail/600688/AN202603181820626487.html"
+      }
+    },
+    {
+      "ticker": "600688",
+      "company_name": "上海石化",
+      "title": "上海石化:董事会关于2025年度独立非执行董事独立性评估的专项意见",
+      "announcement_type": "专项说明/独立意见",
+      "publish_date": "2026-03-19",
+      "link": "",
+      "source": "akshare.stock_notice_report",
+      "raw": {
+        "代码": "600688",
+        "名称": "上海石化",
+        "公告标题": "上海石化:董事会关于2025年度独立非执行董事独立性评估的专项意见",
+        "公告类型": "专项说明/独立意见",
+        "公告日期": "2026-03-19",
+        "网址": "https://data.eastmoney.com/notices/detail/600688/AN202603181820626467.html"
+      }
+    },
+    {
+      "ticker": "600688",
+      "company_name": "上海石化",
+      "title": "上海石化:上海石化董事会审计与合规管理委员会对2025年度会计师事务所履行监督职责情况的报告",
+      "announcement_type": "保荐/核查意见",
+      "publish_date": "2026-03-19",
+      "link": "",
+      "source": "akshare.stock_notice_report",
+      "raw": {
+        "代码": "600688",
+        "名称": "上海石化",
+        "公告标题": "上海石化:上海石化董事会审计与合规管理委员会对2025年度会计师事务所履行监督职责情况的报告",
+        "公告类型": "保荐/核查意见",
+        "公告日期": "2026-03-19",
+        "网址": "https://data.eastmoney.com/notices/detail/600688/AN202603181820626469.html"
+      }
+    },
+    {
+      "ticker": "600688",
+      "company_name": "上海石化",
+      "title": "上海石化:上海石化对2025年度会计师事务所履职情况的评估报告",
+      "announcement_type": "其他",
+      "publish_date": "2026-03-19",
+      "link": "",
+      "source": "akshare.stock_notice_report",
+      "raw": {
+        "代码": "600688",
+        "名称": "上海石化",
+        "公告标题": "上海石化:上海石化对2025年度会计师事务所履职情况的评估报告",
+        "公告类型": "其他",
+        "公告日期": "2026-03-19",
+        "网址": "https://data.eastmoney.com/notices/detail/600688/AN202603181820626478.html"
+      }
+    },
+    {
+      "ticker": "600688",
+      "company_name": "上海石化",
+      "title": "上海石化:上海石化关于续聘会计师事务所的公告",
+      "announcement_type": "审计机构变更",
+      "publish_date": "2026-03-19",
+      "link": "",
+      "source": "akshare.stock_notice_report",
+      "raw": {
+        "代码": "600688",
+        "名称": "上海石化",
+        "公告标题": "上海石化:上海石化关于续聘会计师事务所的公告",
+        "公告类型": "审计机构变更",
+        "公告日期": "2026-03-19",
+        "网址": "https://data.eastmoney.com/notices/detail/600688/AN202603181820626481.html"
+      }
+    },
+    {
+      "ticker": "600688",
+      "company_name": "上海石化",
+      "title": "上海石化:上海石化2025年度环境、社会和公司治理报告",
+      "announcement_type": "ESG公告",
+      "publish_date": "2026-03-19",
+      "link": "",
+      "source": "akshare.stock_notice_report",
+      "raw": {
+        "代码": "600688",
+        "名称": "上海石化",
+        "公告标题": "上海石化:上海石化2025年度环境、社会和公司治理报告",
+        "公告类型": "ESG公告",
+        "公告日期": "2026-03-19",
+        "网址": "https://data.eastmoney.com/notices/detail/600688/AN202603181820626475.html"
+      }
+    },
+    {
+      "ticker": "600688",
+      "company_name": "上海石化",
+      "title": "上海石化:上海石化2025年年度报告",
+      "announcement_type": "年度报告全文",
+      "publish_date": "2026-03-19",
+      "link": "",
+      "source": "akshare.stock_notice_report",
+      "raw": {
+        "代码": "600688",
+        "名称": "上海石化",
+        "公告标题": "上海石化:上海石化2025年年度报告",
+        "公告类型": "年度报告全文",
+        "公告日期": "2026-03-19",
+        "网址": "https://data.eastmoney.com/notices/detail/600688/AN202603181820626483.html"
+      }
+    },
+    {
+      "ticker": "600688",
+      "company_name": "上海石化",
+      "title": "上海石化:上海石化2025年度环境、社会和公司治理报告摘要",
+      "announcement_type": "年度报告摘要",
+      "publish_date": "2026-03-19",
+      "link": "",
+      "source": "akshare.stock_notice_report",
+      "raw": {
+        "代码": "600688",
+        "名称": "上海石化",
+        "公告标题": "上海石化:上海石化2025年度环境、社会和公司治理报告摘要",
+        "公告类型": "年度报告摘要",
+        "公告日期": "2026-03-19",
+        "网址": "https://data.eastmoney.com/notices/detail/600688/AN202603181820626488.html"
+      }
+    },
+    {
+      "ticker": "600688",
+      "company_name": "上海石化",
+      "title": "上海石化:上海石化2025年度非经营性资金占用及其他关联资金往来情况的专项报告",
+      "announcement_type": "其他",
+      "publish_date": "2026-03-19",
+      "link": "",
+      "source": "akshare.stock_notice_report",
+      "raw": {
+        "代码": "600688",
+        "名称": "上海石化",
+        "公告标题": "上海石化:上海石化2025年度非经营性资金占用及其他关联资金往来情况的专项报告",
+        "公告类型": "其他",
+        "公告日期": "2026-03-19",
+        "网址": "https://data.eastmoney.com/notices/detail/600688/AN202603181820626484.html"
+      }
+    },
+    {
+      "ticker": "600688",
+      "company_name": "上海石化",
+      "title": "上海石化:上海石化2025年年度报告摘要",
+      "announcement_type": "年度报告摘要",
+      "publish_date": "2026-03-19",
+      "link": "",
+      "source": "akshare.stock_notice_report",
+      "raw": {
+        "代码": "600688",
+        "名称": "上海石化",
+        "公告标题": "上海石化:上海石化2025年年度报告摘要",
+        "公告类型": "年度报告摘要",
+        "公告日期": "2026-03-19",
+        "网址": "https://data.eastmoney.com/notices/detail/600688/AN202603181820626470.html"
+      }
+    },
+    {
+      "ticker": "600688",
+      "company_name": "上海石化",
+      "title": "上海石化:上海石化2025年度涉及财务公司关联交易的存款、贷款等金融业务汇总表的专项报告",
+      "announcement_type": "其他",
+      "publish_date": "2026-03-19",
+      "link": "",
+      "source": "akshare.stock_notice_report",
+      "raw": {
+        "代码": "600688",
+        "名称": "上海石化",
+        "公告标题": "上海石化:上海石化2025年度涉及财务公司关联交易的存款、贷款等金融业务汇总表的专项报告",
+        "公告类型": "其他",
+        "公告日期": "2026-03-19",
+        "网址": "https://data.eastmoney.com/notices/detail/600688/AN202603181820626464.html"
+      }
+    },
+    {
+      "ticker": "600688",
+      "company_name": "上海石化",
+      "title": "上海石化:上海石化关于与中国石化财务有限责任公司关联交易的风险持续评估报告",
+      "announcement_type": "其他",
+      "publish_date": "2026-03-19",
+      "link": "",
+      "source": "akshare.stock_notice_report",
+      "raw": {
+        "代码": "600688",
+        "名称": "上海石化",
+        "公告标题": "上海石化:上海石化关于与中国石化财务有限责任公司关联交易的风险持续评估报告",
+        "公告类型": "其他",
+        "公告日期": "2026-03-19",
+        "网址": "https://data.eastmoney.com/notices/detail/600688/AN202603181820626485.html"
+      }
+    },
+    {
+      "ticker": "601800",
+      "company_name": "中国交建",
+      "title": "中国交建:中国交建第六届董事会第二次会议决议公告",
+      "announcement_type": "董事会决议公告",
+      "publish_date": "2026-03-19",
+      "link": "",
+      "source": "akshare.stock_notice_report",
+      "raw": {
+        "代码": "601800",
+        "名称": "中国交建",
+        "公告标题": "中国交建:中国交建第六届董事会第二次会议决议公告",
+        "公告类型": "董事会决议公告",
+        "公告日期": "2026-03-19",
+        "网址": "https://data.eastmoney.com/notices/detail/601800/AN202603181820626064.html"
+      }
+    },
+    {
+      "ticker": "601800",
+      "company_name": "中国交建",
+      "title": "中国交建:中国交建关于回购注销2022年限制性股票激励计划部分限制性股票的公告",
+      "announcement_type": "回购进展情况",
+      "publish_date": "2026-03-19",
+      "link": "",
+      "source": "akshare.stock_notice_report",
+      "raw": {
+        "代码": "601800",
+        "名称": "中国交建",
+        "公告标题": "中国交建:中国交建关于回购注销2022年限制性股票激励计划部分限制性股票的公告",
+        "公告类型": "回购进展情况",
+        "公告日期": "2026-03-19",
+        "网址": "https://data.eastmoney.com/notices/detail/601800/AN202603181820626065.html"
+      }
+    },
+    {
+      "ticker": "601800",
+      "company_name": "中国交建",
+      "title": "中国交建:中国交建关于2022年限制性股票激励计划预留部分第一次解除限售条件成就公告",
+      "announcement_type": "限售股份上市流通",
+      "publish_date": "2026-03-19",
+      "link": "",
+      "source": "akshare.stock_notice_report",
+      "raw": {
+        "代码": "601800",
+        "名称": "中国交建",
+        "公告标题": "中国交建:中国交建关于2022年限制性股票激励计划预留部分第一次解除限售条件成就公告",
+        "公告类型": "限售股份上市流通",
+        "公告日期": "2026-03-19",
+        "网址": "https://data.eastmoney.com/notices/detail/601800/AN202603181820626062.html"
+      }
+    },
+    {
+      "ticker": "601800",
+      "company_name": "中国交建",
+      "title": "中国交建:中国交建2022年限制性股票激励计划回购部分限制性股票及调整回购价格的法律意见书",
+      "announcement_type": "法律意见书",
+      "publish_date": "2026-03-19",
+      "link": "",
+      "source": "akshare.stock_notice_report",
+      "raw": {
+        "代码": "601800",
+        "名称": "中国交建",
+        "公告标题": "中国交建:中国交建2022年限制性股票激励计划回购部分限制性股票及调整回购价格的法律意见书",
+        "公告类型": "法律意见书",
+        "公告日期": "2026-03-19",
+        "网址": "https://data.eastmoney.com/notices/detail/601800/AN202603181820626061.html"
+      }
+    },
+    {
+      "ticker": "688396",
+      "company_name": "华润微",
+      "title": "华润微:关于公司2021年第二类限制性股票激励计划预留部分第二个归属期归属结果暨股份上市公告",
+      "announcement_type": "限售股份上市流通",
+      "publish_date": "2026-03-19",
+      "link": "",
+      "source": "akshare.stock_notice_report",
+      "raw": {
+        "代码": "688396",
+        "名称": "华润微",
+        "公告标题": "华润微:关于公司2021年第二类限制性股票激励计划预留部分第二个归属期归属结果暨股份上市公告",
+        "公告类型": "限售股份上市流通",
+        "公告日期": "2026-03-19",
+        "网址": "https://data.eastmoney.com/notices/detail/688396/AN202603181820625965.html"
+      }
+    },
+    {
+      "ticker": "688018",
+      "company_name": "乐鑫科技",
+      "title": "乐鑫科技:乐鑫科技2026年第一次临时股东会会议材料",
+      "announcement_type": "股东大会资料",
+      "publish_date": "2026-03-19",
+      "link": "",
+      "source": "akshare.stock_notice_report",
+      "raw": {
+        "代码": "688018",
+        "名称": "乐鑫科技",
+        "公告标题": "乐鑫科技:乐鑫科技2026年第一次临时股东会会议材料",
+        "公告类型": "股东大会资料",
+        "公告日期": "2026-03-19",
+        "网址": "https://data.eastmoney.com/notices/detail/688018/AN202603181820625735.html"
+      }
+    },
+    {
+      "ticker": "688008",
+      "company_name": "澜起科技",
+      "title": "澜起科技:H股公告-董事会会议召开日期",
+      "announcement_type": "其他",
+      "publish_date": "2026-03-19",
+      "link": "",
+      "source": "akshare.stock_notice_report",
+      "raw": {
+        "代码": "688008",
+        "名称": "澜起科技",
+        "公告标题": "澜起科技:H股公告-董事会会议召开日期",
+        "公告类型": "其他",
+        "公告日期": "2026-03-19",
+        "网址": "https://data.eastmoney.com/notices/detail/688008/AN202603181820625702.html"
+      }
+    },
+    {
+      "ticker": "001389",
+      "company_name": "广合科技",
+      "title": "广合科技:关于境外上市外资股(H股)公开发行价格的公告",
+      "announcement_type": "其他",
+      "publish_date": "2026-03-19",
+      "link": "",
+      "source": "akshare.stock_notice_report",
+      "raw": {
+        "代码": "001389",
+        "名称": "广合科技",
+        "公告标题": "广合科技:关于境外上市外资股(H股)公开发行价格的公告",
+        "公告类型": "其他",
+        "公告日期": "2026-03-19",
+        "网址": "https://data.eastmoney.com/notices/detail/001389/AN202603181820625546.html"
+      }
+    },
+    {
+      "ticker": "603993",
+      "company_name": "洛阳钼业",
+      "title": "洛阳钼业:洛阳钼业关于对下属子公司及合营公司提供担保的公告",
+      "announcement_type": "提供/对外担保公告",
+      "publish_date": "2026-03-19",
+      "link": "",
+      "source": "akshare.stock_notice_report",
+      "raw": {
+        "代码": "603993",
+        "名称": "洛阳钼业",
+        "公告标题": "洛阳钼业:洛阳钼业关于对下属子公司及合营公司提供担保的公告",
+        "公告类型": "提供/对外担保公告",
+        "公告日期": "2026-03-19",
+        "网址": "https://data.eastmoney.com/notices/detail/603993/AN202603181820625472.html"
+      }
+    },
+    {
+      "ticker": "601136",
+      "company_name": "首创证券",
+      "title": "首创证券:关于国有股份无偿划转完成过户登记的公告",
+      "announcement_type": "股权转让",
+      "publish_date": "2026-03-19",
+      "link": "",
+      "source": "akshare.stock_notice_report",
+      "raw": {
+        "代码": "601136",
+        "名称": "首创证券",
+        "公告标题": "首创证券:关于国有股份无偿划转完成过户登记的公告",
+        "公告类型": "股权转让",
+        "公告日期": "2026-03-19",
+        "网址": "https://data.eastmoney.com/notices/detail/601136/AN202603181820625455.html"
+      }
+    },
+    {
+      "ticker": "002126",
+      "company_name": "银轮股份",
+      "title": "银轮股份:关于控股子公司江苏朗信电气股份有限公司披露2025年年度报告的提示性公告",
+      "announcement_type": "其他",
+      "publish_date": "2026-03-19",
+      "link": "",
+      "source": "akshare.stock_notice_report",
+      "raw": {
+        "代码": "002126",
+        "名称": "银轮股份",
+        "公告标题": "银轮股份:关于控股子公司江苏朗信电气股份有限公司披露2025年年度报告的提示性公告",
+        "公告类型": "其他",
+        "公告日期": "2026-03-19",
+        "网址": "https://data.eastmoney.com/notices/detail/002126/AN202603181820625382.html"
+      }
+    },
+    {
+      "ticker": "688082",
+      "company_name": "盛美上海",
+      "title": "盛美上海:关于向特定对象发行股票限售股上市流通的公告",
+      "announcement_type": "限售股份上市流通",
+      "publish_date": "2026-03-19",
+      "link": "",
+      "source": "akshare.stock_notice_report",
+      "raw": {
+        "代码": "688082",
+        "名称": "盛美上海",
+        "公告标题": "盛美上海:关于向特定对象发行股票限售股上市流通的公告",
+        "公告类型": "限售股份上市流通",
+        "公告日期": "2026-03-19",
+        "网址": "https://data.eastmoney.com/notices/detail/688082/AN202603181820625327.html"
+      }
+    },
+    {
+      "ticker": "688082",
+      "company_name": "盛美上海",
+      "title": "盛美上海:国泰海通证券股份有限公司关于盛美半导体设备(上海)股份有限公司向特定对象发行股票限售股上市流通的核查意见",
+      "announcement_type": "保荐/核查意见",
+      "publish_date": "2026-03-19",
+      "link": "",
+      "source": "akshare.stock_notice_report",
+      "raw": {
+        "代码": "688082",
+        "名称": "盛美上海",
+        "公告标题": "盛美上海:国泰海通证券股份有限公司关于盛美半导体设备(上海)股份有限公司向特定对象发行股票限售股上市流通的核查意见",
+        "公告类型": "保荐/核查意见",
+        "公告日期": "2026-03-19",
+        "网址": "https://data.eastmoney.com/notices/detail/688082/AN202603181820625328.html"
+      }
+    },
+    {
+      "ticker": "001979",
+      "company_name": "招商蛇口",
+      "title": "招商蛇口:关于聘任公司副总经理的公告",
+      "announcement_type": "高管人员任职变动",
+      "publish_date": "2026-03-19",
+      "link": "",
+      "source": "akshare.stock_notice_report",
+      "raw": {
+        "代码": "001979",
+        "名称": "招商蛇口",
+        "公告标题": "招商蛇口:关于聘任公司副总经理的公告",
+        "公告类型": "高管人员任职变动",
+        "公告日期": "2026-03-19",
+        "网址": "https://data.eastmoney.com/notices/detail/001979/AN202603181820625296.html"
+      }
+    },
+    {
+      "ticker": "001979",
+      "company_name": "招商蛇口",
+      "title": "招商蛇口:第四届董事会2026年第二次临时会议决议公告",
+      "announcement_type": "高管人员任职变动",
+      "publish_date": "2026-03-19",
+      "link": "",
+      "source": "akshare.stock_notice_report",
+      "raw": {
+        "代码": "001979",
+        "名称": "招商蛇口",
+        "公告标题": "招商蛇口:第四届董事会2026年第二次临时会议决议公告",
+        "公告类型": "高管人员任职变动",
+        "公告日期": "2026-03-19",
+        "网址": "https://data.eastmoney.com/notices/detail/001979/AN202603181820625300.html"
+      }
+    },
+    {
+      "ticker": "002920",
+      "company_name": "德赛西威",
+      "title": "德赛西威:中信证券股份有限公司关于惠州市德赛西威汽车电子股份有限公司2025年持续督导培训情况报告",
+      "announcement_type": "保荐/核查意见",
+      "publish_date": "2026-03-19",
+      "link": "",
+      "source": "akshare.stock_notice_report",
+      "raw": {
+        "代码": "002920",
+        "名称": "德赛西威",
+        "公告标题": "德赛西威:中信证券股份有限公司关于惠州市德赛西威汽车电子股份有限公司2025年持续督导培训情况报告",
+        "公告类型": "保荐/核查意见",
+        "公告日期": "2026-03-19",
+        "网址": "https://data.eastmoney.com/notices/detail/002920/AN202603181820625297.html"
+      }
+    },
+    {
+      "ticker": "300142",
+      "company_name": "沃森生物",
+      "title": "沃森生物:关于2026年度向特定对象发行股票摊薄即期回报、填补措施及相关主体承诺的公告",
+      "announcement_type": "其他",
+      "publish_date": "2026-03-19",
+      "link": "",
+      "source": "akshare.stock_notice_report",
+      "raw": {
+        "代码": "300142",
+        "名称": "沃森生物",
+        "公告标题": "沃森生物:关于2026年度向特定对象发行股票摊薄即期回报、填补措施及相关主体承诺的公告",
+        "公告类型": "其他",
+        "公告日期": "2026-03-19",
+        "网址": "https://data.eastmoney.com/notices/detail/300142/AN202603181820625265.html"
+      }
+    },
+    {
+      "ticker": "300142",
+      "company_name": "沃森生物",
+      "title": "沃森生物:2026年度向特定对象发行A股股票预案",
+      "announcement_type": "增发预案",
+      "publish_date": "2026-03-19",
+      "link": "",
+      "source": "akshare.stock_notice_report",
+      "raw": {
+        "代码": "300142",
+        "名称": "沃森生物",
+        "公告标题": "沃森生物:2026年度向特定对象发行A股股票预案",
+        "公告类型": "增发预案",
+        "公告日期": "2026-03-19",
+        "网址": "https://data.eastmoney.com/notices/detail/300142/AN202603181820625274.html"
+      }
+    },
+    {
+      "ticker": "300142",
+      "company_name": "沃森生物",
+      "title": "沃森生物:第六届董事会第三次会议决议公告",
+      "announcement_type": "增发预案",
+      "publish_date": "2026-03-19",
+      "link": "",
+      "source": "akshare.stock_notice_report",
+      "raw": {
+        "代码": "300142",
+        "名称": "沃森生物",
+        "公告标题": "沃森生物:第六届董事会第三次会议决议公告",
+        "公告类型": "增发预案",
+        "公告日期": "2026-03-19",
+        "网址": "https://data.eastmoney.com/notices/detail/300142/AN202603181820625267.html"
+      }
+    },
+    {
+      "ticker": "300142",
+      "company_name": "沃森生物",
+      "title": "沃森生物:关于向特定对象发行A股股票涉及关联交易事项暨与特定对象签署附条件生效的股份认购协议的公告",
+      "announcement_type": "签订协议",
+      "publish_date": "2026-03-19",
+      "link": "",
+      "source": "akshare.stock_notice_report",
+      "raw": {
+        "代码": "300142",
+        "名称": "沃森生物",
+        "公告标题": "沃森生物:关于向特定对象发行A股股票涉及关联交易事项暨与特定对象签署附条件生效的股份认购协议的公告",
+        "公告类型": "签订协议",
+        "公告日期": "2026-03-19",
+        "网址": "https://data.eastmoney.com/notices/detail/300142/AN202603181820625260.html"
+      }
+    },
+    {
+      "ticker": "300142",
+      "company_name": "沃森生物",
+      "title": "沃森生物:关于公司最近五年被证券监管部门和证券交易所采取监管措施或处罚情况的公告",
+      "announcement_type": "处罚",
+      "publish_date": "2026-03-19",
+      "link": "",
+      "source": "akshare.stock_notice_report",
+      "raw": {
+        "代码": "300142",
+        "名称": "沃森生物",
+        "公告标题": "沃森生物:关于公司最近五年被证券监管部门和证券交易所采取监管措施或处罚情况的公告",
+        "公告类型": "处罚",
+        "公告日期": "2026-03-19",
+        "网址": "https://data.eastmoney.com/notices/detail/300142/AN202603181820625276.html"
+      }
+    },
+    {
+      "ticker": "300142",
+      "company_name": "沃森生物",
+      "title": "沃森生物:2026年度向特定对象发行股票方案论证分析报告",
+      "announcement_type": "其他",
+      "publish_date": "2026-03-19",
+      "link": "",
+      "source": "akshare.stock_notice_report",
+      "raw": {
+        "代码": "300142",
+        "名称": "沃森生物",
+        "公告标题": "沃森生物:2026年度向特定对象发行股票方案论证分析报告",
+        "公告类型": "其他",
+        "公告日期": "2026-03-19",
+        "网址": "https://data.eastmoney.com/notices/detail/300142/AN202603181820625278.html"
+      }
+    },
+    {
+      "ticker": "300142",
+      "company_name": "沃森生物",
+      "title": "沃森生物:关于公司股东签署《共同投资暨一致行动协议》及公司签署《附条件生效的股份认购协议》暨控股股东、实际控制人拟发生变更的提示性公告",
+      "announcement_type": "签订协议",
+      "publish_date": "2026-03-19",
+      "link": "",
+      "source": "akshare.stock_notice_report",
+      "raw": {
+        "代码": "300142",
+        "名称": "沃森生物",
+        "公告标题": "沃森生物:关于公司股东签署《共同投资暨一致行动协议》及公司签署《附条件生效的股份认购协议》暨控股股东、实际控制人拟发生变更的提示性公告",
+        "公告类型": "签订协议",
+        "公告日期": "2026-03-19",
+        "网址": "https://data.eastmoney.com/notices/detail/300142/AN202603181820625275.html"
+      }
+    },
+    {
+      "ticker": "300142",
+      "company_name": "沃森生物",
+      "title": "沃森生物:关于本次向特定对象发行A股股票不存在直接或通过利益相关方向参与认购的投资者提供财务资助或补偿的公告",
+      "announcement_type": "获得补贴（资助）",
+      "publish_date": "2026-03-19",
+      "link": "",
+      "source": "akshare.stock_notice_report",
+      "raw": {
+        "代码": "300142",
+        "名称": "沃森生物",
+        "公告标题": "沃森生物:关于本次向特定对象发行A股股票不存在直接或通过利益相关方向参与认购的投资者提供财务资助或补偿的公告",
+        "公告类型": "获得补贴（资助）",
+        "公告日期": "2026-03-19",
+        "网址": "https://data.eastmoney.com/notices/detail/300142/AN202603181820625261.html"
+      }
+    },
+    {
+      "ticker": "300142",
+      "company_name": "沃森生物",
+      "title": "沃森生物:关于无需编制前次募集资金使用情况报告的公告",
+      "announcement_type": "募集资金使用情况报告",
+      "publish_date": "2026-03-19",
+      "link": "",
+      "source": "akshare.stock_notice_report",
+      "raw": {
+        "代码": "300142",
+        "名称": "沃森生物",
+        "公告标题": "沃森生物:关于无需编制前次募集资金使用情况报告的公告",
+        "公告类型": "募集资金使用情况报告",
+        "公告日期": "2026-03-19",
+        "网址": "https://data.eastmoney.com/notices/detail/300142/AN202603181820625268.html"
+      }
+    },
+    {
+      "ticker": "300142",
+      "company_name": "沃森生物",
+      "title": "沃森生物:关于公司2026年度向特定对象发行A股股票预案披露的提示性公告",
+      "announcement_type": "增发提示性公告",
+      "publish_date": "2026-03-19",
+      "link": "",
+      "source": "akshare.stock_notice_report",
+      "raw": {
+        "代码": "300142",
+        "名称": "沃森生物",
+        "公告标题": "沃森生物:关于公司2026年度向特定对象发行A股股票预案披露的提示性公告",
+        "公告类型": "增发提示性公告",
+        "公告日期": "2026-03-19",
+        "网址": "https://data.eastmoney.com/notices/detail/300142/AN202603181820625270.html"
+      }
+    },
+    {
+      "ticker": "300142",
+      "company_name": "沃森生物",
+      "title": "沃森生物:2026年度向特定对象发行A股股票募集资金使用可行性分析报告",
+      "announcement_type": "其他",
+      "publish_date": "2026-03-19",
+      "link": "",
+      "source": "akshare.stock_notice_report",
+      "raw": {
+        "代码": "300142",
+        "名称": "沃森生物",
+        "公告标题": "沃森生物:2026年度向特定对象发行A股股票募集资金使用可行性分析报告",
+        "公告类型": "其他",
+        "公告日期": "2026-03-19",
+        "网址": "https://data.eastmoney.com/notices/detail/300142/AN202603181820625263.html"
+      }
+    },
+    {
+      "ticker": "300142",
+      "company_name": "沃森生物",
+      "title": "沃森生物:未来三年股东回报规划(2026-2028年)",
+      "announcement_type": "其他",
+      "publish_date": "2026-03-19",
+      "link": "",
+      "source": "akshare.stock_notice_report",
+      "raw": {
+        "代码": "300142",
+        "名称": "沃森生物",
+        "公告标题": "沃森生物:未来三年股东回报规划(2026-2028年)",
+        "公告类型": "其他",
+        "公告日期": "2026-03-19",
+        "网址": "https://data.eastmoney.com/notices/detail/300142/AN202603181820625272.html"
+      }
+    },
+    {
+      "ticker": "300142",
+      "company_name": "沃森生物",
+      "title": "沃森生物:独立董事关于公司2026年度向特定对象发行股票方案论证分析报告的专项意见",
+      "announcement_type": "专项说明/独立意见",
+      "publish_date": "2026-03-19",
+      "link": "",
+      "source": "akshare.stock_notice_report",
+      "raw": {
+        "代码": "300142",
+        "名称": "沃森生物",
+        "公告标题": "沃森生物:独立董事关于公司2026年度向特定对象发行股票方案论证分析报告的专项意见",
+        "公告类型": "专项说明/独立意见",
+        "公告日期": "2026-03-19",
+        "网址": "https://data.eastmoney.com/notices/detail/300142/AN202603181820625269.html"
+      }
+    },
+    {
+      "ticker": "002273",
+      "company_name": "水晶光电",
+      "title": "水晶光电:关于第九期员工持股计划完成非交易过户的公告",
+      "announcement_type": "员工持股计划",
+      "publish_date": "2026-03-19",
+      "link": "",
+      "source": "akshare.stock_notice_report",
+      "raw": {
+        "代码": "002273",
+        "名称": "水晶光电",
+        "公告标题": "水晶光电:关于第九期员工持股计划完成非交易过户的公告",
+        "公告类型": "员工持股计划",
+        "公告日期": "2026-03-19",
+        "网址": "https://data.eastmoney.com/notices/detail/002273/AN202603181820625230.html"
+      }
+    },
+    {
+      "ticker": "002273",
+      "company_name": "水晶光电",
+      "title": "水晶光电:第九期员工持股计划第一次持有人会议决议公告",
+      "announcement_type": "员工持股计划",
+      "publish_date": "2026-03-19",
+      "link": "",
+      "source": "akshare.stock_notice_report",
+      "raw": {
+        "代码": "002273",
+        "名称": "水晶光电",
+        "公告标题": "水晶光电:第九期员工持股计划第一次持有人会议决议公告",
+        "公告类型": "员工持股计划",
+        "公告日期": "2026-03-19",
+        "网址": "https://data.eastmoney.com/notices/detail/002273/AN202603181820625228.html"
+      }
+    },
+    {
+      "ticker": "603816",
+      "company_name": "顾家家居",
+      "title": "顾家家居:关于高级管理人员减持股份计划的公告",
+      "announcement_type": "高管人员持股变动",
+      "publish_date": "2026-03-19",
+      "link": "",
+      "source": "akshare.stock_notice_report",
+      "raw": {
+        "代码": "603816",
+        "名称": "顾家家居",
+        "公告标题": "顾家家居:关于高级管理人员减持股份计划的公告",
+        "公告类型": "高管人员持股变动",
+        "公告日期": "2026-03-19",
+        "网址": "https://data.eastmoney.com/notices/detail/603816/AN202603181820624973.html"
+      }
+    },
+    {
+      "ticker": "000301",
+      "company_name": "东方盛虹",
+      "title": "东方盛虹:关于完成工商变更登记的公告",
+      "announcement_type": "公司注册资本变更",
+      "publish_date": "2026-03-19",
+      "link": "",
+      "source": "akshare.stock_notice_report",
+      "raw": {
+        "代码": "000301",
+        "名称": "东方盛虹",
+        "公告标题": "东方盛虹:关于完成工商变更登记的公告",
+        "公告类型": "公司注册资本变更",
+        "公告日期": "2026-03-19",
+        "网址": "https://data.eastmoney.com/notices/detail/000301/AN202603181820624924.html"
+      }
+    },
+    {
+      "ticker": "601658",
+      "company_name": "邮储银行",
+      "title": "邮储银行:中国国际金融股份有限公司、中信证券股份有限公司关于中国邮政储蓄银行股份有限公司非公开发行A股股票限售股上市流通的核查意见",
+      "announcement_type": "保荐/核查意见",
+      "publish_date": "2026-03-19",
+      "link": "",
+      "source": "akshare.stock_notice_report",
+      "raw": {
+        "代码": "601658",
+        "名称": "邮储银行",
+        "公告标题": "邮储银行:中国国际金融股份有限公司、中信证券股份有限公司关于中国邮政储蓄银行股份有限公司非公开发行A股股票限售股上市流通的核查意见",
+        "公告类型": "保荐/核查意见",
+        "公告日期": "2026-03-19",
+        "网址": "https://data.eastmoney.com/notices/detail/601658/AN202603181820624759.html"
+      }
+    },
+    {
+      "ticker": "601658",
+      "company_name": "邮储银行",
+      "title": "邮储银行:中国邮政储蓄银行股份有限公司非公开发行A股股票限售股上市流通公告",
+      "announcement_type": "限售股份上市流通",
+      "publish_date": "2026-03-19",
+      "link": "",
+      "source": "akshare.stock_notice_report",
+      "raw": {
+        "代码": "601658",
+        "名称": "邮储银行",
+        "公告标题": "邮储银行:中国邮政储蓄银行股份有限公司非公开发行A股股票限售股上市流通公告",
+        "公告类型": "限售股份上市流通",
+        "公告日期": "2026-03-19",
+        "网址": "https://data.eastmoney.com/notices/detail/601658/AN202603181820624756.html"
+      }
+    },
+    {
+      "ticker": "600959",
+      "company_name": "江苏有线",
+      "title": "江苏有线:江苏有线第六届董事会第十七次会议决议公告",
+      "announcement_type": "董事会决议公告",
+      "publish_date": "2026-03-19",
+      "link": "",
+      "source": "akshare.stock_notice_report",
+      "raw": {
+        "代码": "600959",
+        "名称": "江苏有线",
+        "公告标题": "江苏有线:江苏有线第六届董事会第十七次会议决议公告",
+        "公告类型": "董事会决议公告",
+        "公告日期": "2026-03-19",
+        "网址": "https://data.eastmoney.com/notices/detail/600959/AN202603181820624755.html"
+      }
+    },
+    {
+      "ticker": "600959",
+      "company_name": "江苏有线",
+      "title": "江苏有线:江苏有线关于控股股东增持进展暨增持计划调整的公告",
+      "announcement_type": "股东/实际控制人股份增持",
+      "publish_date": "2026-03-19",
+      "link": "",
+      "source": "akshare.stock_notice_report",
+      "raw": {
+        "代码": "600959",
+        "名称": "江苏有线",
+        "公告标题": "江苏有线:江苏有线关于控股股东增持进展暨增持计划调整的公告",
+        "公告类型": "股东/实际控制人股份增持",
+        "公告日期": "2026-03-19",
+        "网址": "https://data.eastmoney.com/notices/detail/600959/AN202603181820624758.html"
+      }
+    },
+    {
+      "ticker": "601991",
+      "company_name": "大唐发电",
+      "title": "大唐发电:大唐发电关于超短期融资券发行的公告",
+      "announcement_type": "其他",
+      "publish_date": "2026-03-19",
+      "link": "",
+      "source": "akshare.stock_notice_report",
+      "raw": {
+        "代码": "601991",
+        "名称": "大唐发电",
+        "公告标题": "大唐发电:大唐发电关于超短期融资券发行的公告",
+        "公告类型": "其他",
+        "公告日期": "2026-03-19",
+        "网址": "https://data.eastmoney.com/notices/detail/601991/AN202603181820624495.html"
+      }
+    },
+    {
+      "ticker": "600298",
+      "company_name": "安琪酵母",
+      "title": "安琪酵母:安琪酵母股份有限公司关于宜昌高新区公司实施白洋生物科技园项目二期的公告",
+      "announcement_type": "对外项目投资",
+      "publish_date": "2026-03-19",
+      "link": "",
+      "source": "akshare.stock_notice_report",
+      "raw": {
+        "代码": "600298",
+        "名称": "安琪酵母",
+        "公告标题": "安琪酵母:安琪酵母股份有限公司关于宜昌高新区公司实施白洋生物科技园项目二期的公告",
+        "公告类型": "对外项目投资",
+        "公告日期": "2026-03-19",
+        "网址": "https://data.eastmoney.com/notices/detail/600298/AN202603181820624585.html"
+      }
+    },
+    {
+      "ticker": "600298",
+      "company_name": "安琪酵母",
+      "title": "安琪酵母:安琪酵母股份有限公司第十届董事会第十一次会议决议公告",
+      "announcement_type": "董事会决议公告",
+      "publish_date": "2026-03-19",
+      "link": "",
+      "source": "akshare.stock_notice_report",
+      "raw": {
+        "代码": "600298",
+        "名称": "安琪酵母",
+        "公告标题": "安琪酵母:安琪酵母股份有限公司第十届董事会第十一次会议决议公告",
+        "公告类型": "董事会决议公告",
+        "公告日期": "2026-03-19",
+        "网址": "https://data.eastmoney.com/notices/detail/600298/AN202603181820624586.html"
+      }
+    },
+    {
+      "ticker": "002568",
+      "company_name": "百润股份",
+      "title": "百润股份:关于可转换公司债券转股价格调整的公告",
+      "announcement_type": "其他",
+      "publish_date": "2026-03-19",
+      "link": "",
+      "source": "akshare.stock_notice_report",
+      "raw": {
+        "代码": "002568",
+        "名称": "百润股份",
+        "公告标题": "百润股份:关于可转换公司债券转股价格调整的公告",
+        "公告类型": "其他",
+        "公告日期": "2026-03-19",
+        "网址": "https://data.eastmoney.com/notices/detail/002568/AN202603181820624481.html"
+      }
+    },
+    {
+      "ticker": "002568",
+      "company_name": "百润股份",
+      "title": "百润股份:关于部分已回购股份注销完成暨股份变动的公告",
+      "announcement_type": "股本变动",
+      "publish_date": "2026-03-19",
+      "link": "",
+      "source": "akshare.stock_notice_report",
+      "raw": {
+        "代码": "002568",
+        "名称": "百润股份",
+        "公告标题": "百润股份:关于部分已回购股份注销完成暨股份变动的公告",
+        "公告类型": "股本变动",
+        "公告日期": "2026-03-19",
+        "网址": "https://data.eastmoney.com/notices/detail/002568/AN202603181820624482.html"
+      }
+    },
+    {
+      "ticker": "601238",
+      "company_name": "广汽集团",
+      "title": "广汽集团:广汽集团关于2026年度第三期绿色科技创新债券发行结果的公告",
+      "announcement_type": "其他",
+      "publish_date": "2026-03-19",
+      "link": "",
+      "source": "akshare.stock_notice_report",
+      "raw": {
+        "代码": "601238",
+        "名称": "广汽集团",
+        "公告标题": "广汽集团:广汽集团关于2026年度第三期绿色科技创新债券发行结果的公告",
+        "公告类型": "其他",
+        "公告日期": "2026-03-19",
+        "网址": "https://data.eastmoney.com/notices/detail/601238/AN202603181820624364.html"
+      }
+    },
+    {
+      "ticker": "601888",
+      "company_name": "中国中免",
+      "title": "中国中免:H股公告-董事会会议召开日期",
+      "announcement_type": "其他",
+      "publish_date": "2026-03-19",
+      "link": "",
+      "source": "akshare.stock_notice_report",
+      "raw": {
+        "代码": "601888",
+        "名称": "中国中免",
+        "公告标题": "中国中免:H股公告-董事会会议召开日期",
+        "公告类型": "其他",
+        "公告日期": "2026-03-19",
+        "网址": "https://data.eastmoney.com/notices/detail/601888/AN202603181820624322.html"
+      }
+    },
+    {
+      "ticker": "600521",
+      "company_name": "华海药业",
+      "title": "华海药业:浙江华海药业股份有限公司关于子公司HB0025注射液启动子宫内膜癌III期临床试验的公告",
+      "announcement_type": "其他",
+      "publish_date": "2026-03-19",
+      "link": "",
+      "source": "akshare.stock_notice_report",
+      "raw": {
+        "代码": "600521",
+        "名称": "华海药业",
+        "公告标题": "华海药业:浙江华海药业股份有限公司关于子公司HB0025注射液启动子宫内膜癌III期临床试验的公告",
+        "公告类型": "其他",
+        "公告日期": "2026-03-19",
+        "网址": "https://data.eastmoney.com/notices/detail/600521/AN202603181820624220.html"
+      }
+    },
+    {
+      "ticker": "003816",
+      "company_name": "中国广核",
+      "title": "中国广核:关于公司2026年度第三期及第四期超短期融资券发行完成的公告",
+      "announcement_type": "其他",
+      "publish_date": "2026-03-19",
+      "link": "",
+      "source": "akshare.stock_notice_report",
+      "raw": {
+        "代码": "003816",
+        "名称": "中国广核",
+        "公告标题": "中国广核:关于公司2026年度第三期及第四期超短期融资券发行完成的公告",
+        "公告类型": "其他",
+        "公告日期": "2026-03-19",
+        "网址": "https://data.eastmoney.com/notices/detail/003816/AN202603181820624104.html"
+      }
+    },
+    {
+      "ticker": "601688",
+      "company_name": "华泰证券",
+      "title": "华泰证券:华泰证券H股公告(董事会召开日期)",
+      "announcement_type": "其他",
+      "publish_date": "2026-03-19",
+      "link": "",
+      "source": "akshare.stock_notice_report",
+      "raw": {
+        "代码": "601688",
+        "名称": "华泰证券",
+        "公告标题": "华泰证券:华泰证券H股公告(董事会召开日期)",
+        "公告类型": "其他",
+        "公告日期": "2026-03-19",
+        "网址": "https://data.eastmoney.com/notices/detail/601688/AN202603181820623965.html"
+      }
+    },
+    {
+      "ticker": "600699",
+      "company_name": "均胜电子",
+      "title": "均胜电子:H股公告(董事会会议日期)",
+      "announcement_type": "其他",
+      "publish_date": "2026-03-19",
+      "link": "",
+      "source": "akshare.stock_notice_report",
+      "raw": {
+        "代码": "600699",
+        "名称": "均胜电子",
+        "公告标题": "均胜电子:H股公告(董事会会议日期)",
+        "公告类型": "其他",
+        "公告日期": "2026-03-19",
+        "网址": "https://data.eastmoney.com/notices/detail/600699/AN202603181820623792.html"
+      }
+    },
+    {
+      "ticker": "601618",
+      "company_name": "中国中冶",
+      "title": "中国中冶:中国中冶H股公告(董事会会议通告)",
+      "announcement_type": "其他",
+      "publish_date": "2026-03-19",
+      "link": "",
+      "source": "akshare.stock_notice_report",
+      "raw": {
+        "代码": "601618",
+        "名称": "中国中冶",
+        "公告标题": "中国中冶:中国中冶H股公告(董事会会议通告)",
+        "公告类型": "其他",
+        "公告日期": "2026-03-19",
+        "网址": "https://data.eastmoney.com/notices/detail/601618/AN202603181820623766.html"
+      }
+    },
+    {
+      "ticker": "601127",
+      "company_name": "赛力斯",
+      "title": "赛力斯:H股公告(董事会会议召开日期)",
+      "announcement_type": "其他",
+      "publish_date": "2026-03-19",
+      "link": "",
+      "source": "akshare.stock_notice_report",
+      "raw": {
+        "代码": "601127",
+        "名称": "赛力斯",
+        "公告标题": "赛力斯:H股公告(董事会会议召开日期)",
+        "公告类型": "其他",
+        "公告日期": "2026-03-19",
+        "网址": "https://data.eastmoney.com/notices/detail/601127/AN202603181820623742.html"
+      }
+    },
+    {
+      "ticker": "600016",
+      "company_name": "民生银行",
+      "title": "民生银行:H股公告-董事会会议召开日期的公告",
+      "announcement_type": "其他",
+      "publish_date": "2026-03-19",
+      "link": "",
+      "source": "akshare.stock_notice_report",
+      "raw": {
+        "代码": "600016",
+        "名称": "民生银行",
+        "公告标题": "民生银行:H股公告-董事会会议召开日期的公告",
+        "公告类型": "其他",
+        "公告日期": "2026-03-19",
+        "网址": "https://data.eastmoney.com/notices/detail/600016/AN202603181820623587.html"
+      }
+    },
+    {
+      "ticker": "601198",
+      "company_name": "东兴证券",
+      "title": "东兴证券:东兴证券股份有限公司2025年度第四期短期融资券兑付完成的公告",
+      "announcement_type": "其他",
+      "publish_date": "2026-03-19",
+      "link": "",
+      "source": "akshare.stock_notice_report",
+      "raw": {
+        "代码": "601198",
+        "名称": "东兴证券",
+        "公告标题": "东兴证券:东兴证券股份有限公司2025年度第四期短期融资券兑付完成的公告",
+        "公告类型": "其他",
+        "公告日期": "2026-03-19",
+        "网址": "https://data.eastmoney.com/notices/detail/601198/AN202603181820623565.html"
+      }
+    },
+    {
+      "ticker": "601288",
+      "company_name": "农业银行",
+      "title": "农业银行:农业银行H股公告(董事會會議召開日期)",
+      "announcement_type": "其他",
+      "publish_date": "2026-03-19",
+      "link": "",
+      "source": "akshare.stock_notice_report",
+      "raw": {
+        "代码": "601288",
+        "名称": "农业银行",
+        "公告标题": "农业银行:农业银行H股公告(董事會會議召開日期)",
+        "公告类型": "其他",
+        "公告日期": "2026-03-19",
+        "网址": "https://data.eastmoney.com/notices/detail/601288/AN202603181820623299.html"
+      }
+    },
+    {
+      "ticker": "600208",
+      "company_name": "衢州发展",
+      "title": "衢州发展:2026年第一次临时股东会决议公告",
+      "announcement_type": "股东大会决议公告",
+      "publish_date": "2026-03-19",
+      "link": "",
+      "source": "akshare.stock_notice_report",
+      "raw": {
+        "代码": "600208",
+        "名称": "衢州发展",
+        "公告标题": "衢州发展:2026年第一次临时股东会决议公告",
+        "公告类型": "股东大会决议公告",
+        "公告日期": "2026-03-19",
+        "网址": "https://data.eastmoney.com/notices/detail/600208/AN202603181820623323.html"
+      }
+    },
+    {
+      "ticker": "600309",
+      "company_name": "万华化学",
+      "title": "万华化学:万华化学2026年度第三期科技创新债券发行结果公告",
+      "announcement_type": "其他",
+      "publish_date": "2026-03-19",
+      "link": "",
+      "source": "akshare.stock_notice_report",
+      "raw": {
+        "代码": "600309",
+        "名称": "万华化学",
+        "公告标题": "万华化学:万华化学2026年度第三期科技创新债券发行结果公告",
+        "公告类型": "其他",
+        "公告日期": "2026-03-19",
+        "网址": "https://data.eastmoney.com/notices/detail/600309/AN202603181820623106.html"
+      }
+    },
+    {
+      "ticker": "600309",
+      "company_name": "万华化学",
+      "title": "万华化学:万华化学烟台产业园PDH装置停产检修公告",
+      "announcement_type": "其他",
+      "publish_date": "2026-03-19",
+      "link": "",
+      "source": "akshare.stock_notice_report",
+      "raw": {
+        "代码": "600309",
+        "名称": "万华化学",
+        "公告标题": "万华化学:万华化学烟台产业园PDH装置停产检修公告",
+        "公告类型": "其他",
+        "公告日期": "2026-03-19",
+        "网址": "https://data.eastmoney.com/notices/detail/600309/AN202603181820623105.html"
+      }
+    },
+    {
+      "ticker": "601997",
+      "company_name": "贵阳银行",
+      "title": "贵阳银行:贵阳银行股份有限公司第六届董事会2026年度第一次会议决议公告",
+      "announcement_type": "高管人员任职变动",
+      "publish_date": "2026-03-19",
+      "link": "",
+      "source": "akshare.stock_notice_report",
+      "raw": {
+        "代码": "601997",
+        "名称": "贵阳银行",
+        "公告标题": "贵阳银行:贵阳银行股份有限公司第六届董事会2026年度第一次会议决议公告",
+        "公告类型": "高管人员任职变动",
+        "公告日期": "2026-03-19",
+        "网址": "https://data.eastmoney.com/notices/detail/601997/AN202603181820623039.html"
+      }
+    },
+    {
+      "ticker": "601689",
+      "company_name": "拓普集团",
+      "title": "拓普集团:拓普集团与私募基金合作投资事项进展公告",
+      "announcement_type": "对外项目投资",
+      "publish_date": "2026-03-19",
+      "link": "",
+      "source": "akshare.stock_notice_report",
+      "raw": {
+        "代码": "601689",
+        "名称": "拓普集团",
+        "公告标题": "拓普集团:拓普集团与私募基金合作投资事项进展公告",
+        "公告类型": "对外项目投资",
+        "公告日期": "2026-03-19",
+        "网址": "https://data.eastmoney.com/notices/detail/601689/AN202603181820622841.html"
+      }
+    },
+    {
+      "ticker": "605499",
+      "company_name": "东鹏饮料",
+      "title": "东鹏饮料:H股公告-董事会会议通告",
+      "announcement_type": "其他",
+      "publish_date": "2026-03-19",
+      "link": "",
+      "source": "akshare.stock_notice_report",
+      "raw": {
+        "代码": "605499",
+        "名称": "东鹏饮料",
+        "公告标题": "东鹏饮料:H股公告-董事会会议通告",
+        "公告类型": "其他",
+        "公告日期": "2026-03-19",
+        "网址": "https://data.eastmoney.com/notices/detail/605499/AN202603181820622730.html"
+      }
+    },
+    {
+      "ticker": "600663",
+      "company_name": "陆家嘴",
+      "title": "陆家嘴:关于控股子公司涉及诉讼的进展公告",
+      "announcement_type": "诉讼仲裁",
+      "publish_date": "2026-03-19",
+      "link": "",
+      "source": "akshare.stock_notice_report",
+      "raw": {
+        "代码": "600663",
+        "名称": "陆家嘴",
+        "公告标题": "陆家嘴:关于控股子公司涉及诉讼的进展公告",
+        "公告类型": "诉讼仲裁",
+        "公告日期": "2026-03-19",
+        "网址": "https://data.eastmoney.com/notices/detail/600663/AN202603181820622661.html"
+      }
+    },
+    {
+      "ticker": "688019",
+      "company_name": "安集科技",
+      "title": "安集科技:关于实施“安集转债”赎回暨摘牌的第四次提示性公告",
+      "announcement_type": "其他",
+      "publish_date": "2026-03-19",
+      "link": "",
+      "source": "akshare.stock_notice_report",
+      "raw": {
+        "代码": "688019",
+        "名称": "安集科技",
+        "公告标题": "安集科技:关于实施“安集转债”赎回暨摘牌的第四次提示性公告",
+        "公告类型": "其他",
+        "公告日期": "2026-03-19",
+        "网址": "https://data.eastmoney.com/notices/detail/688019/AN202603181820622624.html"
+      }
+    },
+    {
+      "ticker": "601717",
+      "company_name": "中创智领",
+      "title": "中创智领:中创智领H股公告-董事会召开日期",
+      "announcement_type": "其他",
+      "publish_date": "2026-03-19",
+      "link": "",
+      "source": "akshare.stock_notice_report",
+      "raw": {
+        "代码": "601717",
+        "名称": "中创智领",
+        "公告标题": "中创智领:中创智领H股公告-董事会召开日期",
+        "公告类型": "其他",
+        "公告日期": "2026-03-19",
+        "网址": "https://data.eastmoney.com/notices/detail/601717/AN202603181820622499.html"
+      }
+    },
+    {
+      "ticker": "600143",
+      "company_name": "金发科技",
+      "title": "金发科技:金发科技关于子公司通过高新技术企业重新认定的公告",
+      "announcement_type": "其他",
+      "publish_date": "2026-03-19",
+      "link": "",
+      "source": "akshare.stock_notice_report",
+      "raw": {
+        "代码": "600143",
+        "名称": "金发科技",
+        "公告标题": "金发科技:金发科技关于子公司通过高新技术企业重新认定的公告",
+        "公告类型": "其他",
+        "公告日期": "2026-03-19",
+        "网址": "https://data.eastmoney.com/notices/detail/600143/AN202603181820622467.html"
+      }
+    },
+    {
+      "ticker": "603392",
+      "company_name": "万泰生物",
+      "title": "万泰生物:万泰生物关于使用部分闲置募集资金进行现金管理到期赎回并继续进行现金管理的公告",
+      "announcement_type": "投资理财",
+      "publish_date": "2026-03-19",
+      "link": "",
+      "source": "akshare.stock_notice_report",
+      "raw": {
+        "代码": "603392",
+        "名称": "万泰生物",
+        "公告标题": "万泰生物:万泰生物关于使用部分闲置募集资金进行现金管理到期赎回并继续进行现金管理的公告",
+        "公告类型": "投资理财",
+        "公告日期": "2026-03-19",
+        "网址": "https://data.eastmoney.com/notices/detail/603392/AN202603181820622469.html"
+      }
+    },
+    {
+      "ticker": "603501",
+      "company_name": "豪威集团",
+      "title": "豪威集团:H股公告-董事会召开日期",
+      "announcement_type": "其他",
+      "publish_date": "2026-03-19",
+      "link": "",
+      "source": "akshare.stock_notice_report",
+      "raw": {
+        "代码": "603501",
+        "名称": "豪威集团",
+        "公告标题": "豪威集团:H股公告-董事会召开日期",
+        "公告类型": "其他",
+        "公告日期": "2026-03-19",
+        "网址": "https://data.eastmoney.com/notices/detail/603501/AN202603181820622393.html"
+      }
+    },
+    {
+      "ticker": "601988",
+      "company_name": "中国银行",
+      "title": "中国银行:H股公告-董事会召开日期",
+      "announcement_type": "其他",
+      "publish_date": "2026-03-19",
+      "link": "",
+      "source": "akshare.stock_notice_report",
+      "raw": {
+        "代码": "601988",
+        "名称": "中国银行",
+        "公告标题": "中国银行:H股公告-董事会召开日期",
+        "公告类型": "其他",
+        "公告日期": "2026-03-19",
+        "网址": "https://data.eastmoney.com/notices/detail/601988/AN202603181820622377.html"
+      }
+    },
+    {
+      "ticker": "603341",
+      "company_name": "龙旗科技",
+      "title": "龙旗科技:H股公告-董事会会议召开日期",
+      "announcement_type": "其他",
+      "publish_date": "2026-03-19",
+      "link": "",
+      "source": "akshare.stock_notice_report",
+      "raw": {
+        "代码": "603341",
+        "名称": "龙旗科技",
+        "公告标题": "龙旗科技:H股公告-董事会会议召开日期",
+        "公告类型": "其他",
+        "公告日期": "2026-03-19",
+        "网址": "https://data.eastmoney.com/notices/detail/603341/AN202603181820622332.html"
+      }
+    },
+    {
+      "ticker": "601916",
+      "company_name": "浙商银行",
+      "title": "浙商银行:浙商银行H股公告(董事会召开日期)",
+      "announcement_type": "其他",
+      "publish_date": "2026-03-19",
+      "link": "",
+      "source": "akshare.stock_notice_report",
+      "raw": {
+        "代码": "601916",
+        "名称": "浙商银行",
+        "公告标题": "浙商银行:浙商银行H股公告(董事会召开日期)",
+        "公告类型": "其他",
+        "公告日期": "2026-03-19",
+        "网址": "https://data.eastmoney.com/notices/detail/601916/AN202603181820622298.html"
+      }
+    },
+    {
+      "ticker": "002603",
+      "company_name": "以岭药业",
+      "title": "以岭药业:关于全资孙公司收到化学原料药上市申请批准通知书的公告",
+      "announcement_type": "其他",
+      "publish_date": "2026-03-19",
+      "link": "",
+      "source": "akshare.stock_notice_report",
+      "raw": {
+        "代码": "002603",
+        "名称": "以岭药业",
+        "公告标题": "以岭药业:关于全资孙公司收到化学原料药上市申请批准通知书的公告",
+        "公告类型": "其他",
+        "公告日期": "2026-03-19",
+        "网址": "https://data.eastmoney.com/notices/detail/002603/AN202603181820622235.html"
+      }
+    },
+    {
+      "ticker": "600406",
+      "company_name": "国电南瑞",
+      "title": "国电南瑞:国电南瑞关于部分募集资金专户完成销户的公告",
+      "announcement_type": "募集资金使用情况报告",
+      "publish_date": "2026-03-19",
+      "link": "",
+      "source": "akshare.stock_notice_report",
+      "raw": {
+        "代码": "600406",
+        "名称": "国电南瑞",
+        "公告标题": "国电南瑞:国电南瑞关于部分募集资金专户完成销户的公告",
+        "公告类型": "募集资金使用情况报告",
+        "公告日期": "2026-03-19",
+        "网址": "https://data.eastmoney.com/notices/detail/600406/AN202603181820622112.html"
+      }
+    },
+    {
+      "ticker": "000703",
+      "company_name": "恒逸石化",
+      "title": "恒逸石化:关于提前赎回“恒逸转债”暨即将停止交易的重要提示性公告",
+      "announcement_type": "其他",
+      "publish_date": "2026-03-19",
+      "link": "",
+      "source": "akshare.stock_notice_report",
+      "raw": {
+        "代码": "000703",
+        "名称": "恒逸石化",
+        "公告标题": "恒逸石化:关于提前赎回“恒逸转债”暨即将停止交易的重要提示性公告",
+        "公告类型": "其他",
+        "公告日期": "2026-03-19",
+        "网址": "https://data.eastmoney.com/notices/detail/000703/AN202603181820622066.html"
+      }
+    },
+    {
+      "ticker": "002465",
+      "company_name": "海格通信",
+      "title": "海格通信:关于2026年度第一期中期票据发行情况的公告",
+      "announcement_type": "其他",
+      "publish_date": "2026-03-19",
+      "link": "",
+      "source": "akshare.stock_notice_report",
+      "raw": {
+        "代码": "002465",
+        "名称": "海格通信",
+        "公告标题": "海格通信:关于2026年度第一期中期票据发行情况的公告",
+        "公告类型": "其他",
+        "公告日期": "2026-03-19",
+        "网址": "https://data.eastmoney.com/notices/detail/002465/AN202603181820622065.html"
+      }
+    },
+    {
+      "ticker": "688052",
+      "company_name": "纳芯微",
+      "title": "纳芯微:H股公告-董事会会议日期",
+      "announcement_type": "其他",
+      "publish_date": "2026-03-19",
+      "link": "",
+      "source": "akshare.stock_notice_report",
+      "raw": {
+        "代码": "688052",
+        "名称": "纳芯微",
+        "公告标题": "纳芯微:H股公告-董事会会议日期",
+        "公告类型": "其他",
+        "公告日期": "2026-03-19",
+        "网址": "https://data.eastmoney.com/notices/detail/688052/AN202603181820622017.html"
+      }
+    },
+    {
+      "ticker": "000034",
+      "company_name": "神州数码",
+      "title": "神州数码:关于为子公司担保的进展公告",
+      "announcement_type": "提供/对外担保公告",
+      "publish_date": "2026-03-19",
+      "link": "",
+      "source": "akshare.stock_notice_report",
+      "raw": {
+        "代码": "000034",
+        "名称": "神州数码",
+        "公告标题": "神州数码:关于为子公司担保的进展公告",
+        "公告类型": "提供/对外担保公告",
+        "公告日期": "2026-03-19",
+        "网址": "https://data.eastmoney.com/notices/detail/000034/AN202603181820621996.html"
+      }
+    },
+    {
+      "ticker": "601881",
+      "company_name": "中国银河",
+      "title": "中国银河:董事会会议通告",
+      "announcement_type": "其他",
+      "publish_date": "2026-03-19",
+      "link": "",
+      "source": "akshare.stock_notice_report",
+      "raw": {
+        "代码": "601881",
+        "名称": "中国银河",
+        "公告标题": "中国银河:董事会会议通告",
+        "公告类型": "其他",
+        "公告日期": "2026-03-19",
+        "网址": "https://data.eastmoney.com/notices/detail/601881/AN202603181820621934.html"
+      }
+    },
+    {
+      "ticker": "601390",
+      "company_name": "中国中铁",
+      "title": "中国中铁:中国中铁H股公告(董事會會議召開日期)",
+      "announcement_type": "其他",
+      "publish_date": "2026-03-19",
+      "link": "",
+      "source": "akshare.stock_notice_report",
+      "raw": {
+        "代码": "601390",
+        "名称": "中国中铁",
+        "公告标题": "中国中铁:中国中铁H股公告(董事會會議召開日期)",
+        "公告类型": "其他",
+        "公告日期": "2026-03-19",
+        "网址": "https://data.eastmoney.com/notices/detail/601390/AN202603181820621933.html"
+      }
+    },
+    {
+      "ticker": "601995",
+      "company_name": "中金公司",
+      "title": "中金公司:中金公司H股公告(董事会会议通告)",
+      "announcement_type": "其他",
+      "publish_date": "2026-03-19",
+      "link": "",
+      "source": "akshare.stock_notice_report",
+      "raw": {
+        "代码": "601995",
+        "名称": "中金公司",
+        "公告标题": "中金公司:中金公司H股公告(董事会会议通告)",
+        "公告类型": "其他",
+        "公告日期": "2026-03-19",
+        "网址": "https://data.eastmoney.com/notices/detail/601995/AN202603181820621740.html"
+      }
+    },
+    {
+      "ticker": "601688",
+      "company_name": "华泰证券",
+      "title": "华泰证券:华泰证券股份有限公司关于间接全资子公司根据中期票据计划进行发行并由全资子公司提供担保的公告",
+      "announcement_type": "提供/对外担保公告",
+      "publish_date": "2026-03-19",
+      "link": "",
+      "source": "akshare.stock_notice_report",
+      "raw": {
+        "代码": "601688",
+        "名称": "华泰证券",
+        "公告标题": "华泰证券:华泰证券股份有限公司关于间接全资子公司根据中期票据计划进行发行并由全资子公司提供担保的公告",
+        "公告类型": "提供/对外担保公告",
+        "公告日期": "2026-03-19",
+        "网址": "https://data.eastmoney.com/notices/detail/601688/AN202603181820621597.html"
+      }
+    },
+    {
+      "ticker": "601898",
+      "company_name": "中煤能源",
+      "title": "中煤能源:中国中煤能源股份有限公司2026年2月份主要生产经营数据公告",
+      "announcement_type": "月度经营情况",
+      "publish_date": "2026-03-19",
+      "link": "",
+      "source": "akshare.stock_notice_report",
+      "raw": {
+        "代码": "601898",
+        "名称": "中煤能源",
+        "公告标题": "中煤能源:中国中煤能源股份有限公司2026年2月份主要生产经营数据公告",
+        "公告类型": "月度经营情况",
+        "公告日期": "2026-03-19",
+        "网址": "https://data.eastmoney.com/notices/detail/601898/AN202603181820621590.html"
+      }
+    },
+    {
+      "ticker": "600765",
+      "company_name": "中航重机",
+      "title": "中航重机:中航重机关于部分董事及高级管理人员增持股份计划的进展公告",
+      "announcement_type": "高管人员持股变动",
+      "publish_date": "2026-03-19",
+      "link": "",
+      "source": "akshare.stock_notice_report",
+      "raw": {
+        "代码": "600765",
+        "名称": "中航重机",
+        "公告标题": "中航重机:中航重机关于部分董事及高级管理人员增持股份计划的进展公告",
+        "公告类型": "高管人员持股变动",
+        "公告日期": "2026-03-19",
+        "网址": "https://data.eastmoney.com/notices/detail/600765/AN202603181820621351.html"
+      }
+    },
+    {
+      "ticker": "601818",
+      "company_name": "光大银行",
+      "title": "光大银行:中国光大银行股份有限公司H股公告(關於召開董事會會議的通知)",
+      "announcement_type": "其他",
+      "publish_date": "2026-03-19",
+      "link": "",
+      "source": "akshare.stock_notice_report",
+      "raw": {
+        "代码": "601818",
+        "名称": "光大银行",
+        "公告标题": "光大银行:中国光大银行股份有限公司H股公告(關於召開董事會會議的通知)",
+        "公告类型": "其他",
+        "公告日期": "2026-03-19",
+        "网址": "https://data.eastmoney.com/notices/detail/601818/AN202603181820621249.html"
+      }
+    },
+    {
+      "ticker": "603341",
+      "company_name": "龙旗科技",
+      "title": "龙旗科技:关于控股股东变更名称及其他工商信息并完成工商变更登记的公告",
+      "announcement_type": "公司关联方基本资料变更",
+      "publish_date": "2026-03-19",
+      "link": "",
+      "source": "akshare.stock_notice_report",
+      "raw": {
+        "代码": "603341",
+        "名称": "龙旗科技",
+        "公告标题": "龙旗科技:关于控股股东变更名称及其他工商信息并完成工商变更登记的公告",
+        "公告类型": "公司关联方基本资料变更",
+        "公告日期": "2026-03-19",
+        "网址": "https://data.eastmoney.com/notices/detail/603341/AN202603181820621098.html"
+      }
+    },
+    {
+      "ticker": "002601",
+      "company_name": "龙佰集团",
+      "title": "龙佰集团:关于出售融资租赁公司股权的进展公告",
+      "announcement_type": "收购出售资产/股权",
+      "publish_date": "2026-03-19",
+      "link": "",
+      "source": "akshare.stock_notice_report",
+      "raw": {
+        "代码": "002601",
+        "名称": "龙佰集团",
+        "公告标题": "龙佰集团:关于出售融资租赁公司股权的进展公告",
+        "公告类型": "收购出售资产/股权",
+        "公告日期": "2026-03-19",
+        "网址": "https://data.eastmoney.com/notices/detail/002601/AN202603181820621095.html"
+      }
+    },
+    {
+      "ticker": "600989",
+      "company_name": "宝丰能源",
+      "title": "宝丰能源:宁夏宝丰能源集团股份有限公司2025年年度股东会会议资料",
+      "announcement_type": "股东大会资料",
+      "publish_date": "2026-03-19",
+      "link": "",
+      "source": "akshare.stock_notice_report",
+      "raw": {
+        "代码": "600989",
+        "名称": "宝丰能源",
+        "公告标题": "宝丰能源:宁夏宝丰能源集团股份有限公司2025年年度股东会会议资料",
+        "公告类型": "股东大会资料",
+        "公告日期": "2026-03-19",
+        "网址": "https://data.eastmoney.com/notices/detail/600989/AN202603181820621044.html"
+      }
+    },
+    {
+      "ticker": "603806",
+      "company_name": "福斯特",
+      "title": "福斯特:关于使用闲置募集资金进行现金管理的进展公告",
+      "announcement_type": "募集资金使用进展情况",
+      "publish_date": "2026-03-19",
+      "link": "",
+      "source": "akshare.stock_notice_report",
+      "raw": {
+        "代码": "603806",
+        "名称": "福斯特",
+        "公告标题": "福斯特:关于使用闲置募集资金进行现金管理的进展公告",
+        "公告类型": "募集资金使用进展情况",
+        "公告日期": "2026-03-19",
+        "网址": "https://data.eastmoney.com/notices/detail/603806/AN202603181820621019.html"
+      }
+    },
+    {
+      "ticker": "603806",
+      "company_name": "福斯特",
+      "title": "福斯特:关于归还临时补充流动资金的募集资金的公告",
+      "announcement_type": "归还募集资金",
+      "publish_date": "2026-03-19",
+      "link": "",
+      "source": "akshare.stock_notice_report",
+      "raw": {
+        "代码": "603806",
+        "名称": "福斯特",
+        "公告标题": "福斯特:关于归还临时补充流动资金的募集资金的公告",
+        "公告类型": "归还募集资金",
+        "公告日期": "2026-03-19",
+        "网址": "https://data.eastmoney.com/notices/detail/603806/AN202603181820621017.html"
+      }
+    },
+    {
+      "ticker": "002709",
+      "company_name": "天赐材料",
+      "title": "天赐材料:关于2024年股票期权激励计划部分股票期权注销完成的公告",
+      "announcement_type": "股权激励进展公告",
+      "publish_date": "2026-03-19",
+      "link": "",
+      "source": "akshare.stock_notice_report",
+      "raw": {
+        "代码": "002709",
+        "名称": "天赐材料",
+        "公告标题": "天赐材料:关于2024年股票期权激励计划部分股票期权注销完成的公告",
+        "公告类型": "股权激励进展公告",
+        "公告日期": "2026-03-19",
+        "网址": "https://data.eastmoney.com/notices/detail/002709/AN202603181820620945.html"
+      }
+    },
+    {
+      "ticker": "002266",
+      "company_name": "浙富控股",
+      "title": "浙富控股:关于控股股东部分股份质押及解除质押的公告",
+      "announcement_type": "股份质押、冻结",
+      "publish_date": "2026-03-19",
+      "link": "",
+      "source": "akshare.stock_notice_report",
+      "raw": {
+        "代码": "002266",
+        "名称": "浙富控股",
+        "公告标题": "浙富控股:关于控股股东部分股份质押及解除质押的公告",
+        "公告类型": "股份质押、冻结",
+        "公告日期": "2026-03-19",
+        "网址": "https://data.eastmoney.com/notices/detail/002266/AN202603181820620759.html"
+      }
+    },
+    {
+      "ticker": "600282",
+      "company_name": "南钢股份",
+      "title": "南钢股份:南京钢铁股份有限公司为控股子公司提供担保的进展公告",
+      "announcement_type": "提供/对外担保公告",
+      "publish_date": "2026-03-19",
+      "link": "",
+      "source": "akshare.stock_notice_report",
+      "raw": {
+        "代码": "600282",
+        "名称": "南钢股份",
+        "公告标题": "南钢股份:南京钢铁股份有限公司为控股子公司提供担保的进展公告",
+        "公告类型": "提供/对外担保公告",
+        "公告日期": "2026-03-19",
+        "网址": "https://data.eastmoney.com/notices/detail/600282/AN202603181820619721.html"
+      }
+    },
+    {
+      "ticker": "600126",
+      "company_name": "杭钢股份",
+      "title": "杭钢股份:杭州钢铁股份有限公司关于控股股东非公开发行可交换公司债券拟办理持有股份担保及信托登记的公告",
+      "announcement_type": "其他担保公告",
+      "publish_date": "2026-03-19",
+      "link": "",
+      "source": "akshare.stock_notice_report",
+      "raw": {
+        "代码": "600126",
+        "名称": "杭钢股份",
+        "公告标题": "杭钢股份:杭州钢铁股份有限公司关于控股股东非公开发行可交换公司债券拟办理持有股份担保及信托登记的公告",
+        "公告类型": "其他担保公告",
+        "公告日期": "2026-03-19",
+        "网址": "https://data.eastmoney.com/notices/detail/600126/AN202603181820619558.html"
+      }
+    },
+    {
+      "ticker": "600460",
+      "company_name": "士兰微",
+      "title": "士兰微:杭州士兰微电子股份有限公司2026年第一次临时股东会会议资料",
+      "announcement_type": "股东大会资料",
+      "publish_date": "2026-03-19",
+      "link": "",
+      "source": "akshare.stock_notice_report",
+      "raw": {
+        "代码": "600460",
+        "名称": "士兰微",
+        "公告标题": "士兰微:杭州士兰微电子股份有限公司2026年第一次临时股东会会议资料",
+        "公告类型": "股东大会资料",
+        "公告日期": "2026-03-19",
+        "网址": "https://data.eastmoney.com/notices/detail/600460/AN202603181820619505.html"
+      }
+    },
+    {
+      "ticker": "603893",
+      "company_name": "瑞芯微",
+      "title": "瑞芯微:关于调整向全资子公司提供担保的额度的进展公告",
+      "announcement_type": "提供/对外担保公告",
+      "publish_date": "2026-03-19",
+      "link": "",
+      "source": "akshare.stock_notice_report",
+      "raw": {
+        "代码": "603893",
+        "名称": "瑞芯微",
+        "公告标题": "瑞芯微:关于调整向全资子公司提供担保的额度的进展公告",
+        "公告类型": "提供/对外担保公告",
+        "公告日期": "2026-03-19",
+        "网址": "https://data.eastmoney.com/notices/detail/603893/AN202603181820619503.html"
+      }
+    },
+    {
+      "ticker": "600688",
+      "company_name": "上海石化",
+      "title": "上海石化:上海石化2025年度独立董事述职报告-黄江东",
+      "announcement_type": "独立董事述职报告",
+      "publish_date": "2026-03-19",
+      "link": "",
+      "source": "akshare.stock_notice_report",
+      "raw": {
+        "代码": "600688",
+        "名称": "上海石化",
+        "公告标题": "上海石化:上海石化2025年度独立董事述职报告-黄江东",
+        "公告类型": "独立董事述职报告",
+        "公告日期": "2026-03-19",
+        "网址": "https://data.eastmoney.com/notices/detail/600688/AN202603181820626466.html"
+      }
+    },
+    {
+      "ticker": "300142",
+      "company_name": "沃森生物",
+      "title": "沃森生物:关于筹划控制权变更事项进展暨复牌公告",
+      "announcement_type": "复牌公告",
+      "publish_date": "2026-03-19",
+      "link": "",
+      "source": "akshare.stock_notice_report",
+      "raw": {
+        "代码": "300142",
+        "名称": "沃森生物",
+        "公告标题": "沃森生物:关于筹划控制权变更事项进展暨复牌公告",
+        "公告类型": "复牌公告",
+        "公告日期": "2026-03-19",
+        "网址": "https://data.eastmoney.com/notices/detail/300142/AN202603181820625262.html"
+      }
+    },
+    {
+      "ticker": "600406",
+      "company_name": "国电南瑞",
+      "title": "国电南瑞:国电南瑞关于2021年限制性股票激励计划暂缓授予第二期解锁暨上市的公告",
+      "announcement_type": "限售股份上市流通",
+      "publish_date": "2026-03-19",
+      "link": "",
+      "source": "akshare.stock_notice_report",
+      "raw": {
+        "代码": "600406",
+        "名称": "国电南瑞",
+        "公告标题": "国电南瑞:国电南瑞关于2021年限制性股票激励计划暂缓授予第二期解锁暨上市的公告",
+        "公告类型": "限售股份上市流通",
+        "公告日期": "2026-03-19",
+        "网址": "https://data.eastmoney.com/notices/detail/600406/AN202603181820622111.html"
+      }
+    },
+    {
+      "ticker": "601881",
+      "company_name": "中国银河",
+      "title": "中国银河:关于公开发行2021年永续次级债券(第一期)赎回结果暨2026年本息兑付及摘牌的公告",
+      "announcement_type": "其他",
+      "publish_date": "2026-03-19",
+      "link": "",
+      "source": "akshare.stock_notice_report",
+      "raw": {
+        "代码": "601881",
+        "名称": "中国银河",
+        "公告标题": "中国银河:关于公开发行2021年永续次级债券(第一期)赎回结果暨2026年本息兑付及摘牌的公告",
+        "公告类型": "其他",
+        "公告日期": "2026-03-19",
+        "网址": "https://data.eastmoney.com/notices/detail/601881/AN202603181820620976.html"
+      }
+    }
+  ]
+}

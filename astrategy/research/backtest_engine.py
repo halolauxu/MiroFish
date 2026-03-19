@@ -24,6 +24,7 @@ from typing import Any, Dict, List, Optional
 import numpy as np
 import pandas as pd
 
+from astrategy.events.normalizer import normalize_events
 from astrategy.research.metrics import compute_metrics
 
 logger = logging.getLogger("astrategy.research.backtest_engine")
@@ -59,6 +60,10 @@ class ShockBacktestEngine:
         self,
         events: List[Dict[str, Any]],
         skip_debate: bool = True,
+        downstream_limit: Optional[int] = None,
+        include_source_signals: bool = True,
+        allow_rejected: bool = False,
+        enable_reacted_continuation: bool = True,
     ) -> pd.DataFrame:
         """对历史事件运行回测，返回信号+收益 DataFrame。
 
@@ -83,6 +88,10 @@ class ShockBacktestEngine:
             events=events,
             skip_debate=skip_debate,
             forward_days=self.holding_days,
+            downstream_limit=downstream_limit,
+            include_source_signals=include_source_signals,
+            allow_rejected=allow_rejected,
+            enable_reacted_continuation=enable_reacted_continuation,
         )
 
         if not raw_signals:
@@ -134,7 +143,13 @@ class ShockBacktestEngine:
                 "target_name": sig.get("target_name", ""),
                 "hop": sig.get("hop", 0),
                 "shock_weight": sig.get("shock_weight", 0.0),
+                "graph_score": sig.get("graph_score", 0.0),
+                "graph_rank_score": sig.get("graph_rank_score", 0.0),
+                "path_quality": sig.get("path_quality", 0.0),
+                "relation_score": sig.get("relation_score", 0.0),
+                "specificity_score": sig.get("specificity_score", 0.0),
                 "direction": direction,
+                "emittable": bool(sig.get("emittable", True)),
                 "reacted": sig.get("reacted", False),
                 "entry_price": entry_price,
                 "exit_price": round(exit_price, 2),
@@ -143,12 +158,24 @@ class ShockBacktestEngine:
                                     else -raw_return - self.cost, 6),
                 "direction_adjusted_return": round(adj_return, 6),
                 "confidence": sig.get("confidence", 0.0),
+                "score": sig.get("score", 0.0),
+                "action": sig.get("action", ""),
                 "alpha_type": sig.get("alpha_type", ""),
+                "alpha_family": sig.get("alpha_family", ""),
                 "relation_chain": sig.get("relation_chain", ""),
+                "reacted_continuation": bool(sig.get("reacted_continuation", False)),
                 "consensus_direction": sig.get("consensus_direction", ""),
                 "divergence": sig.get("divergence", 0.0),
                 "hit_limit_up": sig.get("hit_limit_up", False),
                 "hit_limit_down": sig.get("hit_limit_down", False),
+                "trigger_score": sig.get("trigger_score", 0.0),
+                "propagation_score": sig.get("propagation_score", 0.0),
+                "debate_score": sig.get("debate_score", 0.0),
+                "market_check_score": sig.get("market_check_score", 0.0),
+                "risk_penalty": sig.get("risk_penalty", 0.0),
+                "narrative_phase": sig.get("narrative_phase", ""),
+                "narrative_tags": ",".join(sig.get("narrative_tags", []))
+                if isinstance(sig.get("narrative_tags"), list) else sig.get("narrative_tags", ""),
                 # 多周期收益（供分析用）
                 "fwd_return_1d": sig.get("fwd_return_1d"),
                 "fwd_return_3d": sig.get("fwd_return_3d"),
@@ -200,6 +227,31 @@ class ShockBacktestEngine:
         metrics["holding_days"] = self.holding_days
         metrics["n_events"] = results_df["event_id"].nunique()
 
+        if "event_id" in results_df.columns and len(results_df) > 0:
+            metrics["coverage"] = round(
+                results_df["event_id"].nunique() / max(results_df["event_id"].count(), 1),
+                4,
+            )
+        if "event_type" in results_df.columns and not results_df["event_type"].empty:
+            type_dist = results_df["event_type"].value_counts(normalize=True)
+            breadth = float(-(type_dist * np.log(type_dist + 1e-12)).sum())
+            metrics["breadth"] = round(breadth, 4)
+
+        if "confidence" in results_df.columns and "direction_adjusted_return" in results_df.columns:
+            try:
+                bins = pd.qcut(results_df["confidence"], q=min(4, len(results_df)), duplicates="drop")
+                calibration = (
+                    results_df.assign(conf_bin=bins)
+                    .groupby("conf_bin")["direction_adjusted_return"]
+                    .mean()
+                    .tolist()
+                )
+                metrics["confidence_calibration"] = [round(float(v), 6) for v in calibration]
+                if calibration:
+                    metrics["confidence_spread"] = round(float(max(calibration) - min(calibration)), 6)
+            except Exception:
+                metrics["confidence_calibration"] = []
+
         return metrics
 
     def load_events(
@@ -230,6 +282,8 @@ class ShockBacktestEngine:
 
         if max_events > 0:
             events = events[:max_events]
+
+        events = normalize_events(events)
 
         logger.info("加载了 %d 个历史事件 (from %s)", len(events), path)
         return events

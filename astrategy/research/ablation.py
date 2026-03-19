@@ -13,8 +13,6 @@
 from __future__ import annotations
 
 import logging
-import random
-from collections import defaultdict
 from typing import Any, Dict, List, Optional
 
 import numpy as np
@@ -59,36 +57,59 @@ class AblationExperiment:
             {graph_metrics, random_mean_metrics, random_std_metrics,
              graph_advantage, p_value_approx}
         """
-        # 实验组：正常图谱回测
-        graph_df = engine.run(events, skip_debate=skip_debate)
+        # 实验组：只看下游图谱信号，避免把源头事件收益混入图谱 alpha。
+        graph_df = engine.run(
+            events,
+            skip_debate=skip_debate,
+            include_source_signals=False,
+        )
         graph_metrics = engine.evaluate(graph_df) if not graph_df.empty else {}
 
-        # 统计每个事件图谱找到的下游数量
-        downstream_counts = defaultdict(int)
-        if not graph_df.empty:
-            for _, row in graph_df.iterrows():
-                if row.get("hop", 0) > 0:
-                    downstream_counts[row["event_id"]] += 1
-
-        # 控制组：随机同行业选股
-        # 由于需要行业信息和随机股票池，这里用简化方法：
-        # 对图谱结果的 direction_adjusted_return 做随机打乱
+        # 随机控制组：对每个事件，从“全传播候选池”里随机抽取与图谱
+        # 最终入选数量相同的标的，验证图谱排序是否优于随机选股。
+        candidate_df = engine.run(
+            events,
+            skip_debate=skip_debate,
+            downstream_limit=0,
+            include_source_signals=False,
+            allow_rejected=True,
+        )
         random_sharpes = []
         random_win_rates = []
 
-        if not graph_df.empty and len(graph_df) > 3:
-            downstream_mask = graph_df["hop"] > 0
-            downstream_returns = graph_df.loc[downstream_mask, "direction_adjusted_return"].values
+        if (
+            not graph_df.empty
+            and not candidate_df.empty
+            and len(graph_df) > 3
+            and len(candidate_df) > 3
+        ):
+            selected_counts = graph_df.groupby("event_id")["target_code"].count().to_dict()
 
-            if len(downstream_returns) >= 3:
-                for _ in range(n_random_trials):
-                    # 随机打乱收益（打破图谱选股与收益的关联）
-                    shuffled = downstream_returns.copy()
-                    np.random.shuffle(shuffled)
-                    shuffled_series = pd.Series(shuffled)
-                    m = compute_metrics(shuffled_series, holding_days=engine.holding_days)
-                    random_sharpes.append(m.get("sharpe", 0.0))
-                    random_win_rates.append(m.get("win_rate", 0.0))
+            for trial_idx in range(n_random_trials):
+                sampled_frames: List[pd.DataFrame] = []
+                for event_id, count in selected_counts.items():
+                    event_pool = candidate_df[candidate_df["event_id"] == event_id]
+                    if event_pool.empty:
+                        continue
+                    sample_n = min(int(count), len(event_pool))
+                    sampled = event_pool.sample(
+                        n=sample_n,
+                        replace=False,
+                        random_state=trial_idx,
+                    )
+                    sampled_frames.append(sampled)
+
+                if not sampled_frames:
+                    continue
+
+                sampled_df = (
+                    pd.concat(sampled_frames, ignore_index=True)
+                    .sort_values(["event_date", "event_id", "target_code"])
+                    .reset_index(drop=True)
+                )
+                m = engine.evaluate(sampled_df)
+                random_sharpes.append(m.get("sharpe", 0.0))
+                random_win_rates.append(m.get("win_rate", 0.0))
 
         random_mean_sharpe = float(np.mean(random_sharpes)) if random_sharpes else 0.0
         random_std_sharpe = float(np.std(random_sharpes)) if random_sharpes else 0.0
@@ -120,6 +141,8 @@ class AblationExperiment:
             "graph_advantage_sharpe": round(advantage, 2),
             "p_value_approx": round(p_value, 4),
             "n_random_trials": n_random_trials,
+            "graph_selected_signals": int(len(graph_df)),
+            "graph_candidate_signals": int(len(candidate_df)),
         }
 
     def run_reaction_ablation(
@@ -148,7 +171,11 @@ class AblationExperiment:
             {all_metrics, unreacted_metrics, reacted_metrics,
              unreacted_advantage}
         """
-        results_df = engine.run(events, skip_debate=skip_debate)
+        results_df = engine.run(
+            events,
+            skip_debate=skip_debate,
+            enable_reacted_continuation=False,
+        )
 
         if results_df.empty:
             return {

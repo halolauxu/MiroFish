@@ -48,8 +48,29 @@ logger = logging.getLogger("backtest")
 def fetch_csi800_codes() -> list[str]:
     """动态获取中证800最新成分股列表（CSI800 = 沪深300 + 中证500）。"""
     try:
+        import platform
+        import signal as _signal
         import akshare as ak
-        df = ak.index_stock_cons_csindex(symbol="000906")
+
+        use_alarm = platform.system() != "Windows"
+
+        class _Timeout(Exception):
+            pass
+
+        def _handler(signum, frame):
+            raise _Timeout("index_stock_cons_csindex timed out after 15s")
+
+        old_handler = None
+        if use_alarm:
+            old_handler = _signal.signal(_signal.SIGALRM, _handler)
+            _signal.alarm(15)
+        try:
+            df = ak.index_stock_cons_csindex(symbol="000906")
+        finally:
+            if use_alarm:
+                _signal.alarm(0)
+            if old_handler is not None:
+                _signal.signal(_signal.SIGALRM, old_handler)
         codes = df["成分券代码"].astype(str).tolist()
         logger.info("从中证指数获取中证800成分股: %d 只", len(codes))
         return codes

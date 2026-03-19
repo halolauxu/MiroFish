@@ -1,0 +1,5778 @@
+[
+  {
+    "event_id": "filing:2026-03-19:300832:a13edb6efaaa",
+    "event_type": "other",
+    "event_subtype": "other",
+    "title": "新产业:关于获得医疗器械注册证的公告",
+    "summary": "获得认证",
+    "source": "announcement_incremental",
+    "entity_codes": [
+      "300832"
+    ],
+    "entity_names": [
+      "新产业"
+    ],
+    "industry_codes": [],
+    "theme_tags": [],
+    "event_time": "2026-03-19T00:00:00",
+    "discover_time": "2026-03-19T00:00:00",
+    "available_at": "2026-03-19T00:00:00",
+    "severity": 0.3,
+    "surprise_score": 0.45,
+    "tradability_score": 0.7,
+    "novelty_score": 0.6,
+    "crowding_risk": 0.45,
+    "confidence": 0.55,
+    "impact_level": "low",
+    "source_type": "filing",
+    "raw_payload_ref": "",
+    "metadata": {
+      "legacy_type": "other",
+      "legacy_event_date": "2026-03-19",
+      "legacy_stock_code": "300832",
+      "legacy_stock_name": "新产业",
+      "ingest_date": "2026-03-19",
+      "announcement_type": "获得认证"
+    },
+    "created_at": "2026-03-19T12:23:16.785102+00:00",
+    "updated_at": "2026-03-19T12:23:16.785111+00:00"
+  },
+  {
+    "event_id": "filing:2026-03-19:301358:fa3235ccd630",
+    "event_type": "other",
+    "event_subtype": "other",
+    "title": "湖南裕能:中信建投证券股份有限公司、中信证券股份有限公司和财信证券股份有限公司关于湖南裕能新能源电池材料股份有限公司向特定对象发行股票发行过程和认购对象合规性的报告",
+    "summary": "保荐/核查意见",
+    "source": "announcement_incremental",
+    "entity_codes": [
+      "301358"
+    ],
+    "entity_names": [
+      "湖南裕能"
+    ],
+    "industry_codes": [],
+    "theme_tags": [],
+    "event_time": "2026-03-19T00:00:00",
+    "discover_time": "2026-03-19T00:00:00",
+    "available_at": "2026-03-19T00:00:00",
+    "severity": 0.3,
+    "surprise_score": 0.45,
+    "tradability_score": 0.7,
+    "novelty_score": 0.6,
+    "crowding_risk": 0.45,
+    "confidence": 0.55,
+    "impact_level": "low",
+    "source_type": "filing",
+    "raw_payload_ref": "",
+    "metadata": {
+      "legacy_type": "other",
+      "legacy_event_date": "2026-03-19",
+      "legacy_stock_code": "301358",
+      "legacy_stock_name": "湖南裕能",
+      "ingest_date": "2026-03-19",
+      "announcement_type": "保荐/核查意见"
+    },
+    "created_at": "2026-03-19T12:23:16.785261+00:00",
+    "updated_at": "2026-03-19T12:23:16.785264+00:00"
+  },
+  {
+    "event_id": "filing:2026-03-19:301358:db73287b2654",
+    "event_type": "other",
+    "event_subtype": "other",
+    "title": "湖南裕能:关于签订募集资金三方监管协议的公告",
+    "summary": "签订协议",
+    "source": "announcement_incremental",
+    "entity_codes": [
+      "301358"
+    ],
+    "entity_names": [
+      "湖南裕能"
+    ],
+    "industry_codes": [],
+    "theme_tags": [],
+    "event_time": "2026-03-19T00:00:00",
+    "discover_time": "2026-03-19T00:00:00",
+    "available_at": "2026-03-19T00:00:00",
+    "severity": 0.3,
+    "surprise_score": 0.45,
+    "tradability_score": 0.7,
+    "novelty_score": 0.6,
+    "crowding_risk": 0.45,
+    "confidence": 0.55,
+    "impact_level": "low",
+    "source_type": "filing",
+    "raw_payload_ref": "",
+    "metadata": {
+      "legacy_type": "other",
+      "legacy_event_date": "2026-03-19",
+      "legacy_stock_code": "301358",
+      "legacy_stock_name": "湖南裕能",
+      "ingest_date": "2026-03-19",
+      "announcement_type": "签订协议"
+    },
+    "created_at": "2026-03-19T12:23:16.785365+00:00",
+    "updated_at": "2026-03-19T12:23:16.785367+00:00"
+  },
+  {
+    "event_id": "filing:2026-03-19:301358:5ba8334239eb",
+    "event_type": "other",
+    "event_subtype": "other",
+    "title": "湖南裕能:湖南裕能新能源电池材料股份有限公司向特定对象发行股票发行情况报告书",
+    "summary": "其他增发事项公告",
+    "source": "announcement_incremental",
+    "entity_codes": [
+      "301358"
+    ],
+    "entity_names": [
+      "湖南裕能"
+    ],
+    "industry_codes": [],
+    "theme_tags": [],
+    "event_time": "2026-03-19T00:00:00",
+    "discover_time": "2026-03-19T00:00:00",
+    "available_at": "2026-03-19T00:00:00",
+    "severity": 0.3,
+    "surprise_score": 0.45,
+    "tradability_score": 0.7,
+    "novelty_score": 0.6,
+    "crowding_risk": 0.45,
+    "confidence": 0.55,
+    "impact_level": "low",
+    "source_type": "filing",
+    "raw_payload_ref": "",
+    "metadata": {
+      "legacy_type": "other",
+      "legacy_event_date": "2026-03-19",
+      "legacy_stock_code": "301358",
+      "legacy_stock_name": "湖南裕能",
+      "ingest_date": "2026-03-19",
+      "announcement_type": "其他增发事项公告"
+    },
+    "created_at": "2026-03-19T12:23:16.785465+00:00",
+    "updated_at": "2026-03-19T12:23:16.785468+00:00"
+  },
+  {
+    "event_id": "filing:2026-03-19:301358:80540fdcd2e4",
+    "event_type": "other",
+    "event_subtype": "other",
+    "title": "湖南裕能:关于向特定对象发行股票发行情况报告书披露的提示性公告",
+    "summary": "增发提示性公告",
+    "source": "announcement_incremental",
+    "entity_codes": [
+      "301358"
+    ],
+    "entity_names": [
+      "湖南裕能"
+    ],
+    "industry_codes": [],
+    "theme_tags": [],
+    "event_time": "2026-03-19T00:00:00",
+    "discover_time": "2026-03-19T00:00:00",
+    "available_at": "2026-03-19T00:00:00",
+    "severity": 0.3,
+    "surprise_score": 0.45,
+    "tradability_score": 0.7,
+    "novelty_score": 0.6,
+    "crowding_risk": 0.45,
+    "confidence": 0.55,
+    "impact_level": "low",
+    "source_type": "filing",
+    "raw_payload_ref": "",
+    "metadata": {
+      "legacy_type": "other",
+      "legacy_event_date": "2026-03-19",
+      "legacy_stock_code": "301358",
+      "legacy_stock_name": "湖南裕能",
+      "ingest_date": "2026-03-19",
+      "announcement_type": "增发提示性公告"
+    },
+    "created_at": "2026-03-19T12:23:16.785559+00:00",
+    "updated_at": "2026-03-19T12:23:16.785561+00:00"
+  },
+  {
+    "event_id": "filing:2026-03-19:301308:73b4b2f2cc40",
+    "event_type": "other",
+    "event_subtype": "other",
+    "title": "江波龙:关于为子公司提供担保的进展公告",
+    "summary": "提供/对外担保公告",
+    "source": "announcement_incremental",
+    "entity_codes": [
+      "301308"
+    ],
+    "entity_names": [
+      "江波龙"
+    ],
+    "industry_codes": [],
+    "theme_tags": [],
+    "event_time": "2026-03-19T00:00:00",
+    "discover_time": "2026-03-19T00:00:00",
+    "available_at": "2026-03-19T00:00:00",
+    "severity": 0.3,
+    "surprise_score": 0.45,
+    "tradability_score": 0.7,
+    "novelty_score": 0.6,
+    "crowding_risk": 0.45,
+    "confidence": 0.55,
+    "impact_level": "low",
+    "source_type": "filing",
+    "raw_payload_ref": "",
+    "metadata": {
+      "legacy_type": "other",
+      "legacy_event_date": "2026-03-19",
+      "legacy_stock_code": "301308",
+      "legacy_stock_name": "江波龙",
+      "ingest_date": "2026-03-19",
+      "announcement_type": "提供/对外担保公告"
+    },
+    "created_at": "2026-03-19T12:23:16.785650+00:00",
+    "updated_at": "2026-03-19T12:23:16.785653+00:00"
+  },
+  {
+    "event_id": "filing:2026-03-19:301308:a352f1b0ff5c",
+    "event_type": "other",
+    "event_subtype": "other",
+    "title": "江波龙:2026年第一次临时股东会决议公告",
+    "summary": "股东大会决议公告",
+    "source": "announcement_incremental",
+    "entity_codes": [
+      "301308"
+    ],
+    "entity_names": [
+      "江波龙"
+    ],
+    "industry_codes": [],
+    "theme_tags": [],
+    "event_time": "2026-03-19T00:00:00",
+    "discover_time": "2026-03-19T00:00:00",
+    "available_at": "2026-03-19T00:00:00",
+    "severity": 0.3,
+    "surprise_score": 0.45,
+    "tradability_score": 0.7,
+    "novelty_score": 0.6,
+    "crowding_risk": 0.45,
+    "confidence": 0.55,
+    "impact_level": "low",
+    "source_type": "filing",
+    "raw_payload_ref": "",
+    "metadata": {
+      "legacy_type": "other",
+      "legacy_event_date": "2026-03-19",
+      "legacy_stock_code": "301308",
+      "legacy_stock_name": "江波龙",
+      "ingest_date": "2026-03-19",
+      "announcement_type": "股东大会决议公告"
+    },
+    "created_at": "2026-03-19T12:23:16.785741+00:00",
+    "updated_at": "2026-03-19T12:23:16.785743+00:00"
+  },
+  {
+    "event_id": "filing:2026-03-19:000598:5e0fd3608432",
+    "event_type": "other",
+    "event_subtype": "other",
+    "title": "兴蓉环境:成都市兴蓉环境股份有限公司2026年面向专业投资者公开发行科技创新公司债券(第一期)票面利率公告",
+    "summary": "其他",
+    "source": "announcement_incremental",
+    "entity_codes": [
+      "000598"
+    ],
+    "entity_names": [
+      "兴蓉环境"
+    ],
+    "industry_codes": [],
+    "theme_tags": [],
+    "event_time": "2026-03-19T00:00:00",
+    "discover_time": "2026-03-19T00:00:00",
+    "available_at": "2026-03-19T00:00:00",
+    "severity": 0.3,
+    "surprise_score": 0.45,
+    "tradability_score": 0.7,
+    "novelty_score": 0.6,
+    "crowding_risk": 0.45,
+    "confidence": 0.55,
+    "impact_level": "low",
+    "source_type": "filing",
+    "raw_payload_ref": "",
+    "metadata": {
+      "legacy_type": "other",
+      "legacy_event_date": "2026-03-19",
+      "legacy_stock_code": "000598",
+      "legacy_stock_name": "兴蓉环境",
+      "ingest_date": "2026-03-19",
+      "announcement_type": "其他"
+    },
+    "created_at": "2026-03-19T12:23:16.785844+00:00",
+    "updated_at": "2026-03-19T12:23:16.785847+00:00"
+  },
+  {
+    "event_id": "filing:2026-03-19:301308:4c8852280d4e",
+    "event_type": "other",
+    "event_subtype": "other",
+    "title": "江波龙:关于董事、高级管理人员减持股份预披露公告",
+    "summary": "高管人员持股变动",
+    "source": "announcement_incremental",
+    "entity_codes": [
+      "301308"
+    ],
+    "entity_names": [
+      "江波龙"
+    ],
+    "industry_codes": [],
+    "theme_tags": [],
+    "event_time": "2026-03-19T00:00:00",
+    "discover_time": "2026-03-19T00:00:00",
+    "available_at": "2026-03-19T00:00:00",
+    "severity": 0.3,
+    "surprise_score": 0.45,
+    "tradability_score": 0.7,
+    "novelty_score": 0.6,
+    "crowding_risk": 0.45,
+    "confidence": 0.55,
+    "impact_level": "low",
+    "source_type": "filing",
+    "raw_payload_ref": "",
+    "metadata": {
+      "legacy_type": "other",
+      "legacy_event_date": "2026-03-19",
+      "legacy_stock_code": "301308",
+      "legacy_stock_name": "江波龙",
+      "ingest_date": "2026-03-19",
+      "announcement_type": "高管人员持股变动"
+    },
+    "created_at": "2026-03-19T12:23:16.785937+00:00",
+    "updated_at": "2026-03-19T12:23:16.785939+00:00"
+  },
+  {
+    "event_id": "filing:2026-03-19:301536:749ca25f044f",
+    "event_type": "other",
+    "event_subtype": "other",
+    "title": "星宸科技:301536星宸科技投资者关系管理信息20260319",
+    "summary": "调研活动",
+    "source": "announcement_incremental",
+    "entity_codes": [
+      "301536"
+    ],
+    "entity_names": [
+      "星宸科技"
+    ],
+    "industry_codes": [],
+    "theme_tags": [],
+    "event_time": "2026-03-19T00:00:00",
+    "discover_time": "2026-03-19T00:00:00",
+    "available_at": "2026-03-19T00:00:00",
+    "severity": 0.3,
+    "surprise_score": 0.45,
+    "tradability_score": 0.7,
+    "novelty_score": 0.6,
+    "crowding_risk": 0.45,
+    "confidence": 0.55,
+    "impact_level": "low",
+    "source_type": "filing",
+    "raw_payload_ref": "",
+    "metadata": {
+      "legacy_type": "other",
+      "legacy_event_date": "2026-03-19",
+      "legacy_stock_code": "301536",
+      "legacy_stock_name": "星宸科技",
+      "ingest_date": "2026-03-19",
+      "announcement_type": "调研活动"
+    },
+    "created_at": "2026-03-19T12:23:16.786031+00:00",
+    "updated_at": "2026-03-19T12:23:16.786033+00:00"
+  },
+  {
+    "event_id": "filing:2026-03-19:002423:27f48ff77e27",
+    "event_type": "other",
+    "event_subtype": "other",
+    "title": "中粮资本:2025年3月19日投资者关系活动记录表",
+    "summary": "调研活动",
+    "source": "announcement_incremental",
+    "entity_codes": [
+      "002423"
+    ],
+    "entity_names": [
+      "中粮资本"
+    ],
+    "industry_codes": [],
+    "theme_tags": [],
+    "event_time": "2026-03-19T00:00:00",
+    "discover_time": "2026-03-19T00:00:00",
+    "available_at": "2026-03-19T00:00:00",
+    "severity": 0.3,
+    "surprise_score": 0.45,
+    "tradability_score": 0.7,
+    "novelty_score": 0.6,
+    "crowding_risk": 0.45,
+    "confidence": 0.55,
+    "impact_level": "low",
+    "source_type": "filing",
+    "raw_payload_ref": "",
+    "metadata": {
+      "legacy_type": "other",
+      "legacy_event_date": "2026-03-19",
+      "legacy_stock_code": "002423",
+      "legacy_stock_name": "中粮资本",
+      "ingest_date": "2026-03-19",
+      "announcement_type": "调研活动"
+    },
+    "created_at": "2026-03-19T12:23:16.786123+00:00",
+    "updated_at": "2026-03-19T12:23:16.786125+00:00"
+  },
+  {
+    "event_id": "filing:2026-03-19:300223:2a1575b82c07",
+    "event_type": "other",
+    "event_subtype": "other",
+    "title": "北京君正:关于持股5%以上股东减持股份触及1%整数倍的公告",
+    "summary": "股东/实际控制人股份减持",
+    "source": "announcement_incremental",
+    "entity_codes": [
+      "300223"
+    ],
+    "entity_names": [
+      "北京君正"
+    ],
+    "industry_codes": [],
+    "theme_tags": [],
+    "event_time": "2026-03-19T00:00:00",
+    "discover_time": "2026-03-19T00:00:00",
+    "available_at": "2026-03-19T00:00:00",
+    "severity": 0.3,
+    "surprise_score": 0.45,
+    "tradability_score": 0.7,
+    "novelty_score": 0.6,
+    "crowding_risk": 0.45,
+    "confidence": 0.55,
+    "impact_level": "low",
+    "source_type": "filing",
+    "raw_payload_ref": "",
+    "metadata": {
+      "legacy_type": "other",
+      "legacy_event_date": "2026-03-19",
+      "legacy_stock_code": "300223",
+      "legacy_stock_name": "北京君正",
+      "ingest_date": "2026-03-19",
+      "announcement_type": "股东/实际控制人股份减持"
+    },
+    "created_at": "2026-03-19T12:23:16.786213+00:00",
+    "updated_at": "2026-03-19T12:23:16.786215+00:00"
+  },
+  {
+    "event_id": "filing:2026-03-19:000598:6e87974b5c38",
+    "event_type": "other",
+    "event_subtype": "other",
+    "title": "兴蓉环境:关于延长成都市兴蓉环境股份有限公司2026年面向专业投资者公开发行科技创新公司债券(第一期)簿记建档时间的公告",
+    "summary": "其他",
+    "source": "announcement_incremental",
+    "entity_codes": [
+      "000598"
+    ],
+    "entity_names": [
+      "兴蓉环境"
+    ],
+    "industry_codes": [],
+    "theme_tags": [],
+    "event_time": "2026-03-19T00:00:00",
+    "discover_time": "2026-03-19T00:00:00",
+    "available_at": "2026-03-19T00:00:00",
+    "severity": 0.3,
+    "surprise_score": 0.45,
+    "tradability_score": 0.7,
+    "novelty_score": 0.6,
+    "crowding_risk": 0.45,
+    "confidence": 0.55,
+    "impact_level": "low",
+    "source_type": "filing",
+    "raw_payload_ref": "",
+    "metadata": {
+      "legacy_type": "other",
+      "legacy_event_date": "2026-03-19",
+      "legacy_stock_code": "000598",
+      "legacy_stock_name": "兴蓉环境",
+      "ingest_date": "2026-03-19",
+      "announcement_type": "其他"
+    },
+    "created_at": "2026-03-19T12:23:16.786299+00:00",
+    "updated_at": "2026-03-19T12:23:16.786300+00:00"
+  },
+  {
+    "event_id": "filing:2026-03-19:000776:e43d860a5015",
+    "event_type": "other",
+    "event_subtype": "other",
+    "title": "广发证券:关于延长广发证券股份有限公司2026年面向专业投资者公开发行永续次级债券(第二期)簿记建档时间的公告",
+    "summary": "其他",
+    "source": "announcement_incremental",
+    "entity_codes": [
+      "000776"
+    ],
+    "entity_names": [
+      "广发证券"
+    ],
+    "industry_codes": [],
+    "theme_tags": [],
+    "event_time": "2026-03-19T00:00:00",
+    "discover_time": "2026-03-19T00:00:00",
+    "available_at": "2026-03-19T00:00:00",
+    "severity": 0.3,
+    "surprise_score": 0.45,
+    "tradability_score": 0.7,
+    "novelty_score": 0.6,
+    "crowding_risk": 0.45,
+    "confidence": 0.55,
+    "impact_level": "low",
+    "source_type": "filing",
+    "raw_payload_ref": "",
+    "metadata": {
+      "legacy_type": "other",
+      "legacy_event_date": "2026-03-19",
+      "legacy_stock_code": "000776",
+      "legacy_stock_name": "广发证券",
+      "ingest_date": "2026-03-19",
+      "announcement_type": "其他"
+    },
+    "created_at": "2026-03-19T12:23:16.786379+00:00",
+    "updated_at": "2026-03-19T12:23:16.786380+00:00"
+  },
+  {
+    "event_id": "filing:2026-03-19:300285:4a602151c725",
+    "event_type": "other",
+    "event_subtype": "other",
+    "title": "国瓷材料:董事会薪酬与考核委员会关于公司2026年限制性股票激励计划首次授予相关事项的核查意见",
+    "summary": "专项说明/独立意见",
+    "source": "announcement_incremental",
+    "entity_codes": [
+      "300285"
+    ],
+    "entity_names": [
+      "国瓷材料"
+    ],
+    "industry_codes": [],
+    "theme_tags": [],
+    "event_time": "2026-03-19T00:00:00",
+    "discover_time": "2026-03-19T00:00:00",
+    "available_at": "2026-03-19T00:00:00",
+    "severity": 0.3,
+    "surprise_score": 0.45,
+    "tradability_score": 0.7,
+    "novelty_score": 0.6,
+    "crowding_risk": 0.45,
+    "confidence": 0.55,
+    "impact_level": "low",
+    "source_type": "filing",
+    "raw_payload_ref": "",
+    "metadata": {
+      "legacy_type": "other",
+      "legacy_event_date": "2026-03-19",
+      "legacy_stock_code": "300285",
+      "legacy_stock_name": "国瓷材料",
+      "ingest_date": "2026-03-19",
+      "announcement_type": "专项说明/独立意见"
+    },
+    "created_at": "2026-03-19T12:23:16.786462+00:00",
+    "updated_at": "2026-03-19T12:23:16.786463+00:00"
+  },
+  {
+    "event_id": "filing:2026-03-19:300285:b7598101b739",
+    "event_type": "other",
+    "event_subtype": "other",
+    "title": "国瓷材料:第六届董事会第九次会议决议公告",
+    "summary": "董事会决议公告",
+    "source": "announcement_incremental",
+    "entity_codes": [
+      "300285"
+    ],
+    "entity_names": [
+      "国瓷材料"
+    ],
+    "industry_codes": [],
+    "theme_tags": [],
+    "event_time": "2026-03-19T00:00:00",
+    "discover_time": "2026-03-19T00:00:00",
+    "available_at": "2026-03-19T00:00:00",
+    "severity": 0.3,
+    "surprise_score": 0.45,
+    "tradability_score": 0.7,
+    "novelty_score": 0.6,
+    "crowding_risk": 0.45,
+    "confidence": 0.55,
+    "impact_level": "low",
+    "source_type": "filing",
+    "raw_payload_ref": "",
+    "metadata": {
+      "legacy_type": "other",
+      "legacy_event_date": "2026-03-19",
+      "legacy_stock_code": "300285",
+      "legacy_stock_name": "国瓷材料",
+      "ingest_date": "2026-03-19",
+      "announcement_type": "董事会决议公告"
+    },
+    "created_at": "2026-03-19T12:23:16.786539+00:00",
+    "updated_at": "2026-03-19T12:23:16.786541+00:00"
+  },
+  {
+    "event_id": "filing:2026-03-19:300285:8d66244190aa",
+    "event_type": "other",
+    "event_subtype": "other",
+    "title": "国瓷材料:关于向2026年限制性股票激励计划激励对象首次授予限制性股票的公告",
+    "summary": "股权激励进展公告",
+    "source": "announcement_incremental",
+    "entity_codes": [
+      "300285"
+    ],
+    "entity_names": [
+      "国瓷材料"
+    ],
+    "industry_codes": [],
+    "theme_tags": [],
+    "event_time": "2026-03-19T00:00:00",
+    "discover_time": "2026-03-19T00:00:00",
+    "available_at": "2026-03-19T00:00:00",
+    "severity": 0.3,
+    "surprise_score": 0.45,
+    "tradability_score": 0.7,
+    "novelty_score": 0.6,
+    "crowding_risk": 0.45,
+    "confidence": 0.55,
+    "impact_level": "low",
+    "source_type": "filing",
+    "raw_payload_ref": "",
+    "metadata": {
+      "legacy_type": "other",
+      "legacy_event_date": "2026-03-19",
+      "legacy_stock_code": "300285",
+      "legacy_stock_name": "国瓷材料",
+      "ingest_date": "2026-03-19",
+      "announcement_type": "股权激励进展公告"
+    },
+    "created_at": "2026-03-19T12:23:16.786619+00:00",
+    "updated_at": "2026-03-19T12:23:16.786621+00:00"
+  },
+  {
+    "event_id": "filing:2026-03-19:000725:b75f84771b98",
+    "event_type": "other",
+    "event_subtype": "other",
+    "title": "京东方Ａ:京东方科技集团股份有限公司2026年面向专业投资者公开发行科技创新公司债券(第二期)发行结果公告",
+    "summary": "其他",
+    "source": "announcement_incremental",
+    "entity_codes": [
+      "000725"
+    ],
+    "entity_names": [
+      "京东方A"
+    ],
+    "industry_codes": [],
+    "theme_tags": [],
+    "event_time": "2026-03-19T00:00:00",
+    "discover_time": "2026-03-19T00:00:00",
+    "available_at": "2026-03-19T00:00:00",
+    "severity": 0.3,
+    "surprise_score": 0.45,
+    "tradability_score": 0.7,
+    "novelty_score": 0.6,
+    "crowding_risk": 0.45,
+    "confidence": 0.55,
+    "impact_level": "low",
+    "source_type": "filing",
+    "raw_payload_ref": "",
+    "metadata": {
+      "legacy_type": "other",
+      "legacy_event_date": "2026-03-19",
+      "legacy_stock_code": "000725",
+      "legacy_stock_name": "京东方A",
+      "ingest_date": "2026-03-19",
+      "announcement_type": "其他"
+    },
+    "created_at": "2026-03-19T12:23:16.786699+00:00",
+    "updated_at": "2026-03-19T12:23:16.786701+00:00"
+  },
+  {
+    "event_id": "filing:2026-03-19:000728:b57c7a873249",
+    "event_type": "other",
+    "event_subtype": "other",
+    "title": "国元证券:国元证券股份有限公司2023年面向专业投资者公开发行公司债券(第一期)兑付暨摘牌公告",
+    "summary": "其他",
+    "source": "announcement_incremental",
+    "entity_codes": [
+      "000728"
+    ],
+    "entity_names": [
+      "国元证券"
+    ],
+    "industry_codes": [],
+    "theme_tags": [],
+    "event_time": "2026-03-19T00:00:00",
+    "discover_time": "2026-03-19T00:00:00",
+    "available_at": "2026-03-19T00:00:00",
+    "severity": 0.3,
+    "surprise_score": 0.45,
+    "tradability_score": 0.7,
+    "novelty_score": 0.6,
+    "crowding_risk": 0.45,
+    "confidence": 0.55,
+    "impact_level": "low",
+    "source_type": "filing",
+    "raw_payload_ref": "",
+    "metadata": {
+      "legacy_type": "other",
+      "legacy_event_date": "2026-03-19",
+      "legacy_stock_code": "000728",
+      "legacy_stock_name": "国元证券",
+      "ingest_date": "2026-03-19",
+      "announcement_type": "其他"
+    },
+    "created_at": "2026-03-19T12:23:16.786778+00:00",
+    "updated_at": "2026-03-19T12:23:16.786780+00:00"
+  },
+  {
+    "event_id": "filing:2026-03-19:300627:2fad66f6536d",
+    "event_type": "other",
+    "event_subtype": "other",
+    "title": "华测导航:关于控股股东、实际控制人部分股份解除质押及质押的公告",
+    "summary": "股份质押、冻结",
+    "source": "announcement_incremental",
+    "entity_codes": [
+      "300627"
+    ],
+    "entity_names": [
+      "华测导航"
+    ],
+    "industry_codes": [],
+    "theme_tags": [],
+    "event_time": "2026-03-19T00:00:00",
+    "discover_time": "2026-03-19T00:00:00",
+    "available_at": "2026-03-19T00:00:00",
+    "severity": 0.3,
+    "surprise_score": 0.45,
+    "tradability_score": 0.7,
+    "novelty_score": 0.6,
+    "crowding_risk": 0.45,
+    "confidence": 0.55,
+    "impact_level": "low",
+    "source_type": "filing",
+    "raw_payload_ref": "",
+    "metadata": {
+      "legacy_type": "other",
+      "legacy_event_date": "2026-03-19",
+      "legacy_stock_code": "300627",
+      "legacy_stock_name": "华测导航",
+      "ingest_date": "2026-03-19",
+      "announcement_type": "股份质押、冻结"
+    },
+    "created_at": "2026-03-19T12:23:16.786862+00:00",
+    "updated_at": "2026-03-19T12:23:16.786864+00:00"
+  },
+  {
+    "event_id": "filing:2026-03-19:600010:d2ce7978cd90",
+    "event_type": "other",
+    "event_subtype": "other",
+    "title": "包钢股份:投资者关系活动记录表",
+    "summary": "调研活动",
+    "source": "announcement_incremental",
+    "entity_codes": [
+      "600010"
+    ],
+    "entity_names": [
+      "包钢股份"
+    ],
+    "industry_codes": [],
+    "theme_tags": [],
+    "event_time": "2026-03-19T00:00:00",
+    "discover_time": "2026-03-19T00:00:00",
+    "available_at": "2026-03-19T00:00:00",
+    "severity": 0.3,
+    "surprise_score": 0.45,
+    "tradability_score": 0.7,
+    "novelty_score": 0.6,
+    "crowding_risk": 0.45,
+    "confidence": 0.55,
+    "impact_level": "low",
+    "source_type": "filing",
+    "raw_payload_ref": "",
+    "metadata": {
+      "legacy_type": "other",
+      "legacy_event_date": "2026-03-19",
+      "legacy_stock_code": "600010",
+      "legacy_stock_name": "包钢股份",
+      "ingest_date": "2026-03-19",
+      "announcement_type": "调研活动"
+    },
+    "created_at": "2026-03-19T12:23:16.786942+00:00",
+    "updated_at": "2026-03-19T12:23:16.786943+00:00"
+  },
+  {
+    "event_id": "filing:2026-03-19:600995:5b5956048d78",
+    "event_type": "other",
+    "event_subtype": "other",
+    "title": "南网储能:南方电网储能股份有限公司2026年3月11日-13日投资者关系活动记录表",
+    "summary": "调研活动",
+    "source": "announcement_incremental",
+    "entity_codes": [
+      "600995"
+    ],
+    "entity_names": [
+      "南网储能"
+    ],
+    "industry_codes": [],
+    "theme_tags": [],
+    "event_time": "2026-03-19T00:00:00",
+    "discover_time": "2026-03-19T00:00:00",
+    "available_at": "2026-03-19T00:00:00",
+    "severity": 0.3,
+    "surprise_score": 0.45,
+    "tradability_score": 0.7,
+    "novelty_score": 0.6,
+    "crowding_risk": 0.45,
+    "confidence": 0.55,
+    "impact_level": "low",
+    "source_type": "filing",
+    "raw_payload_ref": "",
+    "metadata": {
+      "legacy_type": "other",
+      "legacy_event_date": "2026-03-19",
+      "legacy_stock_code": "600995",
+      "legacy_stock_name": "南网储能",
+      "ingest_date": "2026-03-19",
+      "announcement_type": "调研活动"
+    },
+    "created_at": "2026-03-19T12:23:16.787021+00:00",
+    "updated_at": "2026-03-19T12:23:16.787023+00:00"
+  },
+  {
+    "event_id": "filing:2026-03-19:688385:93f6661c070f",
+    "event_type": "other",
+    "event_subtype": "other",
+    "title": "复旦微电:投资者关系记录表-2026年3月13日",
+    "summary": "调研活动",
+    "source": "announcement_incremental",
+    "entity_codes": [
+      "688385"
+    ],
+    "entity_names": [
+      "复旦微电"
+    ],
+    "industry_codes": [],
+    "theme_tags": [],
+    "event_time": "2026-03-19T00:00:00",
+    "discover_time": "2026-03-19T00:00:00",
+    "available_at": "2026-03-19T00:00:00",
+    "severity": 0.3,
+    "surprise_score": 0.45,
+    "tradability_score": 0.7,
+    "novelty_score": 0.6,
+    "crowding_risk": 0.45,
+    "confidence": 0.55,
+    "impact_level": "low",
+    "source_type": "filing",
+    "raw_payload_ref": "",
+    "metadata": {
+      "legacy_type": "other",
+      "legacy_event_date": "2026-03-19",
+      "legacy_stock_code": "688385",
+      "legacy_stock_name": "复旦微电",
+      "ingest_date": "2026-03-19",
+      "announcement_type": "调研活动"
+    },
+    "created_at": "2026-03-19T12:23:16.787099+00:00",
+    "updated_at": "2026-03-19T12:23:16.787100+00:00"
+  },
+  {
+    "event_id": "filing:2026-03-19:688169:447a30e50c51",
+    "event_type": "other",
+    "event_subtype": "other",
+    "title": "石头科技:2026年1月至3月投资者关系管理活动记录表",
+    "summary": "调研活动",
+    "source": "announcement_incremental",
+    "entity_codes": [
+      "688169"
+    ],
+    "entity_names": [
+      "石头科技"
+    ],
+    "industry_codes": [],
+    "theme_tags": [],
+    "event_time": "2026-03-19T00:00:00",
+    "discover_time": "2026-03-19T00:00:00",
+    "available_at": "2026-03-19T00:00:00",
+    "severity": 0.3,
+    "surprise_score": 0.45,
+    "tradability_score": 0.7,
+    "novelty_score": 0.6,
+    "crowding_risk": 0.45,
+    "confidence": 0.55,
+    "impact_level": "low",
+    "source_type": "filing",
+    "raw_payload_ref": "",
+    "metadata": {
+      "legacy_type": "other",
+      "legacy_event_date": "2026-03-19",
+      "legacy_stock_code": "688169",
+      "legacy_stock_name": "石头科技",
+      "ingest_date": "2026-03-19",
+      "announcement_type": "调研活动"
+    },
+    "created_at": "2026-03-19T12:23:16.787176+00:00",
+    "updated_at": "2026-03-19T12:23:16.787177+00:00"
+  },
+  {
+    "event_id": "filing:2026-03-19:300383:5fac7d2fae49",
+    "event_type": "other",
+    "event_subtype": "other",
+    "title": "光环新网:300383光环新网投资者关系管理信息20260318",
+    "summary": "调研活动",
+    "source": "announcement_incremental",
+    "entity_codes": [
+      "300383"
+    ],
+    "entity_names": [
+      "光环新网"
+    ],
+    "industry_codes": [],
+    "theme_tags": [],
+    "event_time": "2026-03-19T00:00:00",
+    "discover_time": "2026-03-19T00:00:00",
+    "available_at": "2026-03-19T00:00:00",
+    "severity": 0.3,
+    "surprise_score": 0.45,
+    "tradability_score": 0.7,
+    "novelty_score": 0.6,
+    "crowding_risk": 0.45,
+    "confidence": 0.55,
+    "impact_level": "low",
+    "source_type": "filing",
+    "raw_payload_ref": "",
+    "metadata": {
+      "legacy_type": "other",
+      "legacy_event_date": "2026-03-19",
+      "legacy_stock_code": "300383",
+      "legacy_stock_name": "光环新网",
+      "ingest_date": "2026-03-19",
+      "announcement_type": "调研活动"
+    },
+    "created_at": "2026-03-19T12:23:16.787253+00:00",
+    "updated_at": "2026-03-19T12:23:16.787255+00:00"
+  },
+  {
+    "event_id": "filing:2026-03-19:600988:c3305ce96f3e",
+    "event_type": "other",
+    "event_subtype": "other",
+    "title": "赤峰黄金:赤峰黄金关于筹划公司控制权变更事项的停牌公告",
+    "summary": "停牌公告",
+    "source": "announcement_incremental",
+    "entity_codes": [
+      "600988"
+    ],
+    "entity_names": [
+      "赤峰黄金"
+    ],
+    "industry_codes": [],
+    "theme_tags": [],
+    "event_time": "2026-03-19T00:00:00",
+    "discover_time": "2026-03-19T00:00:00",
+    "available_at": "2026-03-19T00:00:00",
+    "severity": 0.3,
+    "surprise_score": 0.45,
+    "tradability_score": 0.7,
+    "novelty_score": 0.6,
+    "crowding_risk": 0.45,
+    "confidence": 0.55,
+    "impact_level": "low",
+    "source_type": "filing",
+    "raw_payload_ref": "",
+    "metadata": {
+      "legacy_type": "other",
+      "legacy_event_date": "2026-03-19",
+      "legacy_stock_code": "600988",
+      "legacy_stock_name": "赤峰黄金",
+      "ingest_date": "2026-03-19",
+      "announcement_type": "停牌公告"
+    },
+    "created_at": "2026-03-19T12:23:16.787339+00:00",
+    "updated_at": "2026-03-19T12:23:16.787341+00:00"
+  },
+  {
+    "event_id": "filing:2026-03-19:600233:d84bfb8d9ecc",
+    "event_type": "other",
+    "event_subtype": "other",
+    "title": "圆通速递:圆通速递股份有限公司关于5%以上股东大宗交易减持股份计划的公告",
+    "summary": "股东/实际控制人股份减持",
+    "source": "announcement_incremental",
+    "entity_codes": [
+      "600233"
+    ],
+    "entity_names": [
+      "圆通速递"
+    ],
+    "industry_codes": [],
+    "theme_tags": [],
+    "event_time": "2026-03-19T00:00:00",
+    "discover_time": "2026-03-19T00:00:00",
+    "available_at": "2026-03-19T00:00:00",
+    "severity": 0.3,
+    "surprise_score": 0.45,
+    "tradability_score": 0.7,
+    "novelty_score": 0.6,
+    "crowding_risk": 0.45,
+    "confidence": 0.55,
+    "impact_level": "low",
+    "source_type": "filing",
+    "raw_payload_ref": "",
+    "metadata": {
+      "legacy_type": "other",
+      "legacy_event_date": "2026-03-19",
+      "legacy_stock_code": "600233",
+      "legacy_stock_name": "圆通速递",
+      "ingest_date": "2026-03-19",
+      "announcement_type": "股东/实际控制人股份减持"
+    },
+    "created_at": "2026-03-19T12:23:16.787418+00:00",
+    "updated_at": "2026-03-19T12:23:16.787419+00:00"
+  },
+  {
+    "event_id": "filing:2026-03-19:601156:85f1af60d7ef",
+    "event_type": "other",
+    "event_subtype": "other",
+    "title": "东航物流:东航物流关于5%以上股东减持股份计划公告",
+    "summary": "股东/实际控制人股份减持",
+    "source": "announcement_incremental",
+    "entity_codes": [
+      "601156"
+    ],
+    "entity_names": [
+      "东航物流"
+    ],
+    "industry_codes": [],
+    "theme_tags": [],
+    "event_time": "2026-03-19T00:00:00",
+    "discover_time": "2026-03-19T00:00:00",
+    "available_at": "2026-03-19T00:00:00",
+    "severity": 0.3,
+    "surprise_score": 0.45,
+    "tradability_score": 0.7,
+    "novelty_score": 0.6,
+    "crowding_risk": 0.45,
+    "confidence": 0.55,
+    "impact_level": "low",
+    "source_type": "filing",
+    "raw_payload_ref": "",
+    "metadata": {
+      "legacy_type": "other",
+      "legacy_event_date": "2026-03-19",
+      "legacy_stock_code": "601156",
+      "legacy_stock_name": "东航物流",
+      "ingest_date": "2026-03-19",
+      "announcement_type": "股东/实际控制人股份减持"
+    },
+    "created_at": "2026-03-19T12:23:16.787494+00:00",
+    "updated_at": "2026-03-19T12:23:16.787495+00:00"
+  },
+  {
+    "event_id": "filing:2026-03-19:002422:da4dfa99894b",
+    "event_type": "other",
+    "event_subtype": "other",
+    "title": "科伦药业:关于子公司核心产品芦康沙妥珠单抗(sac-TMT)于2025年欧洲肺癌大会上公布的研究成果的公告",
+    "summary": "其他",
+    "source": "announcement_incremental",
+    "entity_codes": [
+      "002422"
+    ],
+    "entity_names": [
+      "科伦药业"
+    ],
+    "industry_codes": [],
+    "theme_tags": [],
+    "event_time": "2026-03-19T00:00:00",
+    "discover_time": "2026-03-19T00:00:00",
+    "available_at": "2026-03-19T00:00:00",
+    "severity": 0.3,
+    "surprise_score": 0.45,
+    "tradability_score": 0.7,
+    "novelty_score": 0.6,
+    "crowding_risk": 0.45,
+    "confidence": 0.55,
+    "impact_level": "low",
+    "source_type": "filing",
+    "raw_payload_ref": "",
+    "metadata": {
+      "legacy_type": "other",
+      "legacy_event_date": "2026-03-19",
+      "legacy_stock_code": "002422",
+      "legacy_stock_name": "科伦药业",
+      "ingest_date": "2026-03-19",
+      "announcement_type": "其他"
+    },
+    "created_at": "2026-03-19T12:23:16.787568+00:00",
+    "updated_at": "2026-03-19T12:23:16.787570+00:00"
+  },
+  {
+    "event_id": "filing:2026-03-19:002130:ba842f4c1075",
+    "event_type": "other",
+    "event_subtype": "other",
+    "title": "沃尔核材:H股公告:关于按照《香港上市规则》公布董事会会议召开日期的公告",
+    "summary": "其他",
+    "source": "announcement_incremental",
+    "entity_codes": [
+      "002130"
+    ],
+    "entity_names": [
+      "沃尔核材"
+    ],
+    "industry_codes": [],
+    "theme_tags": [],
+    "event_time": "2026-03-19T00:00:00",
+    "discover_time": "2026-03-19T00:00:00",
+    "available_at": "2026-03-19T00:00:00",
+    "severity": 0.3,
+    "surprise_score": 0.45,
+    "tradability_score": 0.7,
+    "novelty_score": 0.6,
+    "crowding_risk": 0.45,
+    "confidence": 0.55,
+    "impact_level": "low",
+    "source_type": "filing",
+    "raw_payload_ref": "",
+    "metadata": {
+      "legacy_type": "other",
+      "legacy_event_date": "2026-03-19",
+      "legacy_stock_code": "002130",
+      "legacy_stock_name": "沃尔核材",
+      "ingest_date": "2026-03-19",
+      "announcement_type": "其他"
+    },
+    "created_at": "2026-03-19T12:23:16.787641+00:00",
+    "updated_at": "2026-03-19T12:23:16.787642+00:00"
+  },
+  {
+    "event_id": "filing:2026-03-19:002130:c0c4d35cdd91",
+    "event_type": "technology_breakthrough",
+    "event_subtype": "technology_breakthrough",
+    "title": "沃尔核材:H股公告:关于按照《香港上市规则》公布以电子方式发布公司通讯之安排的公告",
+    "summary": "其他",
+    "source": "announcement_incremental",
+    "entity_codes": [
+      "002130"
+    ],
+    "entity_names": [
+      "沃尔核材"
+    ],
+    "industry_codes": [],
+    "theme_tags": [],
+    "event_time": "2026-03-19T00:00:00",
+    "discover_time": "2026-03-19T00:00:00",
+    "available_at": "2026-03-19T00:00:00",
+    "severity": 0.55,
+    "surprise_score": 0.75,
+    "tradability_score": 0.7,
+    "novelty_score": 0.6,
+    "crowding_risk": 0.45,
+    "confidence": 0.55,
+    "impact_level": "medium",
+    "source_type": "filing",
+    "raw_payload_ref": "",
+    "metadata": {
+      "legacy_type": "technology_breakthrough",
+      "legacy_event_date": "2026-03-19",
+      "legacy_stock_code": "002130",
+      "legacy_stock_name": "沃尔核材",
+      "ingest_date": "2026-03-19",
+      "announcement_type": "其他"
+    },
+    "created_at": "2026-03-19T12:23:16.787714+00:00",
+    "updated_at": "2026-03-19T12:23:16.787716+00:00"
+  },
+  {
+    "event_id": "filing:2026-03-19:600688:5074b3ab8262",
+    "event_type": "other",
+    "event_subtype": "other",
+    "title": "上海石化:上海石化2025年度独立董事述职报告-陈海峰",
+    "summary": "独立董事述职报告",
+    "source": "announcement_incremental",
+    "entity_codes": [
+      "600688"
+    ],
+    "entity_names": [
+      "上海石化"
+    ],
+    "industry_codes": [],
+    "theme_tags": [],
+    "event_time": "2026-03-19T00:00:00",
+    "discover_time": "2026-03-19T00:00:00",
+    "available_at": "2026-03-19T00:00:00",
+    "severity": 0.3,
+    "surprise_score": 0.45,
+    "tradability_score": 0.7,
+    "novelty_score": 0.6,
+    "crowding_risk": 0.45,
+    "confidence": 0.55,
+    "impact_level": "low",
+    "source_type": "filing",
+    "raw_payload_ref": "",
+    "metadata": {
+      "legacy_type": "other",
+      "legacy_event_date": "2026-03-19",
+      "legacy_stock_code": "600688",
+      "legacy_stock_name": "上海石化",
+      "ingest_date": "2026-03-19",
+      "announcement_type": "独立董事述职报告"
+    },
+    "created_at": "2026-03-19T12:23:16.787794+00:00",
+    "updated_at": "2026-03-19T12:23:16.787796+00:00"
+  },
+  {
+    "event_id": "filing:2026-03-19:600688:9eb39bcf215e",
+    "event_type": "other",
+    "event_subtype": "other",
+    "title": "上海石化:上海石化审计与合规管理委员会2025年履职情况报告",
+    "summary": "专项说明/独立意见",
+    "source": "announcement_incremental",
+    "entity_codes": [
+      "600688"
+    ],
+    "entity_names": [
+      "上海石化"
+    ],
+    "industry_codes": [],
+    "theme_tags": [],
+    "event_time": "2026-03-19T00:00:00",
+    "discover_time": "2026-03-19T00:00:00",
+    "available_at": "2026-03-19T00:00:00",
+    "severity": 0.3,
+    "surprise_score": 0.45,
+    "tradability_score": 0.7,
+    "novelty_score": 0.6,
+    "crowding_risk": 0.45,
+    "confidence": 0.55,
+    "impact_level": "low",
+    "source_type": "filing",
+    "raw_payload_ref": "",
+    "metadata": {
+      "legacy_type": "other",
+      "legacy_event_date": "2026-03-19",
+      "legacy_stock_code": "600688",
+      "legacy_stock_name": "上海石化",
+      "ingest_date": "2026-03-19",
+      "announcement_type": "专项说明/独立意见"
+    },
+    "created_at": "2026-03-19T12:23:16.787868+00:00",
+    "updated_at": "2026-03-19T12:23:16.787870+00:00"
+  },
+  {
+    "event_id": "filing:2026-03-19:600688:222e06bd2eae",
+    "event_type": "other",
+    "event_subtype": "other",
+    "title": "上海石化:上海石化2025年度独立董事述职报告-唐松",
+    "summary": "独立董事述职报告",
+    "source": "announcement_incremental",
+    "entity_codes": [
+      "600688"
+    ],
+    "entity_names": [
+      "上海石化"
+    ],
+    "industry_codes": [],
+    "theme_tags": [],
+    "event_time": "2026-03-19T00:00:00",
+    "discover_time": "2026-03-19T00:00:00",
+    "available_at": "2026-03-19T00:00:00",
+    "severity": 0.3,
+    "surprise_score": 0.45,
+    "tradability_score": 0.7,
+    "novelty_score": 0.6,
+    "crowding_risk": 0.45,
+    "confidence": 0.55,
+    "impact_level": "low",
+    "source_type": "filing",
+    "raw_payload_ref": "",
+    "metadata": {
+      "legacy_type": "other",
+      "legacy_event_date": "2026-03-19",
+      "legacy_stock_code": "600688",
+      "legacy_stock_name": "上海石化",
+      "ingest_date": "2026-03-19",
+      "announcement_type": "独立董事述职报告"
+    },
+    "created_at": "2026-03-19T12:23:16.787940+00:00",
+    "updated_at": "2026-03-19T12:23:16.787942+00:00"
+  },
+  {
+    "event_id": "filing:2026-03-19:600688:0664b32d3e48",
+    "event_type": "other",
+    "event_subtype": "other",
+    "title": "上海石化:上海石化2025年度独立董事述职报告-周颖",
+    "summary": "独立董事述职报告",
+    "source": "announcement_incremental",
+    "entity_codes": [
+      "600688"
+    ],
+    "entity_names": [
+      "上海石化"
+    ],
+    "industry_codes": [],
+    "theme_tags": [],
+    "event_time": "2026-03-19T00:00:00",
+    "discover_time": "2026-03-19T00:00:00",
+    "available_at": "2026-03-19T00:00:00",
+    "severity": 0.3,
+    "surprise_score": 0.45,
+    "tradability_score": 0.7,
+    "novelty_score": 0.6,
+    "crowding_risk": 0.45,
+    "confidence": 0.55,
+    "impact_level": "low",
+    "source_type": "filing",
+    "raw_payload_ref": "",
+    "metadata": {
+      "legacy_type": "other",
+      "legacy_event_date": "2026-03-19",
+      "legacy_stock_code": "600688",
+      "legacy_stock_name": "上海石化",
+      "ingest_date": "2026-03-19",
+      "announcement_type": "独立董事述职报告"
+    },
+    "created_at": "2026-03-19T12:23:16.788011+00:00",
+    "updated_at": "2026-03-19T12:23:16.788012+00:00"
+  },
+  {
+    "event_id": "filing:2026-03-19:600688:4338af7d5ebc",
+    "event_type": "other",
+    "event_subtype": "other",
+    "title": "上海石化:上海石化第十一届董事会第二十六次会议决议公告",
+    "summary": "董事会决议公告",
+    "source": "announcement_incremental",
+    "entity_codes": [
+      "600688"
+    ],
+    "entity_names": [
+      "上海石化"
+    ],
+    "industry_codes": [],
+    "theme_tags": [],
+    "event_time": "2026-03-19T00:00:00",
+    "discover_time": "2026-03-19T00:00:00",
+    "available_at": "2026-03-19T00:00:00",
+    "severity": 0.3,
+    "surprise_score": 0.45,
+    "tradability_score": 0.7,
+    "novelty_score": 0.6,
+    "crowding_risk": 0.45,
+    "confidence": 0.55,
+    "impact_level": "low",
+    "source_type": "filing",
+    "raw_payload_ref": "",
+    "metadata": {
+      "legacy_type": "other",
+      "legacy_event_date": "2026-03-19",
+      "legacy_stock_code": "600688",
+      "legacy_stock_name": "上海石化",
+      "ingest_date": "2026-03-19",
+      "announcement_type": "董事会决议公告"
+    },
+    "created_at": "2026-03-19T12:23:16.788082+00:00",
+    "updated_at": "2026-03-19T12:23:16.788084+00:00"
+  },
+  {
+    "event_id": "filing:2026-03-19:600688:23b6ca76e156",
+    "event_type": "other",
+    "event_subtype": "other",
+    "title": "上海石化:上海石化2025年度A股利润分配预案公告",
+    "summary": "分配预案",
+    "source": "announcement_incremental",
+    "entity_codes": [
+      "600688"
+    ],
+    "entity_names": [
+      "上海石化"
+    ],
+    "industry_codes": [],
+    "theme_tags": [],
+    "event_time": "2026-03-19T00:00:00",
+    "discover_time": "2026-03-19T00:00:00",
+    "available_at": "2026-03-19T00:00:00",
+    "severity": 0.3,
+    "surprise_score": 0.45,
+    "tradability_score": 0.7,
+    "novelty_score": 0.6,
+    "crowding_risk": 0.45,
+    "confidence": 0.55,
+    "impact_level": "low",
+    "source_type": "filing",
+    "raw_payload_ref": "",
+    "metadata": {
+      "legacy_type": "other",
+      "legacy_event_date": "2026-03-19",
+      "legacy_stock_code": "600688",
+      "legacy_stock_name": "上海石化",
+      "ingest_date": "2026-03-19",
+      "announcement_type": "分配预案"
+    },
+    "created_at": "2026-03-19T12:23:16.788157+00:00",
+    "updated_at": "2026-03-19T12:23:16.788158+00:00"
+  },
+  {
+    "event_id": "filing:2026-03-19:600688:71180666e61b",
+    "event_type": "other",
+    "event_subtype": "other",
+    "title": "上海石化:上海石化关于计提资产减值准备的公告",
+    "summary": "其他",
+    "source": "announcement_incremental",
+    "entity_codes": [
+      "600688"
+    ],
+    "entity_names": [
+      "上海石化"
+    ],
+    "industry_codes": [],
+    "theme_tags": [],
+    "event_time": "2026-03-19T00:00:00",
+    "discover_time": "2026-03-19T00:00:00",
+    "available_at": "2026-03-19T00:00:00",
+    "severity": 0.3,
+    "surprise_score": 0.45,
+    "tradability_score": 0.7,
+    "novelty_score": 0.6,
+    "crowding_risk": 0.45,
+    "confidence": 0.55,
+    "impact_level": "low",
+    "source_type": "filing",
+    "raw_payload_ref": "",
+    "metadata": {
+      "legacy_type": "other",
+      "legacy_event_date": "2026-03-19",
+      "legacy_stock_code": "600688",
+      "legacy_stock_name": "上海石化",
+      "ingest_date": "2026-03-19",
+      "announcement_type": "其他"
+    },
+    "created_at": "2026-03-19T12:23:16.788228+00:00",
+    "updated_at": "2026-03-19T12:23:16.788230+00:00"
+  },
+  {
+    "event_id": "filing:2026-03-19:600688:86b20acdbe8b",
+    "event_type": "other",
+    "event_subtype": "other",
+    "title": "上海石化:上海石化关于2026年度开展金融衍生品业务的公告",
+    "summary": "其他",
+    "source": "announcement_incremental",
+    "entity_codes": [
+      "600688"
+    ],
+    "entity_names": [
+      "上海石化"
+    ],
+    "industry_codes": [],
+    "theme_tags": [],
+    "event_time": "2026-03-19T00:00:00",
+    "discover_time": "2026-03-19T00:00:00",
+    "available_at": "2026-03-19T00:00:00",
+    "severity": 0.3,
+    "surprise_score": 0.45,
+    "tradability_score": 0.7,
+    "novelty_score": 0.6,
+    "crowding_risk": 0.45,
+    "confidence": 0.55,
+    "impact_level": "low",
+    "source_type": "filing",
+    "raw_payload_ref": "",
+    "metadata": {
+      "legacy_type": "other",
+      "legacy_event_date": "2026-03-19",
+      "legacy_stock_code": "600688",
+      "legacy_stock_name": "上海石化",
+      "ingest_date": "2026-03-19",
+      "announcement_type": "其他"
+    },
+    "created_at": "2026-03-19T12:23:16.788299+00:00",
+    "updated_at": "2026-03-19T12:23:16.788301+00:00"
+  },
+  {
+    "event_id": "filing:2026-03-19:600688:d94b1b2a4ede",
+    "event_type": "other",
+    "event_subtype": "other",
+    "title": "上海石化:上海石化2025年度独立董事述职报告-杨钧",
+    "summary": "独立董事述职报告",
+    "source": "announcement_incremental",
+    "entity_codes": [
+      "600688"
+    ],
+    "entity_names": [
+      "上海石化"
+    ],
+    "industry_codes": [],
+    "theme_tags": [],
+    "event_time": "2026-03-19T00:00:00",
+    "discover_time": "2026-03-19T00:00:00",
+    "available_at": "2026-03-19T00:00:00",
+    "severity": 0.3,
+    "surprise_score": 0.45,
+    "tradability_score": 0.7,
+    "novelty_score": 0.6,
+    "crowding_risk": 0.45,
+    "confidence": 0.55,
+    "impact_level": "low",
+    "source_type": "filing",
+    "raw_payload_ref": "",
+    "metadata": {
+      "legacy_type": "other",
+      "legacy_event_date": "2026-03-19",
+      "legacy_stock_code": "600688",
+      "legacy_stock_name": "上海石化",
+      "ingest_date": "2026-03-19",
+      "announcement_type": "独立董事述职报告"
+    },
+    "created_at": "2026-03-19T12:23:16.788370+00:00",
+    "updated_at": "2026-03-19T12:23:16.788372+00:00"
+  },
+  {
+    "event_id": "filing:2026-03-19:600688:69e478ef2cb7",
+    "event_type": "other",
+    "event_subtype": "other",
+    "title": "上海石化:上海石化2025年度营业收入扣除情况的专项报告",
+    "summary": "其他",
+    "source": "announcement_incremental",
+    "entity_codes": [
+      "600688"
+    ],
+    "entity_names": [
+      "上海石化"
+    ],
+    "industry_codes": [],
+    "theme_tags": [],
+    "event_time": "2026-03-19T00:00:00",
+    "discover_time": "2026-03-19T00:00:00",
+    "available_at": "2026-03-19T00:00:00",
+    "severity": 0.3,
+    "surprise_score": 0.45,
+    "tradability_score": 0.7,
+    "novelty_score": 0.6,
+    "crowding_risk": 0.45,
+    "confidence": 0.55,
+    "impact_level": "low",
+    "source_type": "filing",
+    "raw_payload_ref": "",
+    "metadata": {
+      "legacy_type": "other",
+      "legacy_event_date": "2026-03-19",
+      "legacy_stock_code": "600688",
+      "legacy_stock_name": "上海石化",
+      "ingest_date": "2026-03-19",
+      "announcement_type": "其他"
+    },
+    "created_at": "2026-03-19T12:23:16.788442+00:00",
+    "updated_at": "2026-03-19T12:23:16.788443+00:00"
+  },
+  {
+    "event_id": "filing:2026-03-19:600688:31eb1b444f65",
+    "event_type": "other",
+    "event_subtype": "other",
+    "title": "上海石化:上海石化关于2025年度“提质增效重回报”行动方案的评估报告",
+    "summary": "其他",
+    "source": "announcement_incremental",
+    "entity_codes": [
+      "600688"
+    ],
+    "entity_names": [
+      "上海石化"
+    ],
+    "industry_codes": [],
+    "theme_tags": [],
+    "event_time": "2026-03-19T00:00:00",
+    "discover_time": "2026-03-19T00:00:00",
+    "available_at": "2026-03-19T00:00:00",
+    "severity": 0.3,
+    "surprise_score": 0.45,
+    "tradability_score": 0.7,
+    "novelty_score": 0.6,
+    "crowding_risk": 0.45,
+    "confidence": 0.55,
+    "impact_level": "low",
+    "source_type": "filing",
+    "raw_payload_ref": "",
+    "metadata": {
+      "legacy_type": "other",
+      "legacy_event_date": "2026-03-19",
+      "legacy_stock_code": "600688",
+      "legacy_stock_name": "上海石化",
+      "ingest_date": "2026-03-19",
+      "announcement_type": "其他"
+    },
+    "created_at": "2026-03-19T12:23:16.788512+00:00",
+    "updated_at": "2026-03-19T12:23:16.788514+00:00"
+  },
+  {
+    "event_id": "filing:2026-03-19:600688:16e1f954fa49",
+    "event_type": "other",
+    "event_subtype": "other",
+    "title": "上海石化:董事会关于2025年度独立非执行董事独立性评估的专项意见",
+    "summary": "专项说明/独立意见",
+    "source": "announcement_incremental",
+    "entity_codes": [
+      "600688"
+    ],
+    "entity_names": [
+      "上海石化"
+    ],
+    "industry_codes": [],
+    "theme_tags": [],
+    "event_time": "2026-03-19T00:00:00",
+    "discover_time": "2026-03-19T00:00:00",
+    "available_at": "2026-03-19T00:00:00",
+    "severity": 0.3,
+    "surprise_score": 0.45,
+    "tradability_score": 0.7,
+    "novelty_score": 0.6,
+    "crowding_risk": 0.45,
+    "confidence": 0.55,
+    "impact_level": "low",
+    "source_type": "filing",
+    "raw_payload_ref": "",
+    "metadata": {
+      "legacy_type": "other",
+      "legacy_event_date": "2026-03-19",
+      "legacy_stock_code": "600688",
+      "legacy_stock_name": "上海石化",
+      "ingest_date": "2026-03-19",
+      "announcement_type": "专项说明/独立意见"
+    },
+    "created_at": "2026-03-19T12:23:16.788585+00:00",
+    "updated_at": "2026-03-19T12:23:16.788587+00:00"
+  },
+  {
+    "event_id": "filing:2026-03-19:600688:b33b2da4d8d8",
+    "event_type": "other",
+    "event_subtype": "other",
+    "title": "上海石化:上海石化董事会审计与合规管理委员会对2025年度会计师事务所履行监督职责情况的报告",
+    "summary": "保荐/核查意见",
+    "source": "announcement_incremental",
+    "entity_codes": [
+      "600688"
+    ],
+    "entity_names": [
+      "上海石化"
+    ],
+    "industry_codes": [],
+    "theme_tags": [],
+    "event_time": "2026-03-19T00:00:00",
+    "discover_time": "2026-03-19T00:00:00",
+    "available_at": "2026-03-19T00:00:00",
+    "severity": 0.3,
+    "surprise_score": 0.45,
+    "tradability_score": 0.7,
+    "novelty_score": 0.6,
+    "crowding_risk": 0.45,
+    "confidence": 0.55,
+    "impact_level": "low",
+    "source_type": "filing",
+    "raw_payload_ref": "",
+    "metadata": {
+      "legacy_type": "other",
+      "legacy_event_date": "2026-03-19",
+      "legacy_stock_code": "600688",
+      "legacy_stock_name": "上海石化",
+      "ingest_date": "2026-03-19",
+      "announcement_type": "保荐/核查意见"
+    },
+    "created_at": "2026-03-19T12:23:16.788664+00:00",
+    "updated_at": "2026-03-19T12:23:16.788665+00:00"
+  },
+  {
+    "event_id": "filing:2026-03-19:600688:2b4abbefbb19",
+    "event_type": "other",
+    "event_subtype": "other",
+    "title": "上海石化:上海石化对2025年度会计师事务所履职情况的评估报告",
+    "summary": "其他",
+    "source": "announcement_incremental",
+    "entity_codes": [
+      "600688"
+    ],
+    "entity_names": [
+      "上海石化"
+    ],
+    "industry_codes": [],
+    "theme_tags": [],
+    "event_time": "2026-03-19T00:00:00",
+    "discover_time": "2026-03-19T00:00:00",
+    "available_at": "2026-03-19T00:00:00",
+    "severity": 0.3,
+    "surprise_score": 0.45,
+    "tradability_score": 0.7,
+    "novelty_score": 0.6,
+    "crowding_risk": 0.45,
+    "confidence": 0.55,
+    "impact_level": "low",
+    "source_type": "filing",
+    "raw_payload_ref": "",
+    "metadata": {
+      "legacy_type": "other",
+      "legacy_event_date": "2026-03-19",
+      "legacy_stock_code": "600688",
+      "legacy_stock_name": "上海石化",
+      "ingest_date": "2026-03-19",
+      "announcement_type": "其他"
+    },
+    "created_at": "2026-03-19T12:23:16.788738+00:00",
+    "updated_at": "2026-03-19T12:23:16.788739+00:00"
+  },
+  {
+    "event_id": "filing:2026-03-19:600688:4d8314f05949",
+    "event_type": "other",
+    "event_subtype": "other",
+    "title": "上海石化:上海石化关于续聘会计师事务所的公告",
+    "summary": "审计机构变更",
+    "source": "announcement_incremental",
+    "entity_codes": [
+      "600688"
+    ],
+    "entity_names": [
+      "上海石化"
+    ],
+    "industry_codes": [],
+    "theme_tags": [],
+    "event_time": "2026-03-19T00:00:00",
+    "discover_time": "2026-03-19T00:00:00",
+    "available_at": "2026-03-19T00:00:00",
+    "severity": 0.3,
+    "surprise_score": 0.45,
+    "tradability_score": 0.7,
+    "novelty_score": 0.6,
+    "crowding_risk": 0.45,
+    "confidence": 0.55,
+    "impact_level": "low",
+    "source_type": "filing",
+    "raw_payload_ref": "",
+    "metadata": {
+      "legacy_type": "other",
+      "legacy_event_date": "2026-03-19",
+      "legacy_stock_code": "600688",
+      "legacy_stock_name": "上海石化",
+      "ingest_date": "2026-03-19",
+      "announcement_type": "审计机构变更"
+    },
+    "created_at": "2026-03-19T12:23:16.788808+00:00",
+    "updated_at": "2026-03-19T12:23:16.788810+00:00"
+  },
+  {
+    "event_id": "filing:2026-03-19:600688:9cb8edf52891",
+    "event_type": "other",
+    "event_subtype": "other",
+    "title": "上海石化:上海石化2025年度环境、社会和公司治理报告",
+    "summary": "ESG公告",
+    "source": "announcement_incremental",
+    "entity_codes": [
+      "600688"
+    ],
+    "entity_names": [
+      "上海石化"
+    ],
+    "industry_codes": [],
+    "theme_tags": [],
+    "event_time": "2026-03-19T00:00:00",
+    "discover_time": "2026-03-19T00:00:00",
+    "available_at": "2026-03-19T00:00:00",
+    "severity": 0.3,
+    "surprise_score": 0.45,
+    "tradability_score": 0.7,
+    "novelty_score": 0.6,
+    "crowding_risk": 0.45,
+    "confidence": 0.55,
+    "impact_level": "low",
+    "source_type": "filing",
+    "raw_payload_ref": "",
+    "metadata": {
+      "legacy_type": "other",
+      "legacy_event_date": "2026-03-19",
+      "legacy_stock_code": "600688",
+      "legacy_stock_name": "上海石化",
+      "ingest_date": "2026-03-19",
+      "announcement_type": "ESG公告"
+    },
+    "created_at": "2026-03-19T12:23:16.788884+00:00",
+    "updated_at": "2026-03-19T12:23:16.788886+00:00"
+  },
+  {
+    "event_id": "filing:2026-03-19:600688:4eb3de1f9d88",
+    "event_type": "other",
+    "event_subtype": "other",
+    "title": "上海石化:上海石化2025年年度报告",
+    "summary": "年度报告全文",
+    "source": "announcement_incremental",
+    "entity_codes": [
+      "600688"
+    ],
+    "entity_names": [
+      "上海石化"
+    ],
+    "industry_codes": [],
+    "theme_tags": [],
+    "event_time": "2026-03-19T00:00:00",
+    "discover_time": "2026-03-19T00:00:00",
+    "available_at": "2026-03-19T00:00:00",
+    "severity": 0.3,
+    "surprise_score": 0.45,
+    "tradability_score": 0.7,
+    "novelty_score": 0.6,
+    "crowding_risk": 0.45,
+    "confidence": 0.55,
+    "impact_level": "low",
+    "source_type": "filing",
+    "raw_payload_ref": "",
+    "metadata": {
+      "legacy_type": "other",
+      "legacy_event_date": "2026-03-19",
+      "legacy_stock_code": "600688",
+      "legacy_stock_name": "上海石化",
+      "ingest_date": "2026-03-19",
+      "announcement_type": "年度报告全文"
+    },
+    "created_at": "2026-03-19T12:23:16.788956+00:00",
+    "updated_at": "2026-03-19T12:23:16.788958+00:00"
+  },
+  {
+    "event_id": "filing:2026-03-19:600688:f813eb119b32",
+    "event_type": "other",
+    "event_subtype": "other",
+    "title": "上海石化:上海石化2025年度环境、社会和公司治理报告摘要",
+    "summary": "年度报告摘要",
+    "source": "announcement_incremental",
+    "entity_codes": [
+      "600688"
+    ],
+    "entity_names": [
+      "上海石化"
+    ],
+    "industry_codes": [],
+    "theme_tags": [],
+    "event_time": "2026-03-19T00:00:00",
+    "discover_time": "2026-03-19T00:00:00",
+    "available_at": "2026-03-19T00:00:00",
+    "severity": 0.3,
+    "surprise_score": 0.45,
+    "tradability_score": 0.7,
+    "novelty_score": 0.6,
+    "crowding_risk": 0.45,
+    "confidence": 0.55,
+    "impact_level": "low",
+    "source_type": "filing",
+    "raw_payload_ref": "",
+    "metadata": {
+      "legacy_type": "other",
+      "legacy_event_date": "2026-03-19",
+      "legacy_stock_code": "600688",
+      "legacy_stock_name": "上海石化",
+      "ingest_date": "2026-03-19",
+      "announcement_type": "年度报告摘要"
+    },
+    "created_at": "2026-03-19T12:23:16.789026+00:00",
+    "updated_at": "2026-03-19T12:23:16.789028+00:00"
+  },
+  {
+    "event_id": "filing:2026-03-19:600688:5648d5bc9ec6",
+    "event_type": "other",
+    "event_subtype": "other",
+    "title": "上海石化:上海石化2025年度非经营性资金占用及其他关联资金往来情况的专项报告",
+    "summary": "其他",
+    "source": "announcement_incremental",
+    "entity_codes": [
+      "600688"
+    ],
+    "entity_names": [
+      "上海石化"
+    ],
+    "industry_codes": [],
+    "theme_tags": [],
+    "event_time": "2026-03-19T00:00:00",
+    "discover_time": "2026-03-19T00:00:00",
+    "available_at": "2026-03-19T00:00:00",
+    "severity": 0.3,
+    "surprise_score": 0.45,
+    "tradability_score": 0.7,
+    "novelty_score": 0.6,
+    "crowding_risk": 0.45,
+    "confidence": 0.55,
+    "impact_level": "low",
+    "source_type": "filing",
+    "raw_payload_ref": "",
+    "metadata": {
+      "legacy_type": "other",
+      "legacy_event_date": "2026-03-19",
+      "legacy_stock_code": "600688",
+      "legacy_stock_name": "上海石化",
+      "ingest_date": "2026-03-19",
+      "announcement_type": "其他"
+    },
+    "created_at": "2026-03-19T12:23:16.789099+00:00",
+    "updated_at": "2026-03-19T12:23:16.789100+00:00"
+  },
+  {
+    "event_id": "filing:2026-03-19:600688:92d66b87874e",
+    "event_type": "other",
+    "event_subtype": "other",
+    "title": "上海石化:上海石化2025年年度报告摘要",
+    "summary": "年度报告摘要",
+    "source": "announcement_incremental",
+    "entity_codes": [
+      "600688"
+    ],
+    "entity_names": [
+      "上海石化"
+    ],
+    "industry_codes": [],
+    "theme_tags": [],
+    "event_time": "2026-03-19T00:00:00",
+    "discover_time": "2026-03-19T00:00:00",
+    "available_at": "2026-03-19T00:00:00",
+    "severity": 0.3,
+    "surprise_score": 0.45,
+    "tradability_score": 0.7,
+    "novelty_score": 0.6,
+    "crowding_risk": 0.45,
+    "confidence": 0.55,
+    "impact_level": "low",
+    "source_type": "filing",
+    "raw_payload_ref": "",
+    "metadata": {
+      "legacy_type": "other",
+      "legacy_event_date": "2026-03-19",
+      "legacy_stock_code": "600688",
+      "legacy_stock_name": "上海石化",
+      "ingest_date": "2026-03-19",
+      "announcement_type": "年度报告摘要"
+    },
+    "created_at": "2026-03-19T12:23:16.789175+00:00",
+    "updated_at": "2026-03-19T12:23:16.789176+00:00"
+  },
+  {
+    "event_id": "filing:2026-03-19:600688:36b439b4f861",
+    "event_type": "other",
+    "event_subtype": "other",
+    "title": "上海石化:上海石化2025年度涉及财务公司关联交易的存款、贷款等金融业务汇总表的专项报告",
+    "summary": "其他",
+    "source": "announcement_incremental",
+    "entity_codes": [
+      "600688"
+    ],
+    "entity_names": [
+      "上海石化"
+    ],
+    "industry_codes": [],
+    "theme_tags": [],
+    "event_time": "2026-03-19T00:00:00",
+    "discover_time": "2026-03-19T00:00:00",
+    "available_at": "2026-03-19T00:00:00",
+    "severity": 0.3,
+    "surprise_score": 0.45,
+    "tradability_score": 0.7,
+    "novelty_score": 0.6,
+    "crowding_risk": 0.45,
+    "confidence": 0.55,
+    "impact_level": "low",
+    "source_type": "filing",
+    "raw_payload_ref": "",
+    "metadata": {
+      "legacy_type": "other",
+      "legacy_event_date": "2026-03-19",
+      "legacy_stock_code": "600688",
+      "legacy_stock_name": "上海石化",
+      "ingest_date": "2026-03-19",
+      "announcement_type": "其他"
+    },
+    "created_at": "2026-03-19T12:23:16.789248+00:00",
+    "updated_at": "2026-03-19T12:23:16.789249+00:00"
+  },
+  {
+    "event_id": "filing:2026-03-19:600688:9c13342dec25",
+    "event_type": "other",
+    "event_subtype": "other",
+    "title": "上海石化:上海石化关于与中国石化财务有限责任公司关联交易的风险持续评估报告",
+    "summary": "其他",
+    "source": "announcement_incremental",
+    "entity_codes": [
+      "600688"
+    ],
+    "entity_names": [
+      "上海石化"
+    ],
+    "industry_codes": [],
+    "theme_tags": [],
+    "event_time": "2026-03-19T00:00:00",
+    "discover_time": "2026-03-19T00:00:00",
+    "available_at": "2026-03-19T00:00:00",
+    "severity": 0.3,
+    "surprise_score": 0.45,
+    "tradability_score": 0.7,
+    "novelty_score": 0.6,
+    "crowding_risk": 0.45,
+    "confidence": 0.55,
+    "impact_level": "low",
+    "source_type": "filing",
+    "raw_payload_ref": "",
+    "metadata": {
+      "legacy_type": "other",
+      "legacy_event_date": "2026-03-19",
+      "legacy_stock_code": "600688",
+      "legacy_stock_name": "上海石化",
+      "ingest_date": "2026-03-19",
+      "announcement_type": "其他"
+    },
+    "created_at": "2026-03-19T12:23:16.789320+00:00",
+    "updated_at": "2026-03-19T12:23:16.789322+00:00"
+  },
+  {
+    "event_id": "filing:2026-03-19:601800:ae546f4e31ca",
+    "event_type": "other",
+    "event_subtype": "other",
+    "title": "中国交建:中国交建第六届董事会第二次会议决议公告",
+    "summary": "董事会决议公告",
+    "source": "announcement_incremental",
+    "entity_codes": [
+      "601800"
+    ],
+    "entity_names": [
+      "中国交建"
+    ],
+    "industry_codes": [],
+    "theme_tags": [],
+    "event_time": "2026-03-19T00:00:00",
+    "discover_time": "2026-03-19T00:00:00",
+    "available_at": "2026-03-19T00:00:00",
+    "severity": 0.3,
+    "surprise_score": 0.45,
+    "tradability_score": 0.7,
+    "novelty_score": 0.6,
+    "crowding_risk": 0.45,
+    "confidence": 0.55,
+    "impact_level": "low",
+    "source_type": "filing",
+    "raw_payload_ref": "",
+    "metadata": {
+      "legacy_type": "other",
+      "legacy_event_date": "2026-03-19",
+      "legacy_stock_code": "601800",
+      "legacy_stock_name": "中国交建",
+      "ingest_date": "2026-03-19",
+      "announcement_type": "董事会决议公告"
+    },
+    "created_at": "2026-03-19T12:23:16.789391+00:00",
+    "updated_at": "2026-03-19T12:23:16.789393+00:00"
+  },
+  {
+    "event_id": "filing:2026-03-19:601800:25c2f6f38c7c",
+    "event_type": "buyback",
+    "event_subtype": "buyback",
+    "title": "中国交建:中国交建关于回购注销2022年限制性股票激励计划部分限制性股票的公告",
+    "summary": "回购进展情况",
+    "source": "announcement_incremental",
+    "entity_codes": [
+      "601800"
+    ],
+    "entity_names": [
+      "中国交建"
+    ],
+    "industry_codes": [],
+    "theme_tags": [],
+    "event_time": "2026-03-19T00:00:00",
+    "discover_time": "2026-03-19T00:00:00",
+    "available_at": "2026-03-19T00:00:00",
+    "severity": 0.55,
+    "surprise_score": 0.45,
+    "tradability_score": 0.7,
+    "novelty_score": 0.6,
+    "crowding_risk": 0.45,
+    "confidence": 0.55,
+    "impact_level": "medium",
+    "source_type": "filing",
+    "raw_payload_ref": "",
+    "metadata": {
+      "legacy_type": "buyback",
+      "legacy_event_date": "2026-03-19",
+      "legacy_stock_code": "601800",
+      "legacy_stock_name": "中国交建",
+      "ingest_date": "2026-03-19",
+      "announcement_type": "回购进展情况"
+    },
+    "created_at": "2026-03-19T12:23:16.789458+00:00",
+    "updated_at": "2026-03-19T12:23:16.789460+00:00"
+  },
+  {
+    "event_id": "filing:2026-03-19:601800:64c6a7b80b0f",
+    "event_type": "other",
+    "event_subtype": "other",
+    "title": "中国交建:中国交建关于2022年限制性股票激励计划预留部分第一次解除限售条件成就公告",
+    "summary": "限售股份上市流通",
+    "source": "announcement_incremental",
+    "entity_codes": [
+      "601800"
+    ],
+    "entity_names": [
+      "中国交建"
+    ],
+    "industry_codes": [],
+    "theme_tags": [],
+    "event_time": "2026-03-19T00:00:00",
+    "discover_time": "2026-03-19T00:00:00",
+    "available_at": "2026-03-19T00:00:00",
+    "severity": 0.3,
+    "surprise_score": 0.45,
+    "tradability_score": 0.7,
+    "novelty_score": 0.6,
+    "crowding_risk": 0.45,
+    "confidence": 0.55,
+    "impact_level": "low",
+    "source_type": "filing",
+    "raw_payload_ref": "",
+    "metadata": {
+      "legacy_type": "other",
+      "legacy_event_date": "2026-03-19",
+      "legacy_stock_code": "601800",
+      "legacy_stock_name": "中国交建",
+      "ingest_date": "2026-03-19",
+      "announcement_type": "限售股份上市流通"
+    },
+    "created_at": "2026-03-19T12:23:16.789537+00:00",
+    "updated_at": "2026-03-19T12:23:16.789539+00:00"
+  },
+  {
+    "event_id": "filing:2026-03-19:601800:d926e839c082",
+    "event_type": "buyback",
+    "event_subtype": "buyback",
+    "title": "中国交建:中国交建2022年限制性股票激励计划回购部分限制性股票及调整回购价格的法律意见书",
+    "summary": "法律意见书",
+    "source": "announcement_incremental",
+    "entity_codes": [
+      "601800"
+    ],
+    "entity_names": [
+      "中国交建"
+    ],
+    "industry_codes": [],
+    "theme_tags": [],
+    "event_time": "2026-03-19T00:00:00",
+    "discover_time": "2026-03-19T00:00:00",
+    "available_at": "2026-03-19T00:00:00",
+    "severity": 0.55,
+    "surprise_score": 0.45,
+    "tradability_score": 0.7,
+    "novelty_score": 0.6,
+    "crowding_risk": 0.45,
+    "confidence": 0.55,
+    "impact_level": "medium",
+    "source_type": "filing",
+    "raw_payload_ref": "",
+    "metadata": {
+      "legacy_type": "buyback",
+      "legacy_event_date": "2026-03-19",
+      "legacy_stock_code": "601800",
+      "legacy_stock_name": "中国交建",
+      "ingest_date": "2026-03-19",
+      "announcement_type": "法律意见书"
+    },
+    "created_at": "2026-03-19T12:23:16.789605+00:00",
+    "updated_at": "2026-03-19T12:23:16.789607+00:00"
+  },
+  {
+    "event_id": "filing:2026-03-19:688396:9738c076e6c2",
+    "event_type": "other",
+    "event_subtype": "other",
+    "title": "华润微:关于公司2021年第二类限制性股票激励计划预留部分第二个归属期归属结果暨股份上市公告",
+    "summary": "限售股份上市流通",
+    "source": "announcement_incremental",
+    "entity_codes": [
+      "688396"
+    ],
+    "entity_names": [
+      "华润微"
+    ],
+    "industry_codes": [],
+    "theme_tags": [],
+    "event_time": "2026-03-19T00:00:00",
+    "discover_time": "2026-03-19T00:00:00",
+    "available_at": "2026-03-19T00:00:00",
+    "severity": 0.3,
+    "surprise_score": 0.45,
+    "tradability_score": 0.7,
+    "novelty_score": 0.6,
+    "crowding_risk": 0.45,
+    "confidence": 0.55,
+    "impact_level": "low",
+    "source_type": "filing",
+    "raw_payload_ref": "",
+    "metadata": {
+      "legacy_type": "other",
+      "legacy_event_date": "2026-03-19",
+      "legacy_stock_code": "688396",
+      "legacy_stock_name": "华润微",
+      "ingest_date": "2026-03-19",
+      "announcement_type": "限售股份上市流通"
+    },
+    "created_at": "2026-03-19T12:23:16.789677+00:00",
+    "updated_at": "2026-03-19T12:23:16.789679+00:00"
+  },
+  {
+    "event_id": "filing:2026-03-19:688018:48a2a51ae17b",
+    "event_type": "other",
+    "event_subtype": "other",
+    "title": "乐鑫科技:乐鑫科技2026年第一次临时股东会会议材料",
+    "summary": "股东大会资料",
+    "source": "announcement_incremental",
+    "entity_codes": [
+      "688018"
+    ],
+    "entity_names": [
+      "乐鑫科技"
+    ],
+    "industry_codes": [],
+    "theme_tags": [],
+    "event_time": "2026-03-19T00:00:00",
+    "discover_time": "2026-03-19T00:00:00",
+    "available_at": "2026-03-19T00:00:00",
+    "severity": 0.3,
+    "surprise_score": 0.45,
+    "tradability_score": 0.7,
+    "novelty_score": 0.6,
+    "crowding_risk": 0.45,
+    "confidence": 0.55,
+    "impact_level": "low",
+    "source_type": "filing",
+    "raw_payload_ref": "",
+    "metadata": {
+      "legacy_type": "other",
+      "legacy_event_date": "2026-03-19",
+      "legacy_stock_code": "688018",
+      "legacy_stock_name": "乐鑫科技",
+      "ingest_date": "2026-03-19",
+      "announcement_type": "股东大会资料"
+    },
+    "created_at": "2026-03-19T12:23:16.789748+00:00",
+    "updated_at": "2026-03-19T12:23:16.789750+00:00"
+  },
+  {
+    "event_id": "filing:2026-03-19:688008:acf376082265",
+    "event_type": "other",
+    "event_subtype": "other",
+    "title": "澜起科技:H股公告-董事会会议召开日期",
+    "summary": "其他",
+    "source": "announcement_incremental",
+    "entity_codes": [
+      "688008"
+    ],
+    "entity_names": [
+      "澜起科技"
+    ],
+    "industry_codes": [],
+    "theme_tags": [],
+    "event_time": "2026-03-19T00:00:00",
+    "discover_time": "2026-03-19T00:00:00",
+    "available_at": "2026-03-19T00:00:00",
+    "severity": 0.3,
+    "surprise_score": 0.45,
+    "tradability_score": 0.7,
+    "novelty_score": 0.6,
+    "crowding_risk": 0.45,
+    "confidence": 0.55,
+    "impact_level": "low",
+    "source_type": "filing",
+    "raw_payload_ref": "",
+    "metadata": {
+      "legacy_type": "other",
+      "legacy_event_date": "2026-03-19",
+      "legacy_stock_code": "688008",
+      "legacy_stock_name": "澜起科技",
+      "ingest_date": "2026-03-19",
+      "announcement_type": "其他"
+    },
+    "created_at": "2026-03-19T12:23:16.789819+00:00",
+    "updated_at": "2026-03-19T12:23:16.789821+00:00"
+  },
+  {
+    "event_id": "filing:2026-03-19:001389:4d8c43e4abb7",
+    "event_type": "other",
+    "event_subtype": "other",
+    "title": "广合科技:关于境外上市外资股(H股)公开发行价格的公告",
+    "summary": "其他",
+    "source": "announcement_incremental",
+    "entity_codes": [
+      "001389"
+    ],
+    "entity_names": [
+      "广合科技"
+    ],
+    "industry_codes": [],
+    "theme_tags": [],
+    "event_time": "2026-03-19T00:00:00",
+    "discover_time": "2026-03-19T00:00:00",
+    "available_at": "2026-03-19T00:00:00",
+    "severity": 0.3,
+    "surprise_score": 0.45,
+    "tradability_score": 0.7,
+    "novelty_score": 0.6,
+    "crowding_risk": 0.45,
+    "confidence": 0.55,
+    "impact_level": "low",
+    "source_type": "filing",
+    "raw_payload_ref": "",
+    "metadata": {
+      "legacy_type": "other",
+      "legacy_event_date": "2026-03-19",
+      "legacy_stock_code": "001389",
+      "legacy_stock_name": "广合科技",
+      "ingest_date": "2026-03-19",
+      "announcement_type": "其他"
+    },
+    "created_at": "2026-03-19T12:23:16.789891+00:00",
+    "updated_at": "2026-03-19T12:23:16.789892+00:00"
+  },
+  {
+    "event_id": "filing:2026-03-19:603993:4fad333ed67c",
+    "event_type": "other",
+    "event_subtype": "other",
+    "title": "洛阳钼业:洛阳钼业关于对下属子公司及合营公司提供担保的公告",
+    "summary": "提供/对外担保公告",
+    "source": "announcement_incremental",
+    "entity_codes": [
+      "603993"
+    ],
+    "entity_names": [
+      "洛阳钼业"
+    ],
+    "industry_codes": [],
+    "theme_tags": [],
+    "event_time": "2026-03-19T00:00:00",
+    "discover_time": "2026-03-19T00:00:00",
+    "available_at": "2026-03-19T00:00:00",
+    "severity": 0.3,
+    "surprise_score": 0.45,
+    "tradability_score": 0.7,
+    "novelty_score": 0.6,
+    "crowding_risk": 0.45,
+    "confidence": 0.55,
+    "impact_level": "low",
+    "source_type": "filing",
+    "raw_payload_ref": "",
+    "metadata": {
+      "legacy_type": "other",
+      "legacy_event_date": "2026-03-19",
+      "legacy_stock_code": "603993",
+      "legacy_stock_name": "洛阳钼业",
+      "ingest_date": "2026-03-19",
+      "announcement_type": "提供/对外担保公告"
+    },
+    "created_at": "2026-03-19T12:23:16.789962+00:00",
+    "updated_at": "2026-03-19T12:23:16.789964+00:00"
+  },
+  {
+    "event_id": "filing:2026-03-19:601136:b6294b13bead",
+    "event_type": "other",
+    "event_subtype": "other",
+    "title": "首创证券:关于国有股份无偿划转完成过户登记的公告",
+    "summary": "股权转让",
+    "source": "announcement_incremental",
+    "entity_codes": [
+      "601136"
+    ],
+    "entity_names": [
+      "首创证券"
+    ],
+    "industry_codes": [],
+    "theme_tags": [],
+    "event_time": "2026-03-19T00:00:00",
+    "discover_time": "2026-03-19T00:00:00",
+    "available_at": "2026-03-19T00:00:00",
+    "severity": 0.3,
+    "surprise_score": 0.45,
+    "tradability_score": 0.7,
+    "novelty_score": 0.6,
+    "crowding_risk": 0.45,
+    "confidence": 0.55,
+    "impact_level": "low",
+    "source_type": "filing",
+    "raw_payload_ref": "",
+    "metadata": {
+      "legacy_type": "other",
+      "legacy_event_date": "2026-03-19",
+      "legacy_stock_code": "601136",
+      "legacy_stock_name": "首创证券",
+      "ingest_date": "2026-03-19",
+      "announcement_type": "股权转让"
+    },
+    "created_at": "2026-03-19T12:23:16.790034+00:00",
+    "updated_at": "2026-03-19T12:23:16.790036+00:00"
+  },
+  {
+    "event_id": "filing:2026-03-19:002126:ecfa1601449d",
+    "event_type": "other",
+    "event_subtype": "other",
+    "title": "银轮股份:关于控股子公司江苏朗信电气股份有限公司披露2025年年度报告的提示性公告",
+    "summary": "其他",
+    "source": "announcement_incremental",
+    "entity_codes": [
+      "002126"
+    ],
+    "entity_names": [
+      "银轮股份"
+    ],
+    "industry_codes": [],
+    "theme_tags": [],
+    "event_time": "2026-03-19T00:00:00",
+    "discover_time": "2026-03-19T00:00:00",
+    "available_at": "2026-03-19T00:00:00",
+    "severity": 0.3,
+    "surprise_score": 0.45,
+    "tradability_score": 0.7,
+    "novelty_score": 0.6,
+    "crowding_risk": 0.45,
+    "confidence": 0.55,
+    "impact_level": "low",
+    "source_type": "filing",
+    "raw_payload_ref": "",
+    "metadata": {
+      "legacy_type": "other",
+      "legacy_event_date": "2026-03-19",
+      "legacy_stock_code": "002126",
+      "legacy_stock_name": "银轮股份",
+      "ingest_date": "2026-03-19",
+      "announcement_type": "其他"
+    },
+    "created_at": "2026-03-19T12:23:16.790107+00:00",
+    "updated_at": "2026-03-19T12:23:16.790108+00:00"
+  },
+  {
+    "event_id": "filing:2026-03-19:688082:2df50b4076fa",
+    "event_type": "other",
+    "event_subtype": "other",
+    "title": "盛美上海:关于向特定对象发行股票限售股上市流通的公告",
+    "summary": "限售股份上市流通",
+    "source": "announcement_incremental",
+    "entity_codes": [
+      "688082"
+    ],
+    "entity_names": [
+      "盛美上海"
+    ],
+    "industry_codes": [],
+    "theme_tags": [],
+    "event_time": "2026-03-19T00:00:00",
+    "discover_time": "2026-03-19T00:00:00",
+    "available_at": "2026-03-19T00:00:00",
+    "severity": 0.3,
+    "surprise_score": 0.45,
+    "tradability_score": 0.7,
+    "novelty_score": 0.6,
+    "crowding_risk": 0.45,
+    "confidence": 0.55,
+    "impact_level": "low",
+    "source_type": "filing",
+    "raw_payload_ref": "",
+    "metadata": {
+      "legacy_type": "other",
+      "legacy_event_date": "2026-03-19",
+      "legacy_stock_code": "688082",
+      "legacy_stock_name": "盛美上海",
+      "ingest_date": "2026-03-19",
+      "announcement_type": "限售股份上市流通"
+    },
+    "created_at": "2026-03-19T12:23:16.790178+00:00",
+    "updated_at": "2026-03-19T12:23:16.790180+00:00"
+  },
+  {
+    "event_id": "filing:2026-03-19:688082:32b2bcd96ac2",
+    "event_type": "other",
+    "event_subtype": "other",
+    "title": "盛美上海:国泰海通证券股份有限公司关于盛美半导体设备(上海)股份有限公司向特定对象发行股票限售股上市流通的核查意见",
+    "summary": "保荐/核查意见",
+    "source": "announcement_incremental",
+    "entity_codes": [
+      "688082"
+    ],
+    "entity_names": [
+      "盛美上海"
+    ],
+    "industry_codes": [],
+    "theme_tags": [],
+    "event_time": "2026-03-19T00:00:00",
+    "discover_time": "2026-03-19T00:00:00",
+    "available_at": "2026-03-19T00:00:00",
+    "severity": 0.3,
+    "surprise_score": 0.45,
+    "tradability_score": 0.7,
+    "novelty_score": 0.6,
+    "crowding_risk": 0.45,
+    "confidence": 0.55,
+    "impact_level": "low",
+    "source_type": "filing",
+    "raw_payload_ref": "",
+    "metadata": {
+      "legacy_type": "other",
+      "legacy_event_date": "2026-03-19",
+      "legacy_stock_code": "688082",
+      "legacy_stock_name": "盛美上海",
+      "ingest_date": "2026-03-19",
+      "announcement_type": "保荐/核查意见"
+    },
+    "created_at": "2026-03-19T12:23:16.790251+00:00",
+    "updated_at": "2026-03-19T12:23:16.790253+00:00"
+  },
+  {
+    "event_id": "filing:2026-03-19:001979:1f08816eadff",
+    "event_type": "management_change",
+    "event_subtype": "management_change",
+    "title": "招商蛇口:关于聘任公司副总经理的公告",
+    "summary": "高管人员任职变动",
+    "source": "announcement_incremental",
+    "entity_codes": [
+      "001979"
+    ],
+    "entity_names": [
+      "招商蛇口"
+    ],
+    "industry_codes": [],
+    "theme_tags": [],
+    "event_time": "2026-03-19T00:00:00",
+    "discover_time": "2026-03-19T00:00:00",
+    "available_at": "2026-03-19T00:00:00",
+    "severity": 0.3,
+    "surprise_score": 0.45,
+    "tradability_score": 0.7,
+    "novelty_score": 0.6,
+    "crowding_risk": 0.35,
+    "confidence": 0.55,
+    "impact_level": "low",
+    "source_type": "filing",
+    "raw_payload_ref": "",
+    "metadata": {
+      "legacy_type": "management_change",
+      "legacy_event_date": "2026-03-19",
+      "legacy_stock_code": "001979",
+      "legacy_stock_name": "招商蛇口",
+      "ingest_date": "2026-03-19",
+      "announcement_type": "高管人员任职变动"
+    },
+    "created_at": "2026-03-19T12:23:16.790322+00:00",
+    "updated_at": "2026-03-19T12:23:16.790323+00:00"
+  },
+  {
+    "event_id": "filing:2026-03-19:001979:f06eddc45f14",
+    "event_type": "other",
+    "event_subtype": "other",
+    "title": "招商蛇口:第四届董事会2026年第二次临时会议决议公告",
+    "summary": "高管人员任职变动",
+    "source": "announcement_incremental",
+    "entity_codes": [
+      "001979"
+    ],
+    "entity_names": [
+      "招商蛇口"
+    ],
+    "industry_codes": [],
+    "theme_tags": [],
+    "event_time": "2026-03-19T00:00:00",
+    "discover_time": "2026-03-19T00:00:00",
+    "available_at": "2026-03-19T00:00:00",
+    "severity": 0.3,
+    "surprise_score": 0.45,
+    "tradability_score": 0.7,
+    "novelty_score": 0.6,
+    "crowding_risk": 0.45,
+    "confidence": 0.55,
+    "impact_level": "low",
+    "source_type": "filing",
+    "raw_payload_ref": "",
+    "metadata": {
+      "legacy_type": "other",
+      "legacy_event_date": "2026-03-19",
+      "legacy_stock_code": "001979",
+      "legacy_stock_name": "招商蛇口",
+      "ingest_date": "2026-03-19",
+      "announcement_type": "高管人员任职变动"
+    },
+    "created_at": "2026-03-19T12:23:16.790389+00:00",
+    "updated_at": "2026-03-19T12:23:16.790391+00:00"
+  },
+  {
+    "event_id": "filing:2026-03-19:002920:516b1b2b0cde",
+    "event_type": "other",
+    "event_subtype": "other",
+    "title": "德赛西威:中信证券股份有限公司关于惠州市德赛西威汽车电子股份有限公司2025年持续督导培训情况报告",
+    "summary": "保荐/核查意见",
+    "source": "announcement_incremental",
+    "entity_codes": [
+      "002920"
+    ],
+    "entity_names": [
+      "德赛西威"
+    ],
+    "industry_codes": [],
+    "theme_tags": [],
+    "event_time": "2026-03-19T00:00:00",
+    "discover_time": "2026-03-19T00:00:00",
+    "available_at": "2026-03-19T00:00:00",
+    "severity": 0.3,
+    "surprise_score": 0.45,
+    "tradability_score": 0.7,
+    "novelty_score": 0.6,
+    "crowding_risk": 0.45,
+    "confidence": 0.55,
+    "impact_level": "low",
+    "source_type": "filing",
+    "raw_payload_ref": "",
+    "metadata": {
+      "legacy_type": "other",
+      "legacy_event_date": "2026-03-19",
+      "legacy_stock_code": "002920",
+      "legacy_stock_name": "德赛西威",
+      "ingest_date": "2026-03-19",
+      "announcement_type": "保荐/核查意见"
+    },
+    "created_at": "2026-03-19T12:23:16.790455+00:00",
+    "updated_at": "2026-03-19T12:23:16.790456+00:00"
+  },
+  {
+    "event_id": "filing:2026-03-19:300142:76618c7f78f7",
+    "event_type": "other",
+    "event_subtype": "other",
+    "title": "沃森生物:关于2026年度向特定对象发行股票摊薄即期回报、填补措施及相关主体承诺的公告",
+    "summary": "其他",
+    "source": "announcement_incremental",
+    "entity_codes": [
+      "300142"
+    ],
+    "entity_names": [
+      "沃森生物"
+    ],
+    "industry_codes": [],
+    "theme_tags": [],
+    "event_time": "2026-03-19T00:00:00",
+    "discover_time": "2026-03-19T00:00:00",
+    "available_at": "2026-03-19T00:00:00",
+    "severity": 0.3,
+    "surprise_score": 0.45,
+    "tradability_score": 0.7,
+    "novelty_score": 0.6,
+    "crowding_risk": 0.45,
+    "confidence": 0.55,
+    "impact_level": "low",
+    "source_type": "filing",
+    "raw_payload_ref": "",
+    "metadata": {
+      "legacy_type": "other",
+      "legacy_event_date": "2026-03-19",
+      "legacy_stock_code": "300142",
+      "legacy_stock_name": "沃森生物",
+      "ingest_date": "2026-03-19",
+      "announcement_type": "其他"
+    },
+    "created_at": "2026-03-19T12:23:16.790519+00:00",
+    "updated_at": "2026-03-19T12:23:16.790520+00:00"
+  },
+  {
+    "event_id": "filing:2026-03-19:300142:962dc513d606",
+    "event_type": "other",
+    "event_subtype": "other",
+    "title": "沃森生物:2026年度向特定对象发行A股股票预案",
+    "summary": "增发预案",
+    "source": "announcement_incremental",
+    "entity_codes": [
+      "300142"
+    ],
+    "entity_names": [
+      "沃森生物"
+    ],
+    "industry_codes": [],
+    "theme_tags": [],
+    "event_time": "2026-03-19T00:00:00",
+    "discover_time": "2026-03-19T00:00:00",
+    "available_at": "2026-03-19T00:00:00",
+    "severity": 0.3,
+    "surprise_score": 0.45,
+    "tradability_score": 0.7,
+    "novelty_score": 0.6,
+    "crowding_risk": 0.45,
+    "confidence": 0.55,
+    "impact_level": "low",
+    "source_type": "filing",
+    "raw_payload_ref": "",
+    "metadata": {
+      "legacy_type": "other",
+      "legacy_event_date": "2026-03-19",
+      "legacy_stock_code": "300142",
+      "legacy_stock_name": "沃森生物",
+      "ingest_date": "2026-03-19",
+      "announcement_type": "增发预案"
+    },
+    "created_at": "2026-03-19T12:23:16.790582+00:00",
+    "updated_at": "2026-03-19T12:23:16.790584+00:00"
+  },
+  {
+    "event_id": "filing:2026-03-19:300142:3dac47d05c0d",
+    "event_type": "other",
+    "event_subtype": "other",
+    "title": "沃森生物:第六届董事会第三次会议决议公告",
+    "summary": "增发预案",
+    "source": "announcement_incremental",
+    "entity_codes": [
+      "300142"
+    ],
+    "entity_names": [
+      "沃森生物"
+    ],
+    "industry_codes": [],
+    "theme_tags": [],
+    "event_time": "2026-03-19T00:00:00",
+    "discover_time": "2026-03-19T00:00:00",
+    "available_at": "2026-03-19T00:00:00",
+    "severity": 0.3,
+    "surprise_score": 0.45,
+    "tradability_score": 0.7,
+    "novelty_score": 0.6,
+    "crowding_risk": 0.45,
+    "confidence": 0.55,
+    "impact_level": "low",
+    "source_type": "filing",
+    "raw_payload_ref": "",
+    "metadata": {
+      "legacy_type": "other",
+      "legacy_event_date": "2026-03-19",
+      "legacy_stock_code": "300142",
+      "legacy_stock_name": "沃森生物",
+      "ingest_date": "2026-03-19",
+      "announcement_type": "增发预案"
+    },
+    "created_at": "2026-03-19T12:23:16.790645+00:00",
+    "updated_at": "2026-03-19T12:23:16.790646+00:00"
+  },
+  {
+    "event_id": "filing:2026-03-19:300142:cab1ab96a512",
+    "event_type": "other",
+    "event_subtype": "other",
+    "title": "沃森生物:关于向特定对象发行A股股票涉及关联交易事项暨与特定对象签署附条件生效的股份认购协议的公告",
+    "summary": "签订协议",
+    "source": "announcement_incremental",
+    "entity_codes": [
+      "300142"
+    ],
+    "entity_names": [
+      "沃森生物"
+    ],
+    "industry_codes": [],
+    "theme_tags": [],
+    "event_time": "2026-03-19T00:00:00",
+    "discover_time": "2026-03-19T00:00:00",
+    "available_at": "2026-03-19T00:00:00",
+    "severity": 0.3,
+    "surprise_score": 0.45,
+    "tradability_score": 0.7,
+    "novelty_score": 0.6,
+    "crowding_risk": 0.45,
+    "confidence": 0.55,
+    "impact_level": "low",
+    "source_type": "filing",
+    "raw_payload_ref": "",
+    "metadata": {
+      "legacy_type": "other",
+      "legacy_event_date": "2026-03-19",
+      "legacy_stock_code": "300142",
+      "legacy_stock_name": "沃森生物",
+      "ingest_date": "2026-03-19",
+      "announcement_type": "签订协议"
+    },
+    "created_at": "2026-03-19T12:23:16.790712+00:00",
+    "updated_at": "2026-03-19T12:23:16.790714+00:00"
+  },
+  {
+    "event_id": "filing:2026-03-19:300142:bc2bcbd98676",
+    "event_type": "policy_risk",
+    "event_subtype": "policy_risk",
+    "title": "沃森生物:关于公司最近五年被证券监管部门和证券交易所采取监管措施或处罚情况的公告",
+    "summary": "处罚",
+    "source": "announcement_incremental",
+    "entity_codes": [
+      "300142"
+    ],
+    "entity_names": [
+      "沃森生物"
+    ],
+    "industry_codes": [],
+    "theme_tags": [],
+    "event_time": "2026-03-19T00:00:00",
+    "discover_time": "2026-03-19T00:00:00",
+    "available_at": "2026-03-19T00:00:00",
+    "severity": 0.8,
+    "surprise_score": 0.75,
+    "tradability_score": 0.7,
+    "novelty_score": 0.6,
+    "crowding_risk": 0.35,
+    "confidence": 0.7,
+    "impact_level": "high",
+    "source_type": "filing",
+    "raw_payload_ref": "",
+    "metadata": {
+      "legacy_type": "policy_risk",
+      "legacy_event_date": "2026-03-19",
+      "legacy_stock_code": "300142",
+      "legacy_stock_name": "沃森生物",
+      "ingest_date": "2026-03-19",
+      "announcement_type": "处罚"
+    },
+    "created_at": "2026-03-19T12:23:16.790776+00:00",
+    "updated_at": "2026-03-19T12:23:16.790778+00:00"
+  },
+  {
+    "event_id": "filing:2026-03-19:300142:3ea83f762253",
+    "event_type": "other",
+    "event_subtype": "other",
+    "title": "沃森生物:2026年度向特定对象发行股票方案论证分析报告",
+    "summary": "其他",
+    "source": "announcement_incremental",
+    "entity_codes": [
+      "300142"
+    ],
+    "entity_names": [
+      "沃森生物"
+    ],
+    "industry_codes": [],
+    "theme_tags": [],
+    "event_time": "2026-03-19T00:00:00",
+    "discover_time": "2026-03-19T00:00:00",
+    "available_at": "2026-03-19T00:00:00",
+    "severity": 0.3,
+    "surprise_score": 0.45,
+    "tradability_score": 0.7,
+    "novelty_score": 0.6,
+    "crowding_risk": 0.45,
+    "confidence": 0.55,
+    "impact_level": "low",
+    "source_type": "filing",
+    "raw_payload_ref": "",
+    "metadata": {
+      "legacy_type": "other",
+      "legacy_event_date": "2026-03-19",
+      "legacy_stock_code": "300142",
+      "legacy_stock_name": "沃森生物",
+      "ingest_date": "2026-03-19",
+      "announcement_type": "其他"
+    },
+    "created_at": "2026-03-19T12:23:16.790929+00:00",
+    "updated_at": "2026-03-19T12:23:16.790931+00:00"
+  },
+  {
+    "event_id": "filing:2026-03-19:300142:6117dea2299b",
+    "event_type": "other",
+    "event_subtype": "other",
+    "title": "沃森生物:关于公司股东签署《共同投资暨一致行动协议》及公司签署《附条件生效的股份认购协议》暨控股股东、实际控制人拟发生变更的提示性公告",
+    "summary": "签订协议",
+    "source": "announcement_incremental",
+    "entity_codes": [
+      "300142"
+    ],
+    "entity_names": [
+      "沃森生物"
+    ],
+    "industry_codes": [],
+    "theme_tags": [],
+    "event_time": "2026-03-19T00:00:00",
+    "discover_time": "2026-03-19T00:00:00",
+    "available_at": "2026-03-19T00:00:00",
+    "severity": 0.3,
+    "surprise_score": 0.45,
+    "tradability_score": 0.7,
+    "novelty_score": 0.6,
+    "crowding_risk": 0.45,
+    "confidence": 0.55,
+    "impact_level": "low",
+    "source_type": "filing",
+    "raw_payload_ref": "",
+    "metadata": {
+      "legacy_type": "other",
+      "legacy_event_date": "2026-03-19",
+      "legacy_stock_code": "300142",
+      "legacy_stock_name": "沃森生物",
+      "ingest_date": "2026-03-19",
+      "announcement_type": "签订协议"
+    },
+    "created_at": "2026-03-19T12:23:16.790998+00:00",
+    "updated_at": "2026-03-19T12:23:16.790999+00:00"
+  },
+  {
+    "event_id": "filing:2026-03-19:300142:08e002e3f522",
+    "event_type": "other",
+    "event_subtype": "other",
+    "title": "沃森生物:关于本次向特定对象发行A股股票不存在直接或通过利益相关方向参与认购的投资者提供财务资助或补偿的公告",
+    "summary": "获得补贴（资助）",
+    "source": "announcement_incremental",
+    "entity_codes": [
+      "300142"
+    ],
+    "entity_names": [
+      "沃森生物"
+    ],
+    "industry_codes": [],
+    "theme_tags": [],
+    "event_time": "2026-03-19T00:00:00",
+    "discover_time": "2026-03-19T00:00:00",
+    "available_at": "2026-03-19T00:00:00",
+    "severity": 0.3,
+    "surprise_score": 0.45,
+    "tradability_score": 0.7,
+    "novelty_score": 0.6,
+    "crowding_risk": 0.45,
+    "confidence": 0.55,
+    "impact_level": "low",
+    "source_type": "filing",
+    "raw_payload_ref": "",
+    "metadata": {
+      "legacy_type": "other",
+      "legacy_event_date": "2026-03-19",
+      "legacy_stock_code": "300142",
+      "legacy_stock_name": "沃森生物",
+      "ingest_date": "2026-03-19",
+      "announcement_type": "获得补贴（资助）"
+    },
+    "created_at": "2026-03-19T12:23:16.791064+00:00",
+    "updated_at": "2026-03-19T12:23:16.791065+00:00"
+  },
+  {
+    "event_id": "filing:2026-03-19:300142:31f208fc2563",
+    "event_type": "other",
+    "event_subtype": "other",
+    "title": "沃森生物:关于无需编制前次募集资金使用情况报告的公告",
+    "summary": "募集资金使用情况报告",
+    "source": "announcement_incremental",
+    "entity_codes": [
+      "300142"
+    ],
+    "entity_names": [
+      "沃森生物"
+    ],
+    "industry_codes": [],
+    "theme_tags": [],
+    "event_time": "2026-03-19T00:00:00",
+    "discover_time": "2026-03-19T00:00:00",
+    "available_at": "2026-03-19T00:00:00",
+    "severity": 0.3,
+    "surprise_score": 0.45,
+    "tradability_score": 0.7,
+    "novelty_score": 0.6,
+    "crowding_risk": 0.45,
+    "confidence": 0.55,
+    "impact_level": "low",
+    "source_type": "filing",
+    "raw_payload_ref": "",
+    "metadata": {
+      "legacy_type": "other",
+      "legacy_event_date": "2026-03-19",
+      "legacy_stock_code": "300142",
+      "legacy_stock_name": "沃森生物",
+      "ingest_date": "2026-03-19",
+      "announcement_type": "募集资金使用情况报告"
+    },
+    "created_at": "2026-03-19T12:23:16.791129+00:00",
+    "updated_at": "2026-03-19T12:23:16.791131+00:00"
+  },
+  {
+    "event_id": "filing:2026-03-19:300142:406372902b8d",
+    "event_type": "other",
+    "event_subtype": "other",
+    "title": "沃森生物:关于公司2026年度向特定对象发行A股股票预案披露的提示性公告",
+    "summary": "增发提示性公告",
+    "source": "announcement_incremental",
+    "entity_codes": [
+      "300142"
+    ],
+    "entity_names": [
+      "沃森生物"
+    ],
+    "industry_codes": [],
+    "theme_tags": [],
+    "event_time": "2026-03-19T00:00:00",
+    "discover_time": "2026-03-19T00:00:00",
+    "available_at": "2026-03-19T00:00:00",
+    "severity": 0.3,
+    "surprise_score": 0.45,
+    "tradability_score": 0.7,
+    "novelty_score": 0.6,
+    "crowding_risk": 0.45,
+    "confidence": 0.55,
+    "impact_level": "low",
+    "source_type": "filing",
+    "raw_payload_ref": "",
+    "metadata": {
+      "legacy_type": "other",
+      "legacy_event_date": "2026-03-19",
+      "legacy_stock_code": "300142",
+      "legacy_stock_name": "沃森生物",
+      "ingest_date": "2026-03-19",
+      "announcement_type": "增发提示性公告"
+    },
+    "created_at": "2026-03-19T12:23:16.791193+00:00",
+    "updated_at": "2026-03-19T12:23:16.791195+00:00"
+  },
+  {
+    "event_id": "filing:2026-03-19:300142:5f797d5fe9bc",
+    "event_type": "other",
+    "event_subtype": "other",
+    "title": "沃森生物:2026年度向特定对象发行A股股票募集资金使用可行性分析报告",
+    "summary": "其他",
+    "source": "announcement_incremental",
+    "entity_codes": [
+      "300142"
+    ],
+    "entity_names": [
+      "沃森生物"
+    ],
+    "industry_codes": [],
+    "theme_tags": [],
+    "event_time": "2026-03-19T00:00:00",
+    "discover_time": "2026-03-19T00:00:00",
+    "available_at": "2026-03-19T00:00:00",
+    "severity": 0.3,
+    "surprise_score": 0.45,
+    "tradability_score": 0.7,
+    "novelty_score": 0.6,
+    "crowding_risk": 0.45,
+    "confidence": 0.55,
+    "impact_level": "low",
+    "source_type": "filing",
+    "raw_payload_ref": "",
+    "metadata": {
+      "legacy_type": "other",
+      "legacy_event_date": "2026-03-19",
+      "legacy_stock_code": "300142",
+      "legacy_stock_name": "沃森生物",
+      "ingest_date": "2026-03-19",
+      "announcement_type": "其他"
+    },
+    "created_at": "2026-03-19T12:23:16.791263+00:00",
+    "updated_at": "2026-03-19T12:23:16.791264+00:00"
+  },
+  {
+    "event_id": "filing:2026-03-19:300142:c0206ed77e47",
+    "event_type": "other",
+    "event_subtype": "other",
+    "title": "沃森生物:未来三年股东回报规划(2026-2028年)",
+    "summary": "其他",
+    "source": "announcement_incremental",
+    "entity_codes": [
+      "300142"
+    ],
+    "entity_names": [
+      "沃森生物"
+    ],
+    "industry_codes": [],
+    "theme_tags": [],
+    "event_time": "2026-03-19T00:00:00",
+    "discover_time": "2026-03-19T00:00:00",
+    "available_at": "2026-03-19T00:00:00",
+    "severity": 0.3,
+    "surprise_score": 0.45,
+    "tradability_score": 0.7,
+    "novelty_score": 0.6,
+    "crowding_risk": 0.45,
+    "confidence": 0.55,
+    "impact_level": "low",
+    "source_type": "filing",
+    "raw_payload_ref": "",
+    "metadata": {
+      "legacy_type": "other",
+      "legacy_event_date": "2026-03-19",
+      "legacy_stock_code": "300142",
+      "legacy_stock_name": "沃森生物",
+      "ingest_date": "2026-03-19",
+      "announcement_type": "其他"
+    },
+    "created_at": "2026-03-19T12:23:16.791327+00:00",
+    "updated_at": "2026-03-19T12:23:16.791329+00:00"
+  },
+  {
+    "event_id": "filing:2026-03-19:300142:1f07a6791a0c",
+    "event_type": "other",
+    "event_subtype": "other",
+    "title": "沃森生物:独立董事关于公司2026年度向特定对象发行股票方案论证分析报告的专项意见",
+    "summary": "专项说明/独立意见",
+    "source": "announcement_incremental",
+    "entity_codes": [
+      "300142"
+    ],
+    "entity_names": [
+      "沃森生物"
+    ],
+    "industry_codes": [],
+    "theme_tags": [],
+    "event_time": "2026-03-19T00:00:00",
+    "discover_time": "2026-03-19T00:00:00",
+    "available_at": "2026-03-19T00:00:00",
+    "severity": 0.3,
+    "surprise_score": 0.45,
+    "tradability_score": 0.7,
+    "novelty_score": 0.6,
+    "crowding_risk": 0.45,
+    "confidence": 0.55,
+    "impact_level": "low",
+    "source_type": "filing",
+    "raw_payload_ref": "",
+    "metadata": {
+      "legacy_type": "other",
+      "legacy_event_date": "2026-03-19",
+      "legacy_stock_code": "300142",
+      "legacy_stock_name": "沃森生物",
+      "ingest_date": "2026-03-19",
+      "announcement_type": "专项说明/独立意见"
+    },
+    "created_at": "2026-03-19T12:23:16.791392+00:00",
+    "updated_at": "2026-03-19T12:23:16.791394+00:00"
+  },
+  {
+    "event_id": "filing:2026-03-19:002273:51d8cb6c0f2a",
+    "event_type": "buyback",
+    "event_subtype": "buyback",
+    "title": "水晶光电:关于第九期员工持股计划完成非交易过户的公告",
+    "summary": "员工持股计划",
+    "source": "announcement_incremental",
+    "entity_codes": [
+      "002273"
+    ],
+    "entity_names": [
+      "水晶光电"
+    ],
+    "industry_codes": [],
+    "theme_tags": [],
+    "event_time": "2026-03-19T00:00:00",
+    "discover_time": "2026-03-19T00:00:00",
+    "available_at": "2026-03-19T00:00:00",
+    "severity": 0.55,
+    "surprise_score": 0.45,
+    "tradability_score": 0.7,
+    "novelty_score": 0.6,
+    "crowding_risk": 0.45,
+    "confidence": 0.55,
+    "impact_level": "medium",
+    "source_type": "filing",
+    "raw_payload_ref": "",
+    "metadata": {
+      "legacy_type": "buyback",
+      "legacy_event_date": "2026-03-19",
+      "legacy_stock_code": "002273",
+      "legacy_stock_name": "水晶光电",
+      "ingest_date": "2026-03-19",
+      "announcement_type": "员工持股计划"
+    },
+    "created_at": "2026-03-19T12:23:16.791453+00:00",
+    "updated_at": "2026-03-19T12:23:16.791454+00:00"
+  },
+  {
+    "event_id": "filing:2026-03-19:002273:3280967db0e0",
+    "event_type": "buyback",
+    "event_subtype": "buyback",
+    "title": "水晶光电:第九期员工持股计划第一次持有人会议决议公告",
+    "summary": "员工持股计划",
+    "source": "announcement_incremental",
+    "entity_codes": [
+      "002273"
+    ],
+    "entity_names": [
+      "水晶光电"
+    ],
+    "industry_codes": [],
+    "theme_tags": [],
+    "event_time": "2026-03-19T00:00:00",
+    "discover_time": "2026-03-19T00:00:00",
+    "available_at": "2026-03-19T00:00:00",
+    "severity": 0.55,
+    "surprise_score": 0.45,
+    "tradability_score": 0.7,
+    "novelty_score": 0.6,
+    "crowding_risk": 0.45,
+    "confidence": 0.55,
+    "impact_level": "medium",
+    "source_type": "filing",
+    "raw_payload_ref": "",
+    "metadata": {
+      "legacy_type": "buyback",
+      "legacy_event_date": "2026-03-19",
+      "legacy_stock_code": "002273",
+      "legacy_stock_name": "水晶光电",
+      "ingest_date": "2026-03-19",
+      "announcement_type": "员工持股计划"
+    },
+    "created_at": "2026-03-19T12:23:16.791513+00:00",
+    "updated_at": "2026-03-19T12:23:16.791515+00:00"
+  },
+  {
+    "event_id": "filing:2026-03-19:603816:546a63c5a8d1",
+    "event_type": "other",
+    "event_subtype": "other",
+    "title": "顾家家居:关于高级管理人员减持股份计划的公告",
+    "summary": "高管人员持股变动",
+    "source": "announcement_incremental",
+    "entity_codes": [
+      "603816"
+    ],
+    "entity_names": [
+      "顾家家居"
+    ],
+    "industry_codes": [],
+    "theme_tags": [],
+    "event_time": "2026-03-19T00:00:00",
+    "discover_time": "2026-03-19T00:00:00",
+    "available_at": "2026-03-19T00:00:00",
+    "severity": 0.3,
+    "surprise_score": 0.45,
+    "tradability_score": 0.7,
+    "novelty_score": 0.6,
+    "crowding_risk": 0.45,
+    "confidence": 0.55,
+    "impact_level": "low",
+    "source_type": "filing",
+    "raw_payload_ref": "",
+    "metadata": {
+      "legacy_type": "other",
+      "legacy_event_date": "2026-03-19",
+      "legacy_stock_code": "603816",
+      "legacy_stock_name": "顾家家居",
+      "ingest_date": "2026-03-19",
+      "announcement_type": "高管人员持股变动"
+    },
+    "created_at": "2026-03-19T12:23:16.791577+00:00",
+    "updated_at": "2026-03-19T12:23:16.791578+00:00"
+  },
+  {
+    "event_id": "filing:2026-03-19:000301:1c16a37b8ba7",
+    "event_type": "other",
+    "event_subtype": "other",
+    "title": "东方盛虹:关于完成工商变更登记的公告",
+    "summary": "公司注册资本变更",
+    "source": "announcement_incremental",
+    "entity_codes": [
+      "000301"
+    ],
+    "entity_names": [
+      "东方盛虹"
+    ],
+    "industry_codes": [],
+    "theme_tags": [],
+    "event_time": "2026-03-19T00:00:00",
+    "discover_time": "2026-03-19T00:00:00",
+    "available_at": "2026-03-19T00:00:00",
+    "severity": 0.3,
+    "surprise_score": 0.45,
+    "tradability_score": 0.7,
+    "novelty_score": 0.6,
+    "crowding_risk": 0.45,
+    "confidence": 0.55,
+    "impact_level": "low",
+    "source_type": "filing",
+    "raw_payload_ref": "",
+    "metadata": {
+      "legacy_type": "other",
+      "legacy_event_date": "2026-03-19",
+      "legacy_stock_code": "000301",
+      "legacy_stock_name": "东方盛虹",
+      "ingest_date": "2026-03-19",
+      "announcement_type": "公司注册资本变更"
+    },
+    "created_at": "2026-03-19T12:23:16.791640+00:00",
+    "updated_at": "2026-03-19T12:23:16.791641+00:00"
+  },
+  {
+    "event_id": "filing:2026-03-19:601658:ec0e37a1031f",
+    "event_type": "other",
+    "event_subtype": "other",
+    "title": "邮储银行:中国国际金融股份有限公司、中信证券股份有限公司关于中国邮政储蓄银行股份有限公司非公开发行A股股票限售股上市流通的核查意见",
+    "summary": "保荐/核查意见",
+    "source": "announcement_incremental",
+    "entity_codes": [
+      "601658"
+    ],
+    "entity_names": [
+      "邮储银行"
+    ],
+    "industry_codes": [],
+    "theme_tags": [],
+    "event_time": "2026-03-19T00:00:00",
+    "discover_time": "2026-03-19T00:00:00",
+    "available_at": "2026-03-19T00:00:00",
+    "severity": 0.3,
+    "surprise_score": 0.45,
+    "tradability_score": 0.7,
+    "novelty_score": 0.6,
+    "crowding_risk": 0.45,
+    "confidence": 0.55,
+    "impact_level": "low",
+    "source_type": "filing",
+    "raw_payload_ref": "",
+    "metadata": {
+      "legacy_type": "other",
+      "legacy_event_date": "2026-03-19",
+      "legacy_stock_code": "601658",
+      "legacy_stock_name": "邮储银行",
+      "ingest_date": "2026-03-19",
+      "announcement_type": "保荐/核查意见"
+    },
+    "created_at": "2026-03-19T12:23:16.791705+00:00",
+    "updated_at": "2026-03-19T12:23:16.791706+00:00"
+  },
+  {
+    "event_id": "filing:2026-03-19:601658:f98189688340",
+    "event_type": "other",
+    "event_subtype": "other",
+    "title": "邮储银行:中国邮政储蓄银行股份有限公司非公开发行A股股票限售股上市流通公告",
+    "summary": "限售股份上市流通",
+    "source": "announcement_incremental",
+    "entity_codes": [
+      "601658"
+    ],
+    "entity_names": [
+      "邮储银行"
+    ],
+    "industry_codes": [],
+    "theme_tags": [],
+    "event_time": "2026-03-19T00:00:00",
+    "discover_time": "2026-03-19T00:00:00",
+    "available_at": "2026-03-19T00:00:00",
+    "severity": 0.3,
+    "surprise_score": 0.45,
+    "tradability_score": 0.7,
+    "novelty_score": 0.6,
+    "crowding_risk": 0.45,
+    "confidence": 0.55,
+    "impact_level": "low",
+    "source_type": "filing",
+    "raw_payload_ref": "",
+    "metadata": {
+      "legacy_type": "other",
+      "legacy_event_date": "2026-03-19",
+      "legacy_stock_code": "601658",
+      "legacy_stock_name": "邮储银行",
+      "ingest_date": "2026-03-19",
+      "announcement_type": "限售股份上市流通"
+    },
+    "created_at": "2026-03-19T12:23:16.791768+00:00",
+    "updated_at": "2026-03-19T12:23:16.791769+00:00"
+  },
+  {
+    "event_id": "filing:2026-03-19:600959:46094cd35ee5",
+    "event_type": "other",
+    "event_subtype": "other",
+    "title": "江苏有线:江苏有线第六届董事会第十七次会议决议公告",
+    "summary": "董事会决议公告",
+    "source": "announcement_incremental",
+    "entity_codes": [
+      "600959"
+    ],
+    "entity_names": [
+      "江苏有线"
+    ],
+    "industry_codes": [],
+    "theme_tags": [],
+    "event_time": "2026-03-19T00:00:00",
+    "discover_time": "2026-03-19T00:00:00",
+    "available_at": "2026-03-19T00:00:00",
+    "severity": 0.3,
+    "surprise_score": 0.45,
+    "tradability_score": 0.7,
+    "novelty_score": 0.6,
+    "crowding_risk": 0.45,
+    "confidence": 0.55,
+    "impact_level": "low",
+    "source_type": "filing",
+    "raw_payload_ref": "",
+    "metadata": {
+      "legacy_type": "other",
+      "legacy_event_date": "2026-03-19",
+      "legacy_stock_code": "600959",
+      "legacy_stock_name": "江苏有线",
+      "ingest_date": "2026-03-19",
+      "announcement_type": "董事会决议公告"
+    },
+    "created_at": "2026-03-19T12:23:16.791830+00:00",
+    "updated_at": "2026-03-19T12:23:16.791832+00:00"
+  },
+  {
+    "event_id": "filing:2026-03-19:600959:ffe1b9a57e32",
+    "event_type": "buyback",
+    "event_subtype": "buyback",
+    "title": "江苏有线:江苏有线关于控股股东增持进展暨增持计划调整的公告",
+    "summary": "股东/实际控制人股份增持",
+    "source": "announcement_incremental",
+    "entity_codes": [
+      "600959"
+    ],
+    "entity_names": [
+      "江苏有线"
+    ],
+    "industry_codes": [],
+    "theme_tags": [],
+    "event_time": "2026-03-19T00:00:00",
+    "discover_time": "2026-03-19T00:00:00",
+    "available_at": "2026-03-19T00:00:00",
+    "severity": 0.55,
+    "surprise_score": 0.45,
+    "tradability_score": 0.7,
+    "novelty_score": 0.6,
+    "crowding_risk": 0.45,
+    "confidence": 0.55,
+    "impact_level": "medium",
+    "source_type": "filing",
+    "raw_payload_ref": "",
+    "metadata": {
+      "legacy_type": "buyback",
+      "legacy_event_date": "2026-03-19",
+      "legacy_stock_code": "600959",
+      "legacy_stock_name": "江苏有线",
+      "ingest_date": "2026-03-19",
+      "announcement_type": "股东/实际控制人股份增持"
+    },
+    "created_at": "2026-03-19T12:23:16.791890+00:00",
+    "updated_at": "2026-03-19T12:23:16.791892+00:00"
+  },
+  {
+    "event_id": "filing:2026-03-19:601991:2ef94487efd2",
+    "event_type": "other",
+    "event_subtype": "other",
+    "title": "大唐发电:大唐发电关于超短期融资券发行的公告",
+    "summary": "其他",
+    "source": "announcement_incremental",
+    "entity_codes": [
+      "601991"
+    ],
+    "entity_names": [
+      "大唐发电"
+    ],
+    "industry_codes": [],
+    "theme_tags": [],
+    "event_time": "2026-03-19T00:00:00",
+    "discover_time": "2026-03-19T00:00:00",
+    "available_at": "2026-03-19T00:00:00",
+    "severity": 0.3,
+    "surprise_score": 0.45,
+    "tradability_score": 0.7,
+    "novelty_score": 0.6,
+    "crowding_risk": 0.45,
+    "confidence": 0.55,
+    "impact_level": "low",
+    "source_type": "filing",
+    "raw_payload_ref": "",
+    "metadata": {
+      "legacy_type": "other",
+      "legacy_event_date": "2026-03-19",
+      "legacy_stock_code": "601991",
+      "legacy_stock_name": "大唐发电",
+      "ingest_date": "2026-03-19",
+      "announcement_type": "其他"
+    },
+    "created_at": "2026-03-19T12:23:16.791954+00:00",
+    "updated_at": "2026-03-19T12:23:16.791955+00:00"
+  },
+  {
+    "event_id": "filing:2026-03-19:600298:8e9caba6de22",
+    "event_type": "other",
+    "event_subtype": "other",
+    "title": "安琪酵母:安琪酵母股份有限公司关于宜昌高新区公司实施白洋生物科技园项目二期的公告",
+    "summary": "对外项目投资",
+    "source": "announcement_incremental",
+    "entity_codes": [
+      "600298"
+    ],
+    "entity_names": [
+      "安琪酵母"
+    ],
+    "industry_codes": [],
+    "theme_tags": [],
+    "event_time": "2026-03-19T00:00:00",
+    "discover_time": "2026-03-19T00:00:00",
+    "available_at": "2026-03-19T00:00:00",
+    "severity": 0.3,
+    "surprise_score": 0.45,
+    "tradability_score": 0.7,
+    "novelty_score": 0.6,
+    "crowding_risk": 0.45,
+    "confidence": 0.55,
+    "impact_level": "low",
+    "source_type": "filing",
+    "raw_payload_ref": "",
+    "metadata": {
+      "legacy_type": "other",
+      "legacy_event_date": "2026-03-19",
+      "legacy_stock_code": "600298",
+      "legacy_stock_name": "安琪酵母",
+      "ingest_date": "2026-03-19",
+      "announcement_type": "对外项目投资"
+    },
+    "created_at": "2026-03-19T12:23:16.792024+00:00",
+    "updated_at": "2026-03-19T12:23:16.792026+00:00"
+  },
+  {
+    "event_id": "filing:2026-03-19:600298:acbe29b31171",
+    "event_type": "other",
+    "event_subtype": "other",
+    "title": "安琪酵母:安琪酵母股份有限公司第十届董事会第十一次会议决议公告",
+    "summary": "董事会决议公告",
+    "source": "announcement_incremental",
+    "entity_codes": [
+      "600298"
+    ],
+    "entity_names": [
+      "安琪酵母"
+    ],
+    "industry_codes": [],
+    "theme_tags": [],
+    "event_time": "2026-03-19T00:00:00",
+    "discover_time": "2026-03-19T00:00:00",
+    "available_at": "2026-03-19T00:00:00",
+    "severity": 0.3,
+    "surprise_score": 0.45,
+    "tradability_score": 0.7,
+    "novelty_score": 0.6,
+    "crowding_risk": 0.45,
+    "confidence": 0.55,
+    "impact_level": "low",
+    "source_type": "filing",
+    "raw_payload_ref": "",
+    "metadata": {
+      "legacy_type": "other",
+      "legacy_event_date": "2026-03-19",
+      "legacy_stock_code": "600298",
+      "legacy_stock_name": "安琪酵母",
+      "ingest_date": "2026-03-19",
+      "announcement_type": "董事会决议公告"
+    },
+    "created_at": "2026-03-19T12:23:16.792090+00:00",
+    "updated_at": "2026-03-19T12:23:16.792091+00:00"
+  },
+  {
+    "event_id": "filing:2026-03-19:002568:79bcb4f656c8",
+    "event_type": "other",
+    "event_subtype": "other",
+    "title": "百润股份:关于可转换公司债券转股价格调整的公告",
+    "summary": "其他",
+    "source": "announcement_incremental",
+    "entity_codes": [
+      "002568"
+    ],
+    "entity_names": [
+      "百润股份"
+    ],
+    "industry_codes": [],
+    "theme_tags": [],
+    "event_time": "2026-03-19T00:00:00",
+    "discover_time": "2026-03-19T00:00:00",
+    "available_at": "2026-03-19T00:00:00",
+    "severity": 0.3,
+    "surprise_score": 0.45,
+    "tradability_score": 0.7,
+    "novelty_score": 0.6,
+    "crowding_risk": 0.45,
+    "confidence": 0.55,
+    "impact_level": "low",
+    "source_type": "filing",
+    "raw_payload_ref": "",
+    "metadata": {
+      "legacy_type": "other",
+      "legacy_event_date": "2026-03-19",
+      "legacy_stock_code": "002568",
+      "legacy_stock_name": "百润股份",
+      "ingest_date": "2026-03-19",
+      "announcement_type": "其他"
+    },
+    "created_at": "2026-03-19T12:23:16.792158+00:00",
+    "updated_at": "2026-03-19T12:23:16.792160+00:00"
+  },
+  {
+    "event_id": "filing:2026-03-19:002568:b93e043e1954",
+    "event_type": "buyback",
+    "event_subtype": "buyback",
+    "title": "百润股份:关于部分已回购股份注销完成暨股份变动的公告",
+    "summary": "股本变动",
+    "source": "announcement_incremental",
+    "entity_codes": [
+      "002568"
+    ],
+    "entity_names": [
+      "百润股份"
+    ],
+    "industry_codes": [],
+    "theme_tags": [],
+    "event_time": "2026-03-19T00:00:00",
+    "discover_time": "2026-03-19T00:00:00",
+    "available_at": "2026-03-19T00:00:00",
+    "severity": 0.55,
+    "surprise_score": 0.45,
+    "tradability_score": 0.7,
+    "novelty_score": 0.6,
+    "crowding_risk": 0.45,
+    "confidence": 0.55,
+    "impact_level": "medium",
+    "source_type": "filing",
+    "raw_payload_ref": "",
+    "metadata": {
+      "legacy_type": "buyback",
+      "legacy_event_date": "2026-03-19",
+      "legacy_stock_code": "002568",
+      "legacy_stock_name": "百润股份",
+      "ingest_date": "2026-03-19",
+      "announcement_type": "股本变动"
+    },
+    "created_at": "2026-03-19T12:23:16.792218+00:00",
+    "updated_at": "2026-03-19T12:23:16.792220+00:00"
+  },
+  {
+    "event_id": "filing:2026-03-19:601238:8b39330fe1ba",
+    "event_type": "other",
+    "event_subtype": "other",
+    "title": "广汽集团:广汽集团关于2026年度第三期绿色科技创新债券发行结果的公告",
+    "summary": "其他",
+    "source": "announcement_incremental",
+    "entity_codes": [
+      "601238"
+    ],
+    "entity_names": [
+      "广汽集团"
+    ],
+    "industry_codes": [],
+    "theme_tags": [],
+    "event_time": "2026-03-19T00:00:00",
+    "discover_time": "2026-03-19T00:00:00",
+    "available_at": "2026-03-19T00:00:00",
+    "severity": 0.3,
+    "surprise_score": 0.45,
+    "tradability_score": 0.7,
+    "novelty_score": 0.6,
+    "crowding_risk": 0.45,
+    "confidence": 0.55,
+    "impact_level": "low",
+    "source_type": "filing",
+    "raw_payload_ref": "",
+    "metadata": {
+      "legacy_type": "other",
+      "legacy_event_date": "2026-03-19",
+      "legacy_stock_code": "601238",
+      "legacy_stock_name": "广汽集团",
+      "ingest_date": "2026-03-19",
+      "announcement_type": "其他"
+    },
+    "created_at": "2026-03-19T12:23:16.792282+00:00",
+    "updated_at": "2026-03-19T12:23:16.792284+00:00"
+  },
+  {
+    "event_id": "filing:2026-03-19:601888:c6043c04cc04",
+    "event_type": "other",
+    "event_subtype": "other",
+    "title": "中国中免:H股公告-董事会会议召开日期",
+    "summary": "其他",
+    "source": "announcement_incremental",
+    "entity_codes": [
+      "601888"
+    ],
+    "entity_names": [
+      "中国中免"
+    ],
+    "industry_codes": [],
+    "theme_tags": [],
+    "event_time": "2026-03-19T00:00:00",
+    "discover_time": "2026-03-19T00:00:00",
+    "available_at": "2026-03-19T00:00:00",
+    "severity": 0.3,
+    "surprise_score": 0.45,
+    "tradability_score": 0.7,
+    "novelty_score": 0.6,
+    "crowding_risk": 0.45,
+    "confidence": 0.55,
+    "impact_level": "low",
+    "source_type": "filing",
+    "raw_payload_ref": "",
+    "metadata": {
+      "legacy_type": "other",
+      "legacy_event_date": "2026-03-19",
+      "legacy_stock_code": "601888",
+      "legacy_stock_name": "中国中免",
+      "ingest_date": "2026-03-19",
+      "announcement_type": "其他"
+    },
+    "created_at": "2026-03-19T12:23:16.792345+00:00",
+    "updated_at": "2026-03-19T12:23:16.792346+00:00"
+  },
+  {
+    "event_id": "filing:2026-03-19:600521:f78c4ecbc032",
+    "event_type": "other",
+    "event_subtype": "other",
+    "title": "华海药业:浙江华海药业股份有限公司关于子公司HB0025注射液启动子宫内膜癌III期临床试验的公告",
+    "summary": "其他",
+    "source": "announcement_incremental",
+    "entity_codes": [
+      "600521"
+    ],
+    "entity_names": [
+      "华海药业"
+    ],
+    "industry_codes": [],
+    "theme_tags": [],
+    "event_time": "2026-03-19T00:00:00",
+    "discover_time": "2026-03-19T00:00:00",
+    "available_at": "2026-03-19T00:00:00",
+    "severity": 0.3,
+    "surprise_score": 0.45,
+    "tradability_score": 0.7,
+    "novelty_score": 0.6,
+    "crowding_risk": 0.45,
+    "confidence": 0.55,
+    "impact_level": "low",
+    "source_type": "filing",
+    "raw_payload_ref": "",
+    "metadata": {
+      "legacy_type": "other",
+      "legacy_event_date": "2026-03-19",
+      "legacy_stock_code": "600521",
+      "legacy_stock_name": "华海药业",
+      "ingest_date": "2026-03-19",
+      "announcement_type": "其他"
+    },
+    "created_at": "2026-03-19T12:23:16.792409+00:00",
+    "updated_at": "2026-03-19T12:23:16.792410+00:00"
+  },
+  {
+    "event_id": "filing:2026-03-19:003816:a5758f90e097",
+    "event_type": "other",
+    "event_subtype": "other",
+    "title": "中国广核:关于公司2026年度第三期及第四期超短期融资券发行完成的公告",
+    "summary": "其他",
+    "source": "announcement_incremental",
+    "entity_codes": [
+      "003816"
+    ],
+    "entity_names": [
+      "中国广核"
+    ],
+    "industry_codes": [],
+    "theme_tags": [],
+    "event_time": "2026-03-19T00:00:00",
+    "discover_time": "2026-03-19T00:00:00",
+    "available_at": "2026-03-19T00:00:00",
+    "severity": 0.3,
+    "surprise_score": 0.45,
+    "tradability_score": 0.7,
+    "novelty_score": 0.6,
+    "crowding_risk": 0.45,
+    "confidence": 0.55,
+    "impact_level": "low",
+    "source_type": "filing",
+    "raw_payload_ref": "",
+    "metadata": {
+      "legacy_type": "other",
+      "legacy_event_date": "2026-03-19",
+      "legacy_stock_code": "003816",
+      "legacy_stock_name": "中国广核",
+      "ingest_date": "2026-03-19",
+      "announcement_type": "其他"
+    },
+    "created_at": "2026-03-19T12:23:16.792472+00:00",
+    "updated_at": "2026-03-19T12:23:16.792474+00:00"
+  },
+  {
+    "event_id": "filing:2026-03-19:601688:40c9940fdfc1",
+    "event_type": "other",
+    "event_subtype": "other",
+    "title": "华泰证券:华泰证券H股公告(董事会召开日期)",
+    "summary": "其他",
+    "source": "announcement_incremental",
+    "entity_codes": [
+      "601688"
+    ],
+    "entity_names": [
+      "华泰证券"
+    ],
+    "industry_codes": [],
+    "theme_tags": [],
+    "event_time": "2026-03-19T00:00:00",
+    "discover_time": "2026-03-19T00:00:00",
+    "available_at": "2026-03-19T00:00:00",
+    "severity": 0.3,
+    "surprise_score": 0.45,
+    "tradability_score": 0.7,
+    "novelty_score": 0.6,
+    "crowding_risk": 0.45,
+    "confidence": 0.55,
+    "impact_level": "low",
+    "source_type": "filing",
+    "raw_payload_ref": "",
+    "metadata": {
+      "legacy_type": "other",
+      "legacy_event_date": "2026-03-19",
+      "legacy_stock_code": "601688",
+      "legacy_stock_name": "华泰证券",
+      "ingest_date": "2026-03-19",
+      "announcement_type": "其他"
+    },
+    "created_at": "2026-03-19T12:23:16.792538+00:00",
+    "updated_at": "2026-03-19T12:23:16.792539+00:00"
+  },
+  {
+    "event_id": "filing:2026-03-19:600699:f7280cfe9544",
+    "event_type": "other",
+    "event_subtype": "other",
+    "title": "均胜电子:H股公告(董事会会议日期)",
+    "summary": "其他",
+    "source": "announcement_incremental",
+    "entity_codes": [
+      "600699"
+    ],
+    "entity_names": [
+      "均胜电子"
+    ],
+    "industry_codes": [],
+    "theme_tags": [],
+    "event_time": "2026-03-19T00:00:00",
+    "discover_time": "2026-03-19T00:00:00",
+    "available_at": "2026-03-19T00:00:00",
+    "severity": 0.3,
+    "surprise_score": 0.45,
+    "tradability_score": 0.7,
+    "novelty_score": 0.6,
+    "crowding_risk": 0.45,
+    "confidence": 0.55,
+    "impact_level": "low",
+    "source_type": "filing",
+    "raw_payload_ref": "",
+    "metadata": {
+      "legacy_type": "other",
+      "legacy_event_date": "2026-03-19",
+      "legacy_stock_code": "600699",
+      "legacy_stock_name": "均胜电子",
+      "ingest_date": "2026-03-19",
+      "announcement_type": "其他"
+    },
+    "created_at": "2026-03-19T12:23:16.792601+00:00",
+    "updated_at": "2026-03-19T12:23:16.792602+00:00"
+  },
+  {
+    "event_id": "filing:2026-03-19:601618:7e8bc0fdf5ad",
+    "event_type": "other",
+    "event_subtype": "other",
+    "title": "中国中冶:中国中冶H股公告(董事会会议通告)",
+    "summary": "其他",
+    "source": "announcement_incremental",
+    "entity_codes": [
+      "601618"
+    ],
+    "entity_names": [
+      "中国中冶"
+    ],
+    "industry_codes": [],
+    "theme_tags": [],
+    "event_time": "2026-03-19T00:00:00",
+    "discover_time": "2026-03-19T00:00:00",
+    "available_at": "2026-03-19T00:00:00",
+    "severity": 0.3,
+    "surprise_score": 0.45,
+    "tradability_score": 0.7,
+    "novelty_score": 0.6,
+    "crowding_risk": 0.45,
+    "confidence": 0.55,
+    "impact_level": "low",
+    "source_type": "filing",
+    "raw_payload_ref": "",
+    "metadata": {
+      "legacy_type": "other",
+      "legacy_event_date": "2026-03-19",
+      "legacy_stock_code": "601618",
+      "legacy_stock_name": "中国中冶",
+      "ingest_date": "2026-03-19",
+      "announcement_type": "其他"
+    },
+    "created_at": "2026-03-19T12:23:16.792664+00:00",
+    "updated_at": "2026-03-19T12:23:16.792665+00:00"
+  },
+  {
+    "event_id": "filing:2026-03-19:601127:aedc639c9c03",
+    "event_type": "other",
+    "event_subtype": "other",
+    "title": "赛力斯:H股公告(董事会会议召开日期)",
+    "summary": "其他",
+    "source": "announcement_incremental",
+    "entity_codes": [
+      "601127"
+    ],
+    "entity_names": [
+      "赛力斯"
+    ],
+    "industry_codes": [],
+    "theme_tags": [],
+    "event_time": "2026-03-19T00:00:00",
+    "discover_time": "2026-03-19T00:00:00",
+    "available_at": "2026-03-19T00:00:00",
+    "severity": 0.3,
+    "surprise_score": 0.45,
+    "tradability_score": 0.7,
+    "novelty_score": 0.6,
+    "crowding_risk": 0.45,
+    "confidence": 0.55,
+    "impact_level": "low",
+    "source_type": "filing",
+    "raw_payload_ref": "",
+    "metadata": {
+      "legacy_type": "other",
+      "legacy_event_date": "2026-03-19",
+      "legacy_stock_code": "601127",
+      "legacy_stock_name": "赛力斯",
+      "ingest_date": "2026-03-19",
+      "announcement_type": "其他"
+    },
+    "created_at": "2026-03-19T12:23:16.792726+00:00",
+    "updated_at": "2026-03-19T12:23:16.792728+00:00"
+  },
+  {
+    "event_id": "filing:2026-03-19:600016:9c0f9ed72bab",
+    "event_type": "other",
+    "event_subtype": "other",
+    "title": "民生银行:H股公告-董事会会议召开日期的公告",
+    "summary": "其他",
+    "source": "announcement_incremental",
+    "entity_codes": [
+      "600016"
+    ],
+    "entity_names": [
+      "民生银行"
+    ],
+    "industry_codes": [],
+    "theme_tags": [],
+    "event_time": "2026-03-19T00:00:00",
+    "discover_time": "2026-03-19T00:00:00",
+    "available_at": "2026-03-19T00:00:00",
+    "severity": 0.3,
+    "surprise_score": 0.45,
+    "tradability_score": 0.7,
+    "novelty_score": 0.6,
+    "crowding_risk": 0.45,
+    "confidence": 0.55,
+    "impact_level": "low",
+    "source_type": "filing",
+    "raw_payload_ref": "",
+    "metadata": {
+      "legacy_type": "other",
+      "legacy_event_date": "2026-03-19",
+      "legacy_stock_code": "600016",
+      "legacy_stock_name": "民生银行",
+      "ingest_date": "2026-03-19",
+      "announcement_type": "其他"
+    },
+    "created_at": "2026-03-19T12:23:16.792794+00:00",
+    "updated_at": "2026-03-19T12:23:16.792795+00:00"
+  },
+  {
+    "event_id": "filing:2026-03-19:601198:8980cd5da2e7",
+    "event_type": "other",
+    "event_subtype": "other",
+    "title": "东兴证券:东兴证券股份有限公司2025年度第四期短期融资券兑付完成的公告",
+    "summary": "其他",
+    "source": "announcement_incremental",
+    "entity_codes": [
+      "601198"
+    ],
+    "entity_names": [
+      "东兴证券"
+    ],
+    "industry_codes": [],
+    "theme_tags": [],
+    "event_time": "2026-03-19T00:00:00",
+    "discover_time": "2026-03-19T00:00:00",
+    "available_at": "2026-03-19T00:00:00",
+    "severity": 0.3,
+    "surprise_score": 0.45,
+    "tradability_score": 0.7,
+    "novelty_score": 0.6,
+    "crowding_risk": 0.45,
+    "confidence": 0.55,
+    "impact_level": "low",
+    "source_type": "filing",
+    "raw_payload_ref": "",
+    "metadata": {
+      "legacy_type": "other",
+      "legacy_event_date": "2026-03-19",
+      "legacy_stock_code": "601198",
+      "legacy_stock_name": "东兴证券",
+      "ingest_date": "2026-03-19",
+      "announcement_type": "其他"
+    },
+    "created_at": "2026-03-19T12:23:16.792858+00:00",
+    "updated_at": "2026-03-19T12:23:16.792860+00:00"
+  },
+  {
+    "event_id": "filing:2026-03-19:601288:ace6afb1de92",
+    "event_type": "other",
+    "event_subtype": "other",
+    "title": "农业银行:农业银行H股公告(董事會會議召開日期)",
+    "summary": "其他",
+    "source": "announcement_incremental",
+    "entity_codes": [
+      "601288"
+    ],
+    "entity_names": [
+      "农业银行"
+    ],
+    "industry_codes": [],
+    "theme_tags": [],
+    "event_time": "2026-03-19T00:00:00",
+    "discover_time": "2026-03-19T00:00:00",
+    "available_at": "2026-03-19T00:00:00",
+    "severity": 0.3,
+    "surprise_score": 0.45,
+    "tradability_score": 0.7,
+    "novelty_score": 0.6,
+    "crowding_risk": 0.45,
+    "confidence": 0.55,
+    "impact_level": "low",
+    "source_type": "filing",
+    "raw_payload_ref": "",
+    "metadata": {
+      "legacy_type": "other",
+      "legacy_event_date": "2026-03-19",
+      "legacy_stock_code": "601288",
+      "legacy_stock_name": "农业银行",
+      "ingest_date": "2026-03-19",
+      "announcement_type": "其他"
+    },
+    "created_at": "2026-03-19T12:23:16.792921+00:00",
+    "updated_at": "2026-03-19T12:23:16.792923+00:00"
+  },
+  {
+    "event_id": "filing:2026-03-19:600208:06bc13dc7f02",
+    "event_type": "other",
+    "event_subtype": "other",
+    "title": "衢州发展:2026年第一次临时股东会决议公告",
+    "summary": "股东大会决议公告",
+    "source": "announcement_incremental",
+    "entity_codes": [
+      "600208"
+    ],
+    "entity_names": [
+      "衢州发展"
+    ],
+    "industry_codes": [],
+    "theme_tags": [],
+    "event_time": "2026-03-19T00:00:00",
+    "discover_time": "2026-03-19T00:00:00",
+    "available_at": "2026-03-19T00:00:00",
+    "severity": 0.3,
+    "surprise_score": 0.45,
+    "tradability_score": 0.7,
+    "novelty_score": 0.6,
+    "crowding_risk": 0.45,
+    "confidence": 0.55,
+    "impact_level": "low",
+    "source_type": "filing",
+    "raw_payload_ref": "",
+    "metadata": {
+      "legacy_type": "other",
+      "legacy_event_date": "2026-03-19",
+      "legacy_stock_code": "600208",
+      "legacy_stock_name": "衢州发展",
+      "ingest_date": "2026-03-19",
+      "announcement_type": "股东大会决议公告"
+    },
+    "created_at": "2026-03-19T12:23:16.792984+00:00",
+    "updated_at": "2026-03-19T12:23:16.792985+00:00"
+  },
+  {
+    "event_id": "filing:2026-03-19:600309:5fb87218c199",
+    "event_type": "other",
+    "event_subtype": "other",
+    "title": "万华化学:万华化学2026年度第三期科技创新债券发行结果公告",
+    "summary": "其他",
+    "source": "announcement_incremental",
+    "entity_codes": [
+      "600309"
+    ],
+    "entity_names": [
+      "万华化学"
+    ],
+    "industry_codes": [],
+    "theme_tags": [],
+    "event_time": "2026-03-19T00:00:00",
+    "discover_time": "2026-03-19T00:00:00",
+    "available_at": "2026-03-19T00:00:00",
+    "severity": 0.3,
+    "surprise_score": 0.45,
+    "tradability_score": 0.7,
+    "novelty_score": 0.6,
+    "crowding_risk": 0.45,
+    "confidence": 0.55,
+    "impact_level": "low",
+    "source_type": "filing",
+    "raw_payload_ref": "",
+    "metadata": {
+      "legacy_type": "other",
+      "legacy_event_date": "2026-03-19",
+      "legacy_stock_code": "600309",
+      "legacy_stock_name": "万华化学",
+      "ingest_date": "2026-03-19",
+      "announcement_type": "其他"
+    },
+    "created_at": "2026-03-19T12:23:16.793046+00:00",
+    "updated_at": "2026-03-19T12:23:16.793048+00:00"
+  },
+  {
+    "event_id": "filing:2026-03-19:600309:ef796e68acd0",
+    "event_type": "other",
+    "event_subtype": "other",
+    "title": "万华化学:万华化学烟台产业园PDH装置停产检修公告",
+    "summary": "其他",
+    "source": "announcement_incremental",
+    "entity_codes": [
+      "600309"
+    ],
+    "entity_names": [
+      "万华化学"
+    ],
+    "industry_codes": [],
+    "theme_tags": [],
+    "event_time": "2026-03-19T00:00:00",
+    "discover_time": "2026-03-19T00:00:00",
+    "available_at": "2026-03-19T00:00:00",
+    "severity": 0.3,
+    "surprise_score": 0.45,
+    "tradability_score": 0.7,
+    "novelty_score": 0.6,
+    "crowding_risk": 0.45,
+    "confidence": 0.55,
+    "impact_level": "low",
+    "source_type": "filing",
+    "raw_payload_ref": "",
+    "metadata": {
+      "legacy_type": "other",
+      "legacy_event_date": "2026-03-19",
+      "legacy_stock_code": "600309",
+      "legacy_stock_name": "万华化学",
+      "ingest_date": "2026-03-19",
+      "announcement_type": "其他"
+    },
+    "created_at": "2026-03-19T12:23:16.793109+00:00",
+    "updated_at": "2026-03-19T12:23:16.793110+00:00"
+  },
+  {
+    "event_id": "filing:2026-03-19:601997:f640b9c5424d",
+    "event_type": "other",
+    "event_subtype": "other",
+    "title": "贵阳银行:贵阳银行股份有限公司第六届董事会2026年度第一次会议决议公告",
+    "summary": "高管人员任职变动",
+    "source": "announcement_incremental",
+    "entity_codes": [
+      "601997"
+    ],
+    "entity_names": [
+      "贵阳银行"
+    ],
+    "industry_codes": [],
+    "theme_tags": [],
+    "event_time": "2026-03-19T00:00:00",
+    "discover_time": "2026-03-19T00:00:00",
+    "available_at": "2026-03-19T00:00:00",
+    "severity": 0.3,
+    "surprise_score": 0.45,
+    "tradability_score": 0.7,
+    "novelty_score": 0.6,
+    "crowding_risk": 0.45,
+    "confidence": 0.55,
+    "impact_level": "low",
+    "source_type": "filing",
+    "raw_payload_ref": "",
+    "metadata": {
+      "legacy_type": "other",
+      "legacy_event_date": "2026-03-19",
+      "legacy_stock_code": "601997",
+      "legacy_stock_name": "贵阳银行",
+      "ingest_date": "2026-03-19",
+      "announcement_type": "高管人员任职变动"
+    },
+    "created_at": "2026-03-19T12:23:16.793172+00:00",
+    "updated_at": "2026-03-19T12:23:16.793173+00:00"
+  },
+  {
+    "event_id": "filing:2026-03-19:601689:780d69269345",
+    "event_type": "cooperation",
+    "event_subtype": "cooperation",
+    "title": "拓普集团:拓普集团与私募基金合作投资事项进展公告",
+    "summary": "对外项目投资",
+    "source": "announcement_incremental",
+    "entity_codes": [
+      "601689"
+    ],
+    "entity_names": [
+      "拓普集团"
+    ],
+    "industry_codes": [],
+    "theme_tags": [],
+    "event_time": "2026-03-19T00:00:00",
+    "discover_time": "2026-03-19T00:00:00",
+    "available_at": "2026-03-19T00:00:00",
+    "severity": 0.55,
+    "surprise_score": 0.45,
+    "tradability_score": 0.7,
+    "novelty_score": 0.6,
+    "crowding_risk": 0.45,
+    "confidence": 0.55,
+    "impact_level": "medium",
+    "source_type": "filing",
+    "raw_payload_ref": "",
+    "metadata": {
+      "legacy_type": "cooperation",
+      "legacy_event_date": "2026-03-19",
+      "legacy_stock_code": "601689",
+      "legacy_stock_name": "拓普集团",
+      "ingest_date": "2026-03-19",
+      "announcement_type": "对外项目投资"
+    },
+    "created_at": "2026-03-19T12:23:16.793233+00:00",
+    "updated_at": "2026-03-19T12:23:16.793234+00:00"
+  },
+  {
+    "event_id": "filing:2026-03-19:605499:395696de09dd",
+    "event_type": "other",
+    "event_subtype": "other",
+    "title": "东鹏饮料:H股公告-董事会会议通告",
+    "summary": "其他",
+    "source": "announcement_incremental",
+    "entity_codes": [
+      "605499"
+    ],
+    "entity_names": [
+      "东鹏饮料"
+    ],
+    "industry_codes": [],
+    "theme_tags": [],
+    "event_time": "2026-03-19T00:00:00",
+    "discover_time": "2026-03-19T00:00:00",
+    "available_at": "2026-03-19T00:00:00",
+    "severity": 0.3,
+    "surprise_score": 0.45,
+    "tradability_score": 0.7,
+    "novelty_score": 0.6,
+    "crowding_risk": 0.45,
+    "confidence": 0.55,
+    "impact_level": "low",
+    "source_type": "filing",
+    "raw_payload_ref": "",
+    "metadata": {
+      "legacy_type": "other",
+      "legacy_event_date": "2026-03-19",
+      "legacy_stock_code": "605499",
+      "legacy_stock_name": "东鹏饮料",
+      "ingest_date": "2026-03-19",
+      "announcement_type": "其他"
+    },
+    "created_at": "2026-03-19T12:23:16.793295+00:00",
+    "updated_at": "2026-03-19T12:23:16.793296+00:00"
+  },
+  {
+    "event_id": "filing:2026-03-19:600663:7266495fbb9d",
+    "event_type": "other",
+    "event_subtype": "other",
+    "title": "陆家嘴:关于控股子公司涉及诉讼的进展公告",
+    "summary": "诉讼仲裁",
+    "source": "announcement_incremental",
+    "entity_codes": [
+      "600663"
+    ],
+    "entity_names": [
+      "陆家嘴"
+    ],
+    "industry_codes": [],
+    "theme_tags": [],
+    "event_time": "2026-03-19T00:00:00",
+    "discover_time": "2026-03-19T00:00:00",
+    "available_at": "2026-03-19T00:00:00",
+    "severity": 0.3,
+    "surprise_score": 0.45,
+    "tradability_score": 0.7,
+    "novelty_score": 0.6,
+    "crowding_risk": 0.45,
+    "confidence": 0.55,
+    "impact_level": "low",
+    "source_type": "filing",
+    "raw_payload_ref": "",
+    "metadata": {
+      "legacy_type": "other",
+      "legacy_event_date": "2026-03-19",
+      "legacy_stock_code": "600663",
+      "legacy_stock_name": "陆家嘴",
+      "ingest_date": "2026-03-19",
+      "announcement_type": "诉讼仲裁"
+    },
+    "created_at": "2026-03-19T12:23:16.793357+00:00",
+    "updated_at": "2026-03-19T12:23:16.793359+00:00"
+  },
+  {
+    "event_id": "filing:2026-03-19:688019:a65aae4f36a8",
+    "event_type": "other",
+    "event_subtype": "other",
+    "title": "安集科技:关于实施“安集转债”赎回暨摘牌的第四次提示性公告",
+    "summary": "其他",
+    "source": "announcement_incremental",
+    "entity_codes": [
+      "688019"
+    ],
+    "entity_names": [
+      "安集科技"
+    ],
+    "industry_codes": [],
+    "theme_tags": [],
+    "event_time": "2026-03-19T00:00:00",
+    "discover_time": "2026-03-19T00:00:00",
+    "available_at": "2026-03-19T00:00:00",
+    "severity": 0.3,
+    "surprise_score": 0.45,
+    "tradability_score": 0.7,
+    "novelty_score": 0.6,
+    "crowding_risk": 0.45,
+    "confidence": 0.55,
+    "impact_level": "low",
+    "source_type": "filing",
+    "raw_payload_ref": "",
+    "metadata": {
+      "legacy_type": "other",
+      "legacy_event_date": "2026-03-19",
+      "legacy_stock_code": "688019",
+      "legacy_stock_name": "安集科技",
+      "ingest_date": "2026-03-19",
+      "announcement_type": "其他"
+    },
+    "created_at": "2026-03-19T12:23:16.793420+00:00",
+    "updated_at": "2026-03-19T12:23:16.793421+00:00"
+  },
+  {
+    "event_id": "filing:2026-03-19:601717:1d80e070c809",
+    "event_type": "other",
+    "event_subtype": "other",
+    "title": "中创智领:中创智领H股公告-董事会召开日期",
+    "summary": "其他",
+    "source": "announcement_incremental",
+    "entity_codes": [
+      "601717"
+    ],
+    "entity_names": [
+      "中创智领"
+    ],
+    "industry_codes": [],
+    "theme_tags": [],
+    "event_time": "2026-03-19T00:00:00",
+    "discover_time": "2026-03-19T00:00:00",
+    "available_at": "2026-03-19T00:00:00",
+    "severity": 0.3,
+    "surprise_score": 0.45,
+    "tradability_score": 0.7,
+    "novelty_score": 0.6,
+    "crowding_risk": 0.45,
+    "confidence": 0.55,
+    "impact_level": "low",
+    "source_type": "filing",
+    "raw_payload_ref": "",
+    "metadata": {
+      "legacy_type": "other",
+      "legacy_event_date": "2026-03-19",
+      "legacy_stock_code": "601717",
+      "legacy_stock_name": "中创智领",
+      "ingest_date": "2026-03-19",
+      "announcement_type": "其他"
+    },
+    "created_at": "2026-03-19T12:23:16.793484+00:00",
+    "updated_at": "2026-03-19T12:23:16.793486+00:00"
+  },
+  {
+    "event_id": "filing:2026-03-19:600143:bde2171c984e",
+    "event_type": "other",
+    "event_subtype": "other",
+    "title": "金发科技:金发科技关于子公司通过高新技术企业重新认定的公告",
+    "summary": "其他",
+    "source": "announcement_incremental",
+    "entity_codes": [
+      "600143"
+    ],
+    "entity_names": [
+      "金发科技"
+    ],
+    "industry_codes": [],
+    "theme_tags": [],
+    "event_time": "2026-03-19T00:00:00",
+    "discover_time": "2026-03-19T00:00:00",
+    "available_at": "2026-03-19T00:00:00",
+    "severity": 0.3,
+    "surprise_score": 0.45,
+    "tradability_score": 0.7,
+    "novelty_score": 0.6,
+    "crowding_risk": 0.45,
+    "confidence": 0.55,
+    "impact_level": "low",
+    "source_type": "filing",
+    "raw_payload_ref": "",
+    "metadata": {
+      "legacy_type": "other",
+      "legacy_event_date": "2026-03-19",
+      "legacy_stock_code": "600143",
+      "legacy_stock_name": "金发科技",
+      "ingest_date": "2026-03-19",
+      "announcement_type": "其他"
+    },
+    "created_at": "2026-03-19T12:23:16.793549+00:00",
+    "updated_at": "2026-03-19T12:23:16.793551+00:00"
+  },
+  {
+    "event_id": "filing:2026-03-19:603392:93af5cc1d667",
+    "event_type": "other",
+    "event_subtype": "other",
+    "title": "万泰生物:万泰生物关于使用部分闲置募集资金进行现金管理到期赎回并继续进行现金管理的公告",
+    "summary": "投资理财",
+    "source": "announcement_incremental",
+    "entity_codes": [
+      "603392"
+    ],
+    "entity_names": [
+      "万泰生物"
+    ],
+    "industry_codes": [],
+    "theme_tags": [],
+    "event_time": "2026-03-19T00:00:00",
+    "discover_time": "2026-03-19T00:00:00",
+    "available_at": "2026-03-19T00:00:00",
+    "severity": 0.3,
+    "surprise_score": 0.45,
+    "tradability_score": 0.7,
+    "novelty_score": 0.6,
+    "crowding_risk": 0.45,
+    "confidence": 0.55,
+    "impact_level": "low",
+    "source_type": "filing",
+    "raw_payload_ref": "",
+    "metadata": {
+      "legacy_type": "other",
+      "legacy_event_date": "2026-03-19",
+      "legacy_stock_code": "603392",
+      "legacy_stock_name": "万泰生物",
+      "ingest_date": "2026-03-19",
+      "announcement_type": "投资理财"
+    },
+    "created_at": "2026-03-19T12:23:16.793613+00:00",
+    "updated_at": "2026-03-19T12:23:16.793615+00:00"
+  },
+  {
+    "event_id": "filing:2026-03-19:603501:c9e14ac320c2",
+    "event_type": "other",
+    "event_subtype": "other",
+    "title": "豪威集团:H股公告-董事会召开日期",
+    "summary": "其他",
+    "source": "announcement_incremental",
+    "entity_codes": [
+      "603501"
+    ],
+    "entity_names": [
+      "豪威集团"
+    ],
+    "industry_codes": [],
+    "theme_tags": [],
+    "event_time": "2026-03-19T00:00:00",
+    "discover_time": "2026-03-19T00:00:00",
+    "available_at": "2026-03-19T00:00:00",
+    "severity": 0.3,
+    "surprise_score": 0.45,
+    "tradability_score": 0.7,
+    "novelty_score": 0.6,
+    "crowding_risk": 0.45,
+    "confidence": 0.55,
+    "impact_level": "low",
+    "source_type": "filing",
+    "raw_payload_ref": "",
+    "metadata": {
+      "legacy_type": "other",
+      "legacy_event_date": "2026-03-19",
+      "legacy_stock_code": "603501",
+      "legacy_stock_name": "豪威集团",
+      "ingest_date": "2026-03-19",
+      "announcement_type": "其他"
+    },
+    "created_at": "2026-03-19T12:23:16.793678+00:00",
+    "updated_at": "2026-03-19T12:23:16.793679+00:00"
+  },
+  {
+    "event_id": "filing:2026-03-19:601988:d5df6db2c195",
+    "event_type": "other",
+    "event_subtype": "other",
+    "title": "中国银行:H股公告-董事会召开日期",
+    "summary": "其他",
+    "source": "announcement_incremental",
+    "entity_codes": [
+      "601988"
+    ],
+    "entity_names": [
+      "中国银行"
+    ],
+    "industry_codes": [],
+    "theme_tags": [],
+    "event_time": "2026-03-19T00:00:00",
+    "discover_time": "2026-03-19T00:00:00",
+    "available_at": "2026-03-19T00:00:00",
+    "severity": 0.3,
+    "surprise_score": 0.45,
+    "tradability_score": 0.7,
+    "novelty_score": 0.6,
+    "crowding_risk": 0.45,
+    "confidence": 0.55,
+    "impact_level": "low",
+    "source_type": "filing",
+    "raw_payload_ref": "",
+    "metadata": {
+      "legacy_type": "other",
+      "legacy_event_date": "2026-03-19",
+      "legacy_stock_code": "601988",
+      "legacy_stock_name": "中国银行",
+      "ingest_date": "2026-03-19",
+      "announcement_type": "其他"
+    },
+    "created_at": "2026-03-19T12:23:16.793740+00:00",
+    "updated_at": "2026-03-19T12:23:16.793741+00:00"
+  },
+  {
+    "event_id": "filing:2026-03-19:603341:11d560908f1e",
+    "event_type": "other",
+    "event_subtype": "other",
+    "title": "龙旗科技:H股公告-董事会会议召开日期",
+    "summary": "其他",
+    "source": "announcement_incremental",
+    "entity_codes": [
+      "603341"
+    ],
+    "entity_names": [
+      "龙旗科技"
+    ],
+    "industry_codes": [],
+    "theme_tags": [],
+    "event_time": "2026-03-19T00:00:00",
+    "discover_time": "2026-03-19T00:00:00",
+    "available_at": "2026-03-19T00:00:00",
+    "severity": 0.3,
+    "surprise_score": 0.45,
+    "tradability_score": 0.7,
+    "novelty_score": 0.6,
+    "crowding_risk": 0.45,
+    "confidence": 0.55,
+    "impact_level": "low",
+    "source_type": "filing",
+    "raw_payload_ref": "",
+    "metadata": {
+      "legacy_type": "other",
+      "legacy_event_date": "2026-03-19",
+      "legacy_stock_code": "603341",
+      "legacy_stock_name": "龙旗科技",
+      "ingest_date": "2026-03-19",
+      "announcement_type": "其他"
+    },
+    "created_at": "2026-03-19T12:23:16.793802+00:00",
+    "updated_at": "2026-03-19T12:23:16.793804+00:00"
+  },
+  {
+    "event_id": "filing:2026-03-19:601916:a42fef75dfeb",
+    "event_type": "other",
+    "event_subtype": "other",
+    "title": "浙商银行:浙商银行H股公告(董事会召开日期)",
+    "summary": "其他",
+    "source": "announcement_incremental",
+    "entity_codes": [
+      "601916"
+    ],
+    "entity_names": [
+      "浙商银行"
+    ],
+    "industry_codes": [],
+    "theme_tags": [],
+    "event_time": "2026-03-19T00:00:00",
+    "discover_time": "2026-03-19T00:00:00",
+    "available_at": "2026-03-19T00:00:00",
+    "severity": 0.3,
+    "surprise_score": 0.45,
+    "tradability_score": 0.7,
+    "novelty_score": 0.6,
+    "crowding_risk": 0.45,
+    "confidence": 0.55,
+    "impact_level": "low",
+    "source_type": "filing",
+    "raw_payload_ref": "",
+    "metadata": {
+      "legacy_type": "other",
+      "legacy_event_date": "2026-03-19",
+      "legacy_stock_code": "601916",
+      "legacy_stock_name": "浙商银行",
+      "ingest_date": "2026-03-19",
+      "announcement_type": "其他"
+    },
+    "created_at": "2026-03-19T12:23:16.793868+00:00",
+    "updated_at": "2026-03-19T12:23:16.793870+00:00"
+  },
+  {
+    "event_id": "filing:2026-03-19:002603:e4a7fad7231b",
+    "event_type": "other",
+    "event_subtype": "other",
+    "title": "以岭药业:关于全资孙公司收到化学原料药上市申请批准通知书的公告",
+    "summary": "其他",
+    "source": "announcement_incremental",
+    "entity_codes": [
+      "002603"
+    ],
+    "entity_names": [
+      "以岭药业"
+    ],
+    "industry_codes": [],
+    "theme_tags": [],
+    "event_time": "2026-03-19T00:00:00",
+    "discover_time": "2026-03-19T00:00:00",
+    "available_at": "2026-03-19T00:00:00",
+    "severity": 0.3,
+    "surprise_score": 0.45,
+    "tradability_score": 0.7,
+    "novelty_score": 0.6,
+    "crowding_risk": 0.45,
+    "confidence": 0.55,
+    "impact_level": "low",
+    "source_type": "filing",
+    "raw_payload_ref": "",
+    "metadata": {
+      "legacy_type": "other",
+      "legacy_event_date": "2026-03-19",
+      "legacy_stock_code": "002603",
+      "legacy_stock_name": "以岭药业",
+      "ingest_date": "2026-03-19",
+      "announcement_type": "其他"
+    },
+    "created_at": "2026-03-19T12:23:16.793944+00:00",
+    "updated_at": "2026-03-19T12:23:16.793945+00:00"
+  },
+  {
+    "event_id": "filing:2026-03-19:600406:6edff3e21588",
+    "event_type": "other",
+    "event_subtype": "other",
+    "title": "国电南瑞:国电南瑞关于部分募集资金专户完成销户的公告",
+    "summary": "募集资金使用情况报告",
+    "source": "announcement_incremental",
+    "entity_codes": [
+      "600406"
+    ],
+    "entity_names": [
+      "国电南瑞"
+    ],
+    "industry_codes": [],
+    "theme_tags": [],
+    "event_time": "2026-03-19T00:00:00",
+    "discover_time": "2026-03-19T00:00:00",
+    "available_at": "2026-03-19T00:00:00",
+    "severity": 0.3,
+    "surprise_score": 0.45,
+    "tradability_score": 0.7,
+    "novelty_score": 0.6,
+    "crowding_risk": 0.45,
+    "confidence": 0.55,
+    "impact_level": "low",
+    "source_type": "filing",
+    "raw_payload_ref": "",
+    "metadata": {
+      "legacy_type": "other",
+      "legacy_event_date": "2026-03-19",
+      "legacy_stock_code": "600406",
+      "legacy_stock_name": "国电南瑞",
+      "ingest_date": "2026-03-19",
+      "announcement_type": "募集资金使用情况报告"
+    },
+    "created_at": "2026-03-19T12:23:16.794014+00:00",
+    "updated_at": "2026-03-19T12:23:16.794015+00:00"
+  },
+  {
+    "event_id": "filing:2026-03-19:000703:23e98643f5a0",
+    "event_type": "other",
+    "event_subtype": "other",
+    "title": "恒逸石化:关于提前赎回“恒逸转债”暨即将停止交易的重要提示性公告",
+    "summary": "其他",
+    "source": "announcement_incremental",
+    "entity_codes": [
+      "000703"
+    ],
+    "entity_names": [
+      "恒逸石化"
+    ],
+    "industry_codes": [],
+    "theme_tags": [],
+    "event_time": "2026-03-19T00:00:00",
+    "discover_time": "2026-03-19T00:00:00",
+    "available_at": "2026-03-19T00:00:00",
+    "severity": 0.3,
+    "surprise_score": 0.45,
+    "tradability_score": 0.7,
+    "novelty_score": 0.6,
+    "crowding_risk": 0.45,
+    "confidence": 0.55,
+    "impact_level": "low",
+    "source_type": "filing",
+    "raw_payload_ref": "",
+    "metadata": {
+      "legacy_type": "other",
+      "legacy_event_date": "2026-03-19",
+      "legacy_stock_code": "000703",
+      "legacy_stock_name": "恒逸石化",
+      "ingest_date": "2026-03-19",
+      "announcement_type": "其他"
+    },
+    "created_at": "2026-03-19T12:23:16.794077+00:00",
+    "updated_at": "2026-03-19T12:23:16.794078+00:00"
+  },
+  {
+    "event_id": "filing:2026-03-19:002465:cc67c35f0860",
+    "event_type": "other",
+    "event_subtype": "other",
+    "title": "海格通信:关于2026年度第一期中期票据发行情况的公告",
+    "summary": "其他",
+    "source": "announcement_incremental",
+    "entity_codes": [
+      "002465"
+    ],
+    "entity_names": [
+      "海格通信"
+    ],
+    "industry_codes": [],
+    "theme_tags": [],
+    "event_time": "2026-03-19T00:00:00",
+    "discover_time": "2026-03-19T00:00:00",
+    "available_at": "2026-03-19T00:00:00",
+    "severity": 0.3,
+    "surprise_score": 0.45,
+    "tradability_score": 0.7,
+    "novelty_score": 0.6,
+    "crowding_risk": 0.45,
+    "confidence": 0.55,
+    "impact_level": "low",
+    "source_type": "filing",
+    "raw_payload_ref": "",
+    "metadata": {
+      "legacy_type": "other",
+      "legacy_event_date": "2026-03-19",
+      "legacy_stock_code": "002465",
+      "legacy_stock_name": "海格通信",
+      "ingest_date": "2026-03-19",
+      "announcement_type": "其他"
+    },
+    "created_at": "2026-03-19T12:23:16.794139+00:00",
+    "updated_at": "2026-03-19T12:23:16.794140+00:00"
+  },
+  {
+    "event_id": "filing:2026-03-19:688052:a809c271a2b0",
+    "event_type": "other",
+    "event_subtype": "other",
+    "title": "纳芯微:H股公告-董事会会议日期",
+    "summary": "其他",
+    "source": "announcement_incremental",
+    "entity_codes": [
+      "688052"
+    ],
+    "entity_names": [
+      "纳芯微"
+    ],
+    "industry_codes": [],
+    "theme_tags": [],
+    "event_time": "2026-03-19T00:00:00",
+    "discover_time": "2026-03-19T00:00:00",
+    "available_at": "2026-03-19T00:00:00",
+    "severity": 0.3,
+    "surprise_score": 0.45,
+    "tradability_score": 0.7,
+    "novelty_score": 0.6,
+    "crowding_risk": 0.45,
+    "confidence": 0.55,
+    "impact_level": "low",
+    "source_type": "filing",
+    "raw_payload_ref": "",
+    "metadata": {
+      "legacy_type": "other",
+      "legacy_event_date": "2026-03-19",
+      "legacy_stock_code": "688052",
+      "legacy_stock_name": "纳芯微",
+      "ingest_date": "2026-03-19",
+      "announcement_type": "其他"
+    },
+    "created_at": "2026-03-19T12:23:16.794202+00:00",
+    "updated_at": "2026-03-19T12:23:16.794204+00:00"
+  },
+  {
+    "event_id": "filing:2026-03-19:000034:86f9d0c083ac",
+    "event_type": "other",
+    "event_subtype": "other",
+    "title": "神州数码:关于为子公司担保的进展公告",
+    "summary": "提供/对外担保公告",
+    "source": "announcement_incremental",
+    "entity_codes": [
+      "000034"
+    ],
+    "entity_names": [
+      "神州数码"
+    ],
+    "industry_codes": [],
+    "theme_tags": [],
+    "event_time": "2026-03-19T00:00:00",
+    "discover_time": "2026-03-19T00:00:00",
+    "available_at": "2026-03-19T00:00:00",
+    "severity": 0.3,
+    "surprise_score": 0.45,
+    "tradability_score": 0.7,
+    "novelty_score": 0.6,
+    "crowding_risk": 0.45,
+    "confidence": 0.55,
+    "impact_level": "low",
+    "source_type": "filing",
+    "raw_payload_ref": "",
+    "metadata": {
+      "legacy_type": "other",
+      "legacy_event_date": "2026-03-19",
+      "legacy_stock_code": "000034",
+      "legacy_stock_name": "神州数码",
+      "ingest_date": "2026-03-19",
+      "announcement_type": "提供/对外担保公告"
+    },
+    "created_at": "2026-03-19T12:23:16.794264+00:00",
+    "updated_at": "2026-03-19T12:23:16.794265+00:00"
+  },
+  {
+    "event_id": "filing:2026-03-19:601881:513c5e54dbff",
+    "event_type": "other",
+    "event_subtype": "other",
+    "title": "中国银河:董事会会议通告",
+    "summary": "其他",
+    "source": "announcement_incremental",
+    "entity_codes": [
+      "601881"
+    ],
+    "entity_names": [
+      "中国银河"
+    ],
+    "industry_codes": [],
+    "theme_tags": [],
+    "event_time": "2026-03-19T00:00:00",
+    "discover_time": "2026-03-19T00:00:00",
+    "available_at": "2026-03-19T00:00:00",
+    "severity": 0.3,
+    "surprise_score": 0.45,
+    "tradability_score": 0.7,
+    "novelty_score": 0.6,
+    "crowding_risk": 0.45,
+    "confidence": 0.55,
+    "impact_level": "low",
+    "source_type": "filing",
+    "raw_payload_ref": "",
+    "metadata": {
+      "legacy_type": "other",
+      "legacy_event_date": "2026-03-19",
+      "legacy_stock_code": "601881",
+      "legacy_stock_name": "中国银河",
+      "ingest_date": "2026-03-19",
+      "announcement_type": "其他"
+    },
+    "created_at": "2026-03-19T12:23:16.794329+00:00",
+    "updated_at": "2026-03-19T12:23:16.794330+00:00"
+  },
+  {
+    "event_id": "filing:2026-03-19:601390:cfee3c74bf58",
+    "event_type": "other",
+    "event_subtype": "other",
+    "title": "中国中铁:中国中铁H股公告(董事會會議召開日期)",
+    "summary": "其他",
+    "source": "announcement_incremental",
+    "entity_codes": [
+      "601390"
+    ],
+    "entity_names": [
+      "中国中铁"
+    ],
+    "industry_codes": [],
+    "theme_tags": [],
+    "event_time": "2026-03-19T00:00:00",
+    "discover_time": "2026-03-19T00:00:00",
+    "available_at": "2026-03-19T00:00:00",
+    "severity": 0.3,
+    "surprise_score": 0.45,
+    "tradability_score": 0.7,
+    "novelty_score": 0.6,
+    "crowding_risk": 0.45,
+    "confidence": 0.55,
+    "impact_level": "low",
+    "source_type": "filing",
+    "raw_payload_ref": "",
+    "metadata": {
+      "legacy_type": "other",
+      "legacy_event_date": "2026-03-19",
+      "legacy_stock_code": "601390",
+      "legacy_stock_name": "中国中铁",
+      "ingest_date": "2026-03-19",
+      "announcement_type": "其他"
+    },
+    "created_at": "2026-03-19T12:23:16.794393+00:00",
+    "updated_at": "2026-03-19T12:23:16.794394+00:00"
+  },
+  {
+    "event_id": "filing:2026-03-19:601995:7a12e8060a39",
+    "event_type": "other",
+    "event_subtype": "other",
+    "title": "中金公司:中金公司H股公告(董事会会议通告)",
+    "summary": "其他",
+    "source": "announcement_incremental",
+    "entity_codes": [
+      "601995"
+    ],
+    "entity_names": [
+      "中金公司"
+    ],
+    "industry_codes": [],
+    "theme_tags": [],
+    "event_time": "2026-03-19T00:00:00",
+    "discover_time": "2026-03-19T00:00:00",
+    "available_at": "2026-03-19T00:00:00",
+    "severity": 0.3,
+    "surprise_score": 0.45,
+    "tradability_score": 0.7,
+    "novelty_score": 0.6,
+    "crowding_risk": 0.45,
+    "confidence": 0.55,
+    "impact_level": "low",
+    "source_type": "filing",
+    "raw_payload_ref": "",
+    "metadata": {
+      "legacy_type": "other",
+      "legacy_event_date": "2026-03-19",
+      "legacy_stock_code": "601995",
+      "legacy_stock_name": "中金公司",
+      "ingest_date": "2026-03-19",
+      "announcement_type": "其他"
+    },
+    "created_at": "2026-03-19T12:23:16.794456+00:00",
+    "updated_at": "2026-03-19T12:23:16.794458+00:00"
+  },
+  {
+    "event_id": "filing:2026-03-19:601688:9910f00845d4",
+    "event_type": "other",
+    "event_subtype": "other",
+    "title": "华泰证券:华泰证券股份有限公司关于间接全资子公司根据中期票据计划进行发行并由全资子公司提供担保的公告",
+    "summary": "提供/对外担保公告",
+    "source": "announcement_incremental",
+    "entity_codes": [
+      "601688"
+    ],
+    "entity_names": [
+      "华泰证券"
+    ],
+    "industry_codes": [],
+    "theme_tags": [],
+    "event_time": "2026-03-19T00:00:00",
+    "discover_time": "2026-03-19T00:00:00",
+    "available_at": "2026-03-19T00:00:00",
+    "severity": 0.3,
+    "surprise_score": 0.45,
+    "tradability_score": 0.7,
+    "novelty_score": 0.6,
+    "crowding_risk": 0.45,
+    "confidence": 0.55,
+    "impact_level": "low",
+    "source_type": "filing",
+    "raw_payload_ref": "",
+    "metadata": {
+      "legacy_type": "other",
+      "legacy_event_date": "2026-03-19",
+      "legacy_stock_code": "601688",
+      "legacy_stock_name": "华泰证券",
+      "ingest_date": "2026-03-19",
+      "announcement_type": "提供/对外担保公告"
+    },
+    "created_at": "2026-03-19T12:23:16.794522+00:00",
+    "updated_at": "2026-03-19T12:23:16.794523+00:00"
+  },
+  {
+    "event_id": "filing:2026-03-19:601898:7f41053c91f1",
+    "event_type": "other",
+    "event_subtype": "other",
+    "title": "中煤能源:中国中煤能源股份有限公司2026年2月份主要生产经营数据公告",
+    "summary": "月度经营情况",
+    "source": "announcement_incremental",
+    "entity_codes": [
+      "601898"
+    ],
+    "entity_names": [
+      "中煤能源"
+    ],
+    "industry_codes": [],
+    "theme_tags": [],
+    "event_time": "2026-03-19T00:00:00",
+    "discover_time": "2026-03-19T00:00:00",
+    "available_at": "2026-03-19T00:00:00",
+    "severity": 0.3,
+    "surprise_score": 0.45,
+    "tradability_score": 0.7,
+    "novelty_score": 0.6,
+    "crowding_risk": 0.45,
+    "confidence": 0.55,
+    "impact_level": "low",
+    "source_type": "filing",
+    "raw_payload_ref": "",
+    "metadata": {
+      "legacy_type": "other",
+      "legacy_event_date": "2026-03-19",
+      "legacy_stock_code": "601898",
+      "legacy_stock_name": "中煤能源",
+      "ingest_date": "2026-03-19",
+      "announcement_type": "月度经营情况"
+    },
+    "created_at": "2026-03-19T12:23:16.794584+00:00",
+    "updated_at": "2026-03-19T12:23:16.794586+00:00"
+  },
+  {
+    "event_id": "filing:2026-03-19:600765:7b8eb9097d7b",
+    "event_type": "buyback",
+    "event_subtype": "buyback",
+    "title": "中航重机:中航重机关于部分董事及高级管理人员增持股份计划的进展公告",
+    "summary": "高管人员持股变动",
+    "source": "announcement_incremental",
+    "entity_codes": [
+      "600765"
+    ],
+    "entity_names": [
+      "中航重机"
+    ],
+    "industry_codes": [],
+    "theme_tags": [],
+    "event_time": "2026-03-19T00:00:00",
+    "discover_time": "2026-03-19T00:00:00",
+    "available_at": "2026-03-19T00:00:00",
+    "severity": 0.55,
+    "surprise_score": 0.45,
+    "tradability_score": 0.7,
+    "novelty_score": 0.6,
+    "crowding_risk": 0.45,
+    "confidence": 0.55,
+    "impact_level": "medium",
+    "source_type": "filing",
+    "raw_payload_ref": "",
+    "metadata": {
+      "legacy_type": "buyback",
+      "legacy_event_date": "2026-03-19",
+      "legacy_stock_code": "600765",
+      "legacy_stock_name": "中航重机",
+      "ingest_date": "2026-03-19",
+      "announcement_type": "高管人员持股变动"
+    },
+    "created_at": "2026-03-19T12:23:16.794643+00:00",
+    "updated_at": "2026-03-19T12:23:16.794644+00:00"
+  },
+  {
+    "event_id": "filing:2026-03-19:601818:c54e869f45a9",
+    "event_type": "other",
+    "event_subtype": "other",
+    "title": "光大银行:中国光大银行股份有限公司H股公告(關於召開董事會會議的通知)",
+    "summary": "其他",
+    "source": "announcement_incremental",
+    "entity_codes": [
+      "601818"
+    ],
+    "entity_names": [
+      "光大银行"
+    ],
+    "industry_codes": [],
+    "theme_tags": [],
+    "event_time": "2026-03-19T00:00:00",
+    "discover_time": "2026-03-19T00:00:00",
+    "available_at": "2026-03-19T00:00:00",
+    "severity": 0.3,
+    "surprise_score": 0.45,
+    "tradability_score": 0.7,
+    "novelty_score": 0.6,
+    "crowding_risk": 0.45,
+    "confidence": 0.55,
+    "impact_level": "low",
+    "source_type": "filing",
+    "raw_payload_ref": "",
+    "metadata": {
+      "legacy_type": "other",
+      "legacy_event_date": "2026-03-19",
+      "legacy_stock_code": "601818",
+      "legacy_stock_name": "光大银行",
+      "ingest_date": "2026-03-19",
+      "announcement_type": "其他"
+    },
+    "created_at": "2026-03-19T12:23:16.794705+00:00",
+    "updated_at": "2026-03-19T12:23:16.794706+00:00"
+  },
+  {
+    "event_id": "filing:2026-03-19:603341:dd76421965ef",
+    "event_type": "other",
+    "event_subtype": "other",
+    "title": "龙旗科技:关于控股股东变更名称及其他工商信息并完成工商变更登记的公告",
+    "summary": "公司关联方基本资料变更",
+    "source": "announcement_incremental",
+    "entity_codes": [
+      "603341"
+    ],
+    "entity_names": [
+      "龙旗科技"
+    ],
+    "industry_codes": [],
+    "theme_tags": [],
+    "event_time": "2026-03-19T00:00:00",
+    "discover_time": "2026-03-19T00:00:00",
+    "available_at": "2026-03-19T00:00:00",
+    "severity": 0.3,
+    "surprise_score": 0.45,
+    "tradability_score": 0.7,
+    "novelty_score": 0.6,
+    "crowding_risk": 0.45,
+    "confidence": 0.55,
+    "impact_level": "low",
+    "source_type": "filing",
+    "raw_payload_ref": "",
+    "metadata": {
+      "legacy_type": "other",
+      "legacy_event_date": "2026-03-19",
+      "legacy_stock_code": "603341",
+      "legacy_stock_name": "龙旗科技",
+      "ingest_date": "2026-03-19",
+      "announcement_type": "公司关联方基本资料变更"
+    },
+    "created_at": "2026-03-19T12:23:16.794769+00:00",
+    "updated_at": "2026-03-19T12:23:16.794770+00:00"
+  },
+  {
+    "event_id": "filing:2026-03-19:002601:6f3484507e86",
+    "event_type": "other",
+    "event_subtype": "other",
+    "title": "龙佰集团:关于出售融资租赁公司股权的进展公告",
+    "summary": "收购出售资产/股权",
+    "source": "announcement_incremental",
+    "entity_codes": [
+      "002601"
+    ],
+    "entity_names": [
+      "龙佰集团"
+    ],
+    "industry_codes": [],
+    "theme_tags": [],
+    "event_time": "2026-03-19T00:00:00",
+    "discover_time": "2026-03-19T00:00:00",
+    "available_at": "2026-03-19T00:00:00",
+    "severity": 0.3,
+    "surprise_score": 0.45,
+    "tradability_score": 0.7,
+    "novelty_score": 0.6,
+    "crowding_risk": 0.45,
+    "confidence": 0.55,
+    "impact_level": "low",
+    "source_type": "filing",
+    "raw_payload_ref": "",
+    "metadata": {
+      "legacy_type": "other",
+      "legacy_event_date": "2026-03-19",
+      "legacy_stock_code": "002601",
+      "legacy_stock_name": "龙佰集团",
+      "ingest_date": "2026-03-19",
+      "announcement_type": "收购出售资产/股权"
+    },
+    "created_at": "2026-03-19T12:23:16.794833+00:00",
+    "updated_at": "2026-03-19T12:23:16.794835+00:00"
+  },
+  {
+    "event_id": "filing:2026-03-19:600989:a19855492a6a",
+    "event_type": "other",
+    "event_subtype": "other",
+    "title": "宝丰能源:宁夏宝丰能源集团股份有限公司2025年年度股东会会议资料",
+    "summary": "股东大会资料",
+    "source": "announcement_incremental",
+    "entity_codes": [
+      "600989"
+    ],
+    "entity_names": [
+      "宝丰能源"
+    ],
+    "industry_codes": [],
+    "theme_tags": [],
+    "event_time": "2026-03-19T00:00:00",
+    "discover_time": "2026-03-19T00:00:00",
+    "available_at": "2026-03-19T00:00:00",
+    "severity": 0.3,
+    "surprise_score": 0.45,
+    "tradability_score": 0.7,
+    "novelty_score": 0.6,
+    "crowding_risk": 0.45,
+    "confidence": 0.55,
+    "impact_level": "low",
+    "source_type": "filing",
+    "raw_payload_ref": "",
+    "metadata": {
+      "legacy_type": "other",
+      "legacy_event_date": "2026-03-19",
+      "legacy_stock_code": "600989",
+      "legacy_stock_name": "宝丰能源",
+      "ingest_date": "2026-03-19",
+      "announcement_type": "股东大会资料"
+    },
+    "created_at": "2026-03-19T12:23:16.794896+00:00",
+    "updated_at": "2026-03-19T12:23:16.794898+00:00"
+  },
+  {
+    "event_id": "filing:2026-03-19:603806:9c3b67810b4d",
+    "event_type": "other",
+    "event_subtype": "other",
+    "title": "福斯特:关于使用闲置募集资金进行现金管理的进展公告",
+    "summary": "募集资金使用进展情况",
+    "source": "announcement_incremental",
+    "entity_codes": [
+      "603806"
+    ],
+    "entity_names": [
+      "福斯特"
+    ],
+    "industry_codes": [],
+    "theme_tags": [],
+    "event_time": "2026-03-19T00:00:00",
+    "discover_time": "2026-03-19T00:00:00",
+    "available_at": "2026-03-19T00:00:00",
+    "severity": 0.3,
+    "surprise_score": 0.45,
+    "tradability_score": 0.7,
+    "novelty_score": 0.6,
+    "crowding_risk": 0.45,
+    "confidence": 0.55,
+    "impact_level": "low",
+    "source_type": "filing",
+    "raw_payload_ref": "",
+    "metadata": {
+      "legacy_type": "other",
+      "legacy_event_date": "2026-03-19",
+      "legacy_stock_code": "603806",
+      "legacy_stock_name": "福斯特",
+      "ingest_date": "2026-03-19",
+      "announcement_type": "募集资金使用进展情况"
+    },
+    "created_at": "2026-03-19T12:23:16.794959+00:00",
+    "updated_at": "2026-03-19T12:23:16.794960+00:00"
+  },
+  {
+    "event_id": "filing:2026-03-19:603806:98d82f35fb7d",
+    "event_type": "other",
+    "event_subtype": "other",
+    "title": "福斯特:关于归还临时补充流动资金的募集资金的公告",
+    "summary": "归还募集资金",
+    "source": "announcement_incremental",
+    "entity_codes": [
+      "603806"
+    ],
+    "entity_names": [
+      "福斯特"
+    ],
+    "industry_codes": [],
+    "theme_tags": [],
+    "event_time": "2026-03-19T00:00:00",
+    "discover_time": "2026-03-19T00:00:00",
+    "available_at": "2026-03-19T00:00:00",
+    "severity": 0.3,
+    "surprise_score": 0.45,
+    "tradability_score": 0.7,
+    "novelty_score": 0.6,
+    "crowding_risk": 0.45,
+    "confidence": 0.55,
+    "impact_level": "low",
+    "source_type": "filing",
+    "raw_payload_ref": "",
+    "metadata": {
+      "legacy_type": "other",
+      "legacy_event_date": "2026-03-19",
+      "legacy_stock_code": "603806",
+      "legacy_stock_name": "福斯特",
+      "ingest_date": "2026-03-19",
+      "announcement_type": "归还募集资金"
+    },
+    "created_at": "2026-03-19T12:23:16.795022+00:00",
+    "updated_at": "2026-03-19T12:23:16.795023+00:00"
+  },
+  {
+    "event_id": "filing:2026-03-19:002709:eb77d89573dd",
+    "event_type": "other",
+    "event_subtype": "other",
+    "title": "天赐材料:关于2024年股票期权激励计划部分股票期权注销完成的公告",
+    "summary": "股权激励进展公告",
+    "source": "announcement_incremental",
+    "entity_codes": [
+      "002709"
+    ],
+    "entity_names": [
+      "天赐材料"
+    ],
+    "industry_codes": [],
+    "theme_tags": [],
+    "event_time": "2026-03-19T00:00:00",
+    "discover_time": "2026-03-19T00:00:00",
+    "available_at": "2026-03-19T00:00:00",
+    "severity": 0.3,
+    "surprise_score": 0.45,
+    "tradability_score": 0.7,
+    "novelty_score": 0.6,
+    "crowding_risk": 0.45,
+    "confidence": 0.55,
+    "impact_level": "low",
+    "source_type": "filing",
+    "raw_payload_ref": "",
+    "metadata": {
+      "legacy_type": "other",
+      "legacy_event_date": "2026-03-19",
+      "legacy_stock_code": "002709",
+      "legacy_stock_name": "天赐材料",
+      "ingest_date": "2026-03-19",
+      "announcement_type": "股权激励进展公告"
+    },
+    "created_at": "2026-03-19T12:23:16.795090+00:00",
+    "updated_at": "2026-03-19T12:23:16.795091+00:00"
+  },
+  {
+    "event_id": "filing:2026-03-19:002266:09d39f5e7a63",
+    "event_type": "other",
+    "event_subtype": "other",
+    "title": "浙富控股:关于控股股东部分股份质押及解除质押的公告",
+    "summary": "股份质押、冻结",
+    "source": "announcement_incremental",
+    "entity_codes": [
+      "002266"
+    ],
+    "entity_names": [
+      "浙富控股"
+    ],
+    "industry_codes": [],
+    "theme_tags": [],
+    "event_time": "2026-03-19T00:00:00",
+    "discover_time": "2026-03-19T00:00:00",
+    "available_at": "2026-03-19T00:00:00",
+    "severity": 0.3,
+    "surprise_score": 0.45,
+    "tradability_score": 0.7,
+    "novelty_score": 0.6,
+    "crowding_risk": 0.45,
+    "confidence": 0.55,
+    "impact_level": "low",
+    "source_type": "filing",
+    "raw_payload_ref": "",
+    "metadata": {
+      "legacy_type": "other",
+      "legacy_event_date": "2026-03-19",
+      "legacy_stock_code": "002266",
+      "legacy_stock_name": "浙富控股",
+      "ingest_date": "2026-03-19",
+      "announcement_type": "股份质押、冻结"
+    },
+    "created_at": "2026-03-19T12:23:16.795154+00:00",
+    "updated_at": "2026-03-19T12:23:16.795155+00:00"
+  },
+  {
+    "event_id": "filing:2026-03-19:600282:ddcf6a1b7885",
+    "event_type": "other",
+    "event_subtype": "other",
+    "title": "南钢股份:南京钢铁股份有限公司为控股子公司提供担保的进展公告",
+    "summary": "提供/对外担保公告",
+    "source": "announcement_incremental",
+    "entity_codes": [
+      "600282"
+    ],
+    "entity_names": [
+      "南钢股份"
+    ],
+    "industry_codes": [],
+    "theme_tags": [],
+    "event_time": "2026-03-19T00:00:00",
+    "discover_time": "2026-03-19T00:00:00",
+    "available_at": "2026-03-19T00:00:00",
+    "severity": 0.3,
+    "surprise_score": 0.45,
+    "tradability_score": 0.7,
+    "novelty_score": 0.6,
+    "crowding_risk": 0.45,
+    "confidence": 0.55,
+    "impact_level": "low",
+    "source_type": "filing",
+    "raw_payload_ref": "",
+    "metadata": {
+      "legacy_type": "other",
+      "legacy_event_date": "2026-03-19",
+      "legacy_stock_code": "600282",
+      "legacy_stock_name": "南钢股份",
+      "ingest_date": "2026-03-19",
+      "announcement_type": "提供/对外担保公告"
+    },
+    "created_at": "2026-03-19T12:23:16.795216+00:00",
+    "updated_at": "2026-03-19T12:23:16.795218+00:00"
+  },
+  {
+    "event_id": "filing:2026-03-19:600126:5f19d1f4b980",
+    "event_type": "other",
+    "event_subtype": "other",
+    "title": "杭钢股份:杭州钢铁股份有限公司关于控股股东非公开发行可交换公司债券拟办理持有股份担保及信托登记的公告",
+    "summary": "其他担保公告",
+    "source": "announcement_incremental",
+    "entity_codes": [
+      "600126"
+    ],
+    "entity_names": [
+      "杭钢股份"
+    ],
+    "industry_codes": [],
+    "theme_tags": [],
+    "event_time": "2026-03-19T00:00:00",
+    "discover_time": "2026-03-19T00:00:00",
+    "available_at": "2026-03-19T00:00:00",
+    "severity": 0.3,
+    "surprise_score": 0.45,
+    "tradability_score": 0.7,
+    "novelty_score": 0.6,
+    "crowding_risk": 0.45,
+    "confidence": 0.55,
+    "impact_level": "low",
+    "source_type": "filing",
+    "raw_payload_ref": "",
+    "metadata": {
+      "legacy_type": "other",
+      "legacy_event_date": "2026-03-19",
+      "legacy_stock_code": "600126",
+      "legacy_stock_name": "杭钢股份",
+      "ingest_date": "2026-03-19",
+      "announcement_type": "其他担保公告"
+    },
+    "created_at": "2026-03-19T12:23:16.795280+00:00",
+    "updated_at": "2026-03-19T12:23:16.795282+00:00"
+  },
+  {
+    "event_id": "filing:2026-03-19:600460:d704225a3f94",
+    "event_type": "other",
+    "event_subtype": "other",
+    "title": "士兰微:杭州士兰微电子股份有限公司2026年第一次临时股东会会议资料",
+    "summary": "股东大会资料",
+    "source": "announcement_incremental",
+    "entity_codes": [
+      "600460"
+    ],
+    "entity_names": [
+      "士兰微"
+    ],
+    "industry_codes": [],
+    "theme_tags": [],
+    "event_time": "2026-03-19T00:00:00",
+    "discover_time": "2026-03-19T00:00:00",
+    "available_at": "2026-03-19T00:00:00",
+    "severity": 0.3,
+    "surprise_score": 0.45,
+    "tradability_score": 0.7,
+    "novelty_score": 0.6,
+    "crowding_risk": 0.45,
+    "confidence": 0.55,
+    "impact_level": "low",
+    "source_type": "filing",
+    "raw_payload_ref": "",
+    "metadata": {
+      "legacy_type": "other",
+      "legacy_event_date": "2026-03-19",
+      "legacy_stock_code": "600460",
+      "legacy_stock_name": "士兰微",
+      "ingest_date": "2026-03-19",
+      "announcement_type": "股东大会资料"
+    },
+    "created_at": "2026-03-19T12:23:16.795343+00:00",
+    "updated_at": "2026-03-19T12:23:16.795345+00:00"
+  },
+  {
+    "event_id": "filing:2026-03-19:603893:148b34d80bab",
+    "event_type": "other",
+    "event_subtype": "other",
+    "title": "瑞芯微:关于调整向全资子公司提供担保的额度的进展公告",
+    "summary": "提供/对外担保公告",
+    "source": "announcement_incremental",
+    "entity_codes": [
+      "603893"
+    ],
+    "entity_names": [
+      "瑞芯微"
+    ],
+    "industry_codes": [],
+    "theme_tags": [],
+    "event_time": "2026-03-19T00:00:00",
+    "discover_time": "2026-03-19T00:00:00",
+    "available_at": "2026-03-19T00:00:00",
+    "severity": 0.3,
+    "surprise_score": 0.45,
+    "tradability_score": 0.7,
+    "novelty_score": 0.6,
+    "crowding_risk": 0.45,
+    "confidence": 0.55,
+    "impact_level": "low",
+    "source_type": "filing",
+    "raw_payload_ref": "",
+    "metadata": {
+      "legacy_type": "other",
+      "legacy_event_date": "2026-03-19",
+      "legacy_stock_code": "603893",
+      "legacy_stock_name": "瑞芯微",
+      "ingest_date": "2026-03-19",
+      "announcement_type": "提供/对外担保公告"
+    },
+    "created_at": "2026-03-19T12:23:16.795408+00:00",
+    "updated_at": "2026-03-19T12:23:16.795409+00:00"
+  },
+  {
+    "event_id": "filing:2026-03-19:600688:e420f3e6d86c",
+    "event_type": "other",
+    "event_subtype": "other",
+    "title": "上海石化:上海石化2025年度独立董事述职报告-黄江东",
+    "summary": "独立董事述职报告",
+    "source": "announcement_incremental",
+    "entity_codes": [
+      "600688"
+    ],
+    "entity_names": [
+      "上海石化"
+    ],
+    "industry_codes": [],
+    "theme_tags": [],
+    "event_time": "2026-03-19T00:00:00",
+    "discover_time": "2026-03-19T00:00:00",
+    "available_at": "2026-03-19T00:00:00",
+    "severity": 0.3,
+    "surprise_score": 0.45,
+    "tradability_score": 0.7,
+    "novelty_score": 0.6,
+    "crowding_risk": 0.45,
+    "confidence": 0.55,
+    "impact_level": "low",
+    "source_type": "filing",
+    "raw_payload_ref": "",
+    "metadata": {
+      "legacy_type": "other",
+      "legacy_event_date": "2026-03-19",
+      "legacy_stock_code": "600688",
+      "legacy_stock_name": "上海石化",
+      "ingest_date": "2026-03-19",
+      "announcement_type": "独立董事述职报告"
+    },
+    "created_at": "2026-03-19T12:23:16.795472+00:00",
+    "updated_at": "2026-03-19T12:23:16.795473+00:00"
+  },
+  {
+    "event_id": "filing:2026-03-19:300142:6901bedd9791",
+    "event_type": "other",
+    "event_subtype": "other",
+    "title": "沃森生物:关于筹划控制权变更事项进展暨复牌公告",
+    "summary": "复牌公告",
+    "source": "announcement_incremental",
+    "entity_codes": [
+      "300142"
+    ],
+    "entity_names": [
+      "沃森生物"
+    ],
+    "industry_codes": [],
+    "theme_tags": [],
+    "event_time": "2026-03-19T00:00:00",
+    "discover_time": "2026-03-19T00:00:00",
+    "available_at": "2026-03-19T00:00:00",
+    "severity": 0.3,
+    "surprise_score": 0.45,
+    "tradability_score": 0.7,
+    "novelty_score": 0.6,
+    "crowding_risk": 0.45,
+    "confidence": 0.55,
+    "impact_level": "low",
+    "source_type": "filing",
+    "raw_payload_ref": "",
+    "metadata": {
+      "legacy_type": "other",
+      "legacy_event_date": "2026-03-19",
+      "legacy_stock_code": "300142",
+      "legacy_stock_name": "沃森生物",
+      "ingest_date": "2026-03-19",
+      "announcement_type": "复牌公告"
+    },
+    "created_at": "2026-03-19T12:23:16.795535+00:00",
+    "updated_at": "2026-03-19T12:23:16.795536+00:00"
+  },
+  {
+    "event_id": "filing:2026-03-19:600406:e601ee36e9fc",
+    "event_type": "other",
+    "event_subtype": "other",
+    "title": "国电南瑞:国电南瑞关于2021年限制性股票激励计划暂缓授予第二期解锁暨上市的公告",
+    "summary": "限售股份上市流通",
+    "source": "announcement_incremental",
+    "entity_codes": [
+      "600406"
+    ],
+    "entity_names": [
+      "国电南瑞"
+    ],
+    "industry_codes": [],
+    "theme_tags": [],
+    "event_time": "2026-03-19T00:00:00",
+    "discover_time": "2026-03-19T00:00:00",
+    "available_at": "2026-03-19T00:00:00",
+    "severity": 0.3,
+    "surprise_score": 0.45,
+    "tradability_score": 0.7,
+    "novelty_score": 0.6,
+    "crowding_risk": 0.45,
+    "confidence": 0.55,
+    "impact_level": "low",
+    "source_type": "filing",
+    "raw_payload_ref": "",
+    "metadata": {
+      "legacy_type": "other",
+      "legacy_event_date": "2026-03-19",
+      "legacy_stock_code": "600406",
+      "legacy_stock_name": "国电南瑞",
+      "ingest_date": "2026-03-19",
+      "announcement_type": "限售股份上市流通"
+    },
+    "created_at": "2026-03-19T12:23:16.795599+00:00",
+    "updated_at": "2026-03-19T12:23:16.795600+00:00"
+  },
+  {
+    "event_id": "filing:2026-03-19:601881:68e83bdfee9c",
+    "event_type": "other",
+    "event_subtype": "other",
+    "title": "中国银河:关于公开发行2021年永续次级债券(第一期)赎回结果暨2026年本息兑付及摘牌的公告",
+    "summary": "其他",
+    "source": "announcement_incremental",
+    "entity_codes": [
+      "601881"
+    ],
+    "entity_names": [
+      "中国银河"
+    ],
+    "industry_codes": [],
+    "theme_tags": [],
+    "event_time": "2026-03-19T00:00:00",
+    "discover_time": "2026-03-19T00:00:00",
+    "available_at": "2026-03-19T00:00:00",
+    "severity": 0.3,
+    "surprise_score": 0.45,
+    "tradability_score": 0.7,
+    "novelty_score": 0.6,
+    "crowding_risk": 0.45,
+    "confidence": 0.55,
+    "impact_level": "low",
+    "source_type": "filing",
+    "raw_payload_ref": "",
+    "metadata": {
+      "legacy_type": "other",
+      "legacy_event_date": "2026-03-19",
+      "legacy_stock_code": "601881",
+      "legacy_stock_name": "中国银河",
+      "ingest_date": "2026-03-19",
+      "announcement_type": "其他"
+    },
+    "created_at": "2026-03-19T12:23:16.795663+00:00",
+    "updated_at": "2026-03-19T12:23:16.795664+00:00"
+  },
+  {
+    "event_id": "news:2026-03-16:000001:5a2fea924774",
+    "event_type": "technology_breakthrough",
+    "event_subtype": "technology_breakthrough",
+    "title": "工行发布超1200条招聘信息！2026银行春招开启抢人模式，AI和大数据岗位升温",
+    "summary": "股份制银行的春招启动节奏整体快于国有大行，华夏银行、浦发银行（600000.SH）、平安银行（000001.SZ）、中信银行（601998.SH）等均于3月上旬完成春招公告发布。岗位布局贴合行业发展趋势与自身业务布局，金融科技、绿色金融成为核心需求方向。",
+    "source": "news_incremental",
+    "entity_codes": [
+      "000001"
+    ],
+    "entity_names": [
+      "平安银行"
+    ],
+    "industry_codes": [],
+    "theme_tags": [],
+    "event_time": "2026-03-16T00:00:00",
+    "discover_time": "2026-03-16 18:30:23",
+    "available_at": "2026-03-16 18:30:23",
+    "severity": 0.55,
+    "surprise_score": 0.75,
+    "tradability_score": 0.7,
+    "novelty_score": 0.6,
+    "crowding_risk": 0.45,
+    "confidence": 0.55,
+    "impact_level": "medium",
+    "source_type": "news",
+    "raw_payload_ref": "http://finance.eastmoney.com/a/202603163673250270.html",
+    "metadata": {
+      "legacy_type": "technology_breakthrough",
+      "legacy_event_date": "2026-03-16",
+      "legacy_stock_code": "000001",
+      "legacy_stock_name": "平安银行",
+      "ingest_date": "2026-03-19",
+      "publisher": "时代财经"
+    },
+    "created_at": "2026-03-19T12:23:16.795881+00:00",
+    "updated_at": "2026-03-19T12:23:16.795883+00:00"
+  },
+  {
+    "event_id": "news:2026-03-19:000050:f4c6edf39cca",
+    "event_type": "earnings_surprise",
+    "event_subtype": "earnings_surprise",
+    "title": "138家公司公布年报 24家业绩增幅翻倍",
+    "summary": "0.3500 35956.72 143.17 82282.00 -29.01 002487 大金重工 1.7300 110329.74 132.82 617355.02 63.34 300995 奇德新材 0.2349 1963.14 125.99 37497.56 8.33 000050",
+    "source": "news_incremental",
+    "entity_codes": [
+      "000050"
+    ],
+    "entity_names": [
+      "深天马Ａ"
+    ],
+    "industry_codes": [],
+    "theme_tags": [],
+    "event_time": "2026-03-19T00:00:00",
+    "discover_time": "2026-03-19 11:02:36",
+    "available_at": "2026-03-19 11:02:36",
+    "severity": 0.8,
+    "surprise_score": 0.75,
+    "tradability_score": 0.7,
+    "novelty_score": 0.6,
+    "crowding_risk": 0.45,
+    "confidence": 0.7,
+    "impact_level": "high",
+    "source_type": "news",
+    "raw_payload_ref": "http://finance.eastmoney.com/a/202603193677132530.html",
+    "metadata": {
+      "legacy_type": "earnings_surprise",
+      "legacy_event_date": "2026-03-19",
+      "legacy_stock_code": "000050",
+      "legacy_stock_name": "深天马Ａ",
+      "ingest_date": "2026-03-19",
+      "publisher": "证券时报网"
+    },
+    "created_at": "2026-03-19T12:23:16.796625+00:00",
+    "updated_at": "2026-03-19T12:23:16.796627+00:00"
+  },
+  {
+    "event_id": "news:2026-03-18:000050:8e205005265c",
+    "event_type": "earnings_surprise",
+    "event_subtype": "earnings_surprise",
+    "title": "134家公司公布年报 24家业绩增幅翻倍",
+    "summary": "0.3500 35956.72 143.17 82282.00 -29.01 002487 大金重工 1.7300 110329.74 132.82 617355.02 63.34 300995 奇德新材 0.2349 1963.14 125.99 37497.56 8.33 000050",
+    "source": "news_incremental",
+    "entity_codes": [
+      "000050"
+    ],
+    "entity_names": [
+      "深天马Ａ"
+    ],
+    "industry_codes": [],
+    "theme_tags": [],
+    "event_time": "2026-03-18T00:00:00",
+    "discover_time": "2026-03-18 10:34:59",
+    "available_at": "2026-03-18 10:34:59",
+    "severity": 0.8,
+    "surprise_score": 0.75,
+    "tradability_score": 0.7,
+    "novelty_score": 0.6,
+    "crowding_risk": 0.45,
+    "confidence": 0.7,
+    "impact_level": "high",
+    "source_type": "news",
+    "raw_payload_ref": "http://finance.eastmoney.com/a/202603183675693575.html",
+    "metadata": {
+      "legacy_type": "earnings_surprise",
+      "legacy_event_date": "2026-03-18",
+      "legacy_stock_code": "000050",
+      "legacy_stock_name": "深天马Ａ",
+      "ingest_date": "2026-03-19",
+      "publisher": "证券时报网"
+    },
+    "created_at": "2026-03-19T12:23:16.796697+00:00",
+    "updated_at": "2026-03-19T12:23:16.796699+00:00"
+  }
+]

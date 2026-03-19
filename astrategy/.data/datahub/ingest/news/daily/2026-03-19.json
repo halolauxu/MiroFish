@@ -1,0 +1,125 @@
+{
+  "summary": {
+    "universe_id": "csi800",
+    "ingest_date": "2026-03-19",
+    "collect_news": true,
+    "requested_tickers": 10,
+    "fetched_tickers": 10,
+    "with_news": 10,
+    "target_date_news_tickers": 7,
+    "cached_tickers": 0,
+    "failed_tickers": 0
+  },
+  "rows": [
+    {
+      "ticker": "000001",
+      "news_count": 3,
+      "target_date_news_count": 1,
+      "latest_publish_date": "2026-03-19",
+      "news_file": "/Users/xukun/Documents/freqtrade/MiroFish/astrategy/.data/datahub/ingest/news/by_ticker/000001.json",
+      "status": "fetched",
+      "last_attempt_at": "2026-03-19T12:23:14Z",
+      "error": "",
+      "from_cache": false
+    },
+    {
+      "ticker": "000002",
+      "news_count": 3,
+      "target_date_news_count": 0,
+      "latest_publish_date": "2026-03-18",
+      "news_file": "/Users/xukun/Documents/freqtrade/MiroFish/astrategy/.data/datahub/ingest/news/by_ticker/000002.json",
+      "status": "fetched",
+      "last_attempt_at": "2026-03-19T12:23:14Z",
+      "error": "",
+      "from_cache": false
+    },
+    {
+      "ticker": "000009",
+      "news_count": 3,
+      "target_date_news_count": 1,
+      "latest_publish_date": "2026-03-19",
+      "news_file": "/Users/xukun/Documents/freqtrade/MiroFish/astrategy/.data/datahub/ingest/news/by_ticker/000009.json",
+      "status": "fetched",
+      "last_attempt_at": "2026-03-19T12:23:15Z",
+      "error": "",
+      "from_cache": false
+    },
+    {
+      "ticker": "000021",
+      "news_count": 3,
+      "target_date_news_count": 2,
+      "latest_publish_date": "2026-03-19",
+      "news_file": "/Users/xukun/Documents/freqtrade/MiroFish/astrategy/.data/datahub/ingest/news/by_ticker/000021.json",
+      "status": "fetched",
+      "last_attempt_at": "2026-03-19T12:23:15Z",
+      "error": "",
+      "from_cache": false
+    },
+    {
+      "ticker": "000027",
+      "news_count": 3,
+      "target_date_news_count": 0,
+      "latest_publish_date": "2026-03-16",
+      "news_file": "/Users/xukun/Documents/freqtrade/MiroFish/astrategy/.data/datahub/ingest/news/by_ticker/000027.json",
+      "status": "fetched",
+      "last_attempt_at": "2026-03-19T12:23:15Z",
+      "error": "",
+      "from_cache": false
+    },
+    {
+      "ticker": "000032",
+      "news_count": 3,
+      "target_date_news_count": 2,
+      "latest_publish_date": "2026-03-19",
+      "news_file": "/Users/xukun/Documents/freqtrade/MiroFish/astrategy/.data/datahub/ingest/news/by_ticker/000032.json",
+      "status": "fetched",
+      "last_attempt_at": "2026-03-19T12:23:15Z",
+      "error": "",
+      "from_cache": false
+    },
+    {
+      "ticker": "000034",
+      "news_count": 3,
+      "target_date_news_count": 0,
+      "latest_publish_date": "2026-03-18",
+      "news_file": "/Users/xukun/Documents/freqtrade/MiroFish/astrategy/.data/datahub/ingest/news/by_ticker/000034.json",
+      "status": "fetched",
+      "last_attempt_at": "2026-03-19T12:23:15Z",
+      "error": "",
+      "from_cache": false
+    },
+    {
+      "ticker": "000039",
+      "news_count": 3,
+      "target_date_news_count": 1,
+      "latest_publish_date": "2026-03-19",
+      "news_file": "/Users/xukun/Documents/freqtrade/MiroFish/astrategy/.data/datahub/ingest/news/by_ticker/000039.json",
+      "status": "fetched",
+      "last_attempt_at": "2026-03-19T12:23:15Z",
+      "error": "",
+      "from_cache": false
+    },
+    {
+      "ticker": "000050",
+      "news_count": 3,
+      "target_date_news_count": 1,
+      "latest_publish_date": "2026-03-19",
+      "news_file": "/Users/xukun/Documents/freqtrade/MiroFish/astrategy/.data/datahub/ingest/news/by_ticker/000050.json",
+      "status": "fetched",
+      "last_attempt_at": "2026-03-19T12:23:16Z",
+      "error": "",
+      "from_cache": false
+    },
+    {
+      "ticker": "000060",
+      "news_count": 3,
+      "target_date_news_count": 2,
+      "latest_publish_date": "2026-03-19",
+      "news_file": "/Users/xukun/Documents/freqtrade/MiroFish/astrategy/.data/datahub/ingest/news/by_ticker/000060.json",
+      "status": "fetched",
+      "last_attempt_at": "2026-03-19T12:23:16Z",
+      "error": "",
+      "from_cache": false
+    }
+  ]
+}

@@ -13,16 +13,24 @@ from __future__ import annotations
 
 import json
 import logging
+import os
 import re
+import sys
 import time
 from datetime import datetime
 from pathlib import Path
 from typing import Any, Dict, List, Set
 
+sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+
+from astrategy.events.registry import EventRegistry
+from astrategy.events.normalizer import legacy_event_to_master, master_to_legacy_event
+
 logger = logging.getLogger("astrategy.expand_events")
 
 _DATA_DIR = Path(__file__).resolve().parent / ".data"
 _EVENTS_PATH = _DATA_DIR / "historical_events.json"
+_EVENT_REGISTRY = EventRegistry(_DATA_DIR / "event_master")
 
 # ---------------------------------------------------------------------------
 # 事件类型关键词映射（用于从新闻标题自动分类）
@@ -807,6 +815,34 @@ def validate_events(events: List[Dict[str, Any]]) -> Dict[str, int]:
     return type_counts
 
 
+def merge_event_master_records(
+    existing: List[Dict[str, Any]],
+    new_records: List[Dict[str, Any]],
+) -> List[Dict[str, Any]]:
+    """Merge Event Master records, deduplicated by entity + title prefix."""
+    seen: Set[str] = set()
+    merged: List[Dict[str, Any]] = []
+
+    def _dedupe_key(record: Dict[str, Any]) -> str:
+        entity_codes = record.get("entity_codes", [])
+        first_code = entity_codes[0] if entity_codes else ""
+        return f"{first_code}_{record.get('title', '')[:20]}"
+
+    for record in existing:
+        key = _dedupe_key(record)
+        if key not in seen:
+            seen.add(key)
+            merged.append(record)
+
+    for record in new_records:
+        key = _dedupe_key(record)
+        if key not in seen:
+            seen.add(key)
+            merged.append(record)
+
+    return merged
+
+
 # ---------------------------------------------------------------------------
 # Main
 # ---------------------------------------------------------------------------
@@ -818,11 +854,15 @@ def main():
     )
 
     # 读取现有事件
-    existing: List[Dict[str, Any]] = []
-    if _EVENTS_PATH.exists():
+    existing_master = _EVENT_REGISTRY.load_master()
+    if existing_master:
+        existing = [master_to_legacy_event(item) for item in existing_master]
+        logger.info("现有 Event Master 事件数: %d", len(existing_master))
+    elif _EVENTS_PATH.exists():
         existing = json.loads(_EVENTS_PATH.read_text(encoding="utf-8"))
-        logger.info("现有事件数: %d", len(existing))
+        logger.info("现有 legacy 事件数: %d", len(existing))
     else:
+        existing = []
         logger.info("未找到现有事件文件，将从零开始创建")
 
     # 尝试akshare获取
@@ -834,6 +874,10 @@ def main():
     # 合并
     all_new = ak_events + manual_events
     merged = merge_events(existing, all_new)
+
+    # 生成 Event Master
+    new_master_records = [legacy_event_to_master(event) for event in merged]
+    merged_master = merge_event_master_records(existing_master, new_master_records)
 
     # 验证类型覆盖
     type_counts = validate_events(merged)
@@ -879,7 +923,9 @@ def main():
         json.dumps(merged, ensure_ascii=False, indent=2),
         encoding="utf-8",
     )
-    print(f"\n  已保存至: {_EVENTS_PATH}")
+    master_path = _EVENT_REGISTRY.save_master(merged_master)
+    print(f"\n  Legacy事件已保存至: {_EVENTS_PATH}")
+    print(f"  Event Master已保存至: {master_path}")
     print(f"  总事件数: {len(merged)}")
     print("=" * 60)
 

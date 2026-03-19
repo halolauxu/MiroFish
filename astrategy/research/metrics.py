@@ -242,6 +242,8 @@ def format_metrics_table(metrics: Dict[str, Any], title: str = "") -> str:
         "ic": "IC",
         "rank_ic": "RankIC",
         "coverage": "覆盖率",
+        "breadth": "Breadth",
+        "confidence_spread": "置信度分层差",
         "turnover": "换手率",
     }
 

@@ -37,13 +37,32 @@ def _set_cache(key: str, value: object) -> None:
 # ---------------------------------------------------------------------------
 # Retry helper
 # ---------------------------------------------------------------------------
-def _retry(fn, *args, retries: int = 2, delay: float = 0.5, **kwargs):
-    """Call *fn* with retry logic.  Returns result or raises last exception."""
+def _retry(fn, *args, retries: int = 2, delay: float = 0.5, timeout: float = 15.0, **kwargs):
+    """Call *fn* with retry logic and a per-attempt timeout."""
+    import platform
+    import signal as _signal
+
+    use_alarm = platform.system() != "Windows"
+
+    class _Timeout(Exception):
+        pass
+
+    def _handler(signum, frame):
+        raise _Timeout(f"{fn.__name__} timed out after {timeout}s")
+
     last_exc: Optional[Exception] = None
     for attempt in range(1, retries + 1):
+        old_handler = None
         try:
+            if use_alarm and timeout > 0:
+                old_handler = _signal.signal(_signal.SIGALRM, _handler)
+                _signal.alarm(int(timeout))
             return fn(*args, **kwargs)
         except Exception as exc:
+            if use_alarm:
+                _signal.alarm(0)
+            if old_handler is not None:
+                _signal.signal(_signal.SIGALRM, old_handler)
             last_exc = exc
             logger.warning(
                 "Attempt %d/%d for %s failed: %s",
@@ -51,6 +70,11 @@ def _retry(fn, *args, retries: int = 2, delay: float = 0.5, **kwargs):
             )
             if attempt < retries:
                 time.sleep(delay * attempt)
+        finally:
+            if use_alarm:
+                _signal.alarm(0)
+            if old_handler is not None:
+                _signal.signal(_signal.SIGALRM, old_handler)
     raise last_exc  # type: ignore[misc]
 
 

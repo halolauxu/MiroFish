@@ -33,8 +33,18 @@ from typing import Any, Dict, List, Optional, Set
 
 import pandas as pd
 
+from astrategy.debate import DebateOrchestrator
+from astrategy.events.normalizer import normalize_events
 from astrategy.graph.local_store import LocalGraphStore
 from astrategy.graph.topology import TopologyAnalyzer
+from astrategy.market_checks import build_market_check
+from astrategy.narratives import (
+    build_narrative_relations,
+    estimate_crowding_score,
+    extract_narratives,
+    infer_narrative_phase,
+)
+from astrategy.signals import SignalFactory
 from astrategy.strategies.base import BaseStrategy, StrategySignal
 
 logger = logging.getLogger("astrategy.shock_pipeline")
@@ -65,6 +75,78 @@ _REACTION_LOOKBACK_DAYS = 5
 # Signal generation thresholds
 _MIN_SHOCK_WEIGHT = 0.1      # Ignore very weak propagation paths
 _MIN_CONVICTION = 0.25       # Minimum conviction to generate signal
+_MIN_TRIGGER_SCORE = 0.35
+
+_ROUND2_ALLOWED_EVENT_TYPES = {
+    "cooperation",
+    "policy_risk",
+    "order_win",
+    "management_change",
+    "ma",
+    "price_adjustment",
+    "earnings_surprise",
+}
+
+_REACTED_CONTINUATION_MIN_MARKET_SCORE = 0.38
+_REACTED_CONTINUATION_RULES = {
+    "cooperation": {1, 2, 3},
+    "ma": {1, 2, 3},
+    "order_win": {1, 2, 3},
+    "policy_risk": {2, 3},
+    "price_adjustment": {1, 2, 3},
+}
+
+_RELATION_EVENT_BIASES = {
+    "cooperation": {
+        "COOPERATES_WITH": 1.15,
+        "SUPPLIES_TO": 1.05,
+        "CUSTOMER_OF": 1.00,
+        "COMPETES_WITH": 0.80,
+        "HOLDS_SHARES": 0.35,
+    },
+    "order_win": {
+        "SUPPLIES_TO": 1.20,
+        "CUSTOMER_OF": 1.10,
+        "COOPERATES_WITH": 1.05,
+        "COMPETES_WITH": 0.75,
+        "HOLDS_SHARES": 0.30,
+    },
+    "price_adjustment": {
+        "COMPETES_WITH": 1.20,
+        "SUPPLIES_TO": 0.95,
+        "CUSTOMER_OF": 0.95,
+        "COOPERATES_WITH": 0.90,
+        "HOLDS_SHARES": 0.25,
+    },
+    "earnings_surprise": {
+        "SUPPLIES_TO": 1.08,
+        "CUSTOMER_OF": 1.05,
+        "COOPERATES_WITH": 1.00,
+        "COMPETES_WITH": 0.85,
+        "HOLDS_SHARES": 0.30,
+    },
+    "ma": {
+        "COOPERATES_WITH": 1.10,
+        "SUPPLIES_TO": 1.00,
+        "CUSTOMER_OF": 1.00,
+        "COMPETES_WITH": 0.85,
+        "HOLDS_SHARES": 0.45,
+    },
+    "management_change": {
+        "SUPPLIES_TO": 1.00,
+        "CUSTOMER_OF": 1.00,
+        "COOPERATES_WITH": 0.95,
+        "COMPETES_WITH": 0.90,
+        "HOLDS_SHARES": 0.35,
+    },
+    "policy_risk": {
+        "SUPPLIES_TO": 1.08,
+        "CUSTOMER_OF": 1.05,
+        "COOPERATES_WITH": 0.95,
+        "COMPETES_WITH": 0.92,
+        "HOLDS_SHARES": 0.28,
+    },
+}
 
 
 # ---------------------------------------------------------------------------
@@ -83,17 +165,23 @@ class ShockPipeline:
         max_hops: int = _MAX_HOPS,
         decay: float = _DECAY,
         max_downstream: int = 15,
+        research_profile: str = "round4_hybrid",
     ) -> None:
         self._max_hops = max_hops
         self._decay = decay
         self._max_downstream = max_downstream
+        self._research_profile = research_profile
+        self._debate = DebateOrchestrator()
+        self._signal_factory = SignalFactory()
 
         # Load graph
         self._store = LocalGraphStore()
-        self._graph_loaded = self._store.load("supply_chain")
+        self._graph_id = "supply_chain"
+        self._graph_loaded = self._store.load(self._graph_id)
         if not self._graph_loaded:
             # Try alternative graph name
-            self._graph_loaded = self._store.load("astrategy")
+            self._graph_id = "astrategy"
+            self._graph_loaded = self._store.load(self._graph_id)
         if self._graph_loaded:
             logger.info("Graph loaded for shock propagation")
         else:
@@ -103,20 +191,16 @@ class ShockPipeline:
         self._nodes: List[Dict] = []
         self._code_to_name: Dict[str, str] = {}
         self._name_to_code: Dict[str, str] = {}
+        self._node_degree: Dict[str, int] = {}
 
         if self._graph_loaded:
-            graph_id = "supply_chain" if "supply_chain" in self._store._graphs else "astrategy"
-            self._edges = self._store.get_all_edges(graph_id)
-            self._nodes = self._store.get_all_nodes(graph_id)
-            self._build_code_name_maps()
-            logger.info(
-                "Graph stats: %d nodes, %d edges",
-                len(self._nodes), len(self._edges),
-            )
+            self._refresh_graph_snapshot()
 
     def _build_code_name_maps(self) -> None:
         """Build bidirectional code↔name lookup from graph nodes."""
         import re
+        self._code_to_name.clear()
+        self._name_to_code.clear()
         for n in self._nodes:
             name = n.get("name", "")
             attrs = n.get("attributes", {})
@@ -146,8 +230,37 @@ class ShockPipeline:
                 self._code_to_name[name] = best_name
                 self._name_to_code[name] = name
 
+    def _refresh_graph_snapshot(self, as_of: str | None = None) -> None:
+        """Reload nodes/edges from the local graph at a given historical date."""
+        if not self._graph_loaded:
+            self._edges = []
+            self._nodes = []
+            self._code_to_name = {}
+            self._name_to_code = {}
+            self._node_degree = {}
+            return
+
+        self._edges = self._store.get_all_edges(self._graph_id, as_of=as_of)
+        self._nodes = self._store.get_all_nodes(self._graph_id, as_of=as_of)
+        self._build_code_name_maps()
+        degree: Dict[str, int] = defaultdict(int)
+        for edge in self._edges:
+            src = edge.get("source_name") or edge.get("source", "")
+            tgt = edge.get("target_name") or edge.get("target", "")
+            if src:
+                degree[src] += 1
+            if tgt:
+                degree[tgt] += 1
+        self._node_degree = dict(degree)
+        logger.info(
+            "Graph snapshot%s: %d nodes, %d edges",
+            f" @ {as_of}" if as_of else "",
+            len(self._nodes),
+            len(self._edges),
+        )
+
     # ==================================================================
-    # Step 1: Event Detection
+    # Step 1: Trigger
     # ==================================================================
 
     def detect_events(
@@ -200,14 +313,109 @@ class ShockPipeline:
         logger.info("Total unique events detected: %d", len(unique))
         return unique[:max_events]
 
+    def _normalize_event(self, event: Dict[str, Any]) -> Dict[str, Any]:
+        """Normalize event fields for internal pipeline usage."""
+        event = dict(event)
+        event_type = event.get("event_type") or event.get("type") or "other"
+        event["event_type"] = event_type
+        event["type"] = event_type
+        event["discover_time"] = event.get("discover_time") or event.get("event_date", "")
+        event["available_at"] = event.get("available_at") or event.get("discover_time", "")
+        event["tradability_score"] = float(event.get("tradability_score", 0.7))
+        event["severity"] = float(event.get("severity", 0.5))
+        event["surprise_score"] = float(event.get("surprise_score", 0.5))
+        event["confidence"] = float(event.get("confidence", 0.6))
+        return event
+
+    def _build_trigger(self, event: Dict[str, Any]) -> Dict[str, Any]:
+        """Build trigger-stage metadata for an event."""
+        normalized = self._normalize_event(event)
+        narratives = extract_narratives(normalized)
+        crowding_score = estimate_crowding_score(normalized, narratives)
+        narrative_phase = infer_narrative_phase(normalized, narratives, crowding_score)
+        trigger_score = (
+            normalized.get("severity", 0.5) * 0.35
+            + normalized.get("surprise_score", 0.5) * 0.35
+            + normalized.get("tradability_score", 0.7) * 0.30
+        )
+        normalized["theme_tags"] = sorted(set(list(normalized.get("theme_tags", [])) + narratives))
+        normalized["narrative_tags"] = narratives
+        normalized["crowding_score"] = crowding_score
+        normalized["narrative_phase"] = narrative_phase
+        normalized["narrative_relations"] = build_narrative_relations(normalized, narratives)
+        return {
+            "event": normalized,
+            "trigger_score": round(trigger_score, 4),
+            "tradable": trigger_score >= _MIN_TRIGGER_SCORE,
+            "trigger_reason": (
+                f"severity={normalized.get('severity', 0):.2f}, "
+                f"surprise={normalized.get('surprise_score', 0):.2f}, "
+                f"tradability={normalized.get('tradability_score', 0):.2f}"
+            ),
+        }
+
+    def _passes_research_profile(self, event_type: str, hop: int) -> bool:
+        """Apply the second-round research corrections discovered in validation."""
+        if self._research_profile not in {"round2_strict", "round4_hybrid"}:
+            return True
+
+        allowed_event_types = set(_ROUND2_ALLOWED_EVENT_TYPES)
+        if self._research_profile == "round4_hybrid":
+            allowed_event_types.add("buyback")
+
+        if event_type not in allowed_event_types:
+            return False
+
+        if event_type == "cooperation":
+            return True
+        if event_type == "order_win":
+            return True
+        if event_type == "buyback":
+            return hop >= 2
+        if event_type == "policy_risk":
+            return hop == 0 or hop >= 2
+        if event_type in {"management_change", "ma", "price_adjustment"}:
+            return hop >= 1
+        if event_type == "earnings_surprise":
+            return hop in {1, 3}
+        return False
+
+    def _allows_reacted_continuation(
+        self,
+        event_type: str,
+        hop: int,
+        market_check_score: float,
+        enable_reacted_continuation: bool,
+    ) -> bool:
+        """Selective continuation branch for reacted downstream names."""
+        if not enable_reacted_continuation:
+            return False
+        if self._research_profile != "round4_hybrid":
+            return False
+        allowed_hops = _REACTED_CONTINUATION_RULES.get(event_type)
+        if not allowed_hops or hop not in allowed_hops:
+            return False
+        return market_check_score >= _REACTED_CONTINUATION_MIN_MARKET_SCORE
+
+    def _event_relation_bias(self, event_type: str, relation_chain: List[str]) -> float:
+        """Event-aware graph bias to suppress noisy generic edges."""
+        if not relation_chain:
+            return 1.0
+        bias_map = _RELATION_EVENT_BIASES.get(event_type, {})
+        if not bias_map:
+            return 1.0
+        values = [bias_map.get(rel, 0.7) for rel in relation_chain]
+        return sum(values) / len(values)
+
     # ==================================================================
-    # Step 2: Graph Shock Propagation
+    # Step 2: Propagation
     # ==================================================================
 
     def propagate(
         self,
         source_code: str,
         event: Dict[str, Any],
+        downstream_limit: Optional[int] = None,
     ) -> List[Dict[str, Any]]:
         """Find downstream companies affected by shock at *source_code*.
 
@@ -244,6 +452,7 @@ class ShockPipeline:
 
         # Convert to list with code resolution
         targets: List[Dict[str, Any]] = []
+        event_type = event.get("event_type") or event.get("type") or ""
         for node_name, info in shock_map.items():
             if info["shock_weight"] < _MIN_SHOCK_WEIGHT:
                 continue
@@ -260,6 +469,14 @@ class ShockPipeline:
                 continue
 
             display_name = self._code_to_name.get(code, node_name)
+            degree = self._node_degree.get(code) or self._node_degree.get(node_name, 1)
+            specificity_score = 1.0 / math.sqrt(max(1, degree))
+            relation_bias = self._event_relation_bias(
+                event_type,
+                list(info.get("relation_chain", [])),
+            )
+            graph_score = float(info.get("graph_score", info["shock_weight"]))
+            graph_rank_score = graph_score * relation_bias * (0.7 + 0.3 * specificity_score)
             targets.append({
                 "code": code,
                 "name": display_name,
@@ -267,23 +484,54 @@ class ShockPipeline:
                 "hop": info["hop"],
                 "path": info["path"],
                 "relation_chain": info["relation_chain"],
+                "path_quality": info.get("path_quality", info["shock_weight"]),
+                "relation_score": info.get("relation_score", 0.0),
+                "graph_score": round(graph_score, 6),
+                "graph_rank_score": round(graph_rank_score, 6),
+                "specificity_score": round(specificity_score, 6),
+                "relation_bias": round(relation_bias, 6),
                 "source_event": event.get("title", ""),
                 "source_code": source_code,
             })
 
-        # Sort by shock_weight descending, take top N
-        targets.sort(key=lambda t: t["shock_weight"], reverse=True)
-        targets = targets[:self._max_downstream]
+        # Rank by graph quality, not just raw reachability.
+        targets.sort(
+            key=lambda t: (
+                t.get("graph_rank_score", 0.0),
+                t.get("graph_score", 0.0),
+                t["shock_weight"],
+            ),
+            reverse=True,
+        )
+        limit = self._max_downstream if downstream_limit is None else downstream_limit
+        if limit > 0:
+            targets = targets[:limit]
 
         logger.info(
             "Shock from %s → %d downstream targets (top: %s)",
             source_code, len(targets),
-            ", ".join(f"{t['code']}({t['shock_weight']:.2f})" for t in targets[:5]),
+            ", ".join(
+                f"{t['code']}({t.get('graph_rank_score', t['shock_weight']):.2f})"
+                for t in targets[:5]
+            ),
         )
         return targets
 
+    def _build_propagation(
+        self,
+        event: Dict[str, Any],
+        downstream_limit: Optional[int] = None,
+    ) -> Dict[str, Any]:
+        source_code = event.get("stock_code", "")
+        targets = self.propagate(source_code, event, downstream_limit=downstream_limit) if source_code else []
+        return {
+            "source_code": source_code,
+            "targets": targets,
+            "target_count": len(targets),
+        }
+
     # ==================================================================
-    # Step 3: Agent Debate (multi-agent divergence)
+    # Step 3: Debate
     # ==================================================================
 
     def debate_impact(
@@ -358,59 +606,33 @@ class ShockPipeline:
                 all_reactions = s10.simulate_reactions(downstream_event, profiles)
         except Exception as exc:
             logger.error("Agent debate failed for %s: %s", target["code"], exc)
-            return self._empty_debate_result()
+            return self._debate.run_rule_based(
+                event=event,
+                target=target,
+                context={
+                    "trigger_score": event.get("trigger_score", 0.0),
+                    "crowding_score": event.get("crowding_score", 0.4),
+                    "shock_weight": target.get("shock_weight", 0.0),
+                    "expected_holding_days": 5,
+                },
+            )
 
-        # --- Compute divergence ---
-        sentiments = [r.get("sentiment_score", 0.0) for r in all_reactions]
-        if len(sentiments) >= 2:
-            mean_s = sum(sentiments) / len(sentiments)
-            variance = sum((s - mean_s) ** 2 for s in sentiments) / len(sentiments)
-            divergence = math.sqrt(variance)
-        else:
-            divergence = 0.0
-
-        # Weighted consensus (using market influence weights)
-        weighted_sum = 0.0
-        total_weight = 0.0
-        for r in all_reactions:
-            arch = r.get("archetype", "")
-            w = _INFLUENCE_WEIGHTS.get(arch, 0.05)
-            weighted_sum += r.get("sentiment_score", 0.0) * w
-            total_weight += w
-
-        consensus_sentiment = weighted_sum / total_weight if total_weight > 0 else 0.0
-
-        # Conviction: inverse of divergence, scaled
-        conviction = max(0.0, 1.0 - divergence * 2.0)
-
-        # Consensus direction
-        if consensus_sentiment > 0.1:
-            consensus_direction = "bullish"
-        elif consensus_sentiment < -0.1:
-            consensus_direction = "bearish"
-        else:
-            consensus_direction = "neutral"
-
-        # Build debate summary
-        debate_lines = []
-        for r in all_reactions:
-            arch = r.get("archetype", "")
-            action = r.get("action", "hold")
-            sent = r.get("sentiment_score", 0.0)
-            reason = r.get("reasoning", "")[:60]
-            debate_lines.append(f"[{arch}] {action}({sent:+.2f}): {reason}")
-
-        return {
-            "consensus_direction": consensus_direction,
-            "consensus_sentiment": round(consensus_sentiment, 4),
-            "divergence": round(divergence, 4),
-            "conviction": round(conviction, 4),
-            "agent_reactions": all_reactions,
-            "debate_summary": "\n".join(debate_lines),
-            "graph_context_used": True,
-            "propagation_path": target["path"],
-            "relation_chain": target["relation_chain"],
-        }
+        result = self._debate.summarize_reactions(
+            event=event,
+            target=target,
+            reactions=all_reactions,
+            context={
+                "trigger_score": event.get("trigger_score", 0.0),
+                "crowding_score": event.get("crowding_score", 0.4),
+                "shock_weight": target.get("shock_weight", 0.0),
+                "expected_holding_days": 5,
+            },
+        )
+        result["agent_reactions"] = all_reactions
+        result["graph_context_used"] = True
+        result["propagation_path"] = target["path"]
+        result["relation_chain"] = target["relation_chain"]
+        return result
 
     @staticmethod
     def _empty_debate_result() -> Dict[str, Any]:
@@ -427,7 +649,7 @@ class ShockPipeline:
         }
 
     # ==================================================================
-    # Step 4: Price Reaction Detection
+    # Step 4: Market Check
     # ==================================================================
 
     def check_price_reaction(
@@ -642,15 +864,63 @@ class ShockPipeline:
             "return_20d": None,
         }
 
+    def _build_market_check(
+        self,
+        event: Dict[str, Any],
+        target_code: str,
+        event_date: str = "",
+        historical: bool = False,
+        forward_days: int = 5,
+    ) -> Dict[str, Any]:
+        if historical and event_date:
+            reaction = self.check_price_reaction_at_date(
+                target_code,
+                event_date,
+                forward_days=forward_days,
+            )
+        else:
+            reaction = self.check_price_reaction(target_code)
+
+        narratives = list(event.get("narrative_tags", []))
+        return build_market_check(
+            event=event,
+            reaction=reaction,
+            narratives=narratives,
+            crowding_score=float(event.get("crowding_score", 0.4)),
+        )
+
     # ==================================================================
-    # Step 5: Full Pipeline
+    # Step 5: Action
     # ==================================================================
+
+    def _score_action(
+        self,
+        event: Dict[str, Any],
+        target: Dict[str, Any],
+        debate: Dict[str, Any],
+        market_check: Dict[str, Any],
+        allow_rejected: bool = False,
+        enable_reacted_continuation: bool = True,
+    ) -> Optional[Dict[str, Any]]:
+        return self._build_shock_signal(
+            event=event,
+            target=target,
+            debate=debate,
+            reaction=market_check.get("reaction", {}),
+            trigger_score=event.get("trigger_score", 0.0),
+            market_check_score=market_check.get("market_check_score", 0.0),
+            allow_rejected=allow_rejected,
+            enable_reacted_continuation=enable_reacted_continuation,
+        )
 
     def run(
         self,
         stock_codes: List[str],
         max_events: int = 5,
         skip_debate: bool = False,
+        downstream_limit: Optional[int] = None,
+        allow_rejected: bool = False,
+        enable_reacted_continuation: bool = True,
     ) -> List[Dict[str, Any]]:
         """Execute the full shock propagation pipeline.
 
@@ -682,9 +952,18 @@ class ShockPipeline:
             logger.info("No events detected — pipeline complete (0 signals)")
             return []
 
+        self._refresh_graph_snapshot()
+
         all_signals: List[Dict[str, Any]] = []
 
         for event in events:
+            trigger = self._build_trigger(event)
+            if not trigger["tradable"]:
+                logger.info("Event rejected at trigger stage: %s", trigger["trigger_reason"])
+                continue
+
+            event = trigger["event"]
+            event["trigger_score"] = trigger["trigger_score"]
             source_code = event.get("stock_code", "")
             if not source_code:
                 continue
@@ -695,30 +974,44 @@ class ShockPipeline:
             )
 
             # Step 2: Propagate shock
-            targets = self.propagate(source_code, event)
+            propagation = self._build_propagation(event, downstream_limit=downstream_limit)
+            targets = propagation["targets"]
             if not targets:
                 logger.info("No downstream targets for %s — skipping", source_code)
                 continue
 
-            # Step 3 & 4: For each downstream target
+            # Step 3-5: For each downstream target
             for target in targets:
+                if not self._passes_research_profile(event.get("event_type", ""), int(target.get("hop", 1))):
+                    continue
                 target_code = target["code"]
 
                 # Step 3: Agent debate
                 if skip_debate:
-                    debate = self._empty_debate_result()
+                    debate = self._debate.run_rule_based(
+                        event=event,
+                        target=target,
+                        context={
+                            "trigger_score": event.get("trigger_score", 0.0),
+                            "crowding_score": event.get("crowding_score", 0.4),
+                            "shock_weight": target.get("shock_weight", 0.0),
+                            "expected_holding_days": 5,
+                        },
+                    )
                 else:
                     debate = self.debate_impact(target, event)
 
                 # Step 4: Check price reaction
-                reaction = self.check_price_reaction(target_code)
+                market_check = self._build_market_check(event, target_code)
 
                 # Step 5: Generate signal
-                signal = self._build_shock_signal(
-                    event=event,
-                    target=target,
-                    debate=debate,
-                    reaction=reaction,
+                signal = self._score_action(
+                    event,
+                    target,
+                    debate,
+                    market_check,
+                    allow_rejected=allow_rejected,
+                    enable_reacted_continuation=enable_reacted_continuation,
                 )
 
                 if signal is not None:
@@ -740,6 +1033,10 @@ class ShockPipeline:
         events: List[Dict[str, Any]],
         skip_debate: bool = False,
         forward_days: int = 5,
+        downstream_limit: Optional[int] = None,
+        include_source_signals: bool = True,
+        allow_rejected: bool = False,
+        enable_reacted_continuation: bool = True,
     ) -> List[Dict[str, Any]]:
         """Run the shock pipeline on historical events for backtesting.
 
@@ -770,11 +1067,19 @@ class ShockPipeline:
 
         all_signals: List[Dict[str, Any]] = []
 
-        for event in events:
+        normalized_events = normalize_events(events)
+
+        for event in normalized_events:
+            trigger = self._build_trigger(event)
+            event = trigger["event"]
+            event["trigger_score"] = trigger["trigger_score"]
+
             source_code = event.get("stock_code", "")
             event_date = event.get("event_date", "")
             if not source_code or not event_date:
                 continue
+
+            self._refresh_graph_snapshot(as_of=event_date)
 
             logger.info(
                 "Processing historical event: [%s] %s (source: %s, date: %s)",
@@ -785,38 +1090,55 @@ class ShockPipeline:
             )
 
             # Step 2: Propagate shock via graph
-            targets = self.propagate(source_code, event)
+            propagation = self._build_propagation(event, downstream_limit=downstream_limit)
+            targets = propagation["targets"]
             if not targets:
                 logger.info("No downstream targets for %s", source_code)
-                continue
+                targets = []
 
-            # Step 3 & 4: For each downstream target
+            # Step 3-5: For each downstream target
             for target in targets:
+                if not self._passes_research_profile(event.get("event_type", ""), int(target.get("hop", 1))):
+                    continue
                 target_code = target["code"]
 
                 # Step 3: Agent debate (optional)
                 if skip_debate:
-                    debate = self._empty_debate_result()
+                    debate = self._debate.run_rule_based(
+                        event=event,
+                        target=target,
+                        context={
+                            "trigger_score": event.get("trigger_score", 0.0),
+                            "crowding_score": event.get("crowding_score", 0.4),
+                            "shock_weight": target.get("shock_weight", 0.0),
+                            "expected_holding_days": forward_days,
+                        },
+                    )
                 else:
                     debate = self.debate_impact(target, event)
 
                 # Step 4: Check price reaction at event date
-                reaction = self.check_price_reaction_at_date(
+                market_check = self._build_market_check(
+                    event,
                     target_code,
-                    event_date,
+                    event_date=event_date,
+                    historical=True,
                     forward_days=forward_days,
                 )
 
                 # Step 5: Generate signal
-                signal = self._build_shock_signal(
-                    event=event,
-                    target=target,
-                    debate=debate,
-                    reaction=reaction,
+                signal = self._score_action(
+                    event,
+                    target,
+                    debate,
+                    market_check,
+                    allow_rejected=allow_rejected,
+                    enable_reacted_continuation=enable_reacted_continuation,
                 )
 
                 if signal is not None:
                     # Add historical backtest fields
+                    reaction = market_check["reaction"]
                     signal["event_date"] = event_date
                     signal["event_id"] = event.get("event_id", "")
                     signal["entry_price"] = reaction.get("entry_price", 0.0)
@@ -827,46 +1149,71 @@ class ShockPipeline:
                     all_signals.append(signal)
 
             # Also check the source stock itself (event origin)
-            src_reaction = self.check_price_reaction_at_date(
-                source_code, event_date, forward_days=forward_days,
+            src_market_check = self._build_market_check(
+                event,
+                source_code,
+                event_date=event_date,
+                historical=True,
+                forward_days=forward_days,
             )
-            source_signal = {
-                "source_event": event.get("title", ""),
-                "source_code": source_code,
-                "source_name": event.get("stock_name", ""),
-                "event_type": event.get("type", ""),
-                "target_code": source_code,
-                "target_name": event.get("stock_name", ""),
-                "shock_weight": 1.0,
-                "hop": 0,
-                "propagation_path": source_code,
-                "relation_chain": "SOURCE",
-                "consensus_direction": "bearish" if event.get("type") in (
-                    "scandal", "policy_risk", "supply_shortage",
-                ) else "bullish",
-                "consensus_sentiment": 0.0,
-                "divergence": 0.0,
-                "conviction": 1.0,
-                "debate_summary": "事件源头",
-                "reacted": src_reaction.get("reacted", False),
-                "return_5d": src_reaction.get("return_pct", 0.0),
-                "volume_change_5d": src_reaction.get("volume_change_pct", 0.0),
-                "signal_direction": "avoid" if event.get("type") in (
-                    "scandal", "policy_risk", "supply_shortage",
-                ) else "long",
-                "confidence": 0.5,
-                "alpha_type": "事件源头",
-                "position_hint": "N/A(源头)",
-                "graph_context_used": False,
-                "event_date": event_date,
-                "event_id": event.get("event_id", ""),
-                "entry_price": src_reaction.get("entry_price", 0.0),
-            }
-            for h in [1, 3, 5, 10, 20]:
-                source_signal[f"fwd_return_{h}d"] = src_reaction.get(
-                    f"return_{h}d"
-                )
-            all_signals.append(source_signal)
+            src_reaction = src_market_check["reaction"]
+            if include_source_signals and self._passes_research_profile(event.get("event_type", ""), 0):
+                source_signal = {
+                    "source_event": event.get("title", ""),
+                    "source_code": source_code,
+                    "source_name": event.get("stock_name", ""),
+                    "event_type": event.get("type", ""),
+                    "target_code": source_code,
+                    "target_name": event.get("stock_name", ""),
+                    "shock_weight": 1.0,
+                    "hop": 0,
+                    "propagation_path": source_code,
+                    "relation_chain": "SOURCE",
+                    "consensus_direction": "bearish" if event.get("type") in (
+                        "scandal", "policy_risk", "supply_shortage",
+                    ) else "bullish",
+                    "consensus_sentiment": 0.0,
+                    "divergence": 0.0,
+                    "conviction": 1.0,
+                    "debate_summary": "事件源头",
+                    "reacted": src_reaction.get("reacted", False),
+                    "return_5d": src_reaction.get("return_pct", 0.0),
+                    "volume_change_5d": src_reaction.get("volume_change_pct", 0.0),
+                    "signal_direction": "avoid" if event.get("type") in (
+                        "scandal", "policy_risk", "supply_shortage",
+                    ) else "long",
+                    "confidence": 0.5,
+                    "score": round(max(0.0, min(1.0, event.get("trigger_score", 0.5) * 0.8)), 4),
+                    "expected_return": 0.0,
+                    "alpha_type": "事件源头",
+                    "alpha_family": "source",
+                    "reacted_continuation": False,
+                    "position_hint": "N/A(源头)",
+                    "graph_context_used": False,
+                    "narrative_tags": list(event.get("narrative_tags", [])),
+                    "narrative_phase": event.get("narrative_phase", ""),
+                    "reasoning": f"[源头事件] {event.get('title', '')[:40]} | 相位={event.get('narrative_phase', '')}",
+                    "trigger_score": event.get("trigger_score", 0.0),
+                    "propagation_score": 1.0,
+                    "graph_score": 1.0,
+                    "graph_rank_score": 1.0,
+                    "path_quality": 1.0,
+                    "relation_score": 1.0,
+                    "specificity_score": 1.0,
+                    "market_check_score": src_market_check.get("market_check_score", 0.0),
+                    "pipeline_stage": "action",
+                    "action": "open_long" if event.get("type") not in (
+                        "scandal", "policy_risk", "supply_shortage",
+                    ) else "avoid",
+                    "event_date": event_date,
+                    "event_id": event.get("event_id", ""),
+                    "entry_price": src_reaction.get("entry_price", 0.0),
+                }
+                for h in [1, 3, 5, 10, 20]:
+                    source_signal[f"fwd_return_{h}d"] = src_reaction.get(
+                        f"return_{h}d"
+                    )
+                all_signals.append(source_signal)
 
         elapsed = time.time() - t0
         logger.info(
@@ -881,23 +1228,42 @@ class ShockPipeline:
         target: Dict,
         debate: Dict,
         reaction: Dict,
+        trigger_score: float = 0.0,
+        market_check_score: float = 0.0,
+        allow_rejected: bool = False,
+        enable_reacted_continuation: bool = True,
     ) -> Optional[Dict[str, Any]]:
         """Build a final shock signal from pipeline components."""
         reacted = reaction.get("reacted", False)
         divergence = debate.get("divergence", 0.0)
         consensus = debate.get("consensus_direction", "neutral")
-        consensus_sentiment = debate.get("consensus_sentiment", 0.0)
+        scenario_probs = debate.get("scenario_probs", {})
+        consensus_sentiment = (
+            scenario_probs.get("bullish", 0.0) - scenario_probs.get("bearish", 0.0)
+            if isinstance(scenario_probs, dict) else 0.0
+        )
 
         # Core logic: Alpha = unreacted downstream
-        if reacted:
+        event_type = event.get("type", "")
+        hop = int(target.get("hop", 0))
+        reacted_continuation = self._allows_reacted_continuation(
+            event_type=event_type,
+            hop=hop,
+            market_check_score=market_check_score,
+            enable_reacted_continuation=enable_reacted_continuation,
+        )
+        if reacted_continuation:
+            alpha_type = "已反应(趋势延续)"
+            alpha_family = "continuation"
+        elif reacted:
             alpha_type = "已反应"
+            alpha_family = "rejected_reacted"
         else:
             alpha_type = "未反应(信息差)"
+            alpha_family = "info_gap"
 
         # ── Direction: 纯规则映射（基于Iteration 10回测验证）──
         # 不使用Agent辩论结果作为direction输入
-        event_type = event.get("type", "")
-
         # A股方向映射表（回测验证）
         _AVOID_EVENTS = {"scandal", "policy_risk", "management_change",
                          "product_launch", "technology_breakthrough",
@@ -912,35 +1278,28 @@ class ShockPipeline:
         else:
             direction = "avoid"  # 默认保守
 
-        # ── Confidence: 基于可验证的硬指标 ──
-        # 不使用 conviction（来自Agent辩论）
-        hop = target.get("hop", 1)
-
-        confidence = 0.3  # 基础分
-
-        # 事件类型加成（基于回测胜率）
-        _EVENT_TYPE_CONFIDENCE = {
-            "scandal": 0.25,         # 回测胜率88.9%
-            "policy_risk": 0.10,     # 57.1%
-            "cooperation": 0.10,
-            "earnings_surprise": 0.15,
-            "supply_shortage": 0.10,
-            "product_launch": 0.15,  # 利好出尽
-            "technology_breakthrough": 0.10,
+        # ── Confidence & action由统一 SignalFactory 计算 ──
+        narratives = list(event.get("narrative_tags", []))
+        market_check = {
+            "reaction": reaction,
+            "market_check_score": market_check_score,
+            "crowding_score": float(event.get("crowding_score", 0.4)),
+            "gap_risk": min(1.0, abs(float(reaction.get("return_pct", 0.0))) * 10.0),
+            "tradable": market_check_score >= 0.35 and (not reacted or reacted_continuation),
+            "reaction_label": "已反应" if reacted else "未反应",
         }
-        confidence += _EVENT_TYPE_CONFIDENCE.get(event_type, 0.05)
-
-        # 跳数加成（回测显示下游信号优于源头）
-        if hop >= 1:
-            confidence += 0.10
-        if hop >= 2:
-            confidence += 0.05
-
-        # 未反应加成
-        if not reacted:
-            confidence += 0.15
-
-        confidence = max(0.1, min(0.9, confidence))
+        unified = self._signal_factory.build(
+            event=event,
+            target=target,
+            debate=debate,
+            market_check=market_check,
+            narratives=narratives,
+            allow_rejected=allow_rejected,
+        )
+        if unified is None:
+            return None
+        action = unified["action"]
+        confidence = unified["confidence"]
 
         # Divergence-based position sizing hint
         if divergence > _HIGH_DIVERGENCE:
@@ -967,12 +1326,20 @@ class ShockPipeline:
             "hop": target["hop"],
             "propagation_path": path_str,
             "relation_chain": rel_str,
+            "graph_score": round(float(target.get("graph_score", target["shock_weight"])), 4),
+            "graph_rank_score": round(float(target.get("graph_rank_score", target.get("graph_score", target["shock_weight"]))), 4),
+            "path_quality": round(float(target.get("path_quality", target["shock_weight"])), 4),
+            "relation_score": round(float(target.get("relation_score", 0.0)), 4),
+            "specificity_score": round(float(target.get("specificity_score", 0.0)), 4),
             # Debate (保留用于展示，不影响direction)
             "consensus_direction": consensus,
             "consensus_sentiment": consensus_sentiment,
             "divergence": divergence,
             "conviction": debate.get("conviction", 0.0),
             "debate_summary": debate.get("debate_summary", ""),
+            "evidence_density": debate.get("evidence_density", 0.0),
+            "scenario_probs": debate.get("scenario_probs", {}),
+            "invalidators": debate.get("invalidators", []),
             # Price reaction
             "reacted": reacted,
             "return_5d": reaction.get("return_pct", 0.0),
@@ -982,9 +1349,26 @@ class ShockPipeline:
             "hit_limit_down": reaction.get("hit_limit_down", False),
             # Signal
             "signal_direction": direction,
+            "action": action,
+            "emittable": bool(unified.get("emittable", True)),
             "confidence": round(confidence, 4),
+            "score": unified["score"],
+            "expected_return": unified["expected_return"],
+            "expected_holding_days": unified["expected_holding_days"],
             "alpha_type": alpha_type,
+            "alpha_family": alpha_family,
+            "reacted_continuation": reacted_continuation,
             "position_hint": position_hint,
+            "trigger_score": round(trigger_score, 4),
+            "trigger_strength": unified["trigger_strength"],
+            "propagation_score": unified["propagation_score"],
+            "debate_score": unified["debate_score"],
+            "market_check_score": round(market_check_score, 4),
+            "risk_penalty": unified["risk_penalty"],
+            "reasoning": unified["reasoning"],
+            "narrative_tags": list(event.get("narrative_tags", [])),
+            "narrative_phase": event.get("narrative_phase", ""),
+            "pipeline_stage": "action",
             # Graph context
             "graph_context_used": debate.get("graph_context_used", False),
         }
@@ -1005,10 +1389,8 @@ class ShockPipeline:
                 continue
 
             confidence = s.get("confidence", 0.0)
-            consensus_sentiment = s.get("consensus_sentiment", 0.0)
-            expected_return = consensus_sentiment * 0.05  # rough estimate
-
-            reasoning = (
+            expected_return = s.get("expected_return", s.get("consensus_sentiment", 0.0) * 0.05)
+            reasoning = s.get("reasoning") or (
                 f"[冲击传播] {s.get('source_name', '')}({s.get('source_code', '')})"
                 f" → {s.get('propagation_path', '')}"
                 f" | 冲击权重:{s.get('shock_weight', 0):.2f}"

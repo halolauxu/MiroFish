@@ -168,13 +168,13 @@ class DynamicGraphUpdater:
                     updated, skipped, errors)
         return {"updated": updated, "skipped": skipped, "errors": errors, "states": states}
 
-    def get_company_state(self, stock_code: str) -> dict:
+    def get_company_state(self, stock_code: str, as_of: str | None = None) -> dict:
         """Retrieve the latest state record for a stock from the dynamic graph.
 
         Returns an empty dict if no state exists.
         """
         # Search by stock code in the dynamic graph
-        results = self._store.search(_DYNAMIC_GRAPH_ID, stock_code, limit=20)
+        results = self._store.search(_DYNAMIC_GRAPH_ID, stock_code, limit=20, as_of=as_of)
 
         # Filter to STATE_UPDATE episodes for this code
         state_episodes = [
@@ -186,15 +186,16 @@ class DynamicGraphUpdater:
             return {}
 
         # Most recent episode (by created_at or just last in list)
+        state_episodes.sort(key=lambda item: item.get("created_at", ""))
         latest = state_episodes[-1]
         try:
             return json.loads(latest["fact"])
         except (json.JSONDecodeError, KeyError):
             return {"summary": latest.get("fact", ""), "stock_code": stock_code}
 
-    def get_states_batch(self, stock_codes: list[str]) -> dict[str, dict]:
+    def get_states_batch(self, stock_codes: list[str], as_of: str | None = None) -> dict[str, dict]:
         """Retrieve the latest state for multiple stocks at once."""
-        return {code: self.get_company_state(code) for code in stock_codes}
+        return {code: self.get_company_state(code, as_of=as_of) for code in stock_codes}
 
     # ── internal ────────────────────────────────────────────────────────
 
@@ -277,6 +278,8 @@ class DynamicGraphUpdater:
             relation="STATE_UPDATE",
             fact=fact_json,
             weight=abs(state.get("momentum", 0.0)),
+            valid_from=f"{date[:4]}-{date[4:6]}-{date[6:]}",
+            created_at=state["updated_at"],
         )
 
         # Also add/update the company node with latest state summary
@@ -290,6 +293,8 @@ class DynamicGraphUpdater:
             latest_momentum=state.get("momentum", 0.0),
             latest_risk=state.get("risk_level", "low"),
             latest_date=date,
+            created_at=state["updated_at"],
+            valid_from=f"{date[:4]}-{date[4:6]}-{date[6:]}",
         )
 
         return state

@@ -15,6 +15,8 @@ from collections import defaultdict
 from pathlib import Path
 from typing import Any, Dict, List, Optional
 
+from .temporal_edges import filter_records_as_of
+
 logger = logging.getLogger("astrategy.graph.local_store")
 
 
@@ -50,18 +52,23 @@ class LocalGraphStore:
     # ── data ingestion ─────────────────────────────────────────
 
     def add_node(self, graph_id: str, name: str, labels: list[str] | None = None,
-                 summary: str = "", **attrs) -> None:
+                 summary: str = "", created_at: str = "", valid_from: str = "",
+                 valid_to: str = "", **attrs) -> None:
         g = self._ensure(graph_id)
         g.nodes[name] = {
             "name": name,
             "labels": labels or [],
             "summary": summary,
             "attributes": attrs,
+            "created_at": created_at,
+            "valid_from": valid_from,
+            "valid_to": valid_to,
         }
 
     def add_edge(self, graph_id: str, source: str, target: str,
                  relation: str = "RELATED_TO", fact: str = "",
-                 weight: float = 1.0) -> None:
+                 weight: float = 1.0, valid_from: str = "",
+                 valid_to: str = "", created_at: str = "", **attrs) -> None:
         g = self._ensure(graph_id)
         edge = {
             "source_name": source,
@@ -69,7 +76,11 @@ class LocalGraphStore:
             "relation": relation,
             "fact": fact,
             "weight": weight,
+            "valid_from": valid_from,
+            "valid_to": valid_to,
+            "created_at": created_at,
         }
+        edge.update(attrs)
         g.edges.append(edge)
         # Also index for search
         g.facts.append({
@@ -78,6 +89,9 @@ class LocalGraphStore:
             "relation": relation,
             "fact": fact,
             "weight": weight,
+            "valid_from": valid_from,
+            "valid_to": valid_to,
+            "created_at": created_at,
         })
 
     def add_companies(self, graph_id: str, companies: list[dict]) -> None:
@@ -124,19 +138,19 @@ class LocalGraphStore:
 
     # ── retrieval (GraphBuilder-compatible) ─────────────────────
 
-    def get_all_nodes(self, graph_id: str, **kwargs) -> list[dict]:
+    def get_all_nodes(self, graph_id: str, as_of: str | None = None, **kwargs) -> list[dict]:
         g = self._graphs.get(graph_id)
         if not g:
             return []
-        return list(g.nodes.values())
+        return filter_records_as_of(list(g.nodes.values()), as_of)
 
-    def get_all_edges(self, graph_id: str, **kwargs) -> list[dict]:
+    def get_all_edges(self, graph_id: str, as_of: str | None = None, **kwargs) -> list[dict]:
         g = self._graphs.get(graph_id)
         if not g:
             return []
-        return list(g.edges)
+        return filter_records_as_of(list(g.edges), as_of)
 
-    def search(self, graph_id: str, query: str, limit: int = 10) -> list[dict]:
+    def search(self, graph_id: str, query: str, limit: int = 10, as_of: str | None = None) -> list[dict]:
         """Simple keyword-based search over facts and node summaries."""
         g = self._graphs.get(graph_id)
         if not g:
@@ -146,7 +160,7 @@ class LocalGraphStore:
         scored: list[tuple[float, dict]] = []
 
         # Search facts
-        for fact in g.facts:
+        for fact in filter_records_as_of(g.facts, as_of):
             text = f"{fact['source']} {fact['target']} {fact['relation']} {fact['fact']}"
             score = sum(1.0 for kw in keywords if kw in text)
             if score > 0:
@@ -156,7 +170,7 @@ class LocalGraphStore:
                     "target": fact["target"],
                     "relation": fact["relation"],
                     "score": score / len(keywords) if keywords else 0,
-                    "created_at": "",
+                    "created_at": fact.get("created_at", ""),
                 }))
 
         # Search episode texts
@@ -174,7 +188,7 @@ class LocalGraphStore:
                 }))
 
         # Search node summaries
-        for node in g.nodes.values():
+        for node in filter_records_as_of(list(g.nodes.values()), as_of):
             text = f"{node['name']} {node.get('summary', '')}"
             score = sum(1.0 for kw in keywords if kw in text)
             if score > 0:
@@ -184,7 +198,7 @@ class LocalGraphStore:
                     "target": "",
                     "relation": "NODE",
                     "score": score * 0.5 / len(keywords) if keywords else 0,
-                    "created_at": "",
+                    "created_at": node.get("created_at", ""),
                 }))
 
         scored.sort(key=lambda x: x[0], reverse=True)
@@ -211,6 +225,13 @@ class LocalGraphStore:
         logger.info("Saved graph '%s' to %s (%d nodes, %d edges)",
                      graph_id, path, len(g.nodes), len(g.edges))
         return path
+
+    def get_snapshot(self, graph_id: str, as_of: str | None = None) -> dict[str, list[dict]]:
+        """Return node/edge snapshot at the given date."""
+        return {
+            "nodes": self.get_all_nodes(graph_id, as_of=as_of),
+            "edges": self.get_all_edges(graph_id, as_of=as_of),
+        }
 
     def load(self, graph_id: str) -> bool:
         """Load graph from JSON file. Returns True if found."""
@@ -239,7 +260,10 @@ class LocalGraphStore:
                 seen_facts.add(key)
                 g.facts.append({"source": src, "target": tgt,
                                  "relation": norm["relation"],
-                                 "fact": norm["fact"], "weight": norm["weight"]})
+                                 "fact": norm["fact"], "weight": norm["weight"],
+                                 "valid_from": norm.get("valid_from", ""),
+                                 "valid_to": norm.get("valid_to", ""),
+                                 "created_at": norm.get("created_at", "")})
 
         # Merge in any extra facts saved separately
         for f in data.get("facts", []):
@@ -251,6 +275,9 @@ class LocalGraphStore:
                     "target": f.get("target") or f.get("target_name") or "",
                     "relation": f.get("relation", "RELATED_TO"),
                     "fact": key, "weight": f.get("weight", 1.0),
+                    "valid_from": f.get("valid_from", ""),
+                    "valid_to": f.get("valid_to", ""),
+                    "created_at": f.get("created_at", ""),
                 })
 
         self._graphs[graph_id] = g

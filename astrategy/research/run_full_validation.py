@@ -54,6 +54,11 @@ def run_full_validation(
     dict
         包含所有验证结果和审计报告路径。
     """
+    from astrategy.portfolio import (
+        allocate_portfolio,
+        build_execution_plan,
+        simulate_portfolio,
+    )
     from astrategy.research.backtest_engine import ShockBacktestEngine
     from astrategy.research.walk_forward import WalkForwardValidator
     from astrategy.research.ablation import AblationExperiment
@@ -86,6 +91,11 @@ def run_full_validation(
     logger.info("=" * 60)
 
     overall_metrics = engine.evaluate(results_df)
+    overall_metrics["coverage"] = (
+        round(results_df["event_id"].nunique() / len(events), 4)
+        if (not results_df.empty and len(events) > 0)
+        else 0.0
+    )
     logger.info(
         "总体: Sharpe=%.2f, 胜率=%.1f%%, 信号=%d",
         overall_metrics.get("sharpe", 0),
@@ -117,6 +127,39 @@ def run_full_validation(
     ab_elapsed = time.time() - t_ab
     logger.info("消融实验耗时: %.1fs", ab_elapsed)
 
+    if not results_df.empty:
+        portfolio_signals = results_df.to_dict("records")
+        portfolio = allocate_portfolio(portfolio_signals)
+        portfolio_plan = build_execution_plan(portfolio)
+        portfolio_sim = simulate_portfolio(
+            portfolio_signals,
+            holding_days=holding_days,
+        )
+    else:
+        portfolio = {
+            "positions": [],
+            "defensive_positions": [],
+            "gross_long_weight": 0.0,
+            "defensive_weight": 0.0,
+            "total_weight": 0.0,
+            "num_positions": 0,
+            "num_defensive": 0,
+            "rotation_hints": [],
+            "family_weights": [],
+            "theme_weights": [],
+            "event_type_weights": [],
+            "constraint_stats": {},
+        }
+        portfolio_plan = "### 组合执行建议\n\n- 无有效信号，暂不建仓。"
+        portfolio_sim = {
+            "metrics": {},
+            "daily_books": [],
+            "avg_long_weight": 0.0,
+            "avg_defensive_weight": 0.0,
+            "avg_positions": 0.0,
+            "avg_dynamic_scale": 0.0,
+        }
+
     total_elapsed = time.time() - t0
 
     # ── 6. 生成审计报告 ──
@@ -132,6 +175,9 @@ def run_full_validation(
         ablation_result=ablation_result,
         wf_validator=wf_validator,
         ablation_exp=ablation,
+        portfolio=portfolio,
+        portfolio_plan=portfolio_plan,
+        portfolio_sim=portfolio_sim,
         total_elapsed=total_elapsed,
         bt_elapsed=bt_elapsed,
         wf_elapsed=wf_elapsed,
@@ -167,6 +213,10 @@ def run_full_validation(
             if k != "splits" or True  # 保留全部
         },
         "ablation": ablation_result,
+        "portfolio": {
+            "snapshot": portfolio,
+            "simulation": portfolio_sim,
+        },
     }
     metrics_file.write_text(
         json.dumps(metrics_data, ensure_ascii=False, indent=2, default=str),
@@ -177,7 +227,13 @@ def run_full_validation(
     logger.info("指标数据: %s", metrics_file)
 
     # 控制台摘要
-    _print_summary(overall_metrics, wf_result, ablation_result, total_elapsed)
+    _print_summary(
+        overall_metrics,
+        wf_result,
+        ablation_result,
+        portfolio_sim,
+        total_elapsed,
+    )
 
     return {
         "report_path": str(report_file),
@@ -185,6 +241,8 @@ def run_full_validation(
         "overall_metrics": overall_metrics,
         "wf_result": wf_result,
         "ablation_result": ablation_result,
+        "portfolio": portfolio,
+        "portfolio_sim": portfolio_sim,
         "total_elapsed": total_elapsed,
     }
 
@@ -197,6 +255,9 @@ def _generate_audit_report(
     ablation_result,
     wf_validator,
     ablation_exp,
+    portfolio,
+    portfolio_plan,
+    portfolio_sim,
     total_elapsed,
     bt_elapsed,
     wf_elapsed,
@@ -290,6 +351,34 @@ def _generate_audit_report(
             )
         lines.append("")
 
+    lines.extend([
+        "### 研究诊断",
+        "",
+        f"- Coverage: {overall_metrics.get('coverage', 0):.1%}",
+        f"- Breadth: {overall_metrics.get('breadth', 0):.4f}",
+        f"- Confidence Spread: {overall_metrics.get('confidence_spread', 0):+.4f}",
+        f"- Calibration: {overall_metrics.get('confidence_calibration', [])}",
+        "",
+    ])
+
+    lines.append(portfolio_plan)
+    lines.append("")
+
+    portfolio_metrics = portfolio_sim.get("metrics", {})
+    if portfolio_metrics:
+        lines.append(format_metrics_table(portfolio_metrics, title="组合层回放"))
+        lines.append("")
+        lines.extend([
+            "### 组合层诊断",
+            "",
+            f"- 日度建仓批次: {len(portfolio_sim.get('daily_books', []))}",
+            f"- 平均长仓权重: {portfolio_sim.get('avg_long_weight', 0):.1%}",
+            f"- 平均防守权重: {portfolio_sim.get('avg_defensive_weight', 0):.1%}",
+            f"- 平均长仓持仓数: {portfolio_sim.get('avg_positions', 0):.2f}",
+            f"- 平均动态仓位系数: {portfolio_sim.get('avg_dynamic_scale', 0):.2f}",
+            "",
+        ])
+
     # ── Walk-Forward ──
     lines.append("")
     lines.append(wf_validator.format_report(wf_result))
@@ -342,6 +431,7 @@ def _print_summary(
     overall_metrics: Dict,
     wf_result: Dict,
     ablation_result: Dict,
+    portfolio_sim: Dict,
     total_elapsed: float,
 ) -> None:
     """在控制台打印精简摘要。"""
@@ -356,6 +446,9 @@ def _print_summary(
           f"信号={om.get('total_signals', 0)} "
           f"MaxDD={om.get('max_drawdown', 0):.2%} "
           f"盈亏比={om.get('profit_factor', 0):.2f}")
+    print(f"  研究诊断: Coverage={om.get('coverage', 0):.1%} "
+          f"Breadth={om.get('breadth', 0):.4f} "
+          f"ConfSpread={om.get('confidence_spread', 0):+.4f}")
 
     oos = wf_result.get("oos_aggregate", {})
     if oos:
@@ -373,6 +466,17 @@ def _print_summary(
 
     ra = ablation_result.get("reaction_ablation", {})
     print(f"  反应过滤: 未反应优势={ra.get('unreacted_advantage_sharpe', 0):+.2f}")
+
+    pm = portfolio_sim.get("metrics", {})
+    if pm:
+        print(f"  组合回放: Sharpe={pm.get('sharpe', 0):.2f} "
+              f"胜率={pm.get('win_rate', 0):.1%} "
+              f"批次={pm.get('total_signals', 0)} "
+              f"MaxDD={pm.get('max_drawdown', 0):.2%}")
+        print(f"  组合权重: 长仓={portfolio_sim.get('avg_long_weight', 0):.1%} "
+              f"防守={portfolio_sim.get('avg_defensive_weight', 0):.1%} "
+              f"平均持仓={portfolio_sim.get('avg_positions', 0):.2f} "
+              f"动态系数={portfolio_sim.get('avg_dynamic_scale', 0):.2f}")
 
     print(f"  总耗时: {total_elapsed:.1f}s")
     print("=" * 70)

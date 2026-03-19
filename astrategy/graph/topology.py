@@ -10,6 +10,7 @@ node/edge dicts returned by GraphBuilder.
 from __future__ import annotations
 
 import logging
+import heapq
 from collections import defaultdict, deque
 from typing import Any, Dict, List, Optional, Set, Tuple
 
@@ -27,6 +28,31 @@ class TopologyAnalyzer:
     Edge dict must have at least: {"source_name": str, "target_name": str}
                                   or {"source": str, "target": str}
     """
+
+    _RELATION_PROPAGATION_MULTIPLIERS = {
+        "SUPPLIES_TO": 1.00,
+        "CUSTOMER_OF": 0.95,
+        "COOPERATES_WITH": 0.88,
+        "COMPETES_WITH": 0.62,
+        "HOLDS_SHARES": 0.25,
+    }
+
+    @staticmethod
+    def _edge_transmission_score(edge: Dict[str, Any], relation: str) -> Tuple[float, float]:
+        """Return (transmission_score, relation_score) for a graph edge."""
+        raw_weight = float(edge.get("weight", 1.0))
+        confidence = float(
+            edge.get("confidence")
+            or edge.get("edge_confidence")
+            or edge.get("relation_confidence")
+            or 1.0
+        )
+        relation_score = TopologyAnalyzer._RELATION_PROPAGATION_MULTIPLIERS.get(
+            relation, 0.7
+        )
+        quality = max(0.05, min(raw_weight, 1.5)) * max(0.2, min(confidence, 1.2))
+        transmission = relation_score * quality
+        return transmission, relation_score
 
     @staticmethod
     def _build_adjacency(
@@ -398,47 +424,74 @@ class TopologyAnalyzer:
                 "COMPETES_WITH", "HOLDS_SHARES",
             }
 
-        # Build directed adjacency: source → [(target, relation, weight)]
+        # Build directed adjacency: source → [(target, relation, transmission, relation_score)]
         # Bidirectional relations are added in both directions.
         _BIDIR_RELS = {"COOPERATES_WITH", "COMPETES_WITH", "HOLDS_SHARES"}
-        directed: Dict[str, List[Tuple[str, str, float]]] = defaultdict(list)
+        directed: Dict[str, List[Tuple[str, str, float, float]]] = defaultdict(list)
         for e in edges:
             rel = e.get("relation", "")
             if rel not in relation_types:
                 continue
             src = e.get("source_name") or e.get("source", "")
             tgt = e.get("target_name") or e.get("target", "")
-            w = float(e.get("weight", 1.0))
+            transmission, relation_score = TopologyAnalyzer._edge_transmission_score(e, rel)
             if src and tgt:
-                directed[src].append((tgt, rel, w))
+                directed[src].append((tgt, rel, transmission, relation_score))
                 if rel in _BIDIR_RELS:
-                    directed[tgt].append((src, rel, w))
+                    directed[tgt].append((src, rel, transmission, relation_score))
 
-        # BFS with decay
+        # Best-path propagation. We keep the strongest graph score per node
+        # instead of the first BFS arrival, which was too noisy on dense hubs.
         result: Dict[str, Dict[str, Any]] = {}
-        # queue entries: (node, current_shock_weight, hop, path, relation_chain)
-        queue: deque = deque()
-        queue.append((source, 1.0, 0, [source], []))
-        visited: Set[str] = {source}
+        best_scores: Dict[str, float] = {source: 1.0}
+        heap: List[Tuple[float, str, float, int, List[str], List[str], List[float], List[float]]] = []
+        heapq.heappush(heap, (-1.0, source, 1.0, 0, [source], [], [], []))
 
-        while queue:
-            node, shock_w, hop, path, rel_chain = queue.popleft()
+        while heap:
+            neg_score, node, shock_w, hop, path, rel_chain, edge_scores, relation_scores = heapq.heappop(heap)
+            current_score = -neg_score
+            if current_score + 1e-12 < best_scores.get(node, 0.0):
+                continue
             if hop >= max_hops:
                 continue
-            for neighbor, rel, edge_w in directed.get(node, []):
-                if neighbor in visited:
+            for neighbor, rel, edge_score, relation_score in directed.get(node, []):
+                if neighbor == source:
                     continue
-                visited.add(neighbor)
-                next_shock = shock_w * decay * edge_w
+                next_hop = hop + 1
+                next_shock = shock_w * decay * edge_score
                 next_path = path + [neighbor]
                 next_rels = rel_chain + [rel]
+                next_edge_scores = edge_scores + [edge_score]
+                next_relation_scores = relation_scores + [relation_score]
+                path_quality = sum(next_edge_scores) / len(next_edge_scores)
+                relation_quality = sum(next_relation_scores) / len(next_relation_scores)
+                hop_bonus = 1.0 + 0.05 * max(0, next_hop - 1)
+                graph_score = next_shock * (0.7 + 0.3 * path_quality) * hop_bonus
+                if graph_score + 1e-12 <= best_scores.get(neighbor, 0.0):
+                    continue
+                best_scores[neighbor] = graph_score
                 result[neighbor] = {
                     "shock_weight": round(next_shock, 6),
-                    "hop": hop + 1,
+                    "hop": next_hop,
                     "path": next_path,
                     "relation_chain": next_rels,
+                    "path_quality": round(path_quality, 6),
+                    "relation_score": round(relation_quality, 6),
+                    "graph_score": round(graph_score, 6),
                 }
-                queue.append((neighbor, next_shock, hop + 1, next_path, next_rels))
+                heapq.heappush(
+                    heap,
+                    (
+                        -graph_score,
+                        neighbor,
+                        next_shock,
+                        next_hop,
+                        next_path,
+                        next_rels,
+                        next_edge_scores,
+                        next_relation_scores,
+                    ),
+                )
 
         logger.info(
             "Shock propagation from '%s': %d downstream nodes (max_hops=%d, decay=%.2f)",

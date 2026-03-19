@@ -1,0 +1,7209 @@
+{
+  "summary": {
+    "universe_id": "csi800",
+    "as_of_date": "2026-03-19",
+    "constituent_count": 800
+  },
+  "constituents": [
+    {
+      "ticker": "000001",
+      "company_name": "平安银行",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "000002",
+      "company_name": "万  科Ａ",
+      "industry_l1": "房地产",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "000009",
+      "company_name": "中国宝安",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "000021",
+      "company_name": "深科技",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "000027",
+      "company_name": "深圳能源",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "000032",
+      "company_name": "深桑达Ａ",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "000034",
+      "company_name": "神州数码",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "000039",
+      "company_name": "中集集团",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "000050",
+      "company_name": "深天马Ａ",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "000060",
+      "company_name": "中金岭南",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "000062",
+      "company_name": "深圳华强",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "000063",
+      "company_name": "中兴通讯",
+      "industry_l1": "通信",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "000088",
+      "company_name": "盐 田 港",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "000100",
+      "company_name": "TCL科技",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "000155",
+      "company_name": "川能动力",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "000157",
+      "company_name": "中联重科",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "000166",
+      "company_name": "申万宏源",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "000301",
+      "company_name": "东方盛虹",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "000333",
+      "company_name": "美的集团",
+      "industry_l1": "家用电器",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "000338",
+      "company_name": "潍柴动力",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "000400",
+      "company_name": "许继电气",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "000408",
+      "company_name": "藏格矿业",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "000415",
+      "company_name": "渤海租赁",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "000423",
+      "company_name": "东阿阿胶",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "000425",
+      "company_name": "徐工机械",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "000426",
+      "company_name": "兴业银锡",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "000429",
+      "company_name": "粤高速Ａ",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "000513",
+      "company_name": "丽珠集团",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "000519",
+      "company_name": "中兵红箭",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "000528",
+      "company_name": "柳    工",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "000537",
+      "company_name": "绿发电力",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "000538",
+      "company_name": "云南白药",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "000539",
+      "company_name": "粤电力Ａ",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "000559",
+      "company_name": "万向钱潮",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "000563",
+      "company_name": "陕国投Ａ",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "000568",
+      "company_name": "泸州老窖",
+      "industry_l1": "食品饮料",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "000582",
+      "company_name": "北部湾港",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "000591",
+      "company_name": "太阳能",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "000596",
+      "company_name": "古井贡酒",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "000598",
+      "company_name": "兴蓉环境",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "000617",
+      "company_name": "中油资本",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "000623",
+      "company_name": "吉林敖东",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "000625",
+      "company_name": "长安汽车",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "000629",
+      "company_name": "钒钛股份",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "000630",
+      "company_name": "铜陵有色",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "000651",
+      "company_name": "格力电器",
+      "industry_l1": "家用电器",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "000657",
+      "company_name": "中钨高新",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "000661",
+      "company_name": "长春高新",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "000683",
+      "company_name": "博源化工",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "000703",
+      "company_name": "恒逸石化",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "000708",
+      "company_name": "中信特钢",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "000709",
+      "company_name": "河钢股份",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "000723",
+      "company_name": "美锦能源",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "000725",
+      "company_name": "京东方Ａ",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "000728",
+      "company_name": "国元证券",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "000729",
+      "company_name": "燕京啤酒",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "000733",
+      "company_name": "振华科技",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "000738",
+      "company_name": "航发控制",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "000739",
+      "company_name": "普洛药业",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "000750",
+      "company_name": "国海证券",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "000768",
+      "company_name": "中航西飞",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "000776",
+      "company_name": "广发证券",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "000783",
+      "company_name": "长江证券",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "000785",
+      "company_name": "居然智家",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "000786",
+      "company_name": "北新建材",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "000792",
+      "company_name": "盐湖股份",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "000807",
+      "company_name": "云铝股份",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "000825",
+      "company_name": "太钢不锈",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "000830",
+      "company_name": "鲁西化工",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "000831",
+      "company_name": "中国稀土",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "000858",
+      "company_name": "五 粮 液",
+      "industry_l1": "食品饮料",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "000876",
+      "company_name": "新 希 望",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "000878",
+      "company_name": "云南铜业",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "000883",
+      "company_name": "湖北能源",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "000887",
+      "company_name": "中鼎股份",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "000893",
+      "company_name": "亚钾国际",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "000895",
+      "company_name": "双汇发展",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "000898",
+      "company_name": "鞍钢股份",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "000921",
+      "company_name": "海信家电",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "000932",
+      "company_name": "华菱钢铁",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "000933",
+      "company_name": "神火股份",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "000937",
+      "company_name": "冀中能源",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "000938",
+      "company_name": "紫光股份",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "000951",
+      "company_name": "中国重汽",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "000958",
+      "company_name": "电投产融",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "000959",
+      "company_name": "首钢股份",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "000960",
+      "company_name": "锡业股份",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "000963",
+      "company_name": "华东医药",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "000967",
+      "company_name": "盈峰环境",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "000975",
+      "company_name": "山金国际",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "000977",
+      "company_name": "浪潮信息",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "000983",
+      "company_name": "山西焦煤",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "000987",
+      "company_name": "越秀资本",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "000997",
+      "company_name": "新 大 陆",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "000999",
+      "company_name": "华润三九",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "001213",
+      "company_name": "中铁特货",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "001221",
+      "company_name": "悍高集团",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "001286",
+      "company_name": "陕西能源",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "001389",
+      "company_name": "广合科技",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "001391",
+      "company_name": "国货航",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "001696",
+      "company_name": "宗申动力",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "001965",
+      "company_name": "招商公路",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "001979",
+      "company_name": "招商蛇口",
+      "industry_l1": "房地产",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "002001",
+      "company_name": "新 和 成",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "002007",
+      "company_name": "华兰生物",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "002008",
+      "company_name": "大族激光",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "002025",
+      "company_name": "航天电器",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "002027",
+      "company_name": "分众传媒",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "002028",
+      "company_name": "思源电气",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "002032",
+      "company_name": "苏 泊 尔",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "002044",
+      "company_name": "美年健康",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "002049",
+      "company_name": "紫光国微",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "002050",
+      "company_name": "三花智控",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "002056",
+      "company_name": "横店东磁",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "002064",
+      "company_name": "华峰化学",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "002065",
+      "company_name": "东华软件",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "002074",
+      "company_name": "国轩高科",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "002078",
+      "company_name": "太阳纸业",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "002080",
+      "company_name": "中材科技",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "002085",
+      "company_name": "万丰奥威",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "002120",
+      "company_name": "韵达股份",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "002126",
+      "company_name": "银轮股份",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "002128",
+      "company_name": "电投能源",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "002130",
+      "company_name": "沃尔核材",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "002131",
+      "company_name": "利欧股份",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "002138",
+      "company_name": "顺络电子",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "002142",
+      "company_name": "宁波银行",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "002152",
+      "company_name": "广电运通",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "002153",
+      "company_name": "石基信息",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "002155",
+      "company_name": "湖南黄金",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "002156",
+      "company_name": "通富微电",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "002157",
+      "company_name": "正邦科技",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "002179",
+      "company_name": "中航光电",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "002185",
+      "company_name": "华天科技",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "002195",
+      "company_name": "岩山科技",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "002202",
+      "company_name": "金风科技",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "002203",
+      "company_name": "海亮股份",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "002223",
+      "company_name": "鱼跃医疗",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "002230",
+      "company_name": "科大讯飞",
+      "industry_l1": "计算机",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "002236",
+      "company_name": "大华股份",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "002241",
+      "company_name": "歌尔股份",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "002244",
+      "company_name": "滨江集团",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "002252",
+      "company_name": "上海莱士",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "002261",
+      "company_name": "拓维信息",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "002262",
+      "company_name": "恩华药业",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "002265",
+      "company_name": "建设工业",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "002266",
+      "company_name": "浙富控股",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "002271",
+      "company_name": "东方雨虹",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "002273",
+      "company_name": "水晶光电",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "002281",
+      "company_name": "光迅科技",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "002294",
+      "company_name": "信立泰",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "002299",
+      "company_name": "圣农发展",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "002304",
+      "company_name": "洋河股份",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "002311",
+      "company_name": "海大集团",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "002312",
+      "company_name": "川发龙蟒",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "002318",
+      "company_name": "久立特材",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "002335",
+      "company_name": "科华数据",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "002340",
+      "company_name": "格林美",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "002352",
+      "company_name": "顺丰控股",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "002353",
+      "company_name": "杰瑞股份",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "002371",
+      "company_name": "北方华创",
+      "industry_l1": "电子",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "002372",
+      "company_name": "伟星新材",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "002384",
+      "company_name": "东山精密",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "002385",
+      "company_name": "大北农",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "002402",
+      "company_name": "和而泰",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "002409",
+      "company_name": "雅克科技",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "002410",
+      "company_name": "广联达",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "002414",
+      "company_name": "高德红外",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "002415",
+      "company_name": "海康威视",
+      "industry_l1": "电子",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "002422",
+      "company_name": "科伦药业",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "002423",
+      "company_name": "中粮资本",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "002429",
+      "company_name": "兆驰股份",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "002430",
+      "company_name": "杭氧股份",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "002432",
+      "company_name": "九安医疗",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "002436",
+      "company_name": "兴森科技",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "002439",
+      "company_name": "启明星辰",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "002444",
+      "company_name": "巨星科技",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "002459",
+      "company_name": "晶澳科技",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "002460",
+      "company_name": "赣锋锂业",
+      "industry_l1": "有色金属",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "002461",
+      "company_name": "珠江啤酒",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "002463",
+      "company_name": "沪电股份",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "002465",
+      "company_name": "海格通信",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "002466",
+      "company_name": "天齐锂业",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "002472",
+      "company_name": "双环传动",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "002475",
+      "company_name": "立讯精密",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "002493",
+      "company_name": "荣盛石化",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "002500",
+      "company_name": "山西证券",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "002508",
+      "company_name": "老板电器",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "002517",
+      "company_name": "恺英网络",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "002532",
+      "company_name": "天山铝业",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "002558",
+      "company_name": "巨人网络",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "002568",
+      "company_name": "百润股份",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "002583",
+      "company_name": "海能达",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "002594",
+      "company_name": "比亚迪",
+      "industry_l1": "汽车",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "002595",
+      "company_name": "豪迈科技",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "002600",
+      "company_name": "领益智造",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "002601",
+      "company_name": "龙佰集团",
+      "industry_l1": "基础化工",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "002603",
+      "company_name": "以岭药业",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "002607",
+      "company_name": "中公教育",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "002608",
+      "company_name": "江苏国信",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "002624",
+      "company_name": "完美世界",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "002625",
+      "company_name": "光启技术",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "002648",
+      "company_name": "卫星化学",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "002670",
+      "company_name": "国盛证券",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "002673",
+      "company_name": "西部证券",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "002683",
+      "company_name": "广东宏大",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "002709",
+      "company_name": "天赐材料",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "002714",
+      "company_name": "牧原股份",
+      "industry_l1": "农林牧渔",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "002736",
+      "company_name": "国信证券",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "002738",
+      "company_name": "中矿资源",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "002739",
+      "company_name": "万达电影",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "002756",
+      "company_name": "永兴材料",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "002773",
+      "company_name": "康弘药业",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "002797",
+      "company_name": "第一创业",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "002821",
+      "company_name": "凯莱英",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "002831",
+      "company_name": "裕同科技",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "002837",
+      "company_name": "英维克",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "002841",
+      "company_name": "视源股份",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "002850",
+      "company_name": "科达利",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "002851",
+      "company_name": "麦格米特",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "002916",
+      "company_name": "深南电路",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "002920",
+      "company_name": "德赛西威",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "002926",
+      "company_name": "华西证券",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "002938",
+      "company_name": "鹏鼎控股",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "002939",
+      "company_name": "长城证券",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "002945",
+      "company_name": "华林证券",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "002958",
+      "company_name": "青农商行",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "002966",
+      "company_name": "苏州银行",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "002984",
+      "company_name": "森麒麟",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "003021",
+      "company_name": "兆威机电",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "003022",
+      "company_name": "联泓新科",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "003031",
+      "company_name": "中瓷电子",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "003035",
+      "company_name": "南网能源",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "003816",
+      "company_name": "中国广核",
+      "industry_l1": "公用事业",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "300001",
+      "company_name": "特锐德",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "300002",
+      "company_name": "神州泰岳",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "300003",
+      "company_name": "乐普医疗",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "300012",
+      "company_name": "华测检测",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "300014",
+      "company_name": "亿纬锂能",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "300015",
+      "company_name": "爱尔眼科",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "300017",
+      "company_name": "网宿科技",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "300024",
+      "company_name": "机器人",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "300033",
+      "company_name": "同花顺",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "300037",
+      "company_name": "新宙邦",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "300054",
+      "company_name": "鼎龙股份",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "300058",
+      "company_name": "蓝色光标",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "300059",
+      "company_name": "东方财富",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "300070",
+      "company_name": "碧水源",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "300073",
+      "company_name": "当升科技",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "300100",
+      "company_name": "双林股份",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "300115",
+      "company_name": "长盈精密",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "300122",
+      "company_name": "智飞生物",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "300124",
+      "company_name": "汇川技术",
+      "industry_l1": "机械设备",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "300136",
+      "company_name": "信维通信",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "300140",
+      "company_name": "节能环境",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "300142",
+      "company_name": "沃森生物",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "300144",
+      "company_name": "宋城演艺",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "300146",
+      "company_name": "汤臣倍健",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "300207",
+      "company_name": "欣旺达",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "300223",
+      "company_name": "北京君正",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "300251",
+      "company_name": "光线传媒",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "300274",
+      "company_name": "阳光电源",
+      "industry_l1": "电力设备",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "300285",
+      "company_name": "国瓷材料",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "300308",
+      "company_name": "中际旭创",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "300316",
+      "company_name": "晶盛机电",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "300339",
+      "company_name": "润和软件",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "300346",
+      "company_name": "南大光电",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "300347",
+      "company_name": "泰格医药",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "300373",
+      "company_name": "扬杰科技",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "300383",
+      "company_name": "光环新网",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "300390",
+      "company_name": "天华新能",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "300394",
+      "company_name": "天孚通信",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "300395",
+      "company_name": "菲利华",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "300408",
+      "company_name": "三环集团",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "300413",
+      "company_name": "芒果超媒",
+      "industry_l1": "传媒",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "300418",
+      "company_name": "昆仑万维",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "300432",
+      "company_name": "富临精工",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "300433",
+      "company_name": "蓝思科技",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "300442",
+      "company_name": "润泽科技",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "300450",
+      "company_name": "先导智能",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "300454",
+      "company_name": "深信服",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "300458",
+      "company_name": "全志科技",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "300474",
+      "company_name": "景嘉微",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "300476",
+      "company_name": "胜宏科技",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "300487",
+      "company_name": "蓝晓科技",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "300496",
+      "company_name": "中科创达",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "300498",
+      "company_name": "温氏股份",
+      "industry_l1": "农林牧渔",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "300502",
+      "company_name": "新易盛",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "300529",
+      "company_name": "健帆生物",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "300558",
+      "company_name": "贝达药业",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "300567",
+      "company_name": "精测电子",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "300570",
+      "company_name": "太辰光",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "300601",
+      "company_name": "康泰生物",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "300604",
+      "company_name": "长川科技",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "300623",
+      "company_name": "捷捷微电",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "300627",
+      "company_name": "华测导航",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "300628",
+      "company_name": "亿联网络",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "300661",
+      "company_name": "圣邦股份",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "300676",
+      "company_name": "华大基因",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "300677",
+      "company_name": "英科医疗",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "300679",
+      "company_name": "电连技术",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "300699",
+      "company_name": "光威复材",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "300718",
+      "company_name": "长盛轴承",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "300724",
+      "company_name": "捷佳伟创",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "300735",
+      "company_name": "光弘科技",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "300748",
+      "company_name": "金力永磁",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "300750",
+      "company_name": "宁德时代",
+      "industry_l1": "电力设备",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "300751",
+      "company_name": "迈为股份",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "300757",
+      "company_name": "罗博特科",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "300759",
+      "company_name": "康龙化成",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "300760",
+      "company_name": "迈瑞医疗",
+      "industry_l1": "医药生物",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "300763",
+      "company_name": "锦浪科技",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "300782",
+      "company_name": "卓胜微",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "300803",
+      "company_name": "指南针",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "300832",
+      "company_name": "新产业",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "300857",
+      "company_name": "协创数据",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "300866",
+      "company_name": "安克创新",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "300888",
+      "company_name": "稳健医疗",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "300896",
+      "company_name": "爱美客",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "300919",
+      "company_name": "中伟新材",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "300957",
+      "company_name": "贝泰妮",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "300972",
+      "company_name": "万辰集团",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "300979",
+      "company_name": "华利集团",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "300999",
+      "company_name": "金龙鱼",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "301200",
+      "company_name": "大族数控",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "301236",
+      "company_name": "软通动力",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "301269",
+      "company_name": "华大九天",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "301301",
+      "company_name": "川宁生物",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "301308",
+      "company_name": "江波龙",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "301358",
+      "company_name": "湖南裕能",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "301498",
+      "company_name": "乖宝宠物",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "301536",
+      "company_name": "星宸科技",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "301611",
+      "company_name": "珂玛科技",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "302132",
+      "company_name": "中航成飞",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "600000",
+      "company_name": "浦发银行",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "600004",
+      "company_name": "白云机场",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "600007",
+      "company_name": "中国国贸",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "600008",
+      "company_name": "首创环保",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "600009",
+      "company_name": "上海机场",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "600010",
+      "company_name": "包钢股份",
+      "industry_l1": "钢铁",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "600011",
+      "company_name": "华能国际",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "600015",
+      "company_name": "华夏银行",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "600016",
+      "company_name": "民生银行",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "600018",
+      "company_name": "上港集团",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "600019",
+      "company_name": "宝钢股份",
+      "industry_l1": "钢铁",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "600021",
+      "company_name": "上海电力",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "600023",
+      "company_name": "浙能电力",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "600025",
+      "company_name": "华能水电",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "600026",
+      "company_name": "中远海能",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "600027",
+      "company_name": "华电国际",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "600028",
+      "company_name": "中国石化",
+      "industry_l1": "石油石化",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "600029",
+      "company_name": "南方航空",
+      "industry_l1": "交通运输",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "600030",
+      "company_name": "中信证券",
+      "industry_l1": "非银金融",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "600031",
+      "company_name": "三一重工",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "600032",
+      "company_name": "浙江新能",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "600036",
+      "company_name": "招商银行",
+      "industry_l1": "银行",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "600038",
+      "company_name": "中直股份",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "600039",
+      "company_name": "四川路桥",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "600048",
+      "company_name": "保利发展",
+      "industry_l1": "房地产",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "600050",
+      "company_name": "中国联通",
+      "industry_l1": "通信",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "600060",
+      "company_name": "海信视像",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "600061",
+      "company_name": "国投资本",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "600062",
+      "company_name": "华润双鹤",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "600066",
+      "company_name": "宇通客车",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "600085",
+      "company_name": "同仁堂",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "600089",
+      "company_name": "特变电工",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "600095",
+      "company_name": "湘财股份",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "600096",
+      "company_name": "云天化",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "600098",
+      "company_name": "广州发展",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "600104",
+      "company_name": "上汽集团",
+      "industry_l1": "汽车",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "600109",
+      "company_name": "国金证券",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "600111",
+      "company_name": "北方稀土",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "600115",
+      "company_name": "中国东航",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "600118",
+      "company_name": "中国卫星",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "600126",
+      "company_name": "杭钢股份",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "600131",
+      "company_name": "国网信通",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "600132",
+      "company_name": "重庆啤酒",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "600141",
+      "company_name": "兴发集团",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "600143",
+      "company_name": "金发科技",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "600150",
+      "company_name": "中国船舶",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "600153",
+      "company_name": "建发股份",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "600157",
+      "company_name": "永泰能源",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "600160",
+      "company_name": "巨化股份",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "600161",
+      "company_name": "天坛生物",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "600166",
+      "company_name": "福田汽车",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "600170",
+      "company_name": "上海建工",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "600171",
+      "company_name": "上海贝岭",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "600176",
+      "company_name": "中国巨石",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "600177",
+      "company_name": "雅戈尔",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "600183",
+      "company_name": "生益科技",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "600188",
+      "company_name": "兖矿能源",
+      "industry_l1": "煤炭",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "600196",
+      "company_name": "复星医药",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "600208",
+      "company_name": "衢州发展",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "600219",
+      "company_name": "南山铝业",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "600233",
+      "company_name": "圆通速递",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "600276",
+      "company_name": "恒瑞医药",
+      "industry_l1": "医药生物",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "600282",
+      "company_name": "南钢股份",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "600295",
+      "company_name": "鄂尔多斯",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "600298",
+      "company_name": "安琪酵母",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "600299",
+      "company_name": "安迪苏",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "600309",
+      "company_name": "万华化学",
+      "industry_l1": "基础化工",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "600312",
+      "company_name": "平高电气",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "600316",
+      "company_name": "洪都航空",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "600329",
+      "company_name": "达仁堂",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "600332",
+      "company_name": "白云山",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "600339",
+      "company_name": "中油工程",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "600346",
+      "company_name": "恒力石化",
+      "industry_l1": "石油石化",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "600348",
+      "company_name": "华阳股份",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "600352",
+      "company_name": "浙江龙盛",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "600362",
+      "company_name": "江西铜业",
+      "industry_l1": "有色金属",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "600363",
+      "company_name": "联创光电",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "600369",
+      "company_name": "西南证券",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "600372",
+      "company_name": "中航机载",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "600377",
+      "company_name": "宁沪高速",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "600378",
+      "company_name": "昊华科技",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "600380",
+      "company_name": "健康元",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "600390",
+      "company_name": "五矿资本",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "600392",
+      "company_name": "盛和资源",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "600398",
+      "company_name": "海澜之家",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "600406",
+      "company_name": "国电南瑞",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "600415",
+      "company_name": "小商品城",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "600426",
+      "company_name": "华鲁恒升",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "600435",
+      "company_name": "北方导航",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "600436",
+      "company_name": "片仔癀",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "600438",
+      "company_name": "通威股份",
+      "industry_l1": "农林牧渔",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "600460",
+      "company_name": "士兰微",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "600482",
+      "company_name": "中国动力",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "600483",
+      "company_name": "福能股份",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "600486",
+      "company_name": "扬农化工",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "600487",
+      "company_name": "亨通光电",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "600489",
+      "company_name": "中金黄金",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "600497",
+      "company_name": "驰宏锌锗",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "600498",
+      "company_name": "烽火通信",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "600499",
+      "company_name": "科达制造",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "600511",
+      "company_name": "国药股份",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "600515",
+      "company_name": "海南机场",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "600516",
+      "company_name": "方大炭素",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "600517",
+      "company_name": "国网英大",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "600519",
+      "company_name": "贵州茅台",
+      "industry_l1": "食品饮料",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "600521",
+      "company_name": "华海药业",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "600522",
+      "company_name": "中天科技",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "600528",
+      "company_name": "中铁工业",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "600535",
+      "company_name": "天士力",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "600536",
+      "company_name": "中国软件",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "600546",
+      "company_name": "山煤国际",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "600547",
+      "company_name": "山东黄金",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "600549",
+      "company_name": "厦门钨业",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "600562",
+      "company_name": "国睿科技",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "600563",
+      "company_name": "法拉电子",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "600566",
+      "company_name": "济川药业",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "600570",
+      "company_name": "恒生电子",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "600578",
+      "company_name": "京能电力",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "600580",
+      "company_name": "卧龙电驱",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "600582",
+      "company_name": "天地科技",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "600583",
+      "company_name": "海油工程",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "600584",
+      "company_name": "长电科技",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "600585",
+      "company_name": "海螺水泥",
+      "industry_l1": "建筑材料",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "600588",
+      "company_name": "用友网络",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "600598",
+      "company_name": "北大荒",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "600600",
+      "company_name": "青岛啤酒",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "600601",
+      "company_name": "方正科技",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "600602",
+      "company_name": "云赛智联",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "600606",
+      "company_name": "绿地控股",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "600637",
+      "company_name": "东方明珠",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "600642",
+      "company_name": "申能股份",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "600655",
+      "company_name": "豫园股份",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "600660",
+      "company_name": "福耀玻璃",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "600663",
+      "company_name": "陆家嘴",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "600673",
+      "company_name": "东阳光",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "600674",
+      "company_name": "川投能源",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "600685",
+      "company_name": "中船防务",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "600688",
+      "company_name": "上海石化",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "600690",
+      "company_name": "海尔智家",
+      "industry_l1": "家用电器",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "600699",
+      "company_name": "均胜电子",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "600704",
+      "company_name": "物产中大",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "600707",
+      "company_name": "彩虹股份",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "600720",
+      "company_name": "中交设计",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "600737",
+      "company_name": "中粮糖业",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "600739",
+      "company_name": "辽宁成大",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "600741",
+      "company_name": "华域汽车",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "600754",
+      "company_name": "锦江酒店",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "600760",
+      "company_name": "中航沈飞",
+      "industry_l1": "国防军工",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "600763",
+      "company_name": "通策医疗",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "600764",
+      "company_name": "中国海防",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "600765",
+      "company_name": "中航重机",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "600795",
+      "company_name": "国电电力",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "600801",
+      "company_name": "华新建材",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "600803",
+      "company_name": "新奥股份",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "600808",
+      "company_name": "马钢股份",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "600809",
+      "company_name": "山西汾酒",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "600816",
+      "company_name": "建元信托",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "600820",
+      "company_name": "隧道股份",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "600845",
+      "company_name": "宝信软件",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "600848",
+      "company_name": "上海临港",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "600862",
+      "company_name": "中航高科",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "600863",
+      "company_name": "华能蒙电",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "600871",
+      "company_name": "石化油服",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "600873",
+      "company_name": "梅花生物",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "600875",
+      "company_name": "东方电气",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "600879",
+      "company_name": "航天电子",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "600884",
+      "company_name": "杉杉股份",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "600885",
+      "company_name": "宏发股份",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "600886",
+      "company_name": "国投电力",
+      "industry_l1": "公用事业",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "600887",
+      "company_name": "伊利股份",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "600893",
+      "company_name": "航发动力",
+      "industry_l1": "国防军工",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "600900",
+      "company_name": "长江电力",
+      "industry_l1": "公用事业",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "600901",
+      "company_name": "江苏金租",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "600905",
+      "company_name": "三峡能源",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "600906",
+      "company_name": "财达证券",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "600909",
+      "company_name": "华安证券",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "600918",
+      "company_name": "中泰证券",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "600919",
+      "company_name": "江苏银行",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "600926",
+      "company_name": "杭州银行",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "600927",
+      "company_name": "永安期货",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "600930",
+      "company_name": "华电新能",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "600938",
+      "company_name": "中国海油",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "600941",
+      "company_name": "中国移动",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "600958",
+      "company_name": "东方证券",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "600959",
+      "company_name": "江苏有线",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "600967",
+      "company_name": "内蒙一机",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "600968",
+      "company_name": "海油发展",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "600970",
+      "company_name": "中材国际",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "600977",
+      "company_name": "中国电影",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "600985",
+      "company_name": "淮北矿业",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "600988",
+      "company_name": "赤峰黄金",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "600989",
+      "company_name": "宝丰能源",
+      "industry_l1": "基础化工",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "600995",
+      "company_name": "南网储能",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "600998",
+      "company_name": "九州通",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "600999",
+      "company_name": "招商证券",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "601000",
+      "company_name": "唐山港",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "601001",
+      "company_name": "晋控煤业",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "601006",
+      "company_name": "大秦铁路",
+      "industry_l1": "交通运输",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "601009",
+      "company_name": "南京银行",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "601012",
+      "company_name": "隆基绿能",
+      "industry_l1": "电力设备",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "601016",
+      "company_name": "节能风电",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "601018",
+      "company_name": "宁波港",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "601019",
+      "company_name": "山东出版",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "601021",
+      "company_name": "春秋航空",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "601058",
+      "company_name": "赛轮轮胎",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "601059",
+      "company_name": "信达证券",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "601061",
+      "company_name": "中信金属",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "601066",
+      "company_name": "中信建投",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "601077",
+      "company_name": "渝农商行",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "601088",
+      "company_name": "中国神华",
+      "industry_l1": "煤炭",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "601098",
+      "company_name": "中南传媒",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "601099",
+      "company_name": "太平洋",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "601100",
+      "company_name": "恒立液压",
+      "industry_l1": "机械设备",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "601106",
+      "company_name": "中国一重",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "601108",
+      "company_name": "财通证券",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "601111",
+      "company_name": "中国国航",
+      "industry_l1": "交通运输",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "601117",
+      "company_name": "中国化学",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "601118",
+      "company_name": "海南橡胶",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "601127",
+      "company_name": "赛力斯",
+      "industry_l1": "汽车",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "601128",
+      "company_name": "常熟银行",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "601136",
+      "company_name": "首创证券",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "601138",
+      "company_name": "工业富联",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "601139",
+      "company_name": "深圳燃气",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "601155",
+      "company_name": "新城控股",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "601156",
+      "company_name": "东航物流",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "601162",
+      "company_name": "天风证券",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "601166",
+      "company_name": "兴业银行",
+      "industry_l1": "银行",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "601168",
+      "company_name": "西部矿业",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "601169",
+      "company_name": "北京银行",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "601179",
+      "company_name": "中国西电",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "601186",
+      "company_name": "中国铁建",
+      "industry_l1": "建筑装饰",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "601198",
+      "company_name": "东兴证券",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "601211",
+      "company_name": "国泰海通",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "601212",
+      "company_name": "白银有色",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "601216",
+      "company_name": "君正集团",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "601225",
+      "company_name": "陕西煤业",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "601228",
+      "company_name": "广州港",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "601229",
+      "company_name": "上海银行",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "601231",
+      "company_name": "环旭电子",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "601233",
+      "company_name": "桐昆股份",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "601236",
+      "company_name": "红塔证券",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "601238",
+      "company_name": "广汽集团",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "601288",
+      "company_name": "农业银行",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "601298",
+      "company_name": "青岛港",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "601318",
+      "company_name": "中国平安",
+      "industry_l1": "非银金融",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "601319",
+      "company_name": "中国人保",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "601328",
+      "company_name": "交通银行",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "601333",
+      "company_name": "广深铁路",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "601336",
+      "company_name": "新华保险",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "601360",
+      "company_name": "三六零",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "601377",
+      "company_name": "兴业证券",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "601390",
+      "company_name": "中国中铁",
+      "industry_l1": "建筑装饰",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "601398",
+      "company_name": "工商银行",
+      "industry_l1": "银行",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "601399",
+      "company_name": "国机重装",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "601456",
+      "company_name": "国联民生",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "601555",
+      "company_name": "东吴证券",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "601567",
+      "company_name": "三星医疗",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "601577",
+      "company_name": "长沙银行",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "601598",
+      "company_name": "中国外运",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "601600",
+      "company_name": "中国铝业",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "601601",
+      "company_name": "中国太保",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "601607",
+      "company_name": "上海医药",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "601608",
+      "company_name": "中信重工",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "601611",
+      "company_name": "中国核建",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "601615",
+      "company_name": "明阳智能",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "601618",
+      "company_name": "中国中冶",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "601628",
+      "company_name": "中国人寿",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "601633",
+      "company_name": "长城汽车",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "601658",
+      "company_name": "邮储银行",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "601665",
+      "company_name": "齐鲁银行",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "601666",
+      "company_name": "平煤股份",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "601668",
+      "company_name": "中国建筑",
+      "industry_l1": "建筑装饰",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "601669",
+      "company_name": "中国电建",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "601688",
+      "company_name": "华泰证券",
+      "industry_l1": "非银金融",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "601689",
+      "company_name": "拓普集团",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "601696",
+      "company_name": "中银证券",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "601698",
+      "company_name": "中国卫通",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "601699",
+      "company_name": "潞安环能",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "601717",
+      "company_name": "中创智领",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "601728",
+      "company_name": "中国电信",
+      "industry_l1": "通信",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "601766",
+      "company_name": "中国中车",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "601788",
+      "company_name": "光大证券",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "601799",
+      "company_name": "星宇股份",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "601800",
+      "company_name": "中国交建",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "601808",
+      "company_name": "中海油服",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "601816",
+      "company_name": "京沪高铁",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "601818",
+      "company_name": "光大银行",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "601825",
+      "company_name": "沪农商行",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "601838",
+      "company_name": "成都银行",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "601857",
+      "company_name": "中国石油",
+      "industry_l1": "石油石化",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "601865",
+      "company_name": "福莱特",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "601866",
+      "company_name": "中远海发",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "601868",
+      "company_name": "中国能建",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "601872",
+      "company_name": "招商轮船",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "601877",
+      "company_name": "正泰电器",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "601878",
+      "company_name": "浙商证券",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "601880",
+      "company_name": "辽港股份",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "601881",
+      "company_name": "中国银河",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "601888",
+      "company_name": "中国中免",
+      "industry_l1": "商贸零售",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "601898",
+      "company_name": "中煤能源",
+      "industry_l1": "煤炭",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "601899",
+      "company_name": "紫金矿业",
+      "industry_l1": "有色金属",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "601901",
+      "company_name": "方正证券",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "601916",
+      "company_name": "浙商银行",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "601918",
+      "company_name": "新集能源",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "601919",
+      "company_name": "中远海控",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "601921",
+      "company_name": "浙版传媒",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "601928",
+      "company_name": "凤凰传媒",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "601939",
+      "company_name": "建设银行",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "601958",
+      "company_name": "金钼股份",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "601965",
+      "company_name": "中国汽研",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "601966",
+      "company_name": "玲珑轮胎",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "601985",
+      "company_name": "中国核电",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "601988",
+      "company_name": "中国银行",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "601990",
+      "company_name": "南京证券",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "601991",
+      "company_name": "大唐发电",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "601995",
+      "company_name": "中金公司",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "601997",
+      "company_name": "贵阳银行",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "601998",
+      "company_name": "中信银行",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "603000",
+      "company_name": "人民网",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "603019",
+      "company_name": "中科曙光",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "603049",
+      "company_name": "中策橡胶",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "603077",
+      "company_name": "和邦生物",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "603087",
+      "company_name": "甘李药业",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "603129",
+      "company_name": "春风动力",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "603156",
+      "company_name": "养元饮品",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "603160",
+      "company_name": "汇顶科技",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "603179",
+      "company_name": "新泉股份",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "603195",
+      "company_name": "公牛集团",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "603225",
+      "company_name": "新凤鸣",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "603228",
+      "company_name": "景旺电子",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "603233",
+      "company_name": "大参林",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "603259",
+      "company_name": "药明康德",
+      "industry_l1": "医药生物",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "603260",
+      "company_name": "合盛硅业",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "603288",
+      "company_name": "海天味业",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "603290",
+      "company_name": "斯达半导",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "603296",
+      "company_name": "华勤技术",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "603298",
+      "company_name": "杭叉集团",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "603338",
+      "company_name": "浙江鼎力",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "603341",
+      "company_name": "龙旗科技",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "603345",
+      "company_name": "安井食品",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "603369",
+      "company_name": "今世缘",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "603379",
+      "company_name": "三美股份",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "603392",
+      "company_name": "万泰生物",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "603444",
+      "company_name": "吉比特",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "603486",
+      "company_name": "科沃斯",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "603501",
+      "company_name": "豪威集团",
+      "industry_l1": "电子",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "603529",
+      "company_name": "爱玛科技",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "603565",
+      "company_name": "中谷物流",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "603568",
+      "company_name": "伟明环保",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "603589",
+      "company_name": "口子窖",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "603596",
+      "company_name": "伯特利",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "603605",
+      "company_name": "珀莱雅",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "603606",
+      "company_name": "东方电缆",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "603650",
+      "company_name": "彤程新材",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "603658",
+      "company_name": "安图生物",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "603659",
+      "company_name": "璞泰来",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "603688",
+      "company_name": "石英股份",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "603699",
+      "company_name": "纽威股份",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "603707",
+      "company_name": "健友股份",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "603728",
+      "company_name": "鸣志电器",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "603737",
+      "company_name": "三棵树",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "603766",
+      "company_name": "隆鑫通用",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "603786",
+      "company_name": "科博达",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "603799",
+      "company_name": "华友钴业",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "603806",
+      "company_name": "福斯特",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "603816",
+      "company_name": "顾家家居",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "603833",
+      "company_name": "欧派家居",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "603858",
+      "company_name": "步长制药",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "603885",
+      "company_name": "吉祥航空",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "603893",
+      "company_name": "瑞芯微",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "603899",
+      "company_name": "晨光股份",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "603920",
+      "company_name": "世运电路",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "603927",
+      "company_name": "中科软",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "603939",
+      "company_name": "益丰药房",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "603979",
+      "company_name": "金诚信",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "603986",
+      "company_name": "兆易创新",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "603993",
+      "company_name": "洛阳钼业",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "605117",
+      "company_name": "德业股份",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "605358",
+      "company_name": "立昂微",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "605499",
+      "company_name": "东鹏饮料",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "605589",
+      "company_name": "圣泉集团",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "688002",
+      "company_name": "睿创微纳",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "688008",
+      "company_name": "澜起科技",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "688009",
+      "company_name": "中国通号",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "688012",
+      "company_name": "中微公司",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "688017",
+      "company_name": "绿的谐波",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "688018",
+      "company_name": "乐鑫科技",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "688019",
+      "company_name": "安集科技",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "688027",
+      "company_name": "国盾量子",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "688036",
+      "company_name": "传音控股",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "688037",
+      "company_name": "芯源微",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "688041",
+      "company_name": "海光信息",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "688047",
+      "company_name": "龙芯中科",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "688052",
+      "company_name": "纳芯微",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "688065",
+      "company_name": "凯赛生物",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "688082",
+      "company_name": "盛美上海",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "688099",
+      "company_name": "晶晨股份",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "688100",
+      "company_name": "威胜信息",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "688111",
+      "company_name": "金山办公",
+      "industry_l1": "计算机",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "688114",
+      "company_name": "华大智造",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "688120",
+      "company_name": "华海清科",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "688122",
+      "company_name": "西部超导",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "688126",
+      "company_name": "沪硅产业",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "688166",
+      "company_name": "博瑞医药",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "688169",
+      "company_name": "石头科技",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "688172",
+      "company_name": "燕东微",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "688180",
+      "company_name": "君实生物",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "688183",
+      "company_name": "生益电子",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "688187",
+      "company_name": "时代电气",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "688188",
+      "company_name": "柏楚电子",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "688192",
+      "company_name": "迪哲医药",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "688213",
+      "company_name": "思特威",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "688220",
+      "company_name": "翱捷科技",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "688223",
+      "company_name": "晶科能源",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "688234",
+      "company_name": "天岳先进",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "688235",
+      "company_name": "百济神州",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "688248",
+      "company_name": "南网科技",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "688256",
+      "company_name": "寒武纪",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "688266",
+      "company_name": "泽璟制药",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "688271",
+      "company_name": "联影医疗",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "688278",
+      "company_name": "特宝生物",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "688281",
+      "company_name": "华秦科技",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "688295",
+      "company_name": "中复神鹰",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "688297",
+      "company_name": "中无人机",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "688301",
+      "company_name": "奕瑞科技",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "688303",
+      "company_name": "大全能源",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "688318",
+      "company_name": "财富趋势",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "688322",
+      "company_name": "奥比中光",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "688336",
+      "company_name": "三生国健",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "688347",
+      "company_name": "华虹公司",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "688349",
+      "company_name": "三一重能",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "688361",
+      "company_name": "中科飞测",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "688363",
+      "company_name": "华熙生物",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "688375",
+      "company_name": "国博电子",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "688385",
+      "company_name": "复旦微电",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "688387",
+      "company_name": "信科移动",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "688396",
+      "company_name": "华润微",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "688425",
+      "company_name": "铁建重工",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "688469",
+      "company_name": "芯联集成",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "688472",
+      "company_name": "阿特斯",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "688475",
+      "company_name": "萤石网络",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "688506",
+      "company_name": "百利天恒",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "688520",
+      "company_name": "神州细胞",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "688525",
+      "company_name": "佰维存储",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "688538",
+      "company_name": "和辉光电",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "688561",
+      "company_name": "奇安信",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "688563",
+      "company_name": "航材股份",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "688568",
+      "company_name": "中科星图",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "688578",
+      "company_name": "艾力斯",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "688582",
+      "company_name": "芯动联科",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "688599",
+      "company_name": "天合光能",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "688608",
+      "company_name": "恒玄科技",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "688615",
+      "company_name": "合合信息",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "688617",
+      "company_name": "惠泰医疗",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "688629",
+      "company_name": "华丰科技",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "688676",
+      "company_name": "金盘科技",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "688692",
+      "company_name": "达梦数据",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "688702",
+      "company_name": "盛科通信",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "688709",
+      "company_name": "成都华微",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "688728",
+      "company_name": "格科微",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "688772",
+      "company_name": "珠海冠宇",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "688777",
+      "company_name": "中控技术",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "688778",
+      "company_name": "厦钨新能",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "688819",
+      "company_name": "天能股份",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "688981",
+      "company_name": "中芯国际",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    },
+    {
+      "ticker": "689009",
+      "company_name": "九号公司",
+      "industry_l1": "",
+      "status": "active",
+      "membership_source": "live_or_fallback",
+      "valid_from": "2026-03-19",
+      "valid_to": ""
+    }
+  ]
+}
