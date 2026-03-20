@@ -1,0 +1,319 @@
+{
+  "generated_at": "2026-03-20T16:46:43.123838+08:00",
+  "archive_root": "/Users/xukun/Documents/freqtrade/MiroFish/astrategy/.data/authoritative_archive",
+  "strategies": {
+    "sector_rotation": {
+      "strategy_name": "sector_rotation",
+      "line_id": "regime_rotation",
+      "line_label": "Regime 轮动",
+      "cadence": "weekly",
+      "min_periods_for_strict_wf": 100,
+      "signal_dates": [
+        "20260316",
+        "20260317"
+      ],
+      "factor_dates": [
+        "20260316",
+        "20260317"
+      ],
+      "aligned_dates": [
+        "20260316",
+        "20260317"
+      ],
+      "signal_date_count": 2,
+      "factor_date_count": 2,
+      "directional_date_count": 2,
+      "total_signal_count": 8,
+      "first_date": "20260316",
+      "last_date": "20260317",
+      "span_days": 1,
+      "expected_periods": 1,
+      "coverage_ratio": 1.0,
+      "min_backtest_span_days": 730,
+      "min_snapshot_count": 100,
+      "two_year_minimum_ready": false,
+      "strict_wf_ready": false,
+      "notes": "战场选择器，负责周频宏观/行业轮动快照。"
+    },
+    "institution_association": {
+      "strategy_name": "institution_association",
+      "line_id": "flow_expectation",
+      "line_label": "资金/预期差",
+      "cadence": "weekly",
+      "min_periods_for_strict_wf": 100,
+      "signal_dates": [
+        "20260316",
+        "20260317"
+      ],
+      "factor_dates": [
+        "20260316",
+        "20260317"
+      ],
+      "aligned_dates": [
+        "20260316",
+        "20260317"
+      ],
+      "signal_date_count": 2,
+      "factor_date_count": 2,
+      "directional_date_count": 2,
+      "total_signal_count": 30,
+      "first_date": "20260316",
+      "last_date": "20260317",
+      "span_days": 1,
+      "expected_periods": 1,
+      "coverage_ratio": 1.0,
+      "min_backtest_span_days": 730,
+      "min_snapshot_count": 100,
+      "two_year_minimum_ready": false,
+      "strict_wf_ready": false,
+      "notes": "机构共振与 catch-up gap 的周频快照。"
+    },
+    "analyst_divergence": {
+      "strategy_name": "analyst_divergence",
+      "line_id": "flow_expectation",
+      "line_label": "资金/预期差",
+      "cadence": "weekly",
+      "min_periods_for_strict_wf": 100,
+      "signal_dates": [
+        "20260316",
+        "20260317"
+      ],
+      "factor_dates": [
+        "20260316",
+        "20260317"
+      ],
+      "aligned_dates": [
+        "20260316",
+        "20260317"
+      ],
+      "signal_date_count": 2,
+      "factor_date_count": 2,
+      "directional_date_count": 0,
+      "total_signal_count": 6,
+      "first_date": "20260316",
+      "last_date": "20260317",
+      "span_days": 1,
+      "expected_periods": 1,
+      "coverage_ratio": 1.0,
+      "min_backtest_span_days": 730,
+      "min_snapshot_count": 100,
+      "two_year_minimum_ready": false,
+      "strict_wf_ready": false,
+      "notes": "卖方分歧与目标价偏离的周频快照。"
+    },
+    "graph_factors": {
+      "strategy_name": "graph_factors",
+      "line_id": "graph_filter",
+      "line_label": "图谱过滤",
+      "cadence": "daily",
+      "min_periods_for_strict_wf": 480,
+      "signal_dates": [
+        "20260316",
+        "20260317",
+        "20260318"
+      ],
+      "factor_dates": [
+        "20260316",
+        "20260317",
+        "20260318"
+      ],
+      "aligned_dates": [
+        "20260316",
+        "20260317",
+        "20260318"
+      ],
+      "signal_date_count": 3,
+      "factor_date_count": 3,
+      "directional_date_count": 2,
+      "total_signal_count": 830,
+      "first_date": "20260316",
+      "last_date": "20260318",
+      "span_days": 2,
+      "expected_periods": 3,
+      "coverage_ratio": 1.0,
+      "min_backtest_span_days": 730,
+      "min_snapshot_count": 480,
+      "two_year_minimum_ready": false,
+      "strict_wf_ready": false,
+      "notes": "图谱结构因子的日频快照。"
+    },
+    "sentiment_simulation": {
+      "strategy_name": "sentiment_simulation",
+      "line_id": "sentiment_catalyst",
+      "line_label": "情绪催化",
+      "cadence": "daily",
+      "min_periods_for_strict_wf": 480,
+      "signal_dates": [
+        "20260316",
+        "20260317"
+      ],
+      "factor_dates": [
+        "20260316",
+        "20260317"
+      ],
+      "aligned_dates": [
+        "20260316",
+        "20260317"
+      ],
+      "signal_date_count": 2,
+      "factor_date_count": 2,
+      "directional_date_count": 2,
+      "total_signal_count": 4,
+      "first_date": "20260316",
+      "last_date": "20260317",
+      "span_days": 1,
+      "expected_periods": 2,
+      "coverage_ratio": 1.0,
+      "min_backtest_span_days": 730,
+      "min_snapshot_count": 480,
+      "two_year_minimum_ready": false,
+      "strict_wf_ready": false,
+      "notes": "多轮情绪模拟与事件催化的日频快照。"
+    },
+    "narrative_tracker": {
+      "strategy_name": "narrative_tracker",
+      "line_id": "mainline_narrative",
+      "line_label": "主线叙事",
+      "cadence": "daily",
+      "min_periods_for_strict_wf": 480,
+      "signal_dates": [
+        "20260317"
+      ],
+      "factor_dates": [
+        "20260317"
+      ],
+      "aligned_dates": [
+        "20260317"
+      ],
+      "signal_date_count": 1,
+      "factor_date_count": 1,
+      "directional_date_count": 1,
+      "total_signal_count": 4,
+      "first_date": "20260317",
+      "last_date": "20260317",
+      "span_days": 0,
+      "expected_periods": 1,
+      "coverage_ratio": 1.0,
+      "min_backtest_span_days": 730,
+      "min_snapshot_count": 480,
+      "two_year_minimum_ready": false,
+      "strict_wf_ready": false,
+      "notes": "主线叙事相位与龙头/补涨映射的日频快照。"
+    },
+    "earnings_surprise": {
+      "strategy_name": "earnings_surprise",
+      "line_id": "flow_expectation",
+      "line_label": "资金/预期差",
+      "cadence": "daily",
+      "min_periods_for_strict_wf": 480,
+      "signal_dates": [],
+      "factor_dates": [],
+      "aligned_dates": [],
+      "signal_date_count": 0,
+      "factor_date_count": 0,
+      "directional_date_count": 0,
+      "total_signal_count": 0,
+      "first_date": "",
+      "last_date": "",
+      "span_days": 0,
+      "expected_periods": 0,
+      "coverage_ratio": 0.0,
+      "min_backtest_span_days": 730,
+      "min_snapshot_count": 480,
+      "two_year_minimum_ready": false,
+      "strict_wf_ready": false,
+      "notes": "财报预期差事件快照。"
+    }
+  },
+  "lines": {
+    "regime_rotation": {
+      "line_id": "regime_rotation",
+      "line_label": "Regime 轮动",
+      "cadence": "weekly",
+      "strategies": [
+        "sector_rotation"
+      ],
+      "strict_wf_ready": false,
+      "signal_date_count": 2,
+      "factor_date_count": 2,
+      "first_date": "20260316",
+      "last_date": "20260317",
+      "span_days": 1,
+      "components_ready": {
+        "sector_rotation": false
+      }
+    },
+    "flow_expectation": {
+      "line_id": "flow_expectation",
+      "line_label": "资金/预期差",
+      "cadence": "weekly",
+      "strategies": [
+        "institution_association",
+        "analyst_divergence",
+        "earnings_surprise"
+      ],
+      "strict_wf_ready": false,
+      "signal_date_count": 4,
+      "factor_date_count": 4,
+      "first_date": "20260316",
+      "last_date": "20260317",
+      "span_days": 1,
+      "components_ready": {
+        "institution_association": false,
+        "analyst_divergence": false,
+        "earnings_surprise": false
+      }
+    },
+    "graph_filter": {
+      "line_id": "graph_filter",
+      "line_label": "图谱过滤",
+      "cadence": "daily",
+      "strategies": [
+        "graph_factors"
+      ],
+      "strict_wf_ready": false,
+      "signal_date_count": 3,
+      "factor_date_count": 3,
+      "first_date": "20260316",
+      "last_date": "20260318",
+      "span_days": 2,
+      "components_ready": {
+        "graph_factors": false
+      }
+    },
+    "sentiment_catalyst": {
+      "line_id": "sentiment_catalyst",
+      "line_label": "情绪催化",
+      "cadence": "daily",
+      "strategies": [
+        "sentiment_simulation"
+      ],
+      "strict_wf_ready": false,
+      "signal_date_count": 2,
+      "factor_date_count": 2,
+      "first_date": "20260316",
+      "last_date": "20260317",
+      "span_days": 1,
+      "components_ready": {
+        "sentiment_simulation": false
+      }
+    },
+    "mainline_narrative": {
+      "line_id": "mainline_narrative",
+      "line_label": "主线叙事",
+      "cadence": "daily",
+      "strategies": [
+        "narrative_tracker"
+      ],
+      "strict_wf_ready": false,
+      "signal_date_count": 1,
+      "factor_date_count": 1,
+      "first_date": "20260317",
+      "last_date": "20260317",
+      "span_days": 0,
+      "components_ready": {
+        "narrative_tracker": false
+      }
+    }
+  }
+}

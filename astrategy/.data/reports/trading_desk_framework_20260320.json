@@ -1,0 +1,1385 @@
+{
+  "as_of_date": "2026-03-20",
+  "source_inputs": {
+    "sector_rotation": "/Users/xukun/Documents/freqtrade/MiroFish/astrategy/.data/signals/sector_rotation/20260317.json",
+    "narrative_tracker": "/Users/xukun/Documents/freqtrade/MiroFish/astrategy/.data/signals/narrative_tracker/20260317.json",
+    "institution_association": "/Users/xukun/Documents/freqtrade/MiroFish/astrategy/.data/signals/institution_association/20260317.json",
+    "graph_factors": "/Users/xukun/Documents/freqtrade/MiroFish/astrategy/.data/signals/graph_factors/20260318.json",
+    "sentiment_simulation": "/Users/xukun/Documents/freqtrade/MiroFish/astrategy/.data/signals/sentiment_simulation/20260317.json",
+    "analyst_divergence": "/Users/xukun/Documents/freqtrade/MiroFish/astrategy/.data/signals/analyst_divergence/20260317.json"
+  },
+  "shock_source": "/Users/xukun/Documents/freqtrade/MiroFish/astrategy/.data/reports/shock_signals_20260318.json",
+  "bucket_prior_count": 5,
+  "execution_summary": {
+    "primary_line": "主线趋势多头 + selective catalyst",
+    "secondary_line": "机构/预期差补涨",
+    "route_mix": {
+      "预期差/补涨": 5,
+      "主线趋势多头": 1,
+      "事件驱动多头": 1,
+      "主题降温回避": 2,
+      "事件防守/回避": 3,
+      "观察池": 9
+    }
+  },
+  "validation_summary": {
+    "route_focus": [],
+    "deferred_lines": [
+      "资金/预期差",
+      "情绪催化",
+      "图谱过滤",
+      "主线叙事",
+      "Regime 轮动"
+    ]
+  },
+  "core_longs": [
+    {
+      "stock_code": "601888",
+      "stock_name": "中国中免",
+      "industry": "商务服务业",
+      "route": "预期差/补涨",
+      "action": "rotate_into",
+      "final_score": 0.3422,
+      "regime": 0.0,
+      "mainline": 0.0,
+      "catalyst": 0.2646,
+      "flow": 0.9552,
+      "filter_quality": 0.68,
+      "thesis": "S10 ma long 0.24: 601888，宣布重要收购！ | 机构共振 long 0.80, catch-up gap=19.80% | 历史桶质量较强 (+0.20)"
+    },
+    {
+      "stock_code": "601012",
+      "stock_name": "隆基绿能",
+      "industry": "电气机械和器材制造业",
+      "route": "主线趋势多头",
+      "action": "open_long",
+      "final_score": 0.285,
+      "regime": 0.765,
+      "mainline": 0.55,
+      "catalyst": 0.0,
+      "flow": 0.0,
+      "filter_quality": 0.56,
+      "thesis": "电力设备 轮动信号 long 0.85 | 光伏储能 扩散期 long 0.55 | 最近 3 条事件进入观察池 | 多阶段方向一致"
+    },
+    {
+      "stock_code": "002230",
+      "stock_name": "科大讯飞",
+      "industry": "软件和信息技术服务业",
+      "route": "事件驱动多头",
+      "action": "probe_long",
+      "final_score": 0.2144,
+      "regime": 0.0,
+      "mainline": 0.0,
+      "catalyst": 0.22,
+      "flow": 0.5609,
+      "filter_quality": 0.56,
+      "thesis": "S10 earnings_shock long 0.22: 业绩预喜！002230 直线涨停 | 机构共振 long 0.51, catch-up gap=5.64% | 多阶段方向一致"
+    },
+    {
+      "stock_code": "603259",
+      "stock_name": "药明康德",
+      "industry": "研究和试验发展",
+      "route": "预期差/补涨",
+      "action": "rotate_into",
+      "final_score": 0.162,
+      "regime": 0.0,
+      "mainline": 0.0,
+      "catalyst": 0.0,
+      "flow": 0.6752,
+      "filter_quality": 0.5,
+      "thesis": "最近 3 条事件进入观察池 | 机构共振 long 0.58, catch-up gap=9.25%"
+    },
+    {
+      "stock_code": "601318",
+      "stock_name": "中国平安",
+      "industry": "保险业",
+      "route": "预期差/补涨",
+      "action": "rotate_into",
+      "final_score": 0.1552,
+      "regime": 0.0,
+      "mainline": 0.0,
+      "catalyst": 0.0,
+      "flow": 0.6682,
+      "filter_quality": 0.42,
+      "thesis": "最近 4 条事件进入观察池 | 机构共振 long 0.58, catch-up gap=9.04% | 图谱结构偏弱 (rank 8/10)"
+    },
+    {
+      "stock_code": "600030",
+      "stock_name": "中信证券",
+      "industry": "资本市场服务",
+      "route": "预期差/补涨",
+      "action": "rotate_into",
+      "final_score": 0.1474,
+      "regime": 0.0,
+      "mainline": 0.0,
+      "catalyst": 0.0,
+      "flow": 0.6143,
+      "filter_quality": 0.5,
+      "thesis": "最近 4 条事件进入观察池 | 机构共振 long 0.55, catch-up gap=7.36%"
+    },
+    {
+      "stock_code": "000568",
+      "stock_name": "泸州老窖",
+      "industry": "酒、饮料和精制茶制造业",
+      "route": "预期差/补涨",
+      "action": "rotate_into",
+      "final_score": 0.1454,
+      "regime": 0.0,
+      "mainline": 0.0,
+      "catalyst": 0.0,
+      "flow": 0.6058,
+      "filter_quality": 0.5,
+      "thesis": "Shock scandal hop=1 neutral 0.55 | 机构共振 long 0.54, catch-up gap=7.09%"
+    }
+  ],
+  "avoid_overlay": [
+    {
+      "stock_code": "002594",
+      "stock_name": "比亚迪",
+      "industry": "汽车制造业",
+      "route": "主题降温回避",
+      "action": "reduce_or_avoid",
+      "final_score": -0.2171,
+      "regime": 0.0,
+      "mainline": -0.108,
+      "catalyst": 0.0,
+      "flow": -0.7476,
+      "filter_quality": 0.7,
+      "thesis": "新能源汽车 成熟期 avoid 0.54 | 最近 2 条事件进入观察池 | 机构共振 avoid 0.75, catch-up gap=-17.38% | 图谱结构靠前 (rank 1/10)"
+    },
+    {
+      "stock_code": "000596",
+      "stock_name": "古井贡酒",
+      "industry": "酒、饮料和精制茶制造业",
+      "route": "事件防守/回避",
+      "action": "avoid_or_hedge",
+      "final_score": -0.1863,
+      "regime": 0.0,
+      "mainline": 0.0,
+      "catalyst": -0.548,
+      "flow": 0.0,
+      "filter_quality": 0.5,
+      "thesis": "Shock scandal hop=1 avoid 0.58"
+    },
+    {
+      "stock_code": "600059",
+      "stock_name": "古越龙山",
+      "industry": "",
+      "route": "事件防守/回避",
+      "action": "avoid_or_hedge",
+      "final_score": -0.1651,
+      "regime": 0.0,
+      "mainline": 0.0,
+      "catalyst": -0.4856,
+      "flow": 0.0,
+      "filter_quality": 0.5,
+      "thesis": "Shock scandal hop=2 avoid 0.61"
+    },
+    {
+      "stock_code": "002714",
+      "stock_name": "牧原股份",
+      "industry": "畜牧业",
+      "route": "主题降温回避",
+      "action": "reduce_or_avoid",
+      "final_score": -0.1528,
+      "regime": 0.0,
+      "mainline": 0.0,
+      "catalyst": 0.0,
+      "flow": -0.6367,
+      "filter_quality": 0.5,
+      "thesis": "最近 2 条事件进入观察池 | 机构共振 avoid 0.64, catch-up gap=-11.83%"
+    },
+    {
+      "stock_code": "600809",
+      "stock_name": "山西汾酒",
+      "industry": "酒、饮料和精制茶制造业",
+      "route": "事件防守/回避",
+      "action": "avoid_or_hedge",
+      "final_score": -0.1519,
+      "regime": 0.0,
+      "mainline": 0.0,
+      "catalyst": -0.4467,
+      "flow": 0.0,
+      "filter_quality": 0.5,
+      "thesis": "Shock scandal hop=2 avoid 0.56"
+    }
+  ],
+  "watchlist": [
+    {
+      "stock_code": "601728",
+      "stock_name": "中国电信",
+      "industry": "电信、广播电视和卫星传输服务",
+      "route": "观察池",
+      "action": "watchlist",
+      "final_score": -0.1405,
+      "regime": 0.0,
+      "mainline": 0.0,
+      "catalyst": 0.0,
+      "flow": -0.5853,
+      "filter_quality": 0.5,
+      "thesis": "机构共振 avoid 0.59, catch-up gap=-9.26%"
+    },
+    {
+      "stock_code": "600309",
+      "stock_name": "万华化学",
+      "industry": "化学原料和化学制品制造业",
+      "route": "观察池",
+      "action": "watchlist",
+      "final_score": 0.1395,
+      "regime": 0.0,
+      "mainline": 0.0,
+      "catalyst": 0.0,
+      "flow": 0.5814,
+      "filter_quality": 0.5,
+      "thesis": "最近 11 条事件进入观察池 | 机构共振 long 0.53, catch-up gap=6.31%"
+    },
+    {
+      "stock_code": "601390",
+      "stock_name": "中国中铁",
+      "industry": "土木工程建筑业",
+      "route": "观察池",
+      "action": "watchlist",
+      "final_score": -0.1312,
+      "regime": 0.0,
+      "mainline": 0.0,
+      "catalyst": 0.0,
+      "flow": -0.5468,
+      "filter_quality": 0.5,
+      "thesis": "机构共振 avoid 0.55, catch-up gap=-7.34%"
+    },
+    {
+      "stock_code": "600900",
+      "stock_name": "长江电力",
+      "industry": "电力、热力生产和供应业",
+      "route": "观察池",
+      "action": "watchlist",
+      "final_score": -0.1294,
+      "regime": 0.0,
+      "mainline": 0.0,
+      "catalyst": 0.0,
+      "flow": -0.539,
+      "filter_quality": 0.5,
+      "thesis": "机构共振 avoid 0.54, catch-up gap=-6.95%"
+    },
+    {
+      "stock_code": "000858",
+      "stock_name": "五 粮 液",
+      "industry": "酒、饮料和精制茶制造业",
+      "route": "观察池",
+      "action": "watchlist",
+      "final_score": -0.1152,
+      "regime": 0.0,
+      "mainline": 0.0,
+      "catalyst": -0.35,
+      "flow": 0.0,
+      "filter_quality": 0.42,
+      "thesis": "S10 scandal avoid 0.35: 五粮液董事长曾从钦被立案调查 | 图谱结构偏弱 (rank 9/10)"
+    },
+    {
+      "stock_code": "600519",
+      "stock_name": "贵州茅台",
+      "industry": "酒、饮料和精制茶制造业",
+      "route": "观察池",
+      "action": "watchlist",
+      "final_score": -0.0884,
+      "regime": 0.0,
+      "mainline": 0.0,
+      "catalyst": -0.2685,
+      "flow": 0.0,
+      "filter_quality": 0.42,
+      "thesis": "Shock scandal hop=1 avoid 0.28 | 图谱结构偏弱 (rank 10/10)"
+    },
+    {
+      "stock_code": "600760",
+      "stock_name": "中航沈飞",
+      "industry": "铁路、船舶、航空航天和其他运输设备制造业",
+      "route": "观察池",
+      "action": "watchlist",
+      "final_score": 0.027,
+      "regime": -0.495,
+      "mainline": 0.0,
+      "catalyst": 0.0,
+      "flow": 0.5708,
+      "filter_quality": 0.4,
+      "thesis": "国防军工 轮动信号 avoid 0.55 | 机构共振 long 0.52, catch-up gap=5.96% | 多阶段方向冲突，降低优先级"
+    },
+    {
+      "stock_code": "300750",
+      "stock_name": "宁德时代",
+      "industry": "电气机械和器材制造业",
+      "route": "观察池",
+      "action": "watchlist",
+      "final_score": -0.0176,
+      "regime": 0.765,
+      "mainline": -0.108,
+      "catalyst": 0.0,
+      "flow": -0.6835,
+      "filter_quality": 0.54,
+      "thesis": "电力设备 轮动信号 long 0.85 | 新能源汽车 成熟期 avoid 0.54 | 最近 2 条事件进入观察池 | 机构共振 avoid 0.68, catch-up gap=-14.18%"
+    }
+  ],
+  "sub_line_validation": [
+    {
+      "line_id": "event_continuation",
+      "label": "事件延续",
+      "stage": "catalyst",
+      "validation_mode": "strict_wf",
+      "role": "防守/overlay",
+      "monetization_path": "负向 continuation 优先货币化为减仓、回避、新仓过滤与对冲篮子；正向只做精选 source-event probe long。",
+      "signal_sources": [
+        "/Users/xukun/Documents/freqtrade/MiroFish/astrategy/.data/reports/shock_wf_signals_20260320_local_refresh.json",
+        "/Users/xukun/Documents/freqtrade/MiroFish/astrategy/.data/reports/shock_wf_backtest_20260320_local_refresh.md"
+      ],
+      "component_counts": {
+        "shock_signals": 321
+      },
+      "signal_count": 321,
+      "oos_evals": 28,
+      "holding_days": 5.0,
+      "history_span_days": 136,
+      "min_backtest_span_days": 730,
+      "wf_sharpe": 2.5,
+      "is_sharpe": 1.11,
+      "all_sharpe": 1.24,
+      "hit_rate": 0.8571,
+      "avg_return": 0.0188,
+      "annualized_proxy_simple": 0.9475,
+      "annualized_proxy_compound": 1.5567,
+      "status": "历史不足2年，不出最终结论",
+      "notes": "历史跨度只有 136 天，未达到两年门槛 (730 天)。 OOS 有效样本仍偏少，但当前是仓库内最严格的事件线验证。 当前 alpha 主要来自方向调整后的 continuation，不是裸多头收益。"
+    },
+    {
+      "line_id": "flow_expectation",
+      "label": "资金/预期差",
+      "stage": "flow_expectation",
+      "validation_mode": "authoritative_missing",
+      "role": "轮动副引擎",
+      "monetization_path": "机构共振与预期差补涨轮动；顺主线做 catch-up，不逆着主线硬做左侧抄底。",
+      "signal_sources": [
+        "/Users/xukun/Documents/freqtrade/MiroFish/astrategy/.data/authoritative_archive/signals/institution_association",
+        "/Users/xukun/Documents/freqtrade/MiroFish/astrategy/.data/authoritative_archive/signals/analyst_divergence"
+      ],
+      "component_counts": {
+        "institution_association_signal_dates": 2,
+        "institution_association_factor_dates": 2,
+        "analyst_divergence_signal_dates": 2,
+        "analyst_divergence_factor_dates": 2,
+        "earnings_surprise_signal_dates": 0,
+        "earnings_surprise_factor_dates": 0
+      },
+      "signal_count": 36,
+      "oos_evals": 0,
+      "holding_days": [],
+      "wf_sharpe": null,
+      "is_sharpe": null,
+      "all_sharpe": null,
+      "hit_rate": null,
+      "avg_return": null,
+      "annualized_proxy_simple": null,
+      "annualized_proxy_compound": null,
+      "status": "缺历史，不出结论",
+      "notes": "institution_association: signal_dates=2, factor_dates=2, strict_ready=False | analyst_divergence: signal_dates=2, factor_dates=2, strict_ready=False | earnings_surprise: signal_dates=0, factor_dates=0, strict_ready=False"
+    },
+    {
+      "line_id": "sentiment_catalyst",
+      "label": "情绪催化",
+      "stage": "catalyst",
+      "validation_mode": "authoritative_missing",
+      "role": "短线催化器",
+      "monetization_path": "事件触发单与观察池晋级；只有在主线或资金共振时才放大仓位，单独使用以试单为主。",
+      "signal_sources": [
+        "/Users/xukun/Documents/freqtrade/MiroFish/astrategy/.data/authoritative_archive/signals/sentiment_simulation"
+      ],
+      "component_counts": {
+        "sentiment_simulation_signal_dates": 2,
+        "sentiment_simulation_factor_dates": 2
+      },
+      "signal_count": 4,
+      "oos_evals": 0,
+      "holding_days": [],
+      "wf_sharpe": null,
+      "is_sharpe": null,
+      "all_sharpe": null,
+      "hit_rate": null,
+      "avg_return": null,
+      "annualized_proxy_simple": null,
+      "annualized_proxy_compound": null,
+      "status": "缺历史，不出结论",
+      "notes": "sentiment_simulation: signal_dates=2, factor_dates=2, strict_ready=False"
+    },
+    {
+      "line_id": "graph_filter",
+      "label": "图谱过滤",
+      "stage": "graph_sentiment_filter",
+      "validation_mode": "authoritative_missing",
+      "role": "过滤与加权器",
+      "monetization_path": "只用于候选筛选、仓位加权和补涨线索发掘，不单独裸开仓。",
+      "signal_sources": [
+        "/Users/xukun/Documents/freqtrade/MiroFish/astrategy/.data/authoritative_archive/signals/graph_factors"
+      ],
+      "component_counts": {
+        "graph_factors_signal_dates": 3,
+        "graph_factors_factor_dates": 3
+      },
+      "signal_count": 830,
+      "oos_evals": 0,
+      "holding_days": [],
+      "wf_sharpe": null,
+      "is_sharpe": null,
+      "all_sharpe": null,
+      "hit_rate": null,
+      "avg_return": null,
+      "annualized_proxy_simple": null,
+      "annualized_proxy_compound": null,
+      "status": "缺历史，不出结论",
+      "notes": "graph_factors: signal_dates=3, factor_dates=3, strict_ready=False"
+    },
+    {
+      "line_id": "mainline_narrative",
+      "label": "主线叙事",
+      "stage": "mainline",
+      "validation_mode": "authoritative_missing",
+      "role": "进攻主引擎",
+      "monetization_path": "围绕主线龙头与补涨梯队分层开仓；进入衰退阶段时切回减仓与观察池。",
+      "signal_sources": [
+        "/Users/xukun/Documents/freqtrade/MiroFish/astrategy/.data/authoritative_archive/signals/narrative_tracker"
+      ],
+      "component_counts": {
+        "narrative_tracker_signal_dates": 1,
+        "narrative_tracker_factor_dates": 1
+      },
+      "signal_count": 4,
+      "oos_evals": 0,
+      "holding_days": [],
+      "wf_sharpe": null,
+      "is_sharpe": null,
+      "all_sharpe": null,
+      "hit_rate": null,
+      "avg_return": null,
+      "annualized_proxy_simple": null,
+      "annualized_proxy_compound": null,
+      "status": "缺历史，不出结论",
+      "notes": "narrative_tracker: signal_dates=1, factor_dates=1, strict_ready=False"
+    },
+    {
+      "line_id": "regime_rotation",
+      "label": "Regime 轮动",
+      "stage": "regime",
+      "validation_mode": "authoritative_missing",
+      "role": "战场选择器",
+      "monetization_path": "行业ETF/板块龙头轮动；收缩期优先高景气龙头，弱势行业做减仓与禁入。",
+      "signal_sources": [
+        "/Users/xukun/Documents/freqtrade/MiroFish/astrategy/.data/authoritative_archive/signals/sector_rotation"
+      ],
+      "component_counts": {
+        "sector_rotation_signal_dates": 2,
+        "sector_rotation_factor_dates": 2
+      },
+      "signal_count": 8,
+      "oos_evals": 0,
+      "holding_days": [],
+      "wf_sharpe": null,
+      "is_sharpe": null,
+      "all_sharpe": null,
+      "hit_rate": null,
+      "avg_return": null,
+      "annualized_proxy_simple": null,
+      "annualized_proxy_compound": null,
+      "status": "缺历史，不出结论",
+      "notes": "sector_rotation: signal_dates=2, factor_dates=2, strict_ready=False"
+    }
+  ],
+  "stages": {
+    "regime": {
+      "source_path": "/Users/xukun/Documents/freqtrade/MiroFish/astrategy/.data/signals/sector_rotation/20260317.json",
+      "risk_mode": "defensive_barbell",
+      "macro_phases": {
+        "contraction": 4
+      },
+      "favored_industries": [
+        {
+          "name": "电力设备",
+          "score": 1.7
+        },
+        {
+          "name": "煤炭",
+          "score": 0.85
+        }
+      ],
+      "avoid_industries": [
+        {
+          "name": "国防军工",
+          "score": -0.55
+        }
+      ],
+      "recommended_industries": [
+        {
+          "name": "电力设备",
+          "count": 4
+        },
+        {
+          "name": "煤炭",
+          "count": 4
+        }
+      ],
+      "avoided_industries": [
+        {
+          "name": "有色金属",
+          "count": 4
+        },
+        {
+          "name": "传媒",
+          "count": 4
+        },
+        {
+          "name": "计算机",
+          "count": 4
+        },
+        {
+          "name": "石油石化",
+          "count": 4
+        },
+        {
+          "name": "国防军工",
+          "count": 4
+        }
+      ]
+    },
+    "mainline": {
+      "source_path": "/Users/xukun/Documents/freqtrade/MiroFish/astrategy/.data/signals/narrative_tracker/20260317.json",
+      "phases": {
+        "扩散期": 1,
+        "成熟期": 3
+      },
+      "top_themes": [
+        {
+          "name": "光伏储能",
+          "score": 0.55
+        }
+      ],
+      "weak_themes": [
+        {
+          "name": "新能源汽车",
+          "score": -0.216
+        }
+      ]
+    },
+    "catalyst": {
+      "source_paths": [
+        "/Users/xukun/Documents/freqtrade/MiroFish/astrategy/.data/signals/sentiment_simulation/20260317.json",
+        "/Users/xukun/Documents/freqtrade/MiroFish/astrategy/.data/reports/shock_signals_20260318.json"
+      ],
+      "top_catalysts": [
+        {
+          "stock_code": "600059",
+          "stock_name": "古越龙山",
+          "event_type": "scandal",
+          "direction": "avoid",
+          "confidence": 0.607,
+          "prior_strength": 0.0,
+          "title": "五粮液董事长曾从钦被立案调查"
+        },
+        {
+          "stock_code": "000596",
+          "stock_name": "古井贡酒",
+          "event_type": "scandal",
+          "direction": "avoid",
+          "confidence": 0.5768,
+          "prior_strength": 0.0,
+          "title": "五粮液董事长曾从钦被立案调查"
+        },
+        {
+          "stock_code": "600809",
+          "stock_name": "山西汾酒",
+          "event_type": "scandal",
+          "direction": "avoid",
+          "confidence": 0.5584,
+          "prior_strength": 0.0,
+          "title": "五粮液董事长曾从钦被立案调查"
+        },
+        {
+          "stock_code": "000568",
+          "stock_name": "泸州老窖",
+          "event_type": "scandal",
+          "direction": "neutral",
+          "confidence": 0.5518,
+          "prior_strength": 0.0,
+          "title": "五粮液董事长曾从钦被立案调查"
+        },
+        {
+          "stock_code": "000858",
+          "stock_name": "五 粮 液",
+          "event_type": "scandal",
+          "direction": "avoid",
+          "confidence": 0.35,
+          "prior_strength": 0.0,
+          "title": "五粮液董事长曾从钦被立案调查"
+        },
+        {
+          "stock_code": "601888",
+          "stock_name": "中国中免",
+          "event_type": "ma",
+          "direction": "long",
+          "confidence": 0.24,
+          "prior_strength": 0.2049,
+          "title": "601888，宣布重要收购！"
+        },
+        {
+          "stock_code": "600519",
+          "stock_name": "贵州茅台",
+          "event_type": "scandal",
+          "direction": "avoid",
+          "confidence": 0.2826,
+          "prior_strength": 0.0,
+          "title": "五粮液董事长曾从钦被立案调查"
+        },
+        {
+          "stock_code": "002230",
+          "stock_name": "科大讯飞",
+          "event_type": "earnings_shock",
+          "direction": "long",
+          "confidence": 0.22,
+          "prior_strength": 0.0,
+          "title": "业绩预喜！002230 直线涨停"
+        }
+      ],
+      "recent_event_hotspots": [
+        {
+          "stock_code": "600688",
+          "stock_name": "上海石化",
+          "recent_events": 31,
+          "top_event_type": "other"
+        },
+        {
+          "stock_code": "300142",
+          "stock_name": "沃森生物",
+          "recent_events": 30,
+          "top_event_type": "other"
+        },
+        {
+          "stock_code": "001979",
+          "stock_name": "招商蛇口",
+          "recent_events": 17,
+          "top_event_type": "earnings_surprise"
+        },
+        {
+          "stock_code": "300476",
+          "stock_name": "胜宏科技",
+          "recent_events": 16,
+          "top_event_type": "earnings_surprise"
+        },
+        {
+          "stock_code": "601800",
+          "stock_name": "中国交建",
+          "recent_events": 14,
+          "top_event_type": "buyback"
+        },
+        {
+          "stock_code": "300136",
+          "stock_name": "信维通信",
+          "recent_events": 14,
+          "top_event_type": "capital_raise"
+        },
+        {
+          "stock_code": "301308",
+          "stock_name": "江波龙",
+          "recent_events": 12,
+          "top_event_type": "sentiment_reversal"
+        },
+        {
+          "stock_code": "600765",
+          "stock_name": "中航重机",
+          "recent_events": 12,
+          "top_event_type": "earnings_surprise"
+        },
+        {
+          "stock_code": "601555",
+          "stock_name": "东吴证券",
+          "recent_events": 12,
+          "top_event_type": "capital_raise"
+        },
+        {
+          "stock_code": "300857",
+          "stock_name": "协创数据",
+          "recent_events": 12,
+          "top_event_type": "earnings_surprise"
+        }
+      ]
+    },
+    "flow_expectation": {
+      "source_paths": [
+        "/Users/xukun/Documents/freqtrade/MiroFish/astrategy/.data/signals/institution_association/20260317.json",
+        "/Users/xukun/Documents/freqtrade/MiroFish/astrategy/.data/signals/analyst_divergence/20260317.json",
+        ""
+      ],
+      "top_flow_signals": [
+        {
+          "stock_code": "601888",
+          "stock_name": "中国中免",
+          "source": "institution_association",
+          "direction": "long",
+          "score": 0.9552,
+          "detail": "gap=19.80%, holders=11"
+        },
+        {
+          "stock_code": "601088",
+          "stock_name": "中国神华",
+          "source": "institution_association",
+          "direction": "avoid",
+          "score": -0.7594,
+          "detail": "gap=-17.97%, holders=11"
+        },
+        {
+          "stock_code": "002594",
+          "stock_name": "比亚迪",
+          "source": "institution_association",
+          "direction": "avoid",
+          "score": -0.7476,
+          "detail": "gap=-17.38%, holders=6"
+        },
+        {
+          "stock_code": "300750",
+          "stock_name": "宁德时代",
+          "source": "institution_association",
+          "direction": "avoid",
+          "score": -0.6835,
+          "detail": "gap=-14.18%, holders=9"
+        },
+        {
+          "stock_code": "603259",
+          "stock_name": "药明康德",
+          "source": "institution_association",
+          "direction": "long",
+          "score": 0.6752,
+          "detail": "gap=9.25%, holders=11"
+        },
+        {
+          "stock_code": "601318",
+          "stock_name": "中国平安",
+          "source": "institution_association",
+          "direction": "long",
+          "score": 0.6682,
+          "detail": "gap=9.04%, holders=11"
+        },
+        {
+          "stock_code": "002714",
+          "stock_name": "牧原股份",
+          "source": "institution_association",
+          "direction": "avoid",
+          "score": -0.6367,
+          "detail": "gap=-11.83%, holders=9"
+        },
+        {
+          "stock_code": "600030",
+          "stock_name": "中信证券",
+          "source": "institution_association",
+          "direction": "long",
+          "score": 0.6143,
+          "detail": "gap=7.36%, holders=11"
+        },
+        {
+          "stock_code": "000568",
+          "stock_name": "泸州老窖",
+          "source": "institution_association",
+          "direction": "long",
+          "score": 0.6058,
+          "detail": "gap=7.09%, holders=11"
+        },
+        {
+          "stock_code": "601728",
+          "stock_name": "中国电信",
+          "source": "institution_association",
+          "direction": "avoid",
+          "score": -0.5853,
+          "detail": "gap=-9.26%, holders=11"
+        },
+        {
+          "stock_code": "600309",
+          "stock_name": "万华化学",
+          "source": "institution_association",
+          "direction": "long",
+          "score": 0.5814,
+          "detail": "gap=6.31%, holders=11"
+        },
+        {
+          "stock_code": "600760",
+          "stock_name": "中航沈飞",
+          "source": "institution_association",
+          "direction": "long",
+          "score": 0.5708,
+          "detail": "gap=5.96%, holders=11"
+        }
+      ]
+    },
+    "graph_sentiment_filter": {
+      "source_paths": [
+        "/Users/xukun/Documents/freqtrade/MiroFish/astrategy/.data/signals/graph_factors/20260318.json"
+      ],
+      "top_filter_support": [
+        {
+          "stock_code": "002594",
+          "stock_name": "比亚迪",
+          "graph_percentile": 1.0,
+          "bucket_support": 0.0,
+          "filter_quality": 0.7
+        },
+        {
+          "stock_code": "601888",
+          "stock_name": "中国中免",
+          "graph_percentile": 0.5556,
+          "bucket_support": 0.2049,
+          "filter_quality": 0.68
+        },
+        {
+          "stock_code": "601012",
+          "stock_name": "隆基绿能",
+          "graph_percentile": 0.3333,
+          "bucket_support": 0.0,
+          "filter_quality": 0.56
+        },
+        {
+          "stock_code": "002230",
+          "stock_name": "科大讯飞",
+          "graph_percentile": 0.5,
+          "bucket_support": 0.0,
+          "filter_quality": 0.56
+        },
+        {
+          "stock_code": "300750",
+          "stock_name": "宁德时代",
+          "graph_percentile": 0.7778,
+          "bucket_support": 0.0,
+          "filter_quality": 0.54
+        },
+        {
+          "stock_code": "601088",
+          "stock_name": "中国神华",
+          "graph_percentile": 0.8889,
+          "bucket_support": 0.0,
+          "filter_quality": 0.54
+        },
+        {
+          "stock_code": "002415",
+          "stock_name": "海康威视",
+          "graph_percentile": 0.5,
+          "bucket_support": 0.0,
+          "filter_quality": 0.5
+        },
+        {
+          "stock_code": "600030",
+          "stock_name": "中信证券",
+          "graph_percentile": 0.5,
+          "bucket_support": 0.0,
+          "filter_quality": 0.5
+        },
+        {
+          "stock_code": "000568",
+          "stock_name": "泸州老窖",
+          "graph_percentile": 0.5,
+          "bucket_support": 0.0,
+          "filter_quality": 0.5
+        },
+        {
+          "stock_code": "603259",
+          "stock_name": "药明康德",
+          "graph_percentile": 0.5,
+          "bucket_support": 0.0,
+          "filter_quality": 0.5
+        },
+        {
+          "stock_code": "600900",
+          "stock_name": "长江电力",
+          "graph_percentile": 0.5,
+          "bucket_support": 0.0,
+          "filter_quality": 0.5
+        },
+        {
+          "stock_code": "002714",
+          "stock_name": "牧原股份",
+          "graph_percentile": 0.5,
+          "bucket_support": 0.0,
+          "filter_quality": 0.5
+        }
+      ]
+    },
+    "execution_mapping": {
+      "primary_line": "主线趋势多头 + selective catalyst",
+      "secondary_line": "机构/预期差补涨",
+      "route_mix": {
+        "预期差/补涨": 5,
+        "主线趋势多头": 1,
+        "事件驱动多头": 1,
+        "主题降温回避": 2,
+        "事件防守/回避": 3,
+        "观察池": 9
+      },
+      "core_longs": [
+        {
+          "stock_code": "601888",
+          "stock_name": "中国中免",
+          "industry": "商务服务业",
+          "route": "预期差/补涨",
+          "action": "rotate_into",
+          "final_score": 0.3422,
+          "regime": 0.0,
+          "mainline": 0.0,
+          "catalyst": 0.2646,
+          "flow": 0.9552,
+          "filter_quality": 0.68,
+          "thesis": "S10 ma long 0.24: 601888，宣布重要收购！ | 机构共振 long 0.80, catch-up gap=19.80% | 历史桶质量较强 (+0.20)"
+        },
+        {
+          "stock_code": "601012",
+          "stock_name": "隆基绿能",
+          "industry": "电气机械和器材制造业",
+          "route": "主线趋势多头",
+          "action": "open_long",
+          "final_score": 0.285,
+          "regime": 0.765,
+          "mainline": 0.55,
+          "catalyst": 0.0,
+          "flow": 0.0,
+          "filter_quality": 0.56,
+          "thesis": "电力设备 轮动信号 long 0.85 | 光伏储能 扩散期 long 0.55 | 最近 3 条事件进入观察池 | 多阶段方向一致"
+        },
+        {
+          "stock_code": "002230",
+          "stock_name": "科大讯飞",
+          "industry": "软件和信息技术服务业",
+          "route": "事件驱动多头",
+          "action": "probe_long",
+          "final_score": 0.2144,
+          "regime": 0.0,
+          "mainline": 0.0,
+          "catalyst": 0.22,
+          "flow": 0.5609,
+          "filter_quality": 0.56,
+          "thesis": "S10 earnings_shock long 0.22: 业绩预喜！002230 直线涨停 | 机构共振 long 0.51, catch-up gap=5.64% | 多阶段方向一致"
+        },
+        {
+          "stock_code": "603259",
+          "stock_name": "药明康德",
+          "industry": "研究和试验发展",
+          "route": "预期差/补涨",
+          "action": "rotate_into",
+          "final_score": 0.162,
+          "regime": 0.0,
+          "mainline": 0.0,
+          "catalyst": 0.0,
+          "flow": 0.6752,
+          "filter_quality": 0.5,
+          "thesis": "最近 3 条事件进入观察池 | 机构共振 long 0.58, catch-up gap=9.25%"
+        },
+        {
+          "stock_code": "601318",
+          "stock_name": "中国平安",
+          "industry": "保险业",
+          "route": "预期差/补涨",
+          "action": "rotate_into",
+          "final_score": 0.1552,
+          "regime": 0.0,
+          "mainline": 0.0,
+          "catalyst": 0.0,
+          "flow": 0.6682,
+          "filter_quality": 0.42,
+          "thesis": "最近 4 条事件进入观察池 | 机构共振 long 0.58, catch-up gap=9.04% | 图谱结构偏弱 (rank 8/10)"
+        },
+        {
+          "stock_code": "600030",
+          "stock_name": "中信证券",
+          "industry": "资本市场服务",
+          "route": "预期差/补涨",
+          "action": "rotate_into",
+          "final_score": 0.1474,
+          "regime": 0.0,
+          "mainline": 0.0,
+          "catalyst": 0.0,
+          "flow": 0.6143,
+          "filter_quality": 0.5,
+          "thesis": "最近 4 条事件进入观察池 | 机构共振 long 0.55, catch-up gap=7.36%"
+        },
+        {
+          "stock_code": "000568",
+          "stock_name": "泸州老窖",
+          "industry": "酒、饮料和精制茶制造业",
+          "route": "预期差/补涨",
+          "action": "rotate_into",
+          "final_score": 0.1454,
+          "regime": 0.0,
+          "mainline": 0.0,
+          "catalyst": 0.0,
+          "flow": 0.6058,
+          "filter_quality": 0.5,
+          "thesis": "Shock scandal hop=1 neutral 0.55 | 机构共振 long 0.54, catch-up gap=7.09%"
+        }
+      ],
+      "avoid_overlay": [
+        {
+          "stock_code": "002594",
+          "stock_name": "比亚迪",
+          "industry": "汽车制造业",
+          "route": "主题降温回避",
+          "action": "reduce_or_avoid",
+          "final_score": -0.2171,
+          "regime": 0.0,
+          "mainline": -0.108,
+          "catalyst": 0.0,
+          "flow": -0.7476,
+          "filter_quality": 0.7,
+          "thesis": "新能源汽车 成熟期 avoid 0.54 | 最近 2 条事件进入观察池 | 机构共振 avoid 0.75, catch-up gap=-17.38% | 图谱结构靠前 (rank 1/10)"
+        },
+        {
+          "stock_code": "000596",
+          "stock_name": "古井贡酒",
+          "industry": "酒、饮料和精制茶制造业",
+          "route": "事件防守/回避",
+          "action": "avoid_or_hedge",
+          "final_score": -0.1863,
+          "regime": 0.0,
+          "mainline": 0.0,
+          "catalyst": -0.548,
+          "flow": 0.0,
+          "filter_quality": 0.5,
+          "thesis": "Shock scandal hop=1 avoid 0.58"
+        },
+        {
+          "stock_code": "600059",
+          "stock_name": "古越龙山",
+          "industry": "",
+          "route": "事件防守/回避",
+          "action": "avoid_or_hedge",
+          "final_score": -0.1651,
+          "regime": 0.0,
+          "mainline": 0.0,
+          "catalyst": -0.4856,
+          "flow": 0.0,
+          "filter_quality": 0.5,
+          "thesis": "Shock scandal hop=2 avoid 0.61"
+        },
+        {
+          "stock_code": "002714",
+          "stock_name": "牧原股份",
+          "industry": "畜牧业",
+          "route": "主题降温回避",
+          "action": "reduce_or_avoid",
+          "final_score": -0.1528,
+          "regime": 0.0,
+          "mainline": 0.0,
+          "catalyst": 0.0,
+          "flow": -0.6367,
+          "filter_quality": 0.5,
+          "thesis": "最近 2 条事件进入观察池 | 机构共振 avoid 0.64, catch-up gap=-11.83%"
+        },
+        {
+          "stock_code": "600809",
+          "stock_name": "山西汾酒",
+          "industry": "酒、饮料和精制茶制造业",
+          "route": "事件防守/回避",
+          "action": "avoid_or_hedge",
+          "final_score": -0.1519,
+          "regime": 0.0,
+          "mainline": 0.0,
+          "catalyst": -0.4467,
+          "flow": 0.0,
+          "filter_quality": 0.5,
+          "thesis": "Shock scandal hop=2 avoid 0.56"
+        }
+      ],
+      "watchlist": [
+        {
+          "stock_code": "601728",
+          "stock_name": "中国电信",
+          "industry": "电信、广播电视和卫星传输服务",
+          "route": "观察池",
+          "action": "watchlist",
+          "final_score": -0.1405,
+          "regime": 0.0,
+          "mainline": 0.0,
+          "catalyst": 0.0,
+          "flow": -0.5853,
+          "filter_quality": 0.5,
+          "thesis": "机构共振 avoid 0.59, catch-up gap=-9.26%"
+        },
+        {
+          "stock_code": "600309",
+          "stock_name": "万华化学",
+          "industry": "化学原料和化学制品制造业",
+          "route": "观察池",
+          "action": "watchlist",
+          "final_score": 0.1395,
+          "regime": 0.0,
+          "mainline": 0.0,
+          "catalyst": 0.0,
+          "flow": 0.5814,
+          "filter_quality": 0.5,
+          "thesis": "最近 11 条事件进入观察池 | 机构共振 long 0.53, catch-up gap=6.31%"
+        },
+        {
+          "stock_code": "601390",
+          "stock_name": "中国中铁",
+          "industry": "土木工程建筑业",
+          "route": "观察池",
+          "action": "watchlist",
+          "final_score": -0.1312,
+          "regime": 0.0,
+          "mainline": 0.0,
+          "catalyst": 0.0,
+          "flow": -0.5468,
+          "filter_quality": 0.5,
+          "thesis": "机构共振 avoid 0.55, catch-up gap=-7.34%"
+        },
+        {
+          "stock_code": "600900",
+          "stock_name": "长江电力",
+          "industry": "电力、热力生产和供应业",
+          "route": "观察池",
+          "action": "watchlist",
+          "final_score": -0.1294,
+          "regime": 0.0,
+          "mainline": 0.0,
+          "catalyst": 0.0,
+          "flow": -0.539,
+          "filter_quality": 0.5,
+          "thesis": "机构共振 avoid 0.54, catch-up gap=-6.95%"
+        },
+        {
+          "stock_code": "000858",
+          "stock_name": "五 粮 液",
+          "industry": "酒、饮料和精制茶制造业",
+          "route": "观察池",
+          "action": "watchlist",
+          "final_score": -0.1152,
+          "regime": 0.0,
+          "mainline": 0.0,
+          "catalyst": -0.35,
+          "flow": 0.0,
+          "filter_quality": 0.42,
+          "thesis": "S10 scandal avoid 0.35: 五粮液董事长曾从钦被立案调查 | 图谱结构偏弱 (rank 9/10)"
+        },
+        {
+          "stock_code": "600519",
+          "stock_name": "贵州茅台",
+          "industry": "酒、饮料和精制茶制造业",
+          "route": "观察池",
+          "action": "watchlist",
+          "final_score": -0.0884,
+          "regime": 0.0,
+          "mainline": 0.0,
+          "catalyst": -0.2685,
+          "flow": 0.0,
+          "filter_quality": 0.42,
+          "thesis": "Shock scandal hop=1 avoid 0.28 | 图谱结构偏弱 (rank 10/10)"
+        },
+        {
+          "stock_code": "600760",
+          "stock_name": "中航沈飞",
+          "industry": "铁路、船舶、航空航天和其他运输设备制造业",
+          "route": "观察池",
+          "action": "watchlist",
+          "final_score": 0.027,
+          "regime": -0.495,
+          "mainline": 0.0,
+          "catalyst": 0.0,
+          "flow": 0.5708,
+          "filter_quality": 0.4,
+          "thesis": "国防军工 轮动信号 avoid 0.55 | 机构共振 long 0.52, catch-up gap=5.96% | 多阶段方向冲突，降低优先级"
+        },
+        {
+          "stock_code": "300750",
+          "stock_name": "宁德时代",
+          "industry": "电气机械和器材制造业",
+          "route": "观察池",
+          "action": "watchlist",
+          "final_score": -0.0176,
+          "regime": 0.765,
+          "mainline": -0.108,
+          "catalyst": 0.0,
+          "flow": -0.6835,
+          "filter_quality": 0.54,
+          "thesis": "电力设备 轮动信号 long 0.85 | 新能源汽车 成熟期 avoid 0.54 | 最近 2 条事件进入观察池 | 机构共振 avoid 0.68, catch-up gap=-14.18%"
+        }
+      ]
+    },
+    "line_validation": {
+      "sub_lines": [
+        {
+          "line_id": "event_continuation",
+          "label": "事件延续",
+          "stage": "catalyst",
+          "validation_mode": "strict_wf",
+          "role": "防守/overlay",
+          "monetization_path": "负向 continuation 优先货币化为减仓、回避、新仓过滤与对冲篮子；正向只做精选 source-event probe long。",
+          "signal_sources": [
+            "/Users/xukun/Documents/freqtrade/MiroFish/astrategy/.data/reports/shock_wf_signals_20260320_local_refresh.json",
+            "/Users/xukun/Documents/freqtrade/MiroFish/astrategy/.data/reports/shock_wf_backtest_20260320_local_refresh.md"
+          ],
+          "component_counts": {
+            "shock_signals": 321
+          },
+          "signal_count": 321,
+          "oos_evals": 28,
+          "holding_days": 5.0,
+          "history_span_days": 136,
+          "min_backtest_span_days": 730,
+          "wf_sharpe": 2.5,
+          "is_sharpe": 1.11,
+          "all_sharpe": 1.24,
+          "hit_rate": 0.8571,
+          "avg_return": 0.0188,
+          "annualized_proxy_simple": 0.9475,
+          "annualized_proxy_compound": 1.5567,
+          "status": "历史不足2年，不出最终结论",
+          "notes": "历史跨度只有 136 天，未达到两年门槛 (730 天)。 OOS 有效样本仍偏少，但当前是仓库内最严格的事件线验证。 当前 alpha 主要来自方向调整后的 continuation，不是裸多头收益。"
+        },
+        {
+          "line_id": "flow_expectation",
+          "label": "资金/预期差",
+          "stage": "flow_expectation",
+          "validation_mode": "authoritative_missing",
+          "role": "轮动副引擎",
+          "monetization_path": "机构共振与预期差补涨轮动；顺主线做 catch-up，不逆着主线硬做左侧抄底。",
+          "signal_sources": [
+            "/Users/xukun/Documents/freqtrade/MiroFish/astrategy/.data/authoritative_archive/signals/institution_association",
+            "/Users/xukun/Documents/freqtrade/MiroFish/astrategy/.data/authoritative_archive/signals/analyst_divergence"
+          ],
+          "component_counts": {
+            "institution_association_signal_dates": 2,
+            "institution_association_factor_dates": 2,
+            "analyst_divergence_signal_dates": 2,
+            "analyst_divergence_factor_dates": 2,
+            "earnings_surprise_signal_dates": 0,
+            "earnings_surprise_factor_dates": 0
+          },
+          "signal_count": 36,
+          "oos_evals": 0,
+          "holding_days": [],
+          "wf_sharpe": null,
+          "is_sharpe": null,
+          "all_sharpe": null,
+          "hit_rate": null,
+          "avg_return": null,
+          "annualized_proxy_simple": null,
+          "annualized_proxy_compound": null,
+          "status": "缺历史，不出结论",
+          "notes": "institution_association: signal_dates=2, factor_dates=2, strict_ready=False | analyst_divergence: signal_dates=2, factor_dates=2, strict_ready=False | earnings_surprise: signal_dates=0, factor_dates=0, strict_ready=False"
+        },
+        {
+          "line_id": "sentiment_catalyst",
+          "label": "情绪催化",
+          "stage": "catalyst",
+          "validation_mode": "authoritative_missing",
+          "role": "短线催化器",
+          "monetization_path": "事件触发单与观察池晋级；只有在主线或资金共振时才放大仓位，单独使用以试单为主。",
+          "signal_sources": [
+            "/Users/xukun/Documents/freqtrade/MiroFish/astrategy/.data/authoritative_archive/signals/sentiment_simulation"
+          ],
+          "component_counts": {
+            "sentiment_simulation_signal_dates": 2,
+            "sentiment_simulation_factor_dates": 2
+          },
+          "signal_count": 4,
+          "oos_evals": 0,
+          "holding_days": [],
+          "wf_sharpe": null,
+          "is_sharpe": null,
+          "all_sharpe": null,
+          "hit_rate": null,
+          "avg_return": null,
+          "annualized_proxy_simple": null,
+          "annualized_proxy_compound": null,
+          "status": "缺历史，不出结论",
+          "notes": "sentiment_simulation: signal_dates=2, factor_dates=2, strict_ready=False"
+        },
+        {
+          "line_id": "graph_filter",
+          "label": "图谱过滤",
+          "stage": "graph_sentiment_filter",
+          "validation_mode": "authoritative_missing",
+          "role": "过滤与加权器",
+          "monetization_path": "只用于候选筛选、仓位加权和补涨线索发掘，不单独裸开仓。",
+          "signal_sources": [
+            "/Users/xukun/Documents/freqtrade/MiroFish/astrategy/.data/authoritative_archive/signals/graph_factors"
+          ],
+          "component_counts": {
+            "graph_factors_signal_dates": 3,
+            "graph_factors_factor_dates": 3
+          },
+          "signal_count": 830,
+          "oos_evals": 0,
+          "holding_days": [],
+          "wf_sharpe": null,
+          "is_sharpe": null,
+          "all_sharpe": null,
+          "hit_rate": null,
+          "avg_return": null,
+          "annualized_proxy_simple": null,
+          "annualized_proxy_compound": null,
+          "status": "缺历史，不出结论",
+          "notes": "graph_factors: signal_dates=3, factor_dates=3, strict_ready=False"
+        },
+        {
+          "line_id": "mainline_narrative",
+          "label": "主线叙事",
+          "stage": "mainline",
+          "validation_mode": "authoritative_missing",
+          "role": "进攻主引擎",
+          "monetization_path": "围绕主线龙头与补涨梯队分层开仓；进入衰退阶段时切回减仓与观察池。",
+          "signal_sources": [
+            "/Users/xukun/Documents/freqtrade/MiroFish/astrategy/.data/authoritative_archive/signals/narrative_tracker"
+          ],
+          "component_counts": {
+            "narrative_tracker_signal_dates": 1,
+            "narrative_tracker_factor_dates": 1
+          },
+          "signal_count": 4,
+          "oos_evals": 0,
+          "holding_days": [],
+          "wf_sharpe": null,
+          "is_sharpe": null,
+          "all_sharpe": null,
+          "hit_rate": null,
+          "avg_return": null,
+          "annualized_proxy_simple": null,
+          "annualized_proxy_compound": null,
+          "status": "缺历史，不出结论",
+          "notes": "narrative_tracker: signal_dates=1, factor_dates=1, strict_ready=False"
+        },
+        {
+          "line_id": "regime_rotation",
+          "label": "Regime 轮动",
+          "stage": "regime",
+          "validation_mode": "authoritative_missing",
+          "role": "战场选择器",
+          "monetization_path": "行业ETF/板块龙头轮动；收缩期优先高景气龙头，弱势行业做减仓与禁入。",
+          "signal_sources": [
+            "/Users/xukun/Documents/freqtrade/MiroFish/astrategy/.data/authoritative_archive/signals/sector_rotation"
+          ],
+          "component_counts": {
+            "sector_rotation_signal_dates": 2,
+            "sector_rotation_factor_dates": 2
+          },
+          "signal_count": 8,
+          "oos_evals": 0,
+          "holding_days": [],
+          "wf_sharpe": null,
+          "is_sharpe": null,
+          "all_sharpe": null,
+          "hit_rate": null,
+          "avg_return": null,
+          "annualized_proxy_simple": null,
+          "annualized_proxy_compound": null,
+          "status": "缺历史，不出结论",
+          "notes": "sector_rotation: signal_dates=2, factor_dates=2, strict_ready=False"
+        }
+      ],
+      "route_focus": [],
+      "deferred_lines": [
+        "资金/预期差",
+        "情绪催化",
+        "图谱过滤",
+        "主线叙事",
+        "Regime 轮动"
+      ]
+    }
+  }
+}

@@ -1,0 +1,167 @@
+{
+  "strategy_name": "sector_rotation",
+  "line_id": "regime_rotation",
+  "line_label": "Regime 轮动",
+  "cadence": "weekly",
+  "as_of_date": "20260317",
+  "source_path": "/Users/xukun/Documents/freqtrade/MiroFish/astrategy/.data/signals/sector_rotation/20260317.json",
+  "run_context": "backfill",
+  "authoritative": true,
+  "generated_at": "2026-03-20T16:37:44.494697+08:00",
+  "signal_count": 4,
+  "directional_signal_count": 4,
+  "records": [
+    {
+      "strategy_name": "sector_rotation",
+      "stock_code": "300750",
+      "stock_name": "宁德时代",
+      "direction": "long",
+      "confidence": 0.85,
+      "expected_return": 0.1,
+      "holding_period_days": 10,
+      "reasoning": "近期涨幅领先，相对强度高，成交量放大，受益于政策支持（如新能源基建）和流动性宽松，在衰退期具有防御性增长属性; 风险: 政策补贴退坡风险, 原材料价格波动",
+      "metadata": {
+        "industry": "电力设备",
+        "industry_return_5d": 8.95,
+        "industry_return_10d": 12.98,
+        "industry_return_20d": 10.7,
+        "macro_phase": "contraction",
+        "north_flow_trend": "unknown",
+        "llm_reasoning": "资金从前期涨幅较大或与经济周期敏感度高的行业（如有色金属、计算机）流出，转向高股息防御板块（如煤炭）和政策受益板块（如电力设备），风格偏向价值型  风格切换: 成长→价值",
+        "recommended_industries": [
+          "电力设备",
+          "煤炭"
+        ],
+        "avoid_industries": [
+          "有色金属",
+          "传媒",
+          "计算机",
+          "石油石化",
+          "国防军工"
+        ],
+        "action": "超配",
+        "weight_suggestion": 0.15
+      },
+      "timestamp": "2026-03-17T15:54:28.043490+08:00",
+      "expires_at": "2026-03-27T15:54:28.043490+08:00",
+      "as_of_date": "20260317",
+      "signal_date": "2026-03-17",
+      "signed_direction": 0.85,
+      "direction_score": 1
+    },
+    {
+      "strategy_name": "sector_rotation",
+      "stock_code": "601012",
+      "stock_name": "隆基绿能",
+      "direction": "long",
+      "confidence": 0.85,
+      "expected_return": 0.1,
+      "holding_period_days": 10,
+      "reasoning": "近期涨幅领先，相对强度高，成交量放大，受益于政策支持（如新能源基建）和流动性宽松，在衰退期具有防御性增长属性; 风险: 政策补贴退坡风险, 原材料价格波动",
+      "metadata": {
+        "industry": "电力设备",
+        "industry_return_5d": 8.95,
+        "industry_return_10d": 12.98,
+        "industry_return_20d": 10.7,
+        "macro_phase": "contraction",
+        "north_flow_trend": "unknown",
+        "llm_reasoning": "资金从前期涨幅较大或与经济周期敏感度高的行业（如有色金属、计算机）流出，转向高股息防御板块（如煤炭）和政策受益板块（如电力设备），风格偏向价值型  风格切换: 成长→价值",
+        "recommended_industries": [
+          "电力设备",
+          "煤炭"
+        ],
+        "avoid_industries": [
+          "有色金属",
+          "传媒",
+          "计算机",
+          "石油石化",
+          "国防军工"
+        ],
+        "action": "超配",
+        "weight_suggestion": 0.15
+      },
+      "timestamp": "2026-03-17T15:54:28.043512+08:00",
+      "expires_at": "2026-03-27T15:54:28.043512+08:00",
+      "as_of_date": "20260317",
+      "signal_date": "2026-03-17",
+      "signed_direction": 0.85,
+      "direction_score": 1
+    },
+    {
+      "strategy_name": "sector_rotation",
+      "stock_code": "601088",
+      "stock_name": "中国神华",
+      "direction": "long",
+      "confidence": 0.85,
+      "expected_return": 0.065,
+      "holding_period_days": 10,
+      "reasoning": "高股息防御板块，20日涨幅显著，在衰退期提供稳定现金流，受益于能源安全政策和低估值修复; 风险: 需求下滑风险, 环保政策收紧",
+      "metadata": {
+        "industry": "煤炭",
+        "industry_return_5d": 1.45,
+        "industry_return_10d": 9.81,
+        "industry_return_20d": 26.39,
+        "macro_phase": "contraction",
+        "north_flow_trend": "unknown",
+        "llm_reasoning": "资金从前期涨幅较大或与经济周期敏感度高的行业（如有色金属、计算机）流出，转向高股息防御板块（如煤炭）和政策受益板块（如电力设备），风格偏向价值型  风格切换: 成长→价值",
+        "recommended_industries": [
+          "电力设备",
+          "煤炭"
+        ],
+        "avoid_industries": [
+          "有色金属",
+          "传媒",
+          "计算机",
+          "石油石化",
+          "国防军工"
+        ],
+        "action": "超配",
+        "weight_suggestion": 0.12
+      },
+      "timestamp": "2026-03-17T15:54:33.235123+08:00",
+      "expires_at": "2026-03-27T15:54:33.235123+08:00",
+      "as_of_date": "20260317",
+      "signal_date": "2026-03-17",
+      "signed_direction": 0.85,
+      "direction_score": 1
+    },
+    {
+      "strategy_name": "sector_rotation",
+      "stock_code": "600760",
+      "stock_name": "中航沈飞",
+      "direction": "avoid",
+      "confidence": 0.55,
+      "expected_return": 0.01,
+      "holding_period_days": 10,
+      "reasoning": "短期跌幅显著，成交量下降，在衰退期可能受财政支出压力影响，行业轮动偏向防御板块; 风险: 订单延迟风险, 估值偏高",
+      "metadata": {
+        "industry": "国防军工",
+        "industry_return_5d": -7.18,
+        "industry_return_10d": -10.98,
+        "industry_return_20d": 3.35,
+        "macro_phase": "contraction",
+        "north_flow_trend": "unknown",
+        "llm_reasoning": "资金从前期涨幅较大或与经济周期敏感度高的行业（如有色金属、计算机）流出，转向高股息防御板块（如煤炭）和政策受益板块（如电力设备），风格偏向价值型  风格切换: 成长→价值",
+        "recommended_industries": [
+          "电力设备",
+          "煤炭"
+        ],
+        "avoid_industries": [
+          "有色金属",
+          "传媒",
+          "计算机",
+          "石油石化",
+          "国防军工"
+        ],
+        "action": "低配",
+        "weight_suggestion": 0.04
+      },
+      "timestamp": "2026-03-17T15:54:50.836253+08:00",
+      "expires_at": "2026-03-27T15:54:50.836253+08:00",
+      "as_of_date": "20260317",
+      "signal_date": "2026-03-17",
+      "signed_direction": -0.55,
+      "direction_score": -1
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "generated_at": "2026-03-20T17:24:42.576861",
+  "anchor_date": "2026-03-19",
+  "required_start_date": "2024-03-20",
+  "required_span_days": 730,
+  "universe_id": "csi800",
+  "components": {
+    "prices": {
+      "component": "prices",
+      "path": "/Users/xukun/Documents/freqtrade/MiroFish/astrategy/.data/datahub/market/daily",
+      "file_count": 800,
+      "populated_file_count": 800,
+      "two_year_ready_files": 789,
+      "first_date": "2024-03-20",
+      "last_date": "2026-03-19",
+      "span_days": 729,
+      "two_year_ready": false,
+      "notes": "789/800 个本地价格文件覆盖 2024-03-20 -> 2026-03-19"
+    },
+    "news": {
+      "component": "news",
+      "path": "/Users/xukun/Documents/freqtrade/MiroFish/astrategy/.data/datahub/ingest/news/by_ticker",
+      "file_count": 838,
+      "populated_file_count": 800,
+      "date_value_count": 1884,
+      "first_date": "2025-10-30",
+      "last_date": "2026-03-19",
+      "span_days": 140,
+      "two_year_ready": false,
+      "notes": "公司新闻按 ticker 存档，当前是增量最近新闻而不是完整历史新闻库。"
+    },
+    "filings": {
+      "component": "filings",
+      "path": "/Users/xukun/Documents/freqtrade/MiroFish/astrategy/.data/datahub/ingest/filings/by_ticker",
+      "file_count": 800,
+      "populated_file_count": 661,
+      "date_value_count": 1709,
+      "first_date": "2026-02-24",
+      "last_date": "2026-03-19",
+      "span_days": 23,
+      "two_year_ready": false,
+      "notes": "公告层当前默认是 rolling window，不是两年全量归档。"
+    },
+    "sentiment": {
+      "component": "sentiment",
+      "path": "/Users/xukun/Documents/freqtrade/MiroFish/astrategy/.data/datahub/ingest/sentiment/by_ticker",
+      "file_count": 800,
+      "populated_file_count": 800,
+      "date_value_count": 3827,
+      "first_date": "2025-10-30",
+      "last_date": "2026-03-19",
+      "span_days": 140,
+      "two_year_ready": false,
+      "notes": "情绪层是 ingest 当天快照聚合，不是连续两年日历快照。"
+    },
+    "events": {
+      "component": "events",
+      "path": "/Users/xukun/Documents/freqtrade/MiroFish/astrategy/.data/datahub/ingest/events/event_master.json",
+      "file_count": 1,
+      "populated_file_count": 1,
+      "date_value_count": 52,
+      "first_date": "2025-10-30",
+      "last_date": "2026-03-19",
+      "span_days": 140,
+      "two_year_ready": false,
+      "notes": "事件主表来自当前增量事件汇总，历史跨度受上游公告/新闻窗口约束。"
+    },
+    "graph": {
+      "component": "graph",
+      "path": "/Users/xukun/Documents/freqtrade/MiroFish/astrategy/.data/datahub/graph/graph_manifest.json",
+      "file_count": 1,
+      "populated_file_count": 1,
+      "date_value_count": 1,
+      "first_date": "2026-03-19",
+      "last_date": "2026-03-19",
+      "span_days": 0,
+      "two_year_ready": false,
+      "notes": "图谱层当前是单日状态快照，不是两年连续历史图谱。"
+    }
+  }
+}

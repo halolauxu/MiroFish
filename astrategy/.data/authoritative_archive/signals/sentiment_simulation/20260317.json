@@ -1,0 +1,309 @@
+{
+  "strategy_name": "sentiment_simulation",
+  "line_id": "sentiment_catalyst",
+  "line_label": "情绪催化",
+  "cadence": "daily",
+  "as_of_date": "20260317",
+  "source_path": "/Users/xukun/Documents/freqtrade/MiroFish/astrategy/.data/signals/sentiment_simulation/20260317.json",
+  "run_context": "backfill",
+  "authoritative": true,
+  "generated_at": "2026-03-20T16:37:44.498842+08:00",
+  "signal_count": 3,
+  "directional_signal_count": 3,
+  "records": [
+    {
+      "strategy_name": "sentiment_simulation",
+      "stock_code": "000858",
+      "stock_name": "五粮液",
+      "direction": "avoid",
+      "confidence": 0.35,
+      "expected_return": -0.0128,
+      "holding_period_days": 7,
+      "reasoning": "[多轮]事件: 五粮液董事长曾从钦被立案调查; 模拟共识: watch(-0.10) 趋势:情绪消退; 一致性: 高(conviction=0.68); 实际涨跌: +0.00%; [叙事]消费复苏(扩散期)",
+      "metadata": {
+        "event_title": "五粮液董事长曾从钦被立案调查",
+        "event_type": "scandal",
+        "simulated_sentiment": -0.1015,
+        "simulated_action": "watch",
+        "conviction_level": 0.6818,
+        "agent_reactions": {
+          "游资/短线客": {
+            "action": "sell",
+            "urgency": "immediate",
+            "size": "heavy",
+            "sentiment": -0.9,
+            "reasoning": "董事长立案调查是重大负面消息，可能引发恐慌性抛售。游资将利用情绪差，快速做空或打板博弈，追求跌停机会，高换手交易。"
+          },
+          "量化基金": {
+            "action": "hold",
+            "urgency": "wait_for_confirmation",
+            "size": "moderate",
+            "sentiment": 0.0,
+            "reasoning": "数据驱动，立案调查事件可能引发股价异常波动。量化基金将监控波动率和动量因子，若股价偏离均值超出历史范围，可能反向操作，但需等待模型信号确认。"
+          },
+          "趋势跟随者": {
+            "action": "watch",
+            "urgency": "wait_for_confirmation",
+            "size": "light",
+            "sentiment": 0.0,
+            "reasoning": "模拟结果缺失，默认观望"
+          },
+          "散户": {
+            "action": "watch",
+            "urgency": "wait_for_confirmation",
+            "size": "light",
+            "sentiment": 0.0,
+            "reasoning": "模拟结果缺失，默认观望"
+          },
+          "公募基金经理": {
+            "action": "watch",
+            "urgency": "wait_for_confirmation",
+            "size": "light",
+            "sentiment": 0.0,
+            "reasoning": "模拟结果缺失，默认观望"
+          },
+          "价值投资者": {
+            "action": "watch",
+            "urgency": "wait_for_confirmation",
+            "size": "light",
+            "sentiment": 0.0,
+            "reasoning": "模拟结果缺失，默认观望"
+          }
+        },
+        "actual_market_reaction": 0.0,
+        "reality_gap": 1.28,
+        "opportunity_type": "none",
+        "llm_reasoning": "[游资/短线客] sell: 董事长立案调查是重大负面消息，可能引发恐慌性抛售。游资将利用情绪差，快速做空或打板博弈，追求跌停机会，高换手交易。\n[量化基金] hold: 数据驱动，立案调查事件可能引发股价异常波动。量化基金将监控波动率和动量因子，若股价偏离均值超出历史范围，可能反向操作，但需等待模型信号确认。\n[趋势跟随者] watch: 模拟结果缺失，默认观望\n[散户] watch: 模拟结果缺失，默认观望\n[公募基金经理] watch: 模拟结果缺失，默认观望\n[价值投资者] watch: 模拟结果缺失，默认观望",
+        "multi_round": true,
+        "round_sentiments": {
+          "round1": -0.45,
+          "round2": 0.0,
+          "round3": 0.0
+        },
+        "simulation_trend": "fading",
+        "round_reactions": {
+          "round1": [
+            "游资/短线客=sell",
+            "量化基金=hold"
+          ],
+          "round2": [
+            "趋势跟随者=watch",
+            "散户=watch"
+          ],
+          "round3": [
+            "公募基金经理=watch",
+            "价值投资者=watch"
+          ]
+        },
+        "graph_context_used": false,
+        "narrative_phase": "扩散期",
+        "narrative_name": "消费复苏",
+        "narrative_evidence": "moderate",
+        "announcement_inflection": false,
+        "announcement_trend": ""
+      },
+      "timestamp": "2026-03-17T18:08:28.207108+08:00",
+      "expires_at": "2026-03-24T18:08:28.207108+08:00",
+      "as_of_date": "20260317",
+      "signal_date": "2026-03-17",
+      "signed_direction": -0.35,
+      "direction_score": -1
+    },
+    {
+      "strategy_name": "sentiment_simulation",
+      "stock_code": "002230",
+      "stock_name": "科大讯飞",
+      "direction": "long",
+      "confidence": 0.22,
+      "expected_return": 0.0075,
+      "holding_period_days": 7,
+      "reasoning": "[多轮]事件: 业绩预喜！002230 直线涨停; 模拟共识: watch(+0.05) 趋势:情绪消退; 一致性: 低(conviction=0.77); 实际涨跌: +0.00%",
+      "metadata": {
+        "event_title": "业绩预喜！002230 直线涨停",
+        "event_type": "earnings_shock",
+        "simulated_sentiment": 0.0508,
+        "simulated_action": "watch",
+        "conviction_level": 0.7702,
+        "agent_reactions": {
+          "游资/短线客": {
+            "action": "buy",
+            "urgency": "immediate",
+            "size": "heavy",
+            "sentiment": 0.95,
+            "reasoning": "业绩预喜驱动涨停，符合事件驱动策略。已打板买入，预期次日高开或连板，利用A股T+1机制博弈短期溢价，关注市场情绪亢奋度。"
+          },
+          "量化基金": {
+            "action": "sell",
+            "urgency": "within_days",
+            "size": "moderate",
+            "sentiment": -0.3,
+            "reasoning": "涨停导致股价异常偏离历史均值，触发均值回归模型。量化系统识别为短期波动率异常，可能反向操作以平衡因子暴露，不受情绪影响。"
+          },
+          "趋势跟随者": {
+            "action": "watch",
+            "urgency": "wait_for_confirmation",
+            "size": "light",
+            "sentiment": 0.0,
+            "reasoning": "模拟结果缺失，默认观望"
+          },
+          "散户": {
+            "action": "watch",
+            "urgency": "wait_for_confirmation",
+            "size": "light",
+            "sentiment": 0.0,
+            "reasoning": "模拟结果缺失，默认观望"
+          },
+          "公募基金经理": {
+            "action": "watch",
+            "urgency": "wait_for_confirmation",
+            "size": "light",
+            "sentiment": 0.0,
+            "reasoning": "模拟结果缺失，默认观望"
+          },
+          "价值投资者": {
+            "action": "watch",
+            "urgency": "wait_for_confirmation",
+            "size": "light",
+            "sentiment": 0.0,
+            "reasoning": "模拟结果缺失，默认观望"
+          }
+        },
+        "actual_market_reaction": 0.0,
+        "reality_gap": -0.75,
+        "opportunity_type": "none",
+        "llm_reasoning": "[游资/短线客] buy: 业绩预喜驱动涨停，符合事件驱动策略。已打板买入，预期次日高开或连板，利用A股T+1机制博弈短期溢价，关注市场情绪亢奋度。\n[量化基金] sell: 涨停导致股价异常偏离历史均值，触发均值回归模型。量化系统识别为短期波动率异常，可能反向操作以平衡因子暴露，不受情绪影响。\n[趋势跟随者] watch: 模拟结果缺失，默认观望\n[散户] watch: 模拟结果缺失，默认观望\n[公募基金经理] watch: 模拟结果缺失，默认观望\n[价值投资者] watch: 模拟结果缺失，默认观望",
+        "multi_round": true,
+        "round_sentiments": {
+          "round1": 0.32499999999999996,
+          "round2": 0.0,
+          "round3": 0.0
+        },
+        "simulation_trend": "fading",
+        "round_reactions": {
+          "round1": [
+            "游资/短线客=buy",
+            "量化基金=sell"
+          ],
+          "round2": [
+            "趋势跟随者=watch",
+            "散户=watch"
+          ],
+          "round3": [
+            "公募基金经理=watch",
+            "价值投资者=watch"
+          ]
+        },
+        "graph_context_used": false,
+        "narrative_phase": "",
+        "narrative_name": "",
+        "narrative_evidence": "",
+        "announcement_inflection": false,
+        "announcement_trend": ""
+      },
+      "timestamp": "2026-03-17T18:08:34.601215+08:00",
+      "expires_at": "2026-03-24T18:08:34.601215+08:00",
+      "as_of_date": "20260317",
+      "signal_date": "2026-03-17",
+      "signed_direction": 0.22,
+      "direction_score": 1
+    },
+    {
+      "strategy_name": "sentiment_simulation",
+      "stock_code": "601888",
+      "stock_name": "中国中免",
+      "direction": "long",
+      "confidence": 0.24,
+      "expected_return": 0.0113,
+      "holding_period_days": 7,
+      "reasoning": "[多轮]事件: 601888，宣布重要收购！; 模拟共识: watch(+0.06) 趋势:情绪消退; 一致性: 低(conviction=0.75); 实际涨跌: +0.00%; [叙事]消费复苏(扩散期)",
+      "metadata": {
+        "event_title": "601888，宣布重要收购！",
+        "event_type": "ma",
+        "simulated_sentiment": 0.0639,
+        "simulated_action": "watch",
+        "conviction_level": 0.7525,
+        "agent_reactions": {
+          "游资/短线客": {
+            "action": "buy",
+            "urgency": "immediate",
+            "size": "heavy",
+            "sentiment": 0.9,
+            "reasoning": "重大收购事件驱动，第一时间抢筹博弈涨停板，利用市场情绪热度，预期短期快速上涨，次日可能高抛或打板操作。"
+          },
+          "量化基金": {
+            "action": "watch",
+            "urgency": "wait_for_confirmation",
+            "size": "light",
+            "sentiment": -0.2,
+            "reasoning": "系统模型未触发买入信号，关注股价波动率异常和因子有效性，可能等待数据稳定后入场或反向操作均值回归。"
+          },
+          "趋势跟随者": {
+            "action": "watch",
+            "urgency": "wait_for_confirmation",
+            "size": "light",
+            "sentiment": 0.0,
+            "reasoning": "模拟结果缺失，默认观望"
+          },
+          "散户": {
+            "action": "watch",
+            "urgency": "wait_for_confirmation",
+            "size": "light",
+            "sentiment": 0.0,
+            "reasoning": "模拟结果缺失，默认观望"
+          },
+          "公募基金经理": {
+            "action": "watch",
+            "urgency": "wait_for_confirmation",
+            "size": "light",
+            "sentiment": 0.0,
+            "reasoning": "模拟结果缺失，默认观望"
+          },
+          "价值投资者": {
+            "action": "watch",
+            "urgency": "wait_for_confirmation",
+            "size": "light",
+            "sentiment": 0.0,
+            "reasoning": "模拟结果缺失，默认观望"
+          }
+        },
+        "actual_market_reaction": 0.0,
+        "reality_gap": -1.13,
+        "opportunity_type": "none",
+        "llm_reasoning": "[游资/短线客] buy: 重大收购事件驱动，第一时间抢筹博弈涨停板，利用市场情绪热度，预期短期快速上涨，次日可能高抛或打板操作。\n[量化基金] watch: 系统模型未触发买入信号，关注股价波动率异常和因子有效性，可能等待数据稳定后入场或反向操作均值回归。\n[趋势跟随者] watch: 模拟结果缺失，默认观望\n[散户] watch: 模拟结果缺失，默认观望\n[公募基金经理] watch: 模拟结果缺失，默认观望\n[价值投资者] watch: 模拟结果缺失，默认观望",
+        "multi_round": true,
+        "round_sentiments": {
+          "round1": 0.35,
+          "round2": 0.0,
+          "round3": 0.0
+        },
+        "simulation_trend": "fading",
+        "round_reactions": {
+          "round1": [
+            "游资/短线客=buy",
+            "量化基金=watch"
+          ],
+          "round2": [
+            "趋势跟随者=watch",
+            "散户=watch"
+          ],
+          "round3": [
+            "公募基金经理=watch",
+            "价值投资者=watch"
+          ]
+        },
+        "graph_context_used": false,
+        "narrative_phase": "扩散期",
+        "narrative_name": "消费复苏",
+        "narrative_evidence": "moderate",
+        "announcement_inflection": false,
+        "announcement_trend": ""
+      },
+      "timestamp": "2026-03-17T18:08:41.153261+08:00",
+      "expires_at": "2026-03-24T18:08:41.153261+08:00",
+      "as_of_date": "20260317",
+      "signal_date": "2026-03-17",
+      "signed_direction": 0.24,
+      "direction_score": 1
+    }
+  ]
+}

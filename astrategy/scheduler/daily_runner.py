@@ -16,6 +16,7 @@ from pathlib import Path
 from typing import Any, Dict, List, Optional
 
 from astrategy.aggregator.signal_aggregator import SignalAggregator
+from astrategy.archive.authoritative_history import archive_authoritative_signals
 from astrategy.config import settings
 from astrategy.strategies.base import BaseStrategy, StrategySignal, _CST, _now_cst
 
@@ -25,6 +26,8 @@ logger = logging.getLogger("astrategy.scheduler.daily_runner")
 _DAILY_STRATEGY_CLASSES: Dict[str, str] = {
     "s06_announcement_sentiment": "astrategy.strategies.s06_announcement_sentiment.AnnouncementSentimentStrategy",
     "s07_graph_factors": "astrategy.strategies.s07_graph_factors.GraphFactorStrategy",
+    "s10_sentiment_simulation": "astrategy.strategies.s10_sentiment_simulation.SentimentSimulationStrategy",
+    "s11_narrative_tracker": "astrategy.strategies.s11_narrative_tracker.NarrativeTrackerStrategy",
 }
 
 
@@ -38,9 +41,13 @@ def _load_strategy(dotted_path: str) -> BaseStrategy:
 
 
 class DailyRunner:
-    """Run daily strategies and aggregate their signals.
+    """Run daily desk strategies and aggregate their signals.
 
-    Default strategies: S06 (announcement sentiment), S07 (graph factors).
+    Default strategies:
+      - S06 announcement sentiment
+      - S07 graph factors
+      - S10 sentiment simulation
+      - S11 narrative tracker
     """
 
     def __init__(
@@ -149,7 +156,14 @@ class DailyRunner:
         logger.info("Running strategy: %s", name)
         signals = strategy.run(stock_codes=self._stock_codes)
         if signals:
-            strategy.save_signals(signals, date=date_str)
+            out_path = strategy.save_signals(signals, date=date_str)
+            archive_authoritative_signals(
+                strategy_name=strategy.name,
+                signals=signals,
+                as_of_date=date_str,
+                source_path=str(out_path),
+                run_context="daily_runner",
+            )
         return signals
 
     def _save_daily_results(

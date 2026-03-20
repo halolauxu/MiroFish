@@ -85,21 +85,50 @@ def _load_existing_price_meta() -> Dict[str, Dict[str, Any]]:
             if str(current.get("price_file", "")).strip()
             else None
         )
+        file_changed = (
+            int(current.get("row_count", 0) or 0) != int(meta.get("row_count", 0) or 0)
+            or str(current.get("price_start", "")).strip() != str(meta.get("price_start", "")).strip()
+            or str(current.get("price_end", "")).strip() != str(meta.get("price_end", "")).strip()
+        )
         should_override = (
             not current
             or int(current.get("row_count", 0) or 0) <= 0
             or current_path is None
             or not current_path.exists()
+            or file_changed
         )
         if should_override:
             rows[ticker] = meta
     return rows
 
 
-def _has_usable_cache(row: Dict[str, Any]) -> bool:
+def _cache_covers_requested_range(row: Dict[str, Any], requested_start: str = "", requested_end: str = "") -> bool:
+    if not requested_start or not requested_end:
+        return True
+    price_start = _normalize_date(str(row.get("price_start", "")).strip())
+    price_end = _normalize_date(str(row.get("price_end", "")).strip())
+    if not price_start or not price_end:
+        return False
+    return price_start <= requested_start <= requested_end <= price_end
+
+
+def _has_usable_cache(
+    row: Dict[str, Any],
+    *,
+    requested_start: str = "",
+    requested_end: str = "",
+) -> bool:
     ticker = str(row.get("ticker", "")).strip().zfill(6)
     price_file = resolve_repo_path(str(row.get("price_file", "")).strip(), fallback=_price_dir() / f"{ticker}.json")
-    return int(row.get("row_count", 0) or 0) > 0 and price_file.exists()
+    return (
+        int(row.get("row_count", 0) or 0) > 0
+        and price_file.exists()
+        and _cache_covers_requested_range(
+            row,
+            requested_start=requested_start,
+            requested_end=requested_end,
+        )
+    )
 
 
 def build_price_layer(
@@ -133,7 +162,11 @@ def build_price_layer(
     rows: List[Dict[str, Any]] = []
     for ticker in tickers:
         cached = existing_meta.get(ticker)
-        if cached and not refresh and _has_usable_cache(cached):
+        if cached and not refresh and _has_usable_cache(
+            cached,
+            requested_start=start_key,
+            requested_end=end_key,
+        ):
             rows.append(
                 {
                     **cached,

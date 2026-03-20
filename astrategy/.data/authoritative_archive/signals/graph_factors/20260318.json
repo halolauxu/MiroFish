@@ -1,0 +1,14 @@
+{
+  "strategy_name": "graph_factors",
+  "line_id": "graph_filter",
+  "line_label": "图谱过滤",
+  "cadence": "daily",
+  "as_of_date": "20260318",
+  "source_path": "/Users/xukun/Documents/freqtrade/MiroFish/astrategy/.data/signals/graph_factors/20260318.json",
+  "run_context": "backfill",
+  "authoritative": true,
+  "generated_at": "2026-03-20T16:37:44.480525+08:00",
+  "signal_count": 0,
+  "directional_signal_count": 0,
+  "records": []
+}

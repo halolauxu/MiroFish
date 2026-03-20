@@ -17,6 +17,7 @@ from pathlib import Path
 from typing import Any, Dict, List, Optional
 
 from astrategy.aggregator.signal_aggregator import SignalAggregator
+from astrategy.archive.authoritative_history import archive_authoritative_signals
 from astrategy.config import settings
 from astrategy.strategies.base import BaseStrategy, StrategySignal, _now_cst
 
@@ -230,7 +231,14 @@ class EventRunner:
         logger.info("Running event strategy: %s", name)
         signals = strategy.run(stock_codes=stock_codes)
         if signals:
-            strategy.save_signals(signals, date=date_str)
+            out_path = strategy.save_signals(signals, date=date_str)
+            archive_authoritative_signals(
+                strategy_name=strategy.name,
+                signals=signals,
+                as_of_date=date_str,
+                source_path=str(out_path),
+                run_context="event_runner",
+            )
         return signals
 
     @staticmethod

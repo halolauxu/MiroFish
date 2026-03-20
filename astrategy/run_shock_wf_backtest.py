@@ -75,10 +75,37 @@ def _fetch_prices(code: str, start: str, end: str) -> pd.DataFrame:
 _benchmark_cache: Optional[pd.DataFrame] = None
 
 def _load_benchmark() -> pd.DataFrame:
-    """Load CSI300 index data via akshare (Sina source)."""
+    """Load CSI300 benchmark with the same local-first policy as stock prices."""
     global _benchmark_cache
     if _benchmark_cache is not None:
         return _benchmark_cache
+
+    start = "19900101"
+    end = datetime.now().strftime("%Y%m%d")
+
+    # Prefer the repo-local cache if the benchmark has been materialized.
+    try:
+        from astrategy.data_collector.market_data import MarketDataCollector
+
+        local_df = MarketDataCollector._load_local_daily_quotes(_BENCHMARK, start, end)
+        if local_df is not None and not local_df.empty:
+            out = pd.DataFrame()
+            out["date"] = pd.to_datetime(local_df["日期"])
+            out["close"] = local_df["收盘"].astype(float)
+            _benchmark_cache = out.sort_values("date").reset_index(drop=True)
+            logger.info("Loaded CSI300 benchmark from local cache")
+            return _benchmark_cache
+    except Exception as exc:
+        logger.warning("Failed to load local CSI300 benchmark cache: %s", exc)
+
+    if os.getenv("ASTRATEGY_LOCAL_ONLY_MARKET") == "1":
+        logger.warning(
+            "CSI300 benchmark cache missing in local-only mode: expected .data/datahub/market/daily/%s.json",
+            f"{_BENCHMARK}.json",
+        )
+        _benchmark_cache = pd.DataFrame(columns=["date", "close"])
+        return _benchmark_cache
+
     try:
         import akshare as ak
         df = ak.stock_zh_index_daily(symbol="sh000300")
@@ -406,6 +433,8 @@ def generate_wf_report(
         lines.append(f"- 5D 平均超额: {statistics.mean(excess_5d):+.4f} (n={len(excess_5d)})")
     if excess_10d:
         lines.append(f"- 10D 平均超额: {statistics.mean(excess_10d):+.4f} (n={len(excess_10d)})")
+    if not excess_5d and not excess_10d:
+        lines.append(f"- 暂无可用 benchmark 数据，请补充 `{_BENCHMARK}` 本地日线后重跑。")
 
     # Downstream only (hop > 0)
     downstream = [s for s in all_signals if s.get("hop", 0) > 0]

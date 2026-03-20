@@ -1,0 +1,1004 @@
+{
+  "horizon": "fwd_return_5d",
+  "total_signals": 321,
+  "valid_signals": 241,
+  "summary_rows": {
+    "全量": {
+      "label": "全量",
+      "n": 241,
+      "sharpe": 1.24,
+      "hit_rate": 0.5519,
+      "avg_adj_return": 0.0113,
+      "avg_raw_return": -0.0228,
+      "ic": 0.2255,
+      "reacted_pct": 0.6266,
+      "long_pct": 0.3817,
+      "hop0_pct": 0.61
+    },
+    "源头 hop=0": {
+      "label": "源头 hop=0",
+      "n": 147,
+      "sharpe": 1.89,
+      "hit_rate": 0.585,
+      "avg_adj_return": 0.0206,
+      "avg_raw_return": -0.0342,
+      "ic": 0.0,
+      "reacted_pct": 0.7755,
+      "long_pct": 0.3946,
+      "hop0_pct": 1.0
+    },
+    "下游 hop>0": {
+      "label": "下游 hop>0",
+      "n": 94,
+      "sharpe": -0.79,
+      "hit_rate": 0.5,
+      "avg_adj_return": -0.0034,
+      "avg_raw_return": -0.0051,
+      "ic": -0.1515,
+      "reacted_pct": 0.3936,
+      "long_pct": 0.3617,
+      "hop0_pct": 0.0
+    },
+    "policy_risk": {
+      "label": "policy_risk",
+      "n": 96,
+      "sharpe": 3.93,
+      "hit_rate": 0.6979,
+      "avg_adj_return": 0.0419,
+      "avg_raw_return": -0.0449,
+      "ic": 0.1516,
+      "reacted_pct": 0.8333,
+      "long_pct": 0.0,
+      "hop0_pct": 0.9271
+    },
+    "ma": {
+      "label": "ma",
+      "n": 26,
+      "sharpe": 1.32,
+      "hit_rate": 0.8077,
+      "avg_adj_return": 0.0062,
+      "avg_raw_return": -0.0092,
+      "ic": 0.0648,
+      "reacted_pct": 0.5,
+      "long_pct": 0.0,
+      "hop0_pct": 0.0
+    },
+    "cooperation": {
+      "label": "cooperation",
+      "n": 64,
+      "sharpe": -2.14,
+      "hit_rate": 0.3438,
+      "avg_adj_return": -0.0164,
+      "avg_raw_return": -0.0134,
+      "ic": 0.079,
+      "reacted_pct": 0.7188,
+      "long_pct": 1.0,
+      "hop0_pct": 0.6562
+    },
+    "buyback": {
+      "label": "buyback",
+      "n": 18,
+      "sharpe": -4.18,
+      "hit_rate": 0.3333,
+      "avg_adj_return": -0.006,
+      "avg_raw_return": 0.003,
+      "ic": -0.3188,
+      "reacted_pct": 0.0556,
+      "long_pct": 0.0,
+      "hop0_pct": 0.0
+    },
+    "management_change": {
+      "label": "management_change",
+      "n": 9,
+      "sharpe": -4.02,
+      "hit_rate": 0.3333,
+      "avg_adj_return": -0.006,
+      "avg_raw_return": 0.003,
+      "ic": -0.5378,
+      "reacted_pct": 0.0,
+      "long_pct": 0.0,
+      "hop0_pct": 0.0
+    }
+  },
+  "type_sections": {
+    "policy_risk": {
+      "slices": {
+        "全量": {
+          "n": 96,
+          "sharpe": 3.93,
+          "hit_rate": 0.6979,
+          "avg_adj_return": 0.0419,
+          "avg_raw_return": -0.0449,
+          "ic": 0.1516,
+          "reacted_pct": 0.8333,
+          "long_pct": 0.0,
+          "hop0_pct": 0.9271
+        },
+        "源头 hop=0": {
+          "n": 89,
+          "sharpe": 4.13,
+          "hit_rate": 0.7079,
+          "avg_adj_return": 0.0447,
+          "avg_raw_return": -0.0477,
+          "ic": 0.0,
+          "reacted_pct": 0.8202,
+          "long_pct": 0.0,
+          "hop0_pct": 1.0
+        },
+        "下游 hop>0": {
+          "n": 7,
+          "sharpe": 0.88,
+          "hit_rate": 0.5714,
+          "avg_adj_return": 0.0063,
+          "avg_raw_return": -0.0093,
+          "ic": -0.75,
+          "reacted_pct": 1.0,
+          "long_pct": 0.0,
+          "hop0_pct": 0.0
+        },
+        "已反应": {
+          "n": 80,
+          "sharpe": 4.69,
+          "hit_rate": 0.8,
+          "avg_adj_return": 0.0522,
+          "avg_raw_return": -0.0552,
+          "ic": 0.219,
+          "reacted_pct": 1.0,
+          "long_pct": 0.0,
+          "hop0_pct": 0.9125
+        },
+        "未反应": {
+          "n": 16,
+          "sharpe": -6.38,
+          "hit_rate": 0.1875,
+          "avg_adj_return": -0.0093,
+          "avg_raw_return": 0.0063,
+          "ic": 0.0,
+          "reacted_pct": 0.0,
+          "long_pct": 0.0,
+          "hop0_pct": 1.0
+        }
+      },
+      "top_sources": [
+        {
+          "label": "长安汽车(000625)",
+          "n": 9,
+          "sharpe": -0.19,
+          "hit_rate": 0.3333,
+          "avg_adj_return": -0.0011,
+          "avg_raw_return": -0.0019,
+          "ic": -0.5,
+          "reacted_pct": 0.6667,
+          "long_pct": 0.0,
+          "hop0_pct": 0.3333
+        },
+        {
+          "label": "分众传媒(002027)",
+          "n": 5,
+          "sharpe": 0.0,
+          "hit_rate": 0.0,
+          "avg_adj_return": -0.0119,
+          "avg_raw_return": 0.0089,
+          "ic": 0.0,
+          "reacted_pct": 0.0,
+          "long_pct": 0.0,
+          "hop0_pct": 1.0
+        },
+        {
+          "label": "美年健康(002044)",
+          "n": 5,
+          "sharpe": 99.0,
+          "hit_rate": 1.0,
+          "avg_adj_return": 0.0846,
+          "avg_raw_return": -0.0876,
+          "ic": 0.0,
+          "reacted_pct": 1.0,
+          "long_pct": 0.0,
+          "hop0_pct": 1.0
+        },
+        {
+          "label": "招商轮船(601872)",
+          "n": 3,
+          "sharpe": 26.59,
+          "hit_rate": 1.0,
+          "avg_adj_return": 0.1016,
+          "avg_raw_return": -0.1046,
+          "ic": 0.0,
+          "reacted_pct": 1.0,
+          "long_pct": 0.0,
+          "hop0_pct": 1.0
+        },
+        {
+          "label": "三星医疗(601567)",
+          "n": 2,
+          "sharpe": 55.22,
+          "hit_rate": 1.0,
+          "avg_adj_return": 0.0957,
+          "avg_raw_return": -0.0987,
+          "ic": 0.0,
+          "reacted_pct": 1.0,
+          "long_pct": 0.0,
+          "hop0_pct": 1.0
+        },
+        {
+          "label": "上海石化(600688)",
+          "n": 2,
+          "sharpe": 10.08,
+          "hit_rate": 1.0,
+          "avg_adj_return": 0.0958,
+          "avg_raw_return": -0.0988,
+          "ic": 0.0,
+          "reacted_pct": 1.0,
+          "long_pct": 0.0,
+          "hop0_pct": 1.0
+        }
+      ],
+      "top_chains": [
+        {
+          "label": "SOURCE",
+          "n": 89,
+          "sharpe": 4.13,
+          "hit_rate": 0.7079,
+          "avg_adj_return": 0.0447,
+          "avg_raw_return": -0.0477,
+          "ic": 0.0,
+          "reacted_pct": 0.8202,
+          "long_pct": 0.0,
+          "hop0_pct": 1.0
+        },
+        {
+          "label": "COOPERATES_WITH → COOPERATES_WITH",
+          "n": 6,
+          "sharpe": 0.22,
+          "hit_rate": 0.5,
+          "avg_adj_return": 0.0016,
+          "avg_raw_return": -0.0047,
+          "ic": -1.0,
+          "reacted_pct": 1.0,
+          "long_pct": 0.0,
+          "hop0_pct": 0.0
+        },
+        {
+          "label": "SUPPLIES_TO → SUPPLIES_TO",
+          "n": 1,
+          "sharpe": 0.0,
+          "hit_rate": 1.0,
+          "avg_adj_return": 0.0345,
+          "avg_raw_return": -0.0375,
+          "ic": 0.0,
+          "reacted_pct": 1.0,
+          "long_pct": 0.0,
+          "hop0_pct": 0.0
+        }
+      ]
+    },
+    "ma": {
+      "slices": {
+        "全量": {
+          "n": 26,
+          "sharpe": 1.32,
+          "hit_rate": 0.8077,
+          "avg_adj_return": 0.0062,
+          "avg_raw_return": -0.0092,
+          "ic": 0.0648,
+          "reacted_pct": 0.5,
+          "long_pct": 0.0,
+          "hop0_pct": 0.0
+        },
+        "源头 hop=0": {
+          "n": 0,
+          "sharpe": 0.0,
+          "hit_rate": 0.0,
+          "avg_adj_return": 0.0,
+          "avg_raw_return": 0.0,
+          "ic": 0.0,
+          "reacted_pct": 0.0,
+          "long_pct": 0.0,
+          "hop0_pct": 0.0
+        },
+        "下游 hop>0": {
+          "n": 26,
+          "sharpe": 1.32,
+          "hit_rate": 0.8077,
+          "avg_adj_return": 0.0062,
+          "avg_raw_return": -0.0092,
+          "ic": 0.0648,
+          "reacted_pct": 0.5,
+          "long_pct": 0.0,
+          "hop0_pct": 0.0
+        },
+        "已反应": {
+          "n": 13,
+          "sharpe": 0.68,
+          "hit_rate": 0.6154,
+          "avg_adj_return": 0.0046,
+          "avg_raw_return": -0.0076,
+          "ic": -0.2542,
+          "reacted_pct": 1.0,
+          "long_pct": 0.0,
+          "hop0_pct": 0.0
+        },
+        "未反应": {
+          "n": 13,
+          "sharpe": 17.18,
+          "hit_rate": 1.0,
+          "avg_adj_return": 0.0078,
+          "avg_raw_return": -0.0108,
+          "ic": 0.5569,
+          "reacted_pct": 0.0,
+          "long_pct": 0.0,
+          "hop0_pct": 0.0
+        }
+      },
+      "top_sources": [
+        {
+          "label": "通威股份(600438)",
+          "n": 16,
+          "sharpe": 8.32,
+          "hit_rate": 1.0,
+          "avg_adj_return": 0.0144,
+          "avg_raw_return": -0.0174,
+          "ic": 0.8,
+          "reacted_pct": 0.25,
+          "long_pct": 0.0,
+          "hop0_pct": 0.0
+        },
+        {
+          "label": "江西铜业(600362)",
+          "n": 10,
+          "sharpe": -0.97,
+          "hit_rate": 0.5,
+          "avg_adj_return": -0.0069,
+          "avg_raw_return": 0.0039,
+          "ic": -0.2,
+          "reacted_pct": 0.9,
+          "long_pct": 0.0,
+          "hop0_pct": 0.0
+        }
+      ],
+      "top_chains": [
+        {
+          "label": "SUPPLIES_TO",
+          "n": 12,
+          "sharpe": 16.34,
+          "hit_rate": 1.0,
+          "avg_adj_return": 0.0077,
+          "avg_raw_return": -0.0107,
+          "ic": 0.5,
+          "reacted_pct": 0.0,
+          "long_pct": 0.0,
+          "hop0_pct": 0.0
+        },
+        {
+          "label": "COOPERATES_WITH",
+          "n": 6,
+          "sharpe": 0.28,
+          "hit_rate": 0.6667,
+          "avg_adj_return": 0.0019,
+          "avg_raw_return": -0.0049,
+          "ic": -0.2,
+          "reacted_pct": 0.8333,
+          "long_pct": 0.0,
+          "hop0_pct": 0.0
+        },
+        {
+          "label": "COOPERATES_WITH → SUPPLIES_TO",
+          "n": 4,
+          "sharpe": -2.48,
+          "hit_rate": 0.25,
+          "avg_adj_return": -0.0201,
+          "avg_raw_return": 0.0171,
+          "ic": 0.0,
+          "reacted_pct": 1.0,
+          "long_pct": 0.0,
+          "hop0_pct": 0.0
+        },
+        {
+          "label": "SUPPLIES_TO → SUPPLIES_TO",
+          "n": 4,
+          "sharpe": 99.0,
+          "hit_rate": 1.0,
+          "avg_adj_return": 0.0345,
+          "avg_raw_return": -0.0375,
+          "ic": 0.0,
+          "reacted_pct": 1.0,
+          "long_pct": 0.0,
+          "hop0_pct": 0.0
+        }
+      ]
+    },
+    "cooperation": {
+      "slices": {
+        "全量": {
+          "n": 64,
+          "sharpe": -2.14,
+          "hit_rate": 0.3438,
+          "avg_adj_return": -0.0164,
+          "avg_raw_return": -0.0134,
+          "ic": 0.079,
+          "reacted_pct": 0.7188,
+          "long_pct": 1.0,
+          "hop0_pct": 0.6562
+        },
+        "源头 hop=0": {
+          "n": 42,
+          "sharpe": -1.95,
+          "hit_rate": 0.3571,
+          "avg_adj_return": -0.0168,
+          "avg_raw_return": -0.0138,
+          "ic": 0.0,
+          "reacted_pct": 0.7143,
+          "long_pct": 1.0,
+          "hop0_pct": 1.0
+        },
+        "下游 hop>0": {
+          "n": 22,
+          "sharpe": -2.81,
+          "hit_rate": 0.3182,
+          "avg_adj_return": -0.0155,
+          "avg_raw_return": -0.0125,
+          "ic": 0.1733,
+          "reacted_pct": 0.7273,
+          "long_pct": 1.0,
+          "hop0_pct": 0.0
+        },
+        "已反应": {
+          "n": 46,
+          "sharpe": -2.48,
+          "hit_rate": 0.3043,
+          "avg_adj_return": -0.022,
+          "avg_raw_return": -0.019,
+          "ic": 0.1603,
+          "reacted_pct": 1.0,
+          "long_pct": 1.0,
+          "hop0_pct": 0.6522
+        },
+        "未反应": {
+          "n": 18,
+          "sharpe": -1.18,
+          "hit_rate": 0.4444,
+          "avg_adj_return": -0.0021,
+          "avg_raw_return": 0.0009,
+          "ic": -0.2369,
+          "reacted_pct": 0.0,
+          "long_pct": 1.0,
+          "hop0_pct": 0.6667
+        }
+      },
+      "top_sources": [
+        {
+          "label": "华域汽车(600741)",
+          "n": 7,
+          "sharpe": -6.12,
+          "hit_rate": 0.1429,
+          "avg_adj_return": -0.0343,
+          "avg_raw_return": -0.0313,
+          "ic": 0.0714,
+          "reacted_pct": 1.0,
+          "long_pct": 1.0,
+          "hop0_pct": 0.1429
+        },
+        {
+          "label": "宁德时代(300750)",
+          "n": 7,
+          "sharpe": 1.32,
+          "hit_rate": 0.4286,
+          "avg_adj_return": 0.0069,
+          "avg_raw_return": 0.0099,
+          "ic": -0.1786,
+          "reacted_pct": 0.7143,
+          "long_pct": 1.0,
+          "hop0_pct": 0.1429
+        },
+        {
+          "label": "长电科技(600584)",
+          "n": 5,
+          "sharpe": -6.69,
+          "hit_rate": 0.2,
+          "avg_adj_return": -0.0219,
+          "avg_raw_return": -0.0189,
+          "ic": 0.1,
+          "reacted_pct": 0.4,
+          "long_pct": 1.0,
+          "hop0_pct": 0.2
+        },
+        {
+          "label": "神州数码(000034)",
+          "n": 4,
+          "sharpe": -3.39,
+          "hit_rate": 0.5,
+          "avg_adj_return": -0.0216,
+          "avg_raw_return": -0.0186,
+          "ic": 0.0,
+          "reacted_pct": 0.75,
+          "long_pct": 1.0,
+          "hop0_pct": 0.25
+        },
+        {
+          "label": "广合科技(001389)",
+          "n": 3,
+          "sharpe": 99.0,
+          "hit_rate": 1.0,
+          "avg_adj_return": 0.0111,
+          "avg_raw_return": 0.0141,
+          "ic": 0.0,
+          "reacted_pct": 0.0,
+          "long_pct": 1.0,
+          "hop0_pct": 1.0
+        },
+        {
+          "label": "深科技(000021)",
+          "n": 3,
+          "sharpe": -18.71,
+          "hit_rate": 0.0,
+          "avg_adj_return": -0.0449,
+          "avg_raw_return": -0.0419,
+          "ic": 0.0,
+          "reacted_pct": 1.0,
+          "long_pct": 1.0,
+          "hop0_pct": 0.3333
+        }
+      ],
+      "top_chains": [
+        {
+          "label": "SOURCE",
+          "n": 42,
+          "sharpe": -1.95,
+          "hit_rate": 0.3571,
+          "avg_adj_return": -0.0168,
+          "avg_raw_return": -0.0138,
+          "ic": 0.0,
+          "reacted_pct": 0.7143,
+          "long_pct": 1.0,
+          "hop0_pct": 1.0
+        },
+        {
+          "label": "SUPPLIES_TO",
+          "n": 4,
+          "sharpe": -0.29,
+          "hit_rate": 0.5,
+          "avg_adj_return": -0.0026,
+          "avg_raw_return": 0.0004,
+          "ic": 0.0,
+          "reacted_pct": 1.0,
+          "long_pct": 1.0,
+          "hop0_pct": 0.0
+        },
+        {
+          "label": "SUPPLIES_TO → COOPERATES_WITH",
+          "n": 3,
+          "sharpe": -4.46,
+          "hit_rate": 0.3333,
+          "avg_adj_return": -0.0279,
+          "avg_raw_return": -0.0249,
+          "ic": 0.0,
+          "reacted_pct": 1.0,
+          "long_pct": 1.0,
+          "hop0_pct": 0.0
+        },
+        {
+          "label": "SUPPLIES_TO → SUPPLIES_TO",
+          "n": 3,
+          "sharpe": -11.52,
+          "hit_rate": 0.0,
+          "avg_adj_return": -0.0222,
+          "avg_raw_return": -0.0192,
+          "ic": 0.0,
+          "reacted_pct": 0.6667,
+          "long_pct": 1.0,
+          "hop0_pct": 0.0
+        },
+        {
+          "label": "COOPERATES_WITH",
+          "n": 2,
+          "sharpe": 1.44,
+          "hit_rate": 0.5,
+          "avg_adj_return": 0.0133,
+          "avg_raw_return": 0.0163,
+          "ic": 0.0,
+          "reacted_pct": 1.0,
+          "long_pct": 1.0,
+          "hop0_pct": 0.0
+        },
+        {
+          "label": "CUSTOMER_OF → COOPERATES_WITH",
+          "n": 2,
+          "sharpe": -3.24,
+          "hit_rate": 0.5,
+          "avg_adj_return": -0.0319,
+          "avg_raw_return": -0.0289,
+          "ic": 0.0,
+          "reacted_pct": 1.0,
+          "long_pct": 1.0,
+          "hop0_pct": 0.0
+        }
+      ]
+    },
+    "buyback": {
+      "slices": {
+        "全量": {
+          "n": 18,
+          "sharpe": -4.18,
+          "hit_rate": 0.3333,
+          "avg_adj_return": -0.006,
+          "avg_raw_return": 0.003,
+          "ic": -0.3188,
+          "reacted_pct": 0.0556,
+          "long_pct": 0.0,
+          "hop0_pct": 0.0
+        },
+        "源头 hop=0": {
+          "n": 0,
+          "sharpe": 0.0,
+          "hit_rate": 0.0,
+          "avg_adj_return": 0.0,
+          "avg_raw_return": 0.0,
+          "ic": 0.0,
+          "reacted_pct": 0.0,
+          "long_pct": 0.0,
+          "hop0_pct": 0.0
+        },
+        "下游 hop>0": {
+          "n": 18,
+          "sharpe": -4.18,
+          "hit_rate": 0.3333,
+          "avg_adj_return": -0.006,
+          "avg_raw_return": 0.003,
+          "ic": -0.3188,
+          "reacted_pct": 0.0556,
+          "long_pct": 0.0,
+          "hop0_pct": 0.0
+        },
+        "已反应": {
+          "n": 1,
+          "sharpe": 0.0,
+          "hit_rate": 0.0,
+          "avg_adj_return": -0.0266,
+          "avg_raw_return": 0.0236,
+          "ic": 0.0,
+          "reacted_pct": 1.0,
+          "long_pct": 0.0,
+          "hop0_pct": 0.0
+        },
+        "未反应": {
+          "n": 17,
+          "sharpe": -3.74,
+          "hit_rate": 0.3529,
+          "avg_adj_return": -0.0048,
+          "avg_raw_return": 0.0018,
+          "ic": -0.3755,
+          "reacted_pct": 0.0,
+          "long_pct": 0.0,
+          "hop0_pct": 0.0
+        }
+      },
+      "top_sources": [
+        {
+          "label": "徐工机械(000425)",
+          "n": 4,
+          "sharpe": -15.59,
+          "hit_rate": 0.0,
+          "avg_adj_return": -0.0126,
+          "avg_raw_return": 0.0095,
+          "ic": 0.0,
+          "reacted_pct": 0.0,
+          "long_pct": 0.0,
+          "hop0_pct": 0.0
+        },
+        {
+          "label": "长安汽车(000625)",
+          "n": 4,
+          "sharpe": 2.37,
+          "hit_rate": 0.75,
+          "avg_adj_return": 0.0036,
+          "avg_raw_return": -0.0066,
+          "ic": 0.0,
+          "reacted_pct": 0.0,
+          "long_pct": 0.0,
+          "hop0_pct": 0.0
+        },
+        {
+          "label": "华润微(688396)",
+          "n": 3,
+          "sharpe": 99.0,
+          "hit_rate": 1.0,
+          "avg_adj_return": 0.0029,
+          "avg_raw_return": -0.0059,
+          "ic": 0.0,
+          "reacted_pct": 0.0,
+          "long_pct": 0.0,
+          "hop0_pct": 0.0
+        },
+        {
+          "label": "宁德时代(300750)",
+          "n": 3,
+          "sharpe": -7.95,
+          "hit_rate": 0.0,
+          "avg_adj_return": -0.0131,
+          "avg_raw_return": 0.0101,
+          "ic": 0.0,
+          "reacted_pct": 0.3333,
+          "long_pct": 0.0,
+          "hop0_pct": 0.0
+        },
+        {
+          "label": "中联重科(000157)",
+          "n": 1,
+          "sharpe": 0.0,
+          "hit_rate": 0.0,
+          "avg_adj_return": -0.0153,
+          "avg_raw_return": 0.0123,
+          "ic": 0.0,
+          "reacted_pct": 0.0,
+          "long_pct": 0.0,
+          "hop0_pct": 0.0
+        },
+        {
+          "label": "北方华创(002371)",
+          "n": 1,
+          "sharpe": 0.0,
+          "hit_rate": 0.0,
+          "avg_adj_return": -0.0077,
+          "avg_raw_return": 0.0047,
+          "ic": 0.0,
+          "reacted_pct": 0.0,
+          "long_pct": 0.0,
+          "hop0_pct": 0.0
+        }
+      ],
+      "top_chains": [
+        {
+          "label": "COOPERATES_WITH → COOPERATES_WITH",
+          "n": 10,
+          "sharpe": -3.79,
+          "hit_rate": 0.3,
+          "avg_adj_return": -0.0059,
+          "avg_raw_return": 0.0029,
+          "ic": -0.2,
+          "reacted_pct": 0.0,
+          "long_pct": 0.0,
+          "hop0_pct": 0.0
+        },
+        {
+          "label": "COOPERATES_WITH → SUPPLIES_TO",
+          "n": 3,
+          "sharpe": 99.0,
+          "hit_rate": 1.0,
+          "avg_adj_return": 0.0029,
+          "avg_raw_return": -0.0059,
+          "ic": 0.0,
+          "reacted_pct": 0.0,
+          "long_pct": 0.0,
+          "hop0_pct": 0.0
+        },
+        {
+          "label": "CUSTOMER_OF → COOPERATES_WITH",
+          "n": 1,
+          "sharpe": 0.0,
+          "hit_rate": 0.0,
+          "avg_adj_return": -0.0114,
+          "avg_raw_return": 0.0084,
+          "ic": 0.0,
+          "reacted_pct": 0.0,
+          "long_pct": 0.0,
+          "hop0_pct": 0.0
+        },
+        {
+          "label": "SUPPLIES_TO → COOPERATES_WITH",
+          "n": 1,
+          "sharpe": 0.0,
+          "hit_rate": 0.0,
+          "avg_adj_return": -0.0077,
+          "avg_raw_return": 0.0047,
+          "ic": 0.0,
+          "reacted_pct": 0.0,
+          "long_pct": 0.0,
+          "hop0_pct": 0.0
+        },
+        {
+          "label": "SUPPLIES_TO → SUPPLIES_TO",
+          "n": 1,
+          "sharpe": 0.0,
+          "hit_rate": 0.0,
+          "avg_adj_return": -0.0058,
+          "avg_raw_return": 0.0028,
+          "ic": 0.0,
+          "reacted_pct": 0.0,
+          "long_pct": 0.0,
+          "hop0_pct": 0.0
+        },
+        {
+          "label": "SUPPLIES_TO → SUPPLIES_TO → CUSTOMER_OF",
+          "n": 1,
+          "sharpe": 0.0,
+          "hit_rate": 0.0,
+          "avg_adj_return": -0.0266,
+          "avg_raw_return": 0.0236,
+          "ic": 0.0,
+          "reacted_pct": 1.0,
+          "long_pct": 0.0,
+          "hop0_pct": 0.0
+        }
+      ]
+    },
+    "management_change": {
+      "slices": {
+        "全量": {
+          "n": 9,
+          "sharpe": -4.02,
+          "hit_rate": 0.3333,
+          "avg_adj_return": -0.006,
+          "avg_raw_return": 0.003,
+          "ic": -0.5378,
+          "reacted_pct": 0.0,
+          "long_pct": 0.0,
+          "hop0_pct": 0.0
+        },
+        "源头 hop=0": {
+          "n": 0,
+          "sharpe": 0.0,
+          "hit_rate": 0.0,
+          "avg_adj_return": 0.0,
+          "avg_raw_return": 0.0,
+          "ic": 0.0,
+          "reacted_pct": 0.0,
+          "long_pct": 0.0,
+          "hop0_pct": 0.0
+        },
+        "下游 hop>0": {
+          "n": 9,
+          "sharpe": -4.02,
+          "hit_rate": 0.3333,
+          "avg_adj_return": -0.006,
+          "avg_raw_return": 0.003,
+          "ic": -0.5378,
+          "reacted_pct": 0.0,
+          "long_pct": 0.0,
+          "hop0_pct": 0.0
+        },
+        "已反应": {
+          "n": 0,
+          "sharpe": 0.0,
+          "hit_rate": 0.0,
+          "avg_adj_return": 0.0,
+          "avg_raw_return": 0.0,
+          "ic": 0.0,
+          "reacted_pct": 0.0,
+          "long_pct": 0.0,
+          "hop0_pct": 0.0
+        },
+        "未反应": {
+          "n": 9,
+          "sharpe": -4.02,
+          "hit_rate": 0.3333,
+          "avg_adj_return": -0.006,
+          "avg_raw_return": 0.003,
+          "ic": -0.5378,
+          "reacted_pct": 0.0,
+          "long_pct": 0.0,
+          "hop0_pct": 0.0
+        }
+      },
+      "top_sources": [
+        {
+          "label": "华润微(688396)",
+          "n": 4,
+          "sharpe": 0.79,
+          "hit_rate": 0.75,
+          "avg_adj_return": 0.0011,
+          "avg_raw_return": -0.0041,
+          "ic": 0.0,
+          "reacted_pct": 0.0,
+          "long_pct": 0.0,
+          "hop0_pct": 0.0
+        },
+        {
+          "label": "招商蛇口(001979)",
+          "n": 2,
+          "sharpe": -7.55,
+          "hit_rate": 0.0,
+          "avg_adj_return": -0.0089,
+          "avg_raw_return": 0.006,
+          "ic": 0.0,
+          "reacted_pct": 0.0,
+          "long_pct": 0.0,
+          "hop0_pct": 0.0
+        },
+        {
+          "label": "申万宏源(000166)",
+          "n": 2,
+          "sharpe": -7.93,
+          "hit_rate": 0.0,
+          "avg_adj_return": -0.0103,
+          "avg_raw_return": 0.0073,
+          "ic": 0.0,
+          "reacted_pct": 0.0,
+          "long_pct": 0.0,
+          "hop0_pct": 0.0
+        },
+        {
+          "label": "中国联通(600050)",
+          "n": 1,
+          "sharpe": 0.0,
+          "hit_rate": 0.0,
+          "avg_adj_return": -0.0202,
+          "avg_raw_return": 0.0172,
+          "ic": 0.0,
+          "reacted_pct": 0.0,
+          "long_pct": 0.0,
+          "hop0_pct": 0.0
+        }
+      ],
+      "top_chains": [
+        {
+          "label": "COOPERATES_WITH",
+          "n": 3,
+          "sharpe": -1.86,
+          "hit_rate": 0.3333,
+          "avg_adj_return": -0.0035,
+          "avg_raw_return": 0.0005,
+          "ic": 0.0,
+          "reacted_pct": 0.0,
+          "long_pct": 0.0,
+          "hop0_pct": 0.0
+        },
+        {
+          "label": "COOPERATES_WITH → COOPERATES_WITH",
+          "n": 2,
+          "sharpe": -8.46,
+          "hit_rate": 0.0,
+          "avg_adj_return": -0.0094,
+          "avg_raw_return": 0.0064,
+          "ic": 0.0,
+          "reacted_pct": 0.0,
+          "long_pct": 0.0,
+          "hop0_pct": 0.0
+        },
+        {
+          "label": "COOPERATES_WITH → SUPPLIES_TO",
+          "n": 2,
+          "sharpe": 17.68,
+          "hit_rate": 1.0,
+          "avg_adj_return": 0.004,
+          "avg_raw_return": -0.0071,
+          "ic": 0.0,
+          "reacted_pct": 0.0,
+          "long_pct": 0.0,
+          "hop0_pct": 0.0
+        },
+        {
+          "label": "COOPERATES_WITH → SUPPLIES_TO → SUPPLIES_TO",
+          "n": 1,
+          "sharpe": 0.0,
+          "hit_rate": 0.0,
+          "avg_adj_return": -0.0132,
+          "avg_raw_return": 0.0102,
+          "ic": 0.0,
+          "reacted_pct": 0.0,
+          "long_pct": 0.0,
+          "hop0_pct": 0.0
+        },
+        {
+          "label": "CUSTOMER_OF",
+          "n": 1,
+          "sharpe": 0.0,
+          "hit_rate": 0.0,
+          "avg_adj_return": -0.0202,
+          "avg_raw_return": 0.0172,
+          "ic": 0.0,
+          "reacted_pct": 0.0,
+          "long_pct": 0.0,
+          "hop0_pct": 0.0
+        }
+      ]
+    }
+  },
+  "findings": [
+    "`hop=0` 明显强于下游传播，5D 调整收益 +0.0206 vs -0.0034，当前 alpha 仍集中在源头事件。",
+    "`policy_risk` 的优势主要来自已反应后的延续，已反应桶 +0.0522，未反应桶 -0.0093。",
+    "`ma` 存在明显源事件分化，头部两个 source 调整收益分别为 +0.0144 / -0.0069，更适合按 source 精细分桶。",
+    "`cooperation` 当前样本明显偏弱，Sharpe=-2.14、胜率=34.4%，应优先收紧或暂停该桶。",
+    "`buyback` 当前样本明显偏弱，Sharpe=-4.18、胜率=33.3%，应优先收紧或暂停该桶。",
+    "`management_change` 当前样本明显偏弱，Sharpe=-4.02、胜率=33.3%，应优先收紧或暂停该桶。"
+  ]
+}

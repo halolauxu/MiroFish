@@ -91,6 +91,34 @@ class MarketDataCollector:
     """Collect A-share market data via akshare."""
 
     @staticmethod
+    def _date_bounds(df: pd.DataFrame) -> tuple[str, str]:
+        if df is None or df.empty or "日期" not in df.columns:
+            return "", ""
+        ordered = pd.to_datetime(df["日期"], errors="coerce").dropna().sort_values()
+        if ordered.empty:
+            return "", ""
+        return ordered.iloc[0].strftime("%Y%m%d"), ordered.iloc[-1].strftime("%Y%m%d")
+
+    @classmethod
+    def _covers_requested_range(cls, df: pd.DataFrame, start: str, end: str) -> bool:
+        if df is None or df.empty:
+            return False
+        first, last = cls._date_bounds(df)
+        return bool(first and last and first <= start <= end <= last)
+
+    @staticmethod
+    def _merge_daily_frames(local_df: pd.DataFrame, remote_df: pd.DataFrame) -> pd.DataFrame:
+        frames = [frame.copy() for frame in (local_df, remote_df) if frame is not None and not frame.empty]
+        if not frames:
+            return pd.DataFrame()
+        merged = pd.concat(frames, ignore_index=True)
+        merged["日期"] = pd.to_datetime(merged["日期"], errors="coerce")
+        merged = merged.dropna(subset=["日期"])
+        merged = merged.sort_values("日期")
+        merged = merged.drop_duplicates(subset=["日期"], keep="last").reset_index(drop=True)
+        return merged
+
+    @staticmethod
     def _local_daily_path(code: str) -> Path:
         return resolve_repo_path(
             None,
@@ -203,17 +231,41 @@ class MarketDataCollector:
         if cached is not None:
             return cached  # type: ignore[return-value]
 
-        local_path = self._local_daily_path(code)
         local_df = self._load_local_daily_quotes(code, start, end)
-        if local_path.exists():
+        local_path = self._local_daily_path(code)
+        local_has_range = self._covers_requested_range(local_df, start, end)
+        if local_has_range:
             _set_cache(cache_key, local_df)
             return local_df
 
         if os.getenv(LOCAL_ONLY_ENV) == "1":
+            if local_path.exists() and not local_df.empty:
+                first, last = self._date_bounds(local_df)
+                logger.info(
+                    "Local-only market mode: partial local daily cache for %s (%s -> %s), requested %s -> %s",
+                    code,
+                    first,
+                    last,
+                    start,
+                    end,
+                )
+                _set_cache(cache_key, local_df)
+                return local_df
             logger.info("Local-only market mode: missing local daily cache for %s", code)
             empty = pd.DataFrame()
             _set_cache(cache_key, empty)
             return empty
+
+        if local_path.exists() and not local_df.empty:
+            first, last = self._date_bounds(local_df)
+            logger.info(
+                "Local daily cache for %s only covers %s -> %s, will try remote补数 to satisfy %s -> %s",
+                code,
+                first,
+                last,
+                start,
+                end,
+            )
 
         # Use Sina API directly (East Money blocked by proxy/TLS issues)
         try:
@@ -226,8 +278,9 @@ class MarketDataCollector:
                 adjust=sina_adjust,
             )
             df = self._normalize_daily_frame(df, start, end)
-            _set_cache(cache_key, df)
-            return df
+            merged = self._merge_daily_frames(local_df, df)
+            _set_cache(cache_key, merged)
+            return merged
         except Exception as exc:
             logger.warning("stock_zh_a_daily failed for %s: %s", code, exc)
 
@@ -240,12 +293,20 @@ class MarketDataCollector:
                     symbol=cdr_code,
                 )
                 df = self._normalize_daily_frame(df, start, end)
-                _set_cache(cache_key, df)
-                return df
+                merged = self._merge_daily_frames(local_df, df)
+                _set_cache(cache_key, merged)
+                return merged
             except Exception as exc:
                 logger.warning("stock_zh_a_cdr_daily failed for %s: %s", code, exc)
 
         logger.error("get_daily_quotes(%s) failed on all supported APIs", code)
+        if local_path.exists() and not local_df.empty:
+            logger.warning(
+                "Falling back to partial local daily cache for %s after remote failure",
+                code,
+            )
+            _set_cache(cache_key, local_df)
+            return local_df
         return pd.DataFrame()
 
     # ------------------------------------------------------------------
