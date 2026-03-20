@@ -1,0 +1,72 @@
+{
+  "component": "events",
+  "as_of_date": "2026-01-27",
+  "universe_id": "csi800",
+  "quality_status": "derived_from_local_foundation",
+  "authoritative": false,
+  "run_context": "historical_backfill",
+  "generated_at": "2026-03-20T10:26:01Z",
+  "source_paths": [
+    ".data/authoritative_archive/foundation/filings/20260127.json",
+    ".data/authoritative_archive/foundation/news/20260127.json",
+    ".data/authoritative_archive/foundation/sentiment/20260127.json"
+  ],
+  "payload": {
+    "summary": {
+      "ingest_date": "2026-01-27",
+      "snapshot_mode": "historical_replay",
+      "history_quality": "derived_from_local_foundation",
+      "incremental_event_count": 1,
+      "event_master_count": 12,
+      "created_event_count": 1,
+      "filing_event_count": 0,
+      "news_event_count": 1,
+      "sentiment_event_count": 0,
+      "skipped_filing_other": 0,
+      "skipped_news_other": 2
+    },
+    "rows": [
+      {
+        "event_id": "news:2026-01-27:603658:9fead5a9788e",
+        "event_type": "earnings_surprise",
+        "event_subtype": "earnings_surprise.report",
+        "title": "10分钟股价涨超10%！多家上市公司称已具备尼帕病毒检测能力",
+        "summary": "印度尼帕病毒疫情受到关注的同时，除博晖创新，凯普生物（300639.SZ）、安图生物（603658.SH）等多家A股上市公司也在近日表示已掌握尼帕病毒检测技术或研发出相关产品，但尚未形成营收规模。",
+        "source": "news_incremental",
+        "entity_codes": [
+          "603658"
+        ],
+        "entity_names": [
+          "安图生物"
+        ],
+        "industry_codes": [],
+        "theme_tags": [],
+        "event_time": "2026-01-27T00:00:00",
+        "discover_time": "2026-01-27T14:12:10",
+        "available_at": "2026-01-27T14:12:10",
+        "severity": 0.8,
+        "surprise_score": 0.75,
+        "tradability_score": 0.7,
+        "novelty_score": 0.6,
+        "crowding_risk": 0.45,
+        "confidence": 0.7,
+        "impact_level": "high",
+        "source_type": "news",
+        "raw_payload_ref": "http://finance.eastmoney.com/a/202601273632081297.html",
+        "metadata": {
+          "legacy_type": "earnings_surprise",
+          "legacy_event_date": "2026-01-27",
+          "legacy_stock_code": "603658",
+          "legacy_stock_name": "安图生物",
+          "ingest_date": "2026-01-27",
+          "publisher": "21世纪经济报道",
+          "matched_keywords": [
+            "营收"
+          ]
+        },
+        "created_at": "2026-03-20T10:26:01.256617+00:00",
+        "updated_at": "2026-03-20T10:26:01.256622+00:00"
+      }
+    ]
+  }
+}

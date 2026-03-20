@@ -80,6 +80,47 @@ python3 astrategy/scripts/fetch_price_cache.py \
 - [foundation_backfill_audit_20260319.md](/Users/xukun/Documents/freqtrade/MiroFish/astrategy/.data/reports/foundation_backfill_audit_20260319.md)
 - [foundation_backfill_audit.json](/Users/xukun/Documents/freqtrade/MiroFish/astrategy/.data/authoritative_archive/audit/foundation_backfill_audit.json)
 
+### 4. 新增非价格源历史回放器 + `as_of_date` archive
+
+这一步是今天后半段真正补上的主工程。
+
+新增：
+
+- [foundation_history.py](/Users/xukun/Documents/freqtrade/MiroFish/astrategy/archive/foundation_history.py)
+
+作用：
+
+- 把 `filings / news / sentiment / events / graph` 按 `as_of_date` 落到正式 archive
+- 支持从当前本地缓存做“历史可回放回填”
+- 严格区分：
+  - `authoritative_current`
+  - `authoritative_local_replay`
+  - `live_cache_current`
+  - `local_cache_replay`
+  - `derived_current`
+  - `derived_from_local_foundation`
+  - `state_snapshot_current`
+- 审计时不再只看“跨度够不够”，还区分：
+  - `Span2Y`
+  - `Authoritative2Y`
+
+同时已接入：
+
+- [bootstrap.py](/Users/xukun/Documents/freqtrade/MiroFish/astrategy/datahub/bootstrap.py)
+
+当前行为：
+
+- 正常跑 foundation 时，会自动把当日 payload 写入
+  [astrategy/.data/authoritative_archive/foundation](/Users/xukun/Documents/freqtrade/MiroFish/astrategy/.data/authoritative_archive/foundation)
+- 只会归档“日期匹配的当前 payload”，不会把旧 manifest 误写成新日期快照
+- 价格层 `end_date` 现在会对齐 `ingest_date`
+
+新增产物：
+
+- [foundation_archive_audit_20260320.md](/Users/xukun/Documents/freqtrade/MiroFish/astrategy/.data/reports/foundation_archive_audit_20260320.md)
+- [foundation_archive_audit.json](/Users/xukun/Documents/freqtrade/MiroFish/astrategy/.data/authoritative_archive/audit/foundation_archive_audit.json)
+- [astrategy/.data/authoritative_archive/foundation](/Users/xukun/Documents/freqtrade/MiroFish/astrategy/.data/authoritative_archive/foundation)
+
 ## 截至目前的真实数据结论
 
 ### 价格层：已大幅推进，但还不是 800/800
@@ -137,6 +178,25 @@ python3 astrategy/scripts/fetch_price_cache.py \
 - `filings`: `2026-02-24 -> 2026-03-19`
 - `graph`: 只有 `2026-03-19` 单日快照
 
+按新增的 [foundation_archive_audit_20260320.md](/Users/xukun/Documents/freqtrade/MiroFish/astrategy/.data/reports/foundation_archive_audit_20260320.md)：
+
+- `filings`: `18` 个 archive 快照，`2026-02-24 -> 2026-03-19`
+  - `authoritative_snapshot_count = 18`
+- `news`: `101` 个 archive 快照，`2025-10-30 -> 2026-03-19`
+  - `authoritative_snapshot_count = 0`
+- `sentiment`: `101` 个 archive 快照，`2025-10-30 -> 2026-03-19`
+  - `authoritative_snapshot_count = 0`
+- `events`: `101` 个 archive 快照，`2025-10-30 -> 2026-03-19`
+  - `authoritative_snapshot_count = 0`
+- `graph`: `1` 个 archive 快照，只有 `2026-03-19`
+  - `authoritative_snapshot_count = 0`
+
+严格结论：
+
+- 目前没有任何非价格源达到 `Authoritative2Y = YES`
+- `filings` 已经进入 authoritative archive，但历史只有 `23` 天
+- `news / sentiment / events / graph` 现在只是“已归档、可审计、可回放一部分”，还不是两年 authoritative 历史
+
 所以：
 
 - 价格 authoritative 两年回填已经基本打通
@@ -178,6 +238,11 @@ python3 astrategy/scripts/fetch_price_cache.py \
 - [news.py](/Users/xukun/Documents/freqtrade/MiroFish/astrategy/data_collector/news.py)
 - [research.py](/Users/xukun/Documents/freqtrade/MiroFish/astrategy/data_collector/research.py)
 - [fundamental.py](/Users/xukun/Documents/freqtrade/MiroFish/astrategy/data_collector/fundamental.py)
+
+注意：
+
+- 现在 archive 框架已经在，但 archive 不等于历史源本身补齐
+- 当前 `foundation archive` 只能忠实反映“本地现有可回放范围”，不会凭空生成两年历史
 
 ### 缺口 2：很多策略仍然使用 `datetime.now`
 
@@ -229,6 +294,23 @@ python3 -m astrategy.archive.foundation_backfill_audit \
   --universe csi800
 ```
 
+### foundation archive 回填
+
+```bash
+python3 -m astrategy.archive.foundation_history \
+  --backfill-local \
+  --components filings,news,sentiment,events,graph \
+  --start-date 2025-10-30 \
+  --end-date 2026-03-19 \
+  --universe csi800
+```
+
+### foundation archive 审计
+
+```bash
+python3 -m astrategy.archive.foundation_history --audit-only
+```
+
 ### 价格两年补数
 
 ```bash
@@ -255,6 +337,7 @@ python3 astrategy/scripts/fetch_price_cache.py \
 - 把价格层 authoritative 两年回填打通到 `CSI800 789/800`
 - 把 benchmark / 缺失点位补齐
 - 把 foundation 严格审计器做出来
+- 把非价格源的 `as_of_date` 历史 archive 框架真正搭起来，并完成现有本地范围回填
 
 但今天**没有**完成的是：
 

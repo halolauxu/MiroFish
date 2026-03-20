@@ -1,0 +1,72 @@
+{
+  "component": "events",
+  "as_of_date": "2026-02-18",
+  "universe_id": "csi800",
+  "quality_status": "derived_from_local_foundation",
+  "authoritative": false,
+  "run_context": "historical_backfill",
+  "generated_at": "2026-03-20T10:26:03Z",
+  "source_paths": [
+    ".data/authoritative_archive/foundation/filings/20260218.json",
+    ".data/authoritative_archive/foundation/news/20260218.json",
+    ".data/authoritative_archive/foundation/sentiment/20260218.json"
+  ],
+  "payload": {
+    "summary": {
+      "ingest_date": "2026-02-18",
+      "snapshot_mode": "historical_replay",
+      "history_quality": "derived_from_local_foundation",
+      "incremental_event_count": 1,
+      "event_master_count": 68,
+      "created_event_count": 1,
+      "filing_event_count": 0,
+      "news_event_count": 1,
+      "sentiment_event_count": 0,
+      "skipped_filing_other": 0,
+      "skipped_news_other": 0
+    },
+    "rows": [
+      {
+        "event_id": "news:2026-02-18:002966:f9960fad8a2c",
+        "event_type": "management_change",
+        "event_subtype": "management_change.executive",
+        "title": "银行纷纷补充首席合规官：来源多样化 不少由行长兼任",
+        "summary": "就上市银行披露的信息来看，南京银行（601009.SH）、上海银行（601229.SH）、苏州银行（002966.SZ）、齐鲁银行（601665.SH)、江阴银行（002807.SZ）等均由行长兼任首席合规官；光大银行（601818.SH）、民生银行（600016.SH）则聘任副行长兼任首席合规官",
+        "source": "news_incremental",
+        "entity_codes": [
+          "002966"
+        ],
+        "entity_names": [
+          "苏州银行"
+        ],
+        "industry_codes": [],
+        "theme_tags": [],
+        "event_time": "2026-02-18T00:00:00",
+        "discover_time": "2026-02-18T08:37:16",
+        "available_at": "2026-02-18T08:37:16",
+        "severity": 0.55,
+        "surprise_score": 0.45,
+        "tradability_score": 0.7,
+        "novelty_score": 0.6,
+        "crowding_risk": 0.35,
+        "confidence": 0.55,
+        "impact_level": "medium",
+        "source_type": "news",
+        "raw_payload_ref": "http://finance.eastmoney.com/a/202602183651361823.html",
+        "metadata": {
+          "legacy_type": "management_change",
+          "legacy_event_date": "2026-02-18",
+          "legacy_stock_code": "002966",
+          "legacy_stock_name": "苏州银行",
+          "ingest_date": "2026-02-18",
+          "publisher": "澎湃新闻",
+          "matched_keywords": [
+            "聘任"
+          ]
+        },
+        "created_at": "2026-03-20T10:26:03.661271+00:00",
+        "updated_at": "2026-03-20T10:26:03.661275+00:00"
+      }
+    ]
+  }
+}

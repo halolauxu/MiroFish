@@ -1,0 +1,156 @@
+{
+  "component": "events",
+  "as_of_date": "2026-02-06",
+  "universe_id": "csi800",
+  "quality_status": "derived_from_local_foundation",
+  "authoritative": false,
+  "run_context": "historical_backfill",
+  "generated_at": "2026-03-20T10:26:02Z",
+  "source_paths": [
+    ".data/authoritative_archive/foundation/filings/20260206.json",
+    ".data/authoritative_archive/foundation/news/20260206.json",
+    ".data/authoritative_archive/foundation/sentiment/20260206.json"
+  ],
+  "payload": {
+    "summary": {
+      "ingest_date": "2026-02-06",
+      "snapshot_mode": "historical_replay",
+      "history_quality": "derived_from_local_foundation",
+      "incremental_event_count": 3,
+      "event_master_count": 28,
+      "created_event_count": 3,
+      "filing_event_count": 0,
+      "news_event_count": 3,
+      "sentiment_event_count": 0,
+      "skipped_filing_other": 0,
+      "skipped_news_other": 3
+    },
+    "rows": [
+      {
+        "event_id": "news:2026-02-06:300207:06a260a5ffc7",
+        "event_type": "policy_risk",
+        "event_subtype": "policy_risk.litigation",
+        "title": "IPO关键期！300207，大和解",
+        "summary": "【导读】欣旺达与吉利系诉讼和解，当前正在申报港股IPO 2月6日盘后，欣旺达发布公告称，公司子公司欣旺达动力科技股份有限公司（以下简称欣旺达动力）与威睿电动汽车技术（宁波）有限公司（以下简称威睿电动）在一审阶段达成和解。威睿电动将在《和解协议》生效后撤回起诉。 威睿电动隶属于吉利控股集团",
+        "source": "news_incremental",
+        "entity_codes": [
+          "300207"
+        ],
+        "entity_names": [
+          "欣旺达"
+        ],
+        "industry_codes": [],
+        "theme_tags": [
+          "auto"
+        ],
+        "event_time": "2026-02-06T00:00:00",
+        "discover_time": "2026-02-06T20:29:40",
+        "available_at": "2026-02-06T20:29:40",
+        "severity": 0.8,
+        "surprise_score": 0.75,
+        "tradability_score": 0.7,
+        "novelty_score": 0.6,
+        "crowding_risk": 0.35,
+        "confidence": 0.7,
+        "impact_level": "high",
+        "source_type": "news",
+        "raw_payload_ref": "http://finance.eastmoney.com/a/202602063644310661.html",
+        "metadata": {
+          "legacy_type": "policy_risk",
+          "legacy_event_date": "2026-02-06",
+          "legacy_stock_code": "300207",
+          "legacy_stock_name": "欣旺达",
+          "ingest_date": "2026-02-06",
+          "publisher": "中国基金报",
+          "matched_keywords": [
+            "诉讼"
+          ]
+        },
+        "created_at": "2026-03-20T10:26:02.429292+00:00",
+        "updated_at": "2026-03-20T10:26:02.429296+00:00"
+      },
+      {
+        "event_id": "news:2026-02-06:300601:c4b0a8796d0e",
+        "event_type": "earnings_surprise",
+        "event_subtype": "earnings_surprise.report",
+        "title": "康泰生物：副总裁于冰因个人原因辞职",
+        "summary": "2月6日，康泰生物（300601）发布公告，公司副总裁于冰因个人原因申请辞职，辞职报告自送达董事会之日起生效，原定任期至2028年1月21日。 2025年前三季度，康泰生物实现收入20.63亿元，归母净利润4916万元。",
+        "source": "news_incremental",
+        "entity_codes": [
+          "300601"
+        ],
+        "entity_names": [
+          "康泰生物"
+        ],
+        "industry_codes": [],
+        "theme_tags": [],
+        "event_time": "2026-02-06T00:00:00",
+        "discover_time": "2026-02-06T19:35:14",
+        "available_at": "2026-02-06T19:35:14",
+        "severity": 0.8,
+        "surprise_score": 0.75,
+        "tradability_score": 0.7,
+        "novelty_score": 0.6,
+        "crowding_risk": 0.45,
+        "confidence": 0.7,
+        "impact_level": "high",
+        "source_type": "news",
+        "raw_payload_ref": "http://finance.eastmoney.com/a/202602063644262633.html",
+        "metadata": {
+          "legacy_type": "earnings_surprise",
+          "legacy_event_date": "2026-02-06",
+          "legacy_stock_code": "300601",
+          "legacy_stock_name": "康泰生物",
+          "ingest_date": "2026-02-06",
+          "publisher": "财中社",
+          "matched_keywords": [
+            "净利润"
+          ]
+        },
+        "created_at": "2026-03-20T10:26:02.429450+00:00",
+        "updated_at": "2026-03-20T10:26:02.429451+00:00"
+      },
+      {
+        "event_id": "news:2026-02-06:600967:68e36d7869a0",
+        "event_type": "order_win",
+        "event_subtype": "order_win.bid",
+        "title": "内蒙一机：签3.48亿元铁路货车采购合同",
+        "summary": "中证智能财讯内蒙一机（600967）2月6日公告，公司全资子公司包头北方创业有限责任公司近日与中国国家铁路集团有限公司签订了《铁路货车采购项目合同》，合同总金额为3.48亿元。",
+        "source": "news_incremental",
+        "entity_codes": [
+          "600967"
+        ],
+        "entity_names": [
+          "内蒙一机"
+        ],
+        "industry_codes": [],
+        "theme_tags": [],
+        "event_time": "2026-02-06T00:00:00",
+        "discover_time": "2026-02-06T09:27:12",
+        "available_at": "2026-02-06T09:27:12",
+        "severity": 0.8,
+        "surprise_score": 0.75,
+        "tradability_score": 0.7,
+        "novelty_score": 0.6,
+        "crowding_risk": 0.45,
+        "confidence": 0.7,
+        "impact_level": "high",
+        "source_type": "news",
+        "raw_payload_ref": "http://finance.eastmoney.com/a/202602063643680630.html",
+        "metadata": {
+          "legacy_type": "order_win",
+          "legacy_event_date": "2026-02-06",
+          "legacy_stock_code": "600967",
+          "legacy_stock_name": "内蒙一机",
+          "ingest_date": "2026-02-06",
+          "publisher": "中国证券报·中证网",
+          "matched_keywords": [
+            "采购合同"
+          ]
+        },
+        "created_at": "2026-03-20T10:26:02.429684+00:00",
+        "updated_at": "2026-03-20T10:26:02.429685+00:00"
+      }
+    ]
+  }
+}

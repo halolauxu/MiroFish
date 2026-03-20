@@ -1,0 +1,72 @@
+{
+  "component": "events",
+  "as_of_date": "2025-10-30",
+  "universe_id": "csi800",
+  "quality_status": "derived_from_local_foundation",
+  "authoritative": false,
+  "run_context": "historical_backfill",
+  "generated_at": "2026-03-20T10:25:52Z",
+  "source_paths": [
+    ".data/authoritative_archive/foundation/filings/20251030.json",
+    ".data/authoritative_archive/foundation/news/20251030.json",
+    ".data/authoritative_archive/foundation/sentiment/20251030.json"
+  ],
+  "payload": {
+    "summary": {
+      "ingest_date": "2025-10-30",
+      "snapshot_mode": "historical_replay",
+      "history_quality": "derived_from_local_foundation",
+      "incremental_event_count": 1,
+      "event_master_count": 1,
+      "created_event_count": 1,
+      "filing_event_count": 0,
+      "news_event_count": 1,
+      "sentiment_event_count": 0,
+      "skipped_filing_other": 0,
+      "skipped_news_other": 0
+    },
+    "rows": [
+      {
+        "event_id": "news:2025-10-30:001213:a33f0992a479",
+        "event_type": "earnings_surprise",
+        "event_subtype": "earnings_surprise.report",
+        "title": "中铁特货：2025年前三季度净利润4.73亿元",
+        "summary": "中证智能财讯中铁特货（001213）10月31日披露2025年第三季度报告。",
+        "source": "news_incremental",
+        "entity_codes": [
+          "001213"
+        ],
+        "entity_names": [
+          "中铁特货"
+        ],
+        "industry_codes": [],
+        "theme_tags": [],
+        "event_time": "2025-10-30T00:00:00",
+        "discover_time": "2025-10-30T20:15:42",
+        "available_at": "2025-10-30T20:15:42",
+        "severity": 0.8,
+        "surprise_score": 0.75,
+        "tradability_score": 0.7,
+        "novelty_score": 0.6,
+        "crowding_risk": 0.45,
+        "confidence": 0.7,
+        "impact_level": "high",
+        "source_type": "news",
+        "raw_payload_ref": "http://finance.eastmoney.com/a/202510303550599975.html",
+        "metadata": {
+          "legacy_type": "earnings_surprise",
+          "legacy_event_date": "2025-10-30",
+          "legacy_stock_code": "001213",
+          "legacy_stock_name": "中铁特货",
+          "ingest_date": "2025-10-30",
+          "publisher": "中国证券报·中证网",
+          "matched_keywords": [
+            "净利润"
+          ]
+        },
+        "created_at": "2026-03-20T10:25:52.441595+00:00",
+        "updated_at": "2026-03-20T10:25:52.441600+00:00"
+      }
+    ]
+  }
+}

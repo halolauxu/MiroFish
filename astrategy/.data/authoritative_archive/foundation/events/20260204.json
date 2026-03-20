@@ -1,0 +1,159 @@
+{
+  "component": "events",
+  "as_of_date": "2026-02-04",
+  "universe_id": "csi800",
+  "quality_status": "derived_from_local_foundation",
+  "authoritative": false,
+  "run_context": "historical_backfill",
+  "generated_at": "2026-03-20T10:26:02Z",
+  "source_paths": [
+    ".data/authoritative_archive/foundation/filings/20260204.json",
+    ".data/authoritative_archive/foundation/news/20260204.json",
+    ".data/authoritative_archive/foundation/sentiment/20260204.json"
+  ],
+  "payload": {
+    "summary": {
+      "ingest_date": "2026-02-04",
+      "snapshot_mode": "historical_replay",
+      "history_quality": "derived_from_local_foundation",
+      "incremental_event_count": 3,
+      "event_master_count": 24,
+      "created_event_count": 3,
+      "filing_event_count": 0,
+      "news_event_count": 3,
+      "sentiment_event_count": 0,
+      "skipped_filing_other": 0,
+      "skipped_news_other": 8
+    },
+    "rows": [
+      {
+        "event_id": "news:2026-02-04:000625:112503fa4f96",
+        "event_type": "buyback",
+        "event_subtype": "buyback.shareholder_action",
+        "title": "时隔近14年，000625拟回购股份",
+        "summary": "【导读】长安汽车间隔近14年，拟出资10亿元至20亿元回购股份 2月4日晚间，长安汽车发布公告称，公司正在筹划回购股份事项，拟回购股份金额不低于10亿元（含）且不超过20亿元（含）。 这是长安汽车时隔近14年，再次筹划回购股份事项。 长安汽车的间接控股股东中国长安汽车集团有限公司",
+        "source": "news_incremental",
+        "entity_codes": [
+          "000625"
+        ],
+        "entity_names": [
+          "长安汽车"
+        ],
+        "industry_codes": [],
+        "theme_tags": [
+          "auto"
+        ],
+        "event_time": "2026-02-04T00:00:00",
+        "discover_time": "2026-02-04T21:43:04",
+        "available_at": "2026-02-04T21:43:04",
+        "severity": 0.55,
+        "surprise_score": 0.45,
+        "tradability_score": 0.7,
+        "novelty_score": 0.6,
+        "crowding_risk": 0.45,
+        "confidence": 0.55,
+        "impact_level": "medium",
+        "source_type": "news",
+        "raw_payload_ref": "http://finance.eastmoney.com/a/202602043641733642.html",
+        "metadata": {
+          "legacy_type": "buyback",
+          "legacy_event_date": "2026-02-04",
+          "legacy_stock_code": "000625",
+          "legacy_stock_name": "长安汽车",
+          "ingest_date": "2026-02-04",
+          "publisher": "中国基金报",
+          "matched_keywords": [
+            "回购"
+          ]
+        },
+        "created_at": "2026-03-20T10:26:02.129545+00:00",
+        "updated_at": "2026-03-20T10:26:02.129549+00:00"
+      },
+      {
+        "event_id": "news:2026-02-04:600863:bece1681210f",
+        "event_type": "capital_raise",
+        "event_subtype": "capital_raise.equity",
+        "title": "超151亿元资金“抢筹” 仅四家入围！600863定增落地",
+        "summary": "2月4日晚，中国华能旗下上市公司内蒙华电（600863）公告称，公司完成26.5亿元定增募资，发行价格为4.94元/股。记者注意到，本次发行共有44家认购对象进行了申购，有效申购金额达151.67亿元，认购倍数超过5.72倍。最终仅四家对象获配。",
+        "source": "news_incremental",
+        "entity_codes": [
+          "600863"
+        ],
+        "entity_names": [
+          "华能蒙电"
+        ],
+        "industry_codes": [],
+        "theme_tags": [],
+        "event_time": "2026-02-04T00:00:00",
+        "discover_time": "2026-02-04T23:38:25",
+        "available_at": "2026-02-04T23:38:25",
+        "severity": 0.55,
+        "surprise_score": 0.45,
+        "tradability_score": 0.7,
+        "novelty_score": 0.6,
+        "crowding_risk": 0.45,
+        "confidence": 0.55,
+        "impact_level": "medium",
+        "source_type": "news",
+        "raw_payload_ref": "http://finance.eastmoney.com/a/202602043641846440.html",
+        "metadata": {
+          "legacy_type": "capital_raise",
+          "legacy_event_date": "2026-02-04",
+          "legacy_stock_code": "600863",
+          "legacy_stock_name": "华能蒙电",
+          "ingest_date": "2026-02-04",
+          "publisher": "上海证券报",
+          "matched_keywords": [
+            "定增",
+            "募资"
+          ]
+        },
+        "created_at": "2026-03-20T10:26:02.130472+00:00",
+        "updated_at": "2026-03-20T10:26:02.130473+00:00"
+      },
+      {
+        "event_id": "news:2026-02-04:601598:8a93e52c5583",
+        "event_type": "capital_raise",
+        "event_subtype": "capital_raise.equity",
+        "title": "【数据揭秘】融资客看好个股一览",
+        "summary": "毕得医药 4101.99 -14.45 1.53 6.26 301273 瑞晨环保 1921.26 -14.34 1.15 4.70 920014 特瑞斯 889.48 -13.68 1.05 0.40 688556 高测股份 58085.36 -13.54 4.57 10.79 601598",
+        "source": "news_incremental",
+        "entity_codes": [
+          "601598"
+        ],
+        "entity_names": [
+          "中国外运"
+        ],
+        "industry_codes": [],
+        "theme_tags": [
+          "medicine"
+        ],
+        "event_time": "2026-02-04T00:00:00",
+        "discover_time": "2026-02-04T10:28:08",
+        "available_at": "2026-02-04T10:28:08",
+        "severity": 0.55,
+        "surprise_score": 0.45,
+        "tradability_score": 0.7,
+        "novelty_score": 0.6,
+        "crowding_risk": 0.45,
+        "confidence": 0.55,
+        "impact_level": "medium",
+        "source_type": "news",
+        "raw_payload_ref": "http://finance.eastmoney.com/a/202602043641198765.html",
+        "metadata": {
+          "legacy_type": "capital_raise",
+          "legacy_event_date": "2026-02-04",
+          "legacy_stock_code": "601598",
+          "legacy_stock_name": "中国外运",
+          "ingest_date": "2026-02-04",
+          "publisher": "证券时报网",
+          "matched_keywords": [
+            "融资"
+          ]
+        },
+        "created_at": "2026-03-20T10:26:02.130620+00:00",
+        "updated_at": "2026-03-20T10:26:02.130621+00:00"
+      }
+    ]
+  }
+}

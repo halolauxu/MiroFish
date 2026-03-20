@@ -1,0 +1,73 @@
+{
+  "component": "events",
+  "as_of_date": "2026-02-16",
+  "universe_id": "csi800",
+  "quality_status": "derived_from_local_foundation",
+  "authoritative": false,
+  "run_context": "historical_backfill",
+  "generated_at": "2026-03-20T10:26:03Z",
+  "source_paths": [
+    ".data/authoritative_archive/foundation/filings/20260216.json",
+    ".data/authoritative_archive/foundation/news/20260216.json",
+    ".data/authoritative_archive/foundation/sentiment/20260216.json"
+  ],
+  "payload": {
+    "summary": {
+      "ingest_date": "2026-02-16",
+      "snapshot_mode": "historical_replay",
+      "history_quality": "derived_from_local_foundation",
+      "incremental_event_count": 1,
+      "event_master_count": 67,
+      "created_event_count": 1,
+      "filing_event_count": 0,
+      "news_event_count": 1,
+      "sentiment_event_count": 0,
+      "skipped_filing_other": 0,
+      "skipped_news_other": 0
+    },
+    "rows": [
+      {
+        "event_id": "news:2026-02-16:600927:9a78cfd249f8",
+        "event_type": "earnings_surprise",
+        "event_subtype": "earnings_surprise.report",
+        "title": "因内控及子公司管理违规，“期货一哥”永安期货被责令改正，三责任高管被警示",
+        "summary": "最新业绩方面，2025年10月28日，永安期货600927公布2025年三季报，公司前三季营业收入为83.55亿元，同比下降55.26%；归母净利润为4.75亿元，同比上升13.31%；扣非归母净利润为4.75亿元，同比上升15.35%；经营现金流净额为-129.13亿元。",
+        "source": "news_incremental",
+        "entity_codes": [
+          "600927"
+        ],
+        "entity_names": [
+          "永安期货"
+        ],
+        "industry_codes": [],
+        "theme_tags": [],
+        "event_time": "2026-02-16T00:00:00",
+        "discover_time": "2026-02-16T18:05:29",
+        "available_at": "2026-02-16T18:05:29",
+        "severity": 0.8,
+        "surprise_score": 0.75,
+        "tradability_score": 0.7,
+        "novelty_score": 0.6,
+        "crowding_risk": 0.45,
+        "confidence": 0.7,
+        "impact_level": "high",
+        "source_type": "news",
+        "raw_payload_ref": "http://finance.eastmoney.com/a/202602163651198189.html",
+        "metadata": {
+          "legacy_type": "earnings_surprise",
+          "legacy_event_date": "2026-02-16",
+          "legacy_stock_code": "600927",
+          "legacy_stock_name": "永安期货",
+          "ingest_date": "2026-02-16",
+          "publisher": "深圳商报·读创",
+          "matched_keywords": [
+            "季报",
+            "净利润"
+          ]
+        },
+        "created_at": "2026-03-20T10:26:03.352745+00:00",
+        "updated_at": "2026-03-20T10:26:03.352748+00:00"
+      }
+    ]
+  }
+}

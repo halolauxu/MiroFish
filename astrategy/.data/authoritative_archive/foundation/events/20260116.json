@@ -1,0 +1,74 @@
+{
+  "component": "events",
+  "as_of_date": "2026-01-16",
+  "universe_id": "csi800",
+  "quality_status": "derived_from_local_foundation",
+  "authoritative": false,
+  "run_context": "historical_backfill",
+  "generated_at": "2026-03-20T10:26:00Z",
+  "source_paths": [
+    ".data/authoritative_archive/foundation/filings/20260116.json",
+    ".data/authoritative_archive/foundation/news/20260116.json",
+    ".data/authoritative_archive/foundation/sentiment/20260116.json"
+  ],
+  "payload": {
+    "summary": {
+      "ingest_date": "2026-01-16",
+      "snapshot_mode": "historical_replay",
+      "history_quality": "derived_from_local_foundation",
+      "incremental_event_count": 1,
+      "event_master_count": 4,
+      "created_event_count": 1,
+      "filing_event_count": 0,
+      "news_event_count": 1,
+      "sentiment_event_count": 0,
+      "skipped_filing_other": 0,
+      "skipped_news_other": 3
+    },
+    "rows": [
+      {
+        "event_id": "news:2026-01-16:600161:a5019afb8042",
+        "event_type": "management_change",
+        "event_subtype": "management_change.executive",
+        "title": "天坛生物：董事长杨汇川因工作调整离任",
+        "summary": "人民财讯1月16日电，天坛生物6001611月16日公告，由于工作调整，公司原董事长杨汇川向董事会提出辞去董事长、董事会战略与投资委员会主任委员、董事会业绩考核与薪酬委员会委员、董事会提名委员会委员等职务。辞去上述职务后，杨汇川将继续担任公司第九届董事会董事、总经理等职务。",
+        "source": "news_incremental",
+        "entity_codes": [
+          "600161"
+        ],
+        "entity_names": [
+          "天坛生物"
+        ],
+        "industry_codes": [],
+        "theme_tags": [],
+        "event_time": "2026-01-16T00:00:00",
+        "discover_time": "2026-01-16T21:24:11",
+        "available_at": "2026-01-16T21:24:11",
+        "severity": 0.55,
+        "surprise_score": 0.45,
+        "tradability_score": 0.7,
+        "novelty_score": 0.6,
+        "crowding_risk": 0.35,
+        "confidence": 0.55,
+        "impact_level": "medium",
+        "source_type": "news",
+        "raw_payload_ref": "http://finance.eastmoney.com/a/202601163622161183.html",
+        "metadata": {
+          "legacy_type": "management_change",
+          "legacy_event_date": "2026-01-16",
+          "legacy_stock_code": "600161",
+          "legacy_stock_name": "天坛生物",
+          "ingest_date": "2026-01-16",
+          "publisher": "人民财讯",
+          "matched_keywords": [
+            "离任",
+            "董事长",
+            "总经理"
+          ]
+        },
+        "created_at": "2026-03-20T10:26:00.250954+00:00",
+        "updated_at": "2026-03-20T10:26:00.250958+00:00"
+      }
+    ]
+  }
+}

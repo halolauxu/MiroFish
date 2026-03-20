@@ -1,0 +1,156 @@
+{
+  "component": "events",
+  "as_of_date": "2026-01-28",
+  "universe_id": "csi800",
+  "quality_status": "derived_from_local_foundation",
+  "authoritative": false,
+  "run_context": "historical_backfill",
+  "generated_at": "2026-03-20T10:26:01Z",
+  "source_paths": [
+    ".data/authoritative_archive/foundation/filings/20260128.json",
+    ".data/authoritative_archive/foundation/news/20260128.json",
+    ".data/authoritative_archive/foundation/sentiment/20260128.json"
+  ],
+  "payload": {
+    "summary": {
+      "ingest_date": "2026-01-28",
+      "snapshot_mode": "historical_replay",
+      "history_quality": "derived_from_local_foundation",
+      "incremental_event_count": 3,
+      "event_master_count": 15,
+      "created_event_count": 3,
+      "filing_event_count": 0,
+      "news_event_count": 3,
+      "sentiment_event_count": 0,
+      "skipped_filing_other": 0,
+      "skipped_news_other": 0
+    },
+    "rows": [
+      {
+        "event_id": "news:2026-01-28:002223:2dd25c9931ec",
+        "event_type": "product_launch",
+        "event_subtype": "product_launch.new_release",
+        "title": "鱼跃医疗：子公司持续葡萄糖监测系统获欧盟MDR认证",
+        "summary": "1月28日，鱼跃医疗（002223）发布公告，控股子公司鱼跃凯立特近日获得了符合欧盟医疗器械第2017/745号法规（MDR）要求的IIb类医疗器械CE认证证书，认证的产品为持续葡萄糖监测系统（CGM）。",
+        "source": "news_incremental",
+        "entity_codes": [
+          "002223"
+        ],
+        "entity_names": [
+          "鱼跃医疗"
+        ],
+        "industry_codes": [],
+        "theme_tags": [
+          "medicine"
+        ],
+        "event_time": "2026-01-28T00:00:00",
+        "discover_time": "2026-01-28T18:06:16",
+        "available_at": "2026-01-28T18:06:16",
+        "severity": 0.55,
+        "surprise_score": 0.75,
+        "tradability_score": 0.7,
+        "novelty_score": 0.6,
+        "crowding_risk": 0.45,
+        "confidence": 0.55,
+        "impact_level": "medium",
+        "source_type": "news",
+        "raw_payload_ref": "http://finance.eastmoney.com/a/202601283633751270.html",
+        "metadata": {
+          "legacy_type": "product_launch",
+          "legacy_event_date": "2026-01-28",
+          "legacy_stock_code": "002223",
+          "legacy_stock_name": "鱼跃医疗",
+          "ingest_date": "2026-01-28",
+          "publisher": "财中社",
+          "matched_keywords": [
+            "发布"
+          ]
+        },
+        "created_at": "2026-03-20T10:26:01.398957+00:00",
+        "updated_at": "2026-03-20T10:26:01.398961+00:00"
+      },
+      {
+        "event_id": "news:2026-01-28:600578:6df976371165",
+        "event_type": "earnings_surprise",
+        "event_subtype": "earnings_surprise.report",
+        "title": "京能电力：2025年净利同比预增89.04%—118.34%",
+        "summary": "人民财讯1月28日电，京能电力6005781月28日公告，预计2025年实现归属于母公司所有者的净利润为33.07亿元至38.19亿元，与上年同期（重述后数据：17.49亿元）相比，同比增长89.04%至118.34%。",
+        "source": "news_incremental",
+        "entity_codes": [
+          "600578"
+        ],
+        "entity_names": [
+          "京能电力"
+        ],
+        "industry_codes": [],
+        "theme_tags": [],
+        "event_time": "2026-01-28T00:00:00",
+        "discover_time": "2026-01-28T16:41:49",
+        "available_at": "2026-01-28T16:41:49",
+        "severity": 0.8,
+        "surprise_score": 0.75,
+        "tradability_score": 0.7,
+        "novelty_score": 0.6,
+        "crowding_risk": 0.45,
+        "confidence": 0.7,
+        "impact_level": "high",
+        "source_type": "news",
+        "raw_payload_ref": "http://finance.eastmoney.com/a/202601283633639693.html",
+        "metadata": {
+          "legacy_type": "earnings_surprise",
+          "legacy_event_date": "2026-01-28",
+          "legacy_stock_code": "600578",
+          "legacy_stock_name": "京能电力",
+          "ingest_date": "2026-01-28",
+          "publisher": "人民财讯",
+          "matched_keywords": [
+            "净利润"
+          ]
+        },
+        "created_at": "2026-03-20T10:26:01.399117+00:00",
+        "updated_at": "2026-03-20T10:26:01.399118+00:00"
+      },
+      {
+        "event_id": "news:2026-01-28:600578:b06b82441b32",
+        "event_type": "earnings_surprise",
+        "event_subtype": "earnings_surprise.guidance",
+        "title": "京能电力：预计2025年净利润33.07亿元~38.19亿元 同比增89.04%~118.34%",
+        "summary": "京能电力（600578）1月28日发布2025年业绩预增公告，预计实现净利润为33.07亿元~38.19亿元，净利润同比增长89.04%~118.34%。",
+        "source": "news_incremental",
+        "entity_codes": [
+          "600578"
+        ],
+        "entity_names": [
+          "京能电力"
+        ],
+        "industry_codes": [],
+        "theme_tags": [],
+        "event_time": "2026-01-28T00:00:00",
+        "discover_time": "2026-01-28T17:11:04",
+        "available_at": "2026-01-28T17:11:04",
+        "severity": 0.8,
+        "surprise_score": 0.75,
+        "tradability_score": 0.7,
+        "novelty_score": 0.6,
+        "crowding_risk": 0.45,
+        "confidence": 0.7,
+        "impact_level": "high",
+        "source_type": "news",
+        "raw_payload_ref": "http://finance.eastmoney.com/a/202601283633682253.html",
+        "metadata": {
+          "legacy_type": "earnings_surprise",
+          "legacy_event_date": "2026-01-28",
+          "legacy_stock_code": "600578",
+          "legacy_stock_name": "京能电力",
+          "ingest_date": "2026-01-28",
+          "publisher": "证券时报网",
+          "matched_keywords": [
+            "业绩预增"
+          ]
+        },
+        "created_at": "2026-03-20T10:26:01.399251+00:00",
+        "updated_at": "2026-03-20T10:26:01.399252+00:00"
+      }
+    ]
+  }
+}

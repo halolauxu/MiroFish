@@ -1,0 +1,4171 @@
+{
+  "component": "events",
+  "as_of_date": "2026-02-27",
+  "universe_id": "csi800",
+  "quality_status": "derived_from_local_foundation",
+  "authoritative": false,
+  "run_context": "historical_backfill",
+  "generated_at": "2026-03-20T10:26:04Z",
+  "source_paths": [
+    ".data/authoritative_archive/foundation/filings/20260227.json",
+    ".data/authoritative_archive/foundation/news/20260227.json",
+    ".data/authoritative_archive/foundation/sentiment/20260227.json"
+  ],
+  "payload": {
+    "summary": {
+      "ingest_date": "2026-02-27",
+      "snapshot_mode": "historical_replay",
+      "history_quality": "derived_from_local_foundation",
+      "incremental_event_count": 100,
+      "event_master_count": 304,
+      "created_event_count": 100,
+      "filing_event_count": 86,
+      "news_event_count": 11,
+      "sentiment_event_count": 3,
+      "skipped_filing_other": 87,
+      "skipped_news_other": 11
+    },
+    "rows": [
+      {
+        "event_id": "filing:2026-02-27:688692:678b65279954",
+        "event_type": "earnings_surprise",
+        "event_subtype": "earnings_surprise.guidance",
+        "title": "2025年度业绩快报公告",
+        "summary": "业绩预告",
+        "source": "announcement_incremental",
+        "entity_codes": [
+          "688692"
+        ],
+        "entity_names": [
+          "达梦数据"
+        ],
+        "industry_codes": [],
+        "theme_tags": [],
+        "event_time": "2026-02-27T00:00:00",
+        "discover_time": "2026-02-27T00:00:00",
+        "available_at": "2026-02-27T00:00:00",
+        "severity": 0.8,
+        "surprise_score": 0.75,
+        "tradability_score": 0.7,
+        "novelty_score": 0.6,
+        "crowding_risk": 0.45,
+        "confidence": 0.7,
+        "impact_level": "high",
+        "source_type": "filing",
+        "raw_payload_ref": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=688692&announcementId=1224985009&orgId=9900048178&announcementTime=2026-02-27",
+        "metadata": {
+          "legacy_type": "earnings_surprise",
+          "legacy_event_date": "2026-02-27",
+          "legacy_stock_code": "688692",
+          "legacy_stock_name": "达梦数据",
+          "ingest_date": "2026-02-27",
+          "announcement_type": "业绩预告",
+          "matched_keywords": [
+            "业绩预告",
+            "业绩快报"
+          ]
+        },
+        "created_at": "2026-03-20T10:26:04.878011+00:00",
+        "updated_at": "2026-03-20T10:26:04.878015+00:00"
+      },
+      {
+        "event_id": "filing:2026-02-27:688617:678b65279954",
+        "event_type": "earnings_surprise",
+        "event_subtype": "earnings_surprise.guidance",
+        "title": "2025年度业绩快报公告",
+        "summary": "业绩预告",
+        "source": "announcement_incremental",
+        "entity_codes": [
+          "688617"
+        ],
+        "entity_names": [
+          "惠泰医疗"
+        ],
+        "industry_codes": [],
+        "theme_tags": [],
+        "event_time": "2026-02-27T00:00:00",
+        "discover_time": "2026-02-27T00:00:00",
+        "available_at": "2026-02-27T00:00:00",
+        "severity": 0.8,
+        "surprise_score": 0.75,
+        "tradability_score": 0.7,
+        "novelty_score": 0.6,
+        "crowding_risk": 0.45,
+        "confidence": 0.7,
+        "impact_level": "high",
+        "source_type": "filing",
+        "raw_payload_ref": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=688617&announcementId=1224985426&orgId=nssc1000047&announcementTime=2026-02-27",
+        "metadata": {
+          "legacy_type": "earnings_surprise",
+          "legacy_event_date": "2026-02-27",
+          "legacy_stock_code": "688617",
+          "legacy_stock_name": "惠泰医疗",
+          "ingest_date": "2026-02-27",
+          "announcement_type": "业绩预告",
+          "matched_keywords": [
+            "业绩预告",
+            "业绩快报"
+          ]
+        },
+        "created_at": "2026-03-20T10:26:04.878149+00:00",
+        "updated_at": "2026-03-20T10:26:04.878151+00:00"
+      },
+      {
+        "event_id": "filing:2026-02-27:688615:606002161c3d",
+        "event_type": "earnings_surprise",
+        "event_subtype": "earnings_surprise.guidance",
+        "title": "上海合合信息科技股份有限公司2025年度业绩快报公告",
+        "summary": "业绩预告",
+        "source": "announcement_incremental",
+        "entity_codes": [
+          "688615"
+        ],
+        "entity_names": [
+          "合合信息"
+        ],
+        "industry_codes": [],
+        "theme_tags": [],
+        "event_time": "2026-02-27T00:00:00",
+        "discover_time": "2026-02-27T00:00:00",
+        "available_at": "2026-02-27T00:00:00",
+        "severity": 0.8,
+        "surprise_score": 0.75,
+        "tradability_score": 0.7,
+        "novelty_score": 0.6,
+        "crowding_risk": 0.45,
+        "confidence": 0.7,
+        "impact_level": "high",
+        "source_type": "filing",
+        "raw_payload_ref": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=688615&announcementId=1224985427&orgId=9900046400&announcementTime=2026-02-27",
+        "metadata": {
+          "legacy_type": "earnings_surprise",
+          "legacy_event_date": "2026-02-27",
+          "legacy_stock_code": "688615",
+          "legacy_stock_name": "合合信息",
+          "ingest_date": "2026-02-27",
+          "announcement_type": "业绩预告",
+          "matched_keywords": [
+            "业绩预告",
+            "业绩快报"
+          ]
+        },
+        "created_at": "2026-03-20T10:26:04.878266+00:00",
+        "updated_at": "2026-03-20T10:26:04.878267+00:00"
+      },
+      {
+        "event_id": "filing:2026-02-27:688599:8d9c74fa86b8",
+        "event_type": "earnings_surprise",
+        "event_subtype": "earnings_surprise.guidance",
+        "title": "天合光能股份有限公司2025年度业绩快报公告",
+        "summary": "业绩预告",
+        "source": "announcement_incremental",
+        "entity_codes": [
+          "688599"
+        ],
+        "entity_names": [
+          "天合光能"
+        ],
+        "industry_codes": [],
+        "theme_tags": [],
+        "event_time": "2026-02-27T00:00:00",
+        "discover_time": "2026-02-27T00:00:00",
+        "available_at": "2026-02-27T00:00:00",
+        "severity": 0.8,
+        "surprise_score": 0.75,
+        "tradability_score": 0.7,
+        "novelty_score": 0.6,
+        "crowding_risk": 0.45,
+        "confidence": 0.7,
+        "impact_level": "high",
+        "source_type": "filing",
+        "raw_payload_ref": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=688599&announcementId=1224986379&orgId=GD155612&announcementTime=2026-02-27",
+        "metadata": {
+          "legacy_type": "earnings_surprise",
+          "legacy_event_date": "2026-02-27",
+          "legacy_stock_code": "688599",
+          "legacy_stock_name": "天合光能",
+          "ingest_date": "2026-02-27",
+          "announcement_type": "业绩预告",
+          "matched_keywords": [
+            "业绩预告",
+            "业绩快报"
+          ]
+        },
+        "created_at": "2026-03-20T10:26:04.878466+00:00",
+        "updated_at": "2026-03-20T10:26:04.878467+00:00"
+      },
+      {
+        "event_id": "filing:2026-02-27:688578:78b81ce7118d",
+        "event_type": "earnings_surprise",
+        "event_subtype": "earnings_surprise.guidance",
+        "title": "上海艾力斯医药科技股份有限公司2025年度业绩快报公告",
+        "summary": "业绩预告",
+        "source": "announcement_incremental",
+        "entity_codes": [
+          "688578"
+        ],
+        "entity_names": [
+          "艾力斯"
+        ],
+        "industry_codes": [],
+        "theme_tags": [
+          "medicine"
+        ],
+        "event_time": "2026-02-27T00:00:00",
+        "discover_time": "2026-02-27T00:00:00",
+        "available_at": "2026-02-27T00:00:00",
+        "severity": 0.8,
+        "surprise_score": 0.75,
+        "tradability_score": 0.7,
+        "novelty_score": 0.6,
+        "crowding_risk": 0.45,
+        "confidence": 0.7,
+        "impact_level": "high",
+        "source_type": "filing",
+        "raw_payload_ref": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=688578&announcementId=1224984947&orgId=nssc1000445&announcementTime=2026-02-27",
+        "metadata": {
+          "legacy_type": "earnings_surprise",
+          "legacy_event_date": "2026-02-27",
+          "legacy_stock_code": "688578",
+          "legacy_stock_name": "艾力斯",
+          "ingest_date": "2026-02-27",
+          "announcement_type": "业绩预告",
+          "matched_keywords": [
+            "业绩预告",
+            "业绩快报"
+          ]
+        },
+        "created_at": "2026-03-20T10:26:04.878579+00:00",
+        "updated_at": "2026-03-20T10:26:04.878580+00:00"
+      },
+      {
+        "event_id": "filing:2026-02-27:688563:88bd36820ca1",
+        "event_type": "earnings_surprise",
+        "event_subtype": "earnings_surprise.guidance",
+        "title": "关于公司2025年度业绩快报的公告",
+        "summary": "业绩预告",
+        "source": "announcement_incremental",
+        "entity_codes": [
+          "688563"
+        ],
+        "entity_names": [
+          "航材股份"
+        ],
+        "industry_codes": [],
+        "theme_tags": [],
+        "event_time": "2026-02-27T00:00:00",
+        "discover_time": "2026-02-27T00:00:00",
+        "available_at": "2026-02-27T00:00:00",
+        "severity": 0.8,
+        "surprise_score": 0.75,
+        "tradability_score": 0.7,
+        "novelty_score": 0.6,
+        "crowding_risk": 0.45,
+        "confidence": 0.7,
+        "impact_level": "high",
+        "source_type": "filing",
+        "raw_payload_ref": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=688563&announcementId=1224985044&orgId=9900056081&announcementTime=2026-02-27",
+        "metadata": {
+          "legacy_type": "earnings_surprise",
+          "legacy_event_date": "2026-02-27",
+          "legacy_stock_code": "688563",
+          "legacy_stock_name": "航材股份",
+          "ingest_date": "2026-02-27",
+          "announcement_type": "业绩预告",
+          "matched_keywords": [
+            "业绩预告",
+            "业绩快报"
+          ]
+        },
+        "created_at": "2026-03-20T10:26:04.878896+00:00",
+        "updated_at": "2026-03-20T10:26:04.878899+00:00"
+      },
+      {
+        "event_id": "filing:2026-02-27:688469:19f1bf49fa4f",
+        "event_type": "earnings_surprise",
+        "event_subtype": "earnings_surprise.guidance",
+        "title": "芯联集成电路制造股份有限公司2025年度业绩快报公告",
+        "summary": "业绩预告",
+        "source": "announcement_incremental",
+        "entity_codes": [
+          "688469"
+        ],
+        "entity_names": [
+          "芯联集成"
+        ],
+        "industry_codes": [],
+        "theme_tags": [],
+        "event_time": "2026-02-27T00:00:00",
+        "discover_time": "2026-02-27T00:00:00",
+        "available_at": "2026-02-27T00:00:00",
+        "severity": 0.8,
+        "surprise_score": 0.75,
+        "tradability_score": 0.7,
+        "novelty_score": 0.6,
+        "crowding_risk": 0.45,
+        "confidence": 0.7,
+        "impact_level": "high",
+        "source_type": "filing",
+        "raw_payload_ref": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=688469&announcementId=1224985159&orgId=9900053045&announcementTime=2026-02-27",
+        "metadata": {
+          "legacy_type": "earnings_surprise",
+          "legacy_event_date": "2026-02-27",
+          "legacy_stock_code": "688469",
+          "legacy_stock_name": "芯联集成",
+          "ingest_date": "2026-02-27",
+          "announcement_type": "业绩预告",
+          "matched_keywords": [
+            "业绩预告",
+            "业绩快报"
+          ]
+        },
+        "created_at": "2026-03-20T10:26:04.879135+00:00",
+        "updated_at": "2026-03-20T10:26:04.879137+00:00"
+      },
+      {
+        "event_id": "filing:2026-02-27:688387:678b65279954",
+        "event_type": "earnings_surprise",
+        "event_subtype": "earnings_surprise.guidance",
+        "title": "2025年度业绩快报公告",
+        "summary": "业绩预告",
+        "source": "announcement_incremental",
+        "entity_codes": [
+          "688387"
+        ],
+        "entity_names": [
+          "信科移动"
+        ],
+        "industry_codes": [],
+        "theme_tags": [],
+        "event_time": "2026-02-27T00:00:00",
+        "discover_time": "2026-02-27T00:00:00",
+        "available_at": "2026-02-27T00:00:00",
+        "severity": 0.8,
+        "surprise_score": 0.75,
+        "tradability_score": 0.7,
+        "novelty_score": 0.6,
+        "crowding_risk": 0.45,
+        "confidence": 0.7,
+        "impact_level": "high",
+        "source_type": "filing",
+        "raw_payload_ref": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=688387&announcementId=1224985128&orgId=9900052408&announcementTime=2026-02-27",
+        "metadata": {
+          "legacy_type": "earnings_surprise",
+          "legacy_event_date": "2026-02-27",
+          "legacy_stock_code": "688387",
+          "legacy_stock_name": "信科移动",
+          "ingest_date": "2026-02-27",
+          "announcement_type": "业绩预告",
+          "matched_keywords": [
+            "业绩预告",
+            "业绩快报"
+          ]
+        },
+        "created_at": "2026-03-20T10:26:04.879260+00:00",
+        "updated_at": "2026-03-20T10:26:04.879261+00:00"
+      },
+      {
+        "event_id": "filing:2026-02-27:688318:678b65279954",
+        "event_type": "earnings_surprise",
+        "event_subtype": "earnings_surprise.guidance",
+        "title": "2025年度业绩快报公告",
+        "summary": "业绩预告",
+        "source": "announcement_incremental",
+        "entity_codes": [
+          "688318"
+        ],
+        "entity_names": [
+          "财富趋势"
+        ],
+        "industry_codes": [],
+        "theme_tags": [],
+        "event_time": "2026-02-27T00:00:00",
+        "discover_time": "2026-02-27T00:00:00",
+        "available_at": "2026-02-27T00:00:00",
+        "severity": 0.8,
+        "surprise_score": 0.75,
+        "tradability_score": 0.7,
+        "novelty_score": 0.6,
+        "crowding_risk": 0.45,
+        "confidence": 0.7,
+        "impact_level": "high",
+        "source_type": "filing",
+        "raw_payload_ref": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=688318&announcementId=1224985378&orgId=9900022732&announcementTime=2026-02-27",
+        "metadata": {
+          "legacy_type": "earnings_surprise",
+          "legacy_event_date": "2026-02-27",
+          "legacy_stock_code": "688318",
+          "legacy_stock_name": "财富趋势",
+          "ingest_date": "2026-02-27",
+          "announcement_type": "业绩预告",
+          "matched_keywords": [
+            "业绩预告",
+            "业绩快报"
+          ]
+        },
+        "created_at": "2026-03-20T10:26:04.879395+00:00",
+        "updated_at": "2026-03-20T10:26:04.879396+00:00"
+      },
+      {
+        "event_id": "filing:2026-02-27:688303:87ad1e052457",
+        "event_type": "earnings_surprise",
+        "event_subtype": "earnings_surprise.guidance",
+        "title": "大全能源2025年度业绩快报公告",
+        "summary": "业绩预告",
+        "source": "announcement_incremental",
+        "entity_codes": [
+          "688303"
+        ],
+        "entity_names": [
+          "大全能源"
+        ],
+        "industry_codes": [],
+        "theme_tags": [],
+        "event_time": "2026-02-27T00:00:00",
+        "discover_time": "2026-02-27T00:00:00",
+        "available_at": "2026-02-27T00:00:00",
+        "severity": 0.8,
+        "surprise_score": 0.75,
+        "tradability_score": 0.7,
+        "novelty_score": 0.6,
+        "crowding_risk": 0.45,
+        "confidence": 0.7,
+        "impact_level": "high",
+        "source_type": "filing",
+        "raw_payload_ref": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=688303&announcementId=1224986344&orgId=gfbj0837316&announcementTime=2026-02-27",
+        "metadata": {
+          "legacy_type": "earnings_surprise",
+          "legacy_event_date": "2026-02-27",
+          "legacy_stock_code": "688303",
+          "legacy_stock_name": "大全能源",
+          "ingest_date": "2026-02-27",
+          "announcement_type": "业绩预告",
+          "matched_keywords": [
+            "业绩预告",
+            "业绩快报"
+          ]
+        },
+        "created_at": "2026-03-20T10:26:04.879620+00:00",
+        "updated_at": "2026-03-20T10:26:04.879621+00:00"
+      },
+      {
+        "event_id": "filing:2026-02-27:688301:551e86cf2a42",
+        "event_type": "buyback",
+        "event_subtype": "buyback.shareholder_action",
+        "title": "奕瑞科技关于2026年员工持股计划完成股票购买的公告",
+        "summary": "股权激励",
+        "source": "announcement_incremental",
+        "entity_codes": [
+          "688301"
+        ],
+        "entity_names": [
+          "奕瑞科技"
+        ],
+        "industry_codes": [],
+        "theme_tags": [],
+        "event_time": "2026-02-27T00:00:00",
+        "discover_time": "2026-02-27T00:00:00",
+        "available_at": "2026-02-27T00:00:00",
+        "severity": 0.55,
+        "surprise_score": 0.45,
+        "tradability_score": 0.7,
+        "novelty_score": 0.6,
+        "crowding_risk": 0.45,
+        "confidence": 0.55,
+        "impact_level": "medium",
+        "source_type": "filing",
+        "raw_payload_ref": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=688301&announcementId=1224985662&orgId=9900037040&announcementTime=2026-02-27",
+        "metadata": {
+          "legacy_type": "buyback",
+          "legacy_event_date": "2026-02-27",
+          "legacy_stock_code": "688301",
+          "legacy_stock_name": "奕瑞科技",
+          "ingest_date": "2026-02-27",
+          "announcement_type": "股权激励",
+          "matched_keywords": [
+            "员工持股",
+            "股权激励"
+          ]
+        },
+        "created_at": "2026-03-20T10:26:04.879834+00:00",
+        "updated_at": "2026-03-20T10:26:04.879835+00:00"
+      },
+      {
+        "event_id": "filing:2026-02-27:688297:8f69ce21daeb",
+        "event_type": "earnings_surprise",
+        "event_subtype": "earnings_surprise.guidance",
+        "title": "中无人机2025年度业绩快报公告",
+        "summary": "业绩预告",
+        "source": "announcement_incremental",
+        "entity_codes": [
+          "688297"
+        ],
+        "entity_names": [
+          "中无人机"
+        ],
+        "industry_codes": [],
+        "theme_tags": [],
+        "event_time": "2026-02-27T00:00:00",
+        "discover_time": "2026-02-27T00:00:00",
+        "available_at": "2026-02-27T00:00:00",
+        "severity": 0.8,
+        "surprise_score": 0.75,
+        "tradability_score": 0.7,
+        "novelty_score": 0.6,
+        "crowding_risk": 0.45,
+        "confidence": 0.7,
+        "impact_level": "high",
+        "source_type": "filing",
+        "raw_payload_ref": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=688297&announcementId=1224985685&orgId=9900048646&announcementTime=2026-02-27",
+        "metadata": {
+          "legacy_type": "earnings_surprise",
+          "legacy_event_date": "2026-02-27",
+          "legacy_stock_code": "688297",
+          "legacy_stock_name": "中无人机",
+          "ingest_date": "2026-02-27",
+          "announcement_type": "业绩预告",
+          "matched_keywords": [
+            "业绩预告",
+            "业绩快报"
+          ]
+        },
+        "created_at": "2026-03-20T10:26:04.879954+00:00",
+        "updated_at": "2026-03-20T10:26:04.879955+00:00"
+      },
+      {
+        "event_id": "filing:2026-02-27:688248:ae6b3932d73c",
+        "event_type": "management_change",
+        "event_subtype": "management_change.executive",
+        "title": "南网科技：关于公司董事辞职的公告",
+        "summary": "南网科技：关于公司董事辞职的公告",
+        "source": "announcement_incremental",
+        "entity_codes": [
+          "688248"
+        ],
+        "entity_names": [
+          "南网科技"
+        ],
+        "industry_codes": [],
+        "theme_tags": [],
+        "event_time": "2026-02-27T00:00:00",
+        "discover_time": "2026-02-27T00:00:00",
+        "available_at": "2026-02-27T00:00:00",
+        "severity": 0.55,
+        "surprise_score": 0.45,
+        "tradability_score": 0.7,
+        "novelty_score": 0.6,
+        "crowding_risk": 0.35,
+        "confidence": 0.55,
+        "impact_level": "medium",
+        "source_type": "filing",
+        "raw_payload_ref": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=688248&announcementId=1224985752&orgId=9900048083&announcementTime=2026-02-27",
+        "metadata": {
+          "legacy_type": "management_change",
+          "legacy_event_date": "2026-02-27",
+          "legacy_stock_code": "688248",
+          "legacy_stock_name": "南网科技",
+          "ingest_date": "2026-02-27",
+          "announcement_type": "",
+          "matched_keywords": [
+            "辞职"
+          ]
+        },
+        "created_at": "2026-03-20T10:26:04.880075+00:00",
+        "updated_at": "2026-03-20T10:26:04.880076+00:00"
+      },
+      {
+        "event_id": "filing:2026-02-27:688248:eaa32febc5d3",
+        "event_type": "earnings_surprise",
+        "event_subtype": "earnings_surprise.guidance",
+        "title": "南网科技：公司2025年度业绩快报",
+        "summary": "业绩预告",
+        "source": "announcement_incremental",
+        "entity_codes": [
+          "688248"
+        ],
+        "entity_names": [
+          "南网科技"
+        ],
+        "industry_codes": [],
+        "theme_tags": [],
+        "event_time": "2026-02-27T00:00:00",
+        "discover_time": "2026-02-27T00:00:00",
+        "available_at": "2026-02-27T00:00:00",
+        "severity": 0.8,
+        "surprise_score": 0.75,
+        "tradability_score": 0.7,
+        "novelty_score": 0.6,
+        "crowding_risk": 0.45,
+        "confidence": 0.7,
+        "impact_level": "high",
+        "source_type": "filing",
+        "raw_payload_ref": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=688248&announcementId=1224985758&orgId=9900048083&announcementTime=2026-02-27",
+        "metadata": {
+          "legacy_type": "earnings_surprise",
+          "legacy_event_date": "2026-02-27",
+          "legacy_stock_code": "688248",
+          "legacy_stock_name": "南网科技",
+          "ingest_date": "2026-02-27",
+          "announcement_type": "业绩预告",
+          "matched_keywords": [
+            "业绩预告",
+            "业绩快报"
+          ]
+        },
+        "created_at": "2026-03-20T10:26:04.880191+00:00",
+        "updated_at": "2026-03-20T10:26:04.880192+00:00"
+      },
+      {
+        "event_id": "filing:2026-02-27:688235:35561188752e",
+        "event_type": "earnings_surprise",
+        "event_subtype": "earnings_surprise.report",
+        "title": "美股公告：年度报告10-K表格",
+        "summary": "美股公告：年度报告10-K表格",
+        "source": "announcement_incremental",
+        "entity_codes": [
+          "688235"
+        ],
+        "entity_names": [
+          "百济神州"
+        ],
+        "industry_codes": [],
+        "theme_tags": [],
+        "event_time": "2026-02-27T00:00:00",
+        "discover_time": "2026-02-27T00:00:00",
+        "available_at": "2026-02-27T00:00:00",
+        "severity": 0.8,
+        "surprise_score": 0.75,
+        "tradability_score": 0.7,
+        "novelty_score": 0.6,
+        "crowding_risk": 0.45,
+        "confidence": 0.7,
+        "impact_level": "high",
+        "source_type": "filing",
+        "raw_payload_ref": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=688235&announcementId=1224986350&orgId=9900037454&announcementTime=2026-02-27",
+        "metadata": {
+          "legacy_type": "earnings_surprise",
+          "legacy_event_date": "2026-02-27",
+          "legacy_stock_code": "688235",
+          "legacy_stock_name": "百济神州",
+          "ingest_date": "2026-02-27",
+          "announcement_type": "",
+          "matched_keywords": [
+            "年度报告"
+          ]
+        },
+        "created_at": "2026-03-20T10:26:04.880308+00:00",
+        "updated_at": "2026-03-20T10:26:04.880309+00:00"
+      },
+      {
+        "event_id": "filing:2026-02-27:688235:93e0e56fc9ac",
+        "event_type": "earnings_surprise",
+        "event_subtype": "earnings_surprise.guidance",
+        "title": "百济神州有限公司2025年度业绩快报公告",
+        "summary": "业绩预告",
+        "source": "announcement_incremental",
+        "entity_codes": [
+          "688235"
+        ],
+        "entity_names": [
+          "百济神州"
+        ],
+        "industry_codes": [],
+        "theme_tags": [],
+        "event_time": "2026-02-27T00:00:00",
+        "discover_time": "2026-02-27T00:00:00",
+        "available_at": "2026-02-27T00:00:00",
+        "severity": 0.8,
+        "surprise_score": 0.75,
+        "tradability_score": 0.7,
+        "novelty_score": 0.6,
+        "crowding_risk": 0.45,
+        "confidence": 0.7,
+        "impact_level": "high",
+        "source_type": "filing",
+        "raw_payload_ref": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=688235&announcementId=1224986312&orgId=9900037454&announcementTime=2026-02-27",
+        "metadata": {
+          "legacy_type": "earnings_surprise",
+          "legacy_event_date": "2026-02-27",
+          "legacy_stock_code": "688235",
+          "legacy_stock_name": "百济神州",
+          "ingest_date": "2026-02-27",
+          "announcement_type": "业绩预告",
+          "matched_keywords": [
+            "业绩预告",
+            "业绩快报"
+          ]
+        },
+        "created_at": "2026-03-20T10:26:04.880506+00:00",
+        "updated_at": "2026-03-20T10:26:04.880507+00:00"
+      },
+      {
+        "event_id": "filing:2026-02-27:688213:58c0f5a1c4f8",
+        "event_type": "earnings_surprise",
+        "event_subtype": "earnings_surprise.guidance",
+        "title": "2025年年度业绩快报",
+        "summary": "业绩预告",
+        "source": "announcement_incremental",
+        "entity_codes": [
+          "688213"
+        ],
+        "entity_names": [
+          "思特威"
+        ],
+        "industry_codes": [],
+        "theme_tags": [],
+        "event_time": "2026-02-27T00:00:00",
+        "discover_time": "2026-02-27T00:00:00",
+        "available_at": "2026-02-27T00:00:00",
+        "severity": 0.8,
+        "surprise_score": 0.75,
+        "tradability_score": 0.7,
+        "novelty_score": 0.6,
+        "crowding_risk": 0.45,
+        "confidence": 0.7,
+        "impact_level": "high",
+        "source_type": "filing",
+        "raw_payload_ref": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=688213&announcementId=1224984925&orgId=9900048605&announcementTime=2026-02-27",
+        "metadata": {
+          "legacy_type": "earnings_surprise",
+          "legacy_event_date": "2026-02-27",
+          "legacy_stock_code": "688213",
+          "legacy_stock_name": "思特威",
+          "ingest_date": "2026-02-27",
+          "announcement_type": "业绩预告",
+          "matched_keywords": [
+            "业绩预告",
+            "业绩快报"
+          ]
+        },
+        "created_at": "2026-03-20T10:26:04.880707+00:00",
+        "updated_at": "2026-03-20T10:26:04.880708+00:00"
+      },
+      {
+        "event_id": "filing:2026-02-27:688082:50e6660bbe4e",
+        "event_type": "buyback",
+        "event_subtype": "buyback.shareholder_action",
+        "title": "关于作废部分2023年限制性股票激励计划已授予但尚未归属的限制性股票的公告",
+        "summary": "股权激励",
+        "source": "announcement_incremental",
+        "entity_codes": [
+          "688082"
+        ],
+        "entity_names": [
+          "盛美上海"
+        ],
+        "industry_codes": [],
+        "theme_tags": [],
+        "event_time": "2026-02-27T00:00:00",
+        "discover_time": "2026-02-27T00:00:00",
+        "available_at": "2026-02-27T00:00:00",
+        "severity": 0.55,
+        "surprise_score": 0.45,
+        "tradability_score": 0.7,
+        "novelty_score": 0.6,
+        "crowding_risk": 0.45,
+        "confidence": 0.55,
+        "impact_level": "medium",
+        "source_type": "filing",
+        "raw_payload_ref": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=688082&announcementId=1224986464&orgId=nssc1000455&announcementTime=2026-02-27",
+        "metadata": {
+          "legacy_type": "buyback",
+          "legacy_event_date": "2026-02-27",
+          "legacy_stock_code": "688082",
+          "legacy_stock_name": "盛美上海",
+          "ingest_date": "2026-02-27",
+          "announcement_type": "股权激励",
+          "matched_keywords": [
+            "股权激励"
+          ]
+        },
+        "created_at": "2026-03-20T10:26:04.881970+00:00",
+        "updated_at": "2026-03-20T10:26:04.881972+00:00"
+      },
+      {
+        "event_id": "filing:2026-02-27:688082:cd77f2bfe0e3",
+        "event_type": "earnings_surprise",
+        "event_subtype": "earnings_surprise.impairment",
+        "title": "关于2025年度计提资产减值准备的公告",
+        "summary": "关于2025年度计提资产减值准备的公告",
+        "source": "announcement_incremental",
+        "entity_codes": [
+          "688082"
+        ],
+        "entity_names": [
+          "盛美上海"
+        ],
+        "industry_codes": [],
+        "theme_tags": [],
+        "event_time": "2026-02-27T00:00:00",
+        "discover_time": "2026-02-27T00:00:00",
+        "available_at": "2026-02-27T00:00:00",
+        "severity": 0.8,
+        "surprise_score": 0.75,
+        "tradability_score": 0.7,
+        "novelty_score": 0.6,
+        "crowding_risk": 0.45,
+        "confidence": 0.7,
+        "impact_level": "high",
+        "source_type": "filing",
+        "raw_payload_ref": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=688082&announcementId=1224986452&orgId=nssc1000455&announcementTime=2026-02-27",
+        "metadata": {
+          "legacy_type": "earnings_surprise",
+          "legacy_event_date": "2026-02-27",
+          "legacy_stock_code": "688082",
+          "legacy_stock_name": "盛美上海",
+          "ingest_date": "2026-02-27",
+          "announcement_type": "",
+          "matched_keywords": [
+            "计提资产减值准备",
+            "资产减值准备"
+          ]
+        },
+        "created_at": "2026-03-20T10:26:04.882122+00:00",
+        "updated_at": "2026-03-20T10:26:04.882124+00:00"
+      },
+      {
+        "event_id": "filing:2026-02-27:688082:dae875983898",
+        "event_type": "dividend",
+        "event_subtype": "dividend.cash",
+        "title": "关于2025年度利润分配预案的公告",
+        "summary": "关于2025年度利润分配预案的公告",
+        "source": "announcement_incremental",
+        "entity_codes": [
+          "688082"
+        ],
+        "entity_names": [
+          "盛美上海"
+        ],
+        "industry_codes": [],
+        "theme_tags": [],
+        "event_time": "2026-02-27T00:00:00",
+        "discover_time": "2026-02-27T00:00:00",
+        "available_at": "2026-02-27T00:00:00",
+        "severity": 0.55,
+        "surprise_score": 0.45,
+        "tradability_score": 0.7,
+        "novelty_score": 0.6,
+        "crowding_risk": 0.45,
+        "confidence": 0.55,
+        "impact_level": "medium",
+        "source_type": "filing",
+        "raw_payload_ref": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=688082&announcementId=1224986462&orgId=nssc1000455&announcementTime=2026-02-27",
+        "metadata": {
+          "legacy_type": "dividend",
+          "legacy_event_date": "2026-02-27",
+          "legacy_stock_code": "688082",
+          "legacy_stock_name": "盛美上海",
+          "ingest_date": "2026-02-27",
+          "announcement_type": "",
+          "matched_keywords": [
+            "利润分配预案"
+          ]
+        },
+        "created_at": "2026-03-20T10:26:04.882281+00:00",
+        "updated_at": "2026-03-20T10:26:04.882283+00:00"
+      },
+      {
+        "event_id": "filing:2026-02-27:688082:0ceb68761e2c",
+        "event_type": "buyback",
+        "event_subtype": "buyback.shareholder_action",
+        "title": "关于2023年限制性股票激励计划首次授予部分第二个归属期符合归属条件的公告",
+        "summary": "股权激励",
+        "source": "announcement_incremental",
+        "entity_codes": [
+          "688082"
+        ],
+        "entity_names": [
+          "盛美上海"
+        ],
+        "industry_codes": [],
+        "theme_tags": [],
+        "event_time": "2026-02-27T00:00:00",
+        "discover_time": "2026-02-27T00:00:00",
+        "available_at": "2026-02-27T00:00:00",
+        "severity": 0.55,
+        "surprise_score": 0.45,
+        "tradability_score": 0.7,
+        "novelty_score": 0.6,
+        "crowding_risk": 0.45,
+        "confidence": 0.55,
+        "impact_level": "medium",
+        "source_type": "filing",
+        "raw_payload_ref": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=688082&announcementId=1224986440&orgId=nssc1000455&announcementTime=2026-02-27",
+        "metadata": {
+          "legacy_type": "buyback",
+          "legacy_event_date": "2026-02-27",
+          "legacy_stock_code": "688082",
+          "legacy_stock_name": "盛美上海",
+          "ingest_date": "2026-02-27",
+          "announcement_type": "股权激励",
+          "matched_keywords": [
+            "股权激励"
+          ]
+        },
+        "created_at": "2026-03-20T10:26:04.882553+00:00",
+        "updated_at": "2026-03-20T10:26:04.882578+00:00"
+      },
+      {
+        "event_id": "filing:2026-02-27:688082:1d4b49df11dc",
+        "event_type": "management_change",
+        "event_subtype": "management_change.executive",
+        "title": "2025年度独立董事述职报告（彭明秀-已离任）",
+        "summary": "2025年度独立董事述职报告（彭明秀-已离任）",
+        "source": "announcement_incremental",
+        "entity_codes": [
+          "688082"
+        ],
+        "entity_names": [
+          "盛美上海"
+        ],
+        "industry_codes": [],
+        "theme_tags": [],
+        "event_time": "2026-02-27T00:00:00",
+        "discover_time": "2026-02-27T00:00:00",
+        "available_at": "2026-02-27T00:00:00",
+        "severity": 0.55,
+        "surprise_score": 0.45,
+        "tradability_score": 0.7,
+        "novelty_score": 0.6,
+        "crowding_risk": 0.35,
+        "confidence": 0.55,
+        "impact_level": "medium",
+        "source_type": "filing",
+        "raw_payload_ref": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=688082&announcementId=1224986463&orgId=nssc1000455&announcementTime=2026-02-27",
+        "metadata": {
+          "legacy_type": "management_change",
+          "legacy_event_date": "2026-02-27",
+          "legacy_stock_code": "688082",
+          "legacy_stock_name": "盛美上海",
+          "ingest_date": "2026-02-27",
+          "announcement_type": "",
+          "matched_keywords": [
+            "离任"
+          ]
+        },
+        "created_at": "2026-03-20T10:26:04.883573+00:00",
+        "updated_at": "2026-03-20T10:26:04.883576+00:00"
+      },
+      {
+        "event_id": "filing:2026-02-27:688082:55e51c67b6db",
+        "event_type": "management_change",
+        "event_subtype": "management_change.executive",
+        "title": "2025年度独立董事述职报告（ZHANBINGREN-已离任）",
+        "summary": "2025年度独立董事述职报告（ZHANBINGREN-已离任）",
+        "source": "announcement_incremental",
+        "entity_codes": [
+          "688082"
+        ],
+        "entity_names": [
+          "盛美上海"
+        ],
+        "industry_codes": [],
+        "theme_tags": [],
+        "event_time": "2026-02-27T00:00:00",
+        "discover_time": "2026-02-27T00:00:00",
+        "available_at": "2026-02-27T00:00:00",
+        "severity": 0.55,
+        "surprise_score": 0.45,
+        "tradability_score": 0.7,
+        "novelty_score": 0.6,
+        "crowding_risk": 0.35,
+        "confidence": 0.55,
+        "impact_level": "medium",
+        "source_type": "filing",
+        "raw_payload_ref": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=688082&announcementId=1224986442&orgId=nssc1000455&announcementTime=2026-02-27",
+        "metadata": {
+          "legacy_type": "management_change",
+          "legacy_event_date": "2026-02-27",
+          "legacy_stock_code": "688082",
+          "legacy_stock_name": "盛美上海",
+          "ingest_date": "2026-02-27",
+          "announcement_type": "",
+          "matched_keywords": [
+            "离任"
+          ]
+        },
+        "created_at": "2026-03-20T10:26:04.883804+00:00",
+        "updated_at": "2026-03-20T10:26:04.883805+00:00"
+      },
+      {
+        "event_id": "filing:2026-02-27:688082:ffc3c668a5b4",
+        "event_type": "earnings_surprise",
+        "event_subtype": "earnings_surprise.report",
+        "title": "2025年度报告全文",
+        "summary": "2025年度报告全文",
+        "source": "announcement_incremental",
+        "entity_codes": [
+          "688082"
+        ],
+        "entity_names": [
+          "盛美上海"
+        ],
+        "industry_codes": [],
+        "theme_tags": [],
+        "event_time": "2026-02-27T00:00:00",
+        "discover_time": "2026-02-27T00:00:00",
+        "available_at": "2026-02-27T00:00:00",
+        "severity": 0.8,
+        "surprise_score": 0.75,
+        "tradability_score": 0.7,
+        "novelty_score": 0.6,
+        "crowding_risk": 0.45,
+        "confidence": 0.7,
+        "impact_level": "high",
+        "source_type": "filing",
+        "raw_payload_ref": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=688082&announcementId=1224986438&orgId=nssc1000455&announcementTime=2026-02-27",
+        "metadata": {
+          "legacy_type": "earnings_surprise",
+          "legacy_event_date": "2026-02-27",
+          "legacy_stock_code": "688082",
+          "legacy_stock_name": "盛美上海",
+          "ingest_date": "2026-02-27",
+          "announcement_type": "",
+          "matched_keywords": [
+            "年度报告"
+          ]
+        },
+        "created_at": "2026-03-20T10:26:04.883925+00:00",
+        "updated_at": "2026-03-20T10:26:04.883926+00:00"
+      },
+      {
+        "event_id": "filing:2026-02-27:688082:74f4948d99e7",
+        "event_type": "earnings_surprise",
+        "event_subtype": "earnings_surprise.report",
+        "title": "2025年年度报告摘要",
+        "summary": "2025年年度报告摘要",
+        "source": "announcement_incremental",
+        "entity_codes": [
+          "688082"
+        ],
+        "entity_names": [
+          "盛美上海"
+        ],
+        "industry_codes": [],
+        "theme_tags": [],
+        "event_time": "2026-02-27T00:00:00",
+        "discover_time": "2026-02-27T00:00:00",
+        "available_at": "2026-02-27T00:00:00",
+        "severity": 0.8,
+        "surprise_score": 0.75,
+        "tradability_score": 0.7,
+        "novelty_score": 0.6,
+        "crowding_risk": 0.45,
+        "confidence": 0.7,
+        "impact_level": "high",
+        "source_type": "filing",
+        "raw_payload_ref": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=688082&announcementId=1224986457&orgId=nssc1000455&announcementTime=2026-02-27",
+        "metadata": {
+          "legacy_type": "earnings_surprise",
+          "legacy_event_date": "2026-02-27",
+          "legacy_stock_code": "688082",
+          "legacy_stock_name": "盛美上海",
+          "ingest_date": "2026-02-27",
+          "announcement_type": "",
+          "matched_keywords": [
+            "年度报告",
+            "年度报告摘要"
+          ]
+        },
+        "created_at": "2026-03-20T10:26:04.884136+00:00",
+        "updated_at": "2026-03-20T10:26:04.884137+00:00"
+      },
+      {
+        "event_id": "filing:2026-02-27:688017:678b65279954",
+        "event_type": "earnings_surprise",
+        "event_subtype": "earnings_surprise.guidance",
+        "title": "2025年度业绩快报公告",
+        "summary": "业绩预告",
+        "source": "announcement_incremental",
+        "entity_codes": [
+          "688017"
+        ],
+        "entity_names": [
+          "绿的谐波"
+        ],
+        "industry_codes": [],
+        "theme_tags": [],
+        "event_time": "2026-02-27T00:00:00",
+        "discover_time": "2026-02-27T00:00:00",
+        "available_at": "2026-02-27T00:00:00",
+        "severity": 0.8,
+        "surprise_score": 0.75,
+        "tradability_score": 0.7,
+        "novelty_score": 0.6,
+        "crowding_risk": 0.45,
+        "confidence": 0.7,
+        "impact_level": "high",
+        "source_type": "filing",
+        "raw_payload_ref": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=688017&announcementId=1224985756&orgId=9900041602&announcementTime=2026-02-27",
+        "metadata": {
+          "legacy_type": "earnings_surprise",
+          "legacy_event_date": "2026-02-27",
+          "legacy_stock_code": "688017",
+          "legacy_stock_name": "绿的谐波",
+          "ingest_date": "2026-02-27",
+          "announcement_type": "业绩预告",
+          "matched_keywords": [
+            "业绩预告",
+            "业绩快报"
+          ]
+        },
+        "created_at": "2026-03-20T10:26:04.884270+00:00",
+        "updated_at": "2026-03-20T10:26:04.884271+00:00"
+      },
+      {
+        "event_id": "filing:2026-02-27:603979:52d94c35ac50",
+        "event_type": "management_change",
+        "event_subtype": "management_change.executive",
+        "title": "金诚信关于公司高级管理人员离任的公告",
+        "summary": "金诚信关于公司高级管理人员离任的公告",
+        "source": "announcement_incremental",
+        "entity_codes": [
+          "603979"
+        ],
+        "entity_names": [
+          "金诚信"
+        ],
+        "industry_codes": [],
+        "theme_tags": [],
+        "event_time": "2026-02-27T00:00:00",
+        "discover_time": "2026-02-27T00:00:00",
+        "available_at": "2026-02-27T00:00:00",
+        "severity": 0.55,
+        "surprise_score": 0.45,
+        "tradability_score": 0.7,
+        "novelty_score": 0.6,
+        "crowding_risk": 0.35,
+        "confidence": 0.55,
+        "impact_level": "medium",
+        "source_type": "filing",
+        "raw_payload_ref": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=603979&announcementId=1224985460&orgId=9900024796&announcementTime=2026-02-27",
+        "metadata": {
+          "legacy_type": "management_change",
+          "legacy_event_date": "2026-02-27",
+          "legacy_stock_code": "603979",
+          "legacy_stock_name": "金诚信",
+          "ingest_date": "2026-02-27",
+          "announcement_type": "",
+          "matched_keywords": [
+            "离任"
+          ]
+        },
+        "created_at": "2026-03-20T10:26:04.884521+00:00",
+        "updated_at": "2026-03-20T10:26:04.884525+00:00"
+      },
+      {
+        "event_id": "filing:2026-02-27:603596:ee8de124e6aa",
+        "event_type": "cooperation",
+        "event_subtype": "cooperation.investment",
+        "title": "伯特利对外投资暨设立德国全资子公司的公告",
+        "summary": "伯特利对外投资暨设立德国全资子公司的公告",
+        "source": "announcement_incremental",
+        "entity_codes": [
+          "603596"
+        ],
+        "entity_names": [
+          "伯特利"
+        ],
+        "industry_codes": [],
+        "theme_tags": [],
+        "event_time": "2026-02-27T00:00:00",
+        "discover_time": "2026-02-27T00:00:00",
+        "available_at": "2026-02-27T00:00:00",
+        "severity": 0.55,
+        "surprise_score": 0.45,
+        "tradability_score": 0.7,
+        "novelty_score": 0.6,
+        "crowding_risk": 0.45,
+        "confidence": 0.55,
+        "impact_level": "medium",
+        "source_type": "filing",
+        "raw_payload_ref": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=603596&announcementId=1224986012&orgId=gfbj0835470&announcementTime=2026-02-27",
+        "metadata": {
+          "legacy_type": "cooperation",
+          "legacy_event_date": "2026-02-27",
+          "legacy_stock_code": "603596",
+          "legacy_stock_name": "伯特利",
+          "ingest_date": "2026-02-27",
+          "announcement_type": "",
+          "matched_keywords": [
+            "对外投资"
+          ]
+        },
+        "created_at": "2026-03-20T10:26:04.884938+00:00",
+        "updated_at": "2026-03-20T10:26:04.884940+00:00"
+      },
+      {
+        "event_id": "filing:2026-02-27:603225:5c1a70189819",
+        "event_type": "capital_raise",
+        "event_subtype": "capital_raise.redemption",
+        "title": "关于实施“凤21转债”赎回暨摘牌的第一次提示性公告",
+        "summary": "关于实施“凤21转债”赎回暨摘牌的第一次提示性公告",
+        "source": "announcement_incremental",
+        "entity_codes": [
+          "603225"
+        ],
+        "entity_names": [
+          "新凤鸣"
+        ],
+        "industry_codes": [],
+        "theme_tags": [],
+        "event_time": "2026-02-27T00:00:00",
+        "discover_time": "2026-02-27T00:00:00",
+        "available_at": "2026-02-27T00:00:00",
+        "severity": 0.55,
+        "surprise_score": 0.45,
+        "tradability_score": 0.7,
+        "novelty_score": 0.6,
+        "crowding_risk": 0.45,
+        "confidence": 0.55,
+        "impact_level": "medium",
+        "source_type": "filing",
+        "raw_payload_ref": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=603225&announcementId=1224985014&orgId=9900023641&announcementTime=2026-02-27",
+        "metadata": {
+          "legacy_type": "capital_raise",
+          "legacy_event_date": "2026-02-27",
+          "legacy_stock_code": "603225",
+          "legacy_stock_name": "新凤鸣",
+          "ingest_date": "2026-02-27",
+          "announcement_type": "",
+          "matched_keywords": [
+            "赎回暨摘牌"
+          ]
+        },
+        "created_at": "2026-03-20T10:26:04.885208+00:00",
+        "updated_at": "2026-03-20T10:26:04.885209+00:00"
+      },
+      {
+        "event_id": "filing:2026-02-27:603129:e244473e5f34",
+        "event_type": "buyback",
+        "event_subtype": "buyback.shareholder_action",
+        "title": "春风动力关于注销2024年股票期权激励计划首次授予第一个行权期部分股票期权的公告",
+        "summary": "股权激励",
+        "source": "announcement_incremental",
+        "entity_codes": [
+          "603129"
+        ],
+        "entity_names": [
+          "春风动力"
+        ],
+        "industry_codes": [],
+        "theme_tags": [],
+        "event_time": "2026-02-27T00:00:00",
+        "discover_time": "2026-02-27T00:00:00",
+        "available_at": "2026-02-27T00:00:00",
+        "severity": 0.55,
+        "surprise_score": 0.45,
+        "tradability_score": 0.7,
+        "novelty_score": 0.6,
+        "crowding_risk": 0.45,
+        "confidence": 0.55,
+        "impact_level": "medium",
+        "source_type": "filing",
+        "raw_payload_ref": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=603129&announcementId=1224985181&orgId=9900032725&announcementTime=2026-02-27",
+        "metadata": {
+          "legacy_type": "buyback",
+          "legacy_event_date": "2026-02-27",
+          "legacy_stock_code": "603129",
+          "legacy_stock_name": "春风动力",
+          "ingest_date": "2026-02-27",
+          "announcement_type": "股权激励",
+          "matched_keywords": [
+            "股权激励"
+          ]
+        },
+        "created_at": "2026-03-20T10:26:04.885396+00:00",
+        "updated_at": "2026-03-20T10:26:04.885397+00:00"
+      },
+      {
+        "event_id": "filing:2026-02-27:603129:e994a81e69c4",
+        "event_type": "buyback",
+        "event_subtype": "buyback.shareholder_action",
+        "title": "春风动力关于2024年股票期权激励计划首次授予第一个行权期符合行权条件的公告",
+        "summary": "股权激励",
+        "source": "announcement_incremental",
+        "entity_codes": [
+          "603129"
+        ],
+        "entity_names": [
+          "春风动力"
+        ],
+        "industry_codes": [],
+        "theme_tags": [],
+        "event_time": "2026-02-27T00:00:00",
+        "discover_time": "2026-02-27T00:00:00",
+        "available_at": "2026-02-27T00:00:00",
+        "severity": 0.55,
+        "surprise_score": 0.45,
+        "tradability_score": 0.7,
+        "novelty_score": 0.6,
+        "crowding_risk": 0.45,
+        "confidence": 0.55,
+        "impact_level": "medium",
+        "source_type": "filing",
+        "raw_payload_ref": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=603129&announcementId=1224985177&orgId=9900032725&announcementTime=2026-02-27",
+        "metadata": {
+          "legacy_type": "buyback",
+          "legacy_event_date": "2026-02-27",
+          "legacy_stock_code": "603129",
+          "legacy_stock_name": "春风动力",
+          "ingest_date": "2026-02-27",
+          "announcement_type": "股权激励",
+          "matched_keywords": [
+            "股权激励"
+          ]
+        },
+        "created_at": "2026-03-20T10:26:04.885510+00:00",
+        "updated_at": "2026-03-20T10:26:04.885511+00:00"
+      },
+      {
+        "event_id": "filing:2026-02-27:603077:26e5c3bc0fce",
+        "event_type": "policy_risk",
+        "event_subtype": "policy_risk.abnormal_trading",
+        "title": "和邦生物股票交易异常波动公告",
+        "summary": "和邦生物股票交易异常波动公告",
+        "source": "announcement_incremental",
+        "entity_codes": [
+          "603077"
+        ],
+        "entity_names": [
+          "和邦生物"
+        ],
+        "industry_codes": [],
+        "theme_tags": [],
+        "event_time": "2026-02-27T00:00:00",
+        "discover_time": "2026-02-27T00:00:00",
+        "available_at": "2026-02-27T00:00:00",
+        "severity": 0.8,
+        "surprise_score": 0.75,
+        "tradability_score": 0.7,
+        "novelty_score": 0.6,
+        "crowding_risk": 0.35,
+        "confidence": 0.7,
+        "impact_level": "high",
+        "source_type": "filing",
+        "raw_payload_ref": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=603077&announcementId=1224985339&orgId=9900023244&announcementTime=2026-02-27",
+        "metadata": {
+          "legacy_type": "policy_risk",
+          "legacy_event_date": "2026-02-27",
+          "legacy_stock_code": "603077",
+          "legacy_stock_name": "和邦生物",
+          "ingest_date": "2026-02-27",
+          "announcement_type": "",
+          "matched_keywords": [
+            "股票交易异常波动",
+            "异常波动公告"
+          ]
+        },
+        "created_at": "2026-03-20T10:26:04.885703+00:00",
+        "updated_at": "2026-03-20T10:26:04.885704+00:00"
+      },
+      {
+        "event_id": "filing:2026-02-27:601872:5c7c40a61116",
+        "event_type": "policy_risk",
+        "event_subtype": "policy_risk.abnormal_trading",
+        "title": "招商轮船股票交易异常波动公告",
+        "summary": "招商轮船股票交易异常波动公告",
+        "source": "announcement_incremental",
+        "entity_codes": [
+          "601872"
+        ],
+        "entity_names": [
+          "招商轮船"
+        ],
+        "industry_codes": [],
+        "theme_tags": [],
+        "event_time": "2026-02-27T00:00:00",
+        "discover_time": "2026-02-27T00:00:00",
+        "available_at": "2026-02-27T00:00:00",
+        "severity": 0.8,
+        "surprise_score": 0.75,
+        "tradability_score": 0.7,
+        "novelty_score": 0.6,
+        "crowding_risk": 0.35,
+        "confidence": 0.7,
+        "impact_level": "high",
+        "source_type": "filing",
+        "raw_payload_ref": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=601872&announcementId=1224985753&orgId=9900001441&announcementTime=2026-02-27",
+        "metadata": {
+          "legacy_type": "policy_risk",
+          "legacy_event_date": "2026-02-27",
+          "legacy_stock_code": "601872",
+          "legacy_stock_name": "招商轮船",
+          "ingest_date": "2026-02-27",
+          "announcement_type": "",
+          "matched_keywords": [
+            "股票交易异常波动",
+            "异常波动公告"
+          ]
+        },
+        "created_at": "2026-03-20T10:26:04.886062+00:00",
+        "updated_at": "2026-03-20T10:26:04.886063+00:00"
+      },
+      {
+        "event_id": "filing:2026-02-27:601868:2827b16369a9",
+        "event_type": "capital_raise",
+        "event_subtype": "capital_raise.equity",
+        "title": "中国能源建设股份有限公司2023年度向特定对象发行A股股票募集说明书(注册稿）",
+        "summary": "增发融资",
+        "source": "announcement_incremental",
+        "entity_codes": [
+          "601868"
+        ],
+        "entity_names": [
+          "中国能建"
+        ],
+        "industry_codes": [],
+        "theme_tags": [],
+        "event_time": "2026-02-27T00:00:00",
+        "discover_time": "2026-02-27T00:00:00",
+        "available_at": "2026-02-27T00:00:00",
+        "severity": 0.55,
+        "surprise_score": 0.45,
+        "tradability_score": 0.7,
+        "novelty_score": 0.6,
+        "crowding_risk": 0.45,
+        "confidence": 0.55,
+        "impact_level": "medium",
+        "source_type": "filing",
+        "raw_payload_ref": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=601868&announcementId=1224985666&orgId=9900031628&announcementTime=2026-02-27",
+        "metadata": {
+          "legacy_type": "capital_raise",
+          "legacy_event_date": "2026-02-27",
+          "legacy_stock_code": "601868",
+          "legacy_stock_name": "中国能建",
+          "ingest_date": "2026-02-27",
+          "announcement_type": "增发融资",
+          "matched_keywords": [
+            "融资"
+          ]
+        },
+        "created_at": "2026-03-20T10:26:04.886178+00:00",
+        "updated_at": "2026-03-20T10:26:04.886179+00:00"
+      },
+      {
+        "event_id": "filing:2026-02-27:601117:ed3e9f24083a",
+        "event_type": "management_change",
+        "event_subtype": "management_change.executive",
+        "title": "中国化学关于高级管理人员退休离任的公告",
+        "summary": "中国化学关于高级管理人员退休离任的公告",
+        "source": "announcement_incremental",
+        "entity_codes": [
+          "601117"
+        ],
+        "entity_names": [
+          "中国化学"
+        ],
+        "industry_codes": [],
+        "theme_tags": [],
+        "event_time": "2026-02-27T00:00:00",
+        "discover_time": "2026-02-27T00:00:00",
+        "available_at": "2026-02-27T00:00:00",
+        "severity": 0.55,
+        "surprise_score": 0.45,
+        "tradability_score": 0.7,
+        "novelty_score": 0.6,
+        "crowding_risk": 0.35,
+        "confidence": 0.55,
+        "impact_level": "medium",
+        "source_type": "filing",
+        "raw_payload_ref": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=601117&announcementId=1224985018&orgId=9900009949&announcementTime=2026-02-27",
+        "metadata": {
+          "legacy_type": "management_change",
+          "legacy_event_date": "2026-02-27",
+          "legacy_stock_code": "601117",
+          "legacy_stock_name": "中国化学",
+          "ingest_date": "2026-02-27",
+          "announcement_type": "",
+          "matched_keywords": [
+            "离任"
+          ]
+        },
+        "created_at": "2026-03-20T10:26:04.886380+00:00",
+        "updated_at": "2026-03-20T10:26:04.886381+00:00"
+      },
+      {
+        "event_id": "filing:2026-02-27:600977:85d958722fb6",
+        "event_type": "policy_risk",
+        "event_subtype": "policy_risk.abnormal_trading",
+        "title": "中国电影股票交易异常波动公告",
+        "summary": "中国电影股票交易异常波动公告",
+        "source": "announcement_incremental",
+        "entity_codes": [
+          "600977"
+        ],
+        "entity_names": [
+          "中国电影"
+        ],
+        "industry_codes": [],
+        "theme_tags": [],
+        "event_time": "2026-02-27T00:00:00",
+        "discover_time": "2026-02-27T00:00:00",
+        "available_at": "2026-02-27T00:00:00",
+        "severity": 0.8,
+        "surprise_score": 0.75,
+        "tradability_score": 0.7,
+        "novelty_score": 0.6,
+        "crowding_risk": 0.35,
+        "confidence": 0.7,
+        "impact_level": "high",
+        "source_type": "filing",
+        "raw_payload_ref": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=600977&announcementId=1224985428&orgId=9900024673&announcementTime=2026-02-27",
+        "metadata": {
+          "legacy_type": "policy_risk",
+          "legacy_event_date": "2026-02-27",
+          "legacy_stock_code": "600977",
+          "legacy_stock_name": "中国电影",
+          "ingest_date": "2026-02-27",
+          "announcement_type": "",
+          "matched_keywords": [
+            "股票交易异常波动",
+            "异常波动公告"
+          ]
+        },
+        "created_at": "2026-03-20T10:26:04.886497+00:00",
+        "updated_at": "2026-03-20T10:26:04.886498+00:00"
+      },
+      {
+        "event_id": "filing:2026-02-27:600900:2668f24a85ce",
+        "event_type": "dividend",
+        "event_subtype": "dividend.cash",
+        "title": "长江电力关于2025年度利润分配预案相关事项征求投资者意见的公告",
+        "summary": "长江电力关于2025年度利润分配预案相关事项征求投资者意见的公告",
+        "source": "announcement_incremental",
+        "entity_codes": [
+          "600900"
+        ],
+        "entity_names": [
+          "长江电力"
+        ],
+        "industry_codes": [],
+        "theme_tags": [],
+        "event_time": "2026-02-27T00:00:00",
+        "discover_time": "2026-02-27T00:00:00",
+        "available_at": "2026-02-27T00:00:00",
+        "severity": 0.55,
+        "surprise_score": 0.45,
+        "tradability_score": 0.7,
+        "novelty_score": 0.6,
+        "crowding_risk": 0.45,
+        "confidence": 0.55,
+        "impact_level": "medium",
+        "source_type": "filing",
+        "raw_payload_ref": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=600900&announcementId=1224984933&orgId=gssh0600900&announcementTime=2026-02-27",
+        "metadata": {
+          "legacy_type": "dividend",
+          "legacy_event_date": "2026-02-27",
+          "legacy_stock_code": "600900",
+          "legacy_stock_name": "长江电力",
+          "ingest_date": "2026-02-27",
+          "announcement_type": "",
+          "matched_keywords": [
+            "利润分配预案"
+          ]
+        },
+        "created_at": "2026-03-20T10:26:04.887012+00:00",
+        "updated_at": "2026-03-20T10:26:04.887013+00:00"
+      },
+      {
+        "event_id": "filing:2026-02-27:600884:4ac0f6c0831d",
+        "event_type": "buyback",
+        "event_subtype": "buyback.shareholder_action",
+        "title": "杉杉股份关于已回购股份首次集中竞价减持的进展公告",
+        "summary": "股权变动",
+        "source": "announcement_incremental",
+        "entity_codes": [
+          "600884"
+        ],
+        "entity_names": [
+          "杉杉股份"
+        ],
+        "industry_codes": [],
+        "theme_tags": [],
+        "event_time": "2026-02-27T00:00:00",
+        "discover_time": "2026-02-27T00:00:00",
+        "available_at": "2026-02-27T00:00:00",
+        "severity": 0.55,
+        "surprise_score": 0.45,
+        "tradability_score": 0.7,
+        "novelty_score": 0.6,
+        "crowding_risk": 0.45,
+        "confidence": 0.55,
+        "impact_level": "medium",
+        "source_type": "filing",
+        "raw_payload_ref": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=600884&announcementId=1224985559&orgId=gssh0600884&announcementTime=2026-02-27",
+        "metadata": {
+          "legacy_type": "buyback",
+          "legacy_event_date": "2026-02-27",
+          "legacy_stock_code": "600884",
+          "legacy_stock_name": "杉杉股份",
+          "ingest_date": "2026-02-27",
+          "announcement_type": "股权变动",
+          "matched_keywords": [
+            "回购"
+          ]
+        },
+        "created_at": "2026-03-20T10:26:04.887130+00:00",
+        "updated_at": "2026-03-20T10:26:04.887131+00:00"
+      },
+      {
+        "event_id": "filing:2026-02-27:600601:880e4195d7ae",
+        "event_type": "share_reduction",
+        "event_subtype": "share_reduction.disposal",
+        "title": "方正科技股东减持股份计划公告",
+        "summary": "股权变动",
+        "source": "announcement_incremental",
+        "entity_codes": [
+          "600601"
+        ],
+        "entity_names": [
+          "方正科技"
+        ],
+        "industry_codes": [],
+        "theme_tags": [],
+        "event_time": "2026-02-27T00:00:00",
+        "discover_time": "2026-02-27T00:00:00",
+        "available_at": "2026-02-27T00:00:00",
+        "severity": 0.8,
+        "surprise_score": 0.45,
+        "tradability_score": 0.7,
+        "novelty_score": 0.6,
+        "crowding_risk": 0.45,
+        "confidence": 0.7,
+        "impact_level": "high",
+        "source_type": "filing",
+        "raw_payload_ref": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=600601&announcementId=1224986270&orgId=gssh0600601&announcementTime=2026-02-27",
+        "metadata": {
+          "legacy_type": "share_reduction",
+          "legacy_event_date": "2026-02-27",
+          "legacy_stock_code": "600601",
+          "legacy_stock_name": "方正科技",
+          "ingest_date": "2026-02-27",
+          "announcement_type": "股权变动",
+          "matched_keywords": [
+            "减持",
+            "减持股份"
+          ]
+        },
+        "created_at": "2026-03-20T10:26:04.887507+00:00",
+        "updated_at": "2026-03-20T10:26:04.887508+00:00"
+      },
+      {
+        "event_id": "filing:2026-02-27:600196:6d533313c0c6",
+        "event_type": "capital_raise",
+        "event_subtype": "capital_raise.equity",
+        "title": "复星医药关于向专业投资者公开发行科技创新公司债券获中国证监会注册批复的公告",
+        "summary": "债券融资",
+        "source": "announcement_incremental",
+        "entity_codes": [
+          "600196"
+        ],
+        "entity_names": [
+          "复星医药"
+        ],
+        "industry_codes": [],
+        "theme_tags": [
+          "medicine"
+        ],
+        "event_time": "2026-02-27T00:00:00",
+        "discover_time": "2026-02-27T00:00:00",
+        "available_at": "2026-02-27T00:00:00",
+        "severity": 0.55,
+        "surprise_score": 0.45,
+        "tradability_score": 0.7,
+        "novelty_score": 0.6,
+        "crowding_risk": 0.45,
+        "confidence": 0.55,
+        "impact_level": "medium",
+        "source_type": "filing",
+        "raw_payload_ref": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=600196&announcementId=1224985651&orgId=gssh0600196&announcementTime=2026-02-27",
+        "metadata": {
+          "legacy_type": "capital_raise",
+          "legacy_event_date": "2026-02-27",
+          "legacy_stock_code": "600196",
+          "legacy_stock_name": "复星医药",
+          "ingest_date": "2026-02-27",
+          "announcement_type": "债券融资",
+          "matched_keywords": [
+            "融资"
+          ]
+        },
+        "created_at": "2026-03-20T10:26:04.887985+00:00",
+        "updated_at": "2026-03-20T10:26:04.887986+00:00"
+      },
+      {
+        "event_id": "filing:2026-02-27:600183:c7601b50ed01",
+        "event_type": "share_reduction",
+        "event_subtype": "share_reduction.disposal",
+        "title": "生益科技持股5%以上股东及董事减持股份结果公告",
+        "summary": "股权变动",
+        "source": "announcement_incremental",
+        "entity_codes": [
+          "600183"
+        ],
+        "entity_names": [
+          "生益科技"
+        ],
+        "industry_codes": [],
+        "theme_tags": [],
+        "event_time": "2026-02-27T00:00:00",
+        "discover_time": "2026-02-27T00:00:00",
+        "available_at": "2026-02-27T00:00:00",
+        "severity": 0.8,
+        "surprise_score": 0.45,
+        "tradability_score": 0.7,
+        "novelty_score": 0.6,
+        "crowding_risk": 0.45,
+        "confidence": 0.7,
+        "impact_level": "high",
+        "source_type": "filing",
+        "raw_payload_ref": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=600183&announcementId=1224985479&orgId=gssh0600183&announcementTime=2026-02-27",
+        "metadata": {
+          "legacy_type": "share_reduction",
+          "legacy_event_date": "2026-02-27",
+          "legacy_stock_code": "600183",
+          "legacy_stock_name": "生益科技",
+          "ingest_date": "2026-02-27",
+          "announcement_type": "股权变动",
+          "matched_keywords": [
+            "减持",
+            "减持股份"
+          ]
+        },
+        "created_at": "2026-03-20T10:26:04.888194+00:00",
+        "updated_at": "2026-03-20T10:26:04.888195+00:00"
+      },
+      {
+        "event_id": "filing:2026-02-27:600141:9f8fae528eba",
+        "event_type": "capital_raise",
+        "event_subtype": "capital_raise.redemption",
+        "title": "湖北兴发化工集团股份有限公司关于实施“兴发转债”赎回暨摘牌的第十一次提示性公告",
+        "summary": "湖北兴发化工集团股份有限公司关于实施“兴发转债”赎回暨摘牌的第十一次提示性公告",
+        "source": "announcement_incremental",
+        "entity_codes": [
+          "600141"
+        ],
+        "entity_names": [
+          "兴发集团"
+        ],
+        "industry_codes": [],
+        "theme_tags": [],
+        "event_time": "2026-02-27T00:00:00",
+        "discover_time": "2026-02-27T00:00:00",
+        "available_at": "2026-02-27T00:00:00",
+        "severity": 0.55,
+        "surprise_score": 0.45,
+        "tradability_score": 0.7,
+        "novelty_score": 0.6,
+        "crowding_risk": 0.45,
+        "confidence": 0.55,
+        "impact_level": "medium",
+        "source_type": "filing",
+        "raw_payload_ref": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=600141&announcementId=1224985481&orgId=gssh0600141&announcementTime=2026-02-27",
+        "metadata": {
+          "legacy_type": "capital_raise",
+          "legacy_event_date": "2026-02-27",
+          "legacy_stock_code": "600141",
+          "legacy_stock_name": "兴发集团",
+          "ingest_date": "2026-02-27",
+          "announcement_type": "",
+          "matched_keywords": [
+            "赎回暨摘牌"
+          ]
+        },
+        "created_at": "2026-03-20T10:26:04.888413+00:00",
+        "updated_at": "2026-03-20T10:26:04.888414+00:00"
+      },
+      {
+        "event_id": "filing:2026-02-27:600109:c70d14315997",
+        "event_type": "capital_raise",
+        "event_subtype": "capital_raise.equity",
+        "title": "国金证券股份有限公司2025年面向专业投资者公开发行公司债券(第一期)2026年付息公告",
+        "summary": "债券融资",
+        "source": "announcement_incremental",
+        "entity_codes": [
+          "600109"
+        ],
+        "entity_names": [
+          "国金证券"
+        ],
+        "industry_codes": [],
+        "theme_tags": [],
+        "event_time": "2026-02-27T00:00:00",
+        "discover_time": "2026-02-27T00:00:00",
+        "available_at": "2026-02-27T00:00:00",
+        "severity": 0.55,
+        "surprise_score": 0.45,
+        "tradability_score": 0.7,
+        "novelty_score": 0.6,
+        "crowding_risk": 0.45,
+        "confidence": 0.55,
+        "impact_level": "medium",
+        "source_type": "filing",
+        "raw_payload_ref": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=600109&announcementId=1224984957&orgId=gssh0600109&announcementTime=2026-02-27",
+        "metadata": {
+          "legacy_type": "capital_raise",
+          "legacy_event_date": "2026-02-27",
+          "legacy_stock_code": "600109",
+          "legacy_stock_name": "国金证券",
+          "ingest_date": "2026-02-27",
+          "announcement_type": "债券融资",
+          "matched_keywords": [
+            "融资"
+          ]
+        },
+        "created_at": "2026-03-20T10:26:04.888535+00:00",
+        "updated_at": "2026-03-20T10:26:04.888536+00:00"
+      },
+      {
+        "event_id": "filing:2026-02-27:600096:da493d8a6206",
+        "event_type": "policy_risk",
+        "event_subtype": "policy_risk.abnormal_trading",
+        "title": "云天化股票交易异常波动公告",
+        "summary": "云天化股票交易异常波动公告",
+        "source": "announcement_incremental",
+        "entity_codes": [
+          "600096"
+        ],
+        "entity_names": [
+          "云天化"
+        ],
+        "industry_codes": [],
+        "theme_tags": [],
+        "event_time": "2026-02-27T00:00:00",
+        "discover_time": "2026-02-27T00:00:00",
+        "available_at": "2026-02-27T00:00:00",
+        "severity": 0.8,
+        "surprise_score": 0.75,
+        "tradability_score": 0.7,
+        "novelty_score": 0.6,
+        "crowding_risk": 0.35,
+        "confidence": 0.7,
+        "impact_level": "high",
+        "source_type": "filing",
+        "raw_payload_ref": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=600096&announcementId=1224985722&orgId=gssh0600096&announcementTime=2026-02-27",
+        "metadata": {
+          "legacy_type": "policy_risk",
+          "legacy_event_date": "2026-02-27",
+          "legacy_stock_code": "600096",
+          "legacy_stock_name": "云天化",
+          "ingest_date": "2026-02-27",
+          "announcement_type": "",
+          "matched_keywords": [
+            "股票交易异常波动",
+            "异常波动公告"
+          ]
+        },
+        "created_at": "2026-03-20T10:26:04.888877+00:00",
+        "updated_at": "2026-03-20T10:26:04.888881+00:00"
+      },
+      {
+        "event_id": "filing:2026-02-27:600062:cb78145f920a",
+        "event_type": "technology_breakthrough",
+        "event_subtype": "technology_breakthrough.approval",
+        "title": "华润双鹤关于全资子公司西安京西双鹤药业有限公司平衡盐冲洗液获得药品注册证书的公告",
+        "summary": "产品进展",
+        "source": "announcement_incremental",
+        "entity_codes": [
+          "600062"
+        ],
+        "entity_names": [
+          "华润双鹤"
+        ],
+        "industry_codes": [],
+        "theme_tags": [],
+        "event_time": "2026-02-27T00:00:00",
+        "discover_time": "2026-02-27T00:00:00",
+        "available_at": "2026-02-27T00:00:00",
+        "severity": 0.8,
+        "surprise_score": 0.75,
+        "tradability_score": 0.7,
+        "novelty_score": 0.6,
+        "crowding_risk": 0.45,
+        "confidence": 0.7,
+        "impact_level": "high",
+        "source_type": "filing",
+        "raw_payload_ref": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=600062&announcementId=1224985380&orgId=gssh0600062&announcementTime=2026-02-27",
+        "metadata": {
+          "legacy_type": "technology_breakthrough",
+          "legacy_event_date": "2026-02-27",
+          "legacy_stock_code": "600062",
+          "legacy_stock_name": "华润双鹤",
+          "ingest_date": "2026-02-27",
+          "announcement_type": "产品进展",
+          "matched_keywords": [
+            "注册证"
+          ]
+        },
+        "created_at": "2026-03-20T10:26:04.889192+00:00",
+        "updated_at": "2026-03-20T10:26:04.889194+00:00"
+      },
+      {
+        "event_id": "filing:2026-02-27:600030:d17dbbb12aaa",
+        "event_type": "capital_raise",
+        "event_subtype": "capital_raise.equity",
+        "title": "中信证券股份有限公司关于向专业投资者公开发行公司债券获得中国证监会注册批复的公告",
+        "summary": "债券融资",
+        "source": "announcement_incremental",
+        "entity_codes": [
+          "600030"
+        ],
+        "entity_names": [
+          "中信证券"
+        ],
+        "industry_codes": [],
+        "theme_tags": [],
+        "event_time": "2026-02-27T00:00:00",
+        "discover_time": "2026-02-27T00:00:00",
+        "available_at": "2026-02-27T00:00:00",
+        "severity": 0.55,
+        "surprise_score": 0.45,
+        "tradability_score": 0.7,
+        "novelty_score": 0.6,
+        "crowding_risk": 0.45,
+        "confidence": 0.55,
+        "impact_level": "medium",
+        "source_type": "filing",
+        "raw_payload_ref": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=600030&announcementId=1224985270&orgId=gssh0600030&announcementTime=2026-02-27",
+        "metadata": {
+          "legacy_type": "capital_raise",
+          "legacy_event_date": "2026-02-27",
+          "legacy_stock_code": "600030",
+          "legacy_stock_name": "中信证券",
+          "ingest_date": "2026-02-27",
+          "announcement_type": "债券融资",
+          "matched_keywords": [
+            "融资"
+          ]
+        },
+        "created_at": "2026-03-20T10:26:04.889421+00:00",
+        "updated_at": "2026-03-20T10:26:04.889423+00:00"
+      },
+      {
+        "event_id": "filing:2026-02-27:300832:d16fb57442a7",
+        "event_type": "technology_breakthrough",
+        "event_subtype": "technology_breakthrough.approval",
+        "title": "关于获得医疗器械注册证的公告",
+        "summary": "产品进展",
+        "source": "announcement_incremental",
+        "entity_codes": [
+          "300832"
+        ],
+        "entity_names": [
+          "新产业"
+        ],
+        "industry_codes": [],
+        "theme_tags": [
+          "medicine"
+        ],
+        "event_time": "2026-02-27T00:00:00",
+        "discover_time": "2026-02-27T19:04:28",
+        "available_at": "2026-02-27T19:04:28",
+        "severity": 0.8,
+        "surprise_score": 0.75,
+        "tradability_score": 0.7,
+        "novelty_score": 0.6,
+        "crowding_risk": 0.45,
+        "confidence": 0.7,
+        "impact_level": "high",
+        "source_type": "filing",
+        "raw_payload_ref": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=300832&announcementId=1224988586&orgId=9900027265&announcementTime=2026-02-27 19:04:28",
+        "metadata": {
+          "legacy_type": "technology_breakthrough",
+          "legacy_event_date": "2026-02-27",
+          "legacy_stock_code": "300832",
+          "legacy_stock_name": "新产业",
+          "ingest_date": "2026-02-27",
+          "announcement_type": "产品进展",
+          "matched_keywords": [
+            "注册证"
+          ]
+        },
+        "created_at": "2026-03-20T10:26:04.889797+00:00",
+        "updated_at": "2026-03-20T10:26:04.889798+00:00"
+      },
+      {
+        "event_id": "filing:2026-02-27:300628:ed93a40d1994",
+        "event_type": "earnings_surprise",
+        "event_subtype": "earnings_surprise.guidance",
+        "title": "2025年度业绩快报",
+        "summary": "业绩预告",
+        "source": "announcement_incremental",
+        "entity_codes": [
+          "300628"
+        ],
+        "entity_names": [
+          "亿联网络"
+        ],
+        "industry_codes": [],
+        "theme_tags": [],
+        "event_time": "2026-02-27T00:00:00",
+        "discover_time": "2026-02-27T16:44:28",
+        "available_at": "2026-02-27T16:44:28",
+        "severity": 0.8,
+        "surprise_score": 0.75,
+        "tradability_score": 0.7,
+        "novelty_score": 0.6,
+        "crowding_risk": 0.45,
+        "confidence": 0.7,
+        "impact_level": "high",
+        "source_type": "filing",
+        "raw_payload_ref": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=300628&announcementId=1224987042&orgId=9900031465&announcementTime=2026-02-27 16:44:28",
+        "metadata": {
+          "legacy_type": "earnings_surprise",
+          "legacy_event_date": "2026-02-27",
+          "legacy_stock_code": "300628",
+          "legacy_stock_name": "亿联网络",
+          "ingest_date": "2026-02-27",
+          "announcement_type": "业绩预告",
+          "matched_keywords": [
+            "业绩预告",
+            "业绩快报"
+          ]
+        },
+        "created_at": "2026-03-20T10:26:04.889912+00:00",
+        "updated_at": "2026-03-20T10:26:04.889913+00:00"
+      },
+      {
+        "event_id": "filing:2026-02-27:300627:58c0f5a1c4f8",
+        "event_type": "earnings_surprise",
+        "event_subtype": "earnings_surprise.guidance",
+        "title": "2025年年度业绩快报",
+        "summary": "业绩预告",
+        "source": "announcement_incremental",
+        "entity_codes": [
+          "300627"
+        ],
+        "entity_names": [
+          "华测导航"
+        ],
+        "industry_codes": [],
+        "theme_tags": [],
+        "event_time": "2026-02-27T00:00:00",
+        "discover_time": "2026-02-27T18:18:28",
+        "available_at": "2026-02-27T18:18:28",
+        "severity": 0.8,
+        "surprise_score": 0.75,
+        "tradability_score": 0.7,
+        "novelty_score": 0.6,
+        "crowding_risk": 0.45,
+        "confidence": 0.7,
+        "impact_level": "high",
+        "source_type": "filing",
+        "raw_payload_ref": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=300627&announcementId=1224987379&orgId=9900031443&announcementTime=2026-02-27 18:18:28",
+        "metadata": {
+          "legacy_type": "earnings_surprise",
+          "legacy_event_date": "2026-02-27",
+          "legacy_stock_code": "300627",
+          "legacy_stock_name": "华测导航",
+          "ingest_date": "2026-02-27",
+          "announcement_type": "业绩预告",
+          "matched_keywords": [
+            "业绩预告",
+            "业绩快报"
+          ]
+        },
+        "created_at": "2026-03-20T10:26:04.890026+00:00",
+        "updated_at": "2026-03-20T10:26:04.890027+00:00"
+      },
+      {
+        "event_id": "filing:2026-02-27:300498:d2858c71e7df",
+        "event_type": "cooperation",
+        "event_subtype": "cooperation.investment",
+        "title": "关于对外投资暨关联交易的进展公告",
+        "summary": "关于对外投资暨关联交易的进展公告",
+        "source": "announcement_incremental",
+        "entity_codes": [
+          "300498"
+        ],
+        "entity_names": [
+          "温氏股份"
+        ],
+        "industry_codes": [],
+        "theme_tags": [],
+        "event_time": "2026-02-27T00:00:00",
+        "discover_time": "2026-02-27T16:02:28",
+        "available_at": "2026-02-27T16:02:28",
+        "severity": 0.55,
+        "surprise_score": 0.45,
+        "tradability_score": 0.7,
+        "novelty_score": 0.6,
+        "crowding_risk": 0.45,
+        "confidence": 0.55,
+        "impact_level": "medium",
+        "source_type": "filing",
+        "raw_payload_ref": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=300498&announcementId=1224986786&orgId=9900009247&announcementTime=2026-02-27 16:02:28",
+        "metadata": {
+          "legacy_type": "cooperation",
+          "legacy_event_date": "2026-02-27",
+          "legacy_stock_code": "300498",
+          "legacy_stock_name": "温氏股份",
+          "ingest_date": "2026-02-27",
+          "announcement_type": "",
+          "matched_keywords": [
+            "对外投资"
+          ]
+        },
+        "created_at": "2026-03-20T10:26:04.890145+00:00",
+        "updated_at": "2026-03-20T10:26:04.890146+00:00"
+      },
+      {
+        "event_id": "filing:2026-02-27:300454:e0eeaac3f5a1",
+        "event_type": "capital_raise",
+        "event_subtype": "capital_raise.redemption",
+        "title": "深信服科技股份有限公司关于提前赎回信服转债的第六次提示性公告",
+        "summary": "深信服科技股份有限公司关于提前赎回信服转债的第六次提示性公告",
+        "source": "announcement_incremental",
+        "entity_codes": [
+          "300454"
+        ],
+        "entity_names": [
+          "深信服"
+        ],
+        "industry_codes": [],
+        "theme_tags": [],
+        "event_time": "2026-02-27T00:00:00",
+        "discover_time": "2026-02-27T15:40:12",
+        "available_at": "2026-02-27T15:40:12",
+        "severity": 0.55,
+        "surprise_score": 0.45,
+        "tradability_score": 0.7,
+        "novelty_score": 0.6,
+        "crowding_risk": 0.45,
+        "confidence": 0.55,
+        "impact_level": "medium",
+        "source_type": "filing",
+        "raw_payload_ref": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=300454&announcementId=1224986570&orgId=9900035739&announcementTime=2026-02-27 15:40:12",
+        "metadata": {
+          "legacy_type": "capital_raise",
+          "legacy_event_date": "2026-02-27",
+          "legacy_stock_code": "300454",
+          "legacy_stock_name": "深信服",
+          "ingest_date": "2026-02-27",
+          "announcement_type": "",
+          "matched_keywords": [
+            "提前赎回"
+          ]
+        },
+        "created_at": "2026-03-20T10:26:04.890272+00:00",
+        "updated_at": "2026-03-20T10:26:04.890273+00:00"
+      },
+      {
+        "event_id": "filing:2026-02-27:300339:36fcee148921",
+        "event_type": "buyback",
+        "event_subtype": "buyback.shareholder_action",
+        "title": "关于回购股份集中竞价减持计划的公告",
+        "summary": "股权变动",
+        "source": "announcement_incremental",
+        "entity_codes": [
+          "300339"
+        ],
+        "entity_names": [
+          "润和软件"
+        ],
+        "industry_codes": [],
+        "theme_tags": [],
+        "event_time": "2026-02-27T00:00:00",
+        "discover_time": "2026-02-27T18:12:28",
+        "available_at": "2026-02-27T18:12:28",
+        "severity": 0.55,
+        "surprise_score": 0.45,
+        "tradability_score": 0.7,
+        "novelty_score": 0.6,
+        "crowding_risk": 0.45,
+        "confidence": 0.55,
+        "impact_level": "medium",
+        "source_type": "filing",
+        "raw_payload_ref": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=300339&announcementId=1224988024&orgId=9900022165&announcementTime=2026-02-27 18:12:28",
+        "metadata": {
+          "legacy_type": "buyback",
+          "legacy_event_date": "2026-02-27",
+          "legacy_stock_code": "300339",
+          "legacy_stock_name": "润和软件",
+          "ingest_date": "2026-02-27",
+          "announcement_type": "股权变动",
+          "matched_keywords": [
+            "回购"
+          ]
+        },
+        "created_at": "2026-03-20T10:26:04.890637+00:00",
+        "updated_at": "2026-03-20T10:26:04.890638+00:00"
+      },
+      {
+        "event_id": "filing:2026-02-27:300285:4d88908f13c3",
+        "event_type": "cooperation",
+        "event_subtype": "cooperation.investment",
+        "title": "关于公司对外投资购买澳大利亚公司全部股权的公告",
+        "summary": "关于公司对外投资购买澳大利亚公司全部股权的公告",
+        "source": "announcement_incremental",
+        "entity_codes": [
+          "300285"
+        ],
+        "entity_names": [
+          "国瓷材料"
+        ],
+        "industry_codes": [],
+        "theme_tags": [],
+        "event_time": "2026-02-27T00:00:00",
+        "discover_time": "2026-02-27T19:40:28",
+        "available_at": "2026-02-27T19:40:28",
+        "severity": 0.55,
+        "surprise_score": 0.45,
+        "tradability_score": 0.7,
+        "novelty_score": 0.6,
+        "crowding_risk": 0.45,
+        "confidence": 0.55,
+        "impact_level": "medium",
+        "source_type": "filing",
+        "raw_payload_ref": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=300285&announcementId=1224988917&orgId=9900021557&announcementTime=2026-02-27 19:40:28",
+        "metadata": {
+          "legacy_type": "cooperation",
+          "legacy_event_date": "2026-02-27",
+          "legacy_stock_code": "300285",
+          "legacy_stock_name": "国瓷材料",
+          "ingest_date": "2026-02-27",
+          "announcement_type": "",
+          "matched_keywords": [
+            "对外投资"
+          ]
+        },
+        "created_at": "2026-03-20T10:26:04.890915+00:00",
+        "updated_at": "2026-03-20T10:26:04.890916+00:00"
+      },
+      {
+        "event_id": "filing:2026-02-27:300115:ed93a40d1994",
+        "event_type": "earnings_surprise",
+        "event_subtype": "earnings_surprise.guidance",
+        "title": "2025年度业绩快报",
+        "summary": "业绩预告",
+        "source": "announcement_incremental",
+        "entity_codes": [
+          "300115"
+        ],
+        "entity_names": [
+          "长盈精密"
+        ],
+        "industry_codes": [],
+        "theme_tags": [],
+        "event_time": "2026-02-27T00:00:00",
+        "discover_time": "2026-02-27T17:16:28",
+        "available_at": "2026-02-27T17:16:28",
+        "severity": 0.8,
+        "surprise_score": 0.75,
+        "tradability_score": 0.7,
+        "novelty_score": 0.6,
+        "crowding_risk": 0.45,
+        "confidence": 0.7,
+        "impact_level": "high",
+        "source_type": "filing",
+        "raw_payload_ref": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=300115&announcementId=1224987477&orgId=9900013488&announcementTime=2026-02-27 17:16:28",
+        "metadata": {
+          "legacy_type": "earnings_surprise",
+          "legacy_event_date": "2026-02-27",
+          "legacy_stock_code": "300115",
+          "legacy_stock_name": "长盈精密",
+          "ingest_date": "2026-02-27",
+          "announcement_type": "业绩预告",
+          "matched_keywords": [
+            "业绩预告",
+            "业绩快报"
+          ]
+        },
+        "created_at": "2026-03-20T10:26:04.891028+00:00",
+        "updated_at": "2026-03-20T10:26:04.891029+00:00"
+      },
+      {
+        "event_id": "filing:2026-02-27:300003:64c9dd7d9e9b",
+        "event_type": "capital_raise",
+        "event_subtype": "capital_raise.redemption",
+        "title": "关于乐普转2即将到期及停止交易的第三次提示性公告",
+        "summary": "关于乐普转2即将到期及停止交易的第三次提示性公告",
+        "source": "announcement_incremental",
+        "entity_codes": [
+          "300003"
+        ],
+        "entity_names": [
+          "乐普医疗"
+        ],
+        "industry_codes": [],
+        "theme_tags": [],
+        "event_time": "2026-02-27T00:00:00",
+        "discover_time": "2026-02-27T00:00:00",
+        "available_at": "2026-02-27T00:00:00",
+        "severity": 0.55,
+        "surprise_score": 0.45,
+        "tradability_score": 0.7,
+        "novelty_score": 0.6,
+        "crowding_risk": 0.45,
+        "confidence": 0.55,
+        "impact_level": "medium",
+        "source_type": "filing",
+        "raw_payload_ref": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=300003&announcementId=1224985193&orgId=9900008269&announcementTime=2026-02-27 00:00:00",
+        "metadata": {
+          "legacy_type": "capital_raise",
+          "legacy_event_date": "2026-02-27",
+          "legacy_stock_code": "300003",
+          "legacy_stock_name": "乐普医疗",
+          "ingest_date": "2026-02-27",
+          "announcement_type": "",
+          "matched_keywords": [
+            "停止交易"
+          ]
+        },
+        "created_at": "2026-03-20T10:26:04.891566+00:00",
+        "updated_at": "2026-03-20T10:26:04.891567+00:00"
+      },
+      {
+        "event_id": "filing:2026-02-27:300002:ed93a40d1994",
+        "event_type": "earnings_surprise",
+        "event_subtype": "earnings_surprise.guidance",
+        "title": "2025年度业绩快报",
+        "summary": "业绩预告",
+        "source": "announcement_incremental",
+        "entity_codes": [
+          "300002"
+        ],
+        "entity_names": [
+          "神州泰岳"
+        ],
+        "industry_codes": [],
+        "theme_tags": [],
+        "event_time": "2026-02-27T00:00:00",
+        "discover_time": "2026-02-27T00:00:00",
+        "available_at": "2026-02-27T00:00:00",
+        "severity": 0.8,
+        "surprise_score": 0.75,
+        "tradability_score": 0.7,
+        "novelty_score": 0.6,
+        "crowding_risk": 0.45,
+        "confidence": 0.7,
+        "impact_level": "high",
+        "source_type": "filing",
+        "raw_payload_ref": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=300002&announcementId=1224985212&orgId=9900008268&announcementTime=2026-02-27",
+        "metadata": {
+          "legacy_type": "earnings_surprise",
+          "legacy_event_date": "2026-02-27",
+          "legacy_stock_code": "300002",
+          "legacy_stock_name": "神州泰岳",
+          "ingest_date": "2026-02-27",
+          "announcement_type": "业绩预告",
+          "matched_keywords": [
+            "业绩预告",
+            "业绩快报"
+          ]
+        },
+        "created_at": "2026-03-20T10:26:04.891693+00:00",
+        "updated_at": "2026-03-20T10:26:04.891694+00:00"
+      },
+      {
+        "event_id": "filing:2026-02-27:003021:4ecd7a2d455c",
+        "event_type": "product_launch",
+        "event_subtype": "product_launch.new_release",
+        "title": "关于刊发H股招股说明书、H股发行价格上限及H股香港公开发售等事宜的公告",
+        "summary": "关于刊发H股招股说明书、H股发行价格上限及H股香港公开发售等事宜的公告",
+        "source": "announcement_incremental",
+        "entity_codes": [
+          "003021"
+        ],
+        "entity_names": [
+          "兆威机电"
+        ],
+        "industry_codes": [],
+        "theme_tags": [],
+        "event_time": "2026-02-27T00:00:00",
+        "discover_time": "2026-02-27T07:47:34",
+        "available_at": "2026-02-27T07:47:34",
+        "severity": 0.55,
+        "surprise_score": 0.75,
+        "tradability_score": 0.7,
+        "novelty_score": 0.6,
+        "crowding_risk": 0.45,
+        "confidence": 0.55,
+        "impact_level": "medium",
+        "source_type": "filing",
+        "raw_payload_ref": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=003021&announcementId=1224986483&orgId=9900039718&announcementTime=2026-02-27 07:47:34",
+        "metadata": {
+          "legacy_type": "product_launch",
+          "legacy_event_date": "2026-02-27",
+          "legacy_stock_code": "003021",
+          "legacy_stock_name": "兆威机电",
+          "ingest_date": "2026-02-27",
+          "announcement_type": "",
+          "matched_keywords": [
+            "发售"
+          ]
+        },
+        "created_at": "2026-03-20T10:26:04.891902+00:00",
+        "updated_at": "2026-03-20T10:26:04.891903+00:00"
+      },
+      {
+        "event_id": "filing:2026-02-27:002916:bb53fd206db8",
+        "event_type": "policy_risk",
+        "event_subtype": "policy_risk.abnormal_trading",
+        "title": "股票交易异常波动公告",
+        "summary": "股票交易异常波动公告",
+        "source": "announcement_incremental",
+        "entity_codes": [
+          "002916"
+        ],
+        "entity_names": [
+          "深南电路"
+        ],
+        "industry_codes": [],
+        "theme_tags": [],
+        "event_time": "2026-02-27T00:00:00",
+        "discover_time": "2026-02-27T00:00:00",
+        "available_at": "2026-02-27T00:00:00",
+        "severity": 0.8,
+        "surprise_score": 0.75,
+        "tradability_score": 0.7,
+        "novelty_score": 0.6,
+        "crowding_risk": 0.35,
+        "confidence": 0.7,
+        "impact_level": "high",
+        "source_type": "filing",
+        "raw_payload_ref": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=002916&announcementId=1224985961&orgId=9900022488&announcementTime=2026-02-27",
+        "metadata": {
+          "legacy_type": "policy_risk",
+          "legacy_event_date": "2026-02-27",
+          "legacy_stock_code": "002916",
+          "legacy_stock_name": "深南电路",
+          "ingest_date": "2026-02-27",
+          "announcement_type": "",
+          "matched_keywords": [
+            "股票交易异常波动",
+            "异常波动公告"
+          ]
+        },
+        "created_at": "2026-03-20T10:26:04.892021+00:00",
+        "updated_at": "2026-03-20T10:26:04.892022+00:00"
+      },
+      {
+        "event_id": "filing:2026-02-27:002736:6a2ad0790540",
+        "event_type": "capital_raise",
+        "event_subtype": "capital_raise.equity",
+        "title": "国信证券股份有限公司2026年面向专业投资者公开发行公司债券（第二期）发行公告",
+        "summary": "债券融资",
+        "source": "announcement_incremental",
+        "entity_codes": [
+          "002736"
+        ],
+        "entity_names": [
+          "国信证券"
+        ],
+        "industry_codes": [],
+        "theme_tags": [],
+        "event_time": "2026-02-27T00:00:00",
+        "discover_time": "2026-02-27T16:12:12",
+        "available_at": "2026-02-27T16:12:12",
+        "severity": 0.55,
+        "surprise_score": 0.45,
+        "tradability_score": 0.7,
+        "novelty_score": 0.6,
+        "crowding_risk": 0.45,
+        "confidence": 0.55,
+        "impact_level": "medium",
+        "source_type": "filing",
+        "raw_payload_ref": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=002736&announcementId=1224986725&orgId=9900004734&announcementTime=2026-02-27 16:12:12",
+        "metadata": {
+          "legacy_type": "capital_raise",
+          "legacy_event_date": "2026-02-27",
+          "legacy_stock_code": "002736",
+          "legacy_stock_name": "国信证券",
+          "ingest_date": "2026-02-27",
+          "announcement_type": "债券融资",
+          "matched_keywords": [
+            "融资"
+          ]
+        },
+        "created_at": "2026-03-20T10:26:04.892152+00:00",
+        "updated_at": "2026-03-20T10:26:04.892153+00:00"
+      },
+      {
+        "event_id": "filing:2026-02-27:002736:33c5e13cc3f0",
+        "event_type": "capital_raise",
+        "event_subtype": "capital_raise.equity",
+        "title": "国信证券股份有限公司2026年面向专业投资者公开发行公司债券（第二期）募集说明书",
+        "summary": "债券融资",
+        "source": "announcement_incremental",
+        "entity_codes": [
+          "002736"
+        ],
+        "entity_names": [
+          "国信证券"
+        ],
+        "industry_codes": [],
+        "theme_tags": [],
+        "event_time": "2026-02-27T00:00:00",
+        "discover_time": "2026-02-27T16:12:28",
+        "available_at": "2026-02-27T16:12:28",
+        "severity": 0.55,
+        "surprise_score": 0.45,
+        "tradability_score": 0.7,
+        "novelty_score": 0.6,
+        "crowding_risk": 0.45,
+        "confidence": 0.55,
+        "impact_level": "medium",
+        "source_type": "filing",
+        "raw_payload_ref": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=002736&announcementId=1224986722&orgId=9900004734&announcementTime=2026-02-27 16:12:28",
+        "metadata": {
+          "legacy_type": "capital_raise",
+          "legacy_event_date": "2026-02-27",
+          "legacy_stock_code": "002736",
+          "legacy_stock_name": "国信证券",
+          "ingest_date": "2026-02-27",
+          "announcement_type": "债券融资",
+          "matched_keywords": [
+            "融资"
+          ]
+        },
+        "created_at": "2026-03-20T10:26:04.892286+00:00",
+        "updated_at": "2026-03-20T10:26:04.892287+00:00"
+      },
+      {
+        "event_id": "filing:2026-02-27:002736:76e642826175",
+        "event_type": "capital_raise",
+        "event_subtype": "capital_raise.equity",
+        "title": "国信证券股份有限公司2026年面向专业投资者公开发行公司债券（第二期）信用评级报告",
+        "summary": "债券融资",
+        "source": "announcement_incremental",
+        "entity_codes": [
+          "002736"
+        ],
+        "entity_names": [
+          "国信证券"
+        ],
+        "industry_codes": [],
+        "theme_tags": [],
+        "event_time": "2026-02-27T00:00:00",
+        "discover_time": "2026-02-27T16:12:28",
+        "available_at": "2026-02-27T16:12:28",
+        "severity": 0.55,
+        "surprise_score": 0.45,
+        "tradability_score": 0.7,
+        "novelty_score": 0.6,
+        "crowding_risk": 0.45,
+        "confidence": 0.55,
+        "impact_level": "medium",
+        "source_type": "filing",
+        "raw_payload_ref": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=002736&announcementId=1224986717&orgId=9900004734&announcementTime=2026-02-27 16:12:28",
+        "metadata": {
+          "legacy_type": "capital_raise",
+          "legacy_event_date": "2026-02-27",
+          "legacy_stock_code": "002736",
+          "legacy_stock_name": "国信证券",
+          "ingest_date": "2026-02-27",
+          "announcement_type": "债券融资",
+          "matched_keywords": [
+            "融资"
+          ]
+        },
+        "created_at": "2026-03-20T10:26:04.892418+00:00",
+        "updated_at": "2026-03-20T10:26:04.892419+00:00"
+      },
+      {
+        "event_id": "filing:2026-02-27:002736:5ceea82f1ca3",
+        "event_type": "capital_raise",
+        "event_subtype": "capital_raise.equity",
+        "title": "国信证券股份有限公司2025年面向专业投资者公开发行公司债券更名公告",
+        "summary": "债券融资",
+        "source": "announcement_incremental",
+        "entity_codes": [
+          "002736"
+        ],
+        "entity_names": [
+          "国信证券"
+        ],
+        "industry_codes": [],
+        "theme_tags": [],
+        "event_time": "2026-02-27T00:00:00",
+        "discover_time": "2026-02-27T16:12:28",
+        "available_at": "2026-02-27T16:12:28",
+        "severity": 0.55,
+        "surprise_score": 0.45,
+        "tradability_score": 0.7,
+        "novelty_score": 0.6,
+        "crowding_risk": 0.45,
+        "confidence": 0.55,
+        "impact_level": "medium",
+        "source_type": "filing",
+        "raw_payload_ref": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=002736&announcementId=1224986719&orgId=9900004734&announcementTime=2026-02-27 16:12:28",
+        "metadata": {
+          "legacy_type": "capital_raise",
+          "legacy_event_date": "2026-02-27",
+          "legacy_stock_code": "002736",
+          "legacy_stock_name": "国信证券",
+          "ingest_date": "2026-02-27",
+          "announcement_type": "债券融资",
+          "matched_keywords": [
+            "融资"
+          ]
+        },
+        "created_at": "2026-03-20T10:26:04.892545+00:00",
+        "updated_at": "2026-03-20T10:26:04.892546+00:00"
+      },
+      {
+        "event_id": "filing:2026-02-27:002463:fd31d6cff527",
+        "event_type": "policy_risk",
+        "event_subtype": "policy_risk.abnormal_trading",
+        "title": "关于股票交易异常波动的公告",
+        "summary": "关于股票交易异常波动的公告",
+        "source": "announcement_incremental",
+        "entity_codes": [
+          "002463"
+        ],
+        "entity_names": [
+          "沪电股份"
+        ],
+        "industry_codes": [],
+        "theme_tags": [],
+        "event_time": "2026-02-27T00:00:00",
+        "discover_time": "2026-02-27T00:00:00",
+        "available_at": "2026-02-27T00:00:00",
+        "severity": 0.8,
+        "surprise_score": 0.75,
+        "tradability_score": 0.7,
+        "novelty_score": 0.6,
+        "crowding_risk": 0.35,
+        "confidence": 0.7,
+        "impact_level": "high",
+        "source_type": "filing",
+        "raw_payload_ref": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=002463&announcementId=1224985963&orgId=9900013929&announcementTime=2026-02-27",
+        "metadata": {
+          "legacy_type": "policy_risk",
+          "legacy_event_date": "2026-02-27",
+          "legacy_stock_code": "002463",
+          "legacy_stock_name": "沪电股份",
+          "ingest_date": "2026-02-27",
+          "announcement_type": "",
+          "matched_keywords": [
+            "股票交易异常波动"
+          ]
+        },
+        "created_at": "2026-03-20T10:26:04.892757+00:00",
+        "updated_at": "2026-03-20T10:26:04.892758+00:00"
+      },
+      {
+        "event_id": "filing:2026-02-27:002463:f7b5c80d140d",
+        "event_type": "guarantee",
+        "event_subtype": "guarantee.external_support",
+        "title": "关于为控股子公司提供担保的进展公告",
+        "summary": "关于为控股子公司提供担保的进展公告",
+        "source": "announcement_incremental",
+        "entity_codes": [
+          "002463"
+        ],
+        "entity_names": [
+          "沪电股份"
+        ],
+        "industry_codes": [],
+        "theme_tags": [],
+        "event_time": "2026-02-27T00:00:00",
+        "discover_time": "2026-02-27T00:00:00",
+        "available_at": "2026-02-27T00:00:00",
+        "severity": 0.55,
+        "surprise_score": 0.45,
+        "tradability_score": 0.7,
+        "novelty_score": 0.6,
+        "crowding_risk": 0.45,
+        "confidence": 0.55,
+        "impact_level": "medium",
+        "source_type": "filing",
+        "raw_payload_ref": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=002463&announcementId=1224985962&orgId=9900013929&announcementTime=2026-02-27",
+        "metadata": {
+          "legacy_type": "guarantee",
+          "legacy_event_date": "2026-02-27",
+          "legacy_stock_code": "002463",
+          "legacy_stock_name": "沪电股份",
+          "ingest_date": "2026-02-27",
+          "announcement_type": "",
+          "matched_keywords": [
+            "担保"
+          ]
+        },
+        "created_at": "2026-03-20T10:26:04.893042+00:00",
+        "updated_at": "2026-03-20T10:26:04.893043+00:00"
+      },
+      {
+        "event_id": "filing:2026-02-27:002460:f7b5c80d140d",
+        "event_type": "guarantee",
+        "event_subtype": "guarantee.external_support",
+        "title": "关于为控股子公司提供担保的进展公告",
+        "summary": "关于为控股子公司提供担保的进展公告",
+        "source": "announcement_incremental",
+        "entity_codes": [
+          "002460"
+        ],
+        "entity_names": [
+          "赣锋锂业"
+        ],
+        "industry_codes": [],
+        "theme_tags": [],
+        "event_time": "2026-02-27T00:00:00",
+        "discover_time": "2026-02-27T00:00:00",
+        "available_at": "2026-02-27T00:00:00",
+        "severity": 0.55,
+        "surprise_score": 0.45,
+        "tradability_score": 0.7,
+        "novelty_score": 0.6,
+        "crowding_risk": 0.45,
+        "confidence": 0.55,
+        "impact_level": "medium",
+        "source_type": "filing",
+        "raw_payload_ref": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=002460&announcementId=1224985476&orgId=9900013787&announcementTime=2026-02-27",
+        "metadata": {
+          "legacy_type": "guarantee",
+          "legacy_event_date": "2026-02-27",
+          "legacy_stock_code": "002460",
+          "legacy_stock_name": "赣锋锂业",
+          "ingest_date": "2026-02-27",
+          "announcement_type": "",
+          "matched_keywords": [
+            "担保"
+          ]
+        },
+        "created_at": "2026-03-20T10:26:04.893154+00:00",
+        "updated_at": "2026-03-20T10:26:04.893155+00:00"
+      },
+      {
+        "event_id": "filing:2026-02-27:002281:9bfc31b38691",
+        "event_type": "capital_raise",
+        "event_subtype": "capital_raise.equity",
+        "title": "武汉光迅科技股份有限公司关于向特定对象发行股票申请获得深圳证券交易所审核中心审核通过的公告",
+        "summary": "增发融资",
+        "source": "announcement_incremental",
+        "entity_codes": [
+          "002281"
+        ],
+        "entity_names": [
+          "光迅科技"
+        ],
+        "industry_codes": [],
+        "theme_tags": [],
+        "event_time": "2026-02-27T00:00:00",
+        "discover_time": "2026-02-27T00:00:00",
+        "available_at": "2026-02-27T00:00:00",
+        "severity": 0.55,
+        "surprise_score": 0.45,
+        "tradability_score": 0.7,
+        "novelty_score": 0.6,
+        "crowding_risk": 0.45,
+        "confidence": 0.55,
+        "impact_level": "medium",
+        "source_type": "filing",
+        "raw_payload_ref": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=002281&announcementId=1224985073&orgId=9900007888&announcementTime=2026-02-27",
+        "metadata": {
+          "legacy_type": "capital_raise",
+          "legacy_event_date": "2026-02-27",
+          "legacy_stock_code": "002281",
+          "legacy_stock_name": "光迅科技",
+          "ingest_date": "2026-02-27",
+          "announcement_type": "增发融资",
+          "matched_keywords": [
+            "融资"
+          ]
+        },
+        "created_at": "2026-03-20T10:26:04.893273+00:00",
+        "updated_at": "2026-03-20T10:26:04.893274+00:00"
+      },
+      {
+        "event_id": "filing:2026-02-27:002044:1279b0171124",
+        "event_type": "policy_risk",
+        "event_subtype": "policy_risk.inquiry",
+        "title": "金证（上海）资产评估有限公司关于深圳证券交易所《关于美年大健康产业控股股份有限公司发行股份购买资产申请的审核问询函》评估相关问题回复之核查意见（修订稿）",
+        "summary": "风险事项",
+        "source": "announcement_incremental",
+        "entity_codes": [
+          "002044"
+        ],
+        "entity_names": [
+          "美年健康"
+        ],
+        "industry_codes": [],
+        "theme_tags": [],
+        "event_time": "2026-02-27T00:00:00",
+        "discover_time": "2026-02-27T00:00:00",
+        "available_at": "2026-02-27T00:00:00",
+        "severity": 0.8,
+        "surprise_score": 0.75,
+        "tradability_score": 0.7,
+        "novelty_score": 0.6,
+        "crowding_risk": 0.35,
+        "confidence": 0.7,
+        "impact_level": "high",
+        "source_type": "filing",
+        "raw_payload_ref": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=002044&announcementId=1224985955&orgId=gssz0002044&announcementTime=2026-02-27",
+        "metadata": {
+          "legacy_type": "policy_risk",
+          "legacy_event_date": "2026-02-27",
+          "legacy_stock_code": "002044",
+          "legacy_stock_name": "美年健康",
+          "ingest_date": "2026-02-27",
+          "announcement_type": "风险事项",
+          "matched_keywords": [
+            "问询函"
+          ]
+        },
+        "created_at": "2026-03-20T10:26:04.893765+00:00",
+        "updated_at": "2026-03-20T10:26:04.893765+00:00"
+      },
+      {
+        "event_id": "filing:2026-02-27:002044:b828ffa4911a",
+        "event_type": "capital_raise",
+        "event_subtype": "capital_raise.equity",
+        "title": "美年大健康产业控股股份有限公司发行股份购买资产暨关联交易报告书（草案）（二次修订稿）",
+        "summary": "美年大健康产业控股股份有限公司发行股份购买资产暨关联交易报告书（草案）（二次修订稿）",
+        "source": "announcement_incremental",
+        "entity_codes": [
+          "002044"
+        ],
+        "entity_names": [
+          "美年健康"
+        ],
+        "industry_codes": [],
+        "theme_tags": [],
+        "event_time": "2026-02-27T00:00:00",
+        "discover_time": "2026-02-27T00:00:00",
+        "available_at": "2026-02-27T00:00:00",
+        "severity": 0.55,
+        "surprise_score": 0.45,
+        "tradability_score": 0.7,
+        "novelty_score": 0.6,
+        "crowding_risk": 0.45,
+        "confidence": 0.55,
+        "impact_level": "medium",
+        "source_type": "filing",
+        "raw_payload_ref": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=002044&announcementId=1224986070&orgId=gssz0002044&announcementTime=2026-02-27",
+        "metadata": {
+          "legacy_type": "capital_raise",
+          "legacy_event_date": "2026-02-27",
+          "legacy_stock_code": "002044",
+          "legacy_stock_name": "美年健康",
+          "ingest_date": "2026-02-27",
+          "announcement_type": "",
+          "matched_keywords": [
+            "发行股份"
+          ]
+        },
+        "created_at": "2026-03-20T10:26:04.893965+00:00",
+        "updated_at": "2026-03-20T10:26:04.893966+00:00"
+      },
+      {
+        "event_id": "filing:2026-02-27:002044:15fca4d4596d",
+        "event_type": "capital_raise",
+        "event_subtype": "capital_raise.equity",
+        "title": "美年大健康产业控股股份有限公司发行股份购买资产暨关联交易报告书（草案）摘要（二次修订稿）",
+        "summary": "美年大健康产业控股股份有限公司发行股份购买资产暨关联交易报告书（草案）摘要（二次修订稿）",
+        "source": "announcement_incremental",
+        "entity_codes": [
+          "002044"
+        ],
+        "entity_names": [
+          "美年健康"
+        ],
+        "industry_codes": [],
+        "theme_tags": [],
+        "event_time": "2026-02-27T00:00:00",
+        "discover_time": "2026-02-27T00:00:00",
+        "available_at": "2026-02-27T00:00:00",
+        "severity": 0.55,
+        "surprise_score": 0.45,
+        "tradability_score": 0.7,
+        "novelty_score": 0.6,
+        "crowding_risk": 0.45,
+        "confidence": 0.55,
+        "impact_level": "medium",
+        "source_type": "filing",
+        "raw_payload_ref": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=002044&announcementId=1224985932&orgId=gssz0002044&announcementTime=2026-02-27",
+        "metadata": {
+          "legacy_type": "capital_raise",
+          "legacy_event_date": "2026-02-27",
+          "legacy_stock_code": "002044",
+          "legacy_stock_name": "美年健康",
+          "ingest_date": "2026-02-27",
+          "announcement_type": "",
+          "matched_keywords": [
+            "发行股份"
+          ]
+        },
+        "created_at": "2026-03-20T10:26:04.894084+00:00",
+        "updated_at": "2026-03-20T10:26:04.894085+00:00"
+      },
+      {
+        "event_id": "filing:2026-02-27:002044:763da5faa5c9",
+        "event_type": "policy_risk",
+        "event_subtype": "policy_risk.inquiry",
+        "title": "美年大健康产业控股股份有限公司关于深圳证券交易所《关于美年大健康产业控股股份有限公司申请发行股份购买资产的审核问询函》之回复（修订稿）",
+        "summary": "风险事项",
+        "source": "announcement_incremental",
+        "entity_codes": [
+          "002044"
+        ],
+        "entity_names": [
+          "美年健康"
+        ],
+        "industry_codes": [],
+        "theme_tags": [],
+        "event_time": "2026-02-27T00:00:00",
+        "discover_time": "2026-02-27T00:00:00",
+        "available_at": "2026-02-27T00:00:00",
+        "severity": 0.8,
+        "surprise_score": 0.75,
+        "tradability_score": 0.7,
+        "novelty_score": 0.6,
+        "crowding_risk": 0.35,
+        "confidence": 0.7,
+        "impact_level": "high",
+        "source_type": "filing",
+        "raw_payload_ref": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=002044&announcementId=1224985960&orgId=gssz0002044&announcementTime=2026-02-27",
+        "metadata": {
+          "legacy_type": "policy_risk",
+          "legacy_event_date": "2026-02-27",
+          "legacy_stock_code": "002044",
+          "legacy_stock_name": "美年健康",
+          "ingest_date": "2026-02-27",
+          "announcement_type": "风险事项",
+          "matched_keywords": [
+            "问询函"
+          ]
+        },
+        "created_at": "2026-03-20T10:26:04.894187+00:00",
+        "updated_at": "2026-03-20T10:26:04.894188+00:00"
+      },
+      {
+        "event_id": "filing:2026-02-27:002044:48fe1fa5b0d0",
+        "event_type": "capital_raise",
+        "event_subtype": "capital_raise.equity",
+        "title": "粤开证券股份有限公司关于美年大健康产业控股股份有限公司发行股份购买资产暨关联交易之独立财务顾问报告（二次修订稿）",
+        "summary": "粤开证券股份有限公司关于美年大健康产业控股股份有限公司发行股份购买资产暨关联交易之独立财务顾问报告（二次修订稿）",
+        "source": "announcement_incremental",
+        "entity_codes": [
+          "002044"
+        ],
+        "entity_names": [
+          "美年健康"
+        ],
+        "industry_codes": [],
+        "theme_tags": [],
+        "event_time": "2026-02-27T00:00:00",
+        "discover_time": "2026-02-27T00:00:00",
+        "available_at": "2026-02-27T00:00:00",
+        "severity": 0.55,
+        "surprise_score": 0.45,
+        "tradability_score": 0.7,
+        "novelty_score": 0.6,
+        "crowding_risk": 0.45,
+        "confidence": 0.55,
+        "impact_level": "medium",
+        "source_type": "filing",
+        "raw_payload_ref": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=002044&announcementId=1224986069&orgId=gssz0002044&announcementTime=2026-02-27",
+        "metadata": {
+          "legacy_type": "capital_raise",
+          "legacy_event_date": "2026-02-27",
+          "legacy_stock_code": "002044",
+          "legacy_stock_name": "美年健康",
+          "ingest_date": "2026-02-27",
+          "announcement_type": "",
+          "matched_keywords": [
+            "发行股份"
+          ]
+        },
+        "created_at": "2026-03-20T10:26:04.894403+00:00",
+        "updated_at": "2026-03-20T10:26:04.894403+00:00"
+      },
+      {
+        "event_id": "filing:2026-02-27:002044:0599d03cff52",
+        "event_type": "policy_risk",
+        "event_subtype": "policy_risk.inquiry",
+        "title": "粤开证券股份有限公司关于深圳证券交易所《关于美年大健康产业控股股份有限公司申请发行股份购买资产的审核问询函》回复之核查意见（修订稿）",
+        "summary": "风险事项",
+        "source": "announcement_incremental",
+        "entity_codes": [
+          "002044"
+        ],
+        "entity_names": [
+          "美年健康"
+        ],
+        "industry_codes": [],
+        "theme_tags": [],
+        "event_time": "2026-02-27T00:00:00",
+        "discover_time": "2026-02-27T00:00:00",
+        "available_at": "2026-02-27T00:00:00",
+        "severity": 0.8,
+        "surprise_score": 0.75,
+        "tradability_score": 0.7,
+        "novelty_score": 0.6,
+        "crowding_risk": 0.35,
+        "confidence": 0.7,
+        "impact_level": "high",
+        "source_type": "filing",
+        "raw_payload_ref": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=002044&announcementId=1224985957&orgId=gssz0002044&announcementTime=2026-02-27",
+        "metadata": {
+          "legacy_type": "policy_risk",
+          "legacy_event_date": "2026-02-27",
+          "legacy_stock_code": "002044",
+          "legacy_stock_name": "美年健康",
+          "ingest_date": "2026-02-27",
+          "announcement_type": "风险事项",
+          "matched_keywords": [
+            "问询函"
+          ]
+        },
+        "created_at": "2026-03-20T10:26:04.894525+00:00",
+        "updated_at": "2026-03-20T10:26:04.894525+00:00"
+      },
+      {
+        "event_id": "filing:2026-02-27:002044:eef2cd976c9c",
+        "event_type": "capital_raise",
+        "event_subtype": "capital_raise.equity",
+        "title": "关于向深圳证券交易所申请恢复审核发行股份购买资产暨关联交易的公告",
+        "summary": "关于向深圳证券交易所申请恢复审核发行股份购买资产暨关联交易的公告",
+        "source": "announcement_incremental",
+        "entity_codes": [
+          "002044"
+        ],
+        "entity_names": [
+          "美年健康"
+        ],
+        "industry_codes": [],
+        "theme_tags": [],
+        "event_time": "2026-02-27T00:00:00",
+        "discover_time": "2026-02-27T00:00:00",
+        "available_at": "2026-02-27T00:00:00",
+        "severity": 0.55,
+        "surprise_score": 0.45,
+        "tradability_score": 0.7,
+        "novelty_score": 0.6,
+        "crowding_risk": 0.45,
+        "confidence": 0.55,
+        "impact_level": "medium",
+        "source_type": "filing",
+        "raw_payload_ref": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=002044&announcementId=1224985953&orgId=gssz0002044&announcementTime=2026-02-27",
+        "metadata": {
+          "legacy_type": "capital_raise",
+          "legacy_event_date": "2026-02-27",
+          "legacy_stock_code": "002044",
+          "legacy_stock_name": "美年健康",
+          "ingest_date": "2026-02-27",
+          "announcement_type": "",
+          "matched_keywords": [
+            "发行股份"
+          ]
+        },
+        "created_at": "2026-03-20T10:26:04.894814+00:00",
+        "updated_at": "2026-03-20T10:26:04.894815+00:00"
+      },
+      {
+        "event_id": "filing:2026-02-27:002044:3164800c7e9a",
+        "event_type": "policy_risk",
+        "event_subtype": "policy_risk.inquiry",
+        "title": "关于发行股份购买资产暨关联交易的审核问询函回复更新的提示性公告",
+        "summary": "风险事项",
+        "source": "announcement_incremental",
+        "entity_codes": [
+          "002044"
+        ],
+        "entity_names": [
+          "美年健康"
+        ],
+        "industry_codes": [],
+        "theme_tags": [],
+        "event_time": "2026-02-27T00:00:00",
+        "discover_time": "2026-02-27T00:00:00",
+        "available_at": "2026-02-27T00:00:00",
+        "severity": 0.8,
+        "surprise_score": 0.75,
+        "tradability_score": 0.7,
+        "novelty_score": 0.6,
+        "crowding_risk": 0.35,
+        "confidence": 0.7,
+        "impact_level": "high",
+        "source_type": "filing",
+        "raw_payload_ref": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=002044&announcementId=1224985954&orgId=gssz0002044&announcementTime=2026-02-27",
+        "metadata": {
+          "legacy_type": "policy_risk",
+          "legacy_event_date": "2026-02-27",
+          "legacy_stock_code": "002044",
+          "legacy_stock_name": "美年健康",
+          "ingest_date": "2026-02-27",
+          "announcement_type": "风险事项",
+          "matched_keywords": [
+            "问询函"
+          ]
+        },
+        "created_at": "2026-03-20T10:26:04.894933+00:00",
+        "updated_at": "2026-03-20T10:26:04.894934+00:00"
+      },
+      {
+        "event_id": "filing:2026-02-27:002044:4d52f4698240",
+        "event_type": "capital_raise",
+        "event_subtype": "capital_raise.equity",
+        "title": "关于发行股份购买资产暨关联交易报告书（草案）（修订稿）修订说明的公告",
+        "summary": "关于发行股份购买资产暨关联交易报告书（草案）（修订稿）修订说明的公告",
+        "source": "announcement_incremental",
+        "entity_codes": [
+          "002044"
+        ],
+        "entity_names": [
+          "美年健康"
+        ],
+        "industry_codes": [],
+        "theme_tags": [],
+        "event_time": "2026-02-27T00:00:00",
+        "discover_time": "2026-02-27T00:00:00",
+        "available_at": "2026-02-27T00:00:00",
+        "severity": 0.55,
+        "surprise_score": 0.45,
+        "tradability_score": 0.7,
+        "novelty_score": 0.6,
+        "crowding_risk": 0.45,
+        "confidence": 0.55,
+        "impact_level": "medium",
+        "source_type": "filing",
+        "raw_payload_ref": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=002044&announcementId=1224985931&orgId=gssz0002044&announcementTime=2026-02-27",
+        "metadata": {
+          "legacy_type": "capital_raise",
+          "legacy_event_date": "2026-02-27",
+          "legacy_stock_code": "002044",
+          "legacy_stock_name": "美年健康",
+          "ingest_date": "2026-02-27",
+          "announcement_type": "",
+          "matched_keywords": [
+            "发行股份"
+          ]
+        },
+        "created_at": "2026-03-20T10:26:04.895056+00:00",
+        "updated_at": "2026-03-20T10:26:04.895057+00:00"
+      },
+      {
+        "event_id": "filing:2026-02-27:002044:3221cf7f29bf",
+        "event_type": "policy_risk",
+        "event_subtype": "policy_risk.inquiry",
+        "title": "中审众环会计师事务所（特殊普通合伙）关于美年大健康产业控股股份有限公司《申请发行股份购买资产的审核问询函》的回复（修订稿）",
+        "summary": "风险事项",
+        "source": "announcement_incremental",
+        "entity_codes": [
+          "002044"
+        ],
+        "entity_names": [
+          "美年健康"
+        ],
+        "industry_codes": [],
+        "theme_tags": [],
+        "event_time": "2026-02-27T00:00:00",
+        "discover_time": "2026-02-27T00:00:00",
+        "available_at": "2026-02-27T00:00:00",
+        "severity": 0.8,
+        "surprise_score": 0.75,
+        "tradability_score": 0.7,
+        "novelty_score": 0.6,
+        "crowding_risk": 0.35,
+        "confidence": 0.7,
+        "impact_level": "high",
+        "source_type": "filing",
+        "raw_payload_ref": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=002044&announcementId=1224985958&orgId=gssz0002044&announcementTime=2026-02-27",
+        "metadata": {
+          "legacy_type": "policy_risk",
+          "legacy_event_date": "2026-02-27",
+          "legacy_stock_code": "002044",
+          "legacy_stock_name": "美年健康",
+          "ingest_date": "2026-02-27",
+          "announcement_type": "风险事项",
+          "matched_keywords": [
+            "问询函"
+          ]
+        },
+        "created_at": "2026-03-20T10:26:04.895248+00:00",
+        "updated_at": "2026-03-20T10:26:04.895249+00:00"
+      },
+      {
+        "event_id": "filing:2026-02-27:002032:ca6745f7615b",
+        "event_type": "buyback",
+        "event_subtype": "buyback.shareholder_action",
+        "title": "浙江苏泊尔股份有限公司董事会薪酬与考核委员会关于公司股权激励计划相关事项的审查意见",
+        "summary": "股权激励",
+        "source": "announcement_incremental",
+        "entity_codes": [
+          "002032"
+        ],
+        "entity_names": [
+          "苏 泊 尔"
+        ],
+        "industry_codes": [],
+        "theme_tags": [],
+        "event_time": "2026-02-27T00:00:00",
+        "discover_time": "2026-02-27T00:00:00",
+        "available_at": "2026-02-27T00:00:00",
+        "severity": 0.55,
+        "surprise_score": 0.45,
+        "tradability_score": 0.7,
+        "novelty_score": 0.6,
+        "crowding_risk": 0.45,
+        "confidence": 0.55,
+        "impact_level": "medium",
+        "source_type": "filing",
+        "raw_payload_ref": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=002032&announcementId=1224985259&orgId=gssz0002032&announcementTime=2026-02-27",
+        "metadata": {
+          "legacy_type": "buyback",
+          "legacy_event_date": "2026-02-27",
+          "legacy_stock_code": "002032",
+          "legacy_stock_name": "苏 泊 尔",
+          "ingest_date": "2026-02-27",
+          "announcement_type": "股权激励",
+          "matched_keywords": [
+            "股权激励"
+          ]
+        },
+        "created_at": "2026-03-20T10:26:04.895448+00:00",
+        "updated_at": "2026-03-20T10:26:04.895449+00:00"
+      },
+      {
+        "event_id": "filing:2026-02-27:002032:010ec26a6469",
+        "event_type": "buyback",
+        "event_subtype": "buyback.shareholder_action",
+        "title": "关于2022年限制性股票激励计划暂缓授予部分第二个解除限售期解除限售条件成就的公告",
+        "summary": "股权激励",
+        "source": "announcement_incremental",
+        "entity_codes": [
+          "002032"
+        ],
+        "entity_names": [
+          "苏 泊 尔"
+        ],
+        "industry_codes": [],
+        "theme_tags": [],
+        "event_time": "2026-02-27T00:00:00",
+        "discover_time": "2026-02-27T00:00:00",
+        "available_at": "2026-02-27T00:00:00",
+        "severity": 0.55,
+        "surprise_score": 0.45,
+        "tradability_score": 0.7,
+        "novelty_score": 0.6,
+        "crowding_risk": 0.45,
+        "confidence": 0.55,
+        "impact_level": "medium",
+        "source_type": "filing",
+        "raw_payload_ref": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=002032&announcementId=1224985258&orgId=gssz0002032&announcementTime=2026-02-27",
+        "metadata": {
+          "legacy_type": "buyback",
+          "legacy_event_date": "2026-02-27",
+          "legacy_stock_code": "002032",
+          "legacy_stock_name": "苏 泊 尔",
+          "ingest_date": "2026-02-27",
+          "announcement_type": "股权激励",
+          "matched_keywords": [
+            "股权激励"
+          ]
+        },
+        "created_at": "2026-03-20T10:26:04.895622+00:00",
+        "updated_at": "2026-03-20T10:26:04.895623+00:00"
+      },
+      {
+        "event_id": "filing:2026-02-27:002008:bb53fd206db8",
+        "event_type": "policy_risk",
+        "event_subtype": "policy_risk.abnormal_trading",
+        "title": "股票交易异常波动公告",
+        "summary": "股票交易异常波动公告",
+        "source": "announcement_incremental",
+        "entity_codes": [
+          "002008"
+        ],
+        "entity_names": [
+          "大族激光"
+        ],
+        "industry_codes": [],
+        "theme_tags": [],
+        "event_time": "2026-02-27T00:00:00",
+        "discover_time": "2026-02-27T00:00:00",
+        "available_at": "2026-02-27T00:00:00",
+        "severity": 0.8,
+        "surprise_score": 0.75,
+        "tradability_score": 0.7,
+        "novelty_score": 0.6,
+        "crowding_risk": 0.35,
+        "confidence": 0.7,
+        "impact_level": "high",
+        "source_type": "filing",
+        "raw_payload_ref": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=002008&announcementId=1224985447&orgId=gssz0002008&announcementTime=2026-02-27",
+        "metadata": {
+          "legacy_type": "policy_risk",
+          "legacy_event_date": "2026-02-27",
+          "legacy_stock_code": "002008",
+          "legacy_stock_name": "大族激光",
+          "ingest_date": "2026-02-27",
+          "announcement_type": "",
+          "matched_keywords": [
+            "股票交易异常波动",
+            "异常波动公告"
+          ]
+        },
+        "created_at": "2026-03-20T10:26:04.895733+00:00",
+        "updated_at": "2026-03-20T10:26:04.895734+00:00"
+      },
+      {
+        "event_id": "filing:2026-02-27:000893:e4a4a7e0a3f1",
+        "event_type": "share_reduction",
+        "event_subtype": "share_reduction.disposal",
+        "title": "关于持股5%以上股东股份减持计划实施完成的公告",
+        "summary": "股权变动",
+        "source": "announcement_incremental",
+        "entity_codes": [
+          "000893"
+        ],
+        "entity_names": [
+          "亚钾国际"
+        ],
+        "industry_codes": [],
+        "theme_tags": [],
+        "event_time": "2026-02-27T00:00:00",
+        "discover_time": "2026-02-27T00:00:00",
+        "available_at": "2026-02-27T00:00:00",
+        "severity": 0.8,
+        "surprise_score": 0.45,
+        "tradability_score": 0.7,
+        "novelty_score": 0.6,
+        "crowding_risk": 0.45,
+        "confidence": 0.7,
+        "impact_level": "high",
+        "source_type": "filing",
+        "raw_payload_ref": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=000893&announcementId=1224985641&orgId=gssz0000893&announcementTime=2026-02-27",
+        "metadata": {
+          "legacy_type": "share_reduction",
+          "legacy_event_date": "2026-02-27",
+          "legacy_stock_code": "000893",
+          "legacy_stock_name": "亚钾国际",
+          "ingest_date": "2026-02-27",
+          "announcement_type": "股权变动",
+          "matched_keywords": [
+            "减持",
+            "减持计划"
+          ]
+        },
+        "created_at": "2026-03-20T10:26:04.895856+00:00",
+        "updated_at": "2026-03-20T10:26:04.895857+00:00"
+      },
+      {
+        "event_id": "filing:2026-02-27:000876:386d20873dfd",
+        "event_type": "capital_raise",
+        "event_subtype": "capital_raise.equity",
+        "title": "关于向特定对象发行股票提交募集说明书（注册稿）等申请文件的提示性公告",
+        "summary": "增发融资",
+        "source": "announcement_incremental",
+        "entity_codes": [
+          "000876"
+        ],
+        "entity_names": [
+          "新 希 望"
+        ],
+        "industry_codes": [],
+        "theme_tags": [],
+        "event_time": "2026-02-27T00:00:00",
+        "discover_time": "2026-02-27T00:00:00",
+        "available_at": "2026-02-27T00:00:00",
+        "severity": 0.55,
+        "surprise_score": 0.45,
+        "tradability_score": 0.7,
+        "novelty_score": 0.6,
+        "crowding_risk": 0.45,
+        "confidence": 0.55,
+        "impact_level": "medium",
+        "source_type": "filing",
+        "raw_payload_ref": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=000876&announcementId=1224985263&orgId=gssz0000876&announcementTime=2026-02-27",
+        "metadata": {
+          "legacy_type": "capital_raise",
+          "legacy_event_date": "2026-02-27",
+          "legacy_stock_code": "000876",
+          "legacy_stock_name": "新 希 望",
+          "ingest_date": "2026-02-27",
+          "announcement_type": "增发融资",
+          "matched_keywords": [
+            "融资"
+          ]
+        },
+        "created_at": "2026-03-20T10:26:04.896137+00:00",
+        "updated_at": "2026-03-20T10:26:04.896138+00:00"
+      },
+      {
+        "event_id": "filing:2026-02-27:000783:85cb64cd2070",
+        "event_type": "capital_raise",
+        "event_subtype": "capital_raise.equity",
+        "title": "长江证券股份有限公司2026年面向专业投资者公开发行公司债券（第一期）发行公告",
+        "summary": "债券融资",
+        "source": "announcement_incremental",
+        "entity_codes": [
+          "000783"
+        ],
+        "entity_names": [
+          "长江证券"
+        ],
+        "industry_codes": [],
+        "theme_tags": [],
+        "event_time": "2026-02-27T00:00:00",
+        "discover_time": "2026-02-27T16:12:28",
+        "available_at": "2026-02-27T16:12:28",
+        "severity": 0.55,
+        "surprise_score": 0.45,
+        "tradability_score": 0.7,
+        "novelty_score": 0.6,
+        "crowding_risk": 0.45,
+        "confidence": 0.55,
+        "impact_level": "medium",
+        "source_type": "filing",
+        "raw_payload_ref": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=000783&announcementId=1224986751&orgId=gssz0000783&announcementTime=2026-02-27 16:12:28",
+        "metadata": {
+          "legacy_type": "capital_raise",
+          "legacy_event_date": "2026-02-27",
+          "legacy_stock_code": "000783",
+          "legacy_stock_name": "长江证券",
+          "ingest_date": "2026-02-27",
+          "announcement_type": "债券融资",
+          "matched_keywords": [
+            "融资"
+          ]
+        },
+        "created_at": "2026-03-20T10:26:04.896429+00:00",
+        "updated_at": "2026-03-20T10:26:04.896430+00:00"
+      },
+      {
+        "event_id": "filing:2026-02-27:000783:7a7f2dc188a4",
+        "event_type": "capital_raise",
+        "event_subtype": "capital_raise.equity",
+        "title": "长江证券股份有限公司2026年面向专业投资者公开发行公司债券（第一期）募集说明书",
+        "summary": "债券融资",
+        "source": "announcement_incremental",
+        "entity_codes": [
+          "000783"
+        ],
+        "entity_names": [
+          "长江证券"
+        ],
+        "industry_codes": [],
+        "theme_tags": [],
+        "event_time": "2026-02-27T00:00:00",
+        "discover_time": "2026-02-27T16:12:28",
+        "available_at": "2026-02-27T16:12:28",
+        "severity": 0.55,
+        "surprise_score": 0.45,
+        "tradability_score": 0.7,
+        "novelty_score": 0.6,
+        "crowding_risk": 0.45,
+        "confidence": 0.55,
+        "impact_level": "medium",
+        "source_type": "filing",
+        "raw_payload_ref": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=000783&announcementId=1224986749&orgId=gssz0000783&announcementTime=2026-02-27 16:12:28",
+        "metadata": {
+          "legacy_type": "capital_raise",
+          "legacy_event_date": "2026-02-27",
+          "legacy_stock_code": "000783",
+          "legacy_stock_name": "长江证券",
+          "ingest_date": "2026-02-27",
+          "announcement_type": "债券融资",
+          "matched_keywords": [
+            "融资"
+          ]
+        },
+        "created_at": "2026-03-20T10:26:04.896549+00:00",
+        "updated_at": "2026-03-20T10:26:04.896550+00:00"
+      },
+      {
+        "event_id": "filing:2026-02-27:000783:ce17b1fec2f3",
+        "event_type": "capital_raise",
+        "event_subtype": "capital_raise.equity",
+        "title": "长江证券股份有限公司2025年面向专业投资者公开发行公司债券更名公告",
+        "summary": "债券融资",
+        "source": "announcement_incremental",
+        "entity_codes": [
+          "000783"
+        ],
+        "entity_names": [
+          "长江证券"
+        ],
+        "industry_codes": [],
+        "theme_tags": [],
+        "event_time": "2026-02-27T00:00:00",
+        "discover_time": "2026-02-27T16:12:28",
+        "available_at": "2026-02-27T16:12:28",
+        "severity": 0.55,
+        "surprise_score": 0.45,
+        "tradability_score": 0.7,
+        "novelty_score": 0.6,
+        "crowding_risk": 0.45,
+        "confidence": 0.55,
+        "impact_level": "medium",
+        "source_type": "filing",
+        "raw_payload_ref": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=000783&announcementId=1224986747&orgId=gssz0000783&announcementTime=2026-02-27 16:12:28",
+        "metadata": {
+          "legacy_type": "capital_raise",
+          "legacy_event_date": "2026-02-27",
+          "legacy_stock_code": "000783",
+          "legacy_stock_name": "长江证券",
+          "ingest_date": "2026-02-27",
+          "announcement_type": "债券融资",
+          "matched_keywords": [
+            "融资"
+          ]
+        },
+        "created_at": "2026-03-20T10:26:04.896666+00:00",
+        "updated_at": "2026-03-20T10:26:04.896667+00:00"
+      },
+      {
+        "event_id": "filing:2026-02-27:000034:e9b9255933c6",
+        "event_type": "guarantee",
+        "event_subtype": "guarantee.external_support",
+        "title": "关于为子公司担保的进展公告",
+        "summary": "关于为子公司担保的进展公告",
+        "source": "announcement_incremental",
+        "entity_codes": [
+          "000034"
+        ],
+        "entity_names": [
+          "神州数码"
+        ],
+        "industry_codes": [],
+        "theme_tags": [],
+        "event_time": "2026-02-27T00:00:00",
+        "discover_time": "2026-02-27T00:00:00",
+        "available_at": "2026-02-27T00:00:00",
+        "severity": 0.55,
+        "surprise_score": 0.45,
+        "tradability_score": 0.7,
+        "novelty_score": 0.6,
+        "crowding_risk": 0.45,
+        "confidence": 0.55,
+        "impact_level": "medium",
+        "source_type": "filing",
+        "raw_payload_ref": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=000034&announcementId=1224985645&orgId=gssz0000034&announcementTime=2026-02-27",
+        "metadata": {
+          "legacy_type": "guarantee",
+          "legacy_event_date": "2026-02-27",
+          "legacy_stock_code": "000034",
+          "legacy_stock_name": "神州数码",
+          "ingest_date": "2026-02-27",
+          "announcement_type": "",
+          "matched_keywords": [
+            "担保"
+          ]
+        },
+        "created_at": "2026-03-20T10:26:04.896863+00:00",
+        "updated_at": "2026-03-20T10:26:04.896864+00:00"
+      },
+      {
+        "event_id": "filing:2026-02-27:000021:c95c9bae5b27",
+        "event_type": "earnings_surprise",
+        "event_subtype": "earnings_surprise.guidance",
+        "title": "关于控股子公司开发科技披露2025年度业绩快报的公告",
+        "summary": "业绩预告",
+        "source": "announcement_incremental",
+        "entity_codes": [
+          "000021"
+        ],
+        "entity_names": [
+          "深科技"
+        ],
+        "industry_codes": [],
+        "theme_tags": [],
+        "event_time": "2026-02-27T00:00:00",
+        "discover_time": "2026-02-27T00:00:00",
+        "available_at": "2026-02-27T00:00:00",
+        "severity": 0.8,
+        "surprise_score": 0.75,
+        "tradability_score": 0.7,
+        "novelty_score": 0.6,
+        "crowding_risk": 0.45,
+        "confidence": 0.7,
+        "impact_level": "high",
+        "source_type": "filing",
+        "raw_payload_ref": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=000021&announcementId=1224986137&orgId=gssz0000021&announcementTime=2026-02-27",
+        "metadata": {
+          "legacy_type": "earnings_surprise",
+          "legacy_event_date": "2026-02-27",
+          "legacy_stock_code": "000021",
+          "legacy_stock_name": "深科技",
+          "ingest_date": "2026-02-27",
+          "announcement_type": "业绩预告",
+          "matched_keywords": [
+            "业绩预告",
+            "业绩快报"
+          ]
+        },
+        "created_at": "2026-03-20T10:26:04.896979+00:00",
+        "updated_at": "2026-03-20T10:26:04.896979+00:00"
+      },
+      {
+        "event_id": "news:2026-02-27:002078:ddc329ef1eea",
+        "event_type": "earnings_surprise",
+        "event_subtype": "earnings_surprise.guidance",
+        "title": "太阳纸业业绩快报：2025年净利润32.58亿元 同比增长5.05%",
+        "summary": "太阳纸业002078发布业绩快报，2025年度营业总收入391.84亿元，同比降低3.79%；归母净利润32.58亿元，同比增长5.05%。报告期内公司新上项目产能带动，相关产品产销量增加，公司原料采购成本费用、管理成本控制较好。",
+        "source": "news_incremental",
+        "entity_codes": [
+          "002078"
+        ],
+        "entity_names": [
+          "太阳纸业"
+        ],
+        "industry_codes": [],
+        "theme_tags": [],
+        "event_time": "2026-02-27T00:00:00",
+        "discover_time": "2026-02-27T19:13:06",
+        "available_at": "2026-02-27T19:13:06",
+        "severity": 0.8,
+        "surprise_score": 0.75,
+        "tradability_score": 0.7,
+        "novelty_score": 0.6,
+        "crowding_risk": 0.45,
+        "confidence": 0.7,
+        "impact_level": "high",
+        "source_type": "news",
+        "raw_payload_ref": "http://finance.eastmoney.com/a/202602273656876645.html",
+        "metadata": {
+          "legacy_type": "earnings_surprise",
+          "legacy_event_date": "2026-02-27",
+          "legacy_stock_code": "002078",
+          "legacy_stock_name": "太阳纸业",
+          "ingest_date": "2026-02-27",
+          "publisher": "人民财讯",
+          "matched_keywords": [
+            "业绩快报"
+          ]
+        },
+        "created_at": "2026-03-20T10:26:04.897516+00:00",
+        "updated_at": "2026-03-20T10:26:04.897517+00:00"
+      },
+      {
+        "event_id": "news:2026-02-27:600316:abf638bc2553",
+        "event_type": "policy_risk",
+        "event_subtype": "policy_risk.delisting",
+        "title": "解密主力资金出逃股 连续5日净流出494股",
+        "summary": "2.67 5.86 -11.84 000620 盈新发展 8 2.67 7.34 -7.14 300680 隆盛科技 7 2.67 12.77 -5.89 300561 *ST汇科 11 2.55 10.85 -32.01 001217 华尔泰 6 2.47 10.80 -13.27 600316",
+        "source": "news_incremental",
+        "entity_codes": [
+          "600316"
+        ],
+        "entity_names": [
+          "洪都航空"
+        ],
+        "industry_codes": [],
+        "theme_tags": [],
+        "event_time": "2026-02-27T00:00:00",
+        "discover_time": "2026-02-27T17:52:11",
+        "available_at": "2026-02-27T17:52:11",
+        "severity": 0.8,
+        "surprise_score": 0.75,
+        "tradability_score": 0.7,
+        "novelty_score": 0.6,
+        "crowding_risk": 0.35,
+        "confidence": 0.7,
+        "impact_level": "high",
+        "source_type": "news",
+        "raw_payload_ref": "http://finance.eastmoney.com/a/202602273656808097.html",
+        "metadata": {
+          "legacy_type": "policy_risk",
+          "legacy_event_date": "2026-02-27",
+          "legacy_stock_code": "600316",
+          "legacy_stock_name": "洪都航空",
+          "ingest_date": "2026-02-27",
+          "publisher": "证券时报网",
+          "matched_keywords": [
+            "*st"
+          ]
+        },
+        "created_at": "2026-03-20T10:26:04.898102+00:00",
+        "updated_at": "2026-03-20T10:26:04.898103+00:00"
+      },
+      {
+        "event_id": "news:2026-02-27:600482:5e6dc30349f5",
+        "event_type": "capital_raise",
+        "event_subtype": "capital_raise.debt",
+        "title": "中国动力：不提前赎回可转债“动力定02”",
+        "summary": "中证智能财讯中国动力（600482）2月26日公告，截至公告披露日，公司可转换债券“动力定02”余额低于3000万元，已触发《报告书》中规定的有条件赎回条款。",
+        "source": "news_incremental",
+        "entity_codes": [
+          "600482"
+        ],
+        "entity_names": [
+          "中国动力"
+        ],
+        "industry_codes": [],
+        "theme_tags": [],
+        "event_time": "2026-02-27T00:00:00",
+        "discover_time": "2026-02-27T00:59:01",
+        "available_at": "2026-02-27T00:59:01",
+        "severity": 0.55,
+        "surprise_score": 0.45,
+        "tradability_score": 0.7,
+        "novelty_score": 0.6,
+        "crowding_risk": 0.45,
+        "confidence": 0.55,
+        "impact_level": "medium",
+        "source_type": "news",
+        "raw_payload_ref": "http://finance.eastmoney.com/a/202602273655745120.html",
+        "metadata": {
+          "legacy_type": "capital_raise",
+          "legacy_event_date": "2026-02-27",
+          "legacy_stock_code": "600482",
+          "legacy_stock_name": "中国动力",
+          "ingest_date": "2026-02-27",
+          "publisher": "中国证券报·中证网",
+          "matched_keywords": [
+            "可转债"
+          ]
+        },
+        "created_at": "2026-03-20T10:26:04.898227+00:00",
+        "updated_at": "2026-03-20T10:26:04.898228+00:00"
+      },
+      {
+        "event_id": "news:2026-02-27:600919:efa9dc8489dd",
+        "event_type": "management_change",
+        "event_subtype": "management_change.executive",
+        "title": "宁波银行董事长更迭 庄灵君将面临资本补充与规模保增压力",
+        "summary": "依托江浙区域民营经济活跃度高、产业集群效应显著的优势，宁波银行近几年规模增速较快，已成为我国仅次于江苏银行（600919.SH）和北京银行（601169.SH）的第三大城商行。据该行官网显示，截至2025年末的总资产为3.62万亿元，较年初增长16.11%。",
+        "source": "news_incremental",
+        "entity_codes": [
+          "600919"
+        ],
+        "entity_names": [
+          "江苏银行"
+        ],
+        "industry_codes": [],
+        "theme_tags": [],
+        "event_time": "2026-02-27T00:00:00",
+        "discover_time": "2026-02-27T19:01:07",
+        "available_at": "2026-02-27T19:01:07",
+        "severity": 0.55,
+        "surprise_score": 0.45,
+        "tradability_score": 0.7,
+        "novelty_score": 0.6,
+        "crowding_risk": 0.35,
+        "confidence": 0.55,
+        "impact_level": "medium",
+        "source_type": "news",
+        "raw_payload_ref": "http://finance.eastmoney.com/a/202602273656867065.html",
+        "metadata": {
+          "legacy_type": "management_change",
+          "legacy_event_date": "2026-02-27",
+          "legacy_stock_code": "600919",
+          "legacy_stock_name": "江苏银行",
+          "ingest_date": "2026-02-27",
+          "publisher": "经济参考网",
+          "matched_keywords": [
+            "董事长"
+          ]
+        },
+        "created_at": "2026-03-20T10:26:04.898353+00:00",
+        "updated_at": "2026-03-20T10:26:04.898354+00:00"
+      },
+      {
+        "event_id": "news:2026-02-27:688114:1ecc9f537a4f",
+        "event_type": "earnings_surprise",
+        "event_subtype": "earnings_surprise.guidance",
+        "title": "华大智造2025年净利亏损2.37亿元，同比减亏",
+        "summary": "北京商报讯2月27日晚间，华大智造（688114）发布2025年度业绩快报显示，报告期内，公司实现营业收入约为27.8亿元，同比下降7.73%；归属净利润约为-2.37亿元，同比减亏。",
+        "source": "news_incremental",
+        "entity_codes": [
+          "688114"
+        ],
+        "entity_names": [
+          "华大智造"
+        ],
+        "industry_codes": [],
+        "theme_tags": [],
+        "event_time": "2026-02-27T00:00:00",
+        "discover_time": "2026-02-27T20:42:49",
+        "available_at": "2026-02-27T20:42:49",
+        "severity": 0.8,
+        "surprise_score": 0.75,
+        "tradability_score": 0.7,
+        "novelty_score": 0.6,
+        "crowding_risk": 0.45,
+        "confidence": 0.7,
+        "impact_level": "high",
+        "source_type": "news",
+        "raw_payload_ref": "http://finance.eastmoney.com/a/202602273656944744.html",
+        "metadata": {
+          "legacy_type": "earnings_surprise",
+          "legacy_event_date": "2026-02-27",
+          "legacy_stock_code": "688114",
+          "legacy_stock_name": "华大智造",
+          "ingest_date": "2026-02-27",
+          "publisher": "北京商报",
+          "matched_keywords": [
+            "业绩快报"
+          ]
+        },
+        "created_at": "2026-03-20T10:26:04.898882+00:00",
+        "updated_at": "2026-03-20T10:26:04.898885+00:00"
+      },
+      {
+        "event_id": "news:2026-02-27:688114:0b8fedfde948",
+        "event_type": "earnings_surprise",
+        "event_subtype": "earnings_surprise.guidance",
+        "title": "华大智造2025年度业绩快报：收入27.8亿元 亏损2.37亿元",
+        "summary": "2月27日，华大智造（688114）发布公告，2025年度业绩快报显示，公司实现营业总收入27.8亿元，同比减少7.73%；归母净利润约亏损2.37亿元，亏损同比减少。",
+        "source": "news_incremental",
+        "entity_codes": [
+          "688114"
+        ],
+        "entity_names": [
+          "华大智造"
+        ],
+        "industry_codes": [],
+        "theme_tags": [],
+        "event_time": "2026-02-27T00:00:00",
+        "discover_time": "2026-02-27T17:38:25",
+        "available_at": "2026-02-27T17:38:25",
+        "severity": 0.8,
+        "surprise_score": 0.75,
+        "tradability_score": 0.7,
+        "novelty_score": 0.6,
+        "crowding_risk": 0.45,
+        "confidence": 0.7,
+        "impact_level": "high",
+        "source_type": "news",
+        "raw_payload_ref": "http://finance.eastmoney.com/a/202602273656794375.html",
+        "metadata": {
+          "legacy_type": "earnings_surprise",
+          "legacy_event_date": "2026-02-27",
+          "legacy_stock_code": "688114",
+          "legacy_stock_name": "华大智造",
+          "ingest_date": "2026-02-27",
+          "publisher": "财中社",
+          "matched_keywords": [
+            "业绩快报"
+          ]
+        },
+        "created_at": "2026-03-20T10:26:04.899093+00:00",
+        "updated_at": "2026-03-20T10:26:04.899094+00:00"
+      },
+      {
+        "event_id": "news:2026-02-27:688192:b7781045c229",
+        "event_type": "earnings_surprise",
+        "event_subtype": "earnings_surprise.guidance",
+        "title": "迪哲医药2025年度业绩快报：营收增122.60% 亏损减少至7.63亿元",
+        "summary": "2月27日，迪哲医药（688192）发布公告，2025年度业绩快报显示，公司营业总收入为8.01亿元，同比增加122.60%。归母净利润约亏损7.63亿元，较上年度减少亏损8265万元。",
+        "source": "news_incremental",
+        "entity_codes": [
+          "688192"
+        ],
+        "entity_names": [
+          "迪哲医药"
+        ],
+        "industry_codes": [],
+        "theme_tags": [
+          "medicine"
+        ],
+        "event_time": "2026-02-27T00:00:00",
+        "discover_time": "2026-02-27T18:04:48",
+        "available_at": "2026-02-27T18:04:48",
+        "severity": 0.8,
+        "surprise_score": 0.75,
+        "tradability_score": 0.7,
+        "novelty_score": 0.6,
+        "crowding_risk": 0.45,
+        "confidence": 0.7,
+        "impact_level": "high",
+        "source_type": "news",
+        "raw_payload_ref": "http://finance.eastmoney.com/a/202602273656819141.html",
+        "metadata": {
+          "legacy_type": "earnings_surprise",
+          "legacy_event_date": "2026-02-27",
+          "legacy_stock_code": "688192",
+          "legacy_stock_name": "迪哲医药",
+          "ingest_date": "2026-02-27",
+          "publisher": "财中社",
+          "matched_keywords": [
+            "业绩快报"
+          ]
+        },
+        "created_at": "2026-03-20T10:26:04.899230+00:00",
+        "updated_at": "2026-03-20T10:26:04.899231+00:00"
+      },
+      {
+        "event_id": "news:2026-02-27:688363:7f58a33f37eb",
+        "event_type": "earnings_surprise",
+        "event_subtype": "earnings_surprise.guidance",
+        "title": "华熙生物2025年净利2.91亿元，同比增长67.03%",
+        "summary": "北京商报讯2月27日晚间，华熙生物（688363）发布2025年度业绩快报显示，报告期内，公司实现营业收入约为42.17亿元，同比下降21.49%；归属净利润约为2.91亿元，同比增长67.03%。",
+        "source": "news_incremental",
+        "entity_codes": [
+          "688363"
+        ],
+        "entity_names": [
+          "华熙生物"
+        ],
+        "industry_codes": [],
+        "theme_tags": [],
+        "event_time": "2026-02-27T00:00:00",
+        "discover_time": "2026-02-27T20:42:46",
+        "available_at": "2026-02-27T20:42:46",
+        "severity": 0.8,
+        "surprise_score": 0.75,
+        "tradability_score": 0.7,
+        "novelty_score": 0.6,
+        "crowding_risk": 0.45,
+        "confidence": 0.7,
+        "impact_level": "high",
+        "source_type": "news",
+        "raw_payload_ref": "http://finance.eastmoney.com/a/202602273656944695.html",
+        "metadata": {
+          "legacy_type": "earnings_surprise",
+          "legacy_event_date": "2026-02-27",
+          "legacy_stock_code": "688363",
+          "legacy_stock_name": "华熙生物",
+          "ingest_date": "2026-02-27",
+          "publisher": "北京商报",
+          "matched_keywords": [
+            "业绩快报"
+          ]
+        },
+        "created_at": "2026-03-20T10:26:04.899358+00:00",
+        "updated_at": "2026-03-20T10:26:04.899359+00:00"
+      },
+      {
+        "event_id": "news:2026-02-27:688520:f0e78919d8b4",
+        "event_type": "earnings_surprise",
+        "event_subtype": "earnings_surprise.guidance",
+        "title": "神州细胞2025年业绩快报：营收15.6亿元降37.91%",
+        "summary": "2月27日，神州细胞（688520）发布公告，2025年度业绩快报显示，公司实现营业总收入15.6亿元，同比减少37.91%；归母净利润约亏损5.53亿元，较上年同期由盈转亏。公司经营业绩受医保控费政策深化和核心产品降价影响，整体营业收入显著下降。",
+        "source": "news_incremental",
+        "entity_codes": [
+          "688520"
+        ],
+        "entity_names": [
+          "神州细胞"
+        ],
+        "industry_codes": [],
+        "theme_tags": [],
+        "event_time": "2026-02-27T00:00:00",
+        "discover_time": "2026-02-27T17:12:10",
+        "available_at": "2026-02-27T17:12:10",
+        "severity": 0.8,
+        "surprise_score": 0.75,
+        "tradability_score": 0.7,
+        "novelty_score": 0.6,
+        "crowding_risk": 0.45,
+        "confidence": 0.7,
+        "impact_level": "high",
+        "source_type": "news",
+        "raw_payload_ref": "http://finance.eastmoney.com/a/202602273656749557.html",
+        "metadata": {
+          "legacy_type": "earnings_surprise",
+          "legacy_event_date": "2026-02-27",
+          "legacy_stock_code": "688520",
+          "legacy_stock_name": "神州细胞",
+          "ingest_date": "2026-02-27",
+          "publisher": "财中社",
+          "matched_keywords": [
+            "业绩快报"
+          ]
+        },
+        "created_at": "2026-03-20T10:26:04.899514+00:00",
+        "updated_at": "2026-03-20T10:26:04.899515+00:00"
+      },
+      {
+        "event_id": "news:2026-02-27:688520:b663ac13dc30",
+        "event_type": "earnings_surprise",
+        "event_subtype": "earnings_surprise.guidance",
+        "title": "神州细胞2025年度营收降38%亏损超过5亿元，公司研发费用销售费用高企",
+        "summary": "2月27日晚间，神州细胞（688520）发布2025年度业绩快报，公司2025年营业收入约15.6亿元，同比减少37.91%；归属于上市公司股东的净利润亏损约5.53亿元，较上年同期由盈转亏；基本每股收益亏损1.29元。",
+        "source": "news_incremental",
+        "entity_codes": [
+          "688520"
+        ],
+        "entity_names": [
+          "神州细胞"
+        ],
+        "industry_codes": [],
+        "theme_tags": [],
+        "event_time": "2026-02-27T00:00:00",
+        "discover_time": "2026-02-27T22:20:06",
+        "available_at": "2026-02-27T22:20:06",
+        "severity": 0.8,
+        "surprise_score": 0.75,
+        "tradability_score": 0.7,
+        "novelty_score": 0.6,
+        "crowding_risk": 0.45,
+        "confidence": 0.7,
+        "impact_level": "high",
+        "source_type": "news",
+        "raw_payload_ref": "http://finance.eastmoney.com/a/202602273657058454.html",
+        "metadata": {
+          "legacy_type": "earnings_surprise",
+          "legacy_event_date": "2026-02-27",
+          "legacy_stock_code": "688520",
+          "legacy_stock_name": "神州细胞",
+          "ingest_date": "2026-02-27",
+          "publisher": "深圳商报·读创",
+          "matched_keywords": [
+            "业绩快报"
+          ]
+        },
+        "created_at": "2026-03-20T10:26:04.899654+00:00",
+        "updated_at": "2026-03-20T10:26:04.899654+00:00"
+      },
+      {
+        "event_id": "news:2026-02-27:688728:6d8c49bba223",
+        "event_type": "earnings_surprise",
+        "event_subtype": "earnings_surprise.guidance",
+        "title": "格科微2025年业绩快报：归母净利润5037万元，下降73.03%",
+        "summary": "2月27日，格科微（688728）发布公告，2025年度业绩快报显示，公司实现营业总收入77.82亿元，同比增长21.91%；归母净利润5037万元，同比下降73.03%。",
+        "source": "news_incremental",
+        "entity_codes": [
+          "688728"
+        ],
+        "entity_names": [
+          "格科微"
+        ],
+        "industry_codes": [],
+        "theme_tags": [],
+        "event_time": "2026-02-27T00:00:00",
+        "discover_time": "2026-02-27T17:38:44",
+        "available_at": "2026-02-27T17:38:44",
+        "severity": 0.8,
+        "surprise_score": 0.75,
+        "tradability_score": 0.7,
+        "novelty_score": 0.6,
+        "crowding_risk": 0.45,
+        "confidence": 0.7,
+        "impact_level": "high",
+        "source_type": "news",
+        "raw_payload_ref": "http://finance.eastmoney.com/a/202602273656795511.html",
+        "metadata": {
+          "legacy_type": "earnings_surprise",
+          "legacy_event_date": "2026-02-27",
+          "legacy_stock_code": "688728",
+          "legacy_stock_name": "格科微",
+          "ingest_date": "2026-02-27",
+          "publisher": "财中社",
+          "matched_keywords": [
+            "业绩快报"
+          ]
+        },
+        "created_at": "2026-03-20T10:26:04.899800+00:00",
+        "updated_at": "2026-03-20T10:26:04.899801+00:00"
+      },
+      {
+        "event_id": "sentiment:2026-02-27:300498:cd6edc8726ca",
+        "event_type": "sentiment_reversal",
+        "event_subtype": "sentiment_reversal.aggregate",
+        "title": "温氏股份 舆情热度变化",
+        "summary": "平均情绪分 +0.31，关注度 0.56，热度排名 -，标签 bullish",
+        "source": "sentiment_incremental",
+        "entity_codes": [
+          "300498"
+        ],
+        "entity_names": [
+          "温氏股份"
+        ],
+        "industry_codes": [],
+        "theme_tags": [],
+        "event_time": "2026-02-27T00:00:00",
+        "discover_time": "2026-02-27T00:00:00",
+        "available_at": "2026-02-27T00:00:00",
+        "severity": 0.55,
+        "surprise_score": 0.45,
+        "tradability_score": 0.7,
+        "novelty_score": 0.6,
+        "crowding_risk": 0.35,
+        "confidence": 0.55,
+        "impact_level": "medium",
+        "source_type": "sentiment",
+        "raw_payload_ref": "",
+        "metadata": {
+          "legacy_type": "sentiment_reversal",
+          "legacy_event_date": "2026-02-27",
+          "legacy_stock_code": "300498",
+          "legacy_stock_name": "温氏股份",
+          "ingest_date": "2026-02-27",
+          "attention_score": 0.5622,
+          "avg_sentiment_score": 0.3071,
+          "hot_rank": 0,
+          "sentiment_label": "bullish"
+        },
+        "created_at": "2026-03-20T10:26:04.899948+00:00",
+        "updated_at": "2026-03-20T10:26:04.899949+00:00"
+      },
+      {
+        "event_id": "sentiment:2026-02-27:688114:2a3f4304bfb3",
+        "event_type": "sentiment_reversal",
+        "event_subtype": "sentiment_reversal.aggregate",
+        "title": "华大智造 舆情热度变化",
+        "summary": "平均情绪分 -0.28，关注度 0.78，热度排名 -，标签 bearish",
+        "source": "sentiment_incremental",
+        "entity_codes": [
+          "688114"
+        ],
+        "entity_names": [
+          "华大智造"
+        ],
+        "industry_codes": [],
+        "theme_tags": [],
+        "event_time": "2026-02-27T00:00:00",
+        "discover_time": "2026-02-27T00:00:00",
+        "available_at": "2026-02-27T00:00:00",
+        "severity": 0.55,
+        "surprise_score": 0.45,
+        "tradability_score": 0.7,
+        "novelty_score": 0.6,
+        "crowding_risk": 0.35,
+        "confidence": 0.55,
+        "impact_level": "medium",
+        "source_type": "sentiment",
+        "raw_payload_ref": "",
+        "metadata": {
+          "legacy_type": "sentiment_reversal",
+          "legacy_event_date": "2026-02-27",
+          "legacy_stock_code": "688114",
+          "legacy_stock_name": "华大智造",
+          "ingest_date": "2026-02-27",
+          "attention_score": 0.7792,
+          "avg_sentiment_score": -0.2788,
+          "hot_rank": 0,
+          "sentiment_label": "bearish"
+        },
+        "created_at": "2026-03-20T10:26:04.900122+00:00",
+        "updated_at": "2026-03-20T10:26:04.900123+00:00"
+      },
+      {
+        "event_id": "sentiment:2026-02-27:688520:b5dadb68c34f",
+        "event_type": "sentiment_reversal",
+        "event_subtype": "sentiment_reversal.aggregate",
+        "title": "神州细胞 舆情热度变化",
+        "summary": "平均情绪分 -0.92，关注度 0.55，热度排名 -，标签 bearish",
+        "source": "sentiment_incremental",
+        "entity_codes": [
+          "688520"
+        ],
+        "entity_names": [
+          "神州细胞"
+        ],
+        "industry_codes": [],
+        "theme_tags": [],
+        "event_time": "2026-02-27T00:00:00",
+        "discover_time": "2026-02-27T00:00:00",
+        "available_at": "2026-02-27T00:00:00",
+        "severity": 0.55,
+        "surprise_score": 0.45,
+        "tradability_score": 0.7,
+        "novelty_score": 0.6,
+        "crowding_risk": 0.35,
+        "confidence": 0.55,
+        "impact_level": "medium",
+        "source_type": "sentiment",
+        "raw_payload_ref": "",
+        "metadata": {
+          "legacy_type": "sentiment_reversal",
+          "legacy_event_date": "2026-02-27",
+          "legacy_stock_code": "688520",
+          "legacy_stock_name": "神州细胞",
+          "ingest_date": "2026-02-27",
+          "attention_score": 0.5508,
+          "avg_sentiment_score": -0.92,
+          "hot_rank": 0,
+          "sentiment_label": "bearish"
+        },
+        "created_at": "2026-03-20T10:26:04.900182+00:00",
+        "updated_at": "2026-03-20T10:26:04.900183+00:00"
+      }
+    ]
+  }
+}

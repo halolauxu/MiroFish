@@ -1,0 +1,410 @@
+{
+  "component": "events",
+  "as_of_date": "2026-02-12",
+  "universe_id": "csi800",
+  "quality_status": "derived_from_local_foundation",
+  "authoritative": false,
+  "run_context": "historical_backfill",
+  "generated_at": "2026-03-20T10:26:03Z",
+  "source_paths": [
+    ".data/authoritative_archive/foundation/filings/20260212.json",
+    ".data/authoritative_archive/foundation/news/20260212.json",
+    ".data/authoritative_archive/foundation/sentiment/20260212.json"
+  ],
+  "payload": {
+    "summary": {
+      "ingest_date": "2026-02-12",
+      "snapshot_mode": "historical_replay",
+      "history_quality": "derived_from_local_foundation",
+      "incremental_event_count": 9,
+      "event_master_count": 56,
+      "created_event_count": 8,
+      "filing_event_count": 0,
+      "news_event_count": 8,
+      "sentiment_event_count": 0,
+      "skipped_filing_other": 0,
+      "skipped_news_other": 6
+    },
+    "rows": [
+      {
+        "event_id": "news:2026-02-12:002223:d150e3eb0449",
+        "event_type": "capital_raise",
+        "event_subtype": "capital_raise.equity",
+        "title": "盈利承压 鱼跃医疗加速转型构建新增长曲线",
+        "summary": "《经济参考报》记者注意到，作为医疗器械行业龙头企业，鱼跃医疗（002223.SZ）正加快向“AI+医疗”转型的战略布局并积极开拓海外市场，不断探索高质量的稳定增长之路。",
+        "source": "news_incremental",
+        "entity_codes": [
+          "002223"
+        ],
+        "entity_names": [
+          "鱼跃医疗"
+        ],
+        "industry_codes": [],
+        "theme_tags": [
+          "ai",
+          "medicine"
+        ],
+        "event_time": "2026-02-12T00:00:00",
+        "discover_time": "2026-02-12T03:59:21",
+        "available_at": "2026-02-12T03:59:21",
+        "severity": 0.55,
+        "surprise_score": 0.45,
+        "tradability_score": 0.7,
+        "novelty_score": 0.6,
+        "crowding_risk": 0.45,
+        "confidence": 0.55,
+        "impact_level": "medium",
+        "source_type": "news",
+        "raw_payload_ref": "http://finance.eastmoney.com/a/202602123648325456.html",
+        "metadata": {
+          "legacy_type": "capital_raise",
+          "legacy_event_date": "2026-02-12",
+          "legacy_stock_code": "002223",
+          "legacy_stock_name": "鱼跃医疗",
+          "ingest_date": "2026-02-12",
+          "publisher": "经济参考报",
+          "matched_keywords": [
+            "定增"
+          ]
+        },
+        "created_at": "2026-03-20T10:26:03.039873+00:00",
+        "updated_at": "2026-03-20T10:26:03.039876+00:00"
+      },
+      {
+        "event_id": "news:2026-02-12:300782:ca9a2b4da98f",
+        "event_type": "management_change",
+        "event_subtype": "management_change.executive",
+        "title": "女方分走超12亿元！A股又现天价“分手”案，300782董事长离婚，其年薪达312万元",
+        "summary": "国产射频龙头卓胜微（SZ300782）2月11日晚间公告，公司于近日收到实控人之一许志翰的通知，其与ZHANG YU（张昱）经友好协商，已解除婚姻关系，并就离婚财产分割事宜做出相关安排。",
+        "source": "news_incremental",
+        "entity_codes": [
+          "300782"
+        ],
+        "entity_names": [
+          "卓胜微"
+        ],
+        "industry_codes": [],
+        "theme_tags": [],
+        "event_time": "2026-02-12T00:00:00",
+        "discover_time": "2026-02-12T11:45:48",
+        "available_at": "2026-02-12T11:45:48",
+        "severity": 0.55,
+        "surprise_score": 0.45,
+        "tradability_score": 0.7,
+        "novelty_score": 0.6,
+        "crowding_risk": 0.35,
+        "confidence": 0.55,
+        "impact_level": "medium",
+        "source_type": "news",
+        "raw_payload_ref": "http://finance.eastmoney.com/a/202602123649015344.html",
+        "metadata": {
+          "legacy_type": "management_change",
+          "legacy_event_date": "2026-02-12",
+          "legacy_stock_code": "300782",
+          "legacy_stock_name": "卓胜微",
+          "ingest_date": "2026-02-12",
+          "publisher": "华夏时报",
+          "matched_keywords": [
+            "董事长"
+          ]
+        },
+        "created_at": "2026-03-20T10:26:03.040219+00:00",
+        "updated_at": "2026-03-20T10:26:03.040220+00:00"
+      },
+      {
+        "event_id": "news:2026-02-12:300857:a74728236246",
+        "event_type": "order_win",
+        "event_subtype": "order_win.bid",
+        "title": "300857，110亿元加码算力服务",
+        "summary": "2月12日晚，协创数据（300857）公告称，公司及/或子公司根据经营发展需要，拟向多家供应商（合并简称“X”）采购服务器，并签署相关采购合同，采购合同总金额预计不超过110亿元人民币。公司及/或子公司购买服务器主要用于为客户提供云算力服务。",
+        "source": "news_incremental",
+        "entity_codes": [
+          "300857"
+        ],
+        "entity_names": [
+          "协创数据"
+        ],
+        "industry_codes": [],
+        "theme_tags": [
+          "ai"
+        ],
+        "event_time": "2026-02-12T00:00:00",
+        "discover_time": "2026-02-12T23:25:57",
+        "available_at": "2026-02-12T23:25:57",
+        "severity": 0.8,
+        "surprise_score": 0.75,
+        "tradability_score": 0.7,
+        "novelty_score": 0.6,
+        "crowding_risk": 0.45,
+        "confidence": 0.7,
+        "impact_level": "high",
+        "source_type": "news",
+        "raw_payload_ref": "http://finance.eastmoney.com/a/202602123649548225.html",
+        "metadata": {
+          "legacy_type": "order_win",
+          "legacy_event_date": "2026-02-12",
+          "legacy_stock_code": "300857",
+          "legacy_stock_name": "协创数据",
+          "ingest_date": "2026-02-12",
+          "publisher": "上海证券报",
+          "matched_keywords": [
+            "采购合同"
+          ]
+        },
+        "created_at": "2026-03-20T10:26:03.040344+00:00",
+        "updated_at": "2026-03-20T10:26:03.040345+00:00"
+      },
+      {
+        "event_id": "news:2026-02-12:300857:e37d38f959f9",
+        "event_type": "order_win",
+        "event_subtype": "order_win.bid",
+        "title": "300857，拟不超110亿元采购服务器",
+        "summary": "协创数据（300857）2月12日晚间公告，公司及/或子公司根据经营发展需要，拟向多家供应商（合并简称“X”）采购服务器，并签署相关采购合同，采购合同总金额预计不超过人民币110亿元。 公司及/或子公司购买服务器主要用于为客户提供云算力服务。",
+        "source": "news_incremental",
+        "entity_codes": [
+          "300857"
+        ],
+        "entity_names": [
+          "协创数据"
+        ],
+        "industry_codes": [],
+        "theme_tags": [
+          "ai"
+        ],
+        "event_time": "2026-02-12T00:00:00",
+        "discover_time": "2026-02-12T23:04:20",
+        "available_at": "2026-02-12T23:04:20",
+        "severity": 0.8,
+        "surprise_score": 0.75,
+        "tradability_score": 0.7,
+        "novelty_score": 0.6,
+        "crowding_risk": 0.45,
+        "confidence": 0.7,
+        "impact_level": "high",
+        "source_type": "news",
+        "raw_payload_ref": "http://finance.eastmoney.com/a/202602123649542673.html",
+        "metadata": {
+          "legacy_type": "order_win",
+          "legacy_event_date": "2026-02-12",
+          "legacy_stock_code": "300857",
+          "legacy_stock_name": "协创数据",
+          "ingest_date": "2026-02-12",
+          "publisher": "证券时报",
+          "matched_keywords": [
+            "采购合同"
+          ]
+        },
+        "created_at": "2026-03-20T10:26:03.040467+00:00",
+        "updated_at": "2026-03-20T10:26:03.040468+00:00"
+      },
+      {
+        "event_id": "news:2026-02-12:600050:8860a9973916",
+        "event_type": "management_change",
+        "event_subtype": "management_change.executive",
+        "title": "中国联通：高级副总裁王利民提前离任",
+        "summary": "中国联通（600050）发布公告，王利民因工作调动向公司董事会提交辞呈，辞去公司高级副总裁职务，辞任自2026年2月12日起生效。 王利民的原定任期到期日为2027年7月4日，辞任原因为工作调动，且王利民不再在公司及其控股子公司任职。",
+        "source": "news_incremental",
+        "entity_codes": [
+          "600050"
+        ],
+        "entity_names": [
+          "中国联通"
+        ],
+        "industry_codes": [],
+        "theme_tags": [],
+        "event_time": "2026-02-12T00:00:00",
+        "discover_time": "2026-02-12T17:06:44",
+        "available_at": "2026-02-12T17:06:44",
+        "severity": 0.55,
+        "surprise_score": 0.45,
+        "tradability_score": 0.7,
+        "novelty_score": 0.6,
+        "crowding_risk": 0.35,
+        "confidence": 0.55,
+        "impact_level": "medium",
+        "source_type": "news",
+        "raw_payload_ref": "http://finance.eastmoney.com/a/202602123649242084.html",
+        "metadata": {
+          "legacy_type": "management_change",
+          "legacy_event_date": "2026-02-12",
+          "legacy_stock_code": "600050",
+          "legacy_stock_name": "中国联通",
+          "ingest_date": "2026-02-12",
+          "publisher": "财中社",
+          "matched_keywords": [
+            "离任"
+          ]
+        },
+        "created_at": "2026-03-20T10:26:03.040696+00:00",
+        "updated_at": "2026-03-20T10:26:03.040697+00:00"
+      },
+      {
+        "event_id": "news:2026-02-12:601399:33f46a77b959",
+        "event_type": "share_reduction",
+        "event_subtype": "share_reduction.disposal",
+        "title": "国机重装：股东拟合计减持不超3%公司股份",
+        "summary": "国机重装601399.SH)公告称，股东中国农业银行股份有限公司四川省分行、中国农业银行股份有限公司江苏省分行拟通过集中竞价方式减持公司股份数量合计不超过7213.39万股，即不超过公司总股本的1%；通过大宗交易方式减持数量合计不超过1.44亿股，即减持比例不超过公司总股本的2%",
+        "source": "news_incremental",
+        "entity_codes": [
+          "601399"
+        ],
+        "entity_names": [
+          "国机重装"
+        ],
+        "industry_codes": [],
+        "theme_tags": [],
+        "event_time": "2026-02-12T00:00:00",
+        "discover_time": "2026-02-12T17:46:25",
+        "available_at": "2026-02-12T17:46:25",
+        "severity": 0.8,
+        "surprise_score": 0.45,
+        "tradability_score": 0.7,
+        "novelty_score": 0.6,
+        "crowding_risk": 0.45,
+        "confidence": 0.7,
+        "impact_level": "high",
+        "source_type": "news",
+        "raw_payload_ref": "http://finance.eastmoney.com/a/202602123649312182.html",
+        "metadata": {
+          "legacy_type": "share_reduction",
+          "legacy_event_date": "2026-02-12",
+          "legacy_stock_code": "601399",
+          "legacy_stock_name": "国机重装",
+          "ingest_date": "2026-02-12",
+          "publisher": "财联社",
+          "matched_keywords": [
+            "减持"
+          ]
+        },
+        "created_at": "2026-03-20T10:26:03.040927+00:00",
+        "updated_at": "2026-03-20T10:26:03.040928+00:00"
+      },
+      {
+        "event_id": "news:2026-02-12:601399:33f46a77b959",
+        "event_type": "share_reduction",
+        "event_subtype": "share_reduction.disposal",
+        "title": "国机重装：股东拟合计减持不超3%公司股份",
+        "summary": "人民财讯2月12日电，国机重装6013992月12日公告，股东中国农业银行股份有限公司四川省分行、中国农业银行股份有限公司江苏省分行拟通过集中竞价方式减持公司股份数量合计不超过7213.39万股，即不超过公司总股本的1%；通过大宗交易方式减持数量合计不超过1.44亿股，即减持比例不超过公司总股本",
+        "source": "news_incremental",
+        "entity_codes": [
+          "601399"
+        ],
+        "entity_names": [
+          "国机重装"
+        ],
+        "industry_codes": [],
+        "theme_tags": [],
+        "event_time": "2026-02-12T00:00:00",
+        "discover_time": "2026-02-12T17:51:29",
+        "available_at": "2026-02-12T17:51:29",
+        "severity": 0.8,
+        "surprise_score": 0.45,
+        "tradability_score": 0.7,
+        "novelty_score": 0.6,
+        "crowding_risk": 0.45,
+        "confidence": 0.7,
+        "impact_level": "high",
+        "source_type": "news",
+        "raw_payload_ref": "http://finance.eastmoney.com/a/202602123649316990.html",
+        "metadata": {
+          "legacy_type": "share_reduction",
+          "legacy_event_date": "2026-02-12",
+          "legacy_stock_code": "601399",
+          "legacy_stock_name": "国机重装",
+          "ingest_date": "2026-02-12",
+          "publisher": "人民财讯",
+          "matched_keywords": [
+            "减持"
+          ]
+        },
+        "created_at": "2026-03-20T10:26:03.041057+00:00",
+        "updated_at": "2026-03-20T10:26:03.041058+00:00"
+      },
+      {
+        "event_id": "news:2026-02-12:603658:6fd88769acae",
+        "event_type": "technology_breakthrough",
+        "event_subtype": "technology_breakthrough.approval",
+        "title": "安图生物及子公司获多项医疗器械注册证",
+        "summary": "2月12日，安图生物（603658）发布公告，公司及全资子公司安图仪器于近日收到河南省药品监督管理局颁发的医疗器械注册证，涉及产品包括霉酚酸检测试剂盒、皮质醇检测试剂盒、丙戊酸检测试剂盒和流式细胞仪，注册证有效期均为5年。",
+        "source": "news_incremental",
+        "entity_codes": [
+          "603658"
+        ],
+        "entity_names": [
+          "安图生物"
+        ],
+        "industry_codes": [],
+        "theme_tags": [
+          "medicine"
+        ],
+        "event_time": "2026-02-12T00:00:00",
+        "discover_time": "2026-02-12T17:35:35",
+        "available_at": "2026-02-12T17:35:35",
+        "severity": 0.8,
+        "surprise_score": 0.75,
+        "tradability_score": 0.7,
+        "novelty_score": 0.6,
+        "crowding_risk": 0.45,
+        "confidence": 0.7,
+        "impact_level": "high",
+        "source_type": "news",
+        "raw_payload_ref": "http://finance.eastmoney.com/a/202602123649306393.html",
+        "metadata": {
+          "legacy_type": "technology_breakthrough",
+          "legacy_event_date": "2026-02-12",
+          "legacy_stock_code": "603658",
+          "legacy_stock_name": "安图生物",
+          "ingest_date": "2026-02-12",
+          "publisher": "财中社",
+          "matched_keywords": [
+            "注册证"
+          ]
+        },
+        "created_at": "2026-03-20T10:26:03.041187+00:00",
+        "updated_at": "2026-03-20T10:26:03.041188+00:00"
+      },
+      {
+        "event_id": "news:2026-02-12:688018:a9c23e0af064",
+        "event_type": "buyback",
+        "event_subtype": "buyback.shareholder_action",
+        "title": "董承非连续加码688018",
+        "summary": "乐鑫科技（688018）近日发布的回购公告显示，截至2月2日，睿郡资产合伙人董承非管理的两只产品合计持有该个股超400万股，相较于去年10月17日小幅增持11万股。值得注意的是，这并非董承非首次加码乐鑫科技，去年10月董承非旗下产品就积极参与乐鑫科技定增，获配超300万股。",
+        "source": "news_incremental",
+        "entity_codes": [
+          "688018"
+        ],
+        "entity_names": [
+          "乐鑫科技"
+        ],
+        "industry_codes": [],
+        "theme_tags": [],
+        "event_time": "2026-02-12T00:00:00",
+        "discover_time": "2026-02-12T20:26:04",
+        "available_at": "2026-02-12T20:26:04",
+        "severity": 0.55,
+        "surprise_score": 0.45,
+        "tradability_score": 0.7,
+        "novelty_score": 0.6,
+        "crowding_risk": 0.45,
+        "confidence": 0.55,
+        "impact_level": "medium",
+        "source_type": "news",
+        "raw_payload_ref": "http://finance.eastmoney.com/a/202602123649444345.html",
+        "metadata": {
+          "legacy_type": "buyback",
+          "legacy_event_date": "2026-02-12",
+          "legacy_stock_code": "688018",
+          "legacy_stock_name": "乐鑫科技",
+          "ingest_date": "2026-02-12",
+          "publisher": "上海证券报",
+          "matched_keywords": [
+            "回购",
+            "增持"
+          ]
+        },
+        "created_at": "2026-03-20T10:26:03.041321+00:00",
+        "updated_at": "2026-03-20T10:26:03.041322+00:00"
+      }
+    ]
+  }
+}

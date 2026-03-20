@@ -1,0 +1,72 @@
+{
+  "component": "events",
+  "as_of_date": "2026-01-30",
+  "universe_id": "csi800",
+  "quality_status": "derived_from_local_foundation",
+  "authoritative": false,
+  "run_context": "historical_backfill",
+  "generated_at": "2026-03-20T10:26:01Z",
+  "source_paths": [
+    ".data/authoritative_archive/foundation/filings/20260130.json",
+    ".data/authoritative_archive/foundation/news/20260130.json",
+    ".data/authoritative_archive/foundation/sentiment/20260130.json"
+  ],
+  "payload": {
+    "summary": {
+      "ingest_date": "2026-01-30",
+      "snapshot_mode": "historical_replay",
+      "history_quality": "derived_from_local_foundation",
+      "incremental_event_count": 1,
+      "event_master_count": 21,
+      "created_event_count": 1,
+      "filing_event_count": 0,
+      "news_event_count": 1,
+      "sentiment_event_count": 0,
+      "skipped_filing_other": 0,
+      "skipped_news_other": 0
+    },
+    "rows": [
+      {
+        "event_id": "news:2026-01-30:603737:4af51725b304",
+        "event_type": "earnings_surprise",
+        "event_subtype": "earnings_surprise.report",
+        "title": "三棵树：2025年净利同比预增128.96%~189.21%",
+        "summary": "1月30日，三棵树603737.SH)公告称，预计2025年归属于上市公司股东的净利润为7.60亿元至9.60亿元，同比增加128.96%到189.21%。",
+        "source": "news_incremental",
+        "entity_codes": [
+          "603737"
+        ],
+        "entity_names": [
+          "三棵树"
+        ],
+        "industry_codes": [],
+        "theme_tags": [],
+        "event_time": "2026-01-30T00:00:00",
+        "discover_time": "2026-01-30T16:19:58",
+        "available_at": "2026-01-30T16:19:58",
+        "severity": 0.8,
+        "surprise_score": 0.75,
+        "tradability_score": 0.7,
+        "novelty_score": 0.6,
+        "crowding_risk": 0.45,
+        "confidence": 0.7,
+        "impact_level": "high",
+        "source_type": "news",
+        "raw_payload_ref": "http://finance.eastmoney.com/a/202601303636945289.html",
+        "metadata": {
+          "legacy_type": "earnings_surprise",
+          "legacy_event_date": "2026-01-30",
+          "legacy_stock_code": "603737",
+          "legacy_stock_name": "三棵树",
+          "ingest_date": "2026-01-30",
+          "publisher": "每日经济新闻",
+          "matched_keywords": [
+            "净利润"
+          ]
+        },
+        "created_at": "2026-03-20T10:26:01.685083+00:00",
+        "updated_at": "2026-03-20T10:26:01.685088+00:00"
+      }
+    ]
+  }
+}

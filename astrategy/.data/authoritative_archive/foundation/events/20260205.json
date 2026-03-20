@@ -1,0 +1,72 @@
+{
+  "component": "events",
+  "as_of_date": "2026-02-05",
+  "universe_id": "csi800",
+  "quality_status": "derived_from_local_foundation",
+  "authoritative": false,
+  "run_context": "historical_backfill",
+  "generated_at": "2026-03-20T10:26:02Z",
+  "source_paths": [
+    ".data/authoritative_archive/foundation/filings/20260205.json",
+    ".data/authoritative_archive/foundation/news/20260205.json",
+    ".data/authoritative_archive/foundation/sentiment/20260205.json"
+  ],
+  "payload": {
+    "summary": {
+      "ingest_date": "2026-02-05",
+      "snapshot_mode": "historical_replay",
+      "history_quality": "derived_from_local_foundation",
+      "incremental_event_count": 1,
+      "event_master_count": 25,
+      "created_event_count": 1,
+      "filing_event_count": 0,
+      "news_event_count": 1,
+      "sentiment_event_count": 0,
+      "skipped_filing_other": 0,
+      "skipped_news_other": 6
+    },
+    "rows": [
+      {
+        "event_id": "news:2026-02-05:600007:4f745dbe3b35",
+        "event_type": "technology_breakthrough",
+        "event_subtype": "technology_breakthrough.mass_production",
+        "title": "今日38只个股突破年线",
+        "summary": "1.21 3.18 50.80 51.11 0.62 601398 工商银行 0.83 0.12 7.26 7.30 0.58 601882 海天精工 0.75 0.73 20.12 20.22 0.50 300908 仲景食品 2.27 2.77 29.57 29.71 0.47 600007",
+        "source": "news_incremental",
+        "entity_codes": [
+          "600007"
+        ],
+        "entity_names": [
+          "中国国贸"
+        ],
+        "industry_codes": [],
+        "theme_tags": [],
+        "event_time": "2026-02-05T00:00:00",
+        "discover_time": "2026-02-05T17:18:17",
+        "available_at": "2026-02-05T17:18:17",
+        "severity": 0.8,
+        "surprise_score": 0.75,
+        "tradability_score": 0.7,
+        "novelty_score": 0.6,
+        "crowding_risk": 0.45,
+        "confidence": 0.7,
+        "impact_level": "high",
+        "source_type": "news",
+        "raw_payload_ref": "http://finance.eastmoney.com/a/202602053642849131.html",
+        "metadata": {
+          "legacy_type": "technology_breakthrough",
+          "legacy_event_date": "2026-02-05",
+          "legacy_stock_code": "600007",
+          "legacy_stock_name": "中国国贸",
+          "ingest_date": "2026-02-05",
+          "publisher": "证券时报网",
+          "matched_keywords": [
+            "突破"
+          ]
+        },
+        "created_at": "2026-03-20T10:26:02.275457+00:00",
+        "updated_at": "2026-03-20T10:26:02.275461+00:00"
+      }
+    ]
+  }
+}

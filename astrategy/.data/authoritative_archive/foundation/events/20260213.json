@@ -1,0 +1,454 @@
+{
+  "component": "events",
+  "as_of_date": "2026-02-13",
+  "universe_id": "csi800",
+  "quality_status": "derived_from_local_foundation",
+  "authoritative": false,
+  "run_context": "historical_backfill",
+  "generated_at": "2026-03-20T10:26:03Z",
+  "source_paths": [
+    ".data/authoritative_archive/foundation/filings/20260213.json",
+    ".data/authoritative_archive/foundation/news/20260213.json",
+    ".data/authoritative_archive/foundation/sentiment/20260213.json"
+  ],
+  "payload": {
+    "summary": {
+      "ingest_date": "2026-02-13",
+      "snapshot_mode": "historical_replay",
+      "history_quality": "derived_from_local_foundation",
+      "incremental_event_count": 10,
+      "event_master_count": 66,
+      "created_event_count": 10,
+      "filing_event_count": 0,
+      "news_event_count": 10,
+      "sentiment_event_count": 0,
+      "skipped_filing_other": 0,
+      "skipped_news_other": 7
+    },
+    "rows": [
+      {
+        "event_id": "news:2026-02-13:001696:c1d54e488801",
+        "event_type": "ma",
+        "event_subtype": "ma.restructuring",
+        "title": "001696，筹划重大资产重组",
+        "summary": "2月13日晚，宗申动力（001696）公告称，拟将其持有的摩托车发动机业务相关资产与负债（以重庆宗申发动机制造有限公司股权为核心）与隆鑫通用（603766）持有的通用机械业务相关资产与负债（以重庆新隆鑫机电有限公司股权为核心）进行置换，置换资产交易作价的差额将由一方向另一方以现金方式补足",
+        "source": "news_incremental",
+        "entity_codes": [
+          "001696"
+        ],
+        "entity_names": [
+          "宗申动力"
+        ],
+        "industry_codes": [],
+        "theme_tags": [],
+        "event_time": "2026-02-13T00:00:00",
+        "discover_time": "2026-02-13T22:35:36",
+        "available_at": "2026-02-13T22:35:36",
+        "severity": 0.8,
+        "surprise_score": 0.45,
+        "tradability_score": 0.7,
+        "novelty_score": 0.6,
+        "crowding_risk": 0.45,
+        "confidence": 0.7,
+        "impact_level": "high",
+        "source_type": "news",
+        "raw_payload_ref": "http://finance.eastmoney.com/a/202602133650688715.html",
+        "metadata": {
+          "legacy_type": "ma",
+          "legacy_event_date": "2026-02-13",
+          "legacy_stock_code": "001696",
+          "legacy_stock_name": "宗申动力",
+          "ingest_date": "2026-02-13",
+          "publisher": "上海证券报",
+          "matched_keywords": [
+            "重组",
+            "重大资产重组"
+          ]
+        },
+        "created_at": "2026-03-20T10:26:03.194547+00:00",
+        "updated_at": "2026-03-20T10:26:03.194552+00:00"
+      },
+      {
+        "event_id": "news:2026-02-13:001696:b50eb912f47f",
+        "event_type": "ma",
+        "event_subtype": "ma.restructuring",
+        "title": "001696，重大资产重组",
+        "summary": "【导读】宗申动力拟与隆鑫通用进行重大资产置换 2月13日，宗申动力发布公告称，公司拟与隆鑫通用进行资产置换，预计构成关联交易和重大资产重组。 旨在有效解决同业竞争问题 资料显示，隆鑫通用产品主要包括两轮摩托车、三轮摩托车、摩托车发动机、全地形车、通用机械。宗申动力主要产品包括",
+        "source": "news_incremental",
+        "entity_codes": [
+          "001696"
+        ],
+        "entity_names": [
+          "宗申动力"
+        ],
+        "industry_codes": [],
+        "theme_tags": [],
+        "event_time": "2026-02-13T00:00:00",
+        "discover_time": "2026-02-13T22:22:21",
+        "available_at": "2026-02-13T22:22:21",
+        "severity": 0.8,
+        "surprise_score": 0.45,
+        "tradability_score": 0.7,
+        "novelty_score": 0.6,
+        "crowding_risk": 0.45,
+        "confidence": 0.7,
+        "impact_level": "high",
+        "source_type": "news",
+        "raw_payload_ref": "http://finance.eastmoney.com/a/202602133650686114.html",
+        "metadata": {
+          "legacy_type": "ma",
+          "legacy_event_date": "2026-02-13",
+          "legacy_stock_code": "001696",
+          "legacy_stock_name": "宗申动力",
+          "ingest_date": "2026-02-13",
+          "publisher": "中国基金报",
+          "matched_keywords": [
+            "重组",
+            "重大资产重组"
+          ]
+        },
+        "created_at": "2026-03-20T10:26:03.194705+00:00",
+        "updated_at": "2026-03-20T10:26:03.194706+00:00"
+      },
+      {
+        "event_id": "news:2026-02-13:002673:d86f7698809f",
+        "event_type": "technology_breakthrough",
+        "event_subtype": "technology_breakthrough.approval",
+        "title": "西部证券：上市证券做市交易业务资格获批",
+        "summary": "人民财讯2月13日电，西部证券0026732月13日公告，公司于近日收到中国证监会出具的《关于核准西部证券股份有限公司上市证券做市交易业务资格的批复》，中国证监会核准公司上市证券做市交易（限于北京证券交易所股票做市）业务资格。",
+        "source": "news_incremental",
+        "entity_codes": [
+          "002673"
+        ],
+        "entity_names": [
+          "西部证券"
+        ],
+        "industry_codes": [],
+        "theme_tags": [],
+        "event_time": "2026-02-13T00:00:00",
+        "discover_time": "2026-02-13T18:58:06",
+        "available_at": "2026-02-13T18:58:06",
+        "severity": 0.8,
+        "surprise_score": 0.75,
+        "tradability_score": 0.7,
+        "novelty_score": 0.6,
+        "crowding_risk": 0.45,
+        "confidence": 0.7,
+        "impact_level": "high",
+        "source_type": "news",
+        "raw_payload_ref": "http://finance.eastmoney.com/a/202602133650543997.html",
+        "metadata": {
+          "legacy_type": "technology_breakthrough",
+          "legacy_event_date": "2026-02-13",
+          "legacy_stock_code": "002673",
+          "legacy_stock_name": "西部证券",
+          "ingest_date": "2026-02-13",
+          "publisher": "人民财讯",
+          "matched_keywords": [
+            "获批"
+          ]
+        },
+        "created_at": "2026-03-20T10:26:03.194959+00:00",
+        "updated_at": "2026-03-20T10:26:03.194960+00:00"
+      },
+      {
+        "event_id": "news:2026-02-13:300100:635768ee9079",
+        "event_type": "technology_breakthrough",
+        "event_subtype": "technology_breakthrough.mass_production",
+        "title": "今日304只个股突破五日均线",
+        "summary": "12.57 8.30 8.80 6.05 688586 江航装备 8.31 4.33 15.62 16.55 5.93 000859 国风新材 10.02 16.59 11.31 11.97 5.84 000798 中水渔业 9.97 11.84 11.78 12.46 5.77 300100",
+        "source": "news_incremental",
+        "entity_codes": [
+          "300100"
+        ],
+        "entity_names": [
+          "双林股份"
+        ],
+        "industry_codes": [],
+        "theme_tags": [],
+        "event_time": "2026-02-13T00:00:00",
+        "discover_time": "2026-02-13T15:26:05",
+        "available_at": "2026-02-13T15:26:05",
+        "severity": 0.8,
+        "surprise_score": 0.75,
+        "tradability_score": 0.7,
+        "novelty_score": 0.6,
+        "crowding_risk": 0.45,
+        "confidence": 0.7,
+        "impact_level": "high",
+        "source_type": "news",
+        "raw_payload_ref": "http://finance.eastmoney.com/a/202602133650362979.html",
+        "metadata": {
+          "legacy_type": "technology_breakthrough",
+          "legacy_event_date": "2026-02-13",
+          "legacy_stock_code": "300100",
+          "legacy_stock_name": "双林股份",
+          "ingest_date": "2026-02-13",
+          "publisher": "证券时报网",
+          "matched_keywords": [
+            "突破"
+          ]
+        },
+        "created_at": "2026-03-20T10:26:03.195203+00:00",
+        "updated_at": "2026-03-20T10:26:03.195204+00:00"
+      },
+      {
+        "event_id": "news:2026-02-13:300857:d46ec52036cb",
+        "event_type": "ma",
+        "event_subtype": "ma.acquisition",
+        "title": "上证早知道｜300857，110亿元采购服务器；两公司收购资产停牌",
+        "summary": "公司新闻 ○协创数据（300857）拟向多家供应商采购服务器，合同总金额预计不超过人民币110亿元，所购服务器主要用于为客户提供云算力服务。 ○厦门空港拟以11.93亿元现金收购控股股东翔业集团全资子公司兆翔科技100%股权。",
+        "source": "news_incremental",
+        "entity_codes": [
+          "300857"
+        ],
+        "entity_names": [
+          "协创数据"
+        ],
+        "industry_codes": [],
+        "theme_tags": [
+          "ai"
+        ],
+        "event_time": "2026-02-13T00:00:00",
+        "discover_time": "2026-02-13T06:56:11",
+        "available_at": "2026-02-13T06:56:11",
+        "severity": 0.8,
+        "surprise_score": 0.45,
+        "tradability_score": 0.7,
+        "novelty_score": 0.6,
+        "crowding_risk": 0.45,
+        "confidence": 0.7,
+        "impact_level": "high",
+        "source_type": "news",
+        "raw_payload_ref": "http://finance.eastmoney.com/a/202602133649623345.html",
+        "metadata": {
+          "legacy_type": "ma",
+          "legacy_event_date": "2026-02-13",
+          "legacy_stock_code": "300857",
+          "legacy_stock_name": "协创数据",
+          "ingest_date": "2026-02-13",
+          "publisher": "上海证券报",
+          "matched_keywords": [
+            "收购"
+          ]
+        },
+        "created_at": "2026-03-20T10:26:03.195433+00:00",
+        "updated_at": "2026-03-20T10:26:03.195434+00:00"
+      },
+      {
+        "event_id": "news:2026-02-13:600369:e5941917b3ff",
+        "event_type": "capital_raise",
+        "event_subtype": "capital_raise.equity",
+        "title": "西南证券：拟定增募资不超60亿元 用于补充公司资本金",
+        "summary": "人民财讯2月13日电，西南证券6003692月13日公告，公司拟向特定对象发行A股股票募集资金总额不超过60亿元。前述资金将全部用于补充公司资本金，优化资本结构，加快相关业务发展。",
+        "source": "news_incremental",
+        "entity_codes": [
+          "600369"
+        ],
+        "entity_names": [
+          "西南证券"
+        ],
+        "industry_codes": [],
+        "theme_tags": [],
+        "event_time": "2026-02-13T00:00:00",
+        "discover_time": "2026-02-13T18:06:39",
+        "available_at": "2026-02-13T18:06:39",
+        "severity": 0.55,
+        "surprise_score": 0.45,
+        "tradability_score": 0.7,
+        "novelty_score": 0.6,
+        "crowding_risk": 0.45,
+        "confidence": 0.55,
+        "impact_level": "medium",
+        "source_type": "news",
+        "raw_payload_ref": "http://finance.eastmoney.com/a/202602133650521017.html",
+        "metadata": {
+          "legacy_type": "capital_raise",
+          "legacy_event_date": "2026-02-13",
+          "legacy_stock_code": "600369",
+          "legacy_stock_name": "西南证券",
+          "ingest_date": "2026-02-13",
+          "publisher": "人民财讯",
+          "matched_keywords": [
+            "定增",
+            "募资"
+          ]
+        },
+        "created_at": "2026-03-20T10:26:03.195570+00:00",
+        "updated_at": "2026-03-20T10:26:03.195571+00:00"
+      },
+      {
+        "event_id": "news:2026-02-13:600369:c1606571d154",
+        "event_type": "capital_raise",
+        "event_subtype": "capital_raise.equity",
+        "title": "西南证券：拟定增募资不超过60亿元 全部用于补充资本金",
+        "summary": "每经AI快讯，2月13日，西南证券600369.SH)公告称，公司拟向包括重庆渝富控股集团及其一致行动人重庆水务环境控股集团在内的特定对象发行A股股票，募集资金总额不超过60亿元，扣除发行费用后拟全部用于补充公司资本金，具体用于财富管理业务、投资银行业务、资产管理业务、证券投资业务",
+        "source": "news_incremental",
+        "entity_codes": [
+          "600369"
+        ],
+        "entity_names": [
+          "西南证券"
+        ],
+        "industry_codes": [],
+        "theme_tags": [
+          "ai"
+        ],
+        "event_time": "2026-02-13T00:00:00",
+        "discover_time": "2026-02-13T18:04:32",
+        "available_at": "2026-02-13T18:04:32",
+        "severity": 0.55,
+        "surprise_score": 0.45,
+        "tradability_score": 0.7,
+        "novelty_score": 0.6,
+        "crowding_risk": 0.45,
+        "confidence": 0.55,
+        "impact_level": "medium",
+        "source_type": "news",
+        "raw_payload_ref": "http://finance.eastmoney.com/a/202602133650508198.html",
+        "metadata": {
+          "legacy_type": "capital_raise",
+          "legacy_event_date": "2026-02-13",
+          "legacy_stock_code": "600369",
+          "legacy_stock_name": "西南证券",
+          "ingest_date": "2026-02-13",
+          "publisher": "每日经济新闻",
+          "matched_keywords": [
+            "定增",
+            "募资"
+          ]
+        },
+        "created_at": "2026-03-20T10:26:03.195712+00:00",
+        "updated_at": "2026-03-20T10:26:03.195713+00:00"
+      },
+      {
+        "event_id": "news:2026-02-13:601865:21a00a715a0c",
+        "event_type": "management_change",
+        "event_subtype": "management_change.executive",
+        "title": "福莱特：赵长海辞任副总裁",
+        "summary": "2月13日，福莱特（601865/06865）发布公告，近日公司董事会收到副总裁赵长海的辞职报告。赵长海因个人原因辞去副总裁职务，离任时间为2026年2月11日，原定任期到期日为2027年11月17日。辞职后，赵长海仍将负责子公司光伏玻璃的生产管理工作。",
+        "source": "news_incremental",
+        "entity_codes": [
+          "601865"
+        ],
+        "entity_names": [
+          "福莱特"
+        ],
+        "industry_codes": [],
+        "theme_tags": [
+          "new_energy"
+        ],
+        "event_time": "2026-02-13T00:00:00",
+        "discover_time": "2026-02-13T18:15:45",
+        "available_at": "2026-02-13T18:15:45",
+        "severity": 0.55,
+        "surprise_score": 0.45,
+        "tradability_score": 0.7,
+        "novelty_score": 0.6,
+        "crowding_risk": 0.35,
+        "confidence": 0.55,
+        "impact_level": "medium",
+        "source_type": "news",
+        "raw_payload_ref": "http://finance.eastmoney.com/a/202602133650515492.html",
+        "metadata": {
+          "legacy_type": "management_change",
+          "legacy_event_date": "2026-02-13",
+          "legacy_stock_code": "601865",
+          "legacy_stock_name": "福莱特",
+          "ingest_date": "2026-02-13",
+          "publisher": "财中社",
+          "matched_keywords": [
+            "辞职",
+            "离任"
+          ]
+        },
+        "created_at": "2026-03-20T10:26:03.196051+00:00",
+        "updated_at": "2026-03-20T10:26:03.196052+00:00"
+      },
+      {
+        "event_id": "news:2026-02-13:688599:3a2601f6cd09",
+        "event_type": "management_change",
+        "event_subtype": "management_change.executive",
+        "title": "688599 遭监管警示 又是因为SpaceX",
+        "summary": "【导读】天合光能及董秘被上交所予以监管警示 又有光伏巨头遭监管警示！这一次的主角是天合光能。 2月13日，上交所发布《关于对天合光能股份有限公司及有关责任人予以监管警示的决定》。 近期，有投资者就相关外媒报道的SpaceX扩建太阳能农场等相关信息向天合光能提问，询问公司与",
+        "source": "news_incremental",
+        "entity_codes": [
+          "688599"
+        ],
+        "entity_names": [
+          "天合光能"
+        ],
+        "industry_codes": [],
+        "theme_tags": [
+          "new_energy"
+        ],
+        "event_time": "2026-02-13T00:00:00",
+        "discover_time": "2026-02-13T20:02:56",
+        "available_at": "2026-02-13T20:02:56",
+        "severity": 0.55,
+        "surprise_score": 0.45,
+        "tradability_score": 0.7,
+        "novelty_score": 0.6,
+        "crowding_risk": 0.35,
+        "confidence": 0.55,
+        "impact_level": "medium",
+        "source_type": "news",
+        "raw_payload_ref": "http://finance.eastmoney.com/a/202602133650571047.html",
+        "metadata": {
+          "legacy_type": "management_change",
+          "legacy_event_date": "2026-02-13",
+          "legacy_stock_code": "688599",
+          "legacy_stock_name": "天合光能",
+          "ingest_date": "2026-02-13",
+          "publisher": "中国基金报",
+          "matched_keywords": [
+            "董秘"
+          ]
+        },
+        "created_at": "2026-03-20T10:26:03.196306+00:00",
+        "updated_at": "2026-03-20T10:26:03.196308+00:00"
+      },
+      {
+        "event_id": "news:2026-02-13:688692:4a7dd1b9c208",
+        "event_type": "management_change",
+        "event_subtype": "management_change.executive",
+        "title": "688692，高级副总经理解除留置！",
+        "summary": "2月13日晚，达梦数据688692公告称，公司近日收到湖北省应城市监察委员会出具的《解除留置通知书》，应城市监察委员会已解除对陈文的留置措施。目前，公司生产经营管理情况正常，陈文已能正常履行高级副总经理职责。",
+        "source": "news_incremental",
+        "entity_codes": [
+          "688692"
+        ],
+        "entity_names": [
+          "达梦数据"
+        ],
+        "industry_codes": [],
+        "theme_tags": [],
+        "event_time": "2026-02-13T00:00:00",
+        "discover_time": "2026-02-13T21:15:04",
+        "available_at": "2026-02-13T21:15:04",
+        "severity": 0.55,
+        "surprise_score": 0.45,
+        "tradability_score": 0.7,
+        "novelty_score": 0.6,
+        "crowding_risk": 0.35,
+        "confidence": 0.55,
+        "impact_level": "medium",
+        "source_type": "news",
+        "raw_payload_ref": "http://finance.eastmoney.com/a/202602133650653027.html",
+        "metadata": {
+          "legacy_type": "management_change",
+          "legacy_event_date": "2026-02-13",
+          "legacy_stock_code": "688692",
+          "legacy_stock_name": "达梦数据",
+          "ingest_date": "2026-02-13",
+          "publisher": "证券时报网",
+          "matched_keywords": [
+            "总经理"
+          ]
+        },
+        "created_at": "2026-03-20T10:26:03.196469+00:00",
+        "updated_at": "2026-03-20T10:26:03.196471+00:00"
+      }
+    ]
+  }
+}

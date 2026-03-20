@@ -1,0 +1,76 @@
+{
+  "generated_at": "2026-03-20T10:31:03Z",
+  "archive_root": "/Users/xukun/Documents/freqtrade/MiroFish/astrategy/.data/authoritative_archive/foundation",
+  "universe_id": "csi800",
+  "components": {
+    "filings": {
+      "component": "filings",
+      "snapshot_count": 18,
+      "authoritative_snapshot_count": 18,
+      "first_date": "2026-02-24",
+      "last_date": "2026-03-19",
+      "span_days": 23,
+      "quality_statuses": [
+        "authoritative_current",
+        "authoritative_local_replay"
+      ],
+      "span_two_year_ready": false,
+      "authoritative_two_year_ready": false
+    },
+    "news": {
+      "component": "news",
+      "snapshot_count": 101,
+      "authoritative_snapshot_count": 0,
+      "first_date": "2025-10-30",
+      "last_date": "2026-03-19",
+      "span_days": 140,
+      "quality_statuses": [
+        "live_cache_current",
+        "local_cache_replay"
+      ],
+      "span_two_year_ready": false,
+      "authoritative_two_year_ready": false
+    },
+    "sentiment": {
+      "component": "sentiment",
+      "snapshot_count": 101,
+      "authoritative_snapshot_count": 0,
+      "first_date": "2025-10-30",
+      "last_date": "2026-03-19",
+      "span_days": 140,
+      "quality_statuses": [
+        "derived_current",
+        "derived_no_hot_topic_history"
+      ],
+      "span_two_year_ready": false,
+      "authoritative_two_year_ready": false
+    },
+    "events": {
+      "component": "events",
+      "snapshot_count": 101,
+      "authoritative_snapshot_count": 0,
+      "first_date": "2025-10-30",
+      "last_date": "2026-03-19",
+      "span_days": 140,
+      "quality_statuses": [
+        "derived_current",
+        "derived_from_local_foundation"
+      ],
+      "span_two_year_ready": false,
+      "authoritative_two_year_ready": false
+    },
+    "graph": {
+      "component": "graph",
+      "snapshot_count": 1,
+      "authoritative_snapshot_count": 0,
+      "first_date": "2026-03-19",
+      "last_date": "2026-03-19",
+      "span_days": 0,
+      "quality_statuses": [
+        "state_snapshot_current"
+      ],
+      "span_two_year_ready": false,
+      "authoritative_two_year_ready": false
+    }
+  }
+}

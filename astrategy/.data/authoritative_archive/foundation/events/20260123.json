@@ -1,0 +1,115 @@
+{
+  "component": "events",
+  "as_of_date": "2026-01-23",
+  "universe_id": "csi800",
+  "quality_status": "derived_from_local_foundation",
+  "authoritative": false,
+  "run_context": "historical_backfill",
+  "generated_at": "2026-03-20T10:26:00Z",
+  "source_paths": [
+    ".data/authoritative_archive/foundation/filings/20260123.json",
+    ".data/authoritative_archive/foundation/news/20260123.json",
+    ".data/authoritative_archive/foundation/sentiment/20260123.json"
+  ],
+  "payload": {
+    "summary": {
+      "ingest_date": "2026-01-23",
+      "snapshot_mode": "historical_replay",
+      "history_quality": "derived_from_local_foundation",
+      "incremental_event_count": 2,
+      "event_master_count": 8,
+      "created_event_count": 2,
+      "filing_event_count": 0,
+      "news_event_count": 2,
+      "sentiment_event_count": 0,
+      "skipped_filing_other": 0,
+      "skipped_news_other": 1
+    },
+    "rows": [
+      {
+        "event_id": "news:2026-01-23:001391:6609e5eff065",
+        "event_type": "share_reduction",
+        "event_subtype": "share_reduction.disposal",
+        "title": "国货航：国风投创新基金拟减持公司不超过1.02%股份",
+        "summary": "人民财讯1月23日电，国货航0013911月23日公告，公司持股1.02%的股东国风投创新投资基金股份有限公司（简称“国风投创新基金”）计划以集中竞价及大宗交易方式减持公司股份不超过1.24亿股(占公司股份总数的1.02%)。",
+        "source": "news_incremental",
+        "entity_codes": [
+          "001391"
+        ],
+        "entity_names": [
+          "国货航"
+        ],
+        "industry_codes": [],
+        "theme_tags": [],
+        "event_time": "2026-01-23T00:00:00",
+        "discover_time": "2026-01-23T21:38:26",
+        "available_at": "2026-01-23T21:38:26",
+        "severity": 0.8,
+        "surprise_score": 0.45,
+        "tradability_score": 0.7,
+        "novelty_score": 0.6,
+        "crowding_risk": 0.45,
+        "confidence": 0.7,
+        "impact_level": "high",
+        "source_type": "news",
+        "raw_payload_ref": "http://finance.eastmoney.com/a/202601233629257011.html",
+        "metadata": {
+          "legacy_type": "share_reduction",
+          "legacy_event_date": "2026-01-23",
+          "legacy_stock_code": "001391",
+          "legacy_stock_name": "国货航",
+          "ingest_date": "2026-01-23",
+          "publisher": "人民财讯",
+          "matched_keywords": [
+            "减持"
+          ]
+        },
+        "created_at": "2026-03-20T10:26:00.961713+00:00",
+        "updated_at": "2026-03-20T10:26:00.961717+00:00"
+      },
+      {
+        "event_id": "news:2026-01-23:603195:7eb76f626ec2",
+        "event_type": "management_change",
+        "event_subtype": "management_change.executive",
+        "title": "吐槽公牛集团广告语被起诉索赔420万，家的电器已提起反诉",
+        "summary": "经典广告语遭同行吐槽，公牛集团（603195.SH）起诉家的公司索赔420万元一事迎来最新进展。 据澎湃新闻，1月21日，针对该事件，家的电器在广州召开媒体沟通会。面对“蹭流量”的质疑，家的电器创始人、总经理匡建回应称，发声初衷源于维护公平竞争环境和消费者知情权，而非炒作。",
+        "source": "news_incremental",
+        "entity_codes": [
+          "603195"
+        ],
+        "entity_names": [
+          "公牛集团"
+        ],
+        "industry_codes": [],
+        "theme_tags": [
+          "consumer"
+        ],
+        "event_time": "2026-01-23T00:00:00",
+        "discover_time": "2026-01-23T09:11:49",
+        "available_at": "2026-01-23T09:11:49",
+        "severity": 0.55,
+        "surprise_score": 0.45,
+        "tradability_score": 0.7,
+        "novelty_score": 0.6,
+        "crowding_risk": 0.35,
+        "confidence": 0.55,
+        "impact_level": "medium",
+        "source_type": "news",
+        "raw_payload_ref": "http://finance.eastmoney.com/a/202601233628308243.html",
+        "metadata": {
+          "legacy_type": "management_change",
+          "legacy_event_date": "2026-01-23",
+          "legacy_stock_code": "603195",
+          "legacy_stock_name": "公牛集团",
+          "ingest_date": "2026-01-23",
+          "publisher": "界面新闻",
+          "matched_keywords": [
+            "总经理"
+          ]
+        },
+        "created_at": "2026-03-20T10:26:00.961993+00:00",
+        "updated_at": "2026-03-20T10:26:00.961994+00:00"
+      }
+    ]
+  }
+}

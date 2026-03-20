@@ -1,0 +1,72 @@
+{
+  "component": "events",
+  "as_of_date": "2026-01-22",
+  "universe_id": "csi800",
+  "quality_status": "derived_from_local_foundation",
+  "authoritative": false,
+  "run_context": "historical_backfill",
+  "generated_at": "2026-03-20T10:26:00Z",
+  "source_paths": [
+    ".data/authoritative_archive/foundation/filings/20260122.json",
+    ".data/authoritative_archive/foundation/news/20260122.json",
+    ".data/authoritative_archive/foundation/sentiment/20260122.json"
+  ],
+  "payload": {
+    "summary": {
+      "ingest_date": "2026-01-22",
+      "snapshot_mode": "historical_replay",
+      "history_quality": "derived_from_local_foundation",
+      "incremental_event_count": 1,
+      "event_master_count": 6,
+      "created_event_count": 1,
+      "filing_event_count": 0,
+      "news_event_count": 1,
+      "sentiment_event_count": 0,
+      "skipped_filing_other": 0,
+      "skipped_news_other": 0
+    },
+    "rows": [
+      {
+        "event_id": "news:2026-01-22:603233:06daff1b8a81",
+        "event_type": "guarantee",
+        "event_subtype": "guarantee.external_support",
+        "title": "大参林：公司不存在逾期担保",
+        "summary": "证券日报网讯 1月22日，大参林发布公告称，截至本公告披露日，公司及其子公司对外担保余额为人民币352250万元，占公司最近一期经审计的归属于上市公司股东净资产的比例为43.28%。",
+        "source": "news_incremental",
+        "entity_codes": [
+          "603233"
+        ],
+        "entity_names": [
+          "大参林"
+        ],
+        "industry_codes": [],
+        "theme_tags": [],
+        "event_time": "2026-01-22T00:00:00",
+        "discover_time": "2026-01-22T22:04:24",
+        "available_at": "2026-01-22T22:04:24",
+        "severity": 0.55,
+        "surprise_score": 0.45,
+        "tradability_score": 0.7,
+        "novelty_score": 0.6,
+        "crowding_risk": 0.45,
+        "confidence": 0.55,
+        "impact_level": "medium",
+        "source_type": "news",
+        "raw_payload_ref": "http://finance.eastmoney.com/a/202601223627717511.html",
+        "metadata": {
+          "legacy_type": "guarantee",
+          "legacy_event_date": "2026-01-22",
+          "legacy_stock_code": "603233",
+          "legacy_stock_name": "大参林",
+          "ingest_date": "2026-01-22",
+          "publisher": "证券日报",
+          "matched_keywords": [
+            "担保"
+          ]
+        },
+        "created_at": "2026-03-20T10:26:00.815500+00:00",
+        "updated_at": "2026-03-20T10:26:00.815503+00:00"
+      }
+    ]
+  }
+}

@@ -1,0 +1,156 @@
+{
+  "component": "events",
+  "as_of_date": "2026-02-23",
+  "universe_id": "csi800",
+  "quality_status": "derived_from_local_foundation",
+  "authoritative": false,
+  "run_context": "historical_backfill",
+  "generated_at": "2026-03-20T10:26:04Z",
+  "source_paths": [
+    ".data/authoritative_archive/foundation/filings/20260223.json",
+    ".data/authoritative_archive/foundation/news/20260223.json",
+    ".data/authoritative_archive/foundation/sentiment/20260223.json"
+  ],
+  "payload": {
+    "summary": {
+      "ingest_date": "2026-02-23",
+      "snapshot_mode": "historical_replay",
+      "history_quality": "derived_from_local_foundation",
+      "incremental_event_count": 3,
+      "event_master_count": 70,
+      "created_event_count": 2,
+      "filing_event_count": 0,
+      "news_event_count": 2,
+      "sentiment_event_count": 0,
+      "skipped_filing_other": 0,
+      "skipped_news_other": 0
+    },
+    "rows": [
+      {
+        "event_id": "news:2026-02-23:600061:4db7c6c36ba5",
+        "event_type": "earnings_surprise",
+        "event_subtype": "earnings_surprise.report",
+        "title": "600061公告：白银基金估值调整事项，对净利润产生一定负面影响",
+        "summary": "【导读】国投资本：白银基金估值调整预计影响2026年度归母净利润 中国基金报记者忆山 2月23日，国投资本发布公告称，公司下属三级控股投资企业国投瑞银基金旗下国投瑞银白银期货证券投资基金（LOF）估值调整事项，预计将对公司2026年度归母净利润产生一定负面影响，影响金额低于公司",
+        "source": "news_incremental",
+        "entity_codes": [
+          "600061"
+        ],
+        "entity_names": [
+          "国投资本"
+        ],
+        "industry_codes": [],
+        "theme_tags": [],
+        "event_time": "2026-02-23T00:00:00",
+        "discover_time": "2026-02-23T18:47:54",
+        "available_at": "2026-02-23T18:47:54",
+        "severity": 0.8,
+        "surprise_score": 0.75,
+        "tradability_score": 0.7,
+        "novelty_score": 0.6,
+        "crowding_risk": 0.45,
+        "confidence": 0.7,
+        "impact_level": "high",
+        "source_type": "news",
+        "raw_payload_ref": "http://finance.eastmoney.com/a/202602233651995154.html",
+        "metadata": {
+          "legacy_type": "earnings_surprise",
+          "legacy_event_date": "2026-02-23",
+          "legacy_stock_code": "600061",
+          "legacy_stock_name": "国投资本",
+          "ingest_date": "2026-02-23",
+          "publisher": "中国基金报",
+          "matched_keywords": [
+            "净利润"
+          ]
+        },
+        "created_at": "2026-03-20T10:26:04.126046+00:00",
+        "updated_at": "2026-03-20T10:26:04.126050+00:00"
+      },
+      {
+        "event_id": "news:2026-02-23:600061:b6ddf882d83f",
+        "event_type": "earnings_surprise",
+        "event_subtype": "earnings_surprise.report",
+        "title": "国投资本：国投瑞银白银期货证券投资基金估值调整预计对2026年度归母净利润产生一定负面影响",
+        "summary": "每经AI快讯，2月23日，国投资本600061.SH)公告称，公司下属三级控股投资企业国投瑞银基金旗下国投瑞银白银期货证券投资基金（LOF）估值调整事项预计将对公司2026年度归母净利润产生一定负面影响，影响金额低于公司2024年度经审计归母净利润的5%，不会对公司整体业务发展产生实质性影响",
+        "source": "news_incremental",
+        "entity_codes": [
+          "600061"
+        ],
+        "entity_names": [
+          "国投资本"
+        ],
+        "industry_codes": [],
+        "theme_tags": [
+          "ai"
+        ],
+        "event_time": "2026-02-23T00:00:00",
+        "discover_time": "2026-02-23T16:35:59",
+        "available_at": "2026-02-23T16:35:59",
+        "severity": 0.8,
+        "surprise_score": 0.75,
+        "tradability_score": 0.7,
+        "novelty_score": 0.6,
+        "crowding_risk": 0.45,
+        "confidence": 0.7,
+        "impact_level": "high",
+        "source_type": "news",
+        "raw_payload_ref": "http://finance.eastmoney.com/a/202602233651981693.html",
+        "metadata": {
+          "legacy_type": "earnings_surprise",
+          "legacy_event_date": "2026-02-23",
+          "legacy_stock_code": "600061",
+          "legacy_stock_name": "国投资本",
+          "ingest_date": "2026-02-23",
+          "publisher": "每日经济新闻",
+          "matched_keywords": [
+            "净利润"
+          ]
+        },
+        "created_at": "2026-03-20T10:26:04.126275+00:00",
+        "updated_at": "2026-03-20T10:26:04.126277+00:00"
+      },
+      {
+        "event_id": "news:2026-02-23:600061:b6ddf882d83f",
+        "event_type": "earnings_surprise",
+        "event_subtype": "earnings_surprise.report",
+        "title": "国投资本：国投瑞银白银期货证券投资基金估值调整预计对2026年度归母净利润产生一定负面影响",
+        "summary": "国投资本600061.SH)公告称，近期，公司下属三级控股投资企业国投瑞银基金管理有限公司（简称“国投瑞银基金”）旗下国投瑞银白银期货证券投资基金（LOF）估值调整事项受到市场关注，国投瑞银基金已于2026年2月15日发布相关事项的专项工作方案。",
+        "source": "news_incremental",
+        "entity_codes": [
+          "600061"
+        ],
+        "entity_names": [
+          "国投资本"
+        ],
+        "industry_codes": [],
+        "theme_tags": [],
+        "event_time": "2026-02-23T00:00:00",
+        "discover_time": "2026-02-23T16:30:33",
+        "available_at": "2026-02-23T16:30:33",
+        "severity": 0.8,
+        "surprise_score": 0.75,
+        "tradability_score": 0.7,
+        "novelty_score": 0.6,
+        "crowding_risk": 0.45,
+        "confidence": 0.7,
+        "impact_level": "high",
+        "source_type": "news",
+        "raw_payload_ref": "http://finance.eastmoney.com/a/202602233651981033.html",
+        "metadata": {
+          "legacy_type": "earnings_surprise",
+          "legacy_event_date": "2026-02-23",
+          "legacy_stock_code": "600061",
+          "legacy_stock_name": "国投资本",
+          "ingest_date": "2026-02-23",
+          "publisher": "财联社",
+          "matched_keywords": [
+            "净利润"
+          ]
+        },
+        "created_at": "2026-03-20T10:26:04.126446+00:00",
+        "updated_at": "2026-03-20T10:26:04.126447+00:00"
+      }
+    ]
+  }
+}

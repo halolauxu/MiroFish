@@ -1,0 +1,1978 @@
+{
+  "component": "events",
+  "as_of_date": "2026-03-02",
+  "universe_id": "csi800",
+  "quality_status": "derived_from_local_foundation",
+  "authoritative": false,
+  "run_context": "historical_backfill",
+  "generated_at": "2026-03-20T10:26:05Z",
+  "source_paths": [
+    ".data/authoritative_archive/foundation/filings/20260302.json",
+    ".data/authoritative_archive/foundation/news/20260302.json",
+    ".data/authoritative_archive/foundation/sentiment/20260302.json"
+  ],
+  "payload": {
+    "summary": {
+      "ingest_date": "2026-03-02",
+      "snapshot_mode": "historical_replay",
+      "history_quality": "derived_from_local_foundation",
+      "incremental_event_count": 47,
+      "event_master_count": 351,
+      "created_event_count": 47,
+      "filing_event_count": 23,
+      "news_event_count": 19,
+      "sentiment_event_count": 5,
+      "skipped_filing_other": 25,
+      "skipped_news_other": 14
+    },
+    "rows": [
+      {
+        "event_id": "filing:2026-03-02:601766:1f9bff0294e5",
+        "event_type": "management_change",
+        "event_subtype": "management_change.executive",
+        "title": "中国中车关于聘任财务总监（总会计师）的公告",
+        "summary": "中国中车关于聘任财务总监（总会计师）的公告",
+        "source": "announcement_incremental",
+        "entity_codes": [
+          "601766"
+        ],
+        "entity_names": [
+          "中国中车"
+        ],
+        "industry_codes": [],
+        "theme_tags": [],
+        "event_time": "2026-03-02T00:00:00",
+        "discover_time": "2026-03-02T00:00:00",
+        "available_at": "2026-03-02T00:00:00",
+        "severity": 0.55,
+        "surprise_score": 0.45,
+        "tradability_score": 0.7,
+        "novelty_score": 0.6,
+        "crowding_risk": 0.35,
+        "confidence": 0.55,
+        "impact_level": "medium",
+        "source_type": "filing",
+        "raw_payload_ref": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=601766&announcementId=1224989483&orgId=9900005127&announcementTime=2026-03-02",
+        "metadata": {
+          "legacy_type": "management_change",
+          "legacy_event_date": "2026-03-02",
+          "legacy_stock_code": "601766",
+          "legacy_stock_name": "中国中车",
+          "ingest_date": "2026-03-02",
+          "announcement_type": "",
+          "matched_keywords": [
+            "聘任"
+          ]
+        },
+        "created_at": "2026-03-20T10:26:05.136123+00:00",
+        "updated_at": "2026-03-20T10:26:05.136127+00:00"
+      },
+      {
+        "event_id": "filing:2026-03-02:600988:f10f3aa99869",
+        "event_type": "management_change",
+        "event_subtype": "management_change.executive",
+        "title": "赤峰黄金关于聘任副总裁兼总工程师的公告",
+        "summary": "赤峰黄金关于聘任副总裁兼总工程师的公告",
+        "source": "announcement_incremental",
+        "entity_codes": [
+          "600988"
+        ],
+        "entity_names": [
+          "赤峰黄金"
+        ],
+        "industry_codes": [],
+        "theme_tags": [],
+        "event_time": "2026-03-02T00:00:00",
+        "discover_time": "2026-03-02T00:00:00",
+        "available_at": "2026-03-02T00:00:00",
+        "severity": 0.55,
+        "surprise_score": 0.45,
+        "tradability_score": 0.7,
+        "novelty_score": 0.6,
+        "crowding_risk": 0.35,
+        "confidence": 0.55,
+        "impact_level": "medium",
+        "source_type": "filing",
+        "raw_payload_ref": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=600988&announcementId=1224989490&orgId=gssh0600988&announcementTime=2026-03-02",
+        "metadata": {
+          "legacy_type": "management_change",
+          "legacy_event_date": "2026-03-02",
+          "legacy_stock_code": "600988",
+          "legacy_stock_name": "赤峰黄金",
+          "ingest_date": "2026-03-02",
+          "announcement_type": "",
+          "matched_keywords": [
+            "聘任"
+          ]
+        },
+        "created_at": "2026-03-20T10:26:05.136518+00:00",
+        "updated_at": "2026-03-20T10:26:05.136520+00:00"
+      },
+      {
+        "event_id": "filing:2026-03-02:600909:be721dc34d8f",
+        "event_type": "buyback",
+        "event_subtype": "buyback.shareholder_action",
+        "title": "华安证券股份有限公司关于控股股东增持公司可转债并转股及后续增持计划公告",
+        "summary": "股权变动",
+        "source": "announcement_incremental",
+        "entity_codes": [
+          "600909"
+        ],
+        "entity_names": [
+          "华安证券"
+        ],
+        "industry_codes": [],
+        "theme_tags": [],
+        "event_time": "2026-03-02T00:00:00",
+        "discover_time": "2026-03-02T00:00:00",
+        "available_at": "2026-03-02T00:00:00",
+        "severity": 0.55,
+        "surprise_score": 0.45,
+        "tradability_score": 0.7,
+        "novelty_score": 0.6,
+        "crowding_risk": 0.45,
+        "confidence": 0.55,
+        "impact_level": "medium",
+        "source_type": "filing",
+        "raw_payload_ref": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=600909&announcementId=1224989514&orgId=qsgn0000505&announcementTime=2026-03-02",
+        "metadata": {
+          "legacy_type": "buyback",
+          "legacy_event_date": "2026-03-02",
+          "legacy_stock_code": "600909",
+          "legacy_stock_name": "华安证券",
+          "ingest_date": "2026-03-02",
+          "announcement_type": "股权变动",
+          "matched_keywords": [
+            "增持"
+          ]
+        },
+        "created_at": "2026-03-20T10:26:05.136727+00:00",
+        "updated_at": "2026-03-20T10:26:05.136728+00:00"
+      },
+      {
+        "event_id": "filing:2026-03-02:600415:8169470236ee",
+        "event_type": "management_change",
+        "event_subtype": "management_change.executive",
+        "title": "关于聘任公司副总经理的公告",
+        "summary": "关于聘任公司副总经理的公告",
+        "source": "announcement_incremental",
+        "entity_codes": [
+          "600415"
+        ],
+        "entity_names": [
+          "小商品城"
+        ],
+        "industry_codes": [],
+        "theme_tags": [],
+        "event_time": "2026-03-02T00:00:00",
+        "discover_time": "2026-03-02T00:00:00",
+        "available_at": "2026-03-02T00:00:00",
+        "severity": 0.55,
+        "surprise_score": 0.45,
+        "tradability_score": 0.7,
+        "novelty_score": 0.6,
+        "crowding_risk": 0.35,
+        "confidence": 0.55,
+        "impact_level": "medium",
+        "source_type": "filing",
+        "raw_payload_ref": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=600415&announcementId=1224989467&orgId=gssh0600415&announcementTime=2026-03-02",
+        "metadata": {
+          "legacy_type": "management_change",
+          "legacy_event_date": "2026-03-02",
+          "legacy_stock_code": "600415",
+          "legacy_stock_name": "小商品城",
+          "ingest_date": "2026-03-02",
+          "announcement_type": "",
+          "matched_keywords": [
+            "总经理",
+            "聘任"
+          ]
+        },
+        "created_at": "2026-03-20T10:26:05.137258+00:00",
+        "updated_at": "2026-03-20T10:26:05.137259+00:00"
+      },
+      {
+        "event_id": "filing:2026-03-02:600363:33a5fe49854b",
+        "event_type": "buyback",
+        "event_subtype": "buyback.shareholder_action",
+        "title": "关于完成回购股份注销减少注册资本工商登记的公告",
+        "summary": "股权变动",
+        "source": "announcement_incremental",
+        "entity_codes": [
+          "600363"
+        ],
+        "entity_names": [
+          "联创光电"
+        ],
+        "industry_codes": [],
+        "theme_tags": [],
+        "event_time": "2026-03-02T00:00:00",
+        "discover_time": "2026-03-02T00:00:00",
+        "available_at": "2026-03-02T00:00:00",
+        "severity": 0.55,
+        "surprise_score": 0.45,
+        "tradability_score": 0.7,
+        "novelty_score": 0.6,
+        "crowding_risk": 0.45,
+        "confidence": 0.55,
+        "impact_level": "medium",
+        "source_type": "filing",
+        "raw_payload_ref": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=600363&announcementId=1224989478&orgId=gssh0600363&announcementTime=2026-03-02",
+        "metadata": {
+          "legacy_type": "buyback",
+          "legacy_event_date": "2026-03-02",
+          "legacy_stock_code": "600363",
+          "legacy_stock_name": "联创光电",
+          "ingest_date": "2026-03-02",
+          "announcement_type": "股权变动",
+          "matched_keywords": [
+            "回购",
+            "股份注销"
+          ]
+        },
+        "created_at": "2026-03-20T10:26:05.137383+00:00",
+        "updated_at": "2026-03-20T10:26:05.137385+00:00"
+      },
+      {
+        "event_id": "filing:2026-03-02:600031:dbde7ea8efff",
+        "event_type": "buyback",
+        "event_subtype": "buyback.shareholder_action",
+        "title": "三一重工股份有限公司关于回购公司A股股份的进展公告",
+        "summary": "股权变动",
+        "source": "announcement_incremental",
+        "entity_codes": [
+          "600031"
+        ],
+        "entity_names": [
+          "三一重工"
+        ],
+        "industry_codes": [],
+        "theme_tags": [],
+        "event_time": "2026-03-02T00:00:00",
+        "discover_time": "2026-03-02T00:00:00",
+        "available_at": "2026-03-02T00:00:00",
+        "severity": 0.55,
+        "surprise_score": 0.45,
+        "tradability_score": 0.7,
+        "novelty_score": 0.6,
+        "crowding_risk": 0.45,
+        "confidence": 0.55,
+        "impact_level": "medium",
+        "source_type": "filing",
+        "raw_payload_ref": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=600031&announcementId=1224989488&orgId=gssh0600031&announcementTime=2026-03-02",
+        "metadata": {
+          "legacy_type": "buyback",
+          "legacy_event_date": "2026-03-02",
+          "legacy_stock_code": "600031",
+          "legacy_stock_name": "三一重工",
+          "ingest_date": "2026-03-02",
+          "announcement_type": "股权变动",
+          "matched_keywords": [
+            "回购"
+          ]
+        },
+        "created_at": "2026-03-20T10:26:05.137594+00:00",
+        "updated_at": "2026-03-20T10:26:05.137595+00:00"
+      },
+      {
+        "event_id": "filing:2026-03-02:300832:3dc27df246ce",
+        "event_type": "buyback",
+        "event_subtype": "buyback.shareholder_action",
+        "title": "关于回购公司股份方案的公告",
+        "summary": "股权变动",
+        "source": "announcement_incremental",
+        "entity_codes": [
+          "300832"
+        ],
+        "entity_names": [
+          "新产业"
+        ],
+        "industry_codes": [],
+        "theme_tags": [],
+        "event_time": "2026-03-02T00:00:00",
+        "discover_time": "2026-03-02T16:12:11",
+        "available_at": "2026-03-02T16:12:11",
+        "severity": 0.55,
+        "surprise_score": 0.45,
+        "tradability_score": 0.7,
+        "novelty_score": 0.6,
+        "crowding_risk": 0.45,
+        "confidence": 0.55,
+        "impact_level": "medium",
+        "source_type": "filing",
+        "raw_payload_ref": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=300832&announcementId=1224990203&orgId=9900027265&announcementTime=2026-03-02 16:12:11",
+        "metadata": {
+          "legacy_type": "buyback",
+          "legacy_event_date": "2026-03-02",
+          "legacy_stock_code": "300832",
+          "legacy_stock_name": "新产业",
+          "ingest_date": "2026-03-02",
+          "announcement_type": "股权变动",
+          "matched_keywords": [
+            "回购"
+          ]
+        },
+        "created_at": "2026-03-20T10:26:05.137872+00:00",
+        "updated_at": "2026-03-20T10:26:05.137873+00:00"
+      },
+      {
+        "event_id": "filing:2026-03-02:300627:16d9960ed2d7",
+        "event_type": "share_reduction",
+        "event_subtype": "share_reduction.disposal",
+        "title": "关于高级管理人员减持公司股份的预披露公告",
+        "summary": "股权变动",
+        "source": "announcement_incremental",
+        "entity_codes": [
+          "300627"
+        ],
+        "entity_names": [
+          "华测导航"
+        ],
+        "industry_codes": [],
+        "theme_tags": [],
+        "event_time": "2026-03-02T00:00:00",
+        "discover_time": "2026-03-02T19:26:11",
+        "available_at": "2026-03-02T19:26:11",
+        "severity": 0.8,
+        "surprise_score": 0.45,
+        "tradability_score": 0.7,
+        "novelty_score": 0.6,
+        "crowding_risk": 0.45,
+        "confidence": 0.7,
+        "impact_level": "high",
+        "source_type": "filing",
+        "raw_payload_ref": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=300627&announcementId=1224992438&orgId=9900031443&announcementTime=2026-03-02 19:26:11",
+        "metadata": {
+          "legacy_type": "share_reduction",
+          "legacy_event_date": "2026-03-02",
+          "legacy_stock_code": "300627",
+          "legacy_stock_name": "华测导航",
+          "ingest_date": "2026-03-02",
+          "announcement_type": "股权变动",
+          "matched_keywords": [
+            "减持"
+          ]
+        },
+        "created_at": "2026-03-20T10:26:05.138065+00:00",
+        "updated_at": "2026-03-20T10:26:05.138066+00:00"
+      },
+      {
+        "event_id": "filing:2026-03-02:300601:e2db06298e93",
+        "event_type": "share_reduction",
+        "event_subtype": "share_reduction.disposal",
+        "title": "关于控股股东的一致行动人减持期限届满暨实施情况的公告",
+        "summary": "股权变动",
+        "source": "announcement_incremental",
+        "entity_codes": [
+          "300601"
+        ],
+        "entity_names": [
+          "康泰生物"
+        ],
+        "industry_codes": [],
+        "theme_tags": [],
+        "event_time": "2026-03-02T00:00:00",
+        "discover_time": "2026-03-02T19:04:09",
+        "available_at": "2026-03-02T19:04:09",
+        "severity": 0.8,
+        "surprise_score": 0.45,
+        "tradability_score": 0.7,
+        "novelty_score": 0.6,
+        "crowding_risk": 0.45,
+        "confidence": 0.7,
+        "impact_level": "high",
+        "source_type": "filing",
+        "raw_payload_ref": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=300601&announcementId=1224992335&orgId=9900030794&announcementTime=2026-03-02 19:04:09",
+        "metadata": {
+          "legacy_type": "share_reduction",
+          "legacy_event_date": "2026-03-02",
+          "legacy_stock_code": "300601",
+          "legacy_stock_name": "康泰生物",
+          "ingest_date": "2026-03-02",
+          "announcement_type": "股权变动",
+          "matched_keywords": [
+            "减持"
+          ]
+        },
+        "created_at": "2026-03-20T10:26:05.138193+00:00",
+        "updated_at": "2026-03-20T10:26:05.138194+00:00"
+      },
+      {
+        "event_id": "filing:2026-03-02:300558:468b8fe78442",
+        "event_type": "share_pledge",
+        "event_subtype": "share_pledge.collateral_change",
+        "title": "关于股东股份质押变动的公告",
+        "summary": "关于股东股份质押变动的公告",
+        "source": "announcement_incremental",
+        "entity_codes": [
+          "300558"
+        ],
+        "entity_names": [
+          "贝达药业"
+        ],
+        "industry_codes": [],
+        "theme_tags": [],
+        "event_time": "2026-03-02T00:00:00",
+        "discover_time": "2026-03-02T17:12:11",
+        "available_at": "2026-03-02T17:12:11",
+        "severity": 0.55,
+        "surprise_score": 0.45,
+        "tradability_score": 0.7,
+        "novelty_score": 0.6,
+        "crowding_risk": 0.45,
+        "confidence": 0.55,
+        "impact_level": "medium",
+        "source_type": "filing",
+        "raw_payload_ref": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=300558&announcementId=1224990657&orgId=9900028999&announcementTime=2026-03-02 17:12:11",
+        "metadata": {
+          "legacy_type": "share_pledge",
+          "legacy_event_date": "2026-03-02",
+          "legacy_stock_code": "300558",
+          "legacy_stock_name": "贝达药业",
+          "ingest_date": "2026-03-02",
+          "announcement_type": "",
+          "matched_keywords": [
+            "股份质押",
+            "质押变动"
+          ]
+        },
+        "created_at": "2026-03-20T10:26:05.138312+00:00",
+        "updated_at": "2026-03-20T10:26:05.138313+00:00"
+      },
+      {
+        "event_id": "filing:2026-03-02:300454:6ba1fa11f216",
+        "event_type": "capital_raise",
+        "event_subtype": "capital_raise.redemption",
+        "title": "深信服科技股份有限公司关于提前赎回信服转债的第七次提示性公告",
+        "summary": "深信服科技股份有限公司关于提前赎回信服转债的第七次提示性公告",
+        "source": "announcement_incremental",
+        "entity_codes": [
+          "300454"
+        ],
+        "entity_names": [
+          "深信服"
+        ],
+        "industry_codes": [],
+        "theme_tags": [],
+        "event_time": "2026-03-02T00:00:00",
+        "discover_time": "2026-03-02T15:48:09",
+        "available_at": "2026-03-02T15:48:09",
+        "severity": 0.55,
+        "surprise_score": 0.45,
+        "tradability_score": 0.7,
+        "novelty_score": 0.6,
+        "crowding_risk": 0.45,
+        "confidence": 0.55,
+        "impact_level": "medium",
+        "source_type": "filing",
+        "raw_payload_ref": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=300454&announcementId=1224990075&orgId=9900035739&announcementTime=2026-03-02 15:48:09",
+        "metadata": {
+          "legacy_type": "capital_raise",
+          "legacy_event_date": "2026-03-02",
+          "legacy_stock_code": "300454",
+          "legacy_stock_name": "深信服",
+          "ingest_date": "2026-03-02",
+          "announcement_type": "",
+          "matched_keywords": [
+            "提前赎回"
+          ]
+        },
+        "created_at": "2026-03-20T10:26:05.138437+00:00",
+        "updated_at": "2026-03-20T10:26:05.138438+00:00"
+      },
+      {
+        "event_id": "filing:2026-03-02:300395:45dcf7a979f7",
+        "event_type": "share_reduction",
+        "event_subtype": "share_reduction.disposal",
+        "title": "关于董事、高级管理人员股份减持计划期限届满暨实施情况的公告",
+        "summary": "股权变动",
+        "source": "announcement_incremental",
+        "entity_codes": [
+          "300395"
+        ],
+        "entity_names": [
+          "菲利华"
+        ],
+        "industry_codes": [],
+        "theme_tags": [],
+        "event_time": "2026-03-02T00:00:00",
+        "discover_time": "2026-03-02T18:26:12",
+        "available_at": "2026-03-02T18:26:12",
+        "severity": 0.8,
+        "surprise_score": 0.45,
+        "tradability_score": 0.7,
+        "novelty_score": 0.6,
+        "crowding_risk": 0.45,
+        "confidence": 0.7,
+        "impact_level": "high",
+        "source_type": "filing",
+        "raw_payload_ref": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=300395&announcementId=1224991919&orgId=9900023110&announcementTime=2026-03-02 18:26:12",
+        "metadata": {
+          "legacy_type": "share_reduction",
+          "legacy_event_date": "2026-03-02",
+          "legacy_stock_code": "300395",
+          "legacy_stock_name": "菲利华",
+          "ingest_date": "2026-03-02",
+          "announcement_type": "股权变动",
+          "matched_keywords": [
+            "减持",
+            "减持计划"
+          ]
+        },
+        "created_at": "2026-03-20T10:26:05.138555+00:00",
+        "updated_at": "2026-03-20T10:26:05.138556+00:00"
+      },
+      {
+        "event_id": "filing:2026-03-02:300285:46de0170e603",
+        "event_type": "buyback",
+        "event_subtype": "buyback.shareholder_action",
+        "title": "关于回购公司股份的进展公告",
+        "summary": "股权变动",
+        "source": "announcement_incremental",
+        "entity_codes": [
+          "300285"
+        ],
+        "entity_names": [
+          "国瓷材料"
+        ],
+        "industry_codes": [],
+        "theme_tags": [],
+        "event_time": "2026-03-02T00:00:00",
+        "discover_time": "2026-03-02T18:12:12",
+        "available_at": "2026-03-02T18:12:12",
+        "severity": 0.55,
+        "surprise_score": 0.45,
+        "tradability_score": 0.7,
+        "novelty_score": 0.6,
+        "crowding_risk": 0.45,
+        "confidence": 0.55,
+        "impact_level": "medium",
+        "source_type": "filing",
+        "raw_payload_ref": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=300285&announcementId=1224991689&orgId=9900021557&announcementTime=2026-03-02 18:12:12",
+        "metadata": {
+          "legacy_type": "buyback",
+          "legacy_event_date": "2026-03-02",
+          "legacy_stock_code": "300285",
+          "legacy_stock_name": "国瓷材料",
+          "ingest_date": "2026-03-02",
+          "announcement_type": "股权变动",
+          "matched_keywords": [
+            "回购"
+          ]
+        },
+        "created_at": "2026-03-20T10:26:05.138748+00:00",
+        "updated_at": "2026-03-20T10:26:05.138749+00:00"
+      },
+      {
+        "event_id": "filing:2026-03-02:300144:46de0170e603",
+        "event_type": "buyback",
+        "event_subtype": "buyback.shareholder_action",
+        "title": "关于回购公司股份的进展公告",
+        "summary": "股权变动",
+        "source": "announcement_incremental",
+        "entity_codes": [
+          "300144"
+        ],
+        "entity_names": [
+          "宋城演艺"
+        ],
+        "industry_codes": [],
+        "theme_tags": [],
+        "event_time": "2026-03-02T00:00:00",
+        "discover_time": "2026-03-02T18:12:12",
+        "available_at": "2026-03-02T18:12:12",
+        "severity": 0.55,
+        "surprise_score": 0.45,
+        "tradability_score": 0.7,
+        "novelty_score": 0.6,
+        "crowding_risk": 0.45,
+        "confidence": 0.55,
+        "impact_level": "medium",
+        "source_type": "filing",
+        "raw_payload_ref": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=300144&announcementId=1224991684&orgId=9900015467&announcementTime=2026-03-02 18:12:12",
+        "metadata": {
+          "legacy_type": "buyback",
+          "legacy_event_date": "2026-03-02",
+          "legacy_stock_code": "300144",
+          "legacy_stock_name": "宋城演艺",
+          "ingest_date": "2026-03-02",
+          "announcement_type": "股权变动",
+          "matched_keywords": [
+            "回购"
+          ]
+        },
+        "created_at": "2026-03-20T10:26:05.138868+00:00",
+        "updated_at": "2026-03-20T10:26:05.138869+00:00"
+      },
+      {
+        "event_id": "filing:2026-03-02:300014:23fd4478dbf8",
+        "event_type": "buyback",
+        "event_subtype": "buyback.shareholder_action",
+        "title": "关于公司第七期股票期权与限制性股票激励计划内幕信息知情人及激励对象买卖公司股票情况的自查报告",
+        "summary": "股权激励",
+        "source": "announcement_incremental",
+        "entity_codes": [
+          "300014"
+        ],
+        "entity_names": [
+          "亿纬锂能"
+        ],
+        "industry_codes": [],
+        "theme_tags": [],
+        "event_time": "2026-03-02T00:00:00",
+        "discover_time": "2026-03-02T18:48:11",
+        "available_at": "2026-03-02T18:48:11",
+        "severity": 0.55,
+        "surprise_score": 0.45,
+        "tradability_score": 0.7,
+        "novelty_score": 0.6,
+        "crowding_risk": 0.45,
+        "confidence": 0.55,
+        "impact_level": "medium",
+        "source_type": "filing",
+        "raw_payload_ref": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=300014&announcementId=1224992147&orgId=9900008311&announcementTime=2026-03-02 18:48:11",
+        "metadata": {
+          "legacy_type": "buyback",
+          "legacy_event_date": "2026-03-02",
+          "legacy_stock_code": "300014",
+          "legacy_stock_name": "亿纬锂能",
+          "ingest_date": "2026-03-02",
+          "announcement_type": "股权激励",
+          "matched_keywords": [
+            "股权激励"
+          ]
+        },
+        "created_at": "2026-03-20T10:26:05.139299+00:00",
+        "updated_at": "2026-03-20T10:26:05.139300+00:00"
+      },
+      {
+        "event_id": "filing:2026-03-02:300003:c7b8e028f54e",
+        "event_type": "technology_breakthrough",
+        "event_subtype": "technology_breakthrough.approval",
+        "title": "关于MWX401注射液获得药物临床试验批准通知书的公告",
+        "summary": "关于MWX401注射液获得药物临床试验批准通知书的公告",
+        "source": "announcement_incremental",
+        "entity_codes": [
+          "300003"
+        ],
+        "entity_names": [
+          "乐普医疗"
+        ],
+        "industry_codes": [],
+        "theme_tags": [],
+        "event_time": "2026-03-02T00:00:00",
+        "discover_time": "2026-03-02T00:00:00",
+        "available_at": "2026-03-02T00:00:00",
+        "severity": 0.8,
+        "surprise_score": 0.75,
+        "tradability_score": 0.7,
+        "novelty_score": 0.6,
+        "crowding_risk": 0.45,
+        "confidence": 0.7,
+        "impact_level": "high",
+        "source_type": "filing",
+        "raw_payload_ref": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=300003&announcementId=1224989500&orgId=9900008269&announcementTime=2026-03-02 00:00:00",
+        "metadata": {
+          "legacy_type": "technology_breakthrough",
+          "legacy_event_date": "2026-03-02",
+          "legacy_stock_code": "300003",
+          "legacy_stock_name": "乐普医疗",
+          "ingest_date": "2026-03-02",
+          "announcement_type": "",
+          "matched_keywords": [
+            "临床"
+          ]
+        },
+        "created_at": "2026-03-20T10:26:05.139501+00:00",
+        "updated_at": "2026-03-20T10:26:05.139502+00:00"
+      },
+      {
+        "event_id": "filing:2026-03-02:002736:204af1cd02d7",
+        "event_type": "capital_raise",
+        "event_subtype": "capital_raise.equity",
+        "title": "国信证券股份有限公司2026年面向专业投资者公开发行公司债券（第二期）票面利率公告",
+        "summary": "债券融资",
+        "source": "announcement_incremental",
+        "entity_codes": [
+          "002736"
+        ],
+        "entity_names": [
+          "国信证券"
+        ],
+        "industry_codes": [],
+        "theme_tags": [],
+        "event_time": "2026-03-02T00:00:00",
+        "discover_time": "2026-03-02T20:46:11",
+        "available_at": "2026-03-02T20:46:11",
+        "severity": 0.55,
+        "surprise_score": 0.45,
+        "tradability_score": 0.7,
+        "novelty_score": 0.6,
+        "crowding_risk": 0.45,
+        "confidence": 0.55,
+        "impact_level": "medium",
+        "source_type": "filing",
+        "raw_payload_ref": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=002736&announcementId=1224992813&orgId=9900004734&announcementTime=2026-03-02 20:46:11",
+        "metadata": {
+          "legacy_type": "capital_raise",
+          "legacy_event_date": "2026-03-02",
+          "legacy_stock_code": "002736",
+          "legacy_stock_name": "国信证券",
+          "ingest_date": "2026-03-02",
+          "announcement_type": "债券融资",
+          "matched_keywords": [
+            "融资"
+          ]
+        },
+        "created_at": "2026-03-20T10:26:05.139716+00:00",
+        "updated_at": "2026-03-20T10:26:05.139717+00:00"
+      },
+      {
+        "event_id": "filing:2026-03-02:002736:26b0119e395a",
+        "event_type": "capital_raise",
+        "event_subtype": "capital_raise.equity",
+        "title": "关于延长国信证券股份有限公司2026年面向专业投资者公开发行公司债券（第二期）簿记建档时间的公告",
+        "summary": "债券融资",
+        "source": "announcement_incremental",
+        "entity_codes": [
+          "002736"
+        ],
+        "entity_names": [
+          "国信证券"
+        ],
+        "industry_codes": [],
+        "theme_tags": [],
+        "event_time": "2026-03-02T00:00:00",
+        "discover_time": "2026-03-02T17:44:11",
+        "available_at": "2026-03-02T17:44:11",
+        "severity": 0.55,
+        "surprise_score": 0.45,
+        "tradability_score": 0.7,
+        "novelty_score": 0.6,
+        "crowding_risk": 0.45,
+        "confidence": 0.55,
+        "impact_level": "medium",
+        "source_type": "filing",
+        "raw_payload_ref": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=002736&announcementId=1224991227&orgId=9900004734&announcementTime=2026-03-02 17:44:11",
+        "metadata": {
+          "legacy_type": "capital_raise",
+          "legacy_event_date": "2026-03-02",
+          "legacy_stock_code": "002736",
+          "legacy_stock_name": "国信证券",
+          "ingest_date": "2026-03-02",
+          "announcement_type": "债券融资",
+          "matched_keywords": [
+            "融资"
+          ]
+        },
+        "created_at": "2026-03-20T10:26:05.139840+00:00",
+        "updated_at": "2026-03-20T10:26:05.139841+00:00"
+      },
+      {
+        "event_id": "filing:2026-03-02:000783:6a23814ef4b7",
+        "event_type": "capital_raise",
+        "event_subtype": "capital_raise.equity",
+        "title": "长江证券股份有限公司2026年面向专业投资者公开发行公司债券（第一期）票面利率公告",
+        "summary": "债券融资",
+        "source": "announcement_incremental",
+        "entity_codes": [
+          "000783"
+        ],
+        "entity_names": [
+          "长江证券"
+        ],
+        "industry_codes": [],
+        "theme_tags": [],
+        "event_time": "2026-03-02T00:00:00",
+        "discover_time": "2026-03-02T21:00:11",
+        "available_at": "2026-03-02T21:00:11",
+        "severity": 0.55,
+        "surprise_score": 0.45,
+        "tradability_score": 0.7,
+        "novelty_score": 0.6,
+        "crowding_risk": 0.45,
+        "confidence": 0.55,
+        "impact_level": "medium",
+        "source_type": "filing",
+        "raw_payload_ref": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=000783&announcementId=1224992837&orgId=gssz0000783&announcementTime=2026-03-02 21:00:11",
+        "metadata": {
+          "legacy_type": "capital_raise",
+          "legacy_event_date": "2026-03-02",
+          "legacy_stock_code": "000783",
+          "legacy_stock_name": "长江证券",
+          "ingest_date": "2026-03-02",
+          "announcement_type": "债券融资",
+          "matched_keywords": [
+            "融资"
+          ]
+        },
+        "created_at": "2026-03-20T10:26:05.140124+00:00",
+        "updated_at": "2026-03-20T10:26:05.140125+00:00"
+      },
+      {
+        "event_id": "filing:2026-03-02:000783:27f9fac434e5",
+        "event_type": "capital_raise",
+        "event_subtype": "capital_raise.equity",
+        "title": "关于延长长江证券股份有限公司2026年面向专业投资者公开发行公司债券（第一期）簿记建档时间的公告",
+        "summary": "债券融资",
+        "source": "announcement_incremental",
+        "entity_codes": [
+          "000783"
+        ],
+        "entity_names": [
+          "长江证券"
+        ],
+        "industry_codes": [],
+        "theme_tags": [],
+        "event_time": "2026-03-02T00:00:00",
+        "discover_time": "2026-03-02T17:36:09",
+        "available_at": "2026-03-02T17:36:09",
+        "severity": 0.55,
+        "surprise_score": 0.45,
+        "tradability_score": 0.7,
+        "novelty_score": 0.6,
+        "crowding_risk": 0.45,
+        "confidence": 0.55,
+        "impact_level": "medium",
+        "source_type": "filing",
+        "raw_payload_ref": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=000783&announcementId=1224991090&orgId=gssz0000783&announcementTime=2026-03-02 17:36:09",
+        "metadata": {
+          "legacy_type": "capital_raise",
+          "legacy_event_date": "2026-03-02",
+          "legacy_stock_code": "000783",
+          "legacy_stock_name": "长江证券",
+          "ingest_date": "2026-03-02",
+          "announcement_type": "债券融资",
+          "matched_keywords": [
+            "融资"
+          ]
+        },
+        "created_at": "2026-03-20T10:26:05.140246+00:00",
+        "updated_at": "2026-03-20T10:26:05.140247+00:00"
+      },
+      {
+        "event_id": "filing:2026-03-02:000657:bb53fd206db8",
+        "event_type": "policy_risk",
+        "event_subtype": "policy_risk.abnormal_trading",
+        "title": "股票交易异常波动公告",
+        "summary": "股票交易异常波动公告",
+        "source": "announcement_incremental",
+        "entity_codes": [
+          "000657"
+        ],
+        "entity_names": [
+          "中钨高新"
+        ],
+        "industry_codes": [],
+        "theme_tags": [],
+        "event_time": "2026-03-02T00:00:00",
+        "discover_time": "2026-03-02T00:00:00",
+        "available_at": "2026-03-02T00:00:00",
+        "severity": 0.8,
+        "surprise_score": 0.75,
+        "tradability_score": 0.7,
+        "novelty_score": 0.6,
+        "crowding_risk": 0.35,
+        "confidence": 0.7,
+        "impact_level": "high",
+        "source_type": "filing",
+        "raw_payload_ref": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=000657&announcementId=1224988589&orgId=gssz0000657&announcementTime=2026-03-02",
+        "metadata": {
+          "legacy_type": "policy_risk",
+          "legacy_event_date": "2026-03-02",
+          "legacy_stock_code": "000657",
+          "legacy_stock_name": "中钨高新",
+          "ingest_date": "2026-03-02",
+          "announcement_type": "",
+          "matched_keywords": [
+            "股票交易异常波动",
+            "异常波动公告"
+          ]
+        },
+        "created_at": "2026-03-20T10:26:05.140359+00:00",
+        "updated_at": "2026-03-20T10:26:05.140360+00:00"
+      },
+      {
+        "event_id": "filing:2026-03-02:000423:551a7ed85137",
+        "event_type": "buyback",
+        "event_subtype": "buyback.shareholder_action",
+        "title": "关于第一期限制性股票激励计划预留授予登记完成的公告",
+        "summary": "股权激励",
+        "source": "announcement_incremental",
+        "entity_codes": [
+          "000423"
+        ],
+        "entity_names": [
+          "东阿阿胶"
+        ],
+        "industry_codes": [],
+        "theme_tags": [],
+        "event_time": "2026-03-02T00:00:00",
+        "discover_time": "2026-03-02T00:00:00",
+        "available_at": "2026-03-02T00:00:00",
+        "severity": 0.55,
+        "surprise_score": 0.45,
+        "tradability_score": 0.7,
+        "novelty_score": 0.6,
+        "crowding_risk": 0.45,
+        "confidence": 0.55,
+        "impact_level": "medium",
+        "source_type": "filing",
+        "raw_payload_ref": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=000423&announcementId=1224988042&orgId=gssz0000423&announcementTime=2026-03-02",
+        "metadata": {
+          "legacy_type": "buyback",
+          "legacy_event_date": "2026-03-02",
+          "legacy_stock_code": "000423",
+          "legacy_stock_name": "东阿阿胶",
+          "ingest_date": "2026-03-02",
+          "announcement_type": "股权激励",
+          "matched_keywords": [
+            "股权激励"
+          ]
+        },
+        "created_at": "2026-03-20T10:26:05.140634+00:00",
+        "updated_at": "2026-03-20T10:26:05.140635+00:00"
+      },
+      {
+        "event_id": "filing:2026-03-02:000423:6bb1e4f2491d",
+        "event_type": "buyback",
+        "event_subtype": "buyback.shareholder_action",
+        "title": "关于以集中竞价交易方式回购公司股份的进展公告",
+        "summary": "股权变动",
+        "source": "announcement_incremental",
+        "entity_codes": [
+          "000423"
+        ],
+        "entity_names": [
+          "东阿阿胶"
+        ],
+        "industry_codes": [],
+        "theme_tags": [],
+        "event_time": "2026-03-02T00:00:00",
+        "discover_time": "2026-03-02T00:00:00",
+        "available_at": "2026-03-02T00:00:00",
+        "severity": 0.55,
+        "surprise_score": 0.45,
+        "tradability_score": 0.7,
+        "novelty_score": 0.6,
+        "crowding_risk": 0.45,
+        "confidence": 0.55,
+        "impact_level": "medium",
+        "source_type": "filing",
+        "raw_payload_ref": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=000423&announcementId=1224988043&orgId=gssz0000423&announcementTime=2026-03-02",
+        "metadata": {
+          "legacy_type": "buyback",
+          "legacy_event_date": "2026-03-02",
+          "legacy_stock_code": "000423",
+          "legacy_stock_name": "东阿阿胶",
+          "ingest_date": "2026-03-02",
+          "announcement_type": "股权变动",
+          "matched_keywords": [
+            "回购"
+          ]
+        },
+        "created_at": "2026-03-20T10:26:05.140749+00:00",
+        "updated_at": "2026-03-20T10:26:05.140750+00:00"
+      },
+      {
+        "event_id": "news:2026-03-02:000625:aa6a0b6bf612",
+        "event_type": "buyback",
+        "event_subtype": "buyback.shareholder_action",
+        "title": "000625，拟最高回购14亿元公司A股股份",
+        "summary": "3月2日，长安汽车（000625）发布公告称，拟10亿元—20亿元回购公司股份。其中，回购A股不低于人民币7亿元（含）且不超过人民币14亿元（含）；回购B股不低于人民币3亿元（含）且不超过人民币6亿元（含）。",
+        "source": "news_incremental",
+        "entity_codes": [
+          "000625"
+        ],
+        "entity_names": [
+          "长安汽车"
+        ],
+        "industry_codes": [],
+        "theme_tags": [
+          "auto"
+        ],
+        "event_time": "2026-03-02T00:00:00",
+        "discover_time": "2026-03-02T20:16:08",
+        "available_at": "2026-03-02T20:16:08",
+        "severity": 0.55,
+        "surprise_score": 0.45,
+        "tradability_score": 0.7,
+        "novelty_score": 0.6,
+        "crowding_risk": 0.45,
+        "confidence": 0.55,
+        "impact_level": "medium",
+        "source_type": "news",
+        "raw_payload_ref": "http://finance.eastmoney.com/a/202603023658766154.html",
+        "metadata": {
+          "legacy_type": "buyback",
+          "legacy_event_date": "2026-03-02",
+          "legacy_stock_code": "000625",
+          "legacy_stock_name": "长安汽车",
+          "ingest_date": "2026-03-02",
+          "publisher": "证券时报",
+          "matched_keywords": [
+            "回购"
+          ]
+        },
+        "created_at": "2026-03-20T10:26:05.141361+00:00",
+        "updated_at": "2026-03-20T10:26:05.141362+00:00"
+      },
+      {
+        "event_id": "news:2026-03-02:000785:e86745395f6a",
+        "event_type": "management_change",
+        "event_subtype": "management_change.executive",
+        "title": "居然智家副总裁何勇辞职",
+        "summary": "3月2日，居然智家（000785）发布公告，董事会于近日收到公司副总裁何勇辞职报告，因个人工作调整，何勇提请辞去副总裁职务，原定任期至公司第十二届董事会任期届满。 辞职后，何勇不再担任公司任何职务，其辞职自送达董事会之日起生效，且不会对公司的正常生产经营产生影响。",
+        "source": "news_incremental",
+        "entity_codes": [
+          "000785"
+        ],
+        "entity_names": [
+          "居然智家"
+        ],
+        "industry_codes": [],
+        "theme_tags": [],
+        "event_time": "2026-03-02T00:00:00",
+        "discover_time": "2026-03-02T18:05:50",
+        "available_at": "2026-03-02T18:05:50",
+        "severity": 0.55,
+        "surprise_score": 0.45,
+        "tradability_score": 0.7,
+        "novelty_score": 0.6,
+        "crowding_risk": 0.35,
+        "confidence": 0.55,
+        "impact_level": "medium",
+        "source_type": "news",
+        "raw_payload_ref": "http://finance.eastmoney.com/a/202603023658672120.html",
+        "metadata": {
+          "legacy_type": "management_change",
+          "legacy_event_date": "2026-03-02",
+          "legacy_stock_code": "000785",
+          "legacy_stock_name": "居然智家",
+          "ingest_date": "2026-03-02",
+          "publisher": "财中社",
+          "matched_keywords": [
+            "辞职"
+          ]
+        },
+        "created_at": "2026-03-20T10:26:05.141503+00:00",
+        "updated_at": "2026-03-20T10:26:05.141504+00:00"
+      },
+      {
+        "event_id": "news:2026-03-02:000967:e979a4f0f6ba",
+        "event_type": "buyback",
+        "event_subtype": "buyback.shareholder_action",
+        "title": "重要股东增持排行榜：11股增持金额超千万元",
+        "summary": "600346 恒力石化 1 1 675.12 17008.65 1.50 688301 奕瑞科技 1 1 101.88 9806.93 -1.04 002286 保龄宝 1 3 837.00 8809.55 5.80 002083 孚日股份 1 1 347.52 4014.85 0.34 000967",
+        "source": "news_incremental",
+        "entity_codes": [
+          "000967"
+        ],
+        "entity_names": [
+          "盈峰环境"
+        ],
+        "industry_codes": [],
+        "theme_tags": [],
+        "event_time": "2026-03-02T00:00:00",
+        "discover_time": "2026-03-02T09:40:01",
+        "available_at": "2026-03-02T09:40:01",
+        "severity": 0.55,
+        "surprise_score": 0.45,
+        "tradability_score": 0.7,
+        "novelty_score": 0.6,
+        "crowding_risk": 0.45,
+        "confidence": 0.55,
+        "impact_level": "medium",
+        "source_type": "news",
+        "raw_payload_ref": "http://finance.eastmoney.com/a/202603023658099231.html",
+        "metadata": {
+          "legacy_type": "buyback",
+          "legacy_event_date": "2026-03-02",
+          "legacy_stock_code": "000967",
+          "legacy_stock_name": "盈峰环境",
+          "ingest_date": "2026-03-02",
+          "publisher": "证券时报网",
+          "matched_keywords": [
+            "增持"
+          ]
+        },
+        "created_at": "2026-03-20T10:26:05.141633+00:00",
+        "updated_at": "2026-03-20T10:26:05.141634+00:00"
+      },
+      {
+        "event_id": "news:2026-03-02:002265:ce08141b18a0",
+        "event_type": "ma",
+        "event_subtype": "ma.restructuring",
+        "title": "兵装重组概念涨2.50%，主力资金净流入5股",
+        "summary": "今日换手率（%） 主力资金流量（万元） 主力资金净流入比率（%） 601606 长城军工 7.47 9.80 11357.32 3.25 600698 湖南天雁 5.13 6.16 4114.94 9.13 688151 华强科技 4.56 2.93 1957.83 8.21 002265",
+        "source": "news_incremental",
+        "entity_codes": [
+          "002265"
+        ],
+        "entity_names": [
+          "建设工业"
+        ],
+        "industry_codes": [],
+        "theme_tags": [
+          "military"
+        ],
+        "event_time": "2026-03-02T00:00:00",
+        "discover_time": "2026-03-02T17:06:57",
+        "available_at": "2026-03-02T17:06:57",
+        "severity": 0.8,
+        "surprise_score": 0.45,
+        "tradability_score": 0.7,
+        "novelty_score": 0.6,
+        "crowding_risk": 0.45,
+        "confidence": 0.7,
+        "impact_level": "high",
+        "source_type": "news",
+        "raw_payload_ref": "http://finance.eastmoney.com/a/202603023658604686.html",
+        "metadata": {
+          "legacy_type": "ma",
+          "legacy_event_date": "2026-03-02",
+          "legacy_stock_code": "002265",
+          "legacy_stock_name": "建设工业",
+          "ingest_date": "2026-03-02",
+          "publisher": "证券时报网",
+          "matched_keywords": [
+            "重组"
+          ]
+        },
+        "created_at": "2026-03-20T10:26:05.141861+00:00",
+        "updated_at": "2026-03-20T10:26:05.141862+00:00"
+      },
+      {
+        "event_id": "news:2026-03-02:002594:0af12fff93d2",
+        "event_type": "product_launch",
+        "event_subtype": "product_launch.new_release",
+        "title": "002594，重磅发布！午后飙涨",
+        "summary": "【导读】比亚迪将于3月5日召开颠覆性技术发布会 中国基金报记者晨曦 3月2日午后，A股比亚迪股价持续拉升，盘中最高达97.25元/股，涨近9%。截至当日收盘，比亚迪报96.79元/股，涨幅为8.36%；成交额超135亿元，总市值达8824.54亿元。 H股比亚迪股份同步走强",
+        "source": "news_incremental",
+        "entity_codes": [
+          "002594"
+        ],
+        "entity_names": [
+          "比亚迪"
+        ],
+        "industry_codes": [],
+        "theme_tags": [],
+        "event_time": "2026-03-02T00:00:00",
+        "discover_time": "2026-03-02T15:36:22",
+        "available_at": "2026-03-02T15:36:22",
+        "severity": 0.55,
+        "surprise_score": 0.75,
+        "tradability_score": 0.7,
+        "novelty_score": 0.6,
+        "crowding_risk": 0.45,
+        "confidence": 0.55,
+        "impact_level": "medium",
+        "source_type": "news",
+        "raw_payload_ref": "http://finance.eastmoney.com/a/202603023658479319.html",
+        "metadata": {
+          "legacy_type": "product_launch",
+          "legacy_event_date": "2026-03-02",
+          "legacy_stock_code": "002594",
+          "legacy_stock_name": "比亚迪",
+          "ingest_date": "2026-03-02",
+          "publisher": "中国基金报",
+          "matched_keywords": [
+            "发布",
+            "发布会"
+          ]
+        },
+        "created_at": "2026-03-20T10:26:05.142005+00:00",
+        "updated_at": "2026-03-20T10:26:05.142006+00:00"
+      },
+      {
+        "event_id": "news:2026-03-02:300012:3b79fa888f51",
+        "event_type": "policy_risk",
+        "event_subtype": "policy_risk.delisting",
+        "title": "6.48亿元资金今日流出社会服务股",
+        "summary": "大连圣亚 0.76 5.05 624.29 300962 中金辐照 1.14 4.67 665.78 301169 零点有数 -2.39 2.26 716.61 000524 岭南控股 0.40 3.16 1293.77 002306 *ST云网 3.31 5.86 1823.93 300012",
+        "source": "news_incremental",
+        "entity_codes": [
+          "300012"
+        ],
+        "entity_names": [
+          "华测检测"
+        ],
+        "industry_codes": [],
+        "theme_tags": [],
+        "event_time": "2026-03-02T00:00:00",
+        "discover_time": "2026-03-02T17:23:36",
+        "available_at": "2026-03-02T17:23:36",
+        "severity": 0.8,
+        "surprise_score": 0.75,
+        "tradability_score": 0.7,
+        "novelty_score": 0.6,
+        "crowding_risk": 0.35,
+        "confidence": 0.7,
+        "impact_level": "high",
+        "source_type": "news",
+        "raw_payload_ref": "http://finance.eastmoney.com/a/202603023658631148.html",
+        "metadata": {
+          "legacy_type": "policy_risk",
+          "legacy_event_date": "2026-03-02",
+          "legacy_stock_code": "300012",
+          "legacy_stock_name": "华测检测",
+          "ingest_date": "2026-03-02",
+          "publisher": "证券时报网",
+          "matched_keywords": [
+            "*st"
+          ]
+        },
+        "created_at": "2026-03-20T10:26:05.142231+00:00",
+        "updated_at": "2026-03-20T10:26:05.142232+00:00"
+      },
+      {
+        "event_id": "news:2026-03-02:600028:70fa1eab6bd8",
+        "event_type": "sentiment_reversal",
+        "event_subtype": "sentiment_reversal.hot_topic",
+        "title": "历史首次！600028、601857、600938，集体涨停",
+        "summary": "石油板块全线爆发，市值超2万亿的中国石油（601857）罕见涨停，中国海油（600938）、中国石化（600028）均涨停，这是也“三桶油”历史首次集体报收涨停；银行板块上扬，农业银行、建设银行、工商银行、中国银行等齐拉升；有色板块再度活跃，黄金概念等表现亮眼，四川黄金、湖南黄金等午后涨停",
+        "source": "news_incremental",
+        "entity_codes": [
+          "600028"
+        ],
+        "entity_names": [
+          "中国石化"
+        ],
+        "industry_codes": [],
+        "theme_tags": [],
+        "event_time": "2026-03-02T00:00:00",
+        "discover_time": "2026-03-02T16:20:48",
+        "available_at": "2026-03-02T16:20:48",
+        "severity": 0.55,
+        "surprise_score": 0.45,
+        "tradability_score": 0.7,
+        "novelty_score": 0.6,
+        "crowding_risk": 0.35,
+        "confidence": 0.55,
+        "impact_level": "medium",
+        "source_type": "news",
+        "raw_payload_ref": "http://finance.eastmoney.com/a/202603023658529728.html",
+        "metadata": {
+          "legacy_type": "sentiment_reversal",
+          "legacy_event_date": "2026-03-02",
+          "legacy_stock_code": "600028",
+          "legacy_stock_name": "中国石化",
+          "ingest_date": "2026-03-02",
+          "publisher": "证券时报",
+          "matched_keywords": [
+            "市场热度"
+          ]
+        },
+        "created_at": "2026-03-20T10:26:05.142383+00:00",
+        "updated_at": "2026-03-20T10:26:05.142384+00:00"
+      },
+      {
+        "event_id": "news:2026-03-02:600398:5df1372c6112",
+        "event_type": "earnings_surprise",
+        "event_subtype": "earnings_surprise.report",
+        "title": "中标后拒不签订合同，海澜之家被暂停全军采购资格",
+        "summary": "3月2日，海澜之家（600398.SH）跌2.62%，报6.31元/股。根据企业最新财报，2025年前三季度海澜之家实现营收155.99亿元，同比增长2.23%；净利润18.62亿元，同比下降2.37%。",
+        "source": "news_incremental",
+        "entity_codes": [
+          "600398"
+        ],
+        "entity_names": [
+          "海澜之家"
+        ],
+        "industry_codes": [],
+        "theme_tags": [],
+        "event_time": "2026-03-02T00:00:00",
+        "discover_time": "2026-03-02T19:01:43",
+        "available_at": "2026-03-02T19:01:43",
+        "severity": 0.8,
+        "surprise_score": 0.75,
+        "tradability_score": 0.7,
+        "novelty_score": 0.6,
+        "crowding_risk": 0.45,
+        "confidence": 0.7,
+        "impact_level": "high",
+        "source_type": "news",
+        "raw_payload_ref": "http://finance.eastmoney.com/a/202603023658701057.html",
+        "metadata": {
+          "legacy_type": "earnings_surprise",
+          "legacy_event_date": "2026-03-02",
+          "legacy_stock_code": "600398",
+          "legacy_stock_name": "海澜之家",
+          "ingest_date": "2026-03-02",
+          "publisher": "21世纪经济报道",
+          "matched_keywords": [
+            "净利润",
+            "营收"
+          ]
+        },
+        "created_at": "2026-03-20T10:26:05.142703+00:00",
+        "updated_at": "2026-03-20T10:26:05.142704+00:00"
+      },
+      {
+        "event_id": "news:2026-03-02:600511:02c0e5ed9df9",
+        "event_type": "technology_breakthrough",
+        "event_subtype": "technology_breakthrough.mass_production",
+        "title": "今日盘中突破年线个股",
+        "summary": "恒通股份 2.51 1.75 9.70 9.81 1.16 603712 七一二 3.37 2.88 20.65 20.83 0.89 600698 湖南天雁 5.96 4.45 8.81 8.89 0.86 002274 华昌化工 3.21 2.90 6.72 6.75 0.45 600511",
+        "source": "news_incremental",
+        "entity_codes": [
+          "600511"
+        ],
+        "entity_names": [
+          "国药股份"
+        ],
+        "industry_codes": [],
+        "theme_tags": [],
+        "event_time": "2026-03-02T00:00:00",
+        "discover_time": "2026-03-02T10:59:27",
+        "available_at": "2026-03-02T10:59:27",
+        "severity": 0.8,
+        "surprise_score": 0.75,
+        "tradability_score": 0.7,
+        "novelty_score": 0.6,
+        "crowding_risk": 0.45,
+        "confidence": 0.7,
+        "impact_level": "high",
+        "source_type": "news",
+        "raw_payload_ref": "http://finance.eastmoney.com/a/202603023658295283.html",
+        "metadata": {
+          "legacy_type": "technology_breakthrough",
+          "legacy_event_date": "2026-03-02",
+          "legacy_stock_code": "600511",
+          "legacy_stock_name": "国药股份",
+          "ingest_date": "2026-03-02",
+          "publisher": "证券时报网",
+          "matched_keywords": [
+            "突破"
+          ]
+        },
+        "created_at": "2026-03-20T10:26:05.142941+00:00",
+        "updated_at": "2026-03-20T10:26:05.142942+00:00"
+      },
+      {
+        "event_id": "news:2026-03-02:600699:9d5a8823bf1e",
+        "event_type": "technology_breakthrough",
+        "event_subtype": "technology_breakthrough.mass_production",
+        "title": "Robotaxi落地加速 均胜电子首个L3与L4智驾域控即将量产",
+        "summary": "近日，全球智能汽车科技解决方案提供商均胜电子（600699.SH/0699.HK）在高阶智能驾驶领域取得重大突破,公司首个L3级智驾域控产品计划于2027年年中量产上车，并搭载在某知名头部车企相关车型上；同时，公司打造的L4智驾域控即将搭载在低速无人物流车上,有望成为首个量产的基于国产芯片平台的",
+        "source": "news_incremental",
+        "entity_codes": [
+          "600699"
+        ],
+        "entity_names": [
+          "均胜电子"
+        ],
+        "industry_codes": [],
+        "theme_tags": [
+          "semiconductor",
+          "auto"
+        ],
+        "event_time": "2026-03-02T00:00:00",
+        "discover_time": "2026-03-02T12:19:17",
+        "available_at": "2026-03-02T12:19:17",
+        "severity": 0.8,
+        "surprise_score": 0.75,
+        "tradability_score": 0.7,
+        "novelty_score": 0.6,
+        "crowding_risk": 0.45,
+        "confidence": 0.7,
+        "impact_level": "high",
+        "source_type": "news",
+        "raw_payload_ref": "http://finance.eastmoney.com/a/202603023658334447.html",
+        "metadata": {
+          "legacy_type": "technology_breakthrough",
+          "legacy_event_date": "2026-03-02",
+          "legacy_stock_code": "600699",
+          "legacy_stock_name": "均胜电子",
+          "ingest_date": "2026-03-02",
+          "publisher": "证券时报网",
+          "matched_keywords": [
+            "量产",
+            "突破"
+          ]
+        },
+        "created_at": "2026-03-20T10:26:05.143406+00:00",
+        "updated_at": "2026-03-20T10:26:05.143409+00:00"
+      },
+      {
+        "event_id": "news:2026-03-02:600938:70fa1eab6bd8",
+        "event_type": "sentiment_reversal",
+        "event_subtype": "sentiment_reversal.hot_topic",
+        "title": "历史首次！600028、601857、600938，集体涨停",
+        "summary": "石油板块全线爆发，市值超2万亿的中国石油（601857）罕见涨停，中国海油（600938）、中国石化（600028）均涨停，这是也“三桶油”历史首次集体报收涨停；银行板块上扬，农业银行、建设银行、工商银行、中国银行等齐拉升；有色板块再度活跃，黄金概念等表现亮眼，四川黄金、湖南黄金等午后涨停",
+        "source": "news_incremental",
+        "entity_codes": [
+          "600938"
+        ],
+        "entity_names": [
+          "中国海油"
+        ],
+        "industry_codes": [],
+        "theme_tags": [],
+        "event_time": "2026-03-02T00:00:00",
+        "discover_time": "2026-03-02T16:20:48",
+        "available_at": "2026-03-02T16:20:48",
+        "severity": 0.55,
+        "surprise_score": 0.45,
+        "tradability_score": 0.7,
+        "novelty_score": 0.6,
+        "crowding_risk": 0.35,
+        "confidence": 0.55,
+        "impact_level": "medium",
+        "source_type": "news",
+        "raw_payload_ref": "http://finance.eastmoney.com/a/202603023658529728.html",
+        "metadata": {
+          "legacy_type": "sentiment_reversal",
+          "legacy_event_date": "2026-03-02",
+          "legacy_stock_code": "600938",
+          "legacy_stock_name": "中国海油",
+          "ingest_date": "2026-03-02",
+          "publisher": "证券时报",
+          "matched_keywords": [
+            "市场热度"
+          ]
+        },
+        "created_at": "2026-03-20T10:26:05.143563+00:00",
+        "updated_at": "2026-03-20T10:26:05.143564+00:00"
+      },
+      {
+        "event_id": "news:2026-03-02:601128:e979a4f0f6ba",
+        "event_type": "buyback",
+        "event_subtype": "buyback.shareholder_action",
+        "title": "重要股东增持排行榜：11股增持金额超千万元",
+        "summary": "000755 山西高速 1 1 203.75 1042.30 2.67 603825 ST华扬 1 1 106.09 1036.88 -2.56 688010 福光股份 1 1 23.33 676.12 6.52 600733 北汽蓝谷 7 7 40.73 327.94 -1.11 601128",
+        "source": "news_incremental",
+        "entity_codes": [
+          "601128"
+        ],
+        "entity_names": [
+          "常熟银行"
+        ],
+        "industry_codes": [],
+        "theme_tags": [],
+        "event_time": "2026-03-02T00:00:00",
+        "discover_time": "2026-03-02T09:40:01",
+        "available_at": "2026-03-02T09:40:01",
+        "severity": 0.55,
+        "surprise_score": 0.45,
+        "tradability_score": 0.7,
+        "novelty_score": 0.6,
+        "crowding_risk": 0.45,
+        "confidence": 0.55,
+        "impact_level": "medium",
+        "source_type": "news",
+        "raw_payload_ref": "http://finance.eastmoney.com/a/202603023658099231.html",
+        "metadata": {
+          "legacy_type": "buyback",
+          "legacy_event_date": "2026-03-02",
+          "legacy_stock_code": "601128",
+          "legacy_stock_name": "常熟银行",
+          "ingest_date": "2026-03-02",
+          "publisher": "证券时报网",
+          "matched_keywords": [
+            "增持"
+          ]
+        },
+        "created_at": "2026-03-20T10:26:05.143684+00:00",
+        "updated_at": "2026-03-20T10:26:05.143685+00:00"
+      },
+      {
+        "event_id": "news:2026-03-02:601555:0f91e9c1dead",
+        "event_type": "ma",
+        "event_subtype": "ma.acquisition",
+        "title": "又见券商并购！601555今起停牌",
+        "summary": "3月2日，东吴证券（601555）发布公告称，公司正在筹划通过发行A股股份的方式收购东海证券控制权。鉴于该事项存在不确定性，公司A股股票自2026年3月2日开市起停牌，预计停牌时间不超过10个交易日。",
+        "source": "news_incremental",
+        "entity_codes": [
+          "601555"
+        ],
+        "entity_names": [
+          "东吴证券"
+        ],
+        "industry_codes": [],
+        "theme_tags": [],
+        "event_time": "2026-03-02T00:00:00",
+        "discover_time": "2026-03-02T10:09:32",
+        "available_at": "2026-03-02T10:09:32",
+        "severity": 0.8,
+        "surprise_score": 0.45,
+        "tradability_score": 0.7,
+        "novelty_score": 0.6,
+        "crowding_risk": 0.45,
+        "confidence": 0.7,
+        "impact_level": "high",
+        "source_type": "news",
+        "raw_payload_ref": "http://finance.eastmoney.com/a/202603023658187888.html",
+        "metadata": {
+          "legacy_type": "ma",
+          "legacy_event_date": "2026-03-02",
+          "legacy_stock_code": "601555",
+          "legacy_stock_name": "东吴证券",
+          "ingest_date": "2026-03-02",
+          "publisher": "上海证券报",
+          "matched_keywords": [
+            "收购",
+            "并购"
+          ]
+        },
+        "created_at": "2026-03-20T10:26:05.143797+00:00",
+        "updated_at": "2026-03-20T10:26:05.143798+00:00"
+      },
+      {
+        "event_id": "news:2026-03-02:601818:a09d054647a9",
+        "event_type": "management_change",
+        "event_subtype": "management_change.executive",
+        "title": "中国光大控股：董事会主席于法昌辞职，林春接任",
+        "summary": "林春，为公司控股股东中国光大集团有限公司总裁，曾任光大银行（601818/06818）国际业务部交易室交易员，资金部交易室处长，投行业务部总经理等职。",
+        "source": "news_incremental",
+        "entity_codes": [
+          "601818"
+        ],
+        "entity_names": [
+          "光大银行"
+        ],
+        "industry_codes": [],
+        "theme_tags": [],
+        "event_time": "2026-03-02T00:00:00",
+        "discover_time": "2026-03-02T17:07:18",
+        "available_at": "2026-03-02T17:07:18",
+        "severity": 0.55,
+        "surprise_score": 0.45,
+        "tradability_score": 0.7,
+        "novelty_score": 0.6,
+        "crowding_risk": 0.35,
+        "confidence": 0.55,
+        "impact_level": "medium",
+        "source_type": "news",
+        "raw_payload_ref": "http://finance.eastmoney.com/a/202603023658606926.html",
+        "metadata": {
+          "legacy_type": "management_change",
+          "legacy_event_date": "2026-03-02",
+          "legacy_stock_code": "601818",
+          "legacy_stock_name": "光大银行",
+          "ingest_date": "2026-03-02",
+          "publisher": "财中社",
+          "matched_keywords": [
+            "辞职",
+            "总经理"
+          ]
+        },
+        "created_at": "2026-03-20T10:26:05.143999+00:00",
+        "updated_at": "2026-03-20T10:26:05.144000+00:00"
+      },
+      {
+        "event_id": "news:2026-03-02:601857:70fa1eab6bd8",
+        "event_type": "sentiment_reversal",
+        "event_subtype": "sentiment_reversal.hot_topic",
+        "title": "历史首次！600028、601857、600938，集体涨停",
+        "summary": "石油板块全线爆发，市值超2万亿的中国石油（601857）罕见涨停，中国海油（600938）、中国石化（600028）均涨停，这是也“三桶油”历史首次集体报收涨停；银行板块上扬，农业银行、建设银行、工商银行、中国银行等齐拉升；有色板块再度活跃，黄金概念等表现亮眼，四川黄金、湖南黄金等午后涨停",
+        "source": "news_incremental",
+        "entity_codes": [
+          "601857"
+        ],
+        "entity_names": [
+          "中国石油"
+        ],
+        "industry_codes": [],
+        "theme_tags": [],
+        "event_time": "2026-03-02T00:00:00",
+        "discover_time": "2026-03-02T16:20:48",
+        "available_at": "2026-03-02T16:20:48",
+        "severity": 0.55,
+        "surprise_score": 0.45,
+        "tradability_score": 0.7,
+        "novelty_score": 0.6,
+        "crowding_risk": 0.35,
+        "confidence": 0.55,
+        "impact_level": "medium",
+        "source_type": "news",
+        "raw_payload_ref": "http://finance.eastmoney.com/a/202603023658529728.html",
+        "metadata": {
+          "legacy_type": "sentiment_reversal",
+          "legacy_event_date": "2026-03-02",
+          "legacy_stock_code": "601857",
+          "legacy_stock_name": "中国石油",
+          "ingest_date": "2026-03-02",
+          "publisher": "证券时报",
+          "matched_keywords": [
+            "市场热度"
+          ]
+        },
+        "created_at": "2026-03-20T10:26:05.144307+00:00",
+        "updated_at": "2026-03-20T10:26:05.144310+00:00"
+      },
+      {
+        "event_id": "news:2026-03-02:603087:1dc8db2fe1cc",
+        "event_type": "technology_breakthrough",
+        "event_subtype": "technology_breakthrough.approval",
+        "title": "甘李药业：获批开展GLR2037片临床试验 治疗晚期前列腺癌",
+        "summary": "3月2日，甘李药业（603087）发布公告，近日收到国家药品监督管理局下发的关于在研药品GLR2037片的《药物临床试验批准通知书》，受理号为CXHL2600098、CXHL2600099，通知书编号为2026LP00526、2026LP00527。",
+        "source": "news_incremental",
+        "entity_codes": [
+          "603087"
+        ],
+        "entity_names": [
+          "甘李药业"
+        ],
+        "industry_codes": [],
+        "theme_tags": [],
+        "event_time": "2026-03-02T00:00:00",
+        "discover_time": "2026-03-02T18:00:35",
+        "available_at": "2026-03-02T18:00:35",
+        "severity": 0.8,
+        "surprise_score": 0.75,
+        "tradability_score": 0.7,
+        "novelty_score": 0.6,
+        "crowding_risk": 0.45,
+        "confidence": 0.7,
+        "impact_level": "high",
+        "source_type": "news",
+        "raw_payload_ref": "http://finance.eastmoney.com/a/202603023658668647.html",
+        "metadata": {
+          "legacy_type": "technology_breakthrough",
+          "legacy_event_date": "2026-03-02",
+          "legacy_stock_code": "603087",
+          "legacy_stock_name": "甘李药业",
+          "ingest_date": "2026-03-02",
+          "publisher": "财中社",
+          "matched_keywords": [
+            "获批",
+            "临床"
+          ]
+        },
+        "created_at": "2026-03-20T10:26:05.144598+00:00",
+        "updated_at": "2026-03-20T10:26:05.144599+00:00"
+      },
+      {
+        "event_id": "news:2026-03-02:603160:f5d715447df1",
+        "event_type": "earnings_surprise",
+        "event_subtype": "earnings_surprise.report",
+        "title": "汇顶科技已回购256万股 金额2亿元",
+        "summary": "3月2日，汇顶科技（603160）发布公告，截至2026年2月28日，公司已回购256万股，占总股本的0.55%，回购金额为2亿元，回购价格区间为76.11元/股至80.08元/股。 2025年前三季度，汇顶科技实现收入35.21亿元，归母净利润6.77亿元。",
+        "source": "news_incremental",
+        "entity_codes": [
+          "603160"
+        ],
+        "entity_names": [
+          "汇顶科技"
+        ],
+        "industry_codes": [],
+        "theme_tags": [],
+        "event_time": "2026-03-02T00:00:00",
+        "discover_time": "2026-03-02T17:51:10",
+        "available_at": "2026-03-02T17:51:10",
+        "severity": 0.8,
+        "surprise_score": 0.75,
+        "tradability_score": 0.7,
+        "novelty_score": 0.6,
+        "crowding_risk": 0.45,
+        "confidence": 0.7,
+        "impact_level": "high",
+        "source_type": "news",
+        "raw_payload_ref": "http://finance.eastmoney.com/a/202603023658655741.html",
+        "metadata": {
+          "legacy_type": "earnings_surprise",
+          "legacy_event_date": "2026-03-02",
+          "legacy_stock_code": "603160",
+          "legacy_stock_name": "汇顶科技",
+          "ingest_date": "2026-03-02",
+          "publisher": "财中社",
+          "matched_keywords": [
+            "净利润"
+          ]
+        },
+        "created_at": "2026-03-20T10:26:05.144730+00:00",
+        "updated_at": "2026-03-20T10:26:05.144732+00:00"
+      },
+      {
+        "event_id": "news:2026-03-02:603298:8a93e52c5583",
+        "event_type": "capital_raise",
+        "event_subtype": "capital_raise.equity",
+        "title": "【数据揭秘】融资客看好个股一览",
+        "summary": "崇德科技 8375.25 -17.83 3.40 -1.96 920403 康农种业 923.96 -17.77 0.64 3.67 300910 瑞丰新材 9507.91 -17.51 0.77 -0.75 603381 永臻股份 13742.88 -15.73 3.28 9.99 603298",
+        "source": "news_incremental",
+        "entity_codes": [
+          "603298"
+        ],
+        "entity_names": [
+          "杭叉集团"
+        ],
+        "industry_codes": [],
+        "theme_tags": [],
+        "event_time": "2026-03-02T00:00:00",
+        "discover_time": "2026-03-02T10:59:29",
+        "available_at": "2026-03-02T10:59:29",
+        "severity": 0.55,
+        "surprise_score": 0.45,
+        "tradability_score": 0.7,
+        "novelty_score": 0.6,
+        "crowding_risk": 0.45,
+        "confidence": 0.55,
+        "impact_level": "medium",
+        "source_type": "news",
+        "raw_payload_ref": "http://finance.eastmoney.com/a/202603023658295478.html",
+        "metadata": {
+          "legacy_type": "capital_raise",
+          "legacy_event_date": "2026-03-02",
+          "legacy_stock_code": "603298",
+          "legacy_stock_name": "杭叉集团",
+          "ingest_date": "2026-03-02",
+          "publisher": "证券时报网",
+          "matched_keywords": [
+            "融资"
+          ]
+        },
+        "created_at": "2026-03-20T10:26:05.144993+00:00",
+        "updated_at": "2026-03-20T10:26:05.144994+00:00"
+      },
+      {
+        "event_id": "news:2026-03-02:603605:886a6358e254",
+        "event_type": "earnings_surprise",
+        "event_subtype": "earnings_surprise.report",
+        "title": "珀莱雅已回购43万股 金额3036万元",
+        "summary": "3月2日，珀莱雅（603605）发布公告，截至2026年2月28日已回购43万股，占总股本的0.11%，回购资金总额为3036万元，回购价格区间为69.76元/股至73元/股。 2025年前三季度，珀莱雅实现收入70.98亿元，归母净利润10.26亿元。",
+        "source": "news_incremental",
+        "entity_codes": [
+          "603605"
+        ],
+        "entity_names": [
+          "珀莱雅"
+        ],
+        "industry_codes": [],
+        "theme_tags": [],
+        "event_time": "2026-03-02T00:00:00",
+        "discover_time": "2026-03-02T16:19:33",
+        "available_at": "2026-03-02T16:19:33",
+        "severity": 0.8,
+        "surprise_score": 0.75,
+        "tradability_score": 0.7,
+        "novelty_score": 0.6,
+        "crowding_risk": 0.45,
+        "confidence": 0.7,
+        "impact_level": "high",
+        "source_type": "news",
+        "raw_payload_ref": "http://finance.eastmoney.com/a/202603023658527764.html",
+        "metadata": {
+          "legacy_type": "earnings_surprise",
+          "legacy_event_date": "2026-03-02",
+          "legacy_stock_code": "603605",
+          "legacy_stock_name": "珀莱雅",
+          "ingest_date": "2026-03-02",
+          "publisher": "财中社",
+          "matched_keywords": [
+            "净利润"
+          ]
+        },
+        "created_at": "2026-03-20T10:26:05.145572+00:00",
+        "updated_at": "2026-03-20T10:26:05.145574+00:00"
+      },
+      {
+        "event_id": "sentiment:2026-03-02:300395:95ff75716470",
+        "event_type": "sentiment_reversal",
+        "event_subtype": "sentiment_reversal.aggregate",
+        "title": "菲利华 舆情热度变化",
+        "summary": "平均情绪分 -0.26，关注度 0.56，热度排名 -，标签 bearish",
+        "source": "sentiment_incremental",
+        "entity_codes": [
+          "300395"
+        ],
+        "entity_names": [
+          "菲利华"
+        ],
+        "industry_codes": [],
+        "theme_tags": [],
+        "event_time": "2026-03-02T00:00:00",
+        "discover_time": "2026-03-02T00:00:00",
+        "available_at": "2026-03-02T00:00:00",
+        "severity": 0.55,
+        "surprise_score": 0.45,
+        "tradability_score": 0.7,
+        "novelty_score": 0.6,
+        "crowding_risk": 0.35,
+        "confidence": 0.55,
+        "impact_level": "medium",
+        "source_type": "sentiment",
+        "raw_payload_ref": "",
+        "metadata": {
+          "legacy_type": "sentiment_reversal",
+          "legacy_event_date": "2026-03-02",
+          "legacy_stock_code": "300395",
+          "legacy_stock_name": "菲利华",
+          "ingest_date": "2026-03-02",
+          "attention_score": 0.5596,
+          "avg_sentiment_score": -0.26,
+          "hot_rank": 0,
+          "sentiment_label": "bearish"
+        },
+        "created_at": "2026-03-20T10:26:05.145840+00:00",
+        "updated_at": "2026-03-20T10:26:05.145841+00:00"
+      },
+      {
+        "event_id": "sentiment:2026-03-02:300832:93c6d4b8782d",
+        "event_type": "sentiment_reversal",
+        "event_subtype": "sentiment_reversal.aggregate",
+        "title": "新产业 舆情热度变化",
+        "summary": "平均情绪分 +0.27，关注度 0.56，热度排名 -，标签 bullish",
+        "source": "sentiment_incremental",
+        "entity_codes": [
+          "300832"
+        ],
+        "entity_names": [
+          "新产业"
+        ],
+        "industry_codes": [],
+        "theme_tags": [],
+        "event_time": "2026-03-02T00:00:00",
+        "discover_time": "2026-03-02T00:00:00",
+        "available_at": "2026-03-02T00:00:00",
+        "severity": 0.55,
+        "surprise_score": 0.45,
+        "tradability_score": 0.7,
+        "novelty_score": 0.6,
+        "crowding_risk": 0.35,
+        "confidence": 0.55,
+        "impact_level": "medium",
+        "source_type": "sentiment",
+        "raw_payload_ref": "",
+        "metadata": {
+          "legacy_type": "sentiment_reversal",
+          "legacy_event_date": "2026-03-02",
+          "legacy_stock_code": "300832",
+          "legacy_stock_name": "新产业",
+          "ingest_date": "2026-03-02",
+          "attention_score": 0.5646,
+          "avg_sentiment_score": 0.2667,
+          "hot_rank": 0,
+          "sentiment_label": "bullish"
+        },
+        "created_at": "2026-03-20T10:26:05.145903+00:00",
+        "updated_at": "2026-03-20T10:26:05.145904+00:00"
+      },
+      {
+        "event_id": "sentiment:2026-03-02:600031:aaf76c3dbe0b",
+        "event_type": "sentiment_reversal",
+        "event_subtype": "sentiment_reversal.aggregate",
+        "title": "三一重工 舆情热度变化",
+        "summary": "平均情绪分 +0.80，关注度 0.55，热度排名 -，标签 bullish",
+        "source": "sentiment_incremental",
+        "entity_codes": [
+          "600031"
+        ],
+        "entity_names": [
+          "三一重工"
+        ],
+        "industry_codes": [],
+        "theme_tags": [],
+        "event_time": "2026-03-02T00:00:00",
+        "discover_time": "2026-03-02T00:00:00",
+        "available_at": "2026-03-02T00:00:00",
+        "severity": 0.55,
+        "surprise_score": 0.45,
+        "tradability_score": 0.7,
+        "novelty_score": 0.6,
+        "crowding_risk": 0.35,
+        "confidence": 0.55,
+        "impact_level": "medium",
+        "source_type": "sentiment",
+        "raw_payload_ref": "",
+        "metadata": {
+          "legacy_type": "sentiment_reversal",
+          "legacy_event_date": "2026-03-02",
+          "legacy_stock_code": "600031",
+          "legacy_stock_name": "三一重工",
+          "ingest_date": "2026-03-02",
+          "attention_score": 0.5542,
+          "avg_sentiment_score": 0.8,
+          "hot_rank": 0,
+          "sentiment_label": "bullish"
+        },
+        "created_at": "2026-03-20T10:26:05.145963+00:00",
+        "updated_at": "2026-03-20T10:26:05.145964+00:00"
+      },
+      {
+        "event_id": "sentiment:2026-03-02:600363:1d66de547aa7",
+        "event_type": "sentiment_reversal",
+        "event_subtype": "sentiment_reversal.aggregate",
+        "title": "联创光电 舆情热度变化",
+        "summary": "平均情绪分 +0.43，关注度 0.55，热度排名 -，标签 bullish",
+        "source": "sentiment_incremental",
+        "entity_codes": [
+          "600363"
+        ],
+        "entity_names": [
+          "联创光电"
+        ],
+        "industry_codes": [],
+        "theme_tags": [],
+        "event_time": "2026-03-02T00:00:00",
+        "discover_time": "2026-03-02T00:00:00",
+        "available_at": "2026-03-02T00:00:00",
+        "severity": 0.55,
+        "surprise_score": 0.45,
+        "tradability_score": 0.7,
+        "novelty_score": 0.6,
+        "crowding_risk": 0.35,
+        "confidence": 0.55,
+        "impact_level": "medium",
+        "source_type": "sentiment",
+        "raw_payload_ref": "",
+        "metadata": {
+          "legacy_type": "sentiment_reversal",
+          "legacy_event_date": "2026-03-02",
+          "legacy_stock_code": "600363",
+          "legacy_stock_name": "联创光电",
+          "ingest_date": "2026-03-02",
+          "attention_score": 0.5542,
+          "avg_sentiment_score": 0.4279,
+          "hot_rank": 0,
+          "sentiment_label": "bullish"
+        },
+        "created_at": "2026-03-20T10:26:05.146026+00:00",
+        "updated_at": "2026-03-20T10:26:05.146027+00:00"
+      },
+      {
+        "event_id": "sentiment:2026-03-02:601633:2371d641859b",
+        "event_type": "sentiment_reversal",
+        "event_subtype": "sentiment_reversal.aggregate",
+        "title": "长城汽车 舆情热度变化",
+        "summary": "平均情绪分 -0.29，关注度 0.56，热度排名 -，标签 bearish",
+        "source": "sentiment_incremental",
+        "entity_codes": [
+          "601633"
+        ],
+        "entity_names": [
+          "长城汽车"
+        ],
+        "industry_codes": [],
+        "theme_tags": [
+          "auto"
+        ],
+        "event_time": "2026-03-02T00:00:00",
+        "discover_time": "2026-03-02T00:00:00",
+        "available_at": "2026-03-02T00:00:00",
+        "severity": 0.55,
+        "surprise_score": 0.45,
+        "tradability_score": 0.7,
+        "novelty_score": 0.6,
+        "crowding_risk": 0.35,
+        "confidence": 0.55,
+        "impact_level": "medium",
+        "source_type": "sentiment",
+        "raw_payload_ref": "",
+        "metadata": {
+          "legacy_type": "sentiment_reversal",
+          "legacy_event_date": "2026-03-02",
+          "legacy_stock_code": "601633",
+          "legacy_stock_name": "长城汽车",
+          "ingest_date": "2026-03-02",
+          "attention_score": 0.5588,
+          "avg_sentiment_score": -0.2936,
+          "hot_rank": 0,
+          "sentiment_label": "bearish"
+        },
+        "created_at": "2026-03-20T10:26:05.146126+00:00",
+        "updated_at": "2026-03-20T10:26:05.146127+00:00"
+      }
+    ]
+  }
+}

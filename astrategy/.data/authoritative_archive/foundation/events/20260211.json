@@ -1,0 +1,154 @@
+{
+  "component": "events",
+  "as_of_date": "2026-02-11",
+  "universe_id": "csi800",
+  "quality_status": "derived_from_local_foundation",
+  "authoritative": false,
+  "run_context": "historical_backfill",
+  "generated_at": "2026-03-20T10:26:02Z",
+  "source_paths": [
+    ".data/authoritative_archive/foundation/filings/20260211.json",
+    ".data/authoritative_archive/foundation/news/20260211.json",
+    ".data/authoritative_archive/foundation/sentiment/20260211.json"
+  ],
+  "payload": {
+    "summary": {
+      "ingest_date": "2026-02-11",
+      "snapshot_mode": "historical_replay",
+      "history_quality": "derived_from_local_foundation",
+      "incremental_event_count": 3,
+      "event_master_count": 48,
+      "created_event_count": 3,
+      "filing_event_count": 0,
+      "news_event_count": 3,
+      "sentiment_event_count": 0,
+      "skipped_filing_other": 0,
+      "skipped_news_other": 2
+    },
+    "rows": [
+      {
+        "event_id": "news:2026-02-11:000938:3ffffed98ac8",
+        "event_type": "ma",
+        "event_subtype": "ma.acquisition",
+        "title": "000938，拟募资不超55.7亿！用于重要收购！",
+        "summary": "2月11日晚间，紫光股份000938公告称，公司发布定增预案，拟向不超过35名特定对象发行A股股票，募集资金总额不超过55.7亿元，用于收购新华三集团有限公司（以下简称“新华三”）6.98%股权、研发设备购置项目及偿还银行贷款。",
+        "source": "news_incremental",
+        "entity_codes": [
+          "000938"
+        ],
+        "entity_names": [
+          "紫光股份"
+        ],
+        "industry_codes": [],
+        "theme_tags": [],
+        "event_time": "2026-02-11T00:00:00",
+        "discover_time": "2026-02-11T20:14:59",
+        "available_at": "2026-02-11T20:14:59",
+        "severity": 0.8,
+        "surprise_score": 0.45,
+        "tradability_score": 0.7,
+        "novelty_score": 0.6,
+        "crowding_risk": 0.45,
+        "confidence": 0.7,
+        "impact_level": "high",
+        "source_type": "news",
+        "raw_payload_ref": "http://finance.eastmoney.com/a/202602113648102797.html",
+        "metadata": {
+          "legacy_type": "ma",
+          "legacy_event_date": "2026-02-11",
+          "legacy_stock_code": "000938",
+          "legacy_stock_name": "紫光股份",
+          "ingest_date": "2026-02-11",
+          "publisher": "证券时报网",
+          "matched_keywords": [
+            "收购"
+          ]
+        },
+        "created_at": "2026-03-20T10:26:02.891138+00:00",
+        "updated_at": "2026-03-20T10:26:02.891142+00:00"
+      },
+      {
+        "event_id": "news:2026-02-11:600176:339d3efc5003",
+        "event_type": "technology_breakthrough",
+        "event_subtype": "technology_breakthrough.mass_production",
+        "title": "集体飙涨！600176市值突破千亿大关",
+        "summary": "A股市场超3200股飘绿，短剧游戏、影视股等集体下挫，海看股份、幸福蓝海等跌超10%，横店影视跌停；有色板块强势，钨概念股亮眼，翔鹭钨业、章源钨业均涨停并创出新高；化工板块拉升，百川股份近11个交易日斩获8板，醋化股份连续两日涨停；玻纤概念集体爆发，国际复材20%涨停，中国巨石（600176",
+        "source": "news_incremental",
+        "entity_codes": [
+          "600176"
+        ],
+        "entity_names": [
+          "中国巨石"
+        ],
+        "industry_codes": [],
+        "theme_tags": [],
+        "event_time": "2026-02-11T00:00:00",
+        "discover_time": "2026-02-11T17:13:58",
+        "available_at": "2026-02-11T17:13:58",
+        "severity": 0.8,
+        "surprise_score": 0.75,
+        "tradability_score": 0.7,
+        "novelty_score": 0.6,
+        "crowding_risk": 0.45,
+        "confidence": 0.7,
+        "impact_level": "high",
+        "source_type": "news",
+        "raw_payload_ref": "http://finance.eastmoney.com/a/202602113647958293.html",
+        "metadata": {
+          "legacy_type": "technology_breakthrough",
+          "legacy_event_date": "2026-02-11",
+          "legacy_stock_code": "600176",
+          "legacy_stock_name": "中国巨石",
+          "ingest_date": "2026-02-11",
+          "publisher": "证券时报",
+          "matched_keywords": [
+            "突破"
+          ]
+        },
+        "created_at": "2026-03-20T10:26:02.891405+00:00",
+        "updated_at": "2026-03-20T10:26:02.891406+00:00"
+      },
+      {
+        "event_id": "news:2026-02-11:601965:3a61c270f324",
+        "event_type": "earnings_surprise",
+        "event_subtype": "earnings_surprise.guidance",
+        "title": "126家公司公布业绩快报：75%去年净利润增长",
+        "summary": "19.19 123.00 18.43 300019 硅宝科技 02.04 37.52 18.76 2.81 18.34 600710 苏美达 01.30 1178.03 0.54 13.55 18.01 301571 国科天成 02.10 11.02 14.73 2.04 17.94 601965",
+        "source": "news_incremental",
+        "entity_codes": [
+          "601965"
+        ],
+        "entity_names": [
+          "中国汽研"
+        ],
+        "industry_codes": [],
+        "theme_tags": [],
+        "event_time": "2026-02-11T00:00:00",
+        "discover_time": "2026-02-11T09:41:05",
+        "available_at": "2026-02-11T09:41:05",
+        "severity": 0.8,
+        "surprise_score": 0.75,
+        "tradability_score": 0.7,
+        "novelty_score": 0.6,
+        "crowding_risk": 0.45,
+        "confidence": 0.7,
+        "impact_level": "high",
+        "source_type": "news",
+        "raw_payload_ref": "http://finance.eastmoney.com/a/202602113647614425.html",
+        "metadata": {
+          "legacy_type": "earnings_surprise",
+          "legacy_event_date": "2026-02-11",
+          "legacy_stock_code": "601965",
+          "legacy_stock_name": "中国汽研",
+          "ingest_date": "2026-02-11",
+          "publisher": "证券时报网",
+          "matched_keywords": [
+            "业绩快报"
+          ]
+        },
+        "created_at": "2026-03-20T10:26:02.891623+00:00",
+        "updated_at": "2026-03-20T10:26:02.891624+00:00"
+      }
+    ]
+  }
+}

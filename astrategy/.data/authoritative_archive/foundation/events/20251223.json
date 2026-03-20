@@ -1,0 +1,74 @@
+{
+  "component": "events",
+  "as_of_date": "2025-12-23",
+  "universe_id": "csi800",
+  "quality_status": "derived_from_local_foundation",
+  "authoritative": false,
+  "run_context": "historical_backfill",
+  "generated_at": "2026-03-20T10:25:57Z",
+  "source_paths": [
+    ".data/authoritative_archive/foundation/filings/20251223.json",
+    ".data/authoritative_archive/foundation/news/20251223.json",
+    ".data/authoritative_archive/foundation/sentiment/20251223.json"
+  ],
+  "payload": {
+    "summary": {
+      "ingest_date": "2025-12-23",
+      "snapshot_mode": "historical_replay",
+      "history_quality": "derived_from_local_foundation",
+      "incremental_event_count": 1,
+      "event_master_count": 3,
+      "created_event_count": 1,
+      "filing_event_count": 0,
+      "news_event_count": 1,
+      "sentiment_event_count": 0,
+      "skipped_filing_other": 0,
+      "skipped_news_other": 0
+    },
+    "rows": [
+      {
+        "event_id": "news:2025-12-23:300529:6d40223d9476",
+        "event_type": "capital_raise",
+        "event_subtype": "capital_raise.equity",
+        "title": "调研｜从“贷不到”到“更匹配”：科技金融如何适配企业全生命周期",
+        "summary": "健帆生物科技集团股份有限公司（健帆生物，300529.SZ）是当地较早成长起来的医疗器械企业，其发展过程也折射出科技企业在不同阶段所面临的融资环境变化。",
+        "source": "news_incremental",
+        "entity_codes": [
+          "300529"
+        ],
+        "entity_names": [
+          "健帆生物"
+        ],
+        "industry_codes": [],
+        "theme_tags": [
+          "medicine"
+        ],
+        "event_time": "2025-12-23T00:00:00",
+        "discover_time": "2025-12-23T21:37:10",
+        "available_at": "2025-12-23T21:37:10",
+        "severity": 0.55,
+        "surprise_score": 0.45,
+        "tradability_score": 0.7,
+        "novelty_score": 0.6,
+        "crowding_risk": 0.45,
+        "confidence": 0.55,
+        "impact_level": "medium",
+        "source_type": "news",
+        "raw_payload_ref": "http://finance.eastmoney.com/a/202512233599758285.html",
+        "metadata": {
+          "legacy_type": "capital_raise",
+          "legacy_event_date": "2025-12-23",
+          "legacy_stock_code": "300529",
+          "legacy_stock_name": "健帆生物",
+          "ingest_date": "2025-12-23",
+          "publisher": "澎湃新闻",
+          "matched_keywords": [
+            "融资"
+          ]
+        },
+        "created_at": "2026-03-20T10:25:57.739008+00:00",
+        "updated_at": "2026-03-20T10:25:57.739011+00:00"
+      }
+    ]
+  }
+}

@@ -1,0 +1,239 @@
+{
+  "component": "events",
+  "as_of_date": "2026-02-09",
+  "universe_id": "csi800",
+  "quality_status": "derived_from_local_foundation",
+  "authoritative": false,
+  "run_context": "historical_backfill",
+  "generated_at": "2026-03-20T10:26:02Z",
+  "source_paths": [
+    ".data/authoritative_archive/foundation/filings/20260209.json",
+    ".data/authoritative_archive/foundation/news/20260209.json",
+    ".data/authoritative_archive/foundation/sentiment/20260209.json"
+  ],
+  "payload": {
+    "summary": {
+      "ingest_date": "2026-02-09",
+      "snapshot_mode": "historical_replay",
+      "history_quality": "derived_from_local_foundation",
+      "incremental_event_count": 5,
+      "event_master_count": 33,
+      "created_event_count": 5,
+      "filing_event_count": 0,
+      "news_event_count": 5,
+      "sentiment_event_count": 0,
+      "skipped_filing_other": 0,
+      "skipped_news_other": 4
+    },
+    "rows": [
+      {
+        "event_id": "news:2026-02-09:002044:9ca6f6942f54",
+        "event_type": "capital_raise",
+        "event_subtype": "capital_raise.equity",
+        "title": "两融余额七连降 杠杆资金大幅减仓125股",
+        "summary": "简称 最新融资余额（亿元） 累计增减（%） 代码 简称 最新融资余额（亿元） 累计增减（%） 603056 德邦股份 0.16 -64.72 688025 杰普特 4.77 131.30 688785 恒运昌 2.38 -63.73 002455 百川股份 4.13 129.61 002044",
+        "source": "news_incremental",
+        "entity_codes": [
+          "002044"
+        ],
+        "entity_names": [
+          "美年健康"
+        ],
+        "industry_codes": [],
+        "theme_tags": [],
+        "event_time": "2026-02-09T00:00:00",
+        "discover_time": "2026-02-09T09:32:24",
+        "available_at": "2026-02-09T09:32:24",
+        "severity": 0.55,
+        "surprise_score": 0.45,
+        "tradability_score": 0.7,
+        "novelty_score": 0.6,
+        "crowding_risk": 0.45,
+        "confidence": 0.55,
+        "impact_level": "medium",
+        "source_type": "news",
+        "raw_payload_ref": "http://finance.eastmoney.com/a/202602093645147288.html",
+        "metadata": {
+          "legacy_type": "capital_raise",
+          "legacy_event_date": "2026-02-09",
+          "legacy_stock_code": "002044",
+          "legacy_stock_name": "美年健康",
+          "ingest_date": "2026-02-09",
+          "publisher": "证券时报网",
+          "matched_keywords": [
+            "融资"
+          ]
+        },
+        "created_at": "2026-03-20T10:26:02.585385+00:00",
+        "updated_at": "2026-03-20T10:26:02.585389+00:00"
+      },
+      {
+        "event_id": "news:2026-02-09:300394:6eb2b8c5cef1",
+        "event_type": "technology_breakthrough",
+        "event_subtype": "technology_breakthrough.mass_production",
+        "title": "集体大涨！300394再创新高",
+        "summary": "A股市场超4600股飘红，半导体板块拉升，芯原股份涨近15%，国芯科技涨近13%，复旦微电涨近10%；AI应用概念活跃，中文在线、海看股份20%涨停，海天瑞声等涨超10%；CPO概念强势，市值超2000亿元的天孚通信（300394）盘中涨停突破300元大关，续创历史新高；新易盛、中际旭创均走高",
+        "source": "news_incremental",
+        "entity_codes": [
+          "300394"
+        ],
+        "entity_names": [
+          "天孚通信"
+        ],
+        "industry_codes": [],
+        "theme_tags": [
+          "ai",
+          "semiconductor"
+        ],
+        "event_time": "2026-02-09T00:00:00",
+        "discover_time": "2026-02-09T17:28:37",
+        "available_at": "2026-02-09T17:28:37",
+        "severity": 0.8,
+        "surprise_score": 0.75,
+        "tradability_score": 0.7,
+        "novelty_score": 0.6,
+        "crowding_risk": 0.45,
+        "confidence": 0.7,
+        "impact_level": "high",
+        "source_type": "news",
+        "raw_payload_ref": "http://finance.eastmoney.com/a/202602093645509219.html",
+        "metadata": {
+          "legacy_type": "technology_breakthrough",
+          "legacy_event_date": "2026-02-09",
+          "legacy_stock_code": "300394",
+          "legacy_stock_name": "天孚通信",
+          "ingest_date": "2026-02-09",
+          "publisher": "证券时报",
+          "matched_keywords": [
+            "突破"
+          ]
+        },
+        "created_at": "2026-03-20T10:26:02.585674+00:00",
+        "updated_at": "2026-03-20T10:26:02.585675+00:00"
+      },
+      {
+        "event_id": "news:2026-02-09:300601:a5643743256c",
+        "event_type": "earnings_surprise",
+        "event_subtype": "earnings_surprise.report",
+        "title": "康泰生物：终止与阿斯利康疫苗合资 2025年净利润预降超六成",
+        "summary": "南方财经2月9日电，康泰生物300601.SZ)于2月6日公告，终止与阿斯利康设立疫苗合资公司的合作。该合作于2025年3月敲定，原计划在北京经开区设立合资公司，双方各持50%股权，注册资本3.45亿元，投资总额约27.6亿元；截至公告披露，合资公司未成立、公司亦未实际出资。",
+        "source": "news_incremental",
+        "entity_codes": [
+          "300601"
+        ],
+        "entity_names": [
+          "康泰生物"
+        ],
+        "industry_codes": [],
+        "theme_tags": [],
+        "event_time": "2026-02-09T00:00:00",
+        "discover_time": "2026-02-09T10:43:04",
+        "available_at": "2026-02-09T10:43:04",
+        "severity": 0.8,
+        "surprise_score": 0.75,
+        "tradability_score": 0.7,
+        "novelty_score": 0.6,
+        "crowding_risk": 0.45,
+        "confidence": 0.7,
+        "impact_level": "high",
+        "source_type": "news",
+        "raw_payload_ref": "http://finance.eastmoney.com/a/202602093645183495.html",
+        "metadata": {
+          "legacy_type": "earnings_surprise",
+          "legacy_event_date": "2026-02-09",
+          "legacy_stock_code": "300601",
+          "legacy_stock_name": "康泰生物",
+          "ingest_date": "2026-02-09",
+          "publisher": "南方财经网",
+          "matched_keywords": [
+            "净利润"
+          ]
+        },
+        "created_at": "2026-03-20T10:26:02.585811+00:00",
+        "updated_at": "2026-03-20T10:26:02.585812+00:00"
+      },
+      {
+        "event_id": "news:2026-02-09:600363:a016768fb85a",
+        "event_type": "share_pledge",
+        "event_subtype": "share_pledge.collateral_change",
+        "title": "联创光电：控股股东解除479万股质押 仍累计质押超七成持股",
+        "summary": "2月9日，联创光电（600363）发布公告，控股股东江西省电子集团有限公司将其持有的479万股股份于2026年2月6日解除质押，占其所持股份的5.06%及公司总股本的1.06%。",
+        "source": "news_incremental",
+        "entity_codes": [
+          "600363"
+        ],
+        "entity_names": [
+          "联创光电"
+        ],
+        "industry_codes": [],
+        "theme_tags": [],
+        "event_time": "2026-02-09T00:00:00",
+        "discover_time": "2026-02-09T17:43:19",
+        "available_at": "2026-02-09T17:43:19",
+        "severity": 0.55,
+        "surprise_score": 0.45,
+        "tradability_score": 0.7,
+        "novelty_score": 0.6,
+        "crowding_risk": 0.45,
+        "confidence": 0.55,
+        "impact_level": "medium",
+        "source_type": "news",
+        "raw_payload_ref": "http://finance.eastmoney.com/a/202602093645533034.html",
+        "metadata": {
+          "legacy_type": "share_pledge",
+          "legacy_event_date": "2026-02-09",
+          "legacy_stock_code": "600363",
+          "legacy_stock_name": "联创光电",
+          "ingest_date": "2026-02-09",
+          "publisher": "财中社",
+          "matched_keywords": [
+            "解除质押"
+          ]
+        },
+        "created_at": "2026-03-20T10:26:02.586046+00:00",
+        "updated_at": "2026-03-20T10:26:02.586047+00:00"
+      },
+      {
+        "event_id": "news:2026-02-09:601965:6ca5449c226b",
+        "event_type": "earnings_surprise",
+        "event_subtype": "earnings_surprise.guidance",
+        "title": "103家公司公布业绩快报：77%去年净利润增长",
+        "summary": "141.88 18.46 600999 招商证券 01.28 249.00 19.19 123.00 18.43 300019 硅宝科技 02.04 37.52 18.76 2.81 18.34 600710 苏美达 01.30 1178.03 0.54 13.55 18.01 601965",
+        "source": "news_incremental",
+        "entity_codes": [
+          "601965"
+        ],
+        "entity_names": [
+          "中国汽研"
+        ],
+        "industry_codes": [],
+        "theme_tags": [],
+        "event_time": "2026-02-09T00:00:00",
+        "discover_time": "2026-02-09T09:34:16",
+        "available_at": "2026-02-09T09:34:16",
+        "severity": 0.8,
+        "surprise_score": 0.75,
+        "tradability_score": 0.7,
+        "novelty_score": 0.6,
+        "crowding_risk": 0.45,
+        "confidence": 0.7,
+        "impact_level": "high",
+        "source_type": "news",
+        "raw_payload_ref": "http://finance.eastmoney.com/a/202602093645038342.html",
+        "metadata": {
+          "legacy_type": "earnings_surprise",
+          "legacy_event_date": "2026-02-09",
+          "legacy_stock_code": "601965",
+          "legacy_stock_name": "中国汽研",
+          "ingest_date": "2026-02-09",
+          "publisher": "证券时报网",
+          "matched_keywords": [
+            "业绩快报"
+          ]
+        },
+        "created_at": "2026-03-20T10:26:02.586372+00:00",
+        "updated_at": "2026-03-20T10:26:02.586373+00:00"
+      }
+    ]
+  }
+}

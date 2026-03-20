@@ -1,0 +1,540 @@
+{
+  "component": "events",
+  "as_of_date": "2026-02-10",
+  "universe_id": "csi800",
+  "quality_status": "derived_from_local_foundation",
+  "authoritative": false,
+  "run_context": "historical_backfill",
+  "generated_at": "2026-03-20T10:26:02Z",
+  "source_paths": [
+    ".data/authoritative_archive/foundation/filings/20260210.json",
+    ".data/authoritative_archive/foundation/news/20260210.json",
+    ".data/authoritative_archive/foundation/sentiment/20260210.json"
+  ],
+  "payload": {
+    "summary": {
+      "ingest_date": "2026-02-10",
+      "snapshot_mode": "historical_replay",
+      "history_quality": "derived_from_local_foundation",
+      "incremental_event_count": 12,
+      "event_master_count": 45,
+      "created_event_count": 12,
+      "filing_event_count": 0,
+      "news_event_count": 12,
+      "sentiment_event_count": 0,
+      "skipped_filing_other": 0,
+      "skipped_news_other": 10
+    },
+    "rows": [
+      {
+        "event_id": "news:2026-02-10:000538:f2f785cb8813",
+        "event_type": "capacity_expansion",
+        "event_subtype": "capacity_expansion.construction",
+        "title": "云南白药：子公司拟1.37亿元投建文山公司口服液二期项目",
+        "summary": "人民财讯2月10日电，云南白药0005382月10日公告，为提升气血康等口服液产品的产能，满足持续增长的市场销售需求，公司全资子公司云南白药集团文山七花有限责任公司拟建设文山公司口服液二期项目，本项目投资总预算1.37亿元。",
+        "source": "news_incremental",
+        "entity_codes": [
+          "000538"
+        ],
+        "entity_names": [
+          "云南白药"
+        ],
+        "industry_codes": [],
+        "theme_tags": [],
+        "event_time": "2026-02-10T00:00:00",
+        "discover_time": "2026-02-10T18:25:39",
+        "available_at": "2026-02-10T18:25:39",
+        "severity": 0.55,
+        "surprise_score": 0.45,
+        "tradability_score": 0.7,
+        "novelty_score": 0.6,
+        "crowding_risk": 0.45,
+        "confidence": 0.55,
+        "impact_level": "medium",
+        "source_type": "news",
+        "raw_payload_ref": "http://finance.eastmoney.com/a/202602103646788660.html",
+        "metadata": {
+          "legacy_type": "capacity_expansion",
+          "legacy_event_date": "2026-02-10",
+          "legacy_stock_code": "000538",
+          "legacy_stock_name": "云南白药",
+          "ingest_date": "2026-02-10",
+          "publisher": "人民财讯",
+          "matched_keywords": [
+            "投建"
+          ]
+        },
+        "created_at": "2026-03-20T10:26:02.739137+00:00",
+        "updated_at": "2026-03-20T10:26:02.739140+00:00"
+      },
+      {
+        "event_id": "news:2026-02-10:002262:a9d33c12ad24",
+        "event_type": "technology_breakthrough",
+        "event_subtype": "technology_breakthrough.mass_production",
+        "title": "【盘中播报】86只个股突破年线",
+        "summary": "1.65 0.84 57.54 58.40 1.50 688132 邦彦技术 1.76 1.74 19.39 19.68 1.49 002881 美格智能 3.62 4.48 47.37 48.07 1.48 000727 冠捷科技 1.92 1.55 2.61 2.65 1.47 002262",
+        "source": "news_incremental",
+        "entity_codes": [
+          "002262"
+        ],
+        "entity_names": [
+          "恩华药业"
+        ],
+        "industry_codes": [],
+        "theme_tags": [],
+        "event_time": "2026-02-10T00:00:00",
+        "discover_time": "2026-02-10T14:46:46",
+        "available_at": "2026-02-10T14:46:46",
+        "severity": 0.8,
+        "surprise_score": 0.75,
+        "tradability_score": 0.7,
+        "novelty_score": 0.6,
+        "crowding_risk": 0.45,
+        "confidence": 0.7,
+        "impact_level": "high",
+        "source_type": "news",
+        "raw_payload_ref": "http://finance.eastmoney.com/a/202602103646618493.html",
+        "metadata": {
+          "legacy_type": "technology_breakthrough",
+          "legacy_event_date": "2026-02-10",
+          "legacy_stock_code": "002262",
+          "legacy_stock_name": "恩华药业",
+          "ingest_date": "2026-02-10",
+          "publisher": "证券时报网",
+          "matched_keywords": [
+            "突破"
+          ]
+        },
+        "created_at": "2026-03-20T10:26:02.739423+00:00",
+        "updated_at": "2026-03-20T10:26:02.739424+00:00"
+      },
+      {
+        "event_id": "news:2026-02-10:002262:6ddc37450f07",
+        "event_type": "technology_breakthrough",
+        "event_subtype": "technology_breakthrough.mass_production",
+        "title": "今日73只个股突破年线",
+        "summary": "2.66 3.36 6.44 6.57 2.06 300449 汉邦高科 5.94 9.86 7.86 8.02 2.02 002881 美格智能 3.86 5.75 47.37 48.18 1.71 300559 佳发教育 2.51 3.80 12.47 12.67 1.62 002262",
+        "source": "news_incremental",
+        "entity_codes": [
+          "002262"
+        ],
+        "entity_names": [
+          "恩华药业"
+        ],
+        "industry_codes": [],
+        "theme_tags": [],
+        "event_time": "2026-02-10T00:00:00",
+        "discover_time": "2026-02-10T16:56:23",
+        "available_at": "2026-02-10T16:56:23",
+        "severity": 0.8,
+        "surprise_score": 0.75,
+        "tradability_score": 0.7,
+        "novelty_score": 0.6,
+        "crowding_risk": 0.45,
+        "confidence": 0.7,
+        "impact_level": "high",
+        "source_type": "news",
+        "raw_payload_ref": "http://finance.eastmoney.com/a/202602103646716544.html",
+        "metadata": {
+          "legacy_type": "technology_breakthrough",
+          "legacy_event_date": "2026-02-10",
+          "legacy_stock_code": "002262",
+          "legacy_stock_name": "恩华药业",
+          "ingest_date": "2026-02-10",
+          "publisher": "证券时报网",
+          "matched_keywords": [
+            "突破"
+          ]
+        },
+        "created_at": "2026-03-20T10:26:02.739569+00:00",
+        "updated_at": "2026-03-20T10:26:02.739570+00:00"
+      },
+      {
+        "event_id": "news:2026-02-10:002262:b93159f8e49f",
+        "event_type": "technology_breakthrough",
+        "event_subtype": "technology_breakthrough.mass_production",
+        "title": "今日79只个股突破年线",
+        "summary": "3.99 15.53 8.19 8.34 1.87 688088 虹软科技 3.22 1.63 49.38 50.27 1.80 600276 恒瑞医药 1.95 0.68 57.54 58.57 1.79 002103 广博股份 1.90 4.04 9.99 10.17 1.76 002262",
+        "source": "news_incremental",
+        "entity_codes": [
+          "002262"
+        ],
+        "entity_names": [
+          "恩华药业"
+        ],
+        "industry_codes": [],
+        "theme_tags": [
+          "medicine"
+        ],
+        "event_time": "2026-02-10T00:00:00",
+        "discover_time": "2026-02-10T13:05:04",
+        "available_at": "2026-02-10T13:05:04",
+        "severity": 0.8,
+        "surprise_score": 0.75,
+        "tradability_score": 0.7,
+        "novelty_score": 0.6,
+        "crowding_risk": 0.45,
+        "confidence": 0.7,
+        "impact_level": "high",
+        "source_type": "news",
+        "raw_payload_ref": "http://finance.eastmoney.com/a/202602103646517825.html",
+        "metadata": {
+          "legacy_type": "technology_breakthrough",
+          "legacy_event_date": "2026-02-10",
+          "legacy_stock_code": "002262",
+          "legacy_stock_name": "恩华药业",
+          "ingest_date": "2026-02-10",
+          "publisher": "证券时报网",
+          "matched_keywords": [
+            "突破"
+          ]
+        },
+        "created_at": "2026-03-20T10:26:02.739715+00:00",
+        "updated_at": "2026-03-20T10:26:02.739716+00:00"
+      },
+      {
+        "event_id": "news:2026-02-10:300100:a095a148e1b4",
+        "event_type": "earnings_surprise",
+        "event_subtype": "earnings_surprise.report",
+        "title": "双林股份：公司已在机器人领域进行相关布局与产品研发，目前部分产品已进入小批量产阶段",
+        "summary": "双林股份（300100.SZ）2月9日在投资者互动平台表示，二级市场股价走势受宏观经济、市场环境及投资者偏好等多方面因素影响。公司已在机器人领域进行相关布局与产品研发，目前部分产品已进入小批量产阶段，由于目前营收占比较少，请投资者注意风险，关于产品的详细情况请以公司公告为准。",
+        "source": "news_incremental",
+        "entity_codes": [
+          "300100"
+        ],
+        "entity_names": [
+          "双林股份"
+        ],
+        "industry_codes": [],
+        "theme_tags": [
+          "robotics"
+        ],
+        "event_time": "2026-02-10T00:00:00",
+        "discover_time": "2026-02-10T12:40:16",
+        "available_at": "2026-02-10T12:40:16",
+        "severity": 0.8,
+        "surprise_score": 0.75,
+        "tradability_score": 0.7,
+        "novelty_score": 0.6,
+        "crowding_risk": 0.45,
+        "confidence": 0.7,
+        "impact_level": "high",
+        "source_type": "news",
+        "raw_payload_ref": "http://finance.eastmoney.com/a/202602103646501673.html",
+        "metadata": {
+          "legacy_type": "earnings_surprise",
+          "legacy_event_date": "2026-02-10",
+          "legacy_stock_code": "300100",
+          "legacy_stock_name": "双林股份",
+          "ingest_date": "2026-02-10",
+          "publisher": "每日经济新闻",
+          "matched_keywords": [
+            "营收"
+          ]
+        },
+        "created_at": "2026-03-20T10:26:02.740042+00:00",
+        "updated_at": "2026-03-20T10:26:02.740043+00:00"
+      },
+      {
+        "event_id": "news:2026-02-10:300251:c7fb3e4028aa",
+        "event_type": "sentiment_reversal",
+        "event_subtype": "sentiment_reversal.hot_topic",
+        "title": "全线爆发！300251强势涨停",
+        "summary": "A股市场超3100股飘绿，酿酒、食品饮料、零售等消费板块集体下挫，电力、有色等板块均走低；传媒板块全线爆发，短剧游戏、影视股表现亮眼，荣信文化、中文在线、捷成股份等连续两日20%涨停，光线传媒（300251）亦大单封涨停；创新药概念拉升，广生堂涨超10%，万邦德涨停。",
+        "source": "news_incremental",
+        "entity_codes": [
+          "300251"
+        ],
+        "entity_names": [
+          "光线传媒"
+        ],
+        "industry_codes": [],
+        "theme_tags": [
+          "medicine",
+          "consumer"
+        ],
+        "event_time": "2026-02-10T00:00:00",
+        "discover_time": "2026-02-10T19:37:44",
+        "available_at": "2026-02-10T19:37:44",
+        "severity": 0.55,
+        "surprise_score": 0.45,
+        "tradability_score": 0.7,
+        "novelty_score": 0.6,
+        "crowding_risk": 0.35,
+        "confidence": 0.55,
+        "impact_level": "medium",
+        "source_type": "news",
+        "raw_payload_ref": "http://finance.eastmoney.com/a/202602103646829928.html",
+        "metadata": {
+          "legacy_type": "sentiment_reversal",
+          "legacy_event_date": "2026-02-10",
+          "legacy_stock_code": "300251",
+          "legacy_stock_name": "光线传媒",
+          "ingest_date": "2026-02-10",
+          "publisher": "证券时报",
+          "matched_keywords": [
+            "市场热度"
+          ]
+        },
+        "created_at": "2026-03-20T10:26:02.740184+00:00",
+        "updated_at": "2026-03-20T10:26:02.740185+00:00"
+      },
+      {
+        "event_id": "news:2026-02-10:600436:19da90b847cb",
+        "event_type": "technology_breakthrough",
+        "event_subtype": "technology_breakthrough.approval",
+        "title": "片仔癀PZH2107Ⅱ期临床试验完成首例受试者入组",
+        "summary": "北京商报讯2月10日晚间，片仔癀（600436）发布公告称，近日，公司与上海璃道医药科技有限公司（以下简称“璃道医药”）合作研发项目PZH2107（璃道医药内部研发项目代号：LDS片），已完成“LDS片治疗纤维肌痛的随机、双盲、安慰剂平行对照、多中心、Ⅱ期临床试验”的首例受试者入组",
+        "source": "news_incremental",
+        "entity_codes": [
+          "600436"
+        ],
+        "entity_names": [
+          "片仔癀"
+        ],
+        "industry_codes": [],
+        "theme_tags": [
+          "medicine"
+        ],
+        "event_time": "2026-02-10T00:00:00",
+        "discover_time": "2026-02-10T20:38:55",
+        "available_at": "2026-02-10T20:38:55",
+        "severity": 0.8,
+        "surprise_score": 0.75,
+        "tradability_score": 0.7,
+        "novelty_score": 0.6,
+        "crowding_risk": 0.45,
+        "confidence": 0.7,
+        "impact_level": "high",
+        "source_type": "news",
+        "raw_payload_ref": "http://finance.eastmoney.com/a/202602103646878994.html",
+        "metadata": {
+          "legacy_type": "technology_breakthrough",
+          "legacy_event_date": "2026-02-10",
+          "legacy_stock_code": "600436",
+          "legacy_stock_name": "片仔癀",
+          "ingest_date": "2026-02-10",
+          "publisher": "北京商报",
+          "matched_keywords": [
+            "临床"
+          ]
+        },
+        "created_at": "2026-03-20T10:26:02.740418+00:00",
+        "updated_at": "2026-03-20T10:26:02.740419+00:00"
+      },
+      {
+        "event_id": "news:2026-02-10:600436:151613068e4e",
+        "event_type": "technology_breakthrough",
+        "event_subtype": "technology_breakthrough.approval",
+        "title": "片仔癀：PZH2107Ⅱ期临床试验完成首例受试者入组",
+        "summary": "每经AI快讯，2月10日，片仔癀600436.SH)公告称，公司与璃道医药合作研发的PZH2107（LDS片）已完成Ⅱ期临床试验首例受试者入组。PZH2107为化学药品1类创新药，用于治疗纤维肌痛。",
+        "source": "news_incremental",
+        "entity_codes": [
+          "600436"
+        ],
+        "entity_names": [
+          "片仔癀"
+        ],
+        "industry_codes": [],
+        "theme_tags": [
+          "ai",
+          "medicine"
+        ],
+        "event_time": "2026-02-10T00:00:00",
+        "discover_time": "2026-02-10T16:50:56",
+        "available_at": "2026-02-10T16:50:56",
+        "severity": 0.8,
+        "surprise_score": 0.75,
+        "tradability_score": 0.7,
+        "novelty_score": 0.6,
+        "crowding_risk": 0.45,
+        "confidence": 0.7,
+        "impact_level": "high",
+        "source_type": "news",
+        "raw_payload_ref": "http://finance.eastmoney.com/a/202602103646714219.html",
+        "metadata": {
+          "legacy_type": "technology_breakthrough",
+          "legacy_event_date": "2026-02-10",
+          "legacy_stock_code": "600436",
+          "legacy_stock_name": "片仔癀",
+          "ingest_date": "2026-02-10",
+          "publisher": "每日经济新闻",
+          "matched_keywords": [
+            "临床"
+          ]
+        },
+        "created_at": "2026-03-20T10:26:02.740549+00:00",
+        "updated_at": "2026-03-20T10:26:02.740550+00:00"
+      },
+      {
+        "event_id": "news:2026-02-10:600436:023749fb76be",
+        "event_type": "technology_breakthrough",
+        "event_subtype": "technology_breakthrough.approval",
+        "title": "片仔癀：PZH2107正式进入Ⅱ期临床试验 适应症聚焦纤维肌痛",
+        "summary": "2月10日，片仔癀（600436）发布公告，公司与上海璃道医药科技有限公司合作研发的PZH2107（LDS片）已完成Ⅱ期临床试验的首例受试者入组，正式进入Ⅱ期临床试验。 该药物适应症为纤维肌痛，临床试验方案已获得伦理委员会审查批准。",
+        "source": "news_incremental",
+        "entity_codes": [
+          "600436"
+        ],
+        "entity_names": [
+          "片仔癀"
+        ],
+        "industry_codes": [],
+        "theme_tags": [
+          "medicine"
+        ],
+        "event_time": "2026-02-10T00:00:00",
+        "discover_time": "2026-02-10T17:01:48",
+        "available_at": "2026-02-10T17:01:48",
+        "severity": 0.8,
+        "surprise_score": 0.75,
+        "tradability_score": 0.7,
+        "novelty_score": 0.6,
+        "crowding_risk": 0.45,
+        "confidence": 0.7,
+        "impact_level": "high",
+        "source_type": "news",
+        "raw_payload_ref": "http://finance.eastmoney.com/a/202602103646728519.html",
+        "metadata": {
+          "legacy_type": "technology_breakthrough",
+          "legacy_event_date": "2026-02-10",
+          "legacy_stock_code": "600436",
+          "legacy_stock_name": "片仔癀",
+          "ingest_date": "2026-02-10",
+          "publisher": "财中社",
+          "matched_keywords": [
+            "临床"
+          ]
+        },
+        "created_at": "2026-03-20T10:26:02.740681+00:00",
+        "updated_at": "2026-03-20T10:26:02.740681+00:00"
+      },
+      {
+        "event_id": "news:2026-02-10:601928:d22fbdaf7036",
+        "event_type": "policy_risk",
+        "event_subtype": "policy_risk.delisting",
+        "title": "手机游戏概念涨3.57%，主力资金净流入这些股",
+        "summary": "大晟 1.87 1.80 -234.22 -6.10 002168 *ST惠程 0.00 0.49 -260.15 -16.59 002919 名臣健康 -1.16 3.34 -851.60 -3.71 300710 万隆光电 -1.95 8.69 -1759.96 -8.22 601928",
+        "source": "news_incremental",
+        "entity_codes": [
+          "601928"
+        ],
+        "entity_names": [
+          "凤凰传媒"
+        ],
+        "industry_codes": [],
+        "theme_tags": [],
+        "event_time": "2026-02-10T00:00:00",
+        "discover_time": "2026-02-10T16:58:26",
+        "available_at": "2026-02-10T16:58:26",
+        "severity": 0.8,
+        "surprise_score": 0.75,
+        "tradability_score": 0.7,
+        "novelty_score": 0.6,
+        "crowding_risk": 0.35,
+        "confidence": 0.7,
+        "impact_level": "high",
+        "source_type": "news",
+        "raw_payload_ref": "http://finance.eastmoney.com/a/202602103646723834.html",
+        "metadata": {
+          "legacy_type": "policy_risk",
+          "legacy_event_date": "2026-02-10",
+          "legacy_stock_code": "601928",
+          "legacy_stock_name": "凤凰传媒",
+          "ingest_date": "2026-02-10",
+          "publisher": "证券时报网",
+          "matched_keywords": [
+            "*st"
+          ]
+        },
+        "created_at": "2026-03-20T10:26:02.741198+00:00",
+        "updated_at": "2026-03-20T10:26:02.741199+00:00"
+      },
+      {
+        "event_id": "news:2026-02-10:601965:b9de08a93755",
+        "event_type": "earnings_surprise",
+        "event_subtype": "earnings_surprise.guidance",
+        "title": "112家公司公布业绩快报：77%去年净利润增长",
+        "summary": "141.88 18.46 600999 招商证券 01.28 249.00 19.19 123.00 18.43 300019 硅宝科技 02.04 37.52 18.76 2.81 18.34 600710 苏美达 01.30 1178.03 0.54 13.55 18.01 601965",
+        "source": "news_incremental",
+        "entity_codes": [
+          "601965"
+        ],
+        "entity_names": [
+          "中国汽研"
+        ],
+        "industry_codes": [],
+        "theme_tags": [],
+        "event_time": "2026-02-10T00:00:00",
+        "discover_time": "2026-02-10T09:40:16",
+        "available_at": "2026-02-10T09:40:16",
+        "severity": 0.8,
+        "surprise_score": 0.75,
+        "tradability_score": 0.7,
+        "novelty_score": 0.6,
+        "crowding_risk": 0.45,
+        "confidence": 0.7,
+        "impact_level": "high",
+        "source_type": "news",
+        "raw_payload_ref": "http://finance.eastmoney.com/a/202602103646350367.html",
+        "metadata": {
+          "legacy_type": "earnings_surprise",
+          "legacy_event_date": "2026-02-10",
+          "legacy_stock_code": "601965",
+          "legacy_stock_name": "中国汽研",
+          "ingest_date": "2026-02-10",
+          "publisher": "证券时报网",
+          "matched_keywords": [
+            "业绩快报"
+          ]
+        },
+        "created_at": "2026-03-20T10:26:02.741424+00:00",
+        "updated_at": "2026-03-20T10:26:02.741425+00:00"
+      },
+      {
+        "event_id": "news:2026-02-10:603000:d5b14078bd5f",
+        "event_type": "sentiment_reversal",
+        "event_subtype": "sentiment_reversal.hot_topic",
+        "title": "大面积涨停！603000，1分钟封板！超23万手封死",
+        "summary": "【导读】AI应用方向集体爆发，创新药概念股震荡反弹 一起来看下上午的市场情况及最新资讯。 2月10日上午，A股市场震荡调整，截至午间收盘，沪指跌0.02%，深成指跌0.02%，创业板指跌0.14%。 板块上来看，AI应用方向集体爆发，文化传媒、短剧游戏、互联网等板块涨幅居前",
+        "source": "news_incremental",
+        "entity_codes": [
+          "603000"
+        ],
+        "entity_names": [
+          "人民网"
+        ],
+        "industry_codes": [],
+        "theme_tags": [
+          "ai",
+          "medicine"
+        ],
+        "event_time": "2026-02-10T00:00:00",
+        "discover_time": "2026-02-10T12:23:41",
+        "available_at": "2026-02-10T12:23:41",
+        "severity": 0.55,
+        "surprise_score": 0.45,
+        "tradability_score": 0.7,
+        "novelty_score": 0.6,
+        "crowding_risk": 0.35,
+        "confidence": 0.55,
+        "impact_level": "medium",
+        "source_type": "news",
+        "raw_payload_ref": "http://finance.eastmoney.com/a/202602103646498154.html",
+        "metadata": {
+          "legacy_type": "sentiment_reversal",
+          "legacy_event_date": "2026-02-10",
+          "legacy_stock_code": "603000",
+          "legacy_stock_name": "人民网",
+          "ingest_date": "2026-02-10",
+          "publisher": "中国基金报",
+          "matched_keywords": [
+            "市场热度"
+          ]
+        },
+        "created_at": "2026-03-20T10:26:02.741593+00:00",
+        "updated_at": "2026-03-20T10:26:02.741594+00:00"
+      }
+    ]
+  }
+}

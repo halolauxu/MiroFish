@@ -1,0 +1,30 @@
+{
+  "component": "events",
+  "as_of_date": "2026-01-07",
+  "universe_id": "csi800",
+  "quality_status": "derived_from_local_foundation",
+  "authoritative": false,
+  "run_context": "historical_backfill",
+  "generated_at": "2026-03-20T10:25:59Z",
+  "source_paths": [
+    ".data/authoritative_archive/foundation/filings/20260107.json",
+    ".data/authoritative_archive/foundation/news/20260107.json",
+    ".data/authoritative_archive/foundation/sentiment/20260107.json"
+  ],
+  "payload": {
+    "summary": {
+      "ingest_date": "2026-01-07",
+      "snapshot_mode": "historical_replay",
+      "history_quality": "derived_from_local_foundation",
+      "incremental_event_count": 0,
+      "event_master_count": 3,
+      "created_event_count": 0,
+      "filing_event_count": 0,
+      "news_event_count": 0,
+      "sentiment_event_count": 0,
+      "skipped_filing_other": 0,
+      "skipped_news_other": 0
+    },
+    "rows": []
+  }
+}

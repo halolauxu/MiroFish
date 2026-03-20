@@ -1,0 +1,72 @@
+{
+  "component": "events",
+  "as_of_date": "2025-12-11",
+  "universe_id": "csi800",
+  "quality_status": "derived_from_local_foundation",
+  "authoritative": false,
+  "run_context": "historical_backfill",
+  "generated_at": "2026-03-20T10:25:56Z",
+  "source_paths": [
+    ".data/authoritative_archive/foundation/filings/20251211.json",
+    ".data/authoritative_archive/foundation/news/20251211.json",
+    ".data/authoritative_archive/foundation/sentiment/20251211.json"
+  ],
+  "payload": {
+    "summary": {
+      "ingest_date": "2025-12-11",
+      "snapshot_mode": "historical_replay",
+      "history_quality": "derived_from_local_foundation",
+      "incremental_event_count": 1,
+      "event_master_count": 2,
+      "created_event_count": 1,
+      "filing_event_count": 0,
+      "news_event_count": 1,
+      "sentiment_event_count": 0,
+      "skipped_filing_other": 0,
+      "skipped_news_other": 0
+    },
+    "rows": [
+      {
+        "event_id": "news:2025-12-11:300529:c19ca0d304af",
+        "event_type": "product_launch",
+        "event_subtype": "product_launch.new_release",
+        "title": "健帆生物：非独立董事廖雪云改任职工代表董事",
+        "summary": "12月11日，健帆生物（300529）发布公告，廖雪云申请辞去非独立董事职务，但仍担任公司其他相关职务。 在2025年12月11日的职工代表大会上，廖雪云被选举为公司第五届董事会职工代表董事，任期自选举之日起至第五届董事会任期届满。",
+        "source": "news_incremental",
+        "entity_codes": [
+          "300529"
+        ],
+        "entity_names": [
+          "健帆生物"
+        ],
+        "industry_codes": [],
+        "theme_tags": [],
+        "event_time": "2025-12-11T00:00:00",
+        "discover_time": "2025-12-11T20:08:27",
+        "available_at": "2025-12-11T20:08:27",
+        "severity": 0.55,
+        "surprise_score": 0.75,
+        "tradability_score": 0.7,
+        "novelty_score": 0.6,
+        "crowding_risk": 0.45,
+        "confidence": 0.55,
+        "impact_level": "medium",
+        "source_type": "news",
+        "raw_payload_ref": "http://finance.eastmoney.com/a/202512113589082113.html",
+        "metadata": {
+          "legacy_type": "product_launch",
+          "legacy_event_date": "2025-12-11",
+          "legacy_stock_code": "300529",
+          "legacy_stock_name": "健帆生物",
+          "ingest_date": "2025-12-11",
+          "publisher": "财中社",
+          "matched_keywords": [
+            "发布"
+          ]
+        },
+        "created_at": "2026-03-20T10:25:56.624987+00:00",
+        "updated_at": "2026-03-20T10:25:56.624991+00:00"
+      }
+    ]
+  }
+}

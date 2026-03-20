@@ -1,0 +1,154 @@
+{
+  "component": "events",
+  "as_of_date": "2026-01-26",
+  "universe_id": "csi800",
+  "quality_status": "derived_from_local_foundation",
+  "authoritative": false,
+  "run_context": "historical_backfill",
+  "generated_at": "2026-03-20T10:26:01Z",
+  "source_paths": [
+    ".data/authoritative_archive/foundation/filings/20260126.json",
+    ".data/authoritative_archive/foundation/news/20260126.json",
+    ".data/authoritative_archive/foundation/sentiment/20260126.json"
+  ],
+  "payload": {
+    "summary": {
+      "ingest_date": "2026-01-26",
+      "snapshot_mode": "historical_replay",
+      "history_quality": "derived_from_local_foundation",
+      "incremental_event_count": 3,
+      "event_master_count": 11,
+      "created_event_count": 3,
+      "filing_event_count": 0,
+      "news_event_count": 3,
+      "sentiment_event_count": 0,
+      "skipped_filing_other": 0,
+      "skipped_news_other": 1
+    },
+    "rows": [
+      {
+        "event_id": "news:2026-01-26:002410:199059786dfc",
+        "event_type": "earnings_surprise",
+        "event_subtype": "earnings_surprise.report",
+        "title": "广联达预计2025归母净利润增50.15%-70.11%",
+        "summary": "1月26日，广联达（002410）发布公告，预计2025年度归母净利润为3.76亿元至4.26亿元，比上年同期增长50.15%至70.11%。扣除非经常性损益后的净利润预计为3.18亿元至3.68亿元，增幅为82.62%至111.34%。",
+        "source": "news_incremental",
+        "entity_codes": [
+          "002410"
+        ],
+        "entity_names": [
+          "广联达"
+        ],
+        "industry_codes": [],
+        "theme_tags": [],
+        "event_time": "2026-01-26T00:00:00",
+        "discover_time": "2026-01-26T17:37:47",
+        "available_at": "2026-01-26T17:37:47",
+        "severity": 0.8,
+        "surprise_score": 0.75,
+        "tradability_score": 0.7,
+        "novelty_score": 0.6,
+        "crowding_risk": 0.45,
+        "confidence": 0.7,
+        "impact_level": "high",
+        "source_type": "news",
+        "raw_payload_ref": "http://finance.eastmoney.com/a/202601263630741595.html",
+        "metadata": {
+          "legacy_type": "earnings_surprise",
+          "legacy_event_date": "2026-01-26",
+          "legacy_stock_code": "002410",
+          "legacy_stock_name": "广联达",
+          "ingest_date": "2026-01-26",
+          "publisher": "财中社",
+          "matched_keywords": [
+            "净利润"
+          ]
+        },
+        "created_at": "2026-03-20T10:26:01.103887+00:00",
+        "updated_at": "2026-03-20T10:26:01.103891+00:00"
+      },
+      {
+        "event_id": "news:2026-01-26:002410:109daf8dcfbc",
+        "event_type": "earnings_surprise",
+        "event_subtype": "earnings_surprise.guidance",
+        "title": "广联达：2025年净利同比预增50.15%—70.11%",
+        "summary": "广联达0024101月26日发布业绩预告，预计2025年净利润为3.76亿元—4.26亿元，同比增长50.15%—70.11%。",
+        "source": "news_incremental",
+        "entity_codes": [
+          "002410"
+        ],
+        "entity_names": [
+          "广联达"
+        ],
+        "industry_codes": [],
+        "theme_tags": [],
+        "event_time": "2026-01-26T00:00:00",
+        "discover_time": "2026-01-26T17:33:12",
+        "available_at": "2026-01-26T17:33:12",
+        "severity": 0.8,
+        "surprise_score": 0.75,
+        "tradability_score": 0.7,
+        "novelty_score": 0.6,
+        "crowding_risk": 0.45,
+        "confidence": 0.7,
+        "impact_level": "high",
+        "source_type": "news",
+        "raw_payload_ref": "http://finance.eastmoney.com/a/202601263630737290.html",
+        "metadata": {
+          "legacy_type": "earnings_surprise",
+          "legacy_event_date": "2026-01-26",
+          "legacy_stock_code": "002410",
+          "legacy_stock_name": "广联达",
+          "ingest_date": "2026-01-26",
+          "publisher": "人民财讯",
+          "matched_keywords": [
+            "业绩预告"
+          ]
+        },
+        "created_at": "2026-03-20T10:26:01.104054+00:00",
+        "updated_at": "2026-03-20T10:26:01.104055+00:00"
+      },
+      {
+        "event_id": "news:2026-01-26:603658:8f73e39c3969",
+        "event_type": "technology_breakthrough",
+        "event_subtype": "technology_breakthrough.approval",
+        "title": "印度尼帕病毒拉响警报，尚无疫苗和有效疗法，检测试剂盒受关注，多家上市公司回应",
+        "summary": "安图生物（603658.SH）也发布消息称，其子公司思昆生物推出的高通量测序平台，可为快速精准识别尼帕病毒及病毒溯源提供高效解决方案，此外公司可针对病毒感染后的抗体、抗原进行精准检测，为尼帕病毒及各类新发突发传染病防控提供重要补充，可减少漏诊风险，为临床诊疗和疫情防控提供更全面的依据",
+        "source": "news_incremental",
+        "entity_codes": [
+          "603658"
+        ],
+        "entity_names": [
+          "安图生物"
+        ],
+        "industry_codes": [],
+        "theme_tags": [],
+        "event_time": "2026-01-26T00:00:00",
+        "discover_time": "2026-01-26T17:20:51",
+        "available_at": "2026-01-26T17:20:51",
+        "severity": 0.8,
+        "surprise_score": 0.75,
+        "tradability_score": 0.7,
+        "novelty_score": 0.6,
+        "crowding_risk": 0.45,
+        "confidence": 0.7,
+        "impact_level": "high",
+        "source_type": "news",
+        "raw_payload_ref": "http://finance.eastmoney.com/a/202601263630729638.html",
+        "metadata": {
+          "legacy_type": "technology_breakthrough",
+          "legacy_event_date": "2026-01-26",
+          "legacy_stock_code": "603658",
+          "legacy_stock_name": "安图生物",
+          "ingest_date": "2026-01-26",
+          "publisher": "红星资本局",
+          "matched_keywords": [
+            "临床"
+          ]
+        },
+        "created_at": "2026-03-20T10:26:01.104325+00:00",
+        "updated_at": "2026-03-20T10:26:01.104326+00:00"
+      }
+    ]
+  }
+}

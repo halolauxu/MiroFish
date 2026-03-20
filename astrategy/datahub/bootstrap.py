@@ -3,13 +3,14 @@
 from __future__ import annotations
 
 import argparse
+import json
 import logging
 from datetime import date
 from pathlib import Path
 from typing import Any, Dict
 
 from .audit import build_coverage_audit, save_coverage_audit
-from .common import repo_relative_path
+from .common import graph_manifest_path, graph_root, ingest_root, repo_relative_path
 from .graph import build_graph_layer, save_graph_layer
 from .ingest import (
     build_filings_layer,
@@ -37,6 +38,26 @@ logging.basicConfig(
     datefmt="%H:%M:%S",
 )
 logger = logging.getLogger("astrategy.datahub.bootstrap")
+
+
+def _archive_source_paths(paths: Dict[str, Path], extras: list[Path] | None = None) -> list[str]:
+    source_paths = [repo_relative_path(path) for path in paths.values()]
+    for extra in extras or []:
+        source_paths.append(repo_relative_path(extra))
+    return source_paths
+
+
+def _payload_snapshot_date(payload: Dict[str, Any] | None) -> str:
+    if not isinstance(payload, dict):
+        return ""
+    summary = payload.get("summary", {})
+    if not isinstance(summary, dict):
+        return ""
+    for key in ("ingest_date", "as_of_date"):
+        value = str(summary.get(key, "")).strip()
+        if value:
+            return value[:10]
+    return ""
 
 
 def run_data_foundation(
@@ -79,6 +100,7 @@ def run_data_foundation(
         collect_prices=collect_prices,
         lookback_days=price_lookback_days,
         sample_limit=price_sample_limit,
+        end_date=as_of_date,
         refresh=refresh_prices,
     )
     price_path = save_price_layer(price_layer)
@@ -126,19 +148,91 @@ def run_data_foundation(
     )
     event_paths = save_incremental_event_layer(incremental_events)
 
-    graph_layer = build_graph_layer(
-        security_master,
-        universe_membership,
+    if not collect_graph and not refresh_graph and graph_manifest_path().exists():
+        try:
+            graph_layer = json.loads(graph_manifest_path().read_text(encoding="utf-8"))
+        except Exception:
+            graph_layer = build_graph_layer(
+                security_master,
+                universe_membership,
+                universe_id=universe_id,
+                as_of_date=as_of_date,
+                collect_graph=collect_graph,
+                top_concepts=graph_top_concepts,
+                peer_limit=graph_peer_limit,
+                refresh_graph=refresh_graph,
+                event_payload=incremental_events,
+                sentiment_payload=sentiment_layer,
+            )
+    else:
+        graph_layer = build_graph_layer(
+            security_master,
+            universe_membership,
+            universe_id=universe_id,
+            as_of_date=as_of_date,
+            collect_graph=collect_graph,
+            top_concepts=graph_top_concepts,
+            peer_limit=graph_peer_limit,
+            refresh_graph=refresh_graph,
+            event_payload=incremental_events,
+            sentiment_payload=sentiment_layer,
+        )
+    graph_paths = save_graph_layer(graph_layer)
+
+    from astrategy.archive.foundation_history import FoundationHistoryBuilder
+
+    filings_archive_payload = (
+        filings_layer
+        if (collect_filings or refresh_filings or _payload_snapshot_date(filings_layer) == as_of_date)
+        else None
+    )
+    news_archive_payload = (
+        news_layer
+        if (collect_news or refresh_news or _payload_snapshot_date(news_layer) == as_of_date)
+        else None
+    )
+    sentiment_archive_payload = (
+        sentiment_layer
+        if (collect_sentiment or refresh_sentiment or _payload_snapshot_date(sentiment_layer) == as_of_date)
+        else None
+    )
+    event_archive_payload = (
+        incremental_events
+        if any(payload is not None for payload in (filings_archive_payload, news_archive_payload, sentiment_archive_payload))
+        else None
+    )
+    graph_archive_payload = graph_layer if (collect_graph or refresh_graph) else None
+
+    foundation_archiver = FoundationHistoryBuilder()
+    foundation_archive_results = foundation_archiver.archive_current_payloads(
         universe_id=universe_id,
         as_of_date=as_of_date,
-        collect_graph=collect_graph,
-        top_concepts=graph_top_concepts,
-        peer_limit=graph_peer_limit,
-        refresh_graph=refresh_graph,
-        event_payload=incremental_events,
-        sentiment_payload=sentiment_layer,
+        filings_payload=filings_archive_payload,
+        news_payload=news_archive_payload,
+        sentiment_payload=sentiment_archive_payload,
+        event_payload=event_archive_payload,
+        graph_payload=graph_archive_payload,
+        source_paths={
+            "filings": _archive_source_paths(
+                filings_paths,
+                extras=[ingest_root() / "filings" / "by_ticker"],
+            ),
+            "news": _archive_source_paths(
+                news_paths,
+                extras=[ingest_root() / "news" / "by_ticker"],
+            ),
+            "sentiment": _archive_source_paths(
+                sentiment_paths,
+                extras=[ingest_root() / "sentiment" / "by_ticker"],
+            ),
+            "events": _archive_source_paths(event_paths),
+            "graph": _archive_source_paths(
+                graph_paths,
+                extras=[graph_root() / "daily"],
+            ),
+        },
+        run_context="bootstrap",
     )
-    graph_paths = save_graph_layer(graph_layer)
 
     coverage_audit = build_coverage_audit(
         security_master,
@@ -165,6 +259,7 @@ def run_data_foundation(
         "news_paths": {k: repo_relative_path(v) for k, v in news_paths.items()},
         "sentiment_paths": {k: repo_relative_path(v) for k, v in sentiment_paths.items()},
         "incremental_event_paths": {k: repo_relative_path(v) for k, v in event_paths.items()},
+        "foundation_archive_results": foundation_archive_results,
         "coverage_audit_json": repo_relative_path(audit_paths["json"]),
         "coverage_audit_markdown": repo_relative_path(audit_paths["markdown"]),
         "coverage_audit_daily_json": repo_relative_path(audit_paths["daily_json"]),

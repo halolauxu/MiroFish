@@ -1,0 +1,75 @@
+{
+  "component": "events",
+  "as_of_date": "2026-01-20",
+  "universe_id": "csi800",
+  "quality_status": "derived_from_local_foundation",
+  "authoritative": false,
+  "run_context": "historical_backfill",
+  "generated_at": "2026-03-20T10:26:00Z",
+  "source_paths": [
+    ".data/authoritative_archive/foundation/filings/20260120.json",
+    ".data/authoritative_archive/foundation/news/20260120.json",
+    ".data/authoritative_archive/foundation/sentiment/20260120.json"
+  ],
+  "payload": {
+    "summary": {
+      "ingest_date": "2026-01-20",
+      "snapshot_mode": "historical_replay",
+      "history_quality": "derived_from_local_foundation",
+      "incremental_event_count": 1,
+      "event_master_count": 5,
+      "created_event_count": 1,
+      "filing_event_count": 0,
+      "news_event_count": 1,
+      "sentiment_event_count": 0,
+      "skipped_filing_other": 0,
+      "skipped_news_other": 0
+    },
+    "rows": [
+      {
+        "event_id": "news:2026-01-20:603225:b895df88c5b9",
+        "event_type": "ma",
+        "event_subtype": "ma.acquisition",
+        "title": "早新闻 | 603225重要收购",
+        "summary": "公司新闻 新凤鸣（603225）：拟购买独山港口发展35%股权 C至信：基于焊接机器人的自动化控制系统芯片已取得集成电路布图设计权 敏芯股份：公司研发的冷媒压力传感器的下游应用不属于液冷领域 国芳集团：近日出售100万股奥来德A股股份，成交金额3230.88万元",
+        "source": "news_incremental",
+        "entity_codes": [
+          "603225"
+        ],
+        "entity_names": [
+          "新凤鸣"
+        ],
+        "industry_codes": [],
+        "theme_tags": [
+          "semiconductor",
+          "robotics"
+        ],
+        "event_time": "2026-01-20T00:00:00",
+        "discover_time": "2026-01-20T07:46:47",
+        "available_at": "2026-01-20T07:46:47",
+        "severity": 0.8,
+        "surprise_score": 0.45,
+        "tradability_score": 0.7,
+        "novelty_score": 0.6,
+        "crowding_risk": 0.45,
+        "confidence": 0.7,
+        "impact_level": "high",
+        "source_type": "news",
+        "raw_payload_ref": "http://finance.eastmoney.com/a/202601203623851276.html",
+        "metadata": {
+          "legacy_type": "ma",
+          "legacy_event_date": "2026-01-20",
+          "legacy_stock_code": "603225",
+          "legacy_stock_name": "新凤鸣",
+          "ingest_date": "2026-01-20",
+          "publisher": "数据宝",
+          "matched_keywords": [
+            "收购"
+          ]
+        },
+        "created_at": "2026-03-20T10:26:00.528171+00:00",
+        "updated_at": "2026-03-20T10:26:00.528175+00:00"
+      }
+    ]
+  }
+}

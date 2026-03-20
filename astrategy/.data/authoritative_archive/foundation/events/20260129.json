@@ -1,0 +1,287 @@
+{
+  "component": "events",
+  "as_of_date": "2026-01-29",
+  "universe_id": "csi800",
+  "quality_status": "derived_from_local_foundation",
+  "authoritative": false,
+  "run_context": "historical_backfill",
+  "generated_at": "2026-03-20T10:26:01Z",
+  "source_paths": [
+    ".data/authoritative_archive/foundation/filings/20260129.json",
+    ".data/authoritative_archive/foundation/news/20260129.json",
+    ".data/authoritative_archive/foundation/sentiment/20260129.json"
+  ],
+  "payload": {
+    "summary": {
+      "ingest_date": "2026-01-29",
+      "snapshot_mode": "historical_replay",
+      "history_quality": "derived_from_local_foundation",
+      "incremental_event_count": 6,
+      "event_master_count": 20,
+      "created_event_count": 5,
+      "filing_event_count": 0,
+      "news_event_count": 5,
+      "sentiment_event_count": 0,
+      "skipped_filing_other": 0,
+      "skipped_news_other": 2
+    },
+    "rows": [
+      {
+        "event_id": "news:2026-01-29:002064:833287819bde",
+        "event_type": "share_reduction",
+        "event_subtype": "share_reduction.disposal",
+        "title": "华峰化学：股东拟合计减持不超0.73%公司股份",
+        "summary": "每经AI快讯，华峰化学0020641月29日公告，股东尤金焕、陈林真、尤小玲、尤小燕拟15个交易日后的3个月内，以集中竞价、大宗交易方式减持公司股份合计不超过3619.01万股(占公司总股本的0.73%)。",
+        "source": "news_incremental",
+        "entity_codes": [
+          "002064"
+        ],
+        "entity_names": [
+          "华峰化学"
+        ],
+        "industry_codes": [],
+        "theme_tags": [
+          "ai"
+        ],
+        "event_time": "2026-01-29T00:00:00",
+        "discover_time": "2026-01-29T20:32:27",
+        "available_at": "2026-01-29T20:32:27",
+        "severity": 0.8,
+        "surprise_score": 0.45,
+        "tradability_score": 0.7,
+        "novelty_score": 0.6,
+        "crowding_risk": 0.45,
+        "confidence": 0.7,
+        "impact_level": "high",
+        "source_type": "news",
+        "raw_payload_ref": "http://finance.eastmoney.com/a/202601293635530780.html",
+        "metadata": {
+          "legacy_type": "share_reduction",
+          "legacy_event_date": "2026-01-29",
+          "legacy_stock_code": "002064",
+          "legacy_stock_name": "华峰化学",
+          "ingest_date": "2026-01-29",
+          "publisher": "每日经济新闻",
+          "matched_keywords": [
+            "减持"
+          ]
+        },
+        "created_at": "2026-03-20T10:26:01.541728+00:00",
+        "updated_at": "2026-03-20T10:26:01.541731+00:00"
+      },
+      {
+        "event_id": "news:2026-01-29:002064:833287819bde",
+        "event_type": "share_reduction",
+        "event_subtype": "share_reduction.disposal",
+        "title": "华峰化学：股东拟合计减持不超0.73%公司股份",
+        "summary": "人民财讯1月29日电，华峰化学0020641月29日公告，股东尤金焕、陈林真、尤小玲、尤小燕拟15个交易日后的3个月内，以集中竞价、大宗交易方式减持公司股份合计不超过3619.01万股(占公司总股本的0.73%)。",
+        "source": "news_incremental",
+        "entity_codes": [
+          "002064"
+        ],
+        "entity_names": [
+          "华峰化学"
+        ],
+        "industry_codes": [],
+        "theme_tags": [],
+        "event_time": "2026-01-29T00:00:00",
+        "discover_time": "2026-01-29T20:24:59",
+        "available_at": "2026-01-29T20:24:59",
+        "severity": 0.8,
+        "surprise_score": 0.45,
+        "tradability_score": 0.7,
+        "novelty_score": 0.6,
+        "crowding_risk": 0.45,
+        "confidence": 0.7,
+        "impact_level": "high",
+        "source_type": "news",
+        "raw_payload_ref": "http://finance.eastmoney.com/a/202601293635524821.html",
+        "metadata": {
+          "legacy_type": "share_reduction",
+          "legacy_event_date": "2026-01-29",
+          "legacy_stock_code": "002064",
+          "legacy_stock_name": "华峰化学",
+          "ingest_date": "2026-01-29",
+          "publisher": "人民财讯",
+          "matched_keywords": [
+            "减持"
+          ]
+        },
+        "created_at": "2026-03-20T10:26:01.541884+00:00",
+        "updated_at": "2026-03-20T10:26:01.541885+00:00"
+      },
+      {
+        "event_id": "news:2026-01-29:002230:446eb99a1db8",
+        "event_type": "sentiment_reversal",
+        "event_subtype": "sentiment_reversal.hot_topic",
+        "title": "业绩预喜！002230 直线涨停",
+        "summary": "AI应用概念股集体走强，科大讯飞（002230）直线涨停。房地产板块同样表现活跃，我爱我家等多股涨停。 AI应用再爆发 科大讯飞业绩预喜后股价涨停 AI应用概念29日盘中再度爆发，截至午间休市，因赛集团以20%幅度涨停，蓝色光标、值得买等涨超10%，科大讯飞等亦涨停。",
+        "source": "news_incremental",
+        "entity_codes": [
+          "002230"
+        ],
+        "entity_names": [
+          "科大讯飞"
+        ],
+        "industry_codes": [],
+        "theme_tags": [
+          "ai"
+        ],
+        "event_time": "2026-01-29T00:00:00",
+        "discover_time": "2026-01-29T12:52:38",
+        "available_at": "2026-01-29T12:52:38",
+        "severity": 0.55,
+        "surprise_score": 0.45,
+        "tradability_score": 0.7,
+        "novelty_score": 0.6,
+        "crowding_risk": 0.35,
+        "confidence": 0.55,
+        "impact_level": "medium",
+        "source_type": "news",
+        "raw_payload_ref": "http://finance.eastmoney.com/a/202601293635013534.html",
+        "metadata": {
+          "legacy_type": "sentiment_reversal",
+          "legacy_event_date": "2026-01-29",
+          "legacy_stock_code": "002230",
+          "legacy_stock_name": "科大讯飞",
+          "ingest_date": "2026-01-29",
+          "publisher": "上海证券报",
+          "matched_keywords": [
+            "市场热度"
+          ]
+        },
+        "created_at": "2026-03-20T10:26:01.542047+00:00",
+        "updated_at": "2026-03-20T10:26:01.542048+00:00"
+      },
+      {
+        "event_id": "news:2026-01-29:300347:3a81e2187461",
+        "event_type": "earnings_surprise",
+        "event_subtype": "earnings_surprise.guidance",
+        "title": "泰格医药2025年净利同比预增105%至204%",
+        "summary": "北京商报讯1月29日晚间，泰格医药（300347）发布2025年业绩预告显示，预计2025年实现归属净利润为8.3亿元至12.3亿元，比上年同期增长105%–204%。",
+        "source": "news_incremental",
+        "entity_codes": [
+          "300347"
+        ],
+        "entity_names": [
+          "泰格医药"
+        ],
+        "industry_codes": [],
+        "theme_tags": [
+          "medicine"
+        ],
+        "event_time": "2026-01-29T00:00:00",
+        "discover_time": "2026-01-29T18:37:19",
+        "available_at": "2026-01-29T18:37:19",
+        "severity": 0.8,
+        "surprise_score": 0.75,
+        "tradability_score": 0.7,
+        "novelty_score": 0.6,
+        "crowding_risk": 0.45,
+        "confidence": 0.7,
+        "impact_level": "high",
+        "source_type": "news",
+        "raw_payload_ref": "http://finance.eastmoney.com/a/202601293635432440.html",
+        "metadata": {
+          "legacy_type": "earnings_surprise",
+          "legacy_event_date": "2026-01-29",
+          "legacy_stock_code": "300347",
+          "legacy_stock_name": "泰格医药",
+          "ingest_date": "2026-01-29",
+          "publisher": "北京商报",
+          "matched_keywords": [
+            "业绩预告"
+          ]
+        },
+        "created_at": "2026-03-20T10:26:01.542174+00:00",
+        "updated_at": "2026-03-20T10:26:01.542175+00:00"
+      },
+      {
+        "event_id": "news:2026-01-29:300347:ff2dea27edae",
+        "event_type": "earnings_surprise",
+        "event_subtype": "earnings_surprise.report",
+        "title": "泰格医药：2025年净利同比预增105%~204%",
+        "summary": "每经AI快讯，1月29日，泰格医药300347.SZ)公告称，预计2025年归属于上市公司股东的净利润为8.30亿元~12.30亿元，比上年同期增长105%~204%。",
+        "source": "news_incremental",
+        "entity_codes": [
+          "300347"
+        ],
+        "entity_names": [
+          "泰格医药"
+        ],
+        "industry_codes": [],
+        "theme_tags": [
+          "ai",
+          "medicine"
+        ],
+        "event_time": "2026-01-29T00:00:00",
+        "discover_time": "2026-01-29T16:54:43",
+        "available_at": "2026-01-29T16:54:43",
+        "severity": 0.8,
+        "surprise_score": 0.75,
+        "tradability_score": 0.7,
+        "novelty_score": 0.6,
+        "crowding_risk": 0.45,
+        "confidence": 0.7,
+        "impact_level": "high",
+        "source_type": "news",
+        "raw_payload_ref": "http://finance.eastmoney.com/a/202601293635289384.html",
+        "metadata": {
+          "legacy_type": "earnings_surprise",
+          "legacy_event_date": "2026-01-29",
+          "legacy_stock_code": "300347",
+          "legacy_stock_name": "泰格医药",
+          "ingest_date": "2026-01-29",
+          "publisher": "每日经济新闻",
+          "matched_keywords": [
+            "净利润"
+          ]
+        },
+        "created_at": "2026-03-20T10:26:01.542303+00:00",
+        "updated_at": "2026-03-20T10:26:01.542304+00:00"
+      },
+      {
+        "event_id": "news:2026-01-29:600499:793f456bba6c",
+        "event_type": "ma",
+        "event_subtype": "ma.restructuring",
+        "title": "拟重大资产重组！600499，复牌涨停",
+        "summary": "科达制造（600499）复牌后强势涨停。 科达制造拟通过发行股份及支付现金的方式购买特福国际51.55%股权，发行价格为10.80元，同时拟向不超过35名特定投资者发行股份募集配套资金。本次交易预计构成重大资产重组。",
+        "source": "news_incremental",
+        "entity_codes": [
+          "600499"
+        ],
+        "entity_names": [
+          "科达制造"
+        ],
+        "industry_codes": [],
+        "theme_tags": [],
+        "event_time": "2026-01-29T00:00:00",
+        "discover_time": "2026-01-29T10:43:27",
+        "available_at": "2026-01-29T10:43:27",
+        "severity": 0.8,
+        "surprise_score": 0.45,
+        "tradability_score": 0.7,
+        "novelty_score": 0.6,
+        "crowding_risk": 0.45,
+        "confidence": 0.7,
+        "impact_level": "high",
+        "source_type": "news",
+        "raw_payload_ref": "http://finance.eastmoney.com/a/202601293634964834.html",
+        "metadata": {
+          "legacy_type": "ma",
+          "legacy_event_date": "2026-01-29",
+          "legacy_stock_code": "600499",
+          "legacy_stock_name": "科达制造",
+          "ingest_date": "2026-01-29",
+          "publisher": "数据宝",
+          "matched_keywords": [
+            "重组",
+            "重大资产重组"
+          ]
+        },
+        "created_at": "2026-03-20T10:26:01.542441+00:00",
+        "updated_at": "2026-03-20T10:26:01.542442+00:00"
+      }
+    ]
+  }
+}
